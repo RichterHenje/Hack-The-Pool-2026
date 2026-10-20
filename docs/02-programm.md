@@ -12,7 +12,7 @@ Eine Uhr, zwei Tage. Die Zeiten sind der Rahmen — gearbeitet wird dazwischen.
 | **11:00** | Arbeitsphase | ↓ |
 | **13:00** | Mittagessen | Mittagessen |
 | **14:00** | Arbeitsphase | **Projekt-Slam** |
-| **15:00** | ↓ | Feedback-Runde / Jury Sitzung |
+| **15:00** | ↓ | Feedback-Runde / Jurysitzung |
 | **15:45** | ↓ | Preisverleihung |
 | **ca. 16:30** | ↓ | Ende |
 | **17:00** | Check-in | |
