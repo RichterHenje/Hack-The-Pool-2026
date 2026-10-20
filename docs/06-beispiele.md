@@ -6,7 +6,7 @@ Notebooks, Snippets, Prototypen, Sackgassen mit Lerneffekt. Was hier landet, spa
 
 ## 2025
 
-[Hack The Pool 2025](https://github.com/kulturpool/Hack-The-Pool-2025) — Beispiele und Projekte der letzten Ausgabe. Die APIs haben sich seither weiterentwickelt, das Meiste lässt sich trotzdem übertragen.
+[Hack the Pool 2025](https://github.com/kulturpool/Hack-The-Pool-2025) — Beispiele und Projekte der letzten Ausgabe. Die APIs haben sich seither weiterentwickelt, das Meiste lässt sich trotzdem übertragen.
 
 | Beispiel | Was es zeigt |
 |---|---|

@@ -1,4 +1,4 @@
-# Hack The Pool 2026
+# Hack the Pool 2026
 
 **27.–28. Oktober 2026 · Österreichische Akademie der Wissenschaften, Wien**
 
@@ -27,4 +27,4 @@ Queries und Beispiele wachsen hier gemeinsam. Neues kommt per Pull Request in [0
 
 ## Vorjahr
 
-[Hack The Pool 2025](https://github.com/kulturpool/Hack-The-Pool-2025) — Beispiele und Projekte der letzten Ausgabe.
+[Hack the Pool 2025](https://github.com/kulturpool/Hack-The-Pool-2025) — Beispiele und Projekte der letzten Ausgabe.
