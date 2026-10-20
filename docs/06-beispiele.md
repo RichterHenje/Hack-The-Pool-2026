@@ -23,9 +23,9 @@ Erste Beispiele des Kulturpool-Teams dienen als Inspiration und Anhaltspunkt zur
 
 | Beispiel | Was es zeigt |
 |---|---|
-| [Closest Object Game](https://kulturpool.github.io/Hack-The-Pool-2026/examples/closest_object) | Ähnlichkeit von Objekten als Ratespiel |
-| [Similarity Chain Game](https://kulturpool.github.io/Hack-The-Pool-2026/examples/similarity_chain) | Verbindungen von Objekten über Ähnlichkeit |
-| [Similarity Memory Game](https://kulturpool.github.io/Hack-The-Pool-2026/examples/similarity_memory) | Paarweise Ähnlichkeit von Objekten |
+| [Closest Object Game](https://kulturpool.github.io/Hack-the-Pool-2026/examples/closest_object) | Ähnlichkeit von Objekten als Ratespiel |
+| [Similarity Chain Game](https://kulturpool.github.io/Hack-the-Pool-2026/examples/similarity_chain) | Verbindungen von Objekten über Ähnlichkeit |
+| [Similarity Memory Game](https://kulturpool.github.io/Hack-the-Pool-2026/examples/similarity_memory) | Paarweise Ähnlichkeit von Objekten |
 | [Vector Search](https://vector.kulturpool.ai) | Referenzimplementierung der Vektorsuche: Text, Bild, ähnliche Objekte ([Code](https://github.com/kulturpool/vector-search)) |
 
 ## Projekte

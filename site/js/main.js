@@ -61,7 +61,7 @@
     if (regMode !== "closed") {
       regMode = "closed";
       if (regText) regText.innerHTML = over ? "Das war Hack the Pool 2026. <strong>Danke an alle Teams.</strong>" : "Anmeldung geschlossen. <strong>Wir sehen uns am 27. Oktober.</strong>";
-      if (regCta) { regCta.textContent = over ? "Ergebnisse auf GitHub" : "Infos zum Event"; regCta.href = over ? "https://github.com/kulturpool/Hack-The-Pool-2026" : INFO_URL; }
+      if (regCta) { regCta.textContent = over ? "Ergebnisse auf GitHub" : "Infos zum Event"; regCta.href = over ? "https://github.com/kulturpool/Hack-the-Pool-2026" : INFO_URL; }
       if (heroCta) { heroCta.textContent = "Programm"; heroCta.href = "#programm"; }
       if (hudCta) { hudCta.textContent = "Programm"; hudCta.href = "#programm"; }
     }
