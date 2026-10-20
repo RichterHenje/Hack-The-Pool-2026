@@ -35,7 +35,7 @@
   function now() { return new Date(Date.now() + offset); }
   var DEADLINE = new Date("2026-10-06T23:59:59+02:00");
   var EVENT_START = new Date("2026-10-27T09:00:00+01:00");
-  var EVENT_END = new Date("2026-10-28T16:00:00+01:00");
+  var EVENT_END = new Date("2026-10-28T16:30:00+01:00");
   var DAY2 = new Date("2026-10-28T00:00:00+01:00");
   var INFO_URL = "https://info.kulturpool.at/hack-the-pool-2026/";
   var pad = function (n) { return String(n).padStart(2, "0"); };
