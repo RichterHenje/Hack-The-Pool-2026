@@ -8,6 +8,9 @@ Sammelstelle für alles Abfragbare: SPARQL, API-Calls, Filterausdrücke, Tricks.
 
 Endpunkt `https://sparql.kulturpool.at/query`, User Interface unter [sparql.kulturpool.at](https://sparql.kulturpool.at/).
 
+> [!TIP]
+> Eine annotierte, interaktive Version der folgenden Queries gibt es auf [✨ SPARQL in the Dark ✨](https://acdh-oeaw.github.io/sparql-in-the-dark-kulturpool/).
+
 ### Nützliche Präfixe
 
 ```
