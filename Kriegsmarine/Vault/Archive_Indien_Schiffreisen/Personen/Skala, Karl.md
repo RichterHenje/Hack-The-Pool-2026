@@ -6,9 +6,9 @@
 - GND oder VIAF (Identifier)
 - Lexikonbeitrag
 - Schiff: [[Kaiserin Elisabeth, Kreuzer]]
-	- Rolle: Linienschiff Leutnant (seit 28. Februar 1994)
-	- Rolle: Corvette Kapitän (seit 20. Februar 1994)
-	- Rolle: Corvette Kapitän (seit 2. April 1995)
+	- Rolle: Linienschiff Leutnant (seit 28. Februar 1894)
+	- Rolle: Corvette Kapitän (seit 20. Februar 1894)
+	- Rolle: Corvette Kapitän (seit 2. April 1895)
 - Ortschaft (Link)
 - Länderbezug (Tag)
 - Archivalien mit Signatur

@@ -21,6 +21,6 @@ Instruktionsreise unter Linienschiffskapitän Karl Edler von Adamovich
 
 - Objekte in der Onlinesammlung: 14, davon Südasien: 11
   https://www.weltmuseumwien.at/objekte/suche?fq%5Bfacet_thesaurus2%5D=Subkontinent&q=%22Fasana%22&query=%22Fasana%22&cHash=da9ae79809d2a3553b7ddf9f5cc56edb
-- [[Kukic, Dr. Alexander]]
+- [[Kukic, Alexander|Kukic, Dr. Alexander]]
 - [[Lanjus von Wellenberg, Karl Franz Graf]]
 - Link zum Staatsarchiv: Schiffs- und Navigationstagebücher https://www.archivinformationssystem.at/detail.aspx?ID=1043695

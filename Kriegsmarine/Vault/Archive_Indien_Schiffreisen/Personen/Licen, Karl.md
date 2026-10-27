@@ -5,7 +5,7 @@
 - GND oder VIAF (Identifier)
 - Lexikonbeitrag
 - Schiff: [[Kaiserin Elisabeth, Kreuzer]]
-	- Rolle: Marine Commissariat Adjunct 2. Klasse (seit 21. Jänner 1994)
+	- Rolle: Marine Commissariat Adjunct 2. Klasse (seit 21. Jänner 1894)
 - Ortschaft (Link):
 - Länderbezug (Tag)
 - Archivalien mit Signatur

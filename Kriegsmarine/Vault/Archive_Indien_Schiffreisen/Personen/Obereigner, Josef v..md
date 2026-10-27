@@ -5,7 +5,7 @@
 - GND oder VIAF (Identifier)
 - Lexikonbeitrag
 - Schiff: [[Kaiserin Elisabeth, Kreuzer]]
-	- Rolle: Maschinenbau und Betriebs. - Ing. 3. Classe (seit 14. Jänner 1999)
+	- Rolle: Maschinenbau und Betriebs. - Ing. 3. Classe (seit 14. Jänner 1899)
 - Ortschaft (Link):
 - Länderbezug (Tag)
 - Archivalien mit Signatur

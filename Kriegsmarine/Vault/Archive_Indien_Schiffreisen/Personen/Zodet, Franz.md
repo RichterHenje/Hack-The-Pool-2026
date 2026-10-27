@@ -5,7 +5,7 @@
 - GND oder VIAF (Identifier)
 - Lexikonbeitrag
 - Schiff: [[Kaiserin Elisabeth, Kreuzer]]
-	- Rolle: Maschinenleiter 1. Classe (seit 24. April 1998)
+	- Rolle: Maschinenleiter 1. Classe (seit 24. April 1898)
 - Ortschaft (Link):
 - Länderbezug (Tag)
 - Archivalien mit Signatur
