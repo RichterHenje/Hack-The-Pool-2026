@@ -4,25 +4,33 @@ Eingang ist das Team-Material in `../Vault/` und `../Sources/`; beides wird nur 
 JSON-Dateien in `json/`, auf denen die Anreicherung (`../enrichment/`) aufsetzt.
 
 ```bash
-python3 filter_voyage.py   # Vault  -> json/weltreise, ortschaften, personen, schiffe, sammlungen_projekte
-python3 diary_days.py      # Tagebuch (OCR) -> json/tagebuch_tage.json
-python3 people_voyage.py   # alle Personen der Reise -> json/personen_reise.json (nach filter_voyage.py)
+python3 filter_voyage_ff.py  # Vault -> json/weltreise, ortschaften, personen, schiffe, sammlungen_projekte (maßgeblich)
+python3 diary_days.py        # Tagebuch (OCR) -> json/tagebuch_tage.json
+python3 people_voyage.py     # alle Personen der Reise -> json/personen_reise.json (nach filter_voyage_ff.py)
+python3 animal_pictures.py   # Bilder mit Tieren aus json/bilder.json -> json/bilder_tiere.json
 ```
 
-Nur Python-Standardbibliothek. `diary_days.py` lädt beim ersten Lauf die Tagesliste von
-franzferdinandsworld.com in `.cache/` (nicht im Repo).
+Nur Python-Standardbibliothek, außer `animal_pictures.py --classify` (Bild-KI, siehe `requirements.txt`).
+`diary_days.py` lädt beim ersten Lauf die Tagesliste von franzferdinandsworld.com in `.cache/` (nicht im Repo).
 
-## `filter_voyage.py` (Lisa Gollner)
+## `filter_voyage_ff.py` (Lisa Gollner) – maßgebliche Auswahl
 
 Filtert aus dem Vault alle Einträge zur Weltreise auf der „Kaiserin Elisabeth“ und schreibt sie in der
 Struktur der `0_Muster_*`-Vorlagen; fehlende Werte sind `"NA"`, `_meta` enthält Datei, Vault-`id`
-(aus den YAML-Eigenschaften) und den Auswahlgrund. Auswahlkriterien stehen im Kopf des Skripts.
+(aus den YAML-Eigenschaften) und den Auswahlgrund. Code und Objektstruktur kommen aus
+`filter_voyage.py` (Basis-Modul; direkt aufgerufen schreibt es die ältere Personenauswahl in dieselben
+Dateien). Die früheren `*_final.json` heißen seit 27.10.2026 `*.json`; die älteren Fassungen sind in der
+Git-Historie.
 
-| Datei | Inhalt |
+Personen werden aufgenommen, wenn im Feld „Auszeichnung“ die Seereise-Denkmünze steht oder die Notiz den
+Kreuzer „Kaiserin Elisabeth“ verlinkt und an diesem Link kein Jahr oder nur Jahre der Reise (1892/93) stehen.
+Die Nennung im Weltreise-Eintrag allein genügt nicht (Oscar Henschel fällt daher heraus).
+
+| Datei | Inhalt (Stand: bereinigter Vault, 27.10.2026) |
 | --- | --- |
 | `weltreise.json` | die Reise: Beschreibung, Schiff, Besatzung laut Eintrag, Route (Ortsnotizen in Reihenfolge) |
 | `ortschaften.json` | 49 Ortsnotizen der Route mit Position(en) auf der Route |
-| `personen.json` | 58 Personen (Seereise-Denkmünze, im Weltreise-Eintrag genannt oder „Kaiserin Elisabeth“ ohne Datum verlinkt – im Feld Schiff oder sonst in der Notiz; datierte Einträge stammen aus Ranglisten nach der Reise) |
+| `personen.json` | 80 Personen (Auswahl wie oben) |
 | `schiffe.json`, `sammlungen_projekte.json` | das Schiff (nur diese Reise), verlinkte Sammlungen |
 
 ## `diary_days.py`: das Tagebuch nach Tagen
@@ -48,20 +56,25 @@ Eintrag umfasst oft mehrere Tage.
 
 ## `people_voyage.py`: alle Personen der Reise
 
-`filter_voyage.py` wählt Personen über die Seereise-Denkmünze bzw. die Besatzung im Weltreise-Eintrag
-und undatierte Links auf das Schiff (58). `people_voyage.py` ergänzt – mit Code und Objektstruktur aus `filter_voyage.py`, das unverändert
-bleibt – zu 73 Personen:
+Ergänzt `json/personen.json` (80) – mit Code und Objektstruktur aus `filter_voyage.py` – zu 84 Personen
+und teilt sie in Gruppen (`_reise.gruppe`):
 
-- **Besatzung laut Rangliste**: alle Einträge der Ranglisten 15.11.1892–1.9.1893
-  (`../Sources/Ranglisten/kaiserin_elisabeth_ranglisten.csv`), zugeordnet zur Vault-Notiz (Nachname +
-  erster Vorname, Titel und Partikel ignoriert); Dienstgrade stehen unter `_reise.ranglisten`.
-- **Begleitung, Wissenschaft, Gastgeber** laut Tagebuch (kuratierte Liste im Skript): Clam-Martinic,
-  Wurmbrand-Stuppach, Kinsky, Prónay; Lorenz von Liburnau; Havelock, Pirie, Stockinger, Imhof.
-- **ohne Vault-Notiz**: Tierwärter Biaggio, Jagdbegleiter Bedford (Neuguinea).
+- **Besatzung** (55): nur mit Beleg – Seereise-Denkmünze, Eintrag in den Ranglisten 15.11.1892–1.9.1893
+  (`../Sources/Ranglisten/kaiserin_elisabeth_ranglisten.csv`, Dienstgrade unter `_reise.ranglisten`) oder
+  Schiffs-Link mit Reisejahr. Ranglisten-Namen werden der Vault-Notiz zugeordnet (Nachname + erster Vorname,
+  Titel und Partikel ignoriert).
+- **Begleitung, Wissenschaft, Gastgeber, Diener** laut Tagebuch (kuratierte Liste im Skript): Clam-Martinic,
+  Wurmbrand-Stuppach, Kinsky, Prónay; Lorenz von Liburnau, Eduard Hodek jun.; Havelock, Pirie, Stockinger,
+  Imhof; Blasius Paskoevič (Diener).
+- **Kontakt** (17): übrige Personen aus `personen.json` ohne Besatzungs-Beleg, z. B. der Nizam von Hyderabad,
+  Maharadschas, Lala Deen Dayal.
+- **ohne Vault-Notiz**: Jagdbegleiter Bedford (Neuguinea).
 
-Nichts wird zusammengeführt. `_reise.vermutlich_dieselbe_wie` markiert Ranglisten-Namen, die einer
-Notiz unter anderer Schreibweise zugeordnet wurden; `_reise.moegliche_dublette` markiert Notizen mit
-fast gleichem Namen (Hermann/Herrmann, Hugo; Podhorsky/Podhorszky).
+Nichts wird zusammengeführt. `_reise.vermutlich_dieselbe_wie` markiert Namen, die einer Notiz unter anderer
+Schreibweise zugeordnet wurden (Sanchez de la Cerda; Podhorsky → Podhorszky; Erzherzog Leopold Ferdinand) –
+und den Tierwärter **„Biaggio“** des Tagebuchs bei **„Paskoevič, Blasius“** (Diener an Bord; Biaggio = Blasius;
+1894 nennt die Presse „Biaggio Paste…vich, eines Ragusaners“). `_reise.moegliche_dublette` markiert Notizen mit
+fast gleichem Namen (Hermann/Herrmann, Hugo).
 
 ## `bilder.json`: Fotos der Weltreise im Weltmuseum Wien
 
@@ -78,6 +91,8 @@ Eduard Hodek jun. Enthalten sind nur die **408 Bilder, die auf weltmuseumwien.at
 - `Geografie` / `Geografie-Pfad`: die geografische Zuordnung des Museums (Thesaurus „MVK Geografie“, wie auf
   der Objektseite), z. B. „Kalawewa“ / „Südasien > Subkontinent > Sri Lanka > Kalawewa“. 405 der 408
   Bilder haben eine; die Genauigkeit schwankt zwischen Ort und Land.
+- `bilder_tiere.json` (`animal_pictures.py`, Lisa Gollner): die 178 Bilder mit Tieren, reduziert auf die
+  relevanten Felder, mit `depicted_animals` aus der Bildbeschreibung; optional Bild-KI (CLIP).
 - **`Ortschaft (Route)` ist ein Vorschlag aus String-Abgleich** mit `ortschaften.json` (236 Bilder):
   gleicher Name, ganze Wörter des Routennamens („Hyderabad“ → „Nizamate of Hyderabad“), „heut. …“-Namen
   aus der Notiz („Mumbai“ → „Bombay“), sehr ähnliche Schreibung („Noumea“ → „Nouméa“) und vier feste

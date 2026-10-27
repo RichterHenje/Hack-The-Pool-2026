@@ -42,12 +42,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Begleitung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "rolle": "Kämmerer, Reisebegleiter"
     }
   },
@@ -84,12 +84,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Begleitung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "rolle": "Reisebegleiter"
     }
   },
@@ -126,12 +126,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Begleitung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "rolle": "Oberlieutenant, Reisebegleiter"
     }
   },
@@ -170,59 +170,13 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Begleitung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "rolle": "Generalmajor, Reisebegleiter"
-    }
-  },
-  {
-    "Nachname, Vorname": "Ahrlé, Frederick",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "Fotograf",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": [
-      "#Nordwest-Indien",
-      "Nordwest-Indien"
-    ],
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": [
-      "Rolle: Fotograf"
-    ],
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Ahrlé, Frederick.md",
-      "id": "ke-person-234628b512",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
     }
   },
   {
@@ -273,13 +227,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Im Weltreise-Eintrag genannt",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Becker, Alois Ritt. v.",
@@ -353,12 +306,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Bourguignon v. Baumberg, Arthur Freih.",
@@ -390,47 +343,6 @@
           ]
         }
       ]
-    }
-  },
-  {
-    "Nachname, Vorname": "Braganza, Marie Therese von",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Braganza, Marie Therese von.md",
-      "id": "ke-person-ba29d62989",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
     }
   },
   {
@@ -471,12 +383,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Bugel, Edmund",
@@ -508,49 +420,6 @@
           ]
         }
       ]
-    }
-  },
-  {
-    "Nachname, Vorname": "Bussatto, Luigi",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "Hofkoch",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": [
-          "Hofkoch"
-        ]
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Bussatto, Luigi.md",
-      "id": "ke-person-2e981c7d87",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
     }
   },
   {
@@ -592,12 +461,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Bém, Jaroslav, Dr.",
@@ -664,12 +533,39 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py",
+      "ranglisten": [
+        {
+          "ranglisten_name": "Sanchez de la Cerda, Anton",
+          "ranglisten": [
+            {
+              "ausgabe": "1892-11-15",
+              "seite": "141",
+              "dienstgrad": "Linienschiffs-Lieutenant",
+              "seit": "1892-11-19"
+            },
+            {
+              "ausgabe": "1893-02-15",
+              "seite": "140",
+              "dienstgrad": "Linienschiffs-Lieutenant",
+              "seit": "1892-12-06"
+            },
+            {
+              "ausgabe": "1893-05-15",
+              "seite": "155",
+              "dienstgrad": "Linienschiffs-Lieutenant",
+              "seit": "1892-12-06"
+            }
+          ],
+          "vorname_abweichend": true
+        }
+      ],
+      "vermutlich_dieselbe_wie": "Sanchez de la Cerda, Anton"
     }
   },
   {
@@ -713,12 +609,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -763,19 +659,19 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
-    "Nachname, Vorname": "Dayal, Lala Deen",
+    "Nachname, Vorname": "Dennig, Heinrich",
     "Titel": "NA",
     "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
+    "Beruf/Funktionen": "L. Sch. L.",
     "Auszeichnung": "NA",
     "GND": "NA",
     "VIAF": "NA",
@@ -783,7 +679,9 @@
     "Schiff": [
       {
         "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
+        "rollen": [
+          "L. Sch. L. (seit 18. Jänner 1892)"
+        ]
       }
     ],
     "Ortschaft": "NA",
@@ -791,29 +689,27 @@
     "Archivalien mit Signatur": "NA",
     "Goobi-Link zu den Archivalien": "NA",
     "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": [
-      "Nizam von Hyderabad"
-    ],
+    "Links zu Bezugspersonen": "NA",
     "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": [
-      "Nizam von Hyderabad- Official Court Fotografer"
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-02-15__pages130-130.pdf (S. 129)"
     ],
+    "Freitext": "NA",
     "Rolle auf der Weltreise": "NA",
     "_meta": {
-      "datei": "Personen/Dayal, Lala Deen.md",
-      "id": "ke-person-4677224d2f",
+      "datei": "Personen/Dennig, Heinrich.md",
+      "id": "ke-person-d0d0d89589",
       "typ": "person",
-      "created_by": "human",
+      "created_by": "ai-assisted",
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -868,7 +764,7 @@
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Eyb, Paul",
@@ -900,50 +796,6 @@
           ]
         }
       ]
-    }
-  },
-  {
-    "Nachname, Vorname": "Friedrich Kirchner",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": [
-      "Unteroffizier der Kaiserin Elisabeth, Kreuzer",
-      "Autor eines veröffentlichten Tagebuchs"
-    ],
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Friedrich Kirchner.md",
-      "id": "ke-person-f7ce9cadad",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
     }
   },
   {
@@ -984,12 +836,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Gamisch, Anton",
@@ -1063,12 +915,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -1111,12 +963,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Gratzl, August",
@@ -1188,12 +1040,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Gründorf v. Zebegényi, Johann",
@@ -1269,12 +1121,12 @@
       ],
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "moegliche_dublette": [
         "Herrmann, Hugo"
       ]
@@ -1362,91 +1214,6 @@
     }
   },
   {
-    "Nachname, Vorname": "Hodek, Eduard",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": [
-      "Fotograf"
-    ],
-    "_meta": {
-      "datei": "Personen/Hodek, Eduard.md",
-      "id": "ke-person-a4b84c682b",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Im Weltreise-Eintrag genannt",
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Janaczek, Franz",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Janaczek, Franz.md",
-      "id": "ke-person-7dda95b2da",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
     "Nachname, Vorname": "Jeitler, Franz",
     "Titel": "NA",
     "Lebensdaten": "NA",
@@ -1485,94 +1252,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Kammermaier, Josef",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Kammermaier, Josef.md",
-      "id": "ke-person-7354864781",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Kerr, Charles",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Kerr, Charles.md",
-      "id": "ke-person-a718563324",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -1620,7 +1305,7 @@
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -1665,12 +1350,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -1713,12 +1398,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Kuralt, Johann",
@@ -1784,53 +1469,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Libra, Ludwig",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Libra, Ludwig.md",
-      "id": "ke-person-a10a924567",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -1871,145 +1515,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Maharaja Jai Singh, Rajput Alwar",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": [
-      "Alwar, Rajputana (Indien)"
-    ],
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": [
-      "**Hon Colonel. HH Raj Rajeshwar Bharat Dharma Prabhakar Maharaja Shri Sawai Sir Jai Singhji Veerendra Shiromani Dev Bahadur**",
-      "**Jai Singh Prabhakar**, (14 June 1882 – 19 May 1937),",
-      "Alwar, Rajputana (Indien)["
-    ],
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Maharaja Jai Singh, Rajput Alwar.md",
-      "id": "ke-person-25f65fbf86",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Maharaja Sir Pratap Singh",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": [
-      "Jodhpur, Rajasthan, Indien"
-    ],
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": [
-      "Lieutenant General, Maharajadhiraja, (22 Oktober 1845 – 4 September 1922)"
-    ],
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Maharaja Sir Pratap Singh.md",
-      "id": "ke-person-d0e50b69f2",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Mahmud",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Mahmud.md",
-      "id": "ke-person-7f12fce307",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -2051,12 +1562,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Mallinarich v. Silbergrund, Eugen",
@@ -2130,12 +1641,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Metzger, Otto Edl. v.",
@@ -2207,12 +1718,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Milič, Alois",
@@ -2286,12 +1797,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Modes, Lukas",
@@ -2326,10 +1837,10 @@
     }
   },
   {
-    "Nachname, Vorname": "Mr. Murray",
+    "Nachname, Vorname": "Paugger, Karl",
     "Titel": "NA",
     "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
+    "Beruf/Funktionen": "Mar. Com. Adjct. 2. Cl.",
     "Auszeichnung": "NA",
     "GND": "NA",
     "VIAF": "NA",
@@ -2337,7 +1848,9 @@
     "Schiff": [
       {
         "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
+        "rollen": [
+          "Mar. Com. Adjct. 2. Cl. (seit 18. Jänner 1892)"
+        ]
       }
     ],
     "Ortschaft": "NA",
@@ -2347,147 +1860,25 @@
     "Weitere Informationen mit Sammlungsbezug": "NA",
     "Links zu Bezugspersonen": "NA",
     "Literatur": "NA",
-    "Quellen": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-09-12__pages157-158.pdf (S. 156–157)"
+    ],
     "Freitext": "NA",
     "Rolle auf der Weltreise": "NA",
     "_meta": {
-      "datei": "Personen/Mr. Murray.md",
-      "id": "ke-person-9fcf6f81ef",
+      "datei": "Personen/Paugger, Karl.md",
+      "id": "ke-person-8ba2f9e356",
       "typ": "person",
-      "created_by": "human",
+      "created_by": "ai-assisted",
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Nizam von Hyderabad",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": [
-      "Nizamate of Hyderabad, State, (Indien)"
-    ],
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": [
-      "Mahbub Ali Kahn"
-    ],
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Nizam von Hyderabad.md",
-      "id": "ke-person-db6ad3d75c",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Oscar Henschel",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": "NA",
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": [
-      "K.u.K Steuerquartiermeister"
-    ],
-    "_meta": {
-      "datei": "Oscar Henschel.md",
-      "id": "NA",
-      "typ": "NA",
-      "created_by": "NA",
-      "checked": "NA",
-      "review": "NA",
-      "auswahlgrund": [
-        "Im Weltreise-Eintrag genannt"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Paskoevič, Blasius",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Paskoevič, Blasius.md",
-      "id": "ke-person-c0dd700a89",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -2530,12 +1921,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Perkon, Anton",
@@ -2567,6 +1958,51 @@
           ]
         }
       ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Peternel, Ernst",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Seecad.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "Seecad. (Rangliste 1892, ohne Datum)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-09-12__pages157-158.pdf (S. 156–157)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Peternel, Ernst.md",
+      "id": "ke-person-6561c1fed7",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Besatzung",
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -2610,12 +2046,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Rangliste 1892/93: an Bord der Kaiserin Elisabeth"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "Rangliste",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Pietzuk, Karl",
@@ -2691,12 +2127,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Rangliste 1892/93: an Bord der Kaiserin Elisabeth"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "Rangliste",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Pleyer, Richard",
@@ -2728,47 +2164,6 @@
           ]
         }
       ]
-    }
-  },
-  {
-    "Nachname, Vorname": "Plowden, Trevor C.",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Plowden, Trevor C..md",
-      "id": "ke-person-c69c726069",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
     }
   },
   {
@@ -2811,12 +2206,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Plumert, Arthur, Dr.",
@@ -2895,12 +2290,13 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Auszeichnung: Seereise-Denkmünze 1892/1893"
+        "Auszeichnung: Seereise-Denkmünze 1892/1893",
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Podhorsky, Ludwig",
@@ -2974,12 +2370,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Pozzi, Sigismund Ritt. v.",
@@ -3052,12 +2448,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Preuschen v. u. z. Liebenstein, Ernst Freih.",
@@ -3129,98 +2525,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Rada, Raimund",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Rada, Raimund.md",
-      "id": "ke-person-ce3feee6df",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
-    }
-  },
-  {
-    "Nachname, Vorname": "Raja Sir Sourindro Mohun Tagore",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": [
-      {
-        "name": "Kaiserin Elisabeth, Kreuzer",
-        "rollen": "NA"
-      }
-    ],
-    "Ortschaft": [
-      "Calcutta (Indien)"
-    ],
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": [
-      "(1840, Pathuriaghata - 5 June 1914, Calcutta)"
-    ],
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "Personen/Raja Sir Sourindro Mohun Tagore.md",
-      "id": "ke-person-c5f4153324",
-      "typ": "person",
-      "created_by": "human",
-      "checked": false,
-      "review": "NA",
-      "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -3264,12 +2574,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Ramberg, August Freih. v.",
@@ -3344,12 +2654,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -3392,12 +2702,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Rangliste 1892/93: an Bord der Kaiserin Elisabeth"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "Rangliste",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Regner v. Bleyleben, Otto Ritt.",
@@ -3469,12 +2779,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -3516,12 +2826,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Reményi, Franz",
@@ -3588,12 +2898,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Jedina, Hermann Ritt. v.",
@@ -3625,6 +2935,51 @@
           ]
         }
       ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Ritz, Ferdinand",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Seecad.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "Seecad. (Rangliste 1892, ohne Datum)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-09-12__pages157-158.pdf (S. 156–157)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Ritz, Ferdinand.md",
+      "id": "ke-person-f20c6e8987",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Besatzung",
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -3666,12 +3021,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -3711,12 +3066,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Erzherzog Leopold Ferdinand",
@@ -3743,67 +3098,6 @@
         }
       ],
       "vermutlich_dieselbe_wie": "Erzherzog Leopold Ferdinand"
-    }
-  },
-  {
-    "Nachname, Vorname": "Sanchez de la Cerda, Anton",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": "NA",
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": "NA",
-    "_meta": {
-      "datei": "NA",
-      "id": "NA",
-      "typ": "NA",
-      "created_by": "NA",
-      "checked": "NA",
-      "review": "NA",
-      "auswahlgrund": [
-        "Rangliste 1892/93: an Bord der Kaiserin Elisabeth (ohne Vault-Notiz)"
-      ]
-    },
-    "_reise": {
-      "gruppe": "Besatzung",
-      "quelle": "Rangliste",
-      "ranglisten": [
-        {
-          "ranglisten_name": "Sanchez de la Cerda, Anton",
-          "ranglisten": [
-            {
-              "ausgabe": "1892-11-15",
-              "seite": "141",
-              "dienstgrad": "Linienschiffs-Lieutenant",
-              "seit": "1892-11-19"
-            },
-            {
-              "ausgabe": "1893-02-15",
-              "seite": "140",
-              "dienstgrad": "Linienschiffs-Lieutenant",
-              "seit": "1892-12-06"
-            },
-            {
-              "ausgabe": "1893-05-15",
-              "seite": "155",
-              "dienstgrad": "Linienschiffs-Lieutenant",
-              "seit": "1892-12-06"
-            }
-          ]
-        }
-      ]
     }
   },
   {
@@ -3844,12 +3138,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Rangliste 1892/93: an Bord der Kaiserin Elisabeth"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "Rangliste",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Schleinitz, Friedrich Freih. v.",
@@ -3926,7 +3220,7 @@
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Skala, Karl",
@@ -3998,12 +3292,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -4044,12 +3338,57 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
+    }
+  },
+  {
+    "Nachname, Vorname": "Steinhart, Ferdinand Edl. v.",
+    "Titel": "Edler von",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Seecad.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "Seecad. (Rangliste 1892, ohne Datum)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-09-12__pages157-158.pdf (S. 156–157)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Steinhart, Ferdinand Edl. v..md",
+      "id": "ke-person-d1a4cf5cff",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Besatzung",
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -4094,12 +3433,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Rangliste 1892/93: an Bord der Kaiserin Elisabeth"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "Rangliste",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Sternhardt, Maximilian",
@@ -4180,7 +3519,7 @@
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Switak, Karl",
@@ -4262,7 +3601,7 @@
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Turina, August",
@@ -4335,12 +3674,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py"
+      "quelle": "filter_voyage_ff.py"
     }
   },
   {
@@ -4381,12 +3720,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Wünschek, Alfons",
@@ -4459,12 +3798,12 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Besatzung",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "ranglisten": [
         {
           "ranglisten_name": "Zrzavecky, Josef",
@@ -4499,7 +3838,7 @@
     }
   },
   {
-    "Nachname, Vorname": "Biaggio",
+    "Nachname, Vorname": "Paskoevič, Blasius",
     "Titel": "NA",
     "Lebensdaten": "NA",
     "Beruf/Funktionen": "NA",
@@ -4507,7 +3846,12 @@
     "GND": "NA",
     "VIAF": "NA",
     "Lexikonbeitrag": "NA",
-    "Schiff": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
     "Ortschaft": "NA",
     "Länderbezug": "NA",
     "Archivalien mit Signatur": "NA",
@@ -4519,20 +3863,21 @@
     "Freitext": "NA",
     "Rolle auf der Weltreise": "NA",
     "_meta": {
-      "datei": "NA",
-      "id": "NA",
-      "typ": "NA",
-      "created_by": "NA",
-      "checked": "NA",
+      "datei": "Personen/Paskoevič, Blasius.md",
+      "id": "ke-person-c0dd700a89",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "im Tagebuch genannt: Tierwärter an Bord, aus Ragusa (Familienname in der OCR unleserlich) (ohne Vault-Notiz)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Diener",
-      "rolle": "Tierwärter an Bord, aus Ragusa (Familienname in der OCR unleserlich)",
-      "quelle": "Tagebuch"
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "Diener an Bord; vermutlich der Tierwärter „Biaggio“ des Tagebuchs (Biaggio = Blasius), 1894 Aufseher der Ausstellung („Biaggio Paste…vich, eines Ragusaners“)",
+      "vermutlich_dieselbe_wie": "Biaggio"
     }
   },
   {
@@ -4605,12 +3950,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Gastgeber",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "rolle": "Gouverneur von Ceylon"
     }
   },
@@ -4684,12 +4029,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Gastgeber",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "rolle": "Jagd in Ceylon"
     }
   },
@@ -4733,6 +4078,796 @@
     }
   },
   {
+    "Nachname, Vorname": "Ahrlé, Frederick",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Fotograf",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": [
+      "#Nordwest-Indien",
+      "Nordwest-Indien"
+    ],
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": [
+      "Rolle: Fotograf"
+    ],
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Ahrlé, Frederick.md",
+      "id": "ke-person-234628b512",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Braganza, Marie Therese von",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Braganza, Marie Therese von.md",
+      "id": "ke-person-ba29d62989",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Bussatto, Luigi",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Hofkoch",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "Hofkoch"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Bussatto, Luigi.md",
+      "id": "ke-person-2e981c7d87",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Dayal, Lala Deen",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": [
+      "Nizam von Hyderabad"
+    ],
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": [
+      "Nizam von Hyderabad- Official Court Fotografer"
+    ],
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Dayal, Lala Deen.md",
+      "id": "ke-person-4677224d2f",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Friedrich Kirchner",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": [
+      "Unteroffizier der Kaiserin Elisabeth, Kreuzer",
+      "Autor eines veröffentlichten Tagebuchs"
+    ],
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Friedrich Kirchner.md",
+      "id": "ke-person-f7ce9cadad",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Janaczek, Franz",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Janaczek, Franz.md",
+      "id": "ke-person-7dda95b2da",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Kammermaier, Josef",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Kammermaier, Josef.md",
+      "id": "ke-person-7354864781",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Kerr, Charles",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Kerr, Charles.md",
+      "id": "ke-person-a718563324",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Libra, Ludwig",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Libra, Ludwig.md",
+      "id": "ke-person-a10a924567",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Maharaja Jai Singh, Rajput Alwar",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": [
+      "Alwar, Rajputana (Indien)"
+    ],
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": [
+      "**Hon Colonel. HH Raj Rajeshwar Bharat Dharma Prabhakar Maharaja Shri Sawai Sir Jai Singhji Veerendra Shiromani Dev Bahadur**",
+      "**Jai Singh Prabhakar**, (14 June 1882 – 19 May 1937),",
+      "Alwar, Rajputana (Indien)["
+    ],
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Maharaja Jai Singh, Rajput Alwar.md",
+      "id": "ke-person-25f65fbf86",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Maharaja Sir Pratap Singh",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": [
+      "Jodhpur, Rajasthan, Indien"
+    ],
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": [
+      "Lieutenant General, Maharajadhiraja, (22 Oktober 1845 – 4 September 1922)"
+    ],
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Maharaja Sir Pratap Singh.md",
+      "id": "ke-person-d0e50b69f2",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Mahmud",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Mahmud.md",
+      "id": "ke-person-7f12fce307",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Mr. Murray",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Mr. Murray.md",
+      "id": "ke-person-9fcf6f81ef",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Nizam von Hyderabad",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": [
+      "Nizamate of Hyderabad, State, (Indien)"
+    ],
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": [
+      "Mahbub Ali Kahn"
+    ],
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Nizam von Hyderabad.md",
+      "id": "ke-person-db6ad3d75c",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Plowden, Trevor C.",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Plowden, Trevor C..md",
+      "id": "ke-person-c69c726069",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Rada, Raimund",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Rada, Raimund.md",
+      "id": "ke-person-ce3feee6df",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Raja Sir Sourindro Mohun Tagore",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": [
+      "Calcutta (Indien)"
+    ],
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": [
+      "(1840, Pathuriaghata - 5 June 1914, Calcutta)"
+    ],
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Raja Sir Sourindro Mohun Tagore.md",
+      "id": "ke-person-c5f4153324",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Kontakt",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)"
+    }
+  },
+  {
+    "Nachname, Vorname": "Hodek, Eduard",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "NA",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": "NA"
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": "NA",
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": [
+      "Fotograf"
+    ],
+    "_meta": {
+      "datei": "Personen/Hodek, Eduard.md",
+      "id": "ke-person-a4b84c682b",
+      "typ": "person",
+      "created_by": "human",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    },
+    "_reise": {
+      "gruppe": "Wissenschaft",
+      "quelle": "filter_voyage_ff.py",
+      "rolle": "Fotograf und Präparator an Bord (Eduard Hodek jun.)"
+    }
+  },
+  {
     "Nachname, Vorname": "Ritter von Liburnau, Dr. Ludwig Lorenz",
     "Titel": "NA",
     "Lebensdaten": "NA",
@@ -4765,12 +4900,12 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     },
     "_reise": {
       "gruppe": "Wissenschaft",
-      "quelle": "filter_voyage.py",
+      "quelle": "filter_voyage_ff.py",
       "rolle": "Zoologe des Naturhistorischen Hofmuseums"
     }
   }

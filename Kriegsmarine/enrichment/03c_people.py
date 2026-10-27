@@ -8,7 +8,9 @@ Per person
              sentences naming them (data/hunt_entries.json) – who was there when FF hunted
   gnd        GND from the vault if present, else lobid-gnd search; accepted only if surname and
              first name match and the record has life dates that fit 1892/93 (and the vault's, if any);
-             several fitting candidates = "ambiguous", undated namesakes = "undated"; neither is linked
+             several fitting candidates = "ambiguous", undated namesakes = "undated"; contacts (no crew
+             evidence) also need the GND profession in the vault note or matching life dates, else
+             "unconfirmed"; none of these is linked
   wikidata   from the GND record (sameAs)
   anno       newspaper issues Dec 1892 – Dec 1893 naming the person with the archduke (companions,
              hosts, scientists, officers named in the diary)
@@ -35,7 +37,7 @@ TITLE = (r"(?:Herr|Herrn|Graf|Grafen|Baron|Freiherr|Capitän|Capitäns|Lieutenan
 TITLE_ONLY = {"Reiter", "Koch", "Sommer", "Hermann"}
 # OCR / name variants in the diary
 VARIANTS = {"Prónay": r"Pr[oóö6]nay", "Liburnau": r"Lorenz|Liburnau", "Salvator": r"Leopold Ferdinand",
-            "Oscar": r"Henschel"}
+            "Oscar": r"Henschel", "Paskoevič": r"Biaggio|Paskoevi\w*"}   # Blasius Paskoevič = "Biaggio" (vermutlich)
 
 
 # vault name -> (surname, first name) as the GND has it, where the note title is arranged differently
@@ -122,6 +124,18 @@ def lobid(p):
         if not ok and rejected:
             return {"status": "implausible", "candidates": [{"id": m["gndIdentifier"], "name": m.get("preferredName"),
                     "professions": [x.get("label") for x in m.get("professionOrOccupation", [])][:3]} for m in rejected]}
+    if p["_reise"]["gruppe"] == "Kontakt" and ok:   # contacts: the name alone is too weak
+        note = " ".join(str(p.get(f) or "") for f in ("Beruf/Funktionen", "Rolle auf der Weltreise", "Freitext",
+                                                      "Weitere Informationen mit Sammlungsbezug")).lower()
+        def confirmed(m):
+            profs = [fold(x.get("label", "")) for x in m.get("professionOrOccupation", [])]
+            b = years(" ".join(m.get("dateOfBirth", [])))
+            return any(pr[:6] and pr[:6] in fold(note) for pr in profs) or bool(life and b and abs(life[0] - b[0]) <= 1)
+        unconfirmed = [m for m in ok if not confirmed(m)]
+        ok = [m for m in ok if confirmed(m)]
+        if not ok:
+            return {"status": "unconfirmed", "candidates": [{"id": m["gndIdentifier"], "name": m.get("preferredName"),
+                    "professions": [x.get("label") for x in m.get("professionOrOccupation", [])][:3]} for m in unconfirmed]}
     if len(ok) == 1:
         return {"status": "lobid", "id": ok[0]["gndIdentifier"], "record": ok[0]}
     if ok:

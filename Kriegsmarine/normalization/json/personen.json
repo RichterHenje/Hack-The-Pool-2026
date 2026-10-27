@@ -37,7 +37,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -89,8 +89,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Im Weltreise-Eintrag genannt",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -134,7 +133,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -171,7 +170,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -213,7 +212,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -252,7 +251,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -295,7 +294,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -332,7 +331,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -379,7 +378,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -424,7 +423,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -470,7 +469,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -511,7 +510,48 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Dennig, Heinrich",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "L. Sch. L.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "L. Sch. L. (seit 18. Jänner 1892)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-02-15__pages130-130.pdf (S. 129)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Dennig, Heinrich.md",
+      "id": "ke-person-d0d0d89589",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     }
   },
@@ -602,7 +642,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -644,7 +684,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -688,7 +728,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -732,7 +772,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -774,7 +814,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -811,7 +851,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -856,7 +896,7 @@
       ],
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -895,8 +935,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Im Weltreise-Eintrag genannt",
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -933,7 +972,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -976,7 +1015,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1013,7 +1052,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1050,7 +1089,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1087,7 +1126,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1177,7 +1216,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1221,7 +1260,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1263,7 +1302,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1300,7 +1339,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1342,7 +1381,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1385,7 +1424,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1426,7 +1465,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1463,7 +1502,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1506,7 +1545,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1550,7 +1589,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1592,7 +1631,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1636,7 +1675,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1673,7 +1712,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1714,41 +1753,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
-      ]
-    }
-  },
-  {
-    "Nachname, Vorname": "Oscar Henschel",
-    "Titel": "NA",
-    "Lebensdaten": "NA",
-    "Beruf/Funktionen": "NA",
-    "Auszeichnung": "NA",
-    "GND": "NA",
-    "VIAF": "NA",
-    "Lexikonbeitrag": "NA",
-    "Schiff": "NA",
-    "Ortschaft": "NA",
-    "Länderbezug": "NA",
-    "Archivalien mit Signatur": "NA",
-    "Goobi-Link zu den Archivalien": "NA",
-    "Weitere Informationen mit Sammlungsbezug": "NA",
-    "Links zu Bezugspersonen": "NA",
-    "Literatur": "NA",
-    "Quellen": "NA",
-    "Freitext": "NA",
-    "Rolle auf der Weltreise": [
-      "K.u.K Steuerquartiermeister"
-    ],
-    "_meta": {
-      "datei": "Oscar Henschel.md",
-      "id": "NA",
-      "typ": "NA",
-      "created_by": "NA",
-      "checked": "NA",
-      "review": "NA",
-      "auswahlgrund": [
-        "Im Weltreise-Eintrag genannt"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1785,7 +1790,48 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Paugger, Karl",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Mar. Com. Adjct. 2. Cl.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "Mar. Com. Adjct. 2. Cl. (seit 18. Jänner 1892)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-09-12__pages157-158.pdf (S. 156–157)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Paugger, Karl.md",
+      "id": "ke-person-8ba2f9e356",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     }
   },
@@ -1829,7 +1875,93 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Peternel, Ernst",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Seecad.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "Seecad. (Rangliste 1892, ohne Datum)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-09-12__pages157-158.pdf (S. 156–157)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Peternel, Ernst.md",
+      "id": "ke-person-6561c1fed7",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
+      ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Pietzuk, Karl",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Mar. Com. Adjct. 2. Cl.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "Mar. Com. Adjct. 2. Cl. (seit 19. November 1892)",
+          "Mar. Com. Adjct. 2. Cl. (seit 31. Oktober 1892)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1893-02-15__pages141-142.pdf (S. 140–141)",
+      "RangUndEinteilungslisteMarine_1893-05-15__pages156-157.pdf (S. 155–156)",
+      "RangUndEinteilungslisteMarine_1893-09-01__pages144-145.pdf (S. 143–144)",
+      "RangUndEinteilungslisteMarine_1893-11-15__pages144-145.pdf (S. 143–144)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Pietzuk, Karl.md",
+      "id": "ke-person-29a2ab0ee7",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     }
   },
@@ -1866,7 +1998,53 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Pleyer, Richard",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Seecad.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "Seecad. (Rangliste 1892, ohne Datum)",
+          "Seecad. (seit 19. November 1892)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-09-12__pages157-158.pdf (S. 156–157)",
+      "RangUndEinteilungslisteMarine_1893-02-15__pages141-142.pdf (S. 140–141)",
+      "RangUndEinteilungslisteMarine_1893-05-15__pages156-157.pdf (S. 155–156)",
+      "RangUndEinteilungslisteMarine_1893-09-01__pages144-145.pdf (S. 143–144)",
+      "RangUndEinteilungslisteMarine_1893-11-15__pages144-145.pdf (S. 143–144)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Pleyer, Richard.md",
+      "id": "ke-person-17033a0bf0",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     }
   },
@@ -1903,7 +2081,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1947,7 +2125,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -1996,7 +2174,8 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Auszeichnung: Seereise-Denkmünze 1892/1893"
+        "Auszeichnung: Seereise-Denkmünze 1892/1893",
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     }
   },
@@ -2038,7 +2217,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2081,7 +2260,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2118,7 +2297,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2160,7 +2339,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2197,7 +2376,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2238,7 +2417,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2283,7 +2462,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2328,7 +2507,51 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Regner v. Bleyleben, Otto Ritt.",
+    "Titel": "Ritter von",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "L. Sch. L.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "L. Sch. L. (seit 19. November 1892)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1893-02-15__pages141-142.pdf (S. 140–141)",
+      "RangUndEinteilungslisteMarine_1893-05-15__pages156-157.pdf (S. 155–156)",
+      "RangUndEinteilungslisteMarine_1893-09-01__pages144-145.pdf (S. 143–144)",
+      "RangUndEinteilungslisteMarine_1893-11-15__pages144-145.pdf (S. 143–144)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Regner v. Bleyleben, Otto Ritt..md",
+      "id": "ke-person-60b766f9c7",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     }
   },
@@ -2370,7 +2593,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2413,7 +2636,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2450,7 +2673,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2487,7 +2710,48 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Ritz, Ferdinand",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Seecad.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "Seecad. (Rangliste 1892, ohne Datum)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-09-12__pages157-158.pdf (S. 156–157)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Ritz, Ferdinand.md",
+      "id": "ke-person-f20c6e8987",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     }
   },
@@ -2530,7 +2794,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2571,7 +2835,49 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Schleinitz, Friedrich Freih. v.",
+    "Titel": "Freiherr von",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "L. Sch. L.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "L. Sch. L. (seit 19. November 1892)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1893-02-15__pages141-142.pdf (S. 140–141)",
+      "RangUndEinteilungslisteMarine_1893-05-15__pages156-157.pdf (S. 155–156)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Schleinitz, Friedrich Freih. v..md",
+      "id": "ke-person-5b0a3e6bba",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     }
   },
@@ -2661,7 +2967,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2703,7 +3009,94 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
+      ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Steinhart, Ferdinand Edl. v.",
+    "Titel": "Edler von",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Seecad.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "Seecad. (Rangliste 1892, ohne Datum)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-09-12__pages157-158.pdf (S. 156–157)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Steinhart, Ferdinand Edl. v..md",
+      "id": "ke-person-d1a4cf5cff",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
+      ]
+    }
+  },
+  {
+    "Nachname, Vorname": "Sternhardt, Maximilian",
+    "Titel": "NA",
+    "Lebensdaten": "NA",
+    "Beruf/Funktionen": "Seecad.",
+    "Auszeichnung": "NA",
+    "GND": "NA",
+    "VIAF": "NA",
+    "Lexikonbeitrag": "NA",
+    "Schiff": [
+      {
+        "name": "Kaiserin Elisabeth, Kreuzer",
+        "rollen": [
+          "Seecad. (Rangliste 1892, ohne Datum)",
+          "Seecad. (seit 19. November 1892)"
+        ]
+      }
+    ],
+    "Ortschaft": "NA",
+    "Länderbezug": "NA",
+    "Archivalien mit Signatur": "NA",
+    "Goobi-Link zu den Archivalien": "NA",
+    "Weitere Informationen mit Sammlungsbezug": "NA",
+    "Links zu Bezugspersonen": "NA",
+    "Literatur": "NA",
+    "Quellen": [
+      "RangUndEinteilungslisteMarine_1892-09-12__pages157-158.pdf (S. 156–157)",
+      "RangUndEinteilungslisteMarine_1893-02-15__pages141-142.pdf (S. 140–141)",
+      "RangUndEinteilungslisteMarine_1893-05-15__pages156-157.pdf (S. 155–156)",
+      "RangUndEinteilungslisteMarine_1893-09-01__pages144-145.pdf (S. 143–144)",
+      "RangUndEinteilungslisteMarine_1893-11-15__pages144-145.pdf (S. 143–144)"
+    ],
+    "Freitext": "NA",
+    "Rolle auf der Weltreise": "NA",
+    "_meta": {
+      "datei": "Personen/Sternhardt, Maximilian.md",
+      "id": "ke-person-b78cdc16ff",
+      "typ": "person",
+      "created_by": "ai-assisted",
+      "checked": false,
+      "review": "NA",
+      "auswahlgrund": [
+        "Verlinkt Kaiserin Elisabeth, Kreuzer mit Datum der Reise (1892)"
       ]
     }
   },
@@ -2839,7 +3232,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2878,7 +3271,7 @@
       "checked": false,
       "review": "NA",
       "auswahlgrund": [
-        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2920,7 +3313,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   },
@@ -2963,7 +3356,7 @@
       "review": "NA",
       "auswahlgrund": [
         "Auszeichnung: Seereise-Denkmünze 1892/1893",
-        "Schiff: Kaiserin Elisabeth, Kreuzer ohne Datum (an Bord während der Weltreise)"
+        "Verlinkt Kaiserin Elisabeth, Kreuzer ohne Datum"
       ]
     }
   }

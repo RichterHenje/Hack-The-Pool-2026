@@ -1,6 +1,6 @@
 """
 Wie filter_voyage.py (Code und Objektstruktur von dort, das Skript bleibt unverändert),
-aber mit anderer Personenauswahl. Ausgabe: json/*_final.json
+aber mit anderer Personenauswahl. Ausgabe: json/*.json (maßgebliche Auswahl; früher *_final.json).
 
 Personen werden aufgenommen, wenn
 - im Feld "Auszeichnung" die Seereise-Denkmünze steht, oder
@@ -25,7 +25,7 @@ from filter_voyage import FOLDERS, MEDAL, SHIP_TITLE, VOYAGE_TITLE, norm, unique
 
 VOYAGE_YEARS = (1892, 1893)
 YEAR_RE = re.compile(r"\b1[89]\d\d\b")
-SUFFIX = "_final.json"
+SUFFIX = ".json"   # authoritative selection: writes json/<name>.json (formerly *_final.json)
 
 
 def ship_link_dates(note):

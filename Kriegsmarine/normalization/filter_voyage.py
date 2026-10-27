@@ -1,4 +1,8 @@
 """
+Hinweis: Die maßgebliche Auswahl erzeugt filter_voyage_ff.py (andere Personenauswahl, schreibt
+json/*.json). Dieses Skript ist dessen Basis-Modul; direkt aufgerufen schreibt es die ältere
+Personenauswahl in dieselben Dateien.
+
 Filtert aus dem Obsidian-Vault "Archive_Indien_Schiffreisen" alle Einträge, die mit der
 "Weltreise Erzherzog Franz Ferdinand von Österreich-Este (1892-1893)" auf dem
 Kreuzer "Kaiserin Elisabeth" verbunden sind, und schreibt sie als JSON-Dateien,
