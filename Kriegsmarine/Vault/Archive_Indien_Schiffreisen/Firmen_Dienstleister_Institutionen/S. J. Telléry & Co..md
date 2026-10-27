@@ -1,0 +1,2 @@
+- Kunsthändler, Kaufhauskette
+- [[Bombay (Indien, Heut. Mumbai)]], [[Calcutta (Indien)]], [[Delhi (Indien)]], [[Simla (Indien)]]

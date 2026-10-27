@@ -1,0 +1,1 @@
+[[Weltreise Erzherzog Franz Ferdinand von Österreich-Este (1892-1893)]] schiffte hier von seiner Weltreise auf der [[Kaiserin Elisabeth, Kreuzer]] aus- 1893 

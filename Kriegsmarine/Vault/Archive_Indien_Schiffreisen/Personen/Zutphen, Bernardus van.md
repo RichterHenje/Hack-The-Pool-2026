@@ -1,0 +1,4 @@
+- (1831-1899)
+- niederländischer Resident
+- Geschenk dem Naturhistorischen Museum von balinesischen Figuren und "Koffer eines Sultans"
+- [[Aurora, Korvette]]

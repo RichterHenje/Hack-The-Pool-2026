@@ -1,0 +1,19 @@
+- Titel: Freiherr von
+- Lebensdaten:
+- Beruf/Funktionen: Mar. Com. Adjct. 2. Cl.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Mar. Com. Adjct. 2. Cl. (Rangliste 1898, ohne Datum)
+	- Rolle: Mar. Com. Adjct. 2. Cl. (seit 7. Juni 1898)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1898-05-10__pages184-184.pdf (S. 183)
+- Quelle: RangUndEinteilungslisteMarine_1898-09-01__pages185-185.pdf (S. 184)
+- Quelle: RangUndEinteilungslisteMarine_1898-11-15__pages184-184.pdf (S. 184)

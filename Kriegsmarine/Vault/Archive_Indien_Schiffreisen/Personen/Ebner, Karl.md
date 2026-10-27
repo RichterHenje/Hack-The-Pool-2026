@@ -1,0 +1,20 @@
+- Titel: 
+- Lebensdaten:
+- Beruf/Funktionen: Maschb. u. Betrbs. Ing. 2. Cl.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Maschb. u. Betrbs.-Ing. 2. Cl. (Rangliste 1895, ohne Datum)
+	- Rolle: Maschb. u. Betrbs. Ing. 2. Cl. (seit 17. November 1895)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1895-11-15__pages143-144.pdf (S. 143–144)
+- Quelle: RangUndEinteilungslisteMarine_1896-03-15__pages161-162.pdf (S. 160–161)
+- Quelle: RangUndEinteilungslisteMarine_1896-05-15__pages149-150.pdf (S. 148–149 bzw. 157–158)
+- Quelle: RangUndEinteilungslisteMarine_1896-05-15__pages158-159.pdf (S. 148–149 bzw. 157–158)

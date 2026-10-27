@@ -1,0 +1,2 @@
+The father and son team of Gobindram & Oodeyram had a studio in the Champol bazaar beginning in the late 1880s and soon became the leading photographic firm and postcard publishers in Jaipur. They photographed throughout Rajasthan, producing both topographical views and studies of Indian trades and professions. Their work often appeared as uncredited illustrations in the publications of the time.- Getty Collections Archive: https://www.getty.edu/research/collections/component/1YCRZV
+[[Jaipur (Jeypore), Rajasthan, Indien]]

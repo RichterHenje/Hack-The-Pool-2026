@@ -1,0 +1,16 @@
+-  Titel: Graf
+- Lebensdaten:
+- Beruf/Funktionen: Corvettecapitän
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Corvette Kapitän (seit 12. Mai 1900)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1901-11-10/?pg=176&layout=s&query=Kaiserin%20Elisabeth

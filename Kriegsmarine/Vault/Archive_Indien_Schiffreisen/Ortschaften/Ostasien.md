@@ -1,0 +1,6 @@
+[[Korea]]
+[[Indien, British Raj 1858-1947]]
+[[Japan]]
+[[China]]
+[[Nepal]]
+[[Brit. Ceylon, Heut. Sri Lanka (1815- 1948)]]

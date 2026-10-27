@@ -1,0 +1,3 @@
+- Zoological Garden
+- [[Calcutta (Indien)]]
+- feeded a young tiger

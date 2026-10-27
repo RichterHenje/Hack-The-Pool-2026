@@ -1,0 +1,18 @@
+- Titel: Dr.
+- Lebensdaten:
+- Beruf/Funktionen: Freg. Arzt
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Freg. Arzt (seit 1905)
+	- Rolle: Freg. Arzt (seit 15. März 1905)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1905-02-25__pages51-51.pdf (S. 50)
+- Quelle: RangUndEinteilungslisteMarine_1905-06-16__pages56-56.pdf (S. 55)

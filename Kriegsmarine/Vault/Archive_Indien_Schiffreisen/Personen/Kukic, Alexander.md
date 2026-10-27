@@ -1,0 +1,18 @@
+
+- Titel: Dr.
+- Lebensdaten (Jahr, Ort - Jahr, Ort): geboren 27. Juni 1855 Tourin, Kroatien - 31.08.1900, Krapina Kroatien 
+- Beruf/Funktionen: Linienschiffarzt
+- Auszeichnung
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Fasana, Korvette]]
+	- Rolle: Linienschiffarzt
+	- Kapitän
+- Ortschaft (Link)
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+	- VA_IN_VIO_1899, Inventarbuch, 1899, Post X., 99-121
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur: Zuschrift der kuk Intendanz des kuk naturhistorischen Hofmuseums Wien, 05.08.1893- [[Colombo (Hauptstadt, Sri Lanka)]]

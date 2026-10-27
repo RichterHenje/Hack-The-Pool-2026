@@ -1,0 +1,16 @@
+- Titel: Ritter von
+- Lebensdaten:
+- Beruf/Funktionen: Linienschiff Leutnant
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Linienschiff Leutnant (14. April 1902)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1902-05-16/?pg=129&layout=s&query=Kaiserin%20Elisabeth

@@ -1,0 +1,7 @@
+[[Indonesien]]
+[[Port Moresby, Papa Neuguinea]]
+[[Owaraha, Salomonen Inseln]]
+[[Dobo, Aru Inseln,  Indonesien]]
+[[Nouméa, Neukaledonien]]
+[[Borneo]]
+[[Singapur]]

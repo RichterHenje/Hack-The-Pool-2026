@@ -1,0 +1,17 @@
+- Titel
+- Lebensdaten (Jahr, Ort - Jahr, Ort)
+- Beruf/Funktionen (z. B. Kapitän): Fotograf, Marinemaler
+- Auszeichnung: Seereise-Denkmünze 1892/1893, Militär-Verdienst-Medaille am rothen Bande
+	- Quelle: [Rangs- und Eintheilungs-Liste der k. u. k. Kriegs-Marine 1899.05.15 (Wien, 1899) | Library | Hungaricana](https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1899-05-15/?pg=13&layout=s)
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- - Rolle
+	- Kapitän
+- Ortschaft (Link)
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur

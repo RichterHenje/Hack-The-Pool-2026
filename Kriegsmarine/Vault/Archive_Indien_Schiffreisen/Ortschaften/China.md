@@ -1,0 +1,8 @@
+[[Peking, China]]
+[[Zhifu (hist. Chefoo), China]]
+[[Qinhuangdao (hist. Tsing-wang-Tau), China]]
+[[Qingdao (hist. Tsingtau), China]]
+[[Tianjin (hist. Tsingtau), China]]
+[[Shanghai, China]]
+[[Hong Kong, China]]
+[[Kanton, (heut. Guangzhou, China)]]

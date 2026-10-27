@@ -1,0 +1,17 @@
+- Nachname, Vorname (für die alphabetische Sortierung)
+- Titel
+- Lebensdaten (Jahr, Ort - Jahr, Ort)
+- Beruf/Funktionen (z. B. Kapitän)
+- Auszeichnung (z. B. Seereise-Denkmünze 1892/1893)
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff (Link)
+	- - Rolle
+	- Kapitän
+- Ortschaft (Link)
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur

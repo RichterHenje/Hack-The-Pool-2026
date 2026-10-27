@@ -1,0 +1,3 @@
+- (1840-1903)
+- Generalmajor
+- [[Kaiserin Elisabeth, Kreuzer]]

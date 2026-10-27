@@ -1,0 +1,16 @@
+- Titel: Ritter von
+- Lebensdaten:
+- Beruf/Funktionen: Freg. K.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Freg. K. (seit 6. Juni 1906)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug – Schreibvariante(n) in den Listen: Chmelarž, Eugen Ritt. v.
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1906-06-06__pages170-171.pdf (S. 170)

@@ -1,0 +1,3 @@
+- Fotograf, Tierpräparator
+- Fotografien in Fotosammlung und Sammlerakte vorhanden
+- [[Kaiserin Elisabeth, Kreuzer]]

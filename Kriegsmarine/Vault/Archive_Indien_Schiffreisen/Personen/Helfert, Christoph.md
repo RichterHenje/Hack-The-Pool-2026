@@ -1,0 +1,20 @@
+- Titel: 
+- Lebensdaten:
+- Beruf/Funktionen: Maschlt. 3. Cl.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Maschst. 3. Cl. (Rangliste 1895, ohne Datum)
+	- Rolle: Maschltr. 3. Cl. (Rangliste 1900, ohne Datum)
+	- Rolle: Maschlt. 3. Cl. (seit 24. Mai 1900)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug – Schreibvariante(n) in den Listen: Helfert, Christof
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1895-02-15__pages149-150.pdf (S. 149–150)
+- Quelle: RangUndEinteilungslisteMarine_1900-05-15__pages155-156.pdf (S. 154–155)
+- Quelle: RangUndEinteilungslisteMarine_1901-02-15__pages158-159.pdf (S. 157–158)

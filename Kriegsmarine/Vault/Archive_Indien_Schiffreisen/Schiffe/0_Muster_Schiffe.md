@@ -1,0 +1,14 @@
+- Bezeichnung des Schiffes
+- GND
+- Reise 1: Ziel der Reise
+	- Jahr
+	- Route (Tag)
+	- Kapitän
+- Reise 2: 
+	- Jahr
+	- Route (Tag)
+	- Kapitän
+- Projekte (Link)
+- Objekte in der Sammlung
+- Archivbestände
+- 

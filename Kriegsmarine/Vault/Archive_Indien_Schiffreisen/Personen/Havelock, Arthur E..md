@@ -1,0 +1,2 @@
+- begrüßt Franz Ferdinand in Colombo
+- [[Kaiserin Elisabeth, Kreuzer]]

@@ -1,0 +1,14 @@
+ GND
+- Reise 1: Missionsreise- Ostasien, Stationsschiff Japan, Korea
+	- 1884-1887
+	- 20.10.1884-18.01.1887
+	- Kapitän: Fregattenkapitän Karl Spetzler
+- Reise 2: Mittelmeer, Tunesien 
+	- Jahr 1898
+	- Route (Tag) 01.09.1898
+	- Kapitän Fregattenkapitän Karl Friesz
+- Reise 3
+- Projekte (Link)
+- Objekte in der Sammlung
+- Archivbestände
+- 

@@ -1,0 +1,1 @@
+- als Diensttuender Offizier am - [[Kaiserin Elisabeth, Kreuzer]], schiffte sich in [[Sydney, Australien]] aus. 

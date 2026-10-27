@@ -1,0 +1,16 @@
+-  Titel:
+- Lebensdaten:
+- Beruf/Funktionen: Marine Commissariat Adjunct 3. Klasse
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Marine Commissariat Adjunct 3. Klasse (seit 7. Oktober 1907)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1908-01-06/?pg=133&layout=s&query=Kaiserin%20Elisabeth

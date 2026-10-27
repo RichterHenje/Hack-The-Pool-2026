@@ -1,0 +1,18 @@
+- Titel: 
+- Lebensdaten:
+- Beruf/Funktionen: Corv. C.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Corv. C. (seit 1. Mai 1898)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1898-05-10__pages184-184.pdf (S. 183)
+- Quelle: RangUndEinteilungslisteMarine_1898-09-01__pages185-185.pdf (S. 184)
+- Quelle: RangUndEinteilungslisteMarine_1898-11-15__pages184-184.pdf (S. 184)

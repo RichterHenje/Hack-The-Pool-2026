@@ -1,0 +1,3 @@
+- https://www.schloss-artstetten.at/schloss-artstetten/museum/
+- [[Weltreise Erzherzog Franz Ferdinand von Österreich-Este (1892-1893)]]
+- 

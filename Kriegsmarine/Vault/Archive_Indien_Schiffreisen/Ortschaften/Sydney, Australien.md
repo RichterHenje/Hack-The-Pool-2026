@@ -1,0 +1,1 @@
+[[Salvator von Österreich-Toskana, Erzherzog Leopold Ferdinand]], schiffte sich hier krankheitsbedingt von der [[Kaiserin Elisabeth, Kreuzer]] aus

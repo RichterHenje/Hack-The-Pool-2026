@@ -1,0 +1,16 @@
+- Titel: 
+- Lebensdaten:
+- Beruf/Funktionen: Mar. Kom. Adjkt. 2. Kl.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Mar. Kom. Adjkt. 2. Kl. (seit 26. April 1907)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1907-05-26__pages174-174.pdf (S. 173)

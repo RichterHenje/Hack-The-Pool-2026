@@ -1,0 +1,15 @@
+- Titel: Dr.
+- Lebensdaten (Jahr, Ort - Jahr, Ort)
+- Beruf/Funktionen: Linienschiffsarzt
+- Auszeichnung:
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Saida, Corvette]]
+	- Rolle: Linienschiffsarzt
+	- Kapitän
+- Ortschaft (Link)
+- Länderbezug (Tag)
+- Archivalien mit Signatur: VA_IN_VIO_1899, Inventarbuch, 1899, Post XI, 122-12
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen

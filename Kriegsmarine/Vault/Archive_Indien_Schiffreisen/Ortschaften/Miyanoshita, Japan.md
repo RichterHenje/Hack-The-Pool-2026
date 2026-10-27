@@ -1,0 +1,2 @@
+Historischer Onsen Stadt
+[[Japan]]

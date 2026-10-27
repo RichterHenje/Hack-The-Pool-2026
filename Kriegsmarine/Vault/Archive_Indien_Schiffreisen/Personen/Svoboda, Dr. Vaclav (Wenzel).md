@@ -1,0 +1,3 @@
+- (1850, Leitmeritz-1924)
+- Schiffsarzt der [[Aurora, Korvette]] 1886-1888
+- I

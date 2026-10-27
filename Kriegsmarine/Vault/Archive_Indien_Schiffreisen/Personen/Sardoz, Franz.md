@@ -1,0 +1,17 @@
+- Titel:
+- Lebensdaten:
+- Beruf/Funktionen: Maschinenleiter 3. Classe
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Maschinenleiter 3. Classe (seit 14. Jänner 1999)
+	- Rolle: Maschinenbetriebsleiter 1. Klasse (seit 23. März 1912)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1899-05-15/?pg=156&layout=s
