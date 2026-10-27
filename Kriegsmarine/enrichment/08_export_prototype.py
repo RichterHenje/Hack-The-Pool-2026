@@ -244,6 +244,9 @@ def main():
     voyage = enr["voyage"]
     bundle = {
         "built_by": "enrichment/08_export_prototype.py",
+        # GeoNames places of ke_diary.json with today's coordinates: the keys of prototype/data/ke_places_1872.js
+        # (positions on the 1872 map); the page moves every point like the nearest of these places
+        "geonames": {d["place"]: [d["lat"], d["lon"]] for d in reversed(diary) if d["place"] and d["lat"] is not None},
         "animals": {a["id"]: a["de"] for a in ANIMALS},
         "days": days, "episodes": eps,
         "press": press_auto, "press_manual": press_manual,

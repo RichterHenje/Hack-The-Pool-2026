@@ -53,72 +53,145 @@
 
   const map = L.map("map", { minZoom: 1, maxZoom: 9 });
   map.attributionControl.setPrefix(false);
-  map.attributionControl.addAttribution("Küsten: Natural Earth · Orte: Wikidata, GeoNames (CC BY 4.0)");
+  map.attributionControl.addAttribution("Orte: Wikidata, GeoNames (CC BY 4.0)");
+  const landLayer = L.layerGroup();
   if (window.WORLD) {
     // Drawn twice (second copy shifted by 360°) so the unwrapped route east of Japan still has land under it.
     const landStyle = { color: "#b9c4c4", weight: 0.8, fillColor: "#f6f3ea", fillOpacity: 1 };
-    L.geoJSON(window.WORLD, { interactive: false, style: landStyle }).addTo(map);
+    L.geoJSON(window.WORLD, { interactive: false, style: landStyle, attribution: "Küsten: Natural Earth" }).addTo(landLayer);
     L.geoJSON(window.WORLD, { interactive: false, style: landStyle,
-      coordsToLatLng: (c) => L.latLng(c[1], c[0] + 360) }).addTo(map);
+      coordsToLatLng: (c) => L.latLng(c[1], c[0] + 360) }).addTo(landLayer);
   }
+  // Historic base map: "World On Mercator's Projection" (1872), georeferenced on Map Warper (map 98512).
+  // Tiles repeat east and west, so the unwrapped Pacific crossing needs no second copy.
+  // Source scan is 7716 px wide (≈ zoom 5); higher zooms are upscaled.
+  // The georeferencing is uneven (Europe fits, India–Java lies too far north, Japan too far south),
+  // so the map is not shifted: on it, places are drawn where the map shows them (data/ke_places_1872.js,
+  // keyed by the GeoNames names of ke_diary.json). Every point moves like the nearest of those places
+  // (within 4°; E.geonames holds their present-day coordinates). reise.html?kalibrieren makes them draggable.
+  const historicLayer = L.tileLayer("https://mapwarper.net/maps/tile/98512/{z}/{x}/{y}.png", {
+    maxNativeZoom: 6,
+    attribution: 'Karte 1872: <a href="https://mapwarper.net/maps/98512" target="_blank" rel="noopener">Map Warper 98512</a>',
+  });
+  const H1872 = window.KE1872 || {};
+  const REF = Object.entries(E.geonames || {});
+  let historic = true;
+  // Position on the current base map; lon may be unwrapped (> 180 east of the date line)
+  const pos = (lat, lon) => {
+    if (!historic) return [lat, lon];
+    const raw = ((lon + 180) % 360 + 360) % 360 - 180;
+    let best = null, bestD = 16;   // 4° squared
+    for (const [name, [rlat, rlon]] of REF) {
+      const dd = (rlat - lat) ** 2 + (rlon - raw) ** 2;
+      if (H1872[name] && dd < bestD) { best = name; bestD = dd; }
+    }
+    if (!best) return [lat, lon];
+    const [rlat, rlon] = E.geonames[best];
+    return [lat + H1872[best].lat - rlat, lon + H1872[best].lon - rlon];
+  };
 
   const layers = {
     route: L.layerGroup().addTo(map), hunt: L.layerGroup().addTo(map), press: L.layerGroup().addTo(map),
     photo: L.layerGroup(), object: L.layerGroup(), heroes: L.layerGroup(),
   };
   const located = days.filter((d) => d.lat !== null);
-  L.polyline(located.map((d) => [d.lat, d.lon]), { color: ROUTE, weight: 2.5, opacity: 0.7 }).addTo(layers.route);
   const markerOf = new Map();
-  for (const d of located) {
-    const m = L.circleMarker([d.lat, d.lon], { radius: 3.5, color: "#fff", weight: 1, fillColor: ROUTE, fillOpacity: 0.9 })
-      .bindTooltip(`${esc(fmt(d.date))} · ${esc(d.place)}`)
-      .on("click", () => selectDay(dayIndex.get(d.date)));
-    m.addTo(layers.route);
-    markerOf.set(d.date, m);
-  }
-
-  // Hunts: one marker per episode place, sized by kill sentences; press as a ring around it
+  const heroLine = new Map();
   const pressOf = (id) => E.press.filter((p) => p.episode === id);
-  for (const ep of episodes) {
-    for (const p of ep.places) {
-      if (p.lat == null) continue;
-      const ll = [p.lat, wrap(p.lon)];
-      L.circleMarker(ll, {
-        radius: 5 + Math.min(12, Math.sqrt(ep.kill_sentences) * 2.2), color: HUNT, weight: 1.5, fillColor: HUNT, fillOpacity: 0.4,
-      }).bindTooltip(`${esc(p.label)} · ${esc(span(ep.start, ep.end))}<br>${ep.kill_sentences} Sätze vom Erlegen/Schießen`)
-        .on("click", () => selectHunt(ep.id)).addTo(layers.hunt);
-      const n = ep.anno.issues_high;
-      if (n) {
-        L.circleMarker(ll, { radius: 14 + Math.min(14, n * 1.4), color: PRESS, weight: 2, fill: false, dashArray: "3 3" })
-          .bindTooltip(`${esc(p.label)} · ${n} Zeitungsausgaben (ANNO, hoch)`).on("click", () => selectHunt(ep.id)).addTo(layers.press);
+  let currentHero = null;
+
+  // All map points, redrawn when the base map changes
+  function draw() {
+    for (const g of Object.values(layers)) g.clearLayers();
+    L.polyline(located.map((d) => pos(d.lat, d.lon)), { color: ROUTE, weight: 2.5, opacity: 0.7 }).addTo(layers.route);
+    for (const d of located) {
+      const m = L.circleMarker(pos(d.lat, d.lon), { radius: 3.5, color: "#fff", weight: 1, fillColor: ROUTE, fillOpacity: 0.9 })
+        .bindTooltip(`${esc(fmt(d.date))} · ${esc(d.place)}`)
+        .on("click", () => selectDay(dayIndex.get(d.date)));
+      m.addTo(layers.route);
+      markerOf.set(d.date, m);
+    }
+    // Hunts: one marker per episode place, sized by kill sentences; press as a ring around it
+    for (const ep of episodes) {
+      for (const p of ep.places) {
+        if (p.lat == null) continue;
+        const ll = pos(p.lat, wrap(p.lon));
+        L.circleMarker(ll, {
+          radius: 5 + Math.min(12, Math.sqrt(ep.kill_sentences) * 2.2), color: HUNT, weight: 1.5, fillColor: HUNT, fillOpacity: 0.4,
+        }).bindTooltip(`${esc(p.label)} · ${esc(span(ep.start, ep.end))}<br>${ep.kill_sentences} Sätze vom Erlegen/Schießen`)
+          .on("click", () => selectHunt(ep.id)).addTo(layers.hunt);
+        const n = ep.anno.issues_high;
+        if (n) {
+          L.circleMarker(ll, { radius: 14 + Math.min(14, n * 1.4), color: PRESS, weight: 2, fill: false, dashArray: "3 3" })
+            .bindTooltip(`${esc(p.label)} · ${n} Zeitungsausgaben (ANNO, hoch)`).on("click", () => selectHunt(ep.id)).addTo(layers.press);
+        }
       }
     }
-  }
-  // Photos and objects at the day they are dated to
-  for (const d of located) {
-    if (d.photos.length) {
-      L.circleMarker([d.lat, d.lon], { radius: 4 + Math.min(8, d.photos.length), color: PHOTO, weight: 2, fillColor: PHOTO, fillOpacity: 0.5 })
-        .bindTooltip(`${esc(fmt(d.date))} · ${d.photos.length} Foto(s)`).on("click", () => selectDay(dayIndex.get(d.date))).addTo(layers.photo);
+    // Photos and objects at the day they are dated to
+    for (const d of located) {
+      if (d.photos.length) {
+        L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(8, d.photos.length), color: PHOTO, weight: 2, fillColor: PHOTO, fillOpacity: 0.5 })
+          .bindTooltip(`${esc(fmt(d.date))} · ${d.photos.length} Foto(s)`).on("click", () => selectDay(dayIndex.get(d.date))).addTo(layers.photo);
+      }
+      if (d.objects.length) {
+        L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(8, d.objects.length / 2), color: OBJECT, weight: 2, fillColor: OBJECT, fillOpacity: 0.5 })
+          .bindTooltip(`${esc(fmt(d.date))} · ${d.objects.length} Objekt(e) der Sammlung Este`).on("click", () => selectDay(dayIndex.get(d.date))).addTo(layers.object);
+      }
     }
-    if (d.objects.length) {
-      L.circleMarker([d.lat, d.lon], { radius: 4 + Math.min(8, d.objects.length / 2), color: OBJECT, weight: 2, fillColor: OBJECT, fillOpacity: 0.5 })
-        .bindTooltip(`${esc(fmt(d.date))} · ${d.objects.length} Objekt(e) der Sammlung Este`).on("click", () => selectDay(dayIndex.get(d.date))).addTo(layers.object);
+    // Live animals: the path of each animal (or group), from where it came aboard to where it ended
+    // (straight lines between the stations, not the ships' tracks)
+    heroLine.clear();
+    for (const h of heroes) {
+      const pts = h.route.filter((r) => r.lat != null).map((r) => pos(r.lat, wrap(r.lon)));
+      if (!pts.length) continue;
+      const line = pts.length > 1
+        ? L.polyline(pts, { color: HERO, weight: 2, opacity: 0.8, dashArray: "6 5" })
+          .bindTooltip(esc(h.name)).on("click", () => selectHero(h.id)).addTo(layers.heroes) : null;
+      L.circleMarker(pts[0], { radius: 5, color: HERO, weight: 2, fillColor: "#fff", fillOpacity: 1 })
+        .bindTooltip(`${esc(h.name)} · ${esc(h.route[0].event)}`).on("click", () => selectHero(h.id)).addTo(layers.heroes);
+      heroLine.set(h.id, { pts, line });
+    }
+    if (currentHero) highlightHero(currentHero);
+  }
+  function highlightHero(id) {
+    for (const [hid, { line }] of heroLine) {
+      if (line) line.setStyle(hid === id ? { weight: 4, opacity: 1 } : { weight: 2, opacity: 0.25 });
+      if (line && hid === id) line.bringToFront();
     }
   }
-  // Live animals: the path of each animal (or group), from where it came aboard to where it ended
-  // (straight lines between the stations, not the ships' tracks)
-  const heroLine = new Map();
-  for (const h of heroes) {
-    const pts = h.route.filter((r) => r.lat != null).map((r) => [r.lat, wrap(r.lon)]);
-    if (!pts.length) continue;
-    const line = pts.length > 1
-      ? L.polyline(pts, { color: HERO, weight: 2, opacity: 0.8, dashArray: "6 5" })
-        .bindTooltip(esc(h.name)).on("click", () => selectHero(h.id)).addTo(layers.heroes) : null;
-    L.circleMarker(pts[0], { radius: 5, color: HERO, weight: 2, fillColor: "#fff", fillOpacity: 1 })
-      .bindTooltip(`${esc(h.name)} · ${esc(h.route[0].event)}`).on("click", () => selectHero(h.id)).addTo(layers.heroes);
-    heroLine.set(h.id, { pts, line });
+  const showHistoric = (on) => {
+    historic = on;
+    if (on) { map.removeLayer(landLayer); historicLayer.addTo(map); }
+    else { map.removeLayer(historicLayer); landLayer.addTo(map); }
+    draw();
+  };
+  showHistoric(true);
+  map.fitBounds(located.map((d) => pos(d.lat, d.lon)), { padding: [20, 20] });
+  document.getElementById("lyr-historic").addEventListener("change", (e) => showHistoric(e.target.checked));
+
+  // Calibration (reise.html?kalibrieren): one draggable marker per place of data/ke_places_1872.js;
+  // the box shows the file with the new positions to copy into ke_places_1872.js and .json.
+  if (new URLSearchParams(location.search).has("kalibrieren")) {
+    const box = L.control({ position: "topright" });
+    box.onAdd = () => {
+      const t = L.DomUtil.create("textarea", "calib");
+      t.style.cssText = "width:22em;height:14em;font:11px monospace";
+      L.DomEvent.disableClickPropagation(t);
+      return t;
+    };
+    box.addTo(map);
+    const show = () => { box.getContainer().value = "window.KE1872 = " + JSON.stringify(H1872, null, 1) + ";\n"; };
+    for (const place of Object.keys(H1872)) {
+      const shift = wrap(H1872[place].lon) - H1872[place].lon;
+      L.marker([H1872[place].lat, H1872[place].lon + shift], { draggable: true, title: place }).addTo(map).on("dragend", (e) => {
+        const ll = e.target.getLatLng();
+        H1872[place] = { lat: +ll.lat.toFixed(4), lon: +(ll.lng - shift).toFixed(4), quelle: "von Hand (Kalibrierung)" };
+        show();
+        if (historic) draw();
+      });
+    }
+    show();
   }
-  map.fitBounds(located.map((d) => [d.lat, d.lon]), { padding: [20, 20] });
 
   for (const [key, layer] of Object.entries(layers)) {
     document.getElementById(`lyr-${key}`).addEventListener("change", (e) => {
@@ -291,7 +364,7 @@
     for (const b of document.querySelectorAll("#hunt-list button")) b.setAttribute("aria-current", String(b.dataset.hunt === id));
     document.getElementById("hunt-card").innerHTML = huntCard(ep);
     document.getElementById("hunt-card").scrollIntoView({ block: "nearest" });
-    const pts = ep.places.filter((p) => p.lat != null).map((p) => [p.lat, wrap(p.lon)]);
+    const pts = ep.places.filter((p) => p.lat != null).map((p) => pos(p.lat, wrap(p.lon)));
     if (pts.length) map.flyToBounds(pts, { maxZoom: 6, padding: [60, 60], duration: 0.6 });
     history.replaceState(null, "", `#${id}`);
   }
@@ -323,10 +396,8 @@
     for (const b of document.querySelectorAll("#hero-list button")) b.setAttribute("aria-current", String(b.dataset.hero === id));
     document.getElementById("hero-card").innerHTML = heroCard(h);
     document.getElementById("hero-card").scrollIntoView({ block: "nearest" });
-    for (const [hid, { line }] of heroLine) {
-      if (line) line.setStyle(hid === id ? { weight: 4, opacity: 1 } : { weight: 2, opacity: 0.25 });
-      if (line && hid === id) line.bringToFront();
-    }
+    currentHero = id;
+    highlightHero(id);
     const hl = heroLine.get(id);
     if (hl) map.flyToBounds(hl.pts, { maxZoom: 5, padding: [60, 60], duration: 0.6 });
     history.replaceState(null, "", `#${id}`);

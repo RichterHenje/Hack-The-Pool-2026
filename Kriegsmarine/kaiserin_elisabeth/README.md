@@ -7,7 +7,7 @@ nur gelesen und nicht verändert.
 
 ## Ansehen
 
-Direkt im Browser öffnen (ohne Server, ohne Kartenkacheln):
+Direkt im Browser öffnen (ohne Server; `reise.html` lädt als Hintergrund Kartenkacheln von Map Warper, siehe unten):
 
 | Seite | was |
 | --- | --- |
@@ -29,6 +29,27 @@ nennen das Schiff (Z.196/1893: Zoologe Lorenz an Bord, zurückgeschickt) und bel
 Präparatoren Gebr. Hodek (Jagdtrophäen Kronprinz Rudolfs, Raubvögel); Marine-Weltreisen als
 Sammelreisen (Fasana, Saida); Führer durch die Sammlungen von der Weltreise (1894).
 Nicht Kulturpool-Partner: KHM, Weltmuseum, HGM, Schönbrunn (Schloss, Tiergarten).
+
+## Historische Karte in `reise.html`
+
+Hintergrund ist die Weltkarte von 1872 („World On Mercator's Projection“,
+[Map Warper 98512](https://mapwarper.net/maps/98512)), abschaltbar unter „Ebenen“ (dann
+Natural-Earth-Küsten). Die Karte ist ungleichmäßig georeferenziert (Sri Lanka rund 300 km zu
+weit nördlich, Japan rund 150 km zu weit südlich). Sie wird daher nicht verschoben; stattdessen
+stehen die Orte, solange sie eingeschaltet ist, dort, wo die Karte sie zeigt:
+`prototype/data/ke_places_1872.js` (von der Seite gelesen) und `ke_places_1872.json` (gleicher
+Inhalt), je Ort `lat`, `lon`, `quelle`. Die Originalkoordinaten in `ke_diary.js` bleiben unverändert.
+
+- Ermittelt 27.10.2026: Kacheln (Zoom 4) gegen Natural-Earth-Küsten abgeglichen; Port Said,
+  Sydney, Kyoto, New York von Hand korrigiert, US-Binnenorte geschätzt (`quelle`).
+- Nachjustieren: `reise.html?kalibrieren`, Marker auf den Ort in der Karte ziehen, das JSON aus
+  dem Textfeld in beide Dateien übernehmen.
+- Schlüssel sind die Ortsnamen aus `ke_diary.json` (GeoNames). `reise.html` nutzt inzwischen die 309 Tage
+  aus `normalization/json/tagebuch_tage.json` mit Wikidata-Koordinaten (Bündel `data/ke_enrichment.js`,
+  `enrichment/08_export_prototype.py`); jeder Punkt (Route, Jagden, Fotos, Tiere) wird daher wie der
+  nächstgelegene kalibrierte Ort verschoben (bis 4°, Bezugskoordinaten in `ke_enrichment.js` → `geonames`).
+  Orte weiter weg (z. B. Yellowstone) bleiben auf ihren heutigen Koordinaten.
+- Für die Karte nennt Map Warper keine Lizenz und keine Quelle; vor öffentlicher Nutzung klären.
 
 ## Mitmachen: Presse aus ANNO
 

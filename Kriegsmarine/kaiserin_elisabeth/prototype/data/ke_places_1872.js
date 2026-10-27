@@ -1,0 +1,212 @@
+/* Positionen der Orte auf der Karte von 1872 ("World On Mercator's Projection", Map Warper 98512).
+   Die Karte ist ungleichmäßig georeferenziert; statt sie zu verzerren, stehen die Orte hier dort,
+   wo die Karte sie zeigt. Ermittelt am 27.10.2026: Kacheln (Zoom 4) gegen Natural-Earth-Küsten
+   abgeglichen, je Ort ±96 px gesucht; schwache Treffer von Hand gesetzt oder geschätzt (siehe quelle).
+   Korrigieren: reise.html?kalibrieren, Marker ziehen, JSON hierher kopieren. */
+window.KE1872 = {
+ "Port Said": {
+  "lat": 30.0557,
+  "lon": 32.4777,
+  "quelle": "Küstenabgleich, von Hand korrigiert"
+ },
+ "Aden": {
+  "lat": 15.3371,
+  "lon": 42.226,
+  "quelle": "Küstenabgleich"
+ },
+ "Kandy": {
+  "lat": 11.9684,
+  "lon": 80.4578,
+  "quelle": "Küstenabgleich"
+ },
+ "Colombo": {
+  "lat": 11.6181,
+  "lon": 79.6729,
+  "quelle": "Küstenabgleich"
+ },
+ "Mumbai": {
+  "lat": 21.7088,
+  "lon": 73.0584,
+  "quelle": "Küstenabgleich"
+ },
+ "Tandur": {
+  "lat": 21.7214,
+  "lon": 77.4012,
+  "quelle": "Küstenabgleich"
+ },
+ "Hyderabad": {
+  "lat": 21.8532,
+  "lon": 78.2806,
+  "quelle": "Küstenabgleich"
+ },
+ "Kolkata": {
+  "lat": 26.5584,
+  "lon": 88.1873,
+  "quelle": "Küstenabgleich"
+ },
+ "Dārjiling": {
+  "lat": 29.9679,
+  "lon": 88.0909,
+  "quelle": "Küstenabgleich"
+ },
+ "Agra": {
+  "lat": 29.6566,
+  "lon": 78.0167,
+  "quelle": "Küstenabgleich"
+ },
+ "Delhi": {
+  "lat": 30.789,
+  "lon": 77.0557,
+  "quelle": "Küstenabgleich"
+ },
+ "Alwar": {
+  "lat": 30.0269,
+  "lon": 76.625,
+  "quelle": "Küstenabgleich"
+ },
+ "Jodhpur": {
+  "lat": 28.7625,
+  "lon": 73.1817,
+  "quelle": "Küstenabgleich"
+ },
+ "Jaipur": {
+  "lat": 29.3989,
+  "lon": 75.7878,
+  "quelle": "Küstenabgleich"
+ },
+ "Murwāra": {
+  "lat": 26.3841,
+  "lon": 80.394,
+  "quelle": "Küstenabgleich"
+ },
+ "Jakarta": {
+  "lat": -0.6018,
+  "lon": 106.6693,
+  "quelle": "Küstenabgleich"
+ },
+ "Garut": {
+  "lat": -1.8149,
+  "lon": 107.7452,
+  "quelle": "Küstenabgleich"
+ },
+ "Cianjur": {
+  "lat": -1.389,
+  "lon": 106.9637,
+  "quelle": "Küstenabgleich"
+ },
+ "Bogor": {
+  "lat": -1.1597,
+  "lon": 106.6134,
+  "quelle": "Küstenabgleich"
+ },
+ "Sydney": {
+  "lat": -29.5325,
+  "lon": 151.5589,
+  "quelle": "Küstenabgleich, von Hand korrigiert"
+ },
+ "Nouméa": {
+  "lat": -17.4819,
+  "lon": 166.6246,
+  "quelle": "Küstenabgleich"
+ },
+ "Port Moresby": {
+  "lat": -4.2434,
+  "lon": 146.9751,
+  "quelle": "Küstenabgleich"
+ },
+ "Ambon": {
+  "lat": 1.7506,
+  "lon": 128.0075,
+  "quelle": "Küstenabgleich"
+ },
+ "Singapore": {
+  "lat": 6.5489,
+  "lon": 103.6743,
+  "quelle": "Küstenabgleich"
+ },
+ "Hong Kong": {
+  "lat": 25.4923,
+  "lon": 113.9989,
+  "quelle": "Küstenabgleich"
+ },
+ "Guangzhou": {
+  "lat": 26.3097,
+  "lon": 113.0742,
+  "quelle": "Küstenabgleich"
+ },
+ "Nagasaki": {
+  "lat": 30.9584,
+  "lon": 130.0591,
+  "quelle": "Küstenabgleich"
+ },
+ "Kumamoto": {
+  "lat": 30.8647,
+  "lon": 130.8676,
+  "quelle": "Küstenabgleich"
+ },
+ "Kyoto": {
+  "lat": 33.1284,
+  "lon": 135.9296,
+  "quelle": "wie Tokyo (Küstenabgleich unbrauchbar)"
+ },
+ "Tokyo": {
+  "lat": 33.8121,
+  "lon": 140.0433,
+  "quelle": "Küstenabgleich"
+ },
+ "Nikkō": {
+  "lat": 34.8973,
+  "lon": 139.9682,
+  "quelle": "Küstenabgleich"
+ },
+ "Vancouver": {
+  "lat": 46.1758,
+  "lon": -123.2951,
+  "quelle": "Küstenabgleich"
+ },
+ "Penticton": {
+  "lat": 46.4208,
+  "lon": -119.7616,
+  "quelle": "Küstenabgleich"
+ },
+ "Livingston": {
+  "lat": 37.9429,
+  "lon": -74.6664,
+  "quelle": "geschätzt zwischen Vancouver und New York"
+ },
+ "Colorado Springs": {
+  "lat": 36.043,
+  "lon": -105.1729,
+  "quelle": "geschätzt zwischen Vancouver und New York"
+ },
+ "Chicago": {
+  "lat": 39.8559,
+  "lon": -88.0016,
+  "quelle": "geschätzt aus New York"
+ },
+ "Niagara Falls": {
+  "lat": 41.1447,
+  "lon": -79.4178,
+  "quelle": "geschätzt aus New York"
+ },
+ "New York City": {
+  "lat": 38.6858,
+  "lon": -74.3575,
+  "quelle": "Küstenabgleich, von Hand korrigiert"
+ },
+ "Paris": {
+  "lat": 46.0003,
+  "lon": 2.3488,
+  "quelle": "Küstenabgleich"
+ },
+ "Pula": {
+  "lat": 43.8631,
+  "lon": 13.6723,
+  "quelle": "Küstenabgleich (Triest)"
+ },
+ "Trieste": {
+  "lat": 44.6579,
+  "lon": 13.601,
+  "quelle": "Küstenabgleich (Triest)"
+ }
+};
