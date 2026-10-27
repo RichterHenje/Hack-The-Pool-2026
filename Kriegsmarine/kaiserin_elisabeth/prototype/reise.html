@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reise 1892–1893</title>
+  <meta name="description" content="Prototyp: die Weltreise 1892–93 Tag für Tag aus Franz Ferdinands Tagebuch, mit Jagdstellen, Kulturpool-Datensätzen und Pressestimmen.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reise.css">
+</head>
+<body>
+  <aside id="panel">
+    <header>
+      <p class="kicker">Hack the Pool 2026 · Prototyp · <a href="index.html">Alle Reisen des Schiffs</a></p>
+      <h1>Reise 1892–1893</h1>
+      <p class="sub">SMS Kaiserin Elisabeth, Tag für Tag</p>
+      <p class="intro">Die Route folgt dem gedruckten Tagebuch Franz Ferdinands (1895/96). Die Ebene
+        „Jagd“ zeigt, wo das Tagebuch vom Erlegen und Schießen erzählt, im Wortlaut. Sie liest die
+        Quelle gegen den Strich: was für die Sammlung erlegt wurde, wer mitjagte, welche Tiere genannt sind.</p>
+    </header>
+
+    <section>
+      <h2>Ebenen</h2>
+      <div class="layers">
+        <label><input type="checkbox" id="lyr-route" checked> Route (Tagebuch)</label>
+        <label><input type="checkbox" id="lyr-hunt" checked> Jagd</label>
+        <label><input type="checkbox" id="lyr-kp"> Kulturpool</label>
+        <label><input type="checkbox" id="lyr-press" checked> Presse (ANNO)</label>
+      </div>
+      <dl id="stats" class="stats"></dl>
+    </section>
+
+    <section>
+      <div class="stepper">
+        <button type="button" id="prev" aria-label="Vorheriger Tag">‹</button>
+        <select id="day" aria-label="Tag wählen"></select>
+        <button type="button" id="next" aria-label="Nächster Tag">›</button>
+      </div>
+      <article id="card" class="card" aria-live="polite"></article>
+    </section>
+
+    <section class="sources">
+      <h2>Quellen und Grenzen</h2>
+      <ul class="plain">
+        <li>Franz Ferdinand: <em>Tagebuch meiner Reise um die Erde 1892–1893</em>, 2 Bde., Wien 1895/96
+          (gemeinfrei; Digitalisat Internet Archive). Text aus der automatischen Texterkennung,
+          nach Tagen gegliedert vom Team; Zitate am Scan prüfen.</li>
+        <li>„Jagd“: Sätze mit erlegen/schießen. Genannte Tiere sind nicht gleich getötete Tiere;
+          Zählungen sind ungeprüft. Andere Stimmen (Begleiter, lokale Akteure, Presse) zeigt die Karte,
+          soweit Quellen vorliegen.</li>
+        <li>Orte: GeoNames (CC BY 4.0); kleine Orte ohne Koordinate stehen nur in der Tagesliste.</li>
+        <li>Presse: von Hand ausgewählt aus ANNO (Österreichische Nationalbibliothek).</li>
+      </ul>
+    </section>
+  </aside>
+
+  <main id="map" aria-label="Karte der Reise"></main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="data/world.js"></script>
+  <script src="data/ke_data.js"></script>
+  <script src="data/ke_diary.js"></script>
+  <script src="reise.js"></script>
+</body>
+</html>

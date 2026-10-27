@@ -27,6 +27,7 @@ from kp import geo
 
 # The vault next to this folder (team repo layout) or a local clone of the team branch
 _VAULT_CANDIDATES = [
+    Path("../Vault/Archive_Indien_Schiffreisen"),  # team repo: Kriegsmarine/kaiserin_elisabeth/
     Path("../Kriegsmarine/Vault/Archive_Indien_Schiffreisen"),
     Path("reference/team-khm/Kriegsmarine/Vault/Archive_Indien_Schiffreisen"),
 ]

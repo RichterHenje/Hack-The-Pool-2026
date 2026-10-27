@@ -96,6 +96,13 @@ def test_historic_names():
     assert geo.historic_names("Peking, China") == []
 
 
+def test_context_countries_restrict_matches():
+    g = _gaz([_rec("1", "Livingston", "P", "ZM", 136000), _rec("2", "Livingston", "P", "US", 7000)])
+    assert g.lookup("Livingston")["country"] == "ZM"  # biggest wins without context
+    assert g.lookup("Livingston", countries={"CA", "US"})["country"] == "US"
+    assert g.lookup("Livingston", countries={"JP"}) is None
+
+
 def test_country_names_only_match_city_state_capitals():
     sg = _rec("9", "Singapur", "P", "SG", 5_000_000)
     sg["fcode"] = "PPLC"

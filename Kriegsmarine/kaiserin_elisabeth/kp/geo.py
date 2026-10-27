@@ -333,17 +333,18 @@ class Gazetteer:
                     if n:
                         self.index.setdefault(norm(n), []).append(rec)
 
-    def lookup(self, name: str) -> dict | None:
+    def lookup(self, name: str, countries: set[str] | None = None) -> dict | None:
         """Best match for a place string, or None (also for placeholders).
 
         Adds: 'matched' (the part that matched), 'candidates' (distinct places with that
         name), 'ambiguous' (more than one), 'geonames' (IRI, comparable with Kulturpool's).
         If the string names a country ('Beli, Nepal'), only places in that country count:
-        better no match than Bury, England.
+        better no match than Bury, England. `countries` does the same from context the
+        caller knows (e.g. the stretch of an itinerary a dated entry belongs to).
         """
         if is_placeholder(name):
             return None
-        hints = country_hints(name)
+        hints = country_hints(name) or set(countries or ())
         for part in name_parts(name):
             cands = {c["geonameid"]: c for c in self.index.get(norm(part), [])}.values()
             if norm(part) in COUNTRIES:
