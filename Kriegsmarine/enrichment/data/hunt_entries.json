@@ -1,11 +1,13 @@
 [
  {
   "date": "1892-12-20",
-  "place_raw": "Port Said",
+  "place_raw": "Port Said, Egypt",
   "place_id": "port-said",
   "region": "port-said",
   "band": 1,
   "scan": 21,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n20/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "bird": 2
   },
@@ -30,17 +32,43 @@
  },
  {
   "date": "1893-01-10",
-  "place_raw": "Kalawewa",
+  "place_raw": "Kalawewa, Ceylon",
   "place_id": "kalawewa",
   "region": "ceylon",
   "band": 1,
-  "scan": 26,
+  "scan": 73,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n72/mode/1up",
+  "day_method": "heading",
   "animals": {
-   "elephant": 4,
+   "elephant": 1
+  },
+  "kill_sentences": 1,
+  "first_person": 0,
+  "quotes": [
+   {
+    "text": "DieSchikäris hatten den Abend vorher gemeldet, der angeschweißte Elephant sei von ihnen gesehen worden, befinde sich in der Mitte einer Herde und klage laut, so dass er in wenigen Tagen verendet sein dürfte.",
+    "animals": [
+     "elephant"
+    ],
+    "first_person": false
+   }
+  ]
+ },
+ {
+  "date": "1893-01-11",
+  "place_raw": "Kalawewa, Ceylon",
+  "place_id": "kalawewa",
+  "region": "ceylon",
+  "band": 1,
+  "scan": 75,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n74/mode/1up",
+  "day_method": "heading",
+  "animals": {
+   "elephant": 3,
    "monkey": 2,
    "bird": 2
   },
-  "kill_sentences": 7,
+  "kill_sentences": 6,
   "first_person": 5,
   "quotes": [
    {
@@ -76,11 +104,13 @@
  },
  {
   "date": "1893-01-12",
-  "place_raw": "Kandy",
-  "place_id": "kandy",
+  "place_raw": "Kalawewa to Kandy, Ceylon",
+  "place_id": "kalawewa",
   "region": "ceylon",
   "band": 1,
-  "scan": 26,
+  "scan": 81,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n80/mode/1up",
+  "day_method": "heading",
   "animals": {
    "buffalo": 1
   },
@@ -98,11 +128,13 @@
  },
  {
   "date": "1893-01-18",
-  "place_raw": "Bombay",
+  "place_raw": "Bombay, India",
   "place_id": "bombay",
   "region": "bombay",
   "band": 1,
   "scan": 99,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n98/mode/1up",
+  "day_method": "heading",
   "animals": {
    "bird": 1
   },
@@ -119,12 +151,14 @@
   ]
  },
  {
-  "date": "1893-01-21",
-  "place_raw": "TaiuUir",
+  "date": "1893-01-22",
+  "place_raw": "Tandur, India",
   "place_id": "tandur",
   "region": "hyderabad",
   "band": 1,
-  "scan": 116,
+  "scan": 119,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n118/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "bird": 1
   },
@@ -142,11 +176,13 @@
  },
  {
   "date": "1893-01-23",
-  "place_raw": "Tandur",
+  "place_raw": "Tandur, India",
   "place_id": "tandur",
   "region": "hyderabad",
   "band": 1,
   "scan": 121,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n120/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "tiger": 2
   },
@@ -170,12 +206,14 @@
   ]
  },
  {
-  "date": "1893-01-25",
-  "place_raw": "Haidarabad",
+  "date": "1893-01-26",
+  "place_raw": "Hyderabad, India",
   "place_id": "hyderabad",
   "region": "hyderabad",
   "band": 1,
-  "scan": 137,
+  "scan": 145,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n144/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "deer": 5,
    "tiger": 1
@@ -214,12 +252,59 @@
   ]
  },
  {
+  "date": "1893-01-30",
+  "place_raw": "Gwalior, India",
+  "place_id": null,
+  "region": null,
+  "band": 1,
+  "scan": 165,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n164/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "bird": 5
+  },
+  "kill_sentences": 5,
+  "first_person": 5,
+  "quotes": [
+   {
+    "text": "Mehrere Exemplare wurden mir zur Beute, leider fehlte ich aber mit einem nicht erprobten tlcwehre einen Adler, der sehr an unseren Kaiseradler erinnerte.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Auf dem ersten Teiche saß ein Schwärm von mindestens vierbis fünfhundert verschiedener Enten, deren ich drei erlegte.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Am Rande des Teiches fortschreitend, erbeutete ich noch eine -Anzahl Enten und zwei gemeine Blässhühner, mehrere Storchschnepfen lind eine Rohrweihe.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Jt^in kaum hatte ich auf die beiden Kraniche geschossen, so streicht ülier meinen Kopf ein großer Silberreiher, auf den ich, statt den kranken \"^\"^nich auszumachen, schieße;",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true
+   }
+  ]
+ },
+ {
   "date": "1893-02-03",
-  "place_raw": "Calcutta",
+  "place_raw": "Calcutta, India",
   "place_id": "calcutta",
   "region": "calcutta",
   "band": 1,
   "scan": 181,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n180/mode/1up",
+  "day_method": "heading",
   "animals": {
    "bird": 1
   },
@@ -236,19 +321,43 @@
   ]
  },
  {
+  "date": "1893-02-11",
+  "place_raw": "Benares, India",
+  "place_id": null,
+  "region": null,
+  "band": 1,
+  "scan": 222,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n221/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "tiger": 1
+  },
+  "kill_sentences": 1,
+  "first_person": 1,
+  "quotes": [
+   {
+    "text": "Auf '^ein Befragen theilte er mir mit, dass er in seinem Staate bereits ^ Tiger erlegt habe, Dass uns ein Photograph vor dem Palaste in einer Gruppe aufnahm, braucht kaum ausdrücklich erwähnt zu werden.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true
+   }
+  ]
+ },
+ {
   "date": "1893-02-13",
-  "place_raw": "Agra",
+  "place_raw": "Agra, India (Fatehpur Sikri)",
   "place_id": "agra",
   "region": "agra",
   "band": 1,
   "scan": 239,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n238/mode/1up",
+  "day_method": "aligned",
   "animals": {
-   "bird": 9,
-   "antelope": 3,
-   "deer": 1
+   "bird": 5
   },
-  "kill_sentences": 13,
-  "first_person": 9,
+  "kill_sentences": 5,
+  "first_person": 5,
   "quotes": [
    {
     "text": "Unmittelbar nachdem wir die Stadt verlassen hatten, schoss ich vom Wagen aus mehrere große Geier (Gyps indicus und Gyps bengalensisl ferner einen der so häufig sichtbaren Schmutzgeier und einige Schmarotzer- oder Pariah-Milane.",
@@ -281,12 +390,61 @@
   ]
  },
  {
+  "date": "1893-02-14",
+  "place_raw": "Agra, India",
+  "place_id": "agra",
+  "region": "agra",
+  "band": 1,
+  "scan": 244,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n243/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "bird": 4,
+   "antelope": 3,
+   "deer": 1
+  },
+  "kill_sentences": 8,
+  "first_person": 4,
+  "quotes": [
+   {
+    "text": "Dann gieng\"s quer durch einen Teich in ein dichteres, wildreiches Dschungel, wo ich mehrere größere Rudei von Black-bucks antraf, aber nur einen starken Bock in voller Flucht erlegen konnte.",
+    "animals": [
+     "deer"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "doch suchten leider die seltenen und scheuen Exemplare, besonders die Kraniche, Störche und Reiher sehr bald das Weite, so dass mir nur zwei schneeweiße Silberreiher (.\\rdea alba, im Winterkleide) zur Beute fielen.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "wobei ich einen flüchtigen, auffallend starken Nilgau-Stier streckte und einen Black-buck anschweißte, dessen wir jedoch wegen Mangels an Zeit zur Nachsuche nicht habhaft wurden.",
+    "animals": [
+     "antelope"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Während der Rückfahrt schoss ich noch vom Damm aus eine im Dschungel niedergethane Nilgau-Kuh.",
+    "animals": [
+     "antelope"
+    ],
+    "first_person": true
+   }
+  ]
+ },
+ {
   "date": "1893-02-15",
-  "place_raw": "Agra — Bhartpur",
+  "place_raw": "Agra, India",
   "place_id": "agra",
   "region": "agra",
   "band": 1,
   "scan": 249,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n248/mode/1up",
+  "day_method": "heading",
   "animals": {
    "antelope": 4,
    "bird": 1,
@@ -327,12 +485,14 @@
   ]
  },
  {
-  "date": "1893-02-16",
-  "place_raw": "Dehii",
+  "date": "1893-02-17",
+  "place_raw": "Delhi, India",
   "place_id": "delhi",
   "region": "delhi",
   "band": 1,
-  "scan": 257,
+  "scan": 261,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n260/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "bird": 1
   },
@@ -350,21 +510,20 @@
  },
  {
   "date": "1893-02-20",
-  "place_raw": "Siriska",
+  "place_raw": "Sariska, India",
   "place_id": "sariska",
   "region": "alwar",
   "band": 1,
   "scan": 275,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n274/mode/1up",
+  "day_method": "aligned",
   "animals": {
-   "deer": 3,
    "elephant": 2,
    "crocodile": 1,
-   "tiger": 1,
-   "bird": 1,
-   "antelope": 1
+   "tiger": 1
   },
-  "kill_sentences": 8,
-  "first_person": 3,
+  "kill_sentences": 3,
+  "first_person": 1,
   "quotes": [
    {
     "text": "Die Ruinen eines alten Tempel lu^;cn unter dein Schatten riesiger Bäume hervor, ein dunkelgrüne VVciliL-r erfreut diis Auge, steile Lehnen ragen rechts und links empoi I icr I (iiltpidtz wnr auch das Rendezvous für sämmtliche Jagdelephanten dir 14 an der Zahl — schön ausgerichtet mit ihren Mahäuls unc lläudiis ddsliuulen, sowie für sämmtliche Pferde und Tragkameele Da nKui uns erst in zwei Stunden",
@@ -374,6 +533,39 @@
     ],
     "first_person": true
    },
+   {
+    "text": "Wenn nur die .Anzahl Jer Tiger, die uns zur Beute fallen sollen, im entsprechenden Verhältniwe zu der aufgewendeten Pracht steht!",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": false
+   },
+   {
+    "text": "Da ist zunächst das Lager der Jagdelephanten, ihrer .Mahäuts und Wärter, wo nach vollbrachtem Tagewerke die großen Thiere gefüttert und dann, sich i\\i diesem Zwecke oft niederlegend, von den Wärtern geputzt, gestriegelt und gewaschen werden, An dieses Lager schließt sich jenes der Treiber und Kameele.",
+    "animals": [
+     "elephant"
+    ],
+    "first_person": false
+   }
+  ]
+ },
+ {
+  "date": "1893-02-22",
+  "place_raw": "Sariska, India",
+  "place_id": "sariska",
+  "region": "alwar",
+  "band": 1,
+  "scan": 281,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n280/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "deer": 3,
+   "bird": 1,
+   "antelope": 1
+  },
+  "kill_sentences": 5,
+  "first_person": 2,
+  "quotes": [
    {
     "text": "Der Fährte folgend, sah ich den kranken Hirsch durch dichtes Gestrüpp ziehen und schoss noch einmal, fehlte jedoch in der Hitze des Gefechtes.",
     "animals": [
@@ -389,9 +581,16 @@
     "first_person": true
    },
    {
-    "text": "Wenn nur die .Anzahl Jer Tiger, die uns zur Beute fallen sollen, im entsprechenden Verhältniwe zu der aufgewendeten Pracht steht!",
+    "text": "Die im Thale zurückgebliebenen Herren und die eingeborenen Jäger hatten nach dem Schusse den Hirsch ebenfalls krank flüchten gesehen, und nun gieng es mit wildem Geschrei und Durcheinander hinter dem angeschossenen Stücke her.",
     "animals": [
-     "tiger"
+     "deer"
+    ],
+    "first_person": false
+   },
+   {
+    "text": "Solange noch Schussücht andauerte, streiften wir in der Ebene beim Camp und brachten zahlreiche Hühner und Sand grouse zur Strecke.",
+    "animals": [
+     "bird"
     ],
     "first_person": false
    }
@@ -399,11 +598,13 @@
  },
  {
   "date": "1893-02-23",
-  "place_raw": "Siriska",
+  "place_raw": "Sariska, India",
   "place_id": "sariska",
   "region": "alwar",
   "band": 1,
   "scan": 283,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n282/mode/1up",
+  "day_method": "heading",
   "animals": {
    "antelope": 2,
    "bird": 1,
@@ -444,20 +645,66 @@
  },
  {
   "date": "1893-02-24",
-  "place_raw": "Siriska",
+  "place_raw": "Sariska, India",
   "place_id": "sariska",
   "region": "alwar",
   "band": 1,
   "scan": 285,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n284/mode/1up",
+  "day_method": "aligned",
   "animals": {
-   "tiger": 5,
+   "tiger": 5
+  },
+  "kill_sentences": 5,
+  "first_person": 3,
+  "quotes": [
+   {
+    "text": "Ich richtete mich 1 in meiner Häuda so gut als möglich ein und legte zwei Springer'sche Stutzen geladen neben mich, mit der Absicht, dem Tiger aus meinem alten 500er Stutzen, dessen ich mich auf heimatlichen Jagden bei der Erlegung von über tausend Stück Wild bedient hatte, den ersten Gruss zu senden.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Meine Freude über den ersten Tiger, den ich erlegt, vermag ich ■ I ''nicht zu schildern;",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Der heutige Tag mit seiner Beute von zwei Tigern im Verlaufe von kaum einer halben Stunde bildet die schönste jagdliche Erinnerung ^nieines Lebens, und heißen Dank sage ich dem heiligen Hubertus für ^Bplches Waidwerk, ^B Die beiden Tiger waren starke, ausgewachsene Exemplare mit ^^uffallend schönen, tadellosen Decken und nach Schätzung des OberstJägermeisters fünfjährig.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Manöver des Tigers bemerkt und schoss einige Meter vor denselben 1 hin, um ihn zu einer Wendung zu bestimmen.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": false
+   }
+  ]
+ },
+ {
+  "date": "1893-02-25",
+  "place_raw": "Sariska, India",
+  "place_id": "sariska",
+  "region": "alwar",
+  "band": 1,
+  "scan": 289,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n288/mode/1up",
+  "day_method": "aligned",
+  "animals": {
    "deer": 1,
    "antelope": 1,
    "jackal": 1,
    "bird": 1
   },
-  "kill_sentences": 7,
-  "first_person": 5,
+  "kill_sentences": 2,
+  "first_person": 2,
   "quotes": [
    {
     "text": "Während ich nach dem letzten Triebe auf einem Umwe^je dem Lager zustrebte, gelang es mir, mit zwei Schüssen auf weite Distanz — über 300 Schritte — zwei Chinkara-Gazellen, Bock und Gais, äußerst zierliche, graziöse Thiere, zu erlegen.",
@@ -474,30 +721,18 @@
      "bird"
     ],
     "first_person": true
-   },
-   {
-    "text": "Ich richtete mich 1 in meiner Häuda so gut als möglich ein und legte zwei Springer'sche Stutzen geladen neben mich, mit der Absicht, dem Tiger aus meinem alten 500er Stutzen, dessen ich mich auf heimatlichen Jagden bei der Erlegung von über tausend Stück Wild bedient hatte, den ersten Gruss zu senden.",
-    "animals": [
-     "tiger"
-    ],
-    "first_person": true
-   },
-   {
-    "text": "Meine Freude über den ersten Tiger, den ich erlegt, vermag ich ■ I ''nicht zu schildern;",
-    "animals": [
-     "tiger"
-    ],
-    "first_person": true
    }
   ]
  },
  {
   "date": "1893-02-27",
-  "place_raw": "Sirtska — Alwar",
+  "place_raw": "Sariska to Alwar, India",
   "place_id": "sariska",
   "region": "alwar",
   "band": 1,
   "scan": 293,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n292/mode/1up",
+  "day_method": "heading",
   "animals": {
    "deer": 2,
    "antelope": 1,
@@ -533,12 +768,14 @@
   ]
  },
  {
-  "date": "1893-02-28",
-  "place_raw": "H Dschodpur",
+  "date": "1893-03-01",
+  "place_raw": "Jodhpur, India",
   "place_id": "jodhpur",
   "region": "jodhpur",
   "band": 1,
-  "scan": 300,
+  "scan": 314,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n313/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "deer": 2,
    "bird": 1,
@@ -573,11 +810,13 @@
  },
  {
   "date": "1893-03-02",
-  "place_raw": "Dscbodpur",
+  "place_raw": "Jodhpur, India",
   "place_id": "jodhpur",
   "region": "jodhpur",
   "band": 1,
   "scan": 317,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n316/mode/1up",
+  "day_method": "heading",
   "animals": {
    "boar": 2
   },
@@ -602,11 +841,13 @@
  },
  {
   "date": "1893-03-03",
-  "place_raw": "Dschaipur",
+  "place_raw": "Jaipur, India",
   "place_id": "jaipur",
   "region": "jaipur",
   "band": 1,
   "scan": 328,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n327/mode/1up",
+  "day_method": "heading",
   "animals": {
    "deer": 1
   },
@@ -624,11 +865,13 @@
  },
  {
   "date": "1893-03-04",
-  "place_raw": "Dschaipur",
+  "place_raw": "Jaipur, India",
   "place_id": "jaipur",
   "region": "jaipur",
   "band": 1,
   "scan": 336,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n335/mode/1up",
+  "day_method": "heading",
   "animals": {
    "antelope": 1,
    "deer": 1,
@@ -662,11 +905,13 @@
  },
  {
   "date": "1893-03-07",
-  "place_raw": "Dschaipur — Agra",
+  "place_raw": "Jaipur to Agra, India",
   "place_id": "agra",
   "region": "agra",
   "band": 1,
   "scan": 346,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n345/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "antelope": 2,
    "bird": 1
@@ -692,41 +937,70 @@
   ]
  },
  {
+  "date": "1893-03-09",
+  "place_raw": "Dakna Bagh, Nepal",
+  "place_id": "nepal-terai",
+  "region": "nepal",
+  "band": 1,
+  "scan": 356,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n355/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "tiger": 4,
+   "peafowl": 1,
+   "bird": 1,
+   "monkey": 1
+  },
+  "kill_sentences": 6,
+  "first_person": 4,
+  "quotes": [
+   {
+    "text": "Das zuerst von mir erlegte Thier, eine capitale Tigerin, hatte zum Glücke nur meinen Schuss, auf den hin die Katze gestürzt war.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Eine Reihe von Schüssen wurde dann noch auf den verendenden Tiger abgegeben, eine hier übliche Unsitte, die ich nicht billigen kann, Meil sie Zweifel darüber her\\'orruft, wem ein erlegter Tiger zuzusprechen ,^ei, und weil sie wegen der Gewehre großen Calibers, welche die Engländer führen, den \\'erderb des schönen Felles nach sich zieht;",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Unter den Eingeborenen verlautete, dass der zuletzt erbeutete Tiger, ein stärkeres Männchen, mit jenem nicht identisch sei, auf Jon ich geschossen hatte.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Ich theilte diese .Ansicht jedoch nicht und glaube vielmehr, den Tiger im zu unterscheiden war, so dass man ungefähr folgern konnte, worauf der Nachbar wohl geschossen haben mochte.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true
+   }
+  ]
+ },
+ {
   "date": "1893-03-10",
-  "place_raw": "Dakna Bägh",
+  "place_raw": "Dakna Bagh, Nepal",
   "place_id": "nepal-terai",
   "region": "nepal",
   "band": 1,
   "scan": 362,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n361/mode/1up",
+  "day_method": "aligned",
   "animals": {
-   "tiger": 5,
-   "leopard": 3,
-   "bird": 3,
-   "boar": 2,
-   "elephant": 2,
    "crocodile": 1,
-   "peafowl": 1,
-   "deer": 1
+   "boar": 1,
+   "elephant": 1
   },
-  "kill_sentences": 15,
-  "first_person": 9,
+  "kill_sentences": 3,
+  "first_person": 3,
   "quotes": [
-   {
-    "text": "welche anfänglich die Panther für Tiger gehalten hatten, erklärte sich aus der seltenen Stärke der Panther, deren einen erlegt zu haben, mich umsumehr beglückte, als er mein erster war.",
-    "animals": [
-     "tiger",
-     "leopard"
-    ],
-    "first_person": true
-   },
-   {
-    "text": "Nach diesem interessanten Intermezzo wurde die Streuung fnrlgeselzt, in deren Verlauf ich zunächst einige Bellende Hirsche erbeutete, die immer knapp vor dem Elephanten aufstanden und, in dem hohen Grase kaum sichtbar, llüchtig wie Hasen ausrissen.",
-    "animals": [
-     "elephant",
-     "deer"
-    ],
-    "first_person": true
-   },
    {
     "text": "Ein auf einer kleinen Insel sich sonnendes Krokodil von riesigen Dimensionen schoss ich an, ohne desselben habhaft werden zu können, da es nach dem Schusse in tiefes, schlammiges Wasser glitt und darin verschwand.",
     "animals": [
@@ -740,16 +1014,124 @@
      "boar"
     ],
     "first_person": true
+   },
+   {
+    "text": "Unmittelbar naL-hher erlegte ich auch mein erstes Stachelschwein, das in der N'ähe meines Elephanten hoch geworden war und in der Flucht einen höchst befremdlichen, komischen .Anblick dargeboten hatte.",
+    "animals": [
+     "elephant"
+    ],
+    "first_person": true
+   }
+  ]
+ },
+ {
+  "date": "1893-03-11",
+  "place_raw": "Dakna Bagh, Nepal",
+  "place_id": "nepal-terai",
+  "region": "nepal",
+  "band": 1,
+  "scan": 364,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n363/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "tiger": 5,
+   "leopard": 2
+  },
+  "kill_sentences": 6,
+  "first_person": 4,
+  "quotes": [
+   {
+    "text": "welche anfänglich die Panther für Tiger gehalten hatten, erklärte sich aus der seltenen Stärke der Panther, deren einen erlegt zu haben, mich umsumehr beglückte, als er mein erster war.",
+    "animals": [
+     "tiger",
+     "leopard"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Ich ritt nun zu der Stelle hin und fand da einen sehr starken, bereits verendeten Panther, den Kinsky erlegt halte, während dort, wo ich hingeschossen, ebenfalls ein auffaltend starker, dunkelgefärbter Panther mit zwei Blattschüssen lag.",
+    "animals": [
+     "leopard"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Kinsky schoss, kurz nachdem er angelangt war, den von mir angeschweißten Tiger — ein prächtiges Exemplar — nieder.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "so dass, da wir aulJerdem unsere Schlisse kannten, darüber kein Zwtifd bestand, dass ich zwei und Clani einen Tiger erlegt halte.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true
+   }
+  ]
+ },
+ {
+  "date": "1893-03-12",
+  "place_raw": "Dakna Bagh, Nepal",
+  "place_id": "nepal-terai",
+  "region": "nepal",
+  "band": 1,
+  "scan": 367,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n366/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "bird": 3,
+   "boar": 1,
+   "peafowl": 1,
+   "elephant": 1,
+   "deer": 1,
+   "leopard": 1
+  },
+  "kill_sentences": 6,
+  "first_person": 2,
+  "quotes": [
+   {
+    "text": "Nach diesem interessanten Intermezzo wurde die Streuung fnrlgeselzt, in deren Verlauf ich zunächst einige Bellende Hirsche erbeutete, die immer knapp vor dem Elephanten aufstanden und, in dem hohen Grase kaum sichtbar, llüchtig wie Hasen ausrissen.",
+    "animals": [
+     "elephant",
+     "deer"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "knallten derselben entlang auch schon Schüsse auf mannigfaltiges WTM ich schoss einen starken Keiler, Clam ein Stachelschwein;",
+    "animals": [
+     "boar"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "auch wurd*^ mehrere Hirtiche, sowie Pfauen und Frankolinhühner, die vor unsal standen, erlegt.",
+    "animals": [
+     "peafowl",
+     "bird"
+    ],
+    "first_person": false
+   },
+   {
+    "text": ".Prönay und Stockinger hatten auf einen Panther im hohen Grase geschossen und ihn gefehlt.",
+    "animals": [
+     "leopard"
+    ],
+    "first_person": false
    }
   ]
  },
  {
   "date": "1893-03-13",
-  "place_raw": "Barbatta Tai",
+  "place_raw": "Barbatta Valley, Nepal",
   "place_id": "nepal-terai",
   "region": "nepal",
   "band": 1,
   "scan": 373,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n372/mode/1up",
+  "day_method": "heading",
   "animals": {
    "tiger": 1
   },
@@ -767,11 +1149,13 @@
  },
  {
   "date": "1893-03-14",
-  "place_raw": "Dechta Bnli",
+  "place_raw": "Dechta Boli, Nepal",
   "place_id": "nepal-terai",
   "region": "nepal",
   "band": 1,
   "scan": 375,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n374/mode/1up",
+  "day_method": "heading",
   "animals": {
    "bird": 2,
    "deer": 1,
@@ -800,11 +1184,13 @@
  },
  {
   "date": "1893-03-16",
-  "place_raw": "Dcchta Boli",
+  "place_raw": "Dechta Boli, Nepal",
   "place_id": "nepal-terai",
   "region": "nepal",
   "band": 1,
   "scan": 377,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n376/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "deer": 2,
    "tiger": 1,
@@ -839,18 +1225,19 @@
  },
  {
   "date": "1893-03-18",
-  "place_raw": "Beli",
+  "place_raw": "Beli, Nepal",
   "place_id": "nepal-terai",
   "region": "nepal",
   "band": 1,
   "scan": 379,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n378/mode/1up",
+  "day_method": "aligned",
   "animals": {
-   "tiger": 6,
-   "elephant": 2,
-   "deer": 1
+   "deer": 1,
+   "elephant": 1
   },
-  "kill_sentences": 9,
-  "first_person": 5,
+  "kill_sentences": 2,
+  "first_person": 2,
   "quotes": [
    {
     "text": "Ich erlegte in der Folge meinen ersten Sumpfhirsch, der leider nur ein Spießer, im Wildpret jedoch so stark war wie ein sehr guter jagdbarer Hirsch unserer Wälder;",
@@ -865,16 +1252,26 @@
      "elephant"
     ],
     "first_person": true
-   },
+   }
+  ]
+ },
+ {
+  "date": "1893-03-19",
+  "place_raw": "Beli, Nepal",
+  "place_id": "nepal-terai",
+  "region": "nepal",
+  "band": 1,
+  "scan": 380,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n379/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "tiger": 1
+  },
+  "kill_sentences": 1,
+  "first_person": 1,
+  "quotes": [
    {
     "text": "Bei all dem war ich sehr erfreut, das« gerade Wurmbrand, der bisher noch kein W'ai dm annsheil gehabt, den Tiger erlegt hatte.",
-    "animals": [
-     "tiger"
-    ],
-    "first_person": true
-   },
-   {
-    "text": "Kurz darauf schoss Wurmbrand links von mir auf einen schwachen Tiger, den ich nicht sehen konnte und der sich, auch getroffen, in einem Grasbusche verbarg.",
     "animals": [
      "tiger"
     ],
@@ -883,12 +1280,84 @@
   ]
  },
  {
-  "date": "1893-03-22",
-  "place_raw": "Katni",
+  "date": "1893-03-20",
+  "place_raw": "Katni, Nepal",
   "place_id": "nepal-terai",
   "region": "nepal",
   "band": 1,
-  "scan": 385,
+  "scan": 381,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n380/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "tiger": 1
+  },
+  "kill_sentences": 1,
+  "first_person": 0,
+  "quotes": [
+   {
+    "text": "Der Tiger riss bald vor den Elephanten aus, schlich einige Zeit n dem Dschungel umher und fuhr dann plötzlich gegen Kinsky, der hn fehlte, heraus, um sofort wieder im Grasdickichte zu verschwinden;",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": false
+   }
+  ]
+ },
+ {
+  "date": "1893-03-21",
+  "place_raw": "Katni, Nepal",
+  "place_id": "nepal-terai",
+  "region": "nepal",
+  "band": 1,
+  "scan": 383,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n382/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "tiger": 4,
+   "elephant": 1
+  },
+  "kill_sentences": 5,
+  "first_person": 2,
+  "quotes": [
+   {
+    "text": "Kurz darauf schoss Wurmbrand links von mir auf einen schwachen Tiger, den ich nicht sehen konnte und der sich, auch getroffen, in einem Grasbusche verbarg.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Im Lager statteten wir dem armen angeschossenen Elephanten einen Besuch ab und fanden ihn eben unter der Behandlung des Arztes, wobei ich die Klugheit und Geduld des Thieres bewundern konnte.",
+    "animals": [
+     "elephant"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "doch da die Eingeborenen mit Bestimmtheit auf einen Tiger rechneten und uns versicherten, dass ein solcher sich in der Nähe befände, wurde die Linie gebildet und ein Streif in einem ziemlich lichten, benachbarten Dschungel unternommen, wobei aber auf kein anderes Wild als auf Tiger geschossen werden sollte.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": false
+   },
+   {
+    "text": "Stockinger und Prönay wollten die hiedurch eingerissene Lücke verstellen, verloren aber hiebei die Direction, erschienen im Jagdeifer plötzlich mitten im Kreise vor uns und eröffneten hier, auf den von Wurmbrand angeschossenen Tiger stoßend, auf diesen ein wohlgenährtes Schnellfeuer, so dass er zum Schlüsse von sieben Kugeln durchbohrt auf die Strecke gebracht wurde.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": false
+   }
+  ]
+ },
+ {
+  "date": "1893-03-23",
+  "place_raw": "Katni, Nepal",
+  "place_id": "nepal-terai",
+  "region": "nepal",
+  "band": 1,
+  "scan": 386,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n385/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "tiger": 1,
    "deer": 1
@@ -914,11 +1383,13 @@
  },
  {
   "date": "1893-03-26",
-  "place_raw": "Sohela",
+  "place_raw": "Bhanderia to Sohela, India",
   "place_id": "nepal-terai",
   "region": "nepal",
   "band": 1,
   "scan": 388,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n387/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "leopard": 1,
    "elephant": 1
@@ -938,11 +1409,13 @@
  },
  {
   "date": "1893-04-05",
-  "place_raw": "In See nach SingapurPulu Besar",
+  "place_raw": "At Sea to Singapore",
   "place_id": null,
   "region": null,
   "band": 1,
   "scan": 405,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n404/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "bird": 2
   },
@@ -966,12 +1439,38 @@
   ]
  },
  {
+  "date": "1893-04-06",
+  "place_raw": "Singapore",
+  "place_id": null,
+  "region": null,
+  "band": 1,
+  "scan": 412,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n411/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "crocodile": 1
+  },
+  "kill_sentences": 1,
+  "first_person": 1,
+  "quotes": [
+   {
+    "text": "Die zoologische .'\\btheilung ist ziemlich lückenhaft, nur einige mir unbekannte Vertreter der Ornis von Malakka und ein auffallend großes Krokodil, das in der Nähe von Singapur erlegt worden, erregten hier meine Aufmerksamkeit, Die ethnof^raphische .Abtheilung befindet sich in ziemlich verwahrlostem Zustande.",
+    "animals": [
+     "crocodile"
+    ],
+    "first_person": true
+   }
+  ]
+ },
+ {
   "date": "1893-04-11",
-  "place_raw": "Baiavia",
+  "place_raw": "Batavia, Java",
   "place_id": "batavia",
   "region": "java",
   "band": 1,
   "scan": 436,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n435/mode/1up",
+  "day_method": "heading",
   "animals": {
    "crocodile": 3
   },
@@ -1002,12 +1501,14 @@
   ]
  },
  {
-  "date": "1893-04-14",
-  "place_raw": "Garut",
+  "date": "1893-04-15",
+  "place_raw": "Garut to Tjandjur, Java",
   "place_id": "garut",
   "region": "java",
   "band": 1,
-  "scan": 457,
+  "scan": 463,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n462/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "boar": 1,
    "rhinoceros": 1,
@@ -1037,11 +1538,13 @@
  },
  {
   "date": "1893-04-16",
-  "place_raw": "Tjiandjur",
+  "place_raw": "Tjandjur, Java",
   "place_id": "cianjur",
   "region": "java",
   "band": 1,
   "scan": 466,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n465/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "deer": 1
   },
@@ -1059,26 +1562,21 @@
  },
  {
   "date": "1893-04-19",
-  "place_raw": "Tjipandak",
+  "place_raw": "Sindangbarang to Tjipandak, Java",
   "place_id": "tjipandak",
   "region": "java",
   "band": 1,
   "scan": 478,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n477/mode/1up",
+  "day_method": "aligned",
   "animals": {
-   "buffalo": 3
+   "buffalo": 2
   },
-  "kill_sentences": 3,
-  "first_person": 2,
+  "kill_sentences": 2,
+  "first_person": 1,
   "quotes": [
    {
     "text": "Das Ziel meiner Wünsche war nämlich, einen Banteng zu erlegen und dessen prachtvoll gehörnten Kopf als Trophäe heimzuführen.",
-    "animals": [
-     "buffalo"
-    ],
-    "first_person": true
-   },
-   {
-    "text": "Herr Kerkhoven, der einigermaßen missvergnügt darüber schien, dass der Stier nicht von mir, sondern von Herrn Borrel erlegt worden war, hatte in der Ferne eine Banteng-Kuh gesehen;",
     "animals": [
      "buffalo"
     ],
@@ -1094,17 +1592,43 @@
   ]
  },
  {
+  "date": "1893-04-20",
+  "place_raw": "Tjipandak, Java",
+  "place_id": "tjipandak",
+  "region": "java",
+  "band": 1,
+  "scan": 483,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n482/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "buffalo": 1
+  },
+  "kill_sentences": 1,
+  "first_person": 1,
+  "quotes": [
+   {
+    "text": "Herr Kerkhoven, der einigermaßen missvergnügt darüber schien, dass der Stier nicht von mir, sondern von Herrn Borrel erlegt worden war, hatte in der Ferne eine Banteng-Kuh gesehen;",
+    "animals": [
+     "buffalo"
+    ],
+    "first_person": true
+   }
+  ]
+ },
+ {
   "date": "1893-04-21",
-  "place_raw": "Tjipandak",
+  "place_raw": "Tjipandak, Java",
   "place_id": "tjipandak",
   "region": "java",
   "band": 1,
   "scan": 485,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n484/mode/1up",
+  "day_method": "aligned",
   "animals": {
-   "bird": 2,
-   "buffalo": 1
+   "buffalo": 1,
+   "bird": 1
   },
-  "kill_sentences": 3,
+  "kill_sentences": 2,
   "first_person": 0,
   "quotes": [
    {
@@ -1120,7 +1644,24 @@
      "bird"
     ],
     "first_person": false
-   },
+   }
+  ]
+ },
+ {
+  "date": "1893-04-22",
+  "place_raw": "Tjipandak, Java",
+  "place_id": "tjipandak",
+  "region": "java",
+  "band": 1,
+  "scan": 486,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n485/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "bird": 1
+  },
+  "kill_sentences": 1,
+  "first_person": 0,
+  "quotes": [
    {
     "text": "Mehrere Tauben, darunter insbesondere Fruchttauben, fielen ir zur Beute;",
     "animals": [
@@ -1132,11 +1673,13 @@
  },
  {
   "date": "1893-04-23",
-  "place_raw": "Tjipandak",
+  "place_raw": "Tjipandak, Java",
   "place_id": "tjipandak",
   "region": "java",
   "band": 1,
   "scan": 487,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n486/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "peafowl": 1,
    "buffalo": 1
@@ -1161,12 +1704,14 @@
   ]
  },
  {
-  "date": "1893-05-05",
-  "place_raw": "Port Kennedy",
+  "date": "1893-05-06",
+  "place_raw": "Port Kennedy and Somerset Bay",
   "place_id": "port-kennedy",
   "region": "port-kennedy",
   "band": 1,
-  "scan": 507,
+  "scan": 512,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n511/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "bird": 1,
    "kangaroo": 1
@@ -1192,11 +1737,13 @@
  },
  {
   "date": "1893-05-07",
-  "place_raw": "Port Kennedv",
+  "place_raw": "Port Kennedy, Thursday Island (Prince of Wales Island)",
   "place_id": "port-kennedy",
   "region": "port-kennedy",
   "band": 1,
   "scan": 516,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n515/mode/1up",
+  "day_method": "heading",
   "animals": {
    "bird": 1
   },
@@ -1214,11 +1761,13 @@
  },
  {
   "date": "1893-05-08",
-  "place_raw": "Port Kennedy",
+  "place_raw": "Port Kennedy, Thursday Island",
   "place_id": "port-kennedy",
   "region": "port-kennedy",
   "band": 1,
   "scan": 520,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n519/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "bird": 1
   },
@@ -1235,12 +1784,42 @@
   ]
  },
  {
+  "date": "1893-05-16",
+  "place_raw": "Sydney, Australia",
+  "place_id": null,
+  "region": null,
+  "band": 1,
+  "scan": 536,
+  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n535/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "tiger": 1,
+   "elephant": 1,
+   "buffalo": 1
+  },
+  "kill_sentences": 1,
+  "first_person": 0,
+  "quotes": [
+   {
+    "text": "Steamer Point Kine Partie aus dem botanischen Garten von Peradenia 3 25 29 Kine Singhalesen-Ansiedelung Der Teich von Kalawewa 47 51 Der erste erlegte Elephant Der Kclsentempel auf der Insel Elephanta Die Thürme des Schweigens Das Jagdlager in Tandur Auf der Suche nach Tigern Eine StraÜe in Haidarabad 74 77 102 105 114 117 Kitt auf Elephanten durch Haidarabad Das Kort von üwalior 141 145 F^clief a",
+    "animals": [
+     "tiger",
+     "elephant",
+     "buffalo"
+    ],
+    "first_person": false
+   }
+  ]
+ },
+ {
   "date": "1893-05-18",
-  "place_raw": "Narromine",
+  "place_raw": "Narromine, Australia",
   "place_id": "narromine",
   "region": "nsw-west",
   "band": 2,
-  "scan": 24,
+  "scan": 27,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n26/mode/1up",
+  "day_method": "heading",
   "animals": {
    "kangaroo": 5,
    "bird": 2
@@ -1280,11 +1859,13 @@
  },
  {
   "date": "1893-05-19",
-  "place_raw": "Narromine",
+  "place_raw": "Narromine, Australia",
   "place_id": "narromine",
   "region": "nsw-west",
   "band": 2,
-  "scan": 24,
+  "scan": 33,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n32/mode/1up",
+  "day_method": "heading",
   "animals": {
    "kangaroo": 4
   },
@@ -1323,11 +1904,13 @@
  },
  {
   "date": "1893-05-20",
-  "place_raw": "MuUengudgery",
+  "place_raw": "Mullengudgery, Australia",
   "place_id": "narromine",
   "region": "nsw-west",
   "band": 2,
-  "scan": 24,
+  "scan": 37,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n36/mode/1up",
+  "day_method": "heading",
   "animals": {
    "bird": 3,
    "emu": 1
@@ -1343,7 +1926,7 @@
     "first_person": true
    },
    {
-    "text": "27 · Scan 41* ^scan41 Schon während des Triebes hatte ich in weiter Entfernung mehrere Emus vorbeiwechseln gesehen, und drängte nun, da es mir hauptsächlich darum zu thun war, eines dieser seltenen Thiere zu erlegen, die Farmer, den Nachmittag zum Treiben auf dieselben zu verwenden.",
+    "text": "Schon während des Triebes hatte ich in weiter Entfernung mehrere Emus vorbeiwechseln gesehen, und drängte nun, da es mir hauptsächlich darum zu thun war, eines dieser seltenen Thiere zu erlegen, die Farmer, den Nachmittag zum Treiben auf dieselben zu verwenden.",
     "animals": [
      "emu"
     ],
@@ -1367,11 +1950,13 @@
  },
  {
   "date": "1893-05-23",
-  "place_raw": "Badgery Station",
+  "place_raw": "Badgery Station, Australia",
   "place_id": "badgery",
   "region": "badgery",
   "band": 2,
-  "scan": 24,
+  "scan": 52,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n51/mode/1up",
+  "day_method": "heading",
   "animals": {
    "kangaroo": 2,
    "tiger": 1,
@@ -1406,11 +1991,13 @@
  },
  {
   "date": "1893-05-24",
-  "place_raw": "Badgery Station",
+  "place_raw": "Badgery Station, Australia",
   "place_id": "badgery",
   "region": "badgery",
   "band": 2,
-  "scan": 24,
+  "scan": 57,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n56/mode/1up",
+  "day_method": "heading",
   "animals": {
    "kangaroo": 3,
    "bear": 1
@@ -1450,11 +2037,13 @@
  },
  {
   "date": "1893-05-25",
-  "place_raw": "Badgery Station",
+  "place_raw": "Badgery Station, Australia",
   "place_id": "badgery",
   "region": "badgery",
   "band": 2,
-  "scan": 24,
+  "scan": 61,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n60/mode/1up",
+  "day_method": "heading",
   "animals": {
    "kangaroo": 2,
    "bear": 1
@@ -1470,7 +2059,7 @@
     "first_person": true
    },
    {
-    "text": "50 · Scan 64* ^scan64 eine erstaunliche Anzahl von Wallabies flüchtig, die aber diesmal meinen Stand größtentheils mieden und seitwärts ausbrachen, wo Wurmbrand und Clam standen, so dass der eine 18, der andere 19 Stück erlegte.",
+    "text": "Schon im ersten Triebe wurde eine erstaunliche Anzahl von Wallabies flüchtig, die aber diesmal meinen Stand größtentheils mieden und seitwärts ausbrachen, wo Wurmbrand und Clam standen, so dass der eine 18, der andere 19 Stück erlegte.",
     "animals": [
      "kangaroo"
     ],
@@ -1486,12 +2075,14 @@
   ]
  },
  {
-  "date": "1893-05-28",
-  "place_raw": "In See nach KeuCaledonien",
+  "date": "1893-06-02",
+  "place_raw": "Numea, New Caledonia",
   "place_id": null,
   "region": null,
   "band": 2,
-  "scan": 24,
+  "scan": 87,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n86/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "deer": 1
   },
@@ -1508,12 +2099,69 @@
   ]
  },
  {
-  "date": "1893-06-09",
-  "place_raw": "Ugi",
+  "date": "1893-06-07",
+  "place_raw": "Owa Raha, Solomon Islands",
   "place_id": null,
   "region": null,
   "band": 2,
-  "scan": 93,
+  "scan": 102,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n101/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "bird": 1
+  },
+  "kill_sentences": 1,
+  "first_person": 0,
+  "quotes": [
+   {
+    "text": "Dennoch gelang es unserem Boolsmanne, der, Neptun gleichend, mit der Harpune bewehrt am Buge stand, einzelne merkwürdige Stücke zu erbeuten, so einen ganz wei(3en Rochen, eine Art Mondfisch, mehrere aalähnliche Fische mit reiherartigem Schnabel und spitzen Zähnen, eine selten schöne Languste mit schwarzgelb geränderten Extremitäten und grünen Rückenschildern.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": false
+   }
+  ]
+ },
+ {
+  "date": "1893-06-08",
+  "place_raw": "Owa Raha to Ugi, Solomon Islands",
+  "place_id": null,
+  "region": null,
+  "band": 2,
+  "scan": 114,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n113/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "bird": 2
+  },
+  "kill_sentences": 2,
+  "first_person": 2,
+  "quotes": [
+   {
+    "text": "Ich wMr kaum 100 Schritte in den Wald eingedrungen, als niif der erste Schuss schon einen prachtvollen, ganz rothen Papagei (Eos cardinalis) brachte, und ich gleich darauf eine wunderschön gefärbt^ Taube (Ptilopus eugeniae) mit schneeweißem Kopfe, carminrothem Brustflecke, gelbem Bauch und grün und violett gestreiften Flügeln schossUnmittelbar nachher strich von einer hohen Dracaene ein größere*' ",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true
+   },
+   {
+    "text": "Im weiteren Verlaufe meines Umherstreifens scHoss ich noch eine scharlachrothe Nectanne fMysomela pulcherrima), eine ganz kaffeebraune Taube von der Gestalt einer Turteltaube und zwei große Fruchttauben (Carpophaga pistrinaria)» ferner ein Paar der Y>rachtvollen Banda- Papageien (Lorius chlorocercus), die an ihrem Gefieder alle Farben des Regenbogens tragen und zu den schönsten Papageien überhaupt",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true
+   }
+  ]
+ },
+ {
+  "date": "1893-06-09",
+  "place_raw": "Ugi, Solomon Islands",
+  "place_id": null,
+  "region": null,
+  "band": 2,
+  "scan": 118,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n117/mode/1up",
+  "day_method": "heading",
   "animals": {
    "bird": 1
   },
@@ -1530,12 +2178,14 @@
   ]
  },
  {
-  "date": "1893-06-15",
-  "place_raw": "Port Moresby",
+  "date": "1893-06-16",
+  "place_raw": "Port Moresby to the hunting camp at Laroki, New Guinea",
   "place_id": "port-moresby",
   "region": "new-guinea",
   "band": 2,
-  "scan": 93,
+  "scan": 139,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n138/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "bird": 4,
    "kangaroo": 1
@@ -1575,11 +2225,13 @@
  },
  {
   "date": "1893-06-17",
-  "place_raw": "Jagdlager am Laroki",
+  "place_raw": "Hunting camp at the Laroki river, New Guinea",
   "place_id": "port-moresby",
   "region": "new-guinea",
   "band": 2,
-  "scan": 93,
+  "scan": 146,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n145/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "bird": 1,
    "kangaroo": 1
@@ -1604,27 +2256,20 @@
   ]
  },
  {
-  "date": "1893-06-23",
-  "place_raw": "In See nach den Aru-Inseln",
+  "date": "1893-06-25",
+  "place_raw": "Dobo, Aru islands",
   "place_id": "aru",
   "region": "aru",
   "band": 2,
-  "scan": 93,
+  "scan": 167,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n166/mode/1up",
+  "day_method": "aligned",
   "animals": {
-   "bird": 4,
-   "deer": 1
+   "bird": 2
   },
-  "kill_sentences": 4,
-  "first_person": 4,
+  "kill_sentences": 2,
+  "first_person": 2,
   "quotes": [
-   {
-    "text": "Ich hatte diesmal, ausgenommen zwei Buschhühner, wieder nichts gesehen, doch waren neben mir drei vSchüsse gefallen, mit welchen Clam einen sehr flüchtigen Sechserhirsch erlegt hatte.",
-    "animals": [
-     "deer",
-     "bird"
-    ],
-    "first_person": true
-   },
    {
     "text": "Ich bemühte mich vor allem, einen der schwarzen Kakadus» Welche sich durch ihr schönes, mit Weiß gleichsam überpudertes Gefieder» hellroth gefärbte Backen und den prächtigen, aufrecht stehenden Schopf auszeichnen, zu erlegen;",
     "animals": [
@@ -1635,6 +2280,32 @@
    {
     "text": "Dafür erlegte ich zwei aufgebäumte Bu.schhühner (Talegaltus fuscirostris), mehrere Fischer einer mir neuen I •*^rt (Suuromarptis gaudichaudi) und drei große Tauben.",
     "animals": [
+     "bird"
+    ],
+    "first_person": true
+   }
+  ]
+ },
+ {
+  "date": "1893-06-26",
+  "place_raw": "Dobo, Aru islands",
+  "place_id": "aru",
+  "region": "aru",
+  "band": 2,
+  "scan": 172,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n171/mode/1up",
+  "day_method": "aligned",
+  "animals": {
+   "bird": 2,
+   "deer": 1
+  },
+  "kill_sentences": 2,
+  "first_person": 2,
+  "quotes": [
+   {
+    "text": "Ich hatte diesmal, ausgenommen zwei Buschhühner, wieder nichts gesehen, doch waren neben mir drei vSchüsse gefallen, mit welchen Clam einen sehr flüchtigen Sechserhirsch erlegt hatte.",
+    "animals": [
+     "deer",
      "bird"
     ],
     "first_person": true
@@ -1650,15 +2321,17 @@
  },
  {
   "date": "1893-06-29",
-  "place_raw": "Kajeli",
+  "place_raw": "Kajeli, Amboina",
   "place_id": "kajeli",
   "region": "buru",
   "band": 2,
-  "scan": 93,
+  "scan": 184,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n183/mode/1up",
+  "day_method": "heading",
   "animals": {
-   "bird": 2
+   "bird": 1
   },
-  "kill_sentences": 2,
+  "kill_sentences": 1,
   "first_person": 1,
   "quotes": [
    {
@@ -1667,23 +2340,18 @@
      "bird"
     ],
     "first_person": true
-   },
-   {
-    "text": "174 · Scan 187* ^scan187 Früchttaube mit metallisch grünen Flügeln ^Carpophaga perspicillata) und eine kleine, grün und gelb gefärbte GevvQrrtaube (Osmotreron aromatica) mit grauem Kopfe zur Strecke gebracht.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": false
    }
   ]
  },
  {
   "date": "1893-06-30",
-  "place_raw": "Kajeli — Amboina",
+  "place_raw": "Kajeli to Amboina",
   "place_id": "kajeli",
   "region": "buru",
   "band": 2,
-  "scan": 93,
+  "scan": 187,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n186/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "deer": 2,
    "bird": 2
@@ -1723,11 +2391,13 @@
  },
  {
   "date": "1893-07-24",
-  "place_raw": "Kanton",
+  "place_raw": "Canton",
   "place_id": "canton",
   "region": "canton",
   "band": 2,
-  "scan": 93,
+  "scan": 252,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n251/mode/1up",
+  "day_method": "heading",
   "animals": {
    "bird": 1
   },
@@ -1745,11 +2415,13 @@
  },
  {
   "date": "1893-08-08",
-  "place_raw": "Kiötö",
+  "place_raw": "Kyoto, Japan",
   "place_id": "kyoto",
   "region": "kyoto",
   "band": 2,
-  "scan": 93,
+  "scan": 345,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n344/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "tiger": 1
   },
@@ -1767,11 +2439,13 @@
  },
  {
   "date": "1893-08-14",
-  "place_raw": "Kioto",
+  "place_raw": "Kyoto, Japan",
   "place_id": "kyoto",
   "region": "kyoto",
   "band": 2,
-  "scan": 93,
+  "scan": 378,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n377/mode/1up",
+  "day_method": "aligned",
   "animals": {
    "bird": 4
   },
@@ -1786,7 +2460,7 @@
     "first_person": false
    },
    {
-    "text": "vor ihnen die untcroder emportauchenden Cormorane, deren bald dieser, bald jener in da^ Fahrzeug gehisst wurde, um, der Beute entledigt, wieder in der Flut zu *S.",
+    "text": "vor ihnen die untcroder emportauchenden Cormorane, deren bald dieser, bald jener in da^ Fahrzeug gehisst wurde, um, der Beute entledigt, wieder in der Flut zu ^rersch winden;",
     "animals": [
      "bird"
     ],
@@ -1810,11 +2484,13 @@
  },
  {
   "date": "1893-09-10",
-  "place_raw": "Banff — Penticton",
+  "place_raw": "Banff to Penticton, Canada",
   "place_id": "banff",
   "region": "canada",
   "band": 2,
-  "scan": 93,
+  "scan": 456,
+  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n455/mode/1up",
+  "day_method": "heading",
   "animals": {
    "bird": 1
   },

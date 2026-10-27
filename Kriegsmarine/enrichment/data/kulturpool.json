@@ -377,7 +377,7 @@
    ]
   },
   {
-   "hunt_id": "hunt-1893-01-21-hyderabad",
+   "hunt_id": "hunt-1893-01-22-hyderabad",
    "direct": [],
    "context": [
     {
@@ -608,7 +608,7 @@
    "context": []
   },
   {
-   "hunt_id": "hunt-1893-02-28-jodhpur",
+   "hunt_id": "hunt-1893-03-01-jodhpur",
    "direct": [],
    "context": []
   },
@@ -686,7 +686,7 @@
    ]
   },
   {
-   "hunt_id": "hunt-1893-03-10-nepal",
+   "hunt_id": "hunt-1893-03-09-nepal",
    "direct": [
     "6682f079-5346-40df-92d7-603deb9ec506"
    ],
@@ -1100,7 +1100,7 @@
    ]
   },
   {
-   "hunt_id": "hunt-1893-06-15-new-guinea",
+   "hunt_id": "hunt-1893-06-16-new-guinea",
    "direct": [],
    "context": [
     {

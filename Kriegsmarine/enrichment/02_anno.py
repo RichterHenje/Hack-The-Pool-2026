@@ -23,7 +23,7 @@ from common import ROOT, get_json, load, save
 
 API = "https://anno.onb.ac.at/anno-suche/rest/search"
 ANIMALS = {a["id"]: a for a in json.loads((ROOT / "animals.json").read_text())}
-PLACES = {p["id"]: p for p in json.loads((ROOT / "places.json").read_text())}
+PLACES = {p["id"]: p for p in load("places_resolved.json")}
 PERSON = ["Erzherzog", "Thronfolger"]
 HUNT_WORDS = ["Jagd", "Jagden", "erlegt", "erlegte", "Jagdbeute"]
 WINDOW_DAYS = 70

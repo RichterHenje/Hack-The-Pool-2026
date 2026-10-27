@@ -23,7 +23,7 @@ from datetime import date, timedelta
 from common import ROOT, get_json, load, save
 
 ANALYSEN = ROOT.parent / "Analysen"
-PLACES = {p["id"]: p for p in json.loads((ROOT / "places.json").read_text())}
+PLACES = {p["id"]: p for p in load("places_resolved.json")}
 MONTHS = {"jänner": 1, "januar": 1, "februar": 2, "märz": 3, "april": 4, "mai": 5, "juni": 6,
           "juli": 7, "august": 8, "september": 9, "oktober": 10, "november": 11, "dezember": 12}
 ROMAN = {"i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7, "viii": 8, "ix": 9, "x": 10, "xi": 11, "xii": 12}

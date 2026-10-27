@@ -15,7 +15,7 @@ import re
 from common import ROOT, get_json, load, save
 
 API = "https://api.kulturpool.at/v2"
-PLACES = {p["id"]: p for p in json.loads((ROOT / "places.json").read_text())}
+PLACES = {p["id"]: p for p in load("places_resolved.json")}
 
 SEEDS = [
     "Franz Ferdinand Weltreise", "Erzherzog Franz Ferdinand", "Kaiserin Elisabeth Schiff",

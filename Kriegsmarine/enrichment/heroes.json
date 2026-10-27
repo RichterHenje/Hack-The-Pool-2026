@@ -1,0 +1,762 @@
+{
+ "about": "Lebende Tiere der Weltreise 1892/93: die Bordmenagerie der S.M.S. Kaiserin Elisabeth und Tiere, die lebend nach Wien kamen. Von Hand kuratiert aus dem Tagebuch (OCR, Zitate unkorrigiert) und ANNO (Ausschnitte, Seite angegeben). status: free = in Freiheit, schoenbrunn = Menagerie Schönbrunn, vienna = erzherzogliches Palais in Wien, konopiste = für Schloss Konopischt bestimmt, died = gestorben, unknown = Verbleib unbekannt. evidence: diary = Tagebuch sagt es, press = Zeitung sagt es, probable = Zuordnung von uns erschlossen. Tagebuch-Zitate sind nach Tagen datiert (normalization/json/tagebuch_tage.json). site = englische Übersetzung auf franzferdinandsworld.com, nur wo unserem OCR Seiten fehlen oder sie etwas ergänzt.",
+ "people": [
+  {
+   "id": "biaggio",
+   "name": "Biaggio (Familienname in der OCR unleserlich: „Paste oje v ich“)",
+   "role": "Thierwärter Franz Ferdinands an Bord, aus Ragusa (Dubrovnik); 1894 Aufseher in der Ausstellung der Reisesammlungen",
+   "diary": [
+    {
+     "date": "1893-04-15",
+     "quote": "wo es sich wahrscheinlich durch seine besondere Wildheit auszeichnen und daher den Zähmungskünsten meines Thierwärters Biaggio eine harte Aufgabe stellen dürfte."
+    }
+   ],
+   "press": [
+    {
+     "doc": "ANNO_waz18940420",
+     "page": 8,
+     "quote": "Erwähnt sei noch des Aufsehers Biaggio Paste oje v ich, eines Raguianers, der die Weltreise des Erzberzogs mitgcmacht und das Vertrauen seines Herrn in hohem Maße erworben hat. Er gibt gerne den Besuchern Aufschlüsse über manche Objecte"
+    }
+   ],
+   "site": [
+    {
+     "day": "1893-06-17",
+     "quote": "I first turned towards the North shore with Bedford, my servant on board Biaggio as well as some natives"
+    }
+   ]
+  },
+  {
+   "id": "kraus",
+   "name": "Alois Kraus",
+   "role": "Menagerie-Inspector in Schönbrunn, übernimmt die Tiere 1893",
+   "press": [
+    {
+     "doc": "ANNO_gre18931008",
+     "page": 13,
+     "quote": "Die tropischen Thiere, welche mit einem Lloyd-dampfer in Triest ankamen, wurden inzwischender Obhut des Menagerie-Jnspectors zu Schön-brunn, Herrn Alois Kraus, übergeben."
+    }
+   ]
+  }
+ ],
+ "heroes": [
+  {
+   "id": "fips-mucki",
+   "name": "Fips und Mucki",
+   "species_de": "zwei Affen",
+   "species_en": "two monkeys",
+   "count": 2,
+   "status": "schoenbrunn",
+   "evidence": "diary",
+   "route": [
+    {
+     "place": "singapore",
+     "date": "1893-04-08",
+     "event": "in Singapur gekauft"
+    },
+    {
+     "place": "hongkong",
+     "date": "1893-07-27",
+     "event": "von Bord gegeben, per Lloyddampfer nach Triest"
+    },
+    {
+     "place": "trieste",
+     "date": null,
+     "event": "Ankunft in Triest",
+     "evidence": "probable"
+    },
+    {
+     "place": "schoenbrunn",
+     "date": "1893-10-06",
+     "event": "Sendung mit „vierzehn Affen“ in Schönbrunn gemeldet",
+     "evidence": "probable"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-04-08",
+     "quote": "auch vermehrte ich die BoT menagerie durch zwei allerliebste Affen und einige Papageien."
+    },
+    {
+     "date": "1893-04-28",
+     "quote": "Dafür erfreuend unsere beiden Affen -Fips* und «Mucki', die auf dem Achterdeck unltfgebracht sind, durch ihre gute Laune und ihre heiteren Spränge: namentlich während des Diners sind sie recht possierlich und (reiben manchen Schabernack."
+    },
+    {
+     "date": "1893-05-29",
+     "quote": "Oi^ beiden Affen, namentlich aber Fips, wurden ganz melancholisch;"
+    },
+    {
+     "date": "1893-07-27",
+     "quote": "An Bord der »Elisabeth- galt es, Abschied zu nehmen von treuen Reisegefährten, die uns manche Kurzweil geboten hatten, von unseren Affen nämlich, die auf einem Lloyddampfer nach Triest gebracht ^^erden sollten, um von hier aus ihren künftigen Bestimmungsort, Schönbrunn, zu erreichen. Fips machte ein recht trauriges Gesicht und uch Mucki war nicht so bei Stimmung wie sonst"
+    }
+   ],
+   "press": [
+    {
+     "doc": "ANNO_gre18931008",
+     "page": 13,
+     "quote": "ist abermals eine wertvolle Sendung lebender Thiere angelangt. Die tropischen Thiere, welche mit einem Lloyd-dampfer in Triest ankamen, wurden inzwischen der Obhut des Menagerie-Jnspectors zu Schön-brunn, Herrn Alois Kraus, übergeben."
+    }
+   ],
+   "note": "Erschlossen: Fips und Mucki fuhren am 27. Juli mit „unseren Affen“ von Hongkong per Lloyddampfer nach Triest; die Sendung mit vierzehn Affen, die im Oktober 1893 in Schönbrunn ankam, passt dazu (die 14 Affen kaufte FF am 15. Juli in Singapur). Die Ausschnitte nennen Fips und Mucki nicht."
+  },
+  {
+   "id": "galahs",
+   "name": "Die drei Kakadus von Nouméa",
+   "species_de": "Rosakakadus",
+   "species_en": "galahs (rose-breasted cockatoos)",
+   "latin_in_source": "Cacatua roseicapilla",
+   "count": 3,
+   "status": "free",
+   "evidence": "diary",
+   "route": [
+    {
+     "place": "sydney",
+     "date": null,
+     "event": "in Sydney eingeschifft (Aufenthalt 16.–28. Mai)"
+    },
+    {
+     "place": "noumea",
+     "date": "1893-06-04",
+     "event": "beim Umsetzen in die Käfige vor der Abfahrt aus Nouméa entflogen"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-06-04",
+     "quote": "Beim Unterbringen der Thiere in die Käfige entkamen leider drei der schiinen rosenrothen Kakadus, die wir in Sydney eingeschifft hatten, und die FlüchtUnge strichen, der wiederedangten Freiheit froh, BoUtTt dem Lande zu."
+    },
+    {
+     "date": "1893-06-04",
+     "quote": "So sehr wir diesen Verlust bedauerten, hatten wir doch die Genugthuung, Neu-Caiedonien möglicherweise um eine reizende Vogelart bereichert zu haben"
+    }
+   ],
+   "note": "Dreizehn weitere Rosakakadus aus Sydney kamen im September 1893 in Wien an (siehe „Die Vögel aus Sydney“)."
+  },
+  {
+   "id": "sydney-birds",
+   "name": "Die Vögel aus Sydney und Neuguinea",
+   "species_de": "13 Rosakakadus, Loris, Königs- und Alexandersittiche, 3 Lachende Hanse, 2 Flughunde u. a.",
+   "species_en": "13 galahs, lories, king and Alexandrine parakeets, 3 kookaburras, 2 flying foxes and more",
+   "count": null,
+   "status": "vienna",
+   "evidence": "press",
+   "route": [
+    {
+     "place": "sydney",
+     "date": null,
+     "event": "Menagerie in Sydney „bedeutend vermehrt“ (Aufenthalt 16.–28. Mai)"
+    },
+    {
+     "place": "singapore",
+     "date": "1893-07-15",
+     "event": "„ein Theil unserer Thiere“ per Lloyddampfer „Vindobona“ heimgeschickt",
+     "evidence": "probable"
+    },
+    {
+     "place": "trieste",
+     "date": "1893-09-02",
+     "event": "Ankunft in Triest (Samstag)",
+     "evidence": "press"
+    },
+    {
+     "place": "vienna-palais",
+     "date": "1893-09-03",
+     "event": "in Wien „in gutem Wohlbefinden“; bis zur Rückkehr des Erzherzogs im Palais, Käfige aus Schönbrunn",
+     "evidence": "press"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-05-29",
+     "quote": "ja selbst die Menagerie, die ich in Sydney bedeutend vermehrt hatte, litt stark unter den Unbilden des Wetters"
+    },
+    {
+     "date": "1893-05-29",
+     "quote": "Die Kakadus, Papageien und Lachenden Hanse führten bei diesem Concert in wilder Art den Reigen."
+    }
+   ],
+   "press": [
+    {
+     "doc": "ANNO_nwg18930906",
+     "page": 3,
+     "quote": "eine größere Zahl lebender Thiere von seltener Schönheit, die zuni großen Theile die Reise von … Südaustralien hieher gemacht haben. Die Thiere langten am letztverflossenen Samstag in Triest nnd am darauffolgenden Tage, Sonntag Vormittags, in Wien in gutein Wohlbesinden"
+    },
+    {
+     "doc": "ANNO_nwg18930906",
+     "page": 3,
+     "quote": "Von Papageiengattungen find ferner angelangt drei Erz-Lori, zwei Fraiieii-Lori und ein Schmuck-Lord weiters dreizehn rosafärbige Kakadus, ein herrlicher Königs-Sittich, zwei Stiick Alexander-Sittiche"
+    },
+    {
+     "doc": "ANNO_nwg18930906",
+     "page": 3,
+     "quote": "Erzherzog drei wunderbare Eisvögel (Jiigerlist) von der größten Gattung nnd endlich zwei sogenannte fliegende Hunde (znr Gattung der Flederiiiänse gehörend)"
+    },
+    {
+     "doc": "ANNO_nwg18930906",
+     "page": 3,
+     "quote": "herzoglichen Palais iin zweiten Stock, wo sie bis zur Rück-kehr des Erzherzog von seiner Weltreise einstweilen ver-bleiben. Aus der kaiserlichen Menagerie in Schönbinnn kam Nachmittags eine große Zahl Käfige znr Unterbringnng"
+    }
+   ],
+   "note": "Erschlossen: die Sendung, die am 2. September in Triest ankam, passt zur „Vindobona“, die am 15. Juli Singapur verließ (franzferdinandsworld.com). Die Zeitung nennt dreizehn Rosakakadus in Wien – die Geschwister der drei, die in Nouméa entflogen. Ein Vogel mit „schwarzem Helm“ und nackten roten Wangen ist vermutlich ein Palmkakadu.",
+   "site": [
+    {
+     "day": "1893-07-15",
+     "quote": "My gentlemen had done some shopping for me in the city and among else restocked the menagerie as death had recently produced quite a few important empty spots. A part of our animals also was set to be sent home on board of the just departing (Austrian) Lloyd’s steamboat „Vindobona“. As a replacement I had bought 14 monkeys which climbed up the yards and shrouds or outboards into the battery."
+    }
+   ]
+  },
+  {
+   "id": "garut-piglet",
+   "name": "Der Frischling von Garut",
+   "species_de": "junges Wildschwein",
+   "species_en": "wild piglet",
+   "count": 1,
+   "status": "unknown",
+   "evidence": "diary",
+   "route": [
+    {
+     "place": "garut",
+     "date": "1893-04-15",
+     "event": "bei der Saujagd lebend gefangen, im Rucksack an Bord geschickt"
+    },
+    {
+     "place": "sea-coral",
+     "date": "1893-05-29",
+     "event": "seekrank, verweigert das Futter"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-04-15",
+     "quote": "Ein Frischling wurde lobend in einem großen Reisighaiifen gefangen; wir banden dem Thier die Läufe zusammen und sandten es, in einem Rucksacke verwahrt, direct nach dem Hafen von Tandjong Priok aufs Schiff"
+    },
+    {
+     "date": "1893-04-28",
+     "quote": "Der bei der Saujagd in Garut erbeutete Fnschling gib! dtd lautes Schreien seine Existenz kund"
+    },
+    {
+     "date": "1893-05-29",
+     "quote": "das Wildschwein, <*^^ Wildkatze und das Eichhörnchen 64von Singapur versagten das Fütt:«r."
+    }
+   ]
+  },
+  {
+   "id": "java-cat",
+   "name": "Die Wildkatze aus Java",
+   "species_de": "„Wildkatze“; vielleicht die „Schleichkatze“ (Zibetkatze) der Sendung vom Oktober 1893",
+   "species_en": "wild cat, possibly the civet of the October 1893 shipment",
+   "count": 1,
+   "status": "schoenbrunn",
+   "evidence": "probable",
+   "route": [
+    {
+     "place": "batavia",
+     "date": "1893-04-28",
+     "event": "„eine in Java erworbene junge Wildkatze“, erstmals erwähnt"
+    },
+    {
+     "place": "schoenbrunn",
+     "date": "1893-10-06",
+     "event": "Sendung mit „Schleichkatze“, dem „wertvollsten Stück“, in Schönbrunn",
+     "evidence": "probable"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-04-28",
+     "quote": "eine in Java eru'orbetie jufl VVildltatze erweist sich sehr bösartig."
+    }
+   ],
+   "press": [
+    {
+     "doc": "ANNO_gre18931008",
+     "page": 13,
+     "quote": "Das wertvollste Stück der Sammlung ist aber eine Schleich-katze, ein höchst seltsames und wertvoller Thier."
+    }
+   ]
+  },
+  {
+   "id": "singapore-squirrel",
+   "name": "Das Eichhörnchen von Singapur",
+   "species_de": "Eichhörnchen; in Schönbrunn ein „dreifärbiges Eichhörnchen“",
+   "species_en": "squirrel; a 'three-coloured squirrel' reached Schönbrunn",
+   "count": 1,
+   "status": "schoenbrunn",
+   "evidence": "probable",
+   "route": [
+    {
+     "place": "singapore",
+     "date": null,
+     "event": "in Singapur an Bord (Aufenthalt 6.–8. April)"
+    },
+    {
+     "place": "schoenbrunn",
+     "date": "1893-10-06",
+     "event": "„dreifärbiges Eichhörnchen“ in der Sendung an Schönbrunn",
+     "evidence": "probable"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-05-29",
+     "quote": "das Wildschwein, <*^^ Wildkatze und das Eichhörnchen 64von Singapur versagten das Fütt:«r."
+    }
+   ],
+   "press": [
+    {
+     "doc": "ANNO_gre18931008",
+     "page": 13,
+     "quote": "Merkwürdig ist auch das dreifärbige Eichhörnchen, das in seinem bunten Kleide von dem schlicht aussehenden heimischen Eichhörnchen auffällig absticht."
+    }
+   ]
+  },
+  {
+   "id": "monkeys-14",
+   "name": "Vierzehn Affen und ein Schopfpavian",
+   "species_de": "Makaken, Schweinsaffen, Schopfpavian",
+   "species_en": "macaques, pig-tailed macaques, a crested baboon",
+   "count": 14,
+   "status": "schoenbrunn",
+   "evidence": "press",
+   "route": [
+    {
+     "place": "singapore",
+     "date": "1893-07-15",
+     "event": "in Singapur als Ersatz für gestorbene Tiere gekauft",
+     "evidence": "site"
+    },
+    {
+     "place": "hongkong",
+     "date": "1893-07-27",
+     "event": "„unsere Affen“ per Lloyddampfer nach Triest",
+     "evidence": "diary"
+    },
+    {
+     "place": "trieste",
+     "date": null,
+     "event": "mit einem Lloyddampfer in Triest",
+     "evidence": "press"
+    },
+    {
+     "place": "schoenbrunn",
+     "date": "1893-10-06",
+     "event": "dem Menagerie-Inspector Alois Kraus übergeben",
+     "evidence": "press"
+    }
+   ],
+   "press": [
+    {
+     "doc": "ANNO_gre18931008",
+     "page": 13,
+     "quote": "ist abermals eine wertvolle Sendung lebender Thiere angelangt. … Es befinden sich in der Collection vierzehn Affen, darunter MakakiS. Schweinsaffen und ein schönes Exemplar des SchopfpavianS."
+    }
+   ],
+   "site": [
+    {
+     "day": "1893-07-15",
+     "quote": "My gentlemen had done some shopping for me in the city and among else restocked the menagerie as death had recently produced quite a few important empty spots. A part of our animals also was set to be sent home on board of the just departing (Austrian) Lloyd’s steamboat „Vindobona“. As a replacement I had bought 14 monkeys which climbed up the yards and shrouds or outboards into the battery."
+    },
+    {
+     "day": "1893-07-15",
+     "quote": "One of the wrongdoers was caught when it, having completed the work of destruction, admired itself self-satisfied in the mirror after using plenty of the toiletteries laying around."
+    }
+   ],
+   "note": "Kauf und Abreise der 14 Affen stehen nur auf franzferdinandsworld.com; in unserem OCR fehlt die Seite (der Eintrag bricht nach dem 14. Juli mitten im Satz ab)."
+  },
+  {
+   "id": "hyderabad-tigers",
+   "name": "Die Tiger aus Hyderabad",
+   "species_de": "junge bengalische Tiger",
+   "species_en": "young Bengal tigers",
+   "count": 2,
+   "status": "schoenbrunn",
+   "evidence": "diary",
+   "route": [
+    {
+     "place": "hyderabad",
+     "date": "1893-01-26",
+     "event": "zwei von fünf einjährigen Tigern des Ministers geschenkt (Landhaus Sarur Nagar)",
+     "evidence": "diary"
+    },
+    {
+     "place": "schoenbrunn",
+     "date": "1894-02-08",
+     "event": "drei junge bengalische Tiger in Schönbrunn, „zwei derselben sind zahm wie Katzen“",
+     "evidence": "press"
+    }
+   ],
+   "press": [
+    {
+     "doc": "ANNO_msp18931025",
+     "page": 4,
+     "quote": "20 Tiger, neun Leoparden und zwei Elephanten befinden sich unter den vom Erzherzog erlegten Thieren Auch zahlreiche Thiere wurden lebend von der Reüe in die Heimat geschickt, so aus Hyderabad vier Tiger, ferner Löwen, dann zwei Bären aus"
+    },
+    {
+     "doc": "ANNO_kvb18940218",
+     "page": 7,
+     "quote": "Zu den schönsten Stücken zählen drei junge bengalische Tiger, die schon von ganz respektabler Größe sind. Zwei derselben sind zahm wie Katzen, und wenn der Wärter seine Hand durch"
+    }
+   ],
+   "note": "Das Tagebuch nennt zwei geschenkte Tiger (26. Jänner); die Presse im Oktober 1893 „aus Hyderabad vier Tiger“, im Februar 1894 drei junge bengalische Tiger in Schönbrunn. Foto: Weltmuseum VF_14530 „Tiger beim Saroonagar-Palast“, 26.1.1893.",
+   "diary": [
+    {
+     "date": "1893-01-26",
+     "quote": "Im Hofe waren fünf einjährige Tiger angekeUel, welche der Minister im Vorjahre, naclidem er die Mutter erlegt, gefangen hatte. Sie waren äußerst possierlich, ziemlich groß, spielten ganz nach Katzenart und ließen sich von uns streicheln und krauen, dass es eine Freude war."
+    },
+    {
+     "date": "1893-01-26",
+     "quote": "Zu meinem Entzücken schenkte mir der Treundliche Hausherr zwei derselben, die ich lebend und gesund nach Hause zu ^w bringen hoffe"
+    }
+   ]
+  },
+  {
+   "id": "johor-panther",
+   "name": "Der schwarze Panther des Sultans von Johor",
+   "species_de": "schwarzer Panther",
+   "species_en": "black panther",
+   "count": 1,
+   "status": "schoenbrunn",
+   "evidence": "press",
+   "route": [
+    {
+     "place": "johor",
+     "date": "1893-04-07",
+     "event": "Besuch in Johor; der Sultan war abwesend (in Karlsbad), FF wurde vom Thronfolger empfangen"
+    },
+    {
+     "place": "schoenbrunn",
+     "date": "1894-02-08",
+     "event": "in der Menagerie Schönbrunn"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-04-07",
+     "quote": "An der diesseitigen Landungsbrücke von zwei Neffen des Sultans empfangen, wurde ich auf einer schmucken Barkasse an das Dschohorer Ufer geleitet"
+    }
+   ],
+   "press": [
+    {
+     "doc": "ANNO_ibn18940208",
+     "page": 4,
+     "quote": "Es sind im ganzen vierzig Stück, die dem Erzherzog theils zum Geschenke gemacht worden sind, wie ein prächtiger schwarzer Panther vom Sultan von Johore, oder die er käuflich erwarb."
+    }
+   ],
+   "site": [
+    {
+     "day": "1893-04-06",
+     "quote": "no large hunts could be undertaken at the sultan of Johor , because the ruler had himself departed for Karlsbad"
+    },
+    {
+     "day": "1893-04-07",
+     "quote": "In the sultan’s absence the heir apparent had invited me to enter the interesting kingdom of the sovereign Malay sultanate of Johor"
+    }
+   ],
+   "note": "Der Panther ist nur aus der Presse bekannt. Der Sultan war während des Besuchs nicht in Johor; das Geschenk kam also nicht persönlich am 7. April."
+  },
+  {
+   "id": "japan-bears",
+   "name": "Die Bären aus Japan",
+   "species_de": "zwei japanische Bären (in Schönbrunn: „ein japanischer Bär von der Insel Jesso“)",
+   "species_en": "two Japanese bears (one from Hokkaido at Schönbrunn)",
+   "count": 2,
+   "status": "schoenbrunn",
+   "evidence": "press",
+   "route": [
+    {
+     "place": "tokyo",
+     "date": "1893-08-23",
+     "event": "an Bord gesandt, „Lieblinge der Mannschaft“"
+    },
+    {
+     "place": "schoenbrunn",
+     "date": "1894-02-18",
+     "event": "ein japanischer Bär von der Insel Jesso in Schönbrunn (Presse)",
+     "evidence": "press"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-08-23",
+     "quote": "Auch zwei sehr possierliche Bären sandte ich an Bord, die alsbald die Lieblinge der Mannschaft wurden und in der kürzesten Zeit aufwarten lernten; hoflentlich kommen sie wohlbehalten in die Heimat, wo sie den Burggraben in Konopist bewohnen imd zieren sollen."
+    }
+   ],
+   "press": [
+    {
+     "doc": "ANNO_msp18931025",
+     "page": 4,
+     "quote": "so aus Hyderabad vier Tiger, ferner Löwen, dann zwei Bären aus Japan"
+    },
+    {
+     "doc": "ANNO_kvb18940218",
+     "page": 7,
+     "quote": "Ostindien ein Kavaka, eine Zwergkatze aus Süd-Asien, einen japanischen Bären von der Insel Jesso, ein Zwergmoschusthier, zwei Ringfasanen,"
+    }
+   ],
+   "note": "Bestimmt für den Burggraben von Konopischt (Tagebuch). Im Februar 1894 nennt die Presse einen japanischen Bären von der Insel Jesso in der Menagerie Schönbrunn; ob er dort blieb und wo der zweite ist, ist offen.",
+   "intended": {
+    "place": "konopiste",
+    "label": "Burggraben von Schloss Konopischt",
+    "evidence": "diary"
+   }
+  },
+  {
+   "id": "tokyo-chickens",
+   "name": "Die Hühner aus Tokio",
+   "species_de": "weiße Zwerghühner (eine Voliere voll) und ein Langschwanzhahn",
+   "species_en": "white bantams and a long-tailed rooster",
+   "count": null,
+   "status": "unknown",
+   "evidence": "diary",
+   "route": [
+    {
+     "place": "tokyo",
+     "date": "1893-08-23",
+     "event": "für die Bordmenagerie gekauft"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-08-23",
+     "quote": "Hingegen gelang es mir, die Rordmenagerie durch reizende, weiße Zvverghühner — eine ganie Voliere voll — und durch einen der schon so seltenen Hähne zu ergänzen, deren Stoß eine Länge von mehreren Metern aufweist."
+    }
+   ]
+  },
+  {
+   "id": "kajeli-fawn",
+   "name": "Das Hirschkalb von Kajeli",
+   "species_de": "Hirschkalb",
+   "species_en": "deer fawn",
+   "count": 1,
+   "status": "unknown",
+   "evidence": "diary",
+   "route": [
+    {
+     "place": "kajeli",
+     "date": "1893-06-30",
+     "event": "von Treibern lebend gebracht"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-06-30",
+     "quote": "brachte aber unter lebhaften Gesticulationen und nichts weniger als geistvoll dreinsehend nur ein lebendes Hirschkalb herbei, welches durch die Hunde vor den Schützen gestellt worden war."
+    }
+   ]
+  },
+  {
+   "id": "goat",
+   "name": "Der Ziegenbock",
+   "species_de": "Ziegenbock",
+   "species_en": "billy goat",
+   "count": 1,
+   "status": "unknown",
+   "evidence": "diary",
+   "route": [
+    {
+     "place": "sea-coral",
+     "date": "1893-05-29",
+     "event": "an Bord, auf der Fahrt nach Neukaledonien"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-05-29",
+     "quote": "A^f Ziegenbock lehnte traurig an den Geschützen;"
+    }
+   ]
+  },
+  {
+   "id": "bombay-birds",
+   "name": "Die Vögel aus Bombay",
+   "species_de": "Mainas, Papageien, ein grüner Laubvogel",
+   "species_en": "mynas, parrots, a green leafbird",
+   "count": null,
+   "status": "died",
+   "evidence": "diary",
+   "route": [
+    {
+     "place": "bombay",
+     "date": "1893-01-18",
+     "event": "auf dem Markt gekauft"
+    },
+    {
+     "place": "java-sea",
+     "date": "1893-04-28",
+     "event": "„viele der Papageien“ gehen ein"
+    }
+   ],
+   "diary": [
+    {
+     "date": "1893-01-18",
+     "quote": "Wir nahmen diese Gelegenheit wahr, um unsere Schiffsmenagerie mit mehreren Mainas, Papageien und einem ;rünen Laubvogel zu bereichern;"
+    },
+    {
+     "date": "1893-04-28",
+     "quote": "Leider gehen infolge des feuchl und unbeständigen Wetters viele der Papageien ein."
+    }
+   ],
+   "note": "Nur die Papageien sind als gestorben belegt, und nur „viele“, nicht alle."
+  },
+  {
+   "id": "drowned-parrot",
+   "name": "Der Papagei vom Karfreitag",
+   "species_de": "zahmer Papagei",
+   "species_en": "tame parrot",
+   "count": 1,
+   "status": "died",
+   "evidence": "site",
+   "route": [
+    {
+     "place": "bay-of-bengal",
+     "date": "1893-03-31",
+     "event": "flog vom Deck auf, stürzte ins Meer und ertrank"
+    }
+   ],
+   "site": [
+    {
+     "day": "1893-03-31",
+     "quote": "My parrot, a tame animal that moved at liberty on deck, flew out into the air above the waves, exploring its flight skills, but tumbled into the sea and drowned before it could regain the ship’s deck."
+    }
+   ],
+   "note": "Nur auf franzferdinandsworld.com; in unserem OCR fehlt die Stelle."
+  },
+  {
+   "id": "dogs",
+   "name": "Die Hunde",
+   "species_de": "mehrere Hunde (und Papageien)",
+   "species_en": "several dogs (and parrots)",
+   "count": null,
+   "status": "died",
+   "evidence": "press",
+   "route": [
+    {
+     "place": "trieste",
+     "date": null,
+     "event": "„auf der langen Seereise zugrunde gegangen“ (Sendung vom Oktober 1893)"
+    }
+   ],
+   "press": [
+    {
+     "doc": "ANNO_gre18931008",
+     "page": 13,
+     "quote": "Mehrere Hunde und Papageien sind auf der langen Seereise zugrunde gegangen."
+    }
+   ]
+  },
+  {
+   "id": "giant-snake",
+   "name": "Die Riesenschlange",
+   "species_de": "Riesenschlange, 27 Fuß",
+   "species_en": "giant snake, 27 feet",
+   "count": 1,
+   "status": "died",
+   "evidence": "press",
+   "route": [
+    {
+     "place": "schoenbrunn",
+     "date": "1894-02-08",
+     "event": "tot in Wien angekommen, skelettiert"
+    }
+   ],
+   "press": [
+    {
+     "doc": "ANNO_ibn18940208",
+     "page": 4,
+     "quote": "Eine Riesenschlange von 27 Fuß Länge ist todt in Wien angekommen. Sie ist fleletiert worden und"
+    }
+   ]
+  }
+ ],
+ "summary_press": [
+  {
+   "doc": "ANNO_ibn18940208",
+   "page": 4,
+   "date": "1894-02-08",
+   "quote": "Die Thiere, die Erzherzog Franz Ferdinand von Oesterreich-Efte auf seiner Weltumseglungsreise erworben hat, sind jetzt sämmtlich in Wien eingetroffen und in der Menagerie zu Schönbrunn untergebracht. Es sind im ganzen vierzig Stück"
+  }
+ ],
+ "places": {
+  "singapore": {
+   "label": "Singapur",
+   "wikidata": "Q334",
+   "lat": 1.3,
+   "lon": 103.8
+  },
+  "johor": {
+   "label": "Johor",
+   "wikidata": "Q231318",
+   "lat": 1.4556,
+   "lon": 103.7611
+  },
+  "hongkong": {
+   "label": "Hongkong",
+   "wikidata": "Q8646",
+   "lat": 22.2783,
+   "lon": 114.1586
+  },
+  "sydney": {
+   "label": "Sydney",
+   "wikidata": "Q3130",
+   "lat": -33.8678,
+   "lon": 151.21
+  },
+  "noumea": {
+   "label": "Nouméa",
+   "wikidata": "Q9733",
+   "lat": -22.2667,
+   "lon": 166.45
+  },
+  "tokyo": {
+   "label": "Tokio",
+   "wikidata": "Q1490",
+   "lat": 35.6894,
+   "lon": 139.6917
+  },
+  "trieste": {
+   "label": "Triest",
+   "wikidata": "Q546",
+   "lat": 45.6503,
+   "lon": 13.7703
+  },
+  "schoenbrunn": {
+   "label": "Menagerie Schönbrunn, Wien",
+   "wikidata": "Q752283",
+   "lat": 48.1822,
+   "lon": 16.3025
+  },
+  "konopiste": {
+   "label": "Schloss Konopischt",
+   "wikidata": "Q744016",
+   "lat": 49.7794,
+   "lon": 14.6567
+  },
+  "sea-coral": {
+   "label": "auf See vor Neukaledonien",
+   "wikidata": null,
+   "lat": -27.0,
+   "lon": 158.0,
+   "coord_note": "approximate: Korallenmeer, Kurs Sydney – Nouméa"
+  },
+  "java-sea": {
+   "label": "auf See vor Java",
+   "wikidata": null,
+   "lat": -6.0,
+   "lon": 108.0,
+   "coord_note": "approximate"
+  },
+  "vienna-palais": {
+   "label": "Erzherzogliches Palais, Wien",
+   "wikidata": "Q1741",
+   "lat": 48.2083,
+   "lon": 16.3725,
+   "coord_note": "approximate: Wien; welches Palais, sagt der Artikel nicht"
+  },
+  "bay-of-bengal": {
+   "label": "auf See, Golf von Bengalen",
+   "wikidata": null,
+   "lat": 14.0,
+   "lon": 91.0,
+   "coord_note": "approximate: Kurs Calcutta – Singapur, Karfreitag 1893"
+  }
+ }
+}
