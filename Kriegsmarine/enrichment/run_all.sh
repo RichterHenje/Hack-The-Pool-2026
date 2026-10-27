@@ -4,7 +4,7 @@
 # afterwards in ../kaiserin_elisabeth with: uv run python -m scripts.ke_diary
 set -euo pipefail
 cd "$(dirname "$0")"
-for step in 00_places 01_extract_hunts 02_anno 03_kulturpool 03b_hoefer_photos 04_build \
+for step in 00_places 01_extract_hunts 02_anno 03_kulturpool 03b_hoefer_photos 03c_people 04_build \
             05_export_presse 06_crosscheck_ffworld 07_heroes; do
   echo "== $step"
   python3 "$step.py"

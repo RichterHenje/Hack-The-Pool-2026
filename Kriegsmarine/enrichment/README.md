@@ -11,6 +11,7 @@ python3 01_extract_hunts.py   # diary days (normalization) → data/hunt_entries
 python3 02_anno.py            # ANNO newspapers → data/anno.json
 python3 03_kulturpool.py      # Kulturpool objects → data/kulturpool.json
 python3 03b_hoefer_photos.py  # Höfer itinerary + Weltmuseum/Commons photos → data/hoefer_photos.json
+python3 03c_people.py         # people of the voyage: diary, hunts, GND/Wikidata, ANNO, Kulturpool → data/people.json
 python3 04_build.py           # merge → data/enrichment.json, data/hunts.geojson
 python3 05_export_presse.py   # ANNO clippings → ../kaiserin_elisabeth/prototype/data/presse_anno.csv
 python3 06_crosscheck_ffworld.py  # itinerary check vs franzferdinandsworld.com → data/ffworld_days.csv, ffworld_crosscheck.json
@@ -39,6 +40,7 @@ episodes[]                       one hunting episode = consecutive diary entries
   kulturpool                     direct[] (refers to the voyage), context[] (objects about the region, NOT about FF)
   hoefer                         stays[{stay, from, to, section}], from, to, days_without_hunting_entry, diary_within_hoefer
   photos[]                       source (Weltmuseum Wien | Wikimedia Commons), title, date, url, vf_id, image, rights
+  people[]                       who is named in the episode's kill sentences: id (vault), name, group, kill_sentences, gnd, wikidata
 voyage
   kulturpool[]                   voyage-level objects (tier: voyage | modern)
   anno_coverage                  issues per month mentioning FF / FF + hunting, 12/1892–12/1893
@@ -63,4 +65,5 @@ The whole route with coordinates is in `data/route_places.json` / `data/route.ge
   - **The OCR diary has 170 entries, the book ~284 days.** The OCR lost many inline date headings, so 63 entries span several days. Fixed upstream: `normalization/diary_days.py` splits the diary into days, and all steps now date by day. Leander's `kaiserin_elisabeth/prototype/data/ke_diary.json` still uses the 170 entries.
   - **Pages are missing from the OCR** (e.g. 31 March, 15 July: the drowned parrot, the steamer „Vindobona“ and the 14 monkeys). Those passages are cited from the site's translation (`site` quotes, checked against the cached page).
   - Höfer's table (`../Analysen/itinerary_1892_93.csv`) has an empty stage for 1–4 January 1893.
+- **People** (`03c_people.py`, input `normalization/json/personen_reise.json`, 64 people): diary days and kill sentences naming the person (surname; OCR variants like „Prönay“; surnames that are also nouns – Reiter, Koch, Sommer, Hermann – only after a title). GND: from the vault, else lobid-gnd, linked only if surname and first name match exactly (Karl = Carl), the record has life dates fitting 1892/93 and – for the crew – a naval or medical profession; otherwise `ambiguous`, `undated` or `implausible` with the candidates listed. Linked: Clam-Martinic, Becker (vault), Kinsky, Jedina, Lorenz-Liburnau, Ramberg, Plumert, Schleinitz (lobid). Not in the GND: Wurmbrand, Prónay, Havelock, Stockinger. Eduard Hodek's GND record is undated and its Wikidata item describes Hodek senior (b. 1827), not the son who travelled – left unlinked.
 - Place coordinates come from Wikidata (P625); Nepal camps, Tjipandak, Badgery Station and Aru are approximate (`coord_note`).

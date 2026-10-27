@@ -1,4 +1,4 @@
-"""Step 4: merge diary hunts + ANNO + Kulturpool into one file per episode for the web app.
+"""Step 4: merge diary hunts + ANNO + Kulturpool + photos + people into one file per episode for the web app.
 
 Output: data/enrichment.json (full), data/hunts.geojson (one point per episode)
 """
@@ -24,6 +24,7 @@ def main():
     kp_direct = {d["id"]: d for d in kp["direct"]}
     kp_eps = {e["hunt_id"]: e for e in kp["episodes"]}
     hp = {e["hunt_id"]: e for e in load("hoefer_photos.json")["episodes"]}
+    people = load("people.json")["people"]
 
     episodes = []
     for a in anno["episodes"]:
@@ -45,6 +46,11 @@ def main():
             "kulturpool": {"direct": [kp_direct[i] for i in k["direct"]], "context": k["context"]},
             "hoefer": hp.get(h["id"], {}).get("hoefer"),
             "photos": hp.get(h["id"], {}).get("photos", []),
+            "people": sorted(({"id": x["id"], "name": x["name"], "group": x["group"],
+                               "kill_sentences": x["diary"]["kills_by_hunt"][h["id"]],
+                               "gnd": x["gnd"]["url"], "wikidata": x["wikidata"]}
+                              for x in people if h["id"] in x["diary"]["kills_by_hunt"]),
+                             key=lambda x: -x["kill_sentences"]),
         })
     episodes.sort(key=lambda e: e["start"])
 
