@@ -62,3 +62,19 @@ bleibt – zu 64 Personen:
 Nichts wird zusammengeführt. `_reise.vermutlich_dieselbe_wie` markiert Ranglisten-Namen, die einer
 Notiz unter anderer Schreibweise zugeordnet wurden; `_reise.moegliche_dublette` markiert Notizen mit
 fast gleichem Namen (Hermann/Herrmann, Hugo; Podhorsky/Podhorszky).
+
+## `bilder.json`: Fotos der Weltreise im Weltmuseum Wien
+
+Nicht aus dem Vault, sondern außerhalb des Repos aus TMS (Fotosammlung VF) erzeugt; das Skript liegt
+nicht im Repo. Auswahl: VF-Objekte mit „Weltreise 1892-1893“ in der Beschreibung, die Erinnerungsfotos
+„Kaiserin Elisabeth“ (Pola 1894), mit Franz Ferdinand verknüpfte Fotos von 1892/93 sowie Fotos von
+Eduard Hodek jun. Enthalten sind nur die **408 Bilder, die auf weltmuseumwien.at online sind**
+(Objekt und Bild freigegeben); von insgesamt 2.029 Fotos sind die übrigen nicht öffentlich.
+
+- Felder: `Datei`, `Inventarnummer`, `Titel`, `Datierung` (wie im Museum), `Weltmuseum-Link`,
+  `Bildbeschreibung`, `Tiere` (`true`/`false`), `Tierarten`; fehlende Werte `"NA"`.
+- **`Bildbeschreibung`, `Tiere` und `Tierarten` sind KI-generiert** (Claude Sonnet 5.5, 27.10.2026) und
+  ungeprüft (`_meta.checked: false`, `_meta.ki`). Tiere sind bewusst großzügig getaggt, auch
+  Darstellungen und Tierprodukte (Felle, Federn), gekennzeichnet in Klammern, z. B. „Drache (Darstellung)“.
+  `_meta.review` markiert Fälle, in denen das Modell unsicher war.
+- `_meta.id`: `ke-image-` + SHA-1 des Dateinamens (10 Zeichen), analog zu den Vault-IDs.
