@@ -3,5 +3,5 @@
 .env
 
 # Obsidian: lokaler Fensterzustand und Papierkorb
-.obsidian/workspace.json
+**/.obsidian/workspace.json
 .trash/
