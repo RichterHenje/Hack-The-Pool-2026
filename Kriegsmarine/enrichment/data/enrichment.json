@@ -685,6 +685,133 @@
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Franz_Ferdinand_von_%C3%96sterreich-Este_auf_Elefantenjagd_1893.jpg/960px-Franz_Ferdinand_von_%C3%96sterreich-Este_auf_Elefantenjagd_1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
    ],
+   "objects": [
+    {
+     "id": "ke-object-763ae7fe31",
+     "inventory": "VO_102096",
+     "type": "Buddha stehend",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/491738",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-01-05",
+      "place": "Colombo, Ceylon",
+      "scan": 47,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n46/mode/1up",
+      "match": [
+       "stehend"
+      ],
+      "acquisition": false,
+      "text": "Straßen nach unseren Begriffen mit knapp aneinander stehenden Häusern gibt es in Colombo nur hart am i Meeregtr.r.£±T Ar.zahl Daiur zieht ^ich ii: rarkährl:ch viele Meüer in-^ Hl.i>er fr ie- S-iier."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-5c12e33585",
+     "inventory": "VO_102097",
+     "type": "Buddha meditierend",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/491739",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-01-06",
+      "place": "Kandy, Ceylon",
+      "scan": 55,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n54/mode/1up",
+      "match": [
+       "buddha"
+      ],
+      "acquisition": false,
+      "text": "Als sich bereits die Kühle des Abends angenehm fühlbar machte, statteten wir dem Zahne Buddhas, dem größten Heiügthume der Buddhisten, unseren Resuch ab."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-6dc562478d",
+     "inventory": "VO_102098",
+     "type": "Buddha meditierend",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/491740",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-01-06",
+      "place": "Kandy, Ceylon",
+      "scan": 55,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n54/mode/1up",
+      "match": [
+       "buddha"
+      ],
+      "acquisition": false,
+      "text": "Als sich bereits die Kühle des Abends angenehm fühlbar machte, statteten wir dem Zahne Buddhas, dem größten Heiügthume der Buddhisten, unseren Resuch ab."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-5169c6e6f9",
+     "inventory": "VO_102101",
+     "type": "Schelle",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/763435",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "collected_1893",
+       "text": "S 1893"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-d75b1561ca",
+     "inventory": "VO_102144",
+     "type": "Doppeltrommel",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/763465",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "collected_1893",
+       "text": "S 1893"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-8605600a37",
+     "inventory": "VO_102166_ab",
+     "type": "Aufschlagplatte",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/763476",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "collected_1893",
+       "text": "S 1893"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-436692d55c",
+     "inventory": "VO_104231",
+     "type": "Pferd Spielzeug Votivgabe",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492887",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-01-07",
+      "place": "Kandy to Kalawewa, Ceylon",
+      "scan": 63,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n62/mode/1up",
+      "match": [
+       "pferd"
+      ],
+      "acquisition": false,
+      "text": "vo^H In Abständen von 19 bis 20 km befinden sich längs der ganz züglichen, die parkartige Landschaft durchschneidenden Straße Ri häuser, von der Regierung erhaute, kleine ebenerdige Gebäude, in denen Reisende Unterkunft, Essen und manchmal auch Pferde finden."
+     },
+     "card": []
+    }
+   ],
    "people": [
     {
      "id": "ke-person-17052a794e",
@@ -1391,6 +1518,248 @@
      "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
     }
    ],
+   "objects": [
+    {
+     "id": "ke-object-6479e09478",
+     "inventory": "VO_103877_ab",
+     "type": "Schwert",
+     "title": "SCHWERT",
+     "url": "https://www.weltmuseumwien.at/objekte/764014",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "schwert"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-3302df9d9a",
+     "inventory": "VO_103891_ab",
+     "type": "Dolch, Scheide",
+     "title": "DOLCH",
+     "url": "https://www.weltmuseumwien.at/objekte/764022",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-1924170c8f",
+     "inventory": "VO_103895_ab",
+     "type": "Dolch, Scheide",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492852",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-6946fdce21",
+     "inventory": "VO_103898_ab",
+     "type": "Dolch, Scheide",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492854",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-3335320f04",
+     "inventory": "VO_103900_ab",
+     "type": "Dolch, Scheide",
+     "title": "DOLCH",
+     "url": "https://www.weltmuseumwien.at/objekte/764025",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-8e2c12c081",
+     "inventory": "VO_103901_ab",
+     "type": "Dolch, Scheide",
+     "title": "DOLCH",
+     "url": "https://www.weltmuseumwien.at/objekte/764026",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-9948ae2a51",
+     "inventory": "VO_103902_ab",
+     "type": "Dolch mit Scheide",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492856",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-3790eeb1a8",
+     "inventory": "VO_103903_ab",
+     "type": "Dolch, Scheide",
+     "title": "DOLCH",
+     "url": "https://www.weltmuseumwien.at/objekte/764027",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-c745703b29",
+     "inventory": "VO_103904_ab",
+     "type": "Dolch,Scheide",
+     "title": "DOLCH",
+     "url": "https://www.weltmuseumwien.at/objekte/764028",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-1d520856c8",
+     "inventory": "VO_103906",
+     "type": "Dolch",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492857",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-8499c291de",
+     "inventory": "VO_103908_ab",
+     "type": "Dolch, Scheide",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492859",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-593d25e79d",
+     "inventory": "VO_103910_ab",
+     "type": "Dolch mit Scheide",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492860",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     },
+     "card": []
+    }
+   ],
    "people": []
   },
   {
@@ -2039,6 +2408,7 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "objects": [],
    "people": [
     {
      "id": "ke-person-17052a794e",
@@ -2604,6 +2974,7 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "objects": [],
    "people": [
     {
      "id": "ke-person-fd9240684a",
@@ -3130,6 +3501,7 @@
      "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
     }
    ],
+   "objects": [],
    "people": []
   },
   {
@@ -3658,6 +4030,198 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "objects": [
+    {
+     "id": "ke-object-c093e9ef20",
+     "inventory": "VO_116398",
+     "type": "Pulverhorn",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/459430",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-03-05",
+      "place": "Jaipur, India",
+      "scan": 339,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n338/mode/1up",
+      "match": [
+       "pulverhorn"
+      ],
+      "acquisition": true,
+      "text": "in anderen, in welche durch kleine, unsaubere Fenster;cheiben wenigstens etwas Licht fiel, fand ich eine sehr wertvolle iammlung aller Üschaipurer oder, besser gesagt, Rädschput-Waffen: eich mit Gold eingelegte Schwerter mit Damascener Klingen, zahlreiche Eostbare Dolche und Handspeere, eine große Anzahl aus Elfenbein )der Muschelschalen geschnitzter Pulverhörner, deren eines ich mir vom ^lahäräds"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-20618e793e",
+     "inventory": "VO_102593",
+     "type": "Marmorfigur, Pferd",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492163",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-03-03",
+      "place": "Jaipur, India",
+      "scan": 328,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n327/mode/1up",
+      "match": [
+       "pferd"
+      ],
+      "acquisition": false,
+      "text": "Rasch empfahlen wir uns beim härädscha, eilten in die Residenz, Gewehre und Jäger zu holen, und ren dann in südöstlicher Richtung etwa 7 km hinter die Stadt, zu er Stelle, wo bereits Pferde auf uns warteten."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-c79a582632",
+     "inventory": "VO_102623",
+     "type": "Henkelkanne",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492182",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "school_of_art",
+       "text": "School of Art"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-6e84a61358",
+     "inventory": "VO_103590",
+     "type": "Messingbecher",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492727",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "school_of_art",
+       "text": "School of Art"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-740a918d63",
+     "inventory": "VO_103591",
+     "type": "Metallbecher",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492728",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "school_of_art",
+       "text": "School of Art"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-05905e17a0",
+     "inventory": "VO_103592",
+     "type": "Metallbecher",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492729",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "school_of_art",
+       "text": "School of Art"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-1bd054a651",
+     "inventory": "VO_103599",
+     "type": "Messingteller",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492732",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "school_of_art",
+       "text": "School of Art"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-3406913362",
+     "inventory": "VO_103600",
+     "type": "Messingteller",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492733",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "school_of_art",
+       "text": "School of Art"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-6a01805607",
+     "inventory": "VO_103601",
+     "type": "Messingteller",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492734",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "school_of_art",
+       "text": "School of Art"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-2f1571f8f4",
+     "inventory": "VO_103602",
+     "type": "Messingteller",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492735",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "school_of_art",
+       "text": "School of Art"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-ddfe3977ad",
+     "inventory": "VO_103643",
+     "type": "Bronzegefäß",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492745",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "school_of_art",
+       "text": "School of Art"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-14a0846369",
+     "inventory": "VO_103660",
+     "type": "Fläschchen",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492753",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "school_of_art",
+       "text": "School of Art"
+      }
+     ]
+    }
+   ],
    "people": []
   },
   {
@@ -4470,6 +5034,118 @@
      "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
     }
    ],
+   "objects": [
+    {
+     "id": "ke-object-2a6f3592b1",
+     "inventory": "VO_103253",
+     "type": "Garuda Hanuman Glocke",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492503",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "collected_1893",
+       "text": "S 1893"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-e1fbd5a03d",
+     "inventory": "VO_103297_ab",
+     "type": "Sikkim-Messer",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492533",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-03-08",
+      "place": "Dakna Bagh, Nepal",
+      "scan": 349,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n348/mode/1up",
+      "match": [
+       "sikkim"
+      ],
+      "acquisition": false,
+      "text": "Der Staat Nepal ist ein eigenthümliches und im allgemeinen noch wenig bekanntes Land, das im Norden an Tibet, das große Nebenland Chinas, im Westen und Süden an die indischen Nordwestprovinzen, im Osten an Sikkim grenzt."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-81f5b43069",
+     "inventory": "VO_103314",
+     "type": "Sattel",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/492544",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-03-13",
+      "place": "Barbatta Valley, Nepal",
+      "scan": 373,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n372/mode/1up",
+      "match": [
+       "sattel"
+      ],
+      "acquisition": false,
+      "text": "Vorbei war's mit der Ruhe, dem Schlummer, alles stüi-zte aus den Zelten, warf sich in die Sättel und [ort gieng'b in die Sumpfregion, wo unser bereits ein geschlossener Kre'* harrte."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-4f04342737",
+     "inventory": "VO_103343",
+     "type": "Bronzetschinellen",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/763911",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "collected_1893",
+       "text": "S 1893"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-54b9f93fe6",
+     "inventory": "VO_116338_ab",
+     "type": "Messer",
+     "title": "SCHWERT",
+     "url": "https://www.weltmuseumwien.at/objekte/459413",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-03-11",
+      "place": "Dakna Bagh, Nepal",
+      "scan": 364,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n363/mode/1up",
+      "match": [
+       "messer"
+      ],
+      "acquisition": false,
+      "text": "Elephanten und Messer mussten zusammenwirken, um einen Weg zu bahnen."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-16add2c26e",
+     "inventory": "VO_116339_ab",
+     "type": "Messer",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/459414",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-03-11",
+      "place": "Dakna Bagh, Nepal",
+      "scan": 364,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n363/mode/1up",
+      "match": [
+       "messer"
+      ],
+      "acquisition": false,
+      "text": "Elephanten und Messer mussten zusammenwirken, um einen Weg zu bahnen."
+     },
+     "card": []
+    }
+   ],
    "people": [
     {
      "id": "ke-person-fd9240684a",
@@ -5240,6 +5916,228 @@
      "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
     }
    ],
+   "objects": [
+    {
+     "id": "ke-object-7f1510fd8f",
+     "inventory": "VO_105688",
+     "type": "Speer",
+     "title": "TRISULA",
+     "url": "https://www.weltmuseumwien.at/objekte/493687",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-04-12",
+      "place": "Batavia to Buitenzorg, Java",
+      "scan": 442,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n441/mode/1up",
+      "match": [
+       "speer"
+      ],
+      "acquisition": false,
+      "text": "daher sind denn vielfach Speer- und Lanzenspitzen, sowie Beile noch aus sehr hartem Gestein oder aus Holz angefertigt;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-239a1d4d32",
+     "inventory": "VO_106152_ab",
+     "type": "Kris mit Scheide",
+     "title": "KERIS",
+     "url": "https://www.weltmuseumwien.at/objekte/494008",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-04-14",
+      "place": "Garut, Java",
+      "scan": 457,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n456/mode/1up",
+      "match": [
+       "kris"
+      ],
+      "acquisition": false,
+      "text": "dagegen prangt im Gürtel jedes Mannes die Liehlingswaffe, der Kriss oder Duwong, ein dolchartiges, scharf geschliffenes Messer, dessen Scheide je nach den Vermögen sverhällnissen des Besitzers mehr oder weniger reich geschmückt ist."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-b347572e96",
+     "inventory": "VO_106154_ab",
+     "type": "Kris mit Scheide",
+     "title": "KERIS",
+     "url": "https://www.weltmuseumwien.at/objekte/494010",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-04-14",
+      "place": "Garut, Java",
+      "scan": 457,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n456/mode/1up",
+      "match": [
+       "kris"
+      ],
+      "acquisition": false,
+      "text": "dagegen prangt im Gürtel jedes Mannes die Liehlingswaffe, der Kriss oder Duwong, ein dolchartiges, scharf geschliffenes Messer, dessen Scheide je nach den Vermögen sverhällnissen des Besitzers mehr oder weniger reich geschmückt ist."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-dde8d30f41",
+     "inventory": "VO_106166_ab",
+     "type": "Schwert / Machete",
+     "title": "GOLOK",
+     "url": "https://www.weltmuseumwien.at/objekte/494020",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-04-15",
+      "place": "Garut to Tjandjur, Java",
+      "scan": 463,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n462/mode/1up",
+      "match": [
+       "schwert"
+      ],
+      "acquisition": false,
+      "text": "die Würdenträger folgten ihnen mit gezückten Schwertern;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-0d42515396",
+     "inventory": "VO_106225",
+     "type": "Sarong, Batik",
+     "title": "SARUNG",
+     "url": "https://www.weltmuseumwien.at/objekte/764760",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-04-11",
+      "place": "Batavia, Java",
+      "scan": 436,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n435/mode/1up",
+      "match": [
+       "sarong"
+      ],
+      "acquisition": false,
+      "text": "als Kleid dient der Sarong, ein großes Stück Tuch, das malerisch um die Lenden festgeknüpft, rockartig herabfällt;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-13749aa882",
+     "inventory": "VO_106227",
+     "type": "Sarong, Batik",
+     "title": "SARUNG",
+     "url": "https://www.weltmuseumwien.at/objekte/764762",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-04-11",
+      "place": "Batavia, Java",
+      "scan": 436,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n435/mode/1up",
+      "match": [
+       "sarong"
+      ],
+      "acquisition": false,
+      "text": "als Kleid dient der Sarong, ein großes Stück Tuch, das malerisch um die Lenden festgeknüpft, rockartig herabfällt;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-83d9bfb595",
+     "inventory": "VO_106229",
+     "type": "Sarong, Batik",
+     "title": "SARUNG",
+     "url": "https://www.weltmuseumwien.at/objekte/764763",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-04-11",
+      "place": "Batavia, Java",
+      "scan": 436,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n435/mode/1up",
+      "match": [
+       "sarong"
+      ],
+      "acquisition": false,
+      "text": "als Kleid dient der Sarong, ein großes Stück Tuch, das malerisch um die Lenden festgeknüpft, rockartig herabfällt;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-7c4f1ab7d6",
+     "inventory": "VO_106230",
+     "type": "Sarong, Batik",
+     "title": "SARUNG",
+     "url": "https://www.weltmuseumwien.at/objekte/764764",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-04-11",
+      "place": "Batavia, Java",
+      "scan": 436,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n435/mode/1up",
+      "match": [
+       "sarong"
+      ],
+      "acquisition": false,
+      "text": "als Kleid dient der Sarong, ein großes Stück Tuch, das malerisch um die Lenden festgeknüpft, rockartig herabfällt;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-4325e2de45",
+     "inventory": "VO_106231",
+     "type": "Sarong, Batik",
+     "title": "SARUNG",
+     "url": "https://www.weltmuseumwien.at/objekte/764765",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-04-11",
+      "place": "Batavia, Java",
+      "scan": 436,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n435/mode/1up",
+      "match": [
+       "sarong"
+      ],
+      "acquisition": false,
+      "text": "als Kleid dient der Sarong, ein großes Stück Tuch, das malerisch um die Lenden festgeknüpft, rockartig herabfällt;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-b262facf59",
+     "inventory": "VO_106233",
+     "type": "Sarong, Batik",
+     "title": "SARUNG",
+     "url": "https://www.weltmuseumwien.at/objekte/764766",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-04-11",
+      "place": "Batavia, Java",
+      "scan": 436,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n435/mode/1up",
+      "match": [
+       "sarong"
+      ],
+      "acquisition": false,
+      "text": "als Kleid dient der Sarong, ein großes Stück Tuch, das malerisch um die Lenden festgeknüpft, rockartig herabfällt;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-1914e83865",
+     "inventory": "VO_106235",
+     "type": "Sarong, Batik",
+     "title": "SARUNG",
+     "url": "https://www.weltmuseumwien.at/objekte/764768",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-04-11",
+      "place": "Batavia, Java",
+      "scan": 436,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n435/mode/1up",
+      "match": [
+       "sarong"
+      ],
+      "acquisition": false,
+      "text": "als Kleid dient der Sarong, ein großes Stück Tuch, das malerisch um die Lenden festgeknüpft, rockartig herabfällt;"
+     },
+     "card": []
+    }
+   ],
    "people": []
   },
   {
@@ -5681,6 +6579,128 @@
     "diary_within_hoefer": false
    },
    "photos": [],
+   "objects": [
+    {
+     "id": "ke-object-f21e6b0a07",
+     "inventory": "VO_104861",
+     "type": "Speer",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/764280",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-26",
+      "place": "Sydney, Australia",
+      "scan": 66,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n65/mode/1up",
+      "match": [
+       "speer"
+      ],
+      "acquisition": false,
+      "text": "Dcis Werfen von Speeren auf weite Distanzen mit der primitiven MolzSchleuder war nicht weniger interessant;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-9174e6cab8",
+     "inventory": "VO_104863",
+     "type": "Speer",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/764282",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-26",
+      "place": "Sydney, Australia",
+      "scan": 66,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n65/mode/1up",
+      "match": [
+       "speer"
+      ],
+      "acquisition": false,
+      "text": "Dcis Werfen von Speeren auf weite Distanzen mit der primitiven MolzSchleuder war nicht weniger interessant;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-08ea0b7e35",
+     "inventory": "VO_104865",
+     "type": "Speer",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/764284",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-26",
+      "place": "Sydney, Australia",
+      "scan": 66,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n65/mode/1up",
+      "match": [
+       "speer"
+      ],
+      "acquisition": false,
+      "text": "Dcis Werfen von Speeren auf weite Distanzen mit der primitiven MolzSchleuder war nicht weniger interessant;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-b2e5d5c7d7",
+     "inventory": "VO_105890",
+     "type": "Schild",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/493815",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-20",
+      "place": "Mullengudgery, Australia",
+      "scan": 37,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n36/mode/1up",
+      "match": [
+       "schild"
+      ],
+      "acquisition": false,
+      "text": "Das Gefieder des Australischen Trappen ist von jenem des europäischen verschieden, da der Hahn einen großen schwarzen Schild auf der Brust trägt, während die Rückenfedern geperlt sind;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-e58c30e669",
+     "inventory": "VO_108388",
+     "type": "Tasche",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/495097",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-18",
+      "place": "Narromine, Australia",
+      "scan": 27,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n26/mode/1up",
+      "match": [
+       "tasche"
+      ],
+      "acquisition": false,
+      "text": "Zwei der Weibchen trugen in den Taschen je ein Junges, die, als die Mütter erlegt waren, herauskrochen;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-d0e55242cb",
+     "inventory": "VO_108393",
+     "type": "Beutel",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/495102",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-23",
+      "place": "Badgery Station, Australia",
+      "scan": 52,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n51/mode/1up",
+      "match": [
+       "beutel"
+      ],
+      "acquisition": false,
+      "text": "Das von mir erlegte Thier hatte ein Junges, welches ihm beim Sturze vom Baum aus dem Beutel gefallen war."
+     },
+     "card": []
+    }
+   ],
    "people": [
     {
      "id": "ke-person-17052a794e",
@@ -6275,6 +7295,128 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "objects": [
+    {
+     "id": "ke-object-f21e6b0a07",
+     "inventory": "VO_104861",
+     "type": "Speer",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/764280",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-26",
+      "place": "Sydney, Australia",
+      "scan": 66,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n65/mode/1up",
+      "match": [
+       "speer"
+      ],
+      "acquisition": false,
+      "text": "Dcis Werfen von Speeren auf weite Distanzen mit der primitiven MolzSchleuder war nicht weniger interessant;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-9174e6cab8",
+     "inventory": "VO_104863",
+     "type": "Speer",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/764282",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-26",
+      "place": "Sydney, Australia",
+      "scan": 66,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n65/mode/1up",
+      "match": [
+       "speer"
+      ],
+      "acquisition": false,
+      "text": "Dcis Werfen von Speeren auf weite Distanzen mit der primitiven MolzSchleuder war nicht weniger interessant;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-08ea0b7e35",
+     "inventory": "VO_104865",
+     "type": "Speer",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/764284",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-26",
+      "place": "Sydney, Australia",
+      "scan": 66,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n65/mode/1up",
+      "match": [
+       "speer"
+      ],
+      "acquisition": false,
+      "text": "Dcis Werfen von Speeren auf weite Distanzen mit der primitiven MolzSchleuder war nicht weniger interessant;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-b2e5d5c7d7",
+     "inventory": "VO_105890",
+     "type": "Schild",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/493815",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-20",
+      "place": "Mullengudgery, Australia",
+      "scan": 37,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n36/mode/1up",
+      "match": [
+       "schild"
+      ],
+      "acquisition": false,
+      "text": "Das Gefieder des Australischen Trappen ist von jenem des europäischen verschieden, da der Hahn einen großen schwarzen Schild auf der Brust trägt, während die Rückenfedern geperlt sind;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-e58c30e669",
+     "inventory": "VO_108388",
+     "type": "Tasche",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/495097",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-18",
+      "place": "Narromine, Australia",
+      "scan": 27,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n26/mode/1up",
+      "match": [
+       "tasche"
+      ],
+      "acquisition": false,
+      "text": "Zwei der Weibchen trugen in den Taschen je ein Junges, die, als die Mütter erlegt waren, herauskrochen;"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-d0e55242cb",
+     "inventory": "VO_108393",
+     "type": "Beutel",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/495102",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-05-23",
+      "place": "Badgery Station, Australia",
+      "scan": 52,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n51/mode/1up",
+      "match": [
+       "beutel"
+      ],
+      "acquisition": false,
+      "text": "Das von mir erlegte Thier hatte ein Junges, welches ihm beim Sturze vom Baum aus dem Beutel gefallen war."
+     },
+     "card": []
+    }
+   ],
    "people": [
     {
      "id": "ke-person-fd9240684a",
@@ -6887,6 +8029,168 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "objects": [
+    {
+     "id": "ke-object-76ef4657e2",
+     "inventory": "VO_104912",
+     "type": "Tabak-Rauchrohr",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/493292",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": true,
+      "text": "In Ermangelung einer Pfeife wird der Tabak in ein Blatt eingewickelt und wie eine Cigarette geraucht Nachdem ich mein Boot mit den erhandelten Gegenständen ziemlich gefüllt hatte, machte ich trotz des noch immer niederströmendt^n Regens einen kleinen Streifzug auf den umliegenden Höhen um.^ passierte zunächst die niedrigen Gebäude der anglikanischen Mhsi<y welche sich jedoch keines nachhaltigen Er"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-138f45d98b",
+     "inventory": "VO_104913",
+     "type": "Tabak-Rauchrohr",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/493293",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": true,
+      "text": "In Ermangelung einer Pfeife wird der Tabak in ein Blatt eingewickelt und wie eine Cigarette geraucht Nachdem ich mein Boot mit den erhandelten Gegenständen ziemlich gefüllt hatte, machte ich trotz des noch immer niederströmendt^n Regens einen kleinen Streifzug auf den umliegenden Höhen um.^ passierte zunächst die niedrigen Gebäude der anglikanischen Mhsi<y welche sich jedoch keines nachhaltigen Er"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-73d2609b20",
+     "inventory": "VO_108263",
+     "type": "Tabak-Rauchrohr",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/494997",
+     "strength": "strong",
+     "evidence": {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": true,
+      "text": "In Ermangelung einer Pfeife wird der Tabak in ein Blatt eingewickelt und wie eine Cigarette geraucht Nachdem ich mein Boot mit den erhandelten Gegenständen ziemlich gefüllt hatte, machte ich trotz des noch immer niederströmendt^n Regens einen kleinen Streifzug auf den umliegenden Höhen um.^ passierte zunächst die niedrigen Gebäude der anglikanischen Mhsi<y welche sich jedoch keines nachhaltigen Er"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-9e73860c4f",
+     "inventory": "VO_105871",
+     "type": "Holzfigur, männlich",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/493805",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-06-16",
+      "place": "Port Moresby to the hunting camp at Laroki, New Guinea",
+      "scan": 139,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n138/mode/1up",
+      "match": [
+       "mannlich"
+      ],
+      "acquisition": false,
+      "text": "lenn umgekehrt wie beim Menschen hat die Natur in der Thienvelt ronviegend das männliche Geschlecht durch Schönheit begünstigt, so dass auch beim Paradiesvogel nur das Männchen den herrlichen Federnschmuck trägt, während das Weibchen ganz unauffällig gezeichnet ist."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-3ad088f49a",
+     "inventory": "VO_108078",
+     "type": "Schild",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/494894",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-06-14",
+      "place": "Port Moresby, New Guinea",
+      "scan": 128,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n127/mode/1up",
+      "match": [
+       "schild"
+      ],
+      "acquisition": false,
+      "text": "Hinsichtlich ethnographischer Objecte v Ich« mich derselbe an das einzige Handelshaus der Ansiedelung, welcW solche Dinge sammle, und thatsächlich fanden sich hier eine reichhaltige Collection schöner Schilde, Speere und anderer Waffen sowie Bälge von allerlei Arten der auf Neu -Guinea bekanntlich einheimischen Paradiesvögel von Ich brachte diese Sammlung an mich und stieß dann mit der Barkasse, d"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-95d4a9b92f",
+     "inventory": "VO_108084",
+     "type": "Schild",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/494899",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-06-14",
+      "place": "Port Moresby, New Guinea",
+      "scan": 128,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n127/mode/1up",
+      "match": [
+       "schild"
+      ],
+      "acquisition": false,
+      "text": "Hinsichtlich ethnographischer Objecte v Ich« mich derselbe an das einzige Handelshaus der Ansiedelung, welcW solche Dinge sammle, und thatsächlich fanden sich hier eine reichhaltige Collection schöner Schilde, Speere und anderer Waffen sowie Bälge von allerlei Arten der auf Neu -Guinea bekanntlich einheimischen Paradiesvögel von Ich brachte diese Sammlung an mich und stieß dann mit der Barkasse, d"
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-6cf2977edc",
+     "inventory": "VO_108342",
+     "type": "Behälter",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/495056",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "behalter"
+      ],
+      "acquisition": false,
+      "text": "Besserti Geschäfte machte ich in dem anscheinend armen, \\ve hin in der Bucht gelegenen Dorfe Elewara, wo ich eine große Anzahl ethnographischer Gegenstände ervvarh, darunter zierliche Behälter, m welchen die Eingeborenen den Kaubetel, mit Korallenkalk gemischt, verwahren."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-cdcc5f3a5a",
+     "inventory": "VO_109083",
+     "type": "Armband",
+     "title": "NA",
+     "url": "https://www.weltmuseumwien.at/objekte/495694",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "armband"
+      ],
+      "acquisition": false,
+      "text": "werden: die Armbänder i\\r.d Heinringe bestehen zumeist au> ^en<»chtencm Str'»h oder au> dirchbiihrten .Muscheln, während glänzende Metall>tückchen und kleinere Muscheln die ( >hrgehänge darrstcllen."
+     },
+     "card": []
+    }
+   ],
    "people": [
     {
      "id": "tagebuch:Bedford",
@@ -7442,10 +8746,1285 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "objects": [
+    {
+     "id": "ke-object-3f9bfec453",
+     "inventory": "VO_106536",
+     "type": "Pfeil mit Eisenspitze",
+     "title": "KATAR, RUBIL",
+     "url": "https://www.weltmuseumwien.at/objekte/494264",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-06-26",
+      "place": "Dobo, Aru islands",
+      "scan": 172,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n171/mode/1up",
+      "match": [
+       "eisenspitze"
+      ],
+      "acquisition": false,
+      "text": "dafür trugen sie schöne Waffen, nämlich Speere mit Eisenspitzen, welch letztere dem Tauschhandel entstammten, und krisartige Messer, deren Schäfte mit Ornamenten aus Zinn oder Silber geziert waren."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-a32735e6da",
+     "inventory": "VO_106316",
+     "type": "Zylindertrommel",
+     "title": "TITER",
+     "url": "https://www.weltmuseumwien.at/objekte/494120",
+     "strength": "medium",
+     "evidence": null,
+     "card": [
+      {
+       "kind": "collected_1893",
+       "text": "1893"
+      }
+     ]
+    },
+    {
+     "id": "ke-object-8f90e050ca",
+     "inventory": "VO_106337",
+     "type": "Schild",
+     "title": "FIRA, DADATOKA",
+     "url": "https://www.weltmuseumwien.at/objekte/494135",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-06-28",
+      "place": "Amboina – in 1914: Assassination of Franz Ferdinand in Sarajevo",
+      "scan": 177,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n176/mode/1up",
+      "match": [
+       "schild"
+      ],
+      "acquisition": false,
+      "text": "In den Händen trugen sie ganz schmale, konisch geformte Schilde."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-a13d3e948b",
+     "inventory": "VO_106339",
+     "type": "Schild",
+     "title": "FIRA, DADATOKA",
+     "url": "https://www.weltmuseumwien.at/objekte/494137",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-06-28",
+      "place": "Amboina – in 1914: Assassination of Franz Ferdinand in Sarajevo",
+      "scan": 177,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n176/mode/1up",
+      "match": [
+       "schild"
+      ],
+      "acquisition": false,
+      "text": "In den Händen trugen sie ganz schmale, konisch geformte Schilde."
+     },
+     "card": []
+    },
+    {
+     "id": "ke-object-d873e37f46",
+     "inventory": "VO_106811",
+     "type": "Fahne, anthropomorph (Porekafahne)",
+     "title": "UPLERA HAIRE, KAIRENANU",
+     "url": "https://www.weltmuseumwien.at/objekte/531738",
+     "strength": "medium",
+     "evidence": {
+      "date": "1893-06-28",
+      "place": "Amboina – in 1914: Assassination of Franz Ferdinand in Sarajevo",
+      "scan": 177,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n176/mode/1up",
+      "match": [
+       "fahne"
+      ],
+      "acquisition": false,
+      "text": "Neben jener standen zunächst die chinesischen Honoratioren der Stadt mit großen, bunten Fahnen, auf welchen goldene Schriftzeichen prangten."
+     },
+     "card": []
+    }
+   ],
    "people": []
   }
  ],
  "voyage": {
+  "objects_strong": [
+   {
+    "id": "ke-object-6479e09478",
+    "inventory": "VO_103877_ab",
+    "type": "Schwert",
+    "title": "SCHWERT",
+    "dating": "NA",
+    "material": "Eisen, Tauschierung, Golddraht",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/764014",
+    "image": "https://www.weltmuseumwien.at/pics/764014/VO_103877_1.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "schwert"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-3302df9d9a",
+    "inventory": "VO_103891_ab",
+    "type": "Dolch, Scheide",
+    "title": "DOLCH",
+    "dating": "NA",
+    "material": "NA",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/764022",
+    "image": "https://www.weltmuseumwien.at/pics/764022/VO_103891_ab.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-1924170c8f",
+    "inventory": "VO_103895_ab",
+    "type": "Dolch, Scheide",
+    "title": "NA",
+    "dating": "NA",
+    "material": "NA",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/492852",
+    "image": "https://www.weltmuseumwien.at/pics/492852/VO_103895_a.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-6946fdce21",
+    "inventory": "VO_103898_ab",
+    "type": "Dolch, Scheide",
+    "title": "NA",
+    "dating": "NA",
+    "material": "NA",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/492854",
+    "image": "https://www.weltmuseumwien.at/pics/492854/VO_103898_a.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-3335320f04",
+    "inventory": "VO_103900_ab",
+    "type": "Dolch, Scheide",
+    "title": "DOLCH",
+    "dating": "NA",
+    "material": "NA",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/764025",
+    "image": "https://www.weltmuseumwien.at/pics/764025/VO_103900_ab.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-8e2c12c081",
+    "inventory": "VO_103901_ab",
+    "type": "Dolch, Scheide",
+    "title": "DOLCH",
+    "dating": "NA",
+    "material": "NA",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/764026",
+    "image": "https://www.weltmuseumwien.at/pics/764026/VO_103901_ab.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-9948ae2a51",
+    "inventory": "VO_103902_ab",
+    "type": "Dolch mit Scheide",
+    "title": "NA",
+    "dating": "1893 oder früher",
+    "material": "Stahl, Gold, Elfenbein, Textil",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/492856",
+    "image": "https://www.weltmuseumwien.at/pics/492856/VO_103902_ab_x.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [
+     "elfenbein"
+    ],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-3790eeb1a8",
+    "inventory": "VO_103903_ab",
+    "type": "Dolch, Scheide",
+    "title": "DOLCH",
+    "dating": "NA",
+    "material": "NA",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/764027",
+    "image": "https://www.weltmuseumwien.at/pics/764027/VO_103903_ab.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-c745703b29",
+    "inventory": "VO_103904_ab",
+    "type": "Dolch,Scheide",
+    "title": "DOLCH",
+    "dating": "NA",
+    "material": "NA",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/764028",
+    "image": "https://www.weltmuseumwien.at/pics/764028/VO_103904_ab.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-1d520856c8",
+    "inventory": "VO_103906",
+    "type": "Dolch",
+    "title": "NA",
+    "dating": "NA",
+    "material": "Metall",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/492857",
+    "image": "https://www.weltmuseumwien.at/pics/492857/VO_103906_201301_2.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-8499c291de",
+    "inventory": "VO_103908_ab",
+    "type": "Dolch, Scheide",
+    "title": "NA",
+    "dating": "NA",
+    "material": "NA",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/492859",
+    "image": "https://www.weltmuseumwien.at/pics/492859/VO_103908.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-593d25e79d",
+    "inventory": "VO_103910_ab",
+    "type": "Dolch mit Scheide",
+    "title": "NA",
+    "dating": "1893 oder früher",
+    "material": "Stahl, Bein, Textil, Holz",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/492860",
+    "image": "https://www.weltmuseumwien.at/pics/492860/VO_103910_ab_x.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-25",
+      "place": "Hyderabad, India",
+      "scan": 137,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up",
+      "match": [
+       "dolch"
+      ],
+      "acquisition": true,
+      "text": "Nach langem Handeln und Feilschen, was dem Reisenden im Orient leider nie erspart bleibt, kaufte ich eine große Anzahl der so schön gearbeiteten, oft phantastisch geschmückten Säbel, Schwerter, Dolche, Pistolen, Schilder, sowie Lanzen und reihte meiner Sammlung auch mehrere uralte Panzerhemden ein;"
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-2a29e2acd8",
+    "inventory": "VO_104244_a_f",
+    "type": "Tintenzeug",
+    "title": "NA",
+    "dating": "1893 oder früher",
+    "material": "Feuervergoldetes Eisenblech, Glas",
+    "geography": [
+     "Hyderabad"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/764152",
+    "image": "https://www.weltmuseumwien.at/pics/764152/VO_104244_a_b_c_d_e_f_2013_01_4.jpg",
+    "stay": [
+     {
+      "region": "Nizamate of Hyderabad, State, (Indien)",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-01-21",
+      "last": "1893-01-27",
+      "days": 7,
+      "dates": [
+       "1893-01-21",
+       "1893-01-22",
+       "1893-01-23",
+       "1893-01-24",
+       "1893-01-25",
+       "1893-01-26",
+       "1893-01-27"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-01-26",
+      "place": "Hyderabad, India",
+      "scan": 145,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n144/mode/1up",
+      "match": [
+       "tintenzeug"
+      ],
+      "acquisition": true,
+      "text": "In vorgerückter Stunde nahmen der Nisam und ich von einander und dem beiderseitigen Gefolge Abschied, wobei der Nisam die Freundlichkeit hatte, mir als Andenken ein in Gold gearbeitetes Tintenzeug und eine prachtvolle, goldgestickte Decke zu übergeben."
+     },
+     {
+      "date": "1893-01-26",
+      "place": "Hyderabad, India",
+      "scan": 145,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n144/mode/1up",
+      "match": [
+       "tintenzeug"
+      ],
+      "acquisition": false,
+      "text": "Einer der Herren meiner Suite hatte da,s Tintenzeug in Empfang genommen und in seiner Tasche verwahrt."
+     },
+     {
+      "date": "1893-01-26",
+      "place": "Hyderabad, India",
+      "scan": 145,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n144/mode/1up",
+      "match": [
+       "tintenzeug"
+      ],
+      "acquisition": false,
+      "text": "Der Minister des Nisams, welcher diesen Vorgang beobachtet hatte, machte — in offenbarer, vielleicht durch orientalische Gebräuche enlschuldhnror Missdeutung desselben — Wurmbrand sofort und nachdrücklichst aufmerksam, >dass das Tintenzeug bereits in einer fremden Tasche vcr.';ch wunden sei«."
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-01-22-hyderabad"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-c093e9ef20",
+    "inventory": "VO_116398",
+    "type": "Pulverhorn",
+    "title": "NA",
+    "dating": "NA",
+    "material": "NA",
+    "geography": [
+     "Jaipur"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/459430",
+    "image": "https://www.weltmuseumwien.at/pics/459430/VO_116398.jpg",
+    "stay": [
+     {
+      "region": "Jaipur (Jeypore), Rajasthan, Indien",
+      "kind": "direct",
+      "from": "Ortschaft (Route)",
+      "first": "1893-03-03",
+      "last": "1893-03-07",
+      "days": 5,
+      "dates": [
+       "1893-03-03",
+       "1893-03-04",
+       "1893-03-05",
+       "1893-03-06",
+       "1893-03-07"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-03-05",
+      "place": "Jaipur, India",
+      "scan": 339,
+      "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n338/mode/1up",
+      "match": [
+       "pulverhorn"
+      ],
+      "acquisition": true,
+      "text": "in anderen, in welche durch kleine, unsaubere Fenster;cheiben wenigstens etwas Licht fiel, fand ich eine sehr wertvolle iammlung aller Üschaipurer oder, besser gesagt, Rädschput-Waffen: eich mit Gold eingelegte Schwerter mit Damascener Klingen, zahlreiche Eostbare Dolche und Handspeere, eine große Anzahl aus Elfenbein )der Muschelschalen geschnitzter Pulverhörner, deren eines ich mir vom ^lahäräds"
+     }
+    ],
+    "card": [],
+    "animals": [
+     "bird"
+    ],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-03-03-jaipur",
+     "hunt-1893-03-07-agra"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-76ef4657e2",
+    "inventory": "VO_104912",
+    "type": "Tabak-Rauchrohr",
+    "title": "NA",
+    "dating": "1893",
+    "material": "Bambus",
+    "geography": [
+     "Papua Neuguinea"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/493292",
+    "image": "https://www.weltmuseumwien.at/pics/493292/VO_104912_x.jpg",
+    "stay": [
+     {
+      "region": "Papua Neuguinea",
+      "kind": "direct",
+      "from": "Geografie",
+      "first": "1893-06-10",
+      "last": "1893-06-20",
+      "days": 9,
+      "dates": [
+       "1893-06-10",
+       "1893-06-11",
+       "1893-06-14",
+       "1893-06-15",
+       "1893-06-16",
+       "1893-06-17",
+       "1893-06-18",
+       "1893-06-19",
+       "1893-06-20"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": true,
+      "text": "In Ermangelung einer Pfeife wird der Tabak in ein Blatt eingewickelt und wie eine Cigarette geraucht Nachdem ich mein Boot mit den erhandelten Gegenständen ziemlich gefüllt hatte, machte ich trotz des noch immer niederströmendt^n Regens einen kleinen Streifzug auf den umliegenden Höhen um.^ passierte zunächst die niedrigen Gebäude der anglikanischen Mhsi<y welche sich jedoch keines nachhaltigen Er"
+     },
+     {
+      "date": "1893-06-14",
+      "place": "Port Moresby, New Guinea",
+      "scan": 128,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n127/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "Dieser Malaye, dessen Haus wir besahen, soll ein sehr wohlbabender Mann sein, der die Küsten Neu-Guineas in kleinen Segelbooten befiihrt und gegen Tabak von den Eingeborenen Cocosnüsse, Sandelholz sowie andere Producte eintauscht, welche er an die in Pi>rt Moresby einlaufenden Schiffe verkauft."
+     },
+     {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "in Neu -Guinea raucht alles, Männer» Weiber, selbst kleine Kinder, und in jenen Gebieten, wo Geld noch ein unbekanntes Ding ist, kann man für Tabak alles erhalten."
+     },
+     {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "Zum Rauchen bedient man sich langer Bambusstückej die mit schönen, eingebrannten Zieraten versehen sind, und an deren Ende sich eine kleine Öffnung befindet, in welche der Tabak, von einem PalmenblatL eingehüllt, gesteckt wird;"
+     },
+     {
+      "date": "1893-06-17",
+      "place": "Hunting camp at the Laroki river, New Guinea",
+      "scan": 146,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n145/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "denn sie rauchten Tabak, welchen sie von mir erbettelt hatten, brieten das frischgeschossene Wallaby und verzehrten den seltsamen Braten mit Behagen."
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-06-16-new-guinea"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-138f45d98b",
+    "inventory": "VO_104913",
+    "type": "Tabak-Rauchrohr",
+    "title": "NA",
+    "dating": "1893",
+    "material": "Bambus",
+    "geography": [
+     "Papua Neuguinea"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/493293",
+    "image": "https://www.weltmuseumwien.at/pics/493293/VO_104913_x.jpg",
+    "stay": [
+     {
+      "region": "Papua Neuguinea",
+      "kind": "direct",
+      "from": "Geografie",
+      "first": "1893-06-10",
+      "last": "1893-06-20",
+      "days": 9,
+      "dates": [
+       "1893-06-10",
+       "1893-06-11",
+       "1893-06-14",
+       "1893-06-15",
+       "1893-06-16",
+       "1893-06-17",
+       "1893-06-18",
+       "1893-06-19",
+       "1893-06-20"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": true,
+      "text": "In Ermangelung einer Pfeife wird der Tabak in ein Blatt eingewickelt und wie eine Cigarette geraucht Nachdem ich mein Boot mit den erhandelten Gegenständen ziemlich gefüllt hatte, machte ich trotz des noch immer niederströmendt^n Regens einen kleinen Streifzug auf den umliegenden Höhen um.^ passierte zunächst die niedrigen Gebäude der anglikanischen Mhsi<y welche sich jedoch keines nachhaltigen Er"
+     },
+     {
+      "date": "1893-06-14",
+      "place": "Port Moresby, New Guinea",
+      "scan": 128,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n127/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "Dieser Malaye, dessen Haus wir besahen, soll ein sehr wohlbabender Mann sein, der die Küsten Neu-Guineas in kleinen Segelbooten befiihrt und gegen Tabak von den Eingeborenen Cocosnüsse, Sandelholz sowie andere Producte eintauscht, welche er an die in Pi>rt Moresby einlaufenden Schiffe verkauft."
+     },
+     {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "in Neu -Guinea raucht alles, Männer» Weiber, selbst kleine Kinder, und in jenen Gebieten, wo Geld noch ein unbekanntes Ding ist, kann man für Tabak alles erhalten."
+     },
+     {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "Zum Rauchen bedient man sich langer Bambusstückej die mit schönen, eingebrannten Zieraten versehen sind, und an deren Ende sich eine kleine Öffnung befindet, in welche der Tabak, von einem PalmenblatL eingehüllt, gesteckt wird;"
+     },
+     {
+      "date": "1893-06-17",
+      "place": "Hunting camp at the Laroki river, New Guinea",
+      "scan": 146,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n145/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "denn sie rauchten Tabak, welchen sie von mir erbettelt hatten, brieten das frischgeschossene Wallaby und verzehrten den seltsamen Braten mit Behagen."
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-06-16-new-guinea"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-73d2609b20",
+    "inventory": "VO_108263",
+    "type": "Tabak-Rauchrohr",
+    "title": "NA",
+    "dating": "1893",
+    "material": "Bambus",
+    "geography": [
+     "Papua Neuguinea"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/494997",
+    "image": "https://www.weltmuseumwien.at/pics/494997/VO_108263_x.jpg",
+    "stay": [
+     {
+      "region": "Papua Neuguinea",
+      "kind": "direct",
+      "from": "Geografie",
+      "first": "1893-06-10",
+      "last": "1893-06-20",
+      "days": 9,
+      "dates": [
+       "1893-06-10",
+       "1893-06-11",
+       "1893-06-14",
+       "1893-06-15",
+       "1893-06-16",
+       "1893-06-17",
+       "1893-06-18",
+       "1893-06-19",
+       "1893-06-20"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": true,
+      "text": "In Ermangelung einer Pfeife wird der Tabak in ein Blatt eingewickelt und wie eine Cigarette geraucht Nachdem ich mein Boot mit den erhandelten Gegenständen ziemlich gefüllt hatte, machte ich trotz des noch immer niederströmendt^n Regens einen kleinen Streifzug auf den umliegenden Höhen um.^ passierte zunächst die niedrigen Gebäude der anglikanischen Mhsi<y welche sich jedoch keines nachhaltigen Er"
+     },
+     {
+      "date": "1893-06-14",
+      "place": "Port Moresby, New Guinea",
+      "scan": 128,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n127/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "Dieser Malaye, dessen Haus wir besahen, soll ein sehr wohlbabender Mann sein, der die Küsten Neu-Guineas in kleinen Segelbooten befiihrt und gegen Tabak von den Eingeborenen Cocosnüsse, Sandelholz sowie andere Producte eintauscht, welche er an die in Pi>rt Moresby einlaufenden Schiffe verkauft."
+     },
+     {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "in Neu -Guinea raucht alles, Männer» Weiber, selbst kleine Kinder, und in jenen Gebieten, wo Geld noch ein unbekanntes Ding ist, kann man für Tabak alles erhalten."
+     },
+     {
+      "date": "1893-06-15",
+      "place": "Port Moresby, New Guinea",
+      "scan": 132,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "Zum Rauchen bedient man sich langer Bambusstückej die mit schönen, eingebrannten Zieraten versehen sind, und an deren Ende sich eine kleine Öffnung befindet, in welche der Tabak, von einem PalmenblatL eingehüllt, gesteckt wird;"
+     },
+     {
+      "date": "1893-06-17",
+      "place": "Hunting camp at the Laroki river, New Guinea",
+      "scan": 146,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n145/mode/1up",
+      "match": [
+       "tabak"
+      ],
+      "acquisition": false,
+      "text": "denn sie rauchten Tabak, welchen sie von mir erbettelt hatten, brieten das frischgeschossene Wallaby und verzehrten den seltsamen Braten mit Behagen."
+     }
+    ],
+    "card": [],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-06-16-new-guinea"
+    ],
+    "strength": "strong"
+   },
+   {
+    "id": "ke-object-4e46395c0d",
+    "inventory": "VO_111504_ab",
+    "type": "Repertiergewehr ‘Great Nippon Empire Murata Rifle’",
+    "title": "DAINIPPON TEIKOKU MURATAJŪ 大日本帝國村田銃",
+    "dating": "1889",
+    "material": "Holz, Stahl, Leder, Samt, Messing",
+    "geography": [
+     "Japan"
+    ],
+    "url": "https://www.weltmuseumwien.at/objekte/766905",
+    "image": "https://www.weltmuseumwien.at/pics/766905/VO_111504_ab_201401_02.jpg",
+    "stay": [
+     {
+      "region": "Japan",
+      "kind": "direct",
+      "from": "Geografie",
+      "first": "1893-07-29",
+      "last": "1893-08-24",
+      "days": 27,
+      "dates": [
+       "1893-07-29",
+       "1893-07-30",
+       "1893-07-31",
+       "1893-08-01",
+       "1893-08-02",
+       "1893-08-03",
+       "1893-08-04",
+       "1893-08-05",
+       "1893-08-06",
+       "1893-08-07",
+       "1893-08-08",
+       "1893-08-09",
+       "1893-08-10",
+       "1893-08-11",
+       "1893-08-12",
+       "1893-08-13",
+       "1893-08-14",
+       "1893-08-15",
+       "1893-08-16",
+       "1893-08-17",
+       "1893-08-18",
+       "1893-08-19",
+       "1893-08-20",
+       "1893-08-21",
+       "1893-08-22",
+       "1893-08-23",
+       "1893-08-24"
+      ]
+     }
+    ],
+    "diary": [
+     {
+      "date": "1893-08-02",
+      "place": "Nagasaki, Japan",
+      "scan": 296,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n295/mode/1up",
+      "match": [
+       "nippon"
+      ],
+      "acquisition": false,
+      "text": "Das Kaiserreich Japan, auch Nippon oder Nihon genannt, mit 382.412 km^ und 40,718.677 Seelen, umfasst bekanntlich eine Anzahl V'on Inseln, worunter vier von beträchtlicher Größe sind, nämlich Kiuschiu, Schikoku, Nippon oder Hondo, das Hauptland, welche Idas eigentliche Japan bilden, und endlich das nördlich hieven gelegene (leso."
+     },
+     {
+      "date": "1893-08-03",
+      "place": "Nagasaki, Japan",
+      "scan": 298,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n297/mode/1up",
+      "match": [
+       "nippon"
+      ],
+      "acquisition": false,
+      "text": "In den Straßen immer wxiterschreitend, waren wir Zeugen tiäu:^^ lieber Verrichtungen, wie sie das Alltagsleben des japanischen Volk^\" mit sich bringt, aber auch manche anmuthige Familienscene spiel i vor uns ab, und nicht wenige Söhne und Töchter Nippons konnten .vir bei allerlei Phasen des intimen Lebens beobachten."
+     },
+     {
+      "date": "1893-08-03",
+      "place": "Nagasaki, Japan",
+      "scan": 298,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n297/mode/1up",
+      "match": [
+       "nippon"
+      ],
+      "acquisition": false,
+      "text": "Die abendländische Cultur, welche sich in Nippon in überraschend curzer Zeit Bahn gebrochen, kommt auch schon in der Kleidung zum Ausdrucke, nicht eben zum V^ortheile der Japaner, deren Gestalten und Formen für d\\e europäische Tracht kaum geeignet sind."
+     },
+     {
+      "date": "1893-08-03",
+      "place": "Nagasaki, Japan",
+      "scan": 298,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n297/mode/1up",
+      "match": [
+       "nippon"
+      ],
+      "acquisition": false,
+      "text": "hier hatte der Apostel Japans, ein Jünger Ignazens von Loyola, der heilige Franz Xaver, im Jahre 1549 in Kagoschima den Boden Nippons betreten."
+     },
+     {
+      "date": "1893-08-04",
+      "place": "Nagasaki to Kumamoto, Japan",
+      "scan": 308,
+      "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n307/mode/1up",
+      "match": [
+       "murata"
+      ],
+      "acquisition": false,
+      "text": "die Truppe ist mit in Japan erzeugten Hinterladern, System Murata, II nim tauber bewaffnet, das jedoch sehr bald durch ein Kepetiers3^stem mit dem Caliber von 8 mm ersetzt werden soll;"
+     }
+    ],
+    "card": [
+     {
+      "kind": "gift_to_ff",
+      "text": "Persönliches Geschenk des Meiji Tenno an Erzherzog Franz-Ferdinand von Österreich-Este anläßlich seines Japanbesuches, August 1893."
+     },
+     {
+      "kind": "occasion",
+      "text": "anläßlich seines Japanbesuches, August 1893."
+     },
+     {
+      "kind": "collected_1893",
+      "text": "1893"
+     }
+    ],
+    "animals": [],
+    "animal_material": [],
+    "hunts_here": [
+     "hunt-1893-08-08-kyoto"
+    ],
+    "strength": "strong"
+   }
+  ],
   "kulturpool": [
    {
     "id": "6682f079-5346-40df-92d7-603deb9ec506",
