@@ -16,85 +16,146 @@
 
   const map = L.map("map", { minZoom: 1, maxZoom: 8 });
   map.attributionControl.setPrefix(false);
-  map.attributionControl.addAttribution("Küsten: Natural Earth · Orte: GeoNames (CC BY 4.0)");
+  map.attributionControl.addAttribution("Orte: GeoNames (CC BY 4.0)");
+  const landLayer = L.layerGroup();
   if (window.WORLD) {
     // Drawn twice (second copy shifted by 360°) so the unwrapped route east of Japan
     // (North America at longitudes > 180) still has land under it.
     const landStyle = { color: "#b9c4c4", weight: 0.8, fillColor: "#f6f3ea", fillOpacity: 1 };
-    L.geoJSON(window.WORLD, { interactive: false, style: landStyle }).addTo(map);
     L.geoJSON(window.WORLD, { interactive: false, style: landStyle,
-      coordsToLatLng: (c) => L.latLng(c[1], c[0] + 360) }).addTo(map);
+      attribution: "Küsten: Natural Earth" }).addTo(landLayer);
+    L.geoJSON(window.WORLD, { interactive: false, style: landStyle,
+      coordsToLatLng: (c) => L.latLng(c[1], c[0] + 360) }).addTo(landLayer);
   }
+  // Historic base map: "World On Mercator's Projection" (1872), georeferenced on Map Warper (map 98512).
+  // Tiles repeat east and west, so the unwrapped Pacific crossing needs no second copy.
+  // Source scan is 7716 px wide (≈ zoom 5); higher zooms are upscaled.
+  // The georeferencing is uneven (Europe fits, India–Java lies ~3 px at zoom 0 too far north,
+  // Japan too far south), so the map is not shifted: on it, places are drawn where the map
+  // shows them (data/ke_places_1872.js). reise.html?kalibrieren makes them draggable.
+  const historicLayer = L.tileLayer("https://mapwarper.net/maps/tile/98512/{z}/{x}/{y}.png", {
+    maxNativeZoom: 6,
+    attribution: 'Karte 1872: <a href="https://mapwarper.net/maps/98512" target="_blank" rel="noopener">Map Warper 98512</a>',
+  });
+  const H1872 = window.KE1872 || {};
+  let historic = true;
 
   const routeLayer = L.layerGroup().addTo(map);
   const huntLayer = L.layerGroup().addTo(map);
   const pressLayer = L.layerGroup().addTo(map);
   const kpLayer = L.layerGroup();
+  const KL = window.KEL || { days: {}, voyage: {} };
+  const PEOPLE = "#56B4E9", COLLECT = "#CC79A7";
+  const peopleLayer = L.layerGroup(), collectLayer = L.layerGroup();
 
   // Route: located days in date order. Longitudes are unwrapped so the Pacific crossing
   // (Yokohama → Vancouver) runs east across the Pacific, not back across Asia and Europe.
+  // d.wrap keeps the shift so the 1872 positions get the same one.
   const located = days.filter((d) => d.lat !== null);
   let prevLon = null;
   for (const d of located) {
     let lon = d.lon;
     while (prevLon !== null && lon - prevLon > 180) lon -= 360;
     while (prevLon !== null && lon - prevLon < -180) lon += 360;
+    d.wrap = lon - d.lon;
     d.lon = lon;
     prevLon = lon;
   }
-  L.polyline(located.map((d) => [d.lat, d.lon]), { color: ROUTE, weight: 2.5, opacity: 0.7 }).addTo(routeLayer);
-  const markerOf = new Map();
-  for (const d of located) {
-    const m = L.circleMarker([d.lat, d.lon], { radius: 4, color: "#fff", weight: 1, fillColor: ROUTE, fillOpacity: 0.9 });
-    m.bindTooltip(`${esc(d.date)} · ${esc(d.place_as_printed)}`);
-    m.on("click", () => select(days.indexOf(d)));
-    m.addTo(routeLayer);
-    markerOf.set(d, m);
-  }
-  // Hunting: days with kill sentences, sized by count
-  for (const d of located.filter((x) => x.kill_sentences > 0)) {
-    L.circleMarker([d.lat, d.lon], {
-      radius: 5 + Math.min(10, d.kill_sentences * 1.5), color: HUNT, weight: 1.5, fillColor: HUNT, fillOpacity: 0.35,
-    }).bindTooltip(`${esc(d.date)} · ${d.kill_sentences} Sätze vom Erlegen/Schießen`)
-      .on("click", () => select(days.indexOf(d))).addTo(huntLayer);
-  }
-  // Kulturpool records per place (from the ship prototype, voyage window ±2 years)
-  const kpByPlace = new Map();
-  for (const s of (KE ? KE.stops : [])) {
-    if (s.segment !== "weltreise_1892_93" || !s.kp_records.length) continue;
-    kpByPlace.set(s.geo_name, s);
-    L.circleMarker([Number(s.latitude), Number(s.longitude)], { radius: 6, color: KP, weight: 2, fill: false })
-      .bindTooltip(`${esc(s.place_note)}: ${s.kp_found} Kulturpool-Treffer`).addTo(kpLayer);
-  }
-  // Press: clippings placed at the diary day they report on (event_date, set by
-  // enrichment/05_export_presse.py), else at the diary location of the publication date
-  for (const p of presse) {
-    const key = p.event_date || p.date;
-    const day = days.find((d) => d.date === key && d.lat !== null) ||
-      located.filter((d) => d.date <= key).pop();
-    if (!day) continue;
-    L.circleMarker([day.lat, day.lon], { radius: 7, color: PRESS, weight: 2, fillColor: PRESS, fillOpacity: 0.2 })
-      .bindTooltip(`${esc(p.date)} · ${esc(p.newspaper)}`).on("click", () => select(days.indexOf(day))).addTo(pressLayer);
-  }
-  map.fitBounds(located.map((d) => [d.lat, d.lon]), { padding: [20, 20] });
+  // Position on the current base map
+  const at = (d) => {
+    const h = historic && H1872[d.place];
+    return h ? [h.lat, h.lon + d.wrap] : [d.lat, d.lon];
+  };
+  const kpStops = (KE ? KE.stops : []).filter((s) => s.segment === "weltreise_1892_93" && s.kp_records.length);
+  const kpByPlace = new Map(kpStops.map((s) => [s.geo_name, s]));
+  const atStop = (s) => {
+    const h = historic && H1872[s.geo_name];
+    return h ? [h.lat, h.lon] : [Number(s.latitude), Number(s.longitude)];
+  };
 
-  // Layers "Menschen" and "Sammeln" (data/ke_layers.js, scripts/ke_layers.py)
-  const KL = window.KEL || { days: {}, voyage: {} };
-  const PEOPLE = "#56B4E9", COLLECT = "#CC79A7";
-  const peopleLayer = L.layerGroup(), collectLayer = L.layerGroup();
-  for (const d of located) {
-    const e = KL.days[d.date] || {};
-    if ((e.actors || []).length) {
-      L.circleMarker([d.lat, d.lon], { radius: 9, color: PEOPLE, weight: 2, fill: false })
-        .bindTooltip(`${esc(d.date)} · ${e.actors.length} im Archiv verbunden`)
-        .on("click", () => select(days.indexOf(d))).addTo(peopleLayer);
+  const markerOf = new Map();
+  function draw() {
+    for (const g of [routeLayer, huntLayer, kpLayer, pressLayer, peopleLayer, collectLayer]) g.clearLayers();
+    L.polyline(located.map(at), { color: ROUTE, weight: 2.5, opacity: 0.7 }).addTo(routeLayer);
+    for (const d of located) {
+      const m = L.circleMarker(at(d), { radius: 4, color: "#fff", weight: 1, fillColor: ROUTE, fillOpacity: 0.9 });
+      m.bindTooltip(`${esc(d.date)} · ${esc(d.place_as_printed)}`);
+      m.on("click", () => select(days.indexOf(d)));
+      m.addTo(routeLayer);
+      markerOf.set(d, m);
     }
-    if ((e.collecting || []).length) {
-      L.circleMarker([d.lat, d.lon], { radius: 6, color: COLLECT, weight: 2, fillColor: COLLECT, fillOpacity: 0.5 })
-        .bindTooltip(`${esc(d.date)} · ${e.collecting.length} Stelle(n) zum Sammeln/Erwerben`)
-        .on("click", () => select(days.indexOf(d))).addTo(collectLayer);
+    // Hunting: days with kill sentences, sized by count
+    for (const d of located.filter((x) => x.kill_sentences > 0)) {
+      L.circleMarker(at(d), {
+        radius: 5 + Math.min(10, d.kill_sentences * 1.5), color: HUNT, weight: 1.5, fillColor: HUNT, fillOpacity: 0.35,
+      }).bindTooltip(`${esc(d.date)} · ${d.kill_sentences} Sätze vom Erlegen/Schießen`)
+        .on("click", () => select(days.indexOf(d))).addTo(huntLayer);
+    }
+    // Kulturpool records per place (from the ship prototype, voyage window ±2 years)
+    for (const s of kpStops) {
+      L.circleMarker(atStop(s), { radius: 6, color: KP, weight: 2, fill: false })
+        .bindTooltip(`${esc(s.place_note)}: ${s.kp_found} Kulturpool-Treffer`).addTo(kpLayer);
+    }
+    // Press: clippings placed at the diary day they report on (event_date, set by
+    // enrichment/05_export_presse.py), else at the diary location of the publication date
+    for (const p of presse) {
+      const key = p.event_date || p.date;
+      const day = days.find((d) => d.date === key && d.lat !== null) ||
+        located.filter((d) => d.date <= key).pop();
+      if (!day) continue;
+      L.circleMarker(at(day), { radius: 7, color: PRESS, weight: 2, fillColor: PRESS, fillOpacity: 0.2 })
+        .bindTooltip(`${esc(p.date)} · ${esc(p.newspaper)}`).on("click", () => select(days.indexOf(day))).addTo(pressLayer);
+    }
+    // Layers "Menschen" and "Sammeln" (data/ke_layers.js, scripts/ke_layers.py)
+    for (const d of located) {
+      const e = KL.days[d.date] || {};
+      if ((e.actors || []).length) {
+        L.circleMarker(at(d), { radius: 9, color: PEOPLE, weight: 2, fill: false })
+          .bindTooltip(`${esc(d.date)} · ${e.actors.length} im Archiv verbunden`)
+          .on("click", () => select(days.indexOf(d))).addTo(peopleLayer);
+      }
+      if ((e.collecting || []).length) {
+        L.circleMarker(at(d), { radius: 6, color: COLLECT, weight: 2, fillColor: COLLECT, fillOpacity: 0.5 })
+          .bindTooltip(`${esc(d.date)} · ${e.collecting.length} Stelle(n) zum Sammeln/Erwerben`)
+          .on("click", () => select(days.indexOf(d))).addTo(collectLayer);
+      }
     }
   }
+  const showHistoric = (on) => {
+    historic = on;
+    if (on) { map.removeLayer(landLayer); historicLayer.addTo(map); }
+    else { map.removeLayer(historicLayer); landLayer.addTo(map); }
+    draw();
+  };
+  showHistoric(true);
+  map.fitBounds(located.map(at), { padding: [20, 20] });
+
+  // Calibration (reise.html?kalibrieren): one draggable marker per place on the 1872 map;
+  // the box shows data/ke_places_1872.js with the new positions to copy into the file.
+  if (new URLSearchParams(location.search).has("kalibrieren")) {
+    const box = L.control({ position: "topright" });
+    box.onAdd = () => {
+      const t = L.DomUtil.create("textarea", "calib");
+      t.style.cssText = "width:22em;height:14em;font:11px monospace";
+      L.DomEvent.disableClickPropagation(t);
+      return t;
+    };
+    box.addTo(map);
+    const show = () => { box.getContainer().value = "window.KE1872 = " + JSON.stringify(H1872, null, 1) + ";\n"; };
+    const firstDay = new Map();
+    for (const d of located) if (!firstDay.has(d.place)) firstDay.set(d.place, d);
+    for (const [place, d] of firstDay) {
+      const pos = H1872[place] ? [H1872[place].lat, H1872[place].lon + d.wrap] : [d.lat, d.lon];
+      L.marker(pos, { draggable: true, title: place }).addTo(map).on("dragend", (e) => {
+        const ll = e.target.getLatLng();
+        H1872[place] = { lat: +ll.lat.toFixed(4), lon: +(ll.lng - d.wrap).toFixed(4), quelle: "von Hand (Kalibrierung)" };
+        show();
+        if (historic) draw();
+      });
+    }
+    show();
+  }
+
   const ctx = (KL.voyage && KL.voyage.kulturpool_context) || [];
   document.getElementById("context").innerHTML = ctx.map((c) => `<li class="noimg"><div>
     <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.label)}</a> ${esc(c.text)}
@@ -109,6 +170,7 @@
   });
   toggle("lyr-route", routeLayer); toggle("lyr-hunt", huntLayer); toggle("lyr-kp", kpLayer); toggle("lyr-press", pressLayer);
   toggle("lyr-people", peopleLayer); toggle("lyr-collect", collectLayer);
+  document.getElementById("lyr-historic").addEventListener("change", (e) => showHistoric(e.target.checked));
 
   // Stats
   const huntDays = days.filter((d) => d.kill_sentences > 0);
