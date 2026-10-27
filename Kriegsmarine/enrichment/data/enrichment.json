@@ -684,6 +684,32 @@
      "url": "https://commons.wikimedia.org/wiki/File:Franz_Ferdinand_von_%C3%96sterreich-Este_auf_Elefantenjagd_1893.jpg",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Franz_Ferdinand_von_%C3%96sterreich-Este_auf_Elefantenjagd_1893.jpg/960px-Franz_Ferdinand_von_%C3%96sterreich-Este_auf_Elefantenjagd_1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
+   ],
+   "people": [
+    {
+     "id": "ke-person-17052a794e",
+     "name": "Clam-Martinic, Heinrich Graf",
+     "group": "Begleitung",
+     "kill_sentences": 1,
+     "gnd": "https://d-nb.info/gnd/118676245",
+     "wikidata": "Q698043"
+    },
+    {
+     "id": "ke-person-29a7635918",
+     "name": "Kinsky zu Wichnitz und Tettau, Karl Graf",
+     "group": "Begleitung",
+     "kill_sentences": 1,
+     "gnd": "https://d-nb.info/gnd/13877711X",
+     "wikidata": "Q6371368"
+    },
+    {
+     "id": "ke-person-acdc9665d2",
+     "name": "Pirie, Captain",
+     "group": "Gastgeber",
+     "kill_sentences": 1,
+     "gnd": null,
+     "wikidata": null
+    }
    ]
   },
   {
@@ -1364,7 +1390,8 @@
      "image": null,
      "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
     }
-   ]
+   ],
+   "people": []
   },
   {
    "id": "hunt-1893-02-13-agra",
@@ -2011,7 +2038,33 @@
     "days_without_hunting_entry": 1,
     "diary_within_hoefer": true
    },
-   "photos": []
+   "photos": [],
+   "people": [
+    {
+     "id": "ke-person-17052a794e",
+     "name": "Clam-Martinic, Heinrich Graf",
+     "group": "Begleitung",
+     "kill_sentences": 1,
+     "gnd": "https://d-nb.info/gnd/118676245",
+     "wikidata": "Q698043"
+    },
+    {
+     "id": "ke-person-fd9240684a",
+     "name": "Wurmbrand-Stuppach, Leo Graf",
+     "group": "Begleitung",
+     "kill_sentences": 1,
+     "gnd": null,
+     "wikidata": null
+    },
+    {
+     "id": "ke-person-16032eb53b",
+     "name": "Prónay von Tót-Próna und Blatnicza, Julius",
+     "group": "Begleitung",
+     "kill_sentences": 1,
+     "gnd": null,
+     "wikidata": null
+    }
+   ]
   },
   {
    "id": "hunt-1893-02-20-alwar",
@@ -2550,7 +2603,33 @@
     "days_without_hunting_entry": 3,
     "diary_within_hoefer": true
    },
-   "photos": []
+   "photos": [],
+   "people": [
+    {
+     "id": "ke-person-fd9240684a",
+     "name": "Wurmbrand-Stuppach, Leo Graf",
+     "group": "Begleitung",
+     "kill_sentences": 3,
+     "gnd": null,
+     "wikidata": null
+    },
+    {
+     "id": "ke-person-17052a794e",
+     "name": "Clam-Martinic, Heinrich Graf",
+     "group": "Begleitung",
+     "kill_sentences": 1,
+     "gnd": "https://d-nb.info/gnd/118676245",
+     "wikidata": "Q698043"
+    },
+    {
+     "id": "ke-person-29a7635918",
+     "name": "Kinsky zu Wichnitz und Tettau, Karl Graf",
+     "group": "Begleitung",
+     "kill_sentences": 1,
+     "gnd": "https://d-nb.info/gnd/13877711X",
+     "wikidata": "Q6371368"
+    }
+   ]
   },
   {
    "id": "hunt-1893-03-01-jodhpur",
@@ -3050,7 +3129,8 @@
      "image": null,
      "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
     }
-   ]
+   ],
+   "people": []
   },
   {
    "id": "hunt-1893-03-03-jaipur",
@@ -3577,7 +3657,8 @@
     "days_without_hunting_entry": 3,
     "diary_within_hoefer": true
    },
-   "photos": []
+   "photos": [],
+   "people": []
   },
   {
    "id": "hunt-1893-03-09-nepal",
@@ -4388,6 +4469,48 @@
      "image": null,
      "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
     }
+   ],
+   "people": [
+    {
+     "id": "ke-person-fd9240684a",
+     "name": "Wurmbrand-Stuppach, Leo Graf",
+     "group": "Begleitung",
+     "kill_sentences": 4,
+     "gnd": null,
+     "wikidata": null
+    },
+    {
+     "id": "ke-person-29a7635918",
+     "name": "Kinsky zu Wichnitz und Tettau, Karl Graf",
+     "group": "Begleitung",
+     "kill_sentences": 4,
+     "gnd": "https://d-nb.info/gnd/13877711X",
+     "wikidata": "Q6371368"
+    },
+    {
+     "id": "ke-person-16032eb53b",
+     "name": "Prónay von Tót-Próna und Blatnicza, Julius",
+     "group": "Begleitung",
+     "kill_sentences": 3,
+     "gnd": null,
+     "wikidata": null
+    },
+    {
+     "id": "ke-person-64446b65dc",
+     "name": "Stockinger, Franz",
+     "group": "Gastgeber",
+     "kill_sentences": 2,
+     "gnd": null,
+     "wikidata": null
+    },
+    {
+     "id": "ke-person-17052a794e",
+     "name": "Clam-Martinic, Heinrich Graf",
+     "group": "Begleitung",
+     "kill_sentences": 1,
+     "gnd": "https://d-nb.info/gnd/118676245",
+     "wikidata": "Q698043"
+    }
    ]
   },
   {
@@ -5116,7 +5239,8 @@
      "image": null,
      "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
     }
-   ]
+   ],
+   "people": []
   },
   {
    "id": "hunt-1893-05-18-nsw-west",
@@ -5556,7 +5680,25 @@
     "days_without_hunting_entry": 0,
     "diary_within_hoefer": false
    },
-   "photos": []
+   "photos": [],
+   "people": [
+    {
+     "id": "ke-person-17052a794e",
+     "name": "Clam-Martinic, Heinrich Graf",
+     "group": "Begleitung",
+     "kill_sentences": 1,
+     "gnd": "https://d-nb.info/gnd/118676245",
+     "wikidata": "Q698043"
+    },
+    {
+     "id": "ke-person-a4b84c682b",
+     "name": "Hodek, Eduard",
+     "group": "Besatzung",
+     "kill_sentences": 1,
+     "gnd": null,
+     "wikidata": null
+    }
+   ]
   },
   {
    "id": "hunt-1893-05-23-badgery",
@@ -6132,7 +6274,33 @@
     "days_without_hunting_entry": 0,
     "diary_within_hoefer": true
    },
-   "photos": []
+   "photos": [],
+   "people": [
+    {
+     "id": "ke-person-fd9240684a",
+     "name": "Wurmbrand-Stuppach, Leo Graf",
+     "group": "Begleitung",
+     "kill_sentences": 2,
+     "gnd": null,
+     "wikidata": null
+    },
+    {
+     "id": "ke-person-17052a794e",
+     "name": "Clam-Martinic, Heinrich Graf",
+     "group": "Begleitung",
+     "kill_sentences": 1,
+     "gnd": "https://d-nb.info/gnd/118676245",
+     "wikidata": "Q698043"
+    },
+    {
+     "id": "ke-person-16032eb53b",
+     "name": "Prónay von Tót-Próna und Blatnicza, Julius",
+     "group": "Begleitung",
+     "kill_sentences": 1,
+     "gnd": null,
+     "wikidata": null
+    }
+   ]
   },
   {
    "id": "hunt-1893-06-16-new-guinea",
@@ -6718,7 +6886,17 @@
     "days_without_hunting_entry": 4,
     "diary_within_hoefer": true
    },
-   "photos": []
+   "photos": [],
+   "people": [
+    {
+     "id": "tagebuch:Bedford",
+     "name": "Bedford",
+     "group": "Gastgeber",
+     "kill_sentences": 1,
+     "gnd": null,
+     "wikidata": null
+    }
+   ]
   },
   {
    "id": "hunt-1893-06-29-buru",
@@ -7263,7 +7441,8 @@
     "days_without_hunting_entry": 0,
     "diary_within_hoefer": true
    },
-   "photos": []
+   "photos": [],
+   "people": []
   }
  ],
  "voyage": {

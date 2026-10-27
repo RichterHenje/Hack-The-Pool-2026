@@ -1,0 +1,3422 @@
+{
+ "source": "normalization/json/personen_reise.json",
+ "people": [
+  {
+   "id": "ke-person-17052a794e",
+   "name": "Clam-Martinic, Heinrich Graf",
+   "group": "Begleitung",
+   "role": "Kämmerer, Reisebegleiter",
+   "ranks": [],
+   "vault_note": "Personen/Clam-Martinic, Heinrich Graf.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bClam\\b",
+    "days": 40,
+    "first": "1892-12-20",
+    "last": "1893-09-24",
+    "dates": [
+     "1892-12-20",
+     "1892-12-24",
+     "1893-01-11",
+     "1893-01-12",
+     "1893-01-23",
+     "1893-02-15",
+     "1893-02-23",
+     "1893-02-24",
+     "1893-02-25",
+     "1893-02-27",
+     "1893-03-05",
+     "1893-03-07",
+     "1893-03-11",
+     "1893-03-12",
+     "1893-03-13",
+     "1893-03-14",
+     "1893-03-21",
+     "1893-03-23",
+     "1893-04-05",
+     "1893-04-08",
+     "1893-04-20",
+     "1893-05-06",
+     "1893-05-14",
+     "1893-05-18",
+     "1893-05-20",
+     "1893-05-25",
+     "1893-05-27",
+     "1893-06-09",
+     "1893-06-14",
+     "1893-06-17",
+     "1893-06-26",
+     "1893-06-29",
+     "1893-07-04",
+     "1893-07-25",
+     "1893-08-23",
+     "1893-08-26",
+     "1893-09-13",
+     "1893-09-14",
+     "1893-09-23",
+     "1893-09-24"
+    ],
+    "kill_sentences": 8,
+    "hunts": [
+     "hunt-1893-01-10-ceylon",
+     "hunt-1893-02-13-agra",
+     "hunt-1893-02-20-alwar",
+     "hunt-1893-03-09-nepal",
+     "hunt-1893-05-06-port-kennedy",
+     "hunt-1893-05-18-nsw-west",
+     "hunt-1893-05-23-badgery",
+     "hunt-1893-06-25-aru"
+    ],
+    "kills_by_hunt": {
+     "hunt-1893-01-10-ceylon": 1,
+     "hunt-1893-02-13-agra": 1,
+     "hunt-1893-02-20-alwar": 1,
+     "hunt-1893-03-09-nepal": 1,
+     "hunt-1893-05-06-port-kennedy": 1,
+     "hunt-1893-05-18-nsw-west": 1,
+     "hunt-1893-05-23-badgery": 1,
+     "hunt-1893-06-25-aru": 1
+    },
+    "kill_quotes": [
+     {
+      "date": "1893-01-11",
+      "text": "Clam hatte dann eine Affenfamilie verfolgt und nach vieli Laufen und Schießen zwei Mitglieder derselben erlegt."
+     },
+     {
+      "date": "1893-02-15",
+      "text": "Die Herren waren flugs mit ihren Stutzen aus den Waggons, während ich nur als Zuschauer fungierte, da ich ja schon tagszuvor drei Nilgaus erlegt hatte, Clam streckte einen Stier im Feuer, Wurmbrand schweißte einen anderen stark an, den er nach langer Nachsuche endlich ausmachte, Prönay fehlte einen Stier in der Flucht."
+     },
+     {
+      "date": "1893-02-27",
+      "text": "Nach diesem ermunternden Erfolge hub abermals die heitere Eisenbahnpürsche an, in deren Verlaufe wir noch dreimal Gelegenheil hatten, an Black-bucks heranzukommen, so dass ich einen starken Bock, Clam eine Gais erlegen konnte."
+     }
+    ]
+   },
+   "gnd": {
+    "status": "vault",
+    "id": "118676245",
+    "candidates": null,
+    "name": "Clam-Martinic, Heinrich",
+    "born": "1863-01-01",
+    "died": "1932-03-07",
+    "professions": [
+     "Großgrundbesitzer",
+     "Politiker",
+     "General",
+     "Militärgouverneur"
+    ],
+    "url": "https://d-nb.info/gnd/118676245",
+    "wikidata": "Q698043"
+   },
+   "wikidata": "Q698043",
+   "anno": {
+    "query": "\"Clam\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 269,
+    "examples": [
+     {
+      "title": "Das Vaterland 9. Jänner 1893",
+      "date": "1893-01-09",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930109?query=%22Clam%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...' Schmidt, der Honved-Obercommandant-Stellvertreter FML.v. Formyak, Graf Piafti und Gras Clam-Gallas.* (HofnachrtthteyZ Se. Majest&auml;t der Kaiser hat..."
+     },
+     {
+      "title": "Wiener Salonblatt 1. Jänner 1893",
+      "date": "1893-01-01",
+      "url": "http://data.onb.ac.at/ANNO/wsb18930101?query=%22Clam%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...25 fl., Herr Leopold v. sieben 100 sl,. F&uuml;rst Schwar;enberg 200 st.,Graf Fran; Clam-Gallas 82 sl. 85 kr. und 4 St&uuml;ck Schwarzwild,Herren Ludwig und Anton llrban 200 st., Herr I. Gustav Figdor..."
+     },
+     {
+      "title": "Das Vaterland 7. Februar 1893",
+      "date": "1893-02-07",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930207?query=%22Clam%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Philipp Frhr. v. Skrbensky, Graf Max Brmts, Graf Ott&laquo; ,Traun, Graf Franz Clam-Gallas, Graf Siegfried Clary,Fl&uuml;geladjutant Major Tengler...."
+     }
+    ]
+   },
+   "kulturpool": {
+    "found": 7,
+    "items": [
+     {
+      "title": "Lieber Graf Clam=Martinic! In dieser schweren Zeit drängt es Mich, Meinen geliebten Völkern zu sagen, wie tief Mir ihre Mühsal zu Herzen geht ... [13. Mai 1917]",
+      "provider": "Wienbibliothek im Rathaus",
+      "date": [
+       "1917"
+      ],
+      "url": "https://kulturpool.at/objekte/dbd38c6b-e40a-4a28-bea9-b3548919e3b0",
+      "image": "https://media.kulturpool.at/images/www.digital.wienbibliothek.at/7eb25eea246eafd70cc16403bba95958fffe00ac_small.webp"
+     },
+     {
+      "title": "\"Die neuesten Stützen der Verfassung.\" (Originaltitel) Die neuesten Stützen der Verfassung; Heinrich Jaroslav Clam-Martinic, Rabbi Simon Schreiber, Frantisek Ladislav von Rieger (Karikatur aus \"Die Bombe\")",
+      "provider": "Wien Museum",
+      "date": [
+       "1879"
+      ],
+      "url": "https://kulturpool.at/objekte/b5aca034-2993-4be3-90f9-5abb5842ac14",
+      "image": "https://media.kulturpool.at/images/sammlung.wienmuseum.at/b5f1500b20102eb75fc895e0f3d5f6f14a2f4abe_small.webp"
+     },
+     {
+      "title": "\"Mitglieder des verstärkten österreichischen Reichsrathes.\" (Originaltitel) Mitglieder des verstärkten österreichischen Reichsrates; u. a. Heinrich Jaroslav Gf. Clam-Martinic, Metropolit Andrei Schaguna, Graf Aponyi etc. (aus \"Illustrirte Zeitung\")",
+      "provider": "Wien Museum",
+      "date": [
+       "6.10.1860"
+      ],
+      "url": "https://kulturpool.at/objekte/b5170543-1f16-442b-aa0b-d046df5308f4",
+      "image": "https://media.kulturpool.at/images/sammlung.wienmuseum.at/5f9dc4b370c20c37dff9585462c73f6786be3096_small.webp"
+     },
+     {
+      "title": "\"Mitglieder des verstärkten österreichischen Reichsrathes.\" (Originaltitel) Mitglieder des verstärkten österreichischen Reichsrates; u. a. Heinrich Jaroslav Gf. Clam-Martinic, Metropolit Andrei Schaguna, Graf Aponyi etc. (aus \"Illustrirte Zeitung\")",
+      "provider": "Wien Museum",
+      "date": [
+       "6.10.1860"
+      ],
+      "url": "https://kulturpool.at/objekte/0d321c9d-ca49-4027-a67a-89ed47e58f98",
+      "image": "https://media.kulturpool.at/images/sammlung.wienmuseum.at/b714f382f42f544a35044d5d3c719d7a7ecb039f_small.webp"
+     },
+     {
+      "title": "\"Zur Prager Wenzelsprocession.\" (Originaltitel) Zur Prager Wenzelsprozession; Jan Hus und Jan Ziska betrachten vom Himmel aus den Umzug zur 900 Jahrfeier des Bistums, unter den Teilnehmern Frantisek Palacký und Heinrich Jaroslav Graf Clam-Martinic (Karikatur mit Dialog unter der Grafik aus \"Der Floh\")",
+      "provider": "Wien Museum",
+      "date": [
+       "1873"
+      ],
+      "url": "https://kulturpool.at/objekte/a0f28dcb-fb6c-4bff-b67c-f25178a8aab9",
+      "image": "https://media.kulturpool.at/images/sammlung.wienmuseum.at/bb6d16324850da3013d8534faf223dbefce10a97_small.webp"
+     }
+    ]
+   },
+   "wikidata_label": "Heinrich Clam-Martinic",
+   "wikidata_description": "böhmischer Adeliger und österreichischer Politiker"
+  },
+  {
+   "id": "ke-person-fd9240684a",
+   "name": "Wurmbrand-Stuppach, Leo Graf",
+   "group": "Begleitung",
+   "role": "Generalmajor, Reisebegleiter",
+   "ranks": [],
+   "vault_note": "Personen/Wurmbrand-Stuppach, Leo Graf.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bWurmbrand\\b",
+    "days": 34,
+    "first": "1892-12-20",
+    "last": "1893-09-22",
+    "dates": [
+     "1892-12-20",
+     "1893-01-11",
+     "1893-01-12",
+     "1893-01-21",
+     "1893-01-23",
+     "1893-01-26",
+     "1893-01-30",
+     "1893-02-14",
+     "1893-02-15",
+     "1893-02-22",
+     "1893-02-24",
+     "1893-02-27",
+     "1893-03-01",
+     "1893-03-03",
+     "1893-03-07",
+     "1893-03-10",
+     "1893-03-11",
+     "1893-03-13",
+     "1893-03-19",
+     "1893-03-21",
+     "1893-04-08",
+     "1893-04-20",
+     "1893-04-24",
+     "1893-05-13",
+     "1893-05-18",
+     "1893-05-20",
+     "1893-05-25",
+     "1893-05-26",
+     "1893-06-09",
+     "1893-06-14",
+     "1893-06-21",
+     "1893-09-13",
+     "1893-09-14",
+     "1893-09-22"
+    ],
+    "kill_sentences": 10,
+    "hunts": [
+     "hunt-1893-02-13-agra",
+     "hunt-1893-02-20-alwar",
+     "hunt-1893-03-09-nepal",
+     "hunt-1893-05-23-badgery"
+    ],
+    "kills_by_hunt": {
+     "hunt-1893-02-13-agra": 1,
+     "hunt-1893-02-20-alwar": 3,
+     "hunt-1893-03-09-nepal": 4,
+     "hunt-1893-05-23-badgery": 2
+    },
+    "kill_quotes": [
+     {
+      "date": "1893-02-15",
+      "text": "Die Herren waren flugs mit ihren Stutzen aus den Waggons, während ich nur als Zuschauer fungierte, da ich ja schon tagszuvor drei Nilgaus erlegt hatte, Clam streckte einen Stier im Feuer, Wurmbrand schweißte einen anderen stark an, den er nach langer Nachsuche endlich ausmachte, Prönay fehlte einen Stier in der Flucht."
+     },
+     {
+      "date": "1893-02-22",
+      "text": "In der That kam der angeschossene Hirsch ■•^ch wenigen Minuten in Sicht und endete unter drei von mir und Wurmbrand abgegebenen Schüssen."
+     },
+     {
+      "date": "1893-02-22",
+      "text": "Wurmbrand halte das Waidmannsheü, eine Gazelle zu erlegen."
+     }
+    ]
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Wurmbrand\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 843,
+    "examples": [
+     {
+      "title": "Das Vaterland 9. Jänner 1893",
+      "date": "1893-01-09",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930109?query=%22Wurmbrand%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Dienersbcrg; Ottilie F&uuml;rstin v. Orsini und Rosen&shy;berg, geborne Gr&auml;fin Wurmbrand - Stuppach; AmalieGr&auml;fin H a r t i g, geborne Baronin v. Gudenns; Helene..."
+     },
+     {
+      "title": "Das Vaterland 19. Dezember 1893",
+      "date": "1893-12-19",
+      "url": "http://data.onb.ac.at/ANNO/vtl18931219?query=%22Wurmbrand%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...etwas wie eine Gardinenpredigt zugetragen haben. Nachder Steinerhofer Rede des Grafen Wurmbrand geriethbekanntlich das hiesige deutschnationale Organ arg aus dem..."
+     },
+     {
+      "title": "Grazer Volksblatt 15. Dezember 1892",
+      "date": "1892-12-15",
+      "url": "http://data.onb.ac.at/ANNO/gre18921215?query=%22Wurmbrand%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...nale Bl&auml;tter sprengten die Neuigkeit aus. unserHerr Landeshauptmann Graf Wurmbrandsoll Landsmann-Minister oder Ackerbau-Minister..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-29a7635918",
+   "name": "Kinsky zu Wichnitz und Tettau, Karl Graf",
+   "group": "Begleitung",
+   "role": "Reisebegleiter",
+   "ranks": [],
+   "vault_note": "Personen/Kinsky zu Wichnitz und Tettau, Karl Graf.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bKinsky\\b",
+    "days": 23,
+    "first": "1893-01-08",
+    "last": "1893-05-16",
+    "dates": [
+     "1893-01-08",
+     "1893-01-11",
+     "1893-01-12",
+     "1893-01-23",
+     "1893-01-24",
+     "1893-01-26",
+     "1893-02-02",
+     "1893-02-03",
+     "1893-02-12",
+     "1893-02-14",
+     "1893-02-15",
+     "1893-02-22",
+     "1893-02-23",
+     "1893-02-24",
+     "1893-03-05",
+     "1893-03-10",
+     "1893-03-11",
+     "1893-03-12",
+     "1893-03-20",
+     "1893-03-21",
+     "1893-03-29",
+     "1893-05-14",
+     "1893-05-16"
+    ],
+    "kill_sentences": 6,
+    "hunts": [
+     "hunt-1893-01-10-ceylon",
+     "hunt-1893-02-20-alwar",
+     "hunt-1893-03-09-nepal"
+    ],
+    "kills_by_hunt": {
+     "hunt-1893-01-10-ceylon": 1,
+     "hunt-1893-02-20-alwar": 1,
+     "hunt-1893-03-09-nepal": 4
+    },
+    "kill_quotes": [
+     {
+      "date": "1893-01-11",
+      "text": "Kndlich kehrte ich, da mit den Leuten absolut nichts anzufangetil war, auf die Straße zurück, wo ich Kinsky fand, der mir sehr stolz entgegenkam, da er ebenfalls einen Elephanten in voller Flucht erlegt tetÜM hatte."
+     },
+     {
+      "date": "1893-02-23",
+      "text": "Kinsky erbeutete auch nach langer Pürecll ein Nilgau und schweißte ein zweites stark an, während Wurmbran leider unverrichteter Dinge heimkehrte."
+     },
+     {
+      "date": "1893-03-10",
+      "text": "unter anderem schoss Wurmbrand einen auffallend starken Keiler und Kinsky einen Sumptliirsoh -Spießer, während ich ein Thier gleicher .^rt erlegte."
+     }
+    ]
+   },
+   "gnd": {
+    "status": "lobid",
+    "id": "13877711X",
+    "candidates": null,
+    "name": "Kinsky, Carl",
+    "born": "1858",
+    "died": "1919",
+    "professions": [
+     "Diplomat"
+    ],
+    "url": "https://d-nb.info/gnd/13877711X",
+    "wikidata": "Q6371368"
+   },
+   "wikidata": "Q6371368",
+   "anno": {
+    "query": "\"Kinsky\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 845,
+    "examples": [
+     {
+      "title": "Cur- und Bade-Zeitung. Hygiea 18. Dezember 1892",
+      "date": "1892-12-18",
+      "url": "http://data.onb.ac.at/ANNO/hyg18921218?query=%22Kinsky%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...d amateurs, reunions, etc. &mdash; Parmi les h&ouml;tes: Comte et comtesseKinsky de Vienne, comte de Mirbach, prince Henri XXXIII. deReuss, comte et comtesse de Batthyany d&rsquo;Hongrie, princesse..."
+     },
+     {
+      "title": "Wiener Salonblatt 1. Jänner 1893",
+      "date": "1893-01-01",
+      "url": "http://data.onb.ac.at/ANNO/wsb18930101?query=%22Kinsky%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Minister a. D. Freiherrn von Prazak, Landmarschall Graf ChristianKinsky, FZM. Ritter von Sterneck, Graf Koloman Nnko, GM.Ritter von Friedel, die K&auml;mmerer Graf Karl Elary, Graf Siegfried..."
+     },
+     {
+      "title": "Das Vaterland 20. Dezember 1893",
+      "date": "1893-12-20",
+      "url": "http://data.onb.ac.at/ANNO/vtl18931220?query=%22Kinsky%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Nummer 351 Wien, MittwochF&uuml;rst Ferdinand Kinsky und Gemahn lie&szlig;en einenPrachtvollen Kcanz mit folgender Inschrift niederlegen:..."
+     }
+    ]
+   },
+   "kulturpool": {
+    "found": 1,
+    "items": [
+     {
+      "title": "Gert Jonkes Geometrischer Heimatroman",
+      "provider": "eSel.at",
+      "date": [
+       "2020-03-12"
+      ],
+      "url": "https://kulturpool.at/objekte/ea5503ee-901b-4b76-82bb-0501b9ff22d8",
+      "image": "https://media.kulturpool.at/images/rewind.esel.at/1db7d05dd72b61edc1d1d875bf20b59f9fddd38e_small.webp"
+     }
+    ]
+   },
+   "wikidata_label": "Carl Kinsky",
+   "wikidata_description": "österreichischer Militär"
+  },
+  {
+   "id": "ke-person-16032eb53b",
+   "name": "Prónay von Tót-Próna und Blatnicza, Julius",
+   "group": "Begleitung",
+   "role": "Oberlieutenant, Reisebegleiter",
+   "ranks": [],
+   "vault_note": "Personen/Prónay von Tót-Próna und Blatnicza, Julius.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\b(?:Pr[oóö6]nay)\\b",
+    "days": 22,
+    "first": "1892-12-20",
+    "last": "1893-09-23",
+    "dates": [
+     "1892-12-20",
+     "1893-01-23",
+     "1893-02-15",
+     "1893-02-22",
+     "1893-02-23",
+     "1893-02-24",
+     "1893-02-26",
+     "1893-03-05",
+     "1893-03-09",
+     "1893-03-12",
+     "1893-03-16",
+     "1893-03-21",
+     "1893-05-06",
+     "1893-05-07",
+     "1893-05-13",
+     "1893-05-25",
+     "1893-06-09",
+     "1893-06-14",
+     "1893-08-23",
+     "1893-09-13",
+     "1893-09-14",
+     "1893-09-23"
+    ],
+    "kill_sentences": 6,
+    "hunts": [
+     "hunt-1893-02-13-agra",
+     "hunt-1893-03-09-nepal",
+     "hunt-1893-05-23-badgery",
+     "hunt-1893-06-09-unknown"
+    ],
+    "kills_by_hunt": {
+     "hunt-1893-02-13-agra": 1,
+     "hunt-1893-03-09-nepal": 3,
+     "hunt-1893-05-23-badgery": 1,
+     "hunt-1893-06-09-unknown": 1
+    },
+    "kill_quotes": [
+     {
+      "date": "1893-02-15",
+      "text": "Die Herren waren flugs mit ihren Stutzen aus den Waggons, während ich nur als Zuschauer fungierte, da ich ja schon tagszuvor drei Nilgaus erlegt hatte, Clam streckte einen Stier im Feuer, Wurmbrand schweißte einen anderen stark an, den er nach langer Nachsuche endlich ausmachte, Prönay fehlte einen Stier in der Flucht."
+     },
+     {
+      "date": "1893-03-12",
+      "text": ".Prönay und Stockinger hatten auf einen Panther im hohen Grase geschossen und ihn gefehlt."
+     },
+     {
+      "date": "1893-03-16",
+      "text": "Pronay schoss «inen .Sumpfhirsch von sechs Enden."
+     }
+    ]
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-a4b84c682b",
+   "name": "Hodek, Eduard",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Hodek, Eduard.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bHodek\\b",
+    "days": 18,
+    "first": "1893-01-08",
+    "last": "1893-09-25",
+    "dates": [
+     "1893-01-08",
+     "1893-01-11",
+     "1893-02-24",
+     "1893-03-14",
+     "1893-03-16",
+     "1893-04-19",
+     "1893-04-21",
+     "1893-04-23",
+     "1893-05-14",
+     "1893-05-18",
+     "1893-05-20",
+     "1893-05-23",
+     "1893-06-08",
+     "1893-06-29",
+     "1893-08-26",
+     "1893-09-14",
+     "1893-09-23",
+     "1893-09-25"
+    ],
+    "kill_sentences": 1,
+    "hunts": [
+     "hunt-1893-05-18-nsw-west"
+    ],
+    "kills_by_hunt": {
+     "hunt-1893-05-18-nsw-west": 1
+    },
+    "kill_quotes": [
+     {
+      "date": "1893-05-20",
+      "text": "Bald darauf schoss ich während der weiteren P'ahrt noch drei reizende, kleine Papageien sowie, mit der Kugel, einen Trappen und erreichte bei vollkommener Dunkelkeit wieder die Station, wo Hodek in voller Thätigkeit war, die verschiedenen Heutestücke zu präparieren."
+     }
+    ]
+   },
+   "gnd": {
+    "status": "undated",
+    "id": null,
+    "candidates": [
+     {
+      "id": "117525626",
+      "name": "Hodek, Eduard",
+      "professions": [
+       "Präparator"
+      ]
+     }
+    ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Hodek\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 68,
+    "examples": [
+     {
+      "title": "Das Vaterland 7. Februar 1893",
+      "date": "1893-02-07",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930207?query=%22Hodek%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Pirie, Gmeralconsul Stockinger, Graf Carl Kinsky, Pr&auml;pa&shy;rator Eduard Hodek und die Dienerschaft. Die Bongalowo(Jagdhaus) steht auf einem Damme zwischen den beiden..."
+     },
+     {
+      "title": "Wiener Zeitung 6. Februar 1893",
+      "date": "1893-02-06",
+      "url": "http://data.onb.ac.at/ANNO/wrz18930206?query=%22Hodek%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Capit&auml;n Pirie, Generalconsul Stockinger, Graf KarlKinsky, Pr&auml;parator Eduard Hodek und die Diener&shy;schaft. Die Bongalowo (Jagdhaus) steht aus einem Damme..."
+     },
+     {
+      "title": "Grazer Volksblatt 24. Juni 1893",
+      "date": "1893-06-24",
+      "url": "http://data.onb.ac.at/ANNO/gre18930624?query=%22Hodek%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...auf seiner Weltreise erlegte Thiere behufs weitererPr&auml;parierung im Atelier der Br&uuml;der Hodek inWien angelangte Es sind diesmal drei Tiger,..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-64446b65dc",
+   "name": "Stockinger, Franz",
+   "group": "Gastgeber",
+   "role": "Generalkonsul",
+   "ranks": [],
+   "vault_note": "Personen/Stockinger, Franz.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bStockinger\\b",
+    "days": 11,
+    "first": "1893-01-05",
+    "last": "1893-05-14",
+    "dates": [
+     "1893-01-05",
+     "1893-01-23",
+     "1893-01-26",
+     "1893-02-22",
+     "1893-02-24",
+     "1893-03-09",
+     "1893-03-12",
+     "1893-03-21",
+     "1893-03-25",
+     "1893-03-29",
+     "1893-05-14"
+    ],
+    "kill_sentences": 2,
+    "hunts": [
+     "hunt-1893-03-09-nepal"
+    ],
+    "kills_by_hunt": {
+     "hunt-1893-03-09-nepal": 2
+    },
+    "kill_quotes": [
+     {
+      "date": "1893-03-12",
+      "text": ".Prönay und Stockinger hatten auf einen Panther im hohen Grase geschossen und ihn gefehlt."
+     },
+     {
+      "date": "1893-03-21",
+      "text": "Stockinger und Prönay wollten die hiedurch eingerissene Lücke verstellen, verloren aber hiebei die Direction, erschienen im Jagdeifer plötzlich mitten im Kreise vor uns und eröffneten hier, auf den von Wurmbrand angeschossenen Tiger stoßend, auf diesen ein wohlgenährtes Schnellfeuer, so dass er zum Schlüsse von sieben Kugeln durchbohrt auf die Strecke gebracht wurde."
+     }
+    ]
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Stockinger\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 121,
+    "examples": [
+     {
+      "title": "Das Vaterland 9. Februar 1893",
+      "date": "1893-02-09",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930209?query=%22Stockinger%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...gesellschaft ist jetzt um Zwei vermehrt, da Graf CarlKinsky und Generalconsul Stockinger in Ceylon zu unsgesto&szlig;en sind, um durch Indien mit uns git reisen...."
+     },
+     {
+      "title": "Das Vaterland 7. Februar 1893",
+      "date": "1893-02-07",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930207?query=%22Stockinger%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...braud, Graf Clam-Martinic, Frhr. v( Pronay, Capit&auml;nPirie, Gmeralconsul Stockinger, Graf Carl Kinsky, Pr&auml;pa&shy;rator Eduard Hodek und die Dienerschaft. Die Bongalowo..."
+     },
+     {
+      "title": "Neue Freie Presse 30. Jänner 1893",
+      "date": "1893-01-30",
+      "url": "http://data.onb.ac.at/ANNO/nfp18930130?query=%22Stockinger%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...5. Januar Anker geworfen hatte, erschienen an Bord der &ouml;ster&shy;reichische Consul Schnell und derGcneral-Consul Stockinger,welch Letzterer die Vorbereitungen f&uuml;r die Reise des Erzherzogs..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-d55d4cd075",
+   "name": "Imhof, Max von",
+   "group": "Gastgeber",
+   "role": "Fotograf in Nordamerika",
+   "ranks": [],
+   "vault_note": "Personen/Imhof, Max von.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bImhof\\b",
+    "days": 6,
+    "first": "1893-09-05",
+    "last": "1893-09-23",
+    "dates": [
+     "1893-09-05",
+     "1893-09-12",
+     "1893-09-13",
+     "1893-09-14",
+     "1893-09-16",
+     "1893-09-23"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Imhof\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 55,
+    "examples": [
+     {
+      "title": "Dillinger's Reisezeitung 1. Februar 1893",
+      "date": "1893-02-01",
+      "url": "http://data.onb.ac.at/ANNO/dil18930201?query=%22Imhof%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...horn 3956, Finsteraarhorn 4275, Jungfrau 4137, M&ouml;nch 4108, Eiger3975. D. H&auml;ffely:Grossgloekner 3797, Gross-Venediger 3673. Riffier 3152; Imhof: Verstanklahorn3302, Gross-Litzner 3111, Silvretta-Pass 3026, Bocktenhorn 3047, Sealettahorn 3068,..."
+     },
+     {
+      "title": "(Neuigkeits) Welt Blatt 15. Dezember 1892",
+      "date": "1892-12-15",
+      "url": "http://data.onb.ac.at/ANNO/nwb18921215?query=%22Imhof%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...&raquo;sravz Rntou und ?ohann Adrian.y? &laquo;tberrn von Imhof e&gt; richtetenFreiherr von ^mhoi'schen Familien&raquo;..."
+     },
+     {
+      "title": "Neue Freie Presse 21. Jänner 1893",
+      "date": "1893-01-21",
+      "url": "http://data.onb.ac.at/ANNO/nfp18930121?query=%22Imhof%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Wahrheit! Endlich tritt Ruhe ein, und es ergreift der BuchdruckerHerr Jacobi das Wort, der gegen Imhof heftig polemisirt. Dabeikam es zu den l&auml;rmendsten und wildesten Scenen. Die Versammlung..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-af40d134be",
+   "name": "Becker, Alois Ritter von",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Capitän"
+   ],
+   "vault_note": "Personen/Becker, Alois Ritter von.md",
+   "life_vault": "1842, Aue bei Schottwien - 1900, Fiume",
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bBecker\\b",
+    "days": 5,
+    "first": "1892-12-15",
+    "last": "1893-08-25",
+    "dates": [
+     "1892-12-15",
+     "1893-03-29",
+     "1893-07-24",
+     "1893-08-17",
+     "1893-08-25"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "vault",
+    "id": "1056116455",
+    "candidates": null,
+    "name": "Becker, Alois R. von",
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": "https://d-nb.info/gnd/1056116455",
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Becker\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 733,
+    "examples": [
+     {
+      "title": "Das interessante Blatt 15. Dezember 1892",
+      "date": "1892-12-15",
+      "url": "http://data.onb.ac.at/ANNO/dib18921215?query=%22Becker%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...vom Linienschiffs-Capit&auml;nAlois Ritter von Beckerbefehligt ist, einem der er-..."
+     },
+     {
+      "title": "Mittheilungen der kaiserlich-königlichen Geographischen Gesellschaft: Generalindex 1857-1907 1893",
+      "date": null,
+      "url": "http://data.onb.ac.at/ANNOP/geo18930009?query=%28text%3ABecker+AND+%28text%3AErzherzog+OR+text%3AThronfolger%29+AND+%28text%3AWeltreise+OR+text%3AIndien+OR+text%3ACeylon+OR+text%3A%22Kaiserin+Elisabeth%22+OR+text%3AJapan+OR+text%3AAustralien%29%29&ref=anno-search",
+      "snippet": "...&deg;&mdash; Topographie, 14, 1871, 295*&mdash; Topographie, Becker, 7, 1863, 640 &mdash; Topographie und Ortsgeschichte,..."
+     },
+     {
+      "title": "Das Vaterland 20. Dezember 1893",
+      "date": "1893-12-20",
+      "url": "http://data.onb.ac.at/ANNO/vtl18931220?query=%22Becker%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...mandanten Sr. Majest&auml;t Schiffes &bdquo;Kaiserin Elisabeth&quot;,Linienschiffscapit&auml;n Alois Ritter v. Becker, der Ordender Eisernen Krone zweiter Classe, den &uuml;brigen Stabs-..."
+     }
+    ]
+   },
+   "kulturpool": {
+    "found": 19,
+    "items": [
+     {
+      "title": "Lehr- und Lernbuch der Weltkunde. ein Leitfaden zum erdkundlichen Unterrichte für Schule und Haus. im Vereine mit W. F. Warhanek und C. F. Furlani v. Felsenburg bearb. und hrsg. von Moritz Alois Becker. 1. Weltkundliche Vorschule",
+      "provider": "Österreichische Nationalbibliothek",
+      "date": [
+       "1852"
+      ],
+      "url": "https://kulturpool.at/objekte/0d2ce114-69a7-478d-b62c-491a5451eced",
+      "image": "https://media.kulturpool.at/images/digital.onb.ac.at/cc464c69b2f73bc69dcc13754fbc7a4053b2f7fb_small.webp"
+     },
+     {
+      "title": "Arktische Reise der englischen Yacht Pandora im Jahre 1876, unter Commando des Capitain Sir Allen Young. Alois R. v. Becker.",
+      "provider": "Österreichische Nationalbibliothek",
+      "date": [
+       "1878"
+      ],
+      "url": "https://kulturpool.at/objekte/08f75caf-24c8-4b02-9742-d4ce6820e07d",
+      "image": "https://media.kulturpool.at/images/digital.onb.ac.at/1836dcf9c72d53e4d6db753def0c864a7f46a408_small.webp"
+     },
+     {
+      "title": "Niederösterreichische Landschaften mit historischen Streiflichtern. Schottwien, Gloggnitz, Wartenstein, Hernstein. von M. A. Becker",
+      "provider": "Österreichische Nationalbibliothek",
+      "date": [
+       "1879"
+      ],
+      "url": "https://kulturpool.at/objekte/b5651b4e-883d-4b7a-953a-8c7a52d466ba",
+      "image": "https://media.kulturpool.at/images/digital.onb.ac.at/c72f2e4c7cc745f6e13ff97464434d6ceddfcb25_small.webp"
+     },
+     {
+      "title": "Die letzten Tage u. der Tod Maximilians II.. M. A. Becker",
+      "provider": "Österreichische Nationalbibliothek",
+      "date": [
+       "1877"
+      ],
+      "url": "https://kulturpool.at/objekte/b1307e9b-3a49-43f9-ad88-b5bda37b5227",
+      "image": "https://media.kulturpool.at/images/digital.onb.ac.at/5cd8a62c9d7626090dd297fcf23f0dbdcdc81a9b_small.webp"
+     },
+     {
+      "title": "Älteste Geschichte der Länder des österreichischen Kaiserstaates bis zum Sturze des weströmischen Kaiserreiches. von M. A. Becker",
+      "provider": "Österreichische Nationalbibliothek",
+      "date": [
+       "1865"
+      ],
+      "url": "https://kulturpool.at/objekte/452fa0e2-57c0-4cb5-9e1e-effa6102285e",
+      "image": "https://media.kulturpool.at/images/digital.onb.ac.at/d0c8587136686120c0b3d853fe74aaf72b22449a_small.webp"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ke-person-0028fbbcac",
+   "name": "Bourguignon v. Baumberg, Arthur",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Lieutenant"
+   ],
+   "vault_note": "Personen/Bourguignon v. Baumberg, Arthur.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bBourguignon\\b",
+    "days": 5,
+    "first": "1893-04-05",
+    "last": "1893-07-04",
+    "dates": [
+     "1893-04-05",
+     "1893-05-06",
+     "1893-06-09",
+     "1893-06-26",
+     "1893-07-04"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Bourguignon\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 98,
+    "examples": [
+     {
+      "title": "Wiener Salonblatt 1. Jänner 1893",
+      "date": "1893-01-01",
+      "url": "http://data.onb.ac.at/ANNO/wsb18930101?query=%22Bourguignon%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Salm, Exc. Gr&auml;fin Carlotta Boos Waldeck-Breidbach, Freifrau Marievon Bourguignon-Ulrich, Gr&auml;fin Marie Bonda-Romaszkan, Exc. Gr&auml;finFanny ChorinSky-Mittrowsky, Freifrau Tina von Buschmann-Mar-..."
+     },
+     {
+      "title": "Das Vaterland 7. Februar 1893",
+      "date": "1893-02-07",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930207?query=%22Bourguignon%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Bmgermeister Dr. Prix, Statthaltrrei-Bicepr&auml;sident BaroilBourguignon, Statthaltereirath Baron Marx von Marxbergund Andere...."
+     },
+     {
+      "title": "Das Vaterland 20. Dezember 1893",
+      "date": "1893-12-20",
+      "url": "http://data.onb.ac.at/ANNO/vtl18931220?query=%22Bourguignon%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Lieutenanten erster Classe: Carl Skala, Arthur Frhrn.Bourguignon v. Baumberg, Otto Ritter Regner v. Bley-leben und Anton S a n ch e z de la Cerda; das goldene Berdienst-..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-86dc2d398e",
+   "name": "Mallinarich v. Silbergrund, Eugen",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Fähnrich"
+   ],
+   "vault_note": "Personen/Mallinarich v. Silbergrund, Eugen.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bMallinarich\\b",
+    "days": 5,
+    "first": "1893-04-05",
+    "last": "1893-06-18",
+    "dates": [
+     "1893-04-05",
+     "1893-05-05",
+     "1893-06-07",
+     "1893-06-09",
+     "1893-06-18"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Mallinarich\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 6,
+    "examples": [
+     {
+      "title": "Prager Abendblatt 20. Dezember 1893",
+      "date": "1893-12-20",
+      "url": "http://data.onb.ac.at/ANNO/pab18931220?query=%22Mallinarich%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...benstein, August Freiherrn von Ramberg, FranzRem&auml;llyi, Eugen Mallinarich von Silber&shy;grund undLudwigPoddorsky, dem Fregatten-Arzte..."
+     },
+     {
+      "title": "Pester Lloyd 20. Dezember 1893",
+      "date": "1893-12-20",
+      "url": "http://data.onb.ac.at/ANNO/pel18931220?query=%22Mallinarich%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...von und zu Liebenstein, August Freiherrn von Ramber g,Franz RemLnyi, Eugen Mallinarich von Silber&shy;grund und Ludwig Podhorsky, dem Fregatten-Arzte Dr. Jaroslav..."
+     },
+     {
+      "title": "Die Presse 20. Dezember 1893",
+      "date": "1893-12-20",
+      "url": "http://data.onb.ac.at/ANNO/apr18931220?query=%22Mallinarich%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...ftein, August Freiherrn o. R a m b e r g, Franz R e in e n y i,Eugeu Mallinarich v. Silbergrund undLudwig P o d h o r s k y,. dem Fregattenarzte Dr. Jaroslav..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-acdc9665d2",
+   "name": "Pirie, Captain",
+   "group": "Gastgeber",
+   "role": "Jagd in Ceylon",
+   "ranks": [],
+   "vault_note": "Personen/Pirie, Captain.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bPirie\\b",
+    "days": 5,
+    "first": "1893-01-05",
+    "last": "1893-01-12",
+    "dates": [
+     "1893-01-05",
+     "1893-01-08",
+     "1893-01-10",
+     "1893-01-11",
+     "1893-01-12"
+    ],
+    "kill_sentences": 1,
+    "hunts": [
+     "hunt-1893-01-10-ceylon"
+    ],
+    "kills_by_hunt": {
+     "hunt-1893-01-10-ceylon": 1
+    },
+    "kill_quotes": [
+     {
+      "date": "1893-01-11",
+      "text": "Gleich darauf kam Pirie ganz aufgeregt herbeigestürzt und beglückwünschte mich, als ich ihm schon von weitem zurief, dasa ich zwei Elephanten auf der Decke hätte, auf das lebhafteste, beifügend, dass er ebenfalls einen starken Elephanten erlegt und einen zweiten angeschossen habe."
+     }
+    ]
+   },
+   "gnd": {
+    "status": "not_searched",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Pirie\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 11,
+    "examples": [
+     {
+      "title": "Das Vaterland 7. Februar 1893",
+      "date": "1893-02-07",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930207?query=%22Pirie%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...braud, Graf Clam-Martinic, Frhr. v( Pronay, Capit&auml;nPirie, Gmeralconsul Stockinger, Graf Carl Kinsky, Pr&auml;pa&shy;rator Eduard Hodek und die Dienerschaft. Die Bongalowo..."
+     },
+     {
+      "title": "Wiener Zeitung 6. Februar 1893",
+      "date": "1893-02-06",
+      "url": "http://data.onb.ac.at/ANNO/wrz18930206?query=%22Pirie%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...der durchlauchtigste Herr Erzherzog Franz Ferdinand,begleitet vom Capit&auml;n Pirie und einem Shikari, zur P&uuml;rscheaus Elephanten, und man vermochte eine schlafende Elephanten-..."
+     },
+     {
+      "title": "Prager Abendblatt 1. Februar 1893",
+      "date": "1893-02-01",
+      "url": "http://data.onb.ac.at/ANNO/pab18930201?query=%22Pirie%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...der Gouverneur von Ceylon Mr. Havelock in Beglei&shy;ch ng der Herren Hauptmann Pirie und Lieutenantder Hochl&auml;nder-Truppen Macnal, dann des Privat-..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "tagebuch:Sanchez de la Cerda, Anton",
+   "name": "Sanchez de la Cerda, Anton",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Lieutenant"
+   ],
+   "vault_note": null,
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bSanchez\\b",
+    "days": 5,
+    "first": "1893-04-05",
+    "last": "1893-09-13",
+    "dates": [
+     "1893-04-05",
+     "1893-05-14",
+     "1893-05-27",
+     "1893-06-09",
+     "1893-09-13"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "not_searched",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Sanchez\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 31,
+    "examples": [
+     {
+      "title": "Grazer Tagblatt 18. Dezember 1893",
+      "date": "1893-12-18",
+      "url": "http://data.onb.ac.at/ANNO/gtb18931218?query=%22Sanchez%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...gro&szlig;es Bankett zu Ehren des Erzherzogs statt. Gesternhat sich der Schiffsf&auml;hnrich Anton Sanchez dellaCerda &uuml;ber Auftrag des Erzherzogs nach Pola be&shy;..."
+     },
+     {
+      "title": "Mittheilungen der kaiserlich-königlichen Geographischen Gesellschaft: Generalindex 1857-1907 1893",
+      "date": null,
+      "url": "http://data.onb.ac.at/ANNOP/geo18930009?query=%28text%3ASanchez+AND+%28text%3AErzherzog+OR+text%3AThronfolger%29+AND+%28text%3AWeltreise+OR+text%3AIndien+OR+text%3ACeylon+OR+text%3A%22Kaiserin+Elisabeth%22+OR+text%3AJapan+OR+text%3AAustralien%29%29&ref=anno-search",
+      "snippet": "...1894, 28*&mdash; Bericht &uuml;ber die Weltreise, San-chez de la Cerda 37, 1894, 300 &mdash; Erzh., Reise um die Erde, 39,..."
+     },
+     {
+      "title": "Pester Lloyd 20. Dezember 1893",
+      "date": "1893-12-20",
+      "url": "http://data.onb.ac.at/ANNO/pel18931220?query=%22Sanchez%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Bo&laquo;ra&laquo;ignon von Baumberg, Otto Ritter Regnervon Bleyleben und Anton Sanchez de la Cerda;das goldene Verdienstkreuz mit der Krone: die..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "tagebuch:Bedford",
+   "name": "Bedford",
+   "group": "Gastgeber",
+   "role": "Jagdbegleiter in Neuguinea",
+   "ranks": [],
+   "vault_note": null,
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bBedford\\b",
+    "days": 4,
+    "first": "1893-06-16",
+    "last": "1893-06-20",
+    "dates": [
+     "1893-06-16",
+     "1893-06-17",
+     "1893-06-19",
+     "1893-06-20"
+    ],
+    "kill_sentences": 1,
+    "hunts": [
+     "hunt-1893-06-16-new-guinea"
+    ],
+    "kills_by_hunt": {
+     "hunt-1893-06-16-new-guinea": 1
+    },
+    "kill_quotes": [
+     {
+      "date": "1893-06-16",
+      "text": "Auf einer kleinen, mit Gras bedeckten Lichtung sprangen plötzlich zwei kleine Wallabics zu meinen Püßen auf, deren eines ich, das andere Bedford erlegte."
+     }
+    ]
+   },
+   "gnd": {
+    "status": "not_searched",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Bedford\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 20,
+    "examples": [
+     {
+      "title": "Wiener Salonblatt 16. April 1893",
+      "date": "1893-04-16",
+      "url": "http://data.onb.ac.at/ANNO/wsb18930416?query=%22Bedford%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...In London wurde am 24 v. M. der Herzog von Bedfordvom Herzſchlag getroffen todt in ſeinem Bibliothekzimmer aufgefunden...."
+     },
+     {
+      "title": "Das Vaterland 7. April 1893",
+      "date": "1893-04-07",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930407?query=%22Bedford%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...von nur 41 Jahren Georg Wilhelm Franz Sackville RussellHerzog von Bedford, einer der reichsten und sonderbarste&laquo;M&auml;nner der ganzen Welt. Schon seit l&auml;ngerer Zeit &uuml;tt er..."
+     },
+     {
+      "title": "Mährisch-Schlesische Presse 11. Oktober 1893",
+      "date": "1893-10-11",
+      "url": "http://data.onb.ac.at/ANNO/msp18931011?query=%22Bedford%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Adresse&quot;, so lautete es, &bdquo;der Dame, die zu dem BildeClara Jngelow gesessen? Mark Folliott, BedfordRow&quot;. &mdash; Mark Folliott? Jedermann kannte ihn;..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-f018e3c48c",
+   "name": "Havelock, Arthur E.",
+   "group": "Gastgeber",
+   "role": "Gouverneur von Ceylon",
+   "ranks": [],
+   "vault_note": "Personen/Havelock, Arthur E..md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bHavelock\\b",
+    "days": 4,
+    "first": "1893-01-05",
+    "last": "1893-01-12",
+    "dates": [
+     "1893-01-05",
+     "1893-01-06",
+     "1893-01-07",
+     "1893-01-12"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Havelock\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 122,
+    "examples": [
+     {
+      "title": "Das Vaterland 9. Jänner 1893",
+      "date": "1893-01-09",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930109?query=%22Havelock%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Dienstag hierher zur&uuml;ckkehren. Der Gouverneur von Ceylon,-Sir A. Havelock, befindet sich in Kandy.* (Erzherzogin Margaretha Sophie und die..."
+     },
+     {
+      "title": "Prager Abendblatt 1. Februar 1893",
+      "date": "1893-02-01",
+      "url": "http://data.onb.ac.at/ANNO/pab18930201?query=%22Havelock%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Stcckinger und den Konsul Mr. Schnell ; dann erschiender Gouverneur von Ceylon Mr. Havelock in Beglei&shy;ch ng der Herren Hauptmann Pirie und Lieutenant..."
+     },
+     {
+      "title": "Vorarlberger Landes-Zeitung 4. Februar 1893",
+      "date": "1893-02-04",
+      "url": "http://data.onb.ac.at/ANNO/vlz18930204?query=%22Havelock%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...ihre Aiiftsartuug zu mach&raquo;!. Sp&auml;ter erschienender Gouverneur von Ceylon, Sir Havelock, inBeglcstnng der Herren v. Piric, Hauptmaiiil..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-a49d32e030",
+   "name": "Ramberg, August Freiherr von",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Fähnrich"
+   ],
+   "vault_note": "Personen/Ramberg, August Freiherr von.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bRamberg\\b",
+    "days": 4,
+    "first": "1893-04-09",
+    "last": "1893-07-23",
+    "dates": [
+     "1893-04-09",
+     "1893-05-06",
+     "1893-05-26",
+     "1893-07-23"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "lobid",
+    "id": "128265884",
+    "candidates": null,
+    "name": "Ramberg, August von",
+    "born": "1866-12-19",
+    "died": "1947-04-01",
+    "professions": [
+     "Marineoffizier",
+     "Künstler",
+     "Maler"
+    ],
+    "url": "https://d-nb.info/gnd/128265884",
+    "wikidata": "Q765205"
+   },
+   "wikidata": "Q765205",
+   "anno": {
+    "query": "\"Ramberg\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 86,
+    "examples": [
+     {
+      "title": "Prager Abendblatt 23. Dezember 1892",
+      "date": "1892-12-23",
+      "url": "http://data.onb.ac.at/ANNO/pab18921223?query=%22Ramberg%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Dr. Freiherr von Conrad-Eybesfelv, Freiherrvon Reislin, G. d. K. Freiherr von Ramberg,G. d. K. Freiherr von Appel. FZM. Freiherr..."
+     },
+     {
+      "title": "Klagenfurter Zeitung 25. Dezember 1892",
+      "date": "1892-12-25",
+      "url": "http://data.onb.ac.at/ANNO/kfz18921225?query=%22Ramberg%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Allerh&ouml;chst Unterzeichnetem Diplome dem Majordes Infanterieregiments Freiherr v. RambergNr. 96, Rudolf Koczian, den Adelstand mit dem..."
+     },
+     {
+      "title": "Oesterreichischer Soldatenfreund 25. Dezember 1893",
+      "date": "1893-12-25",
+      "url": "http://data.onb.ac.at/ANNO/mil18931225?query=%22Ramberg%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...richeii: Ernst Freiherrn Preusohen von und zu Liebenstein, August Frei-herrn v. Ramberg, Franz Remenyi, Eugen Mallinarisch v. Silbergrundund Ludwig Podhorsky, dem Fregattenarzte Dr. Jaroslav Bern, dem Ma&shy;..."
+     }
+    ]
+   },
+   "kulturpool": {
+    "found": 0,
+    "items": []
+   },
+   "wikidata_label": "August von Ramberg",
+   "wikidata_description": "österreichischer Marinemaler"
+  },
+  {
+   "id": "ke-person-bae694ce68",
+   "name": "Gratzl, August",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Lieutenant"
+   ],
+   "vault_note": "Personen/Gratzl, August.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bGratzl\\b",
+    "days": 3,
+    "first": "1893-04-09",
+    "last": "1893-06-26",
+    "dates": [
+     "1893-04-09",
+     "1893-05-07",
+     "1893-06-26"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Gratzl\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 53,
+    "examples": [
+     {
+      "title": "Oesterreichischer Soldatenfreund 25. Dezember 1893",
+      "date": "1893-12-25",
+      "url": "http://data.onb.ac.at/ANNO/mil18931225?query=%22Gratzl%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...der Eisernen Krone dritter Classe: dem Corvetteneapit&auml;n Hermann RitteV. Jedina und dem Linienschiffslieutenant erster Classe, August Gratzl;das Ritterkreuz des Franz .losefs-Ordens: dem Maschinenbau- und Betriebs&shy;..."
+     },
+     {
+      "title": "Prager Abendblatt 20. Dezember 1893",
+      "date": "1893-12-20",
+      "url": "http://data.onb.ac.at/ANNO/pab18931220?query=%22Gratzl%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Geiammt-Detailoffizier und dem Lln.-Schiffs-Lieui.1. Klaffe August Gratzl als Navigazionsoff&gt;z'.rr; daSRltterkreuz des Franz Joseph-Ordens: dem Maschinen-..."
+     },
+     {
+      "title": "Steierische Alpenpost 1. Jänner 1893",
+      "date": "1893-01-01",
+      "url": "http://data.onb.ac.at/ANNO/apt18930101?query=%22Gratzl%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Paul Kienzl, Arbeiter-Consum-Verein Aussee je 2 fl. &mdash; Johann Pre&szlig;t,Michael Gratzl je 1 fl. SO kr. &mdash; Karl Zellingcr, 1 fl 2V kr. &mdash; JosefSchober, Franz Freller, Kaspar Kal&szlig;, Ferdinand Reiter, Michael Einhirn,..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-60b766f9c7",
+   "name": "Regner v. Bleyleben, Otto Ritt.",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Lieutenant"
+   ],
+   "vault_note": "Personen/Regner v. Bleyleben, Otto Ritt..md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bRegner\\b",
+    "days": 3,
+    "first": "1893-04-05",
+    "last": "1893-06-09",
+    "dates": [
+     "1893-04-05",
+     "1893-05-06",
+     "1893-06-09"
+    ],
+    "kill_sentences": 1,
+    "hunts": [
+     "hunt-1893-04-05-unknown"
+    ],
+    "kills_by_hunt": {
+     "hunt-1893-04-05-unknown": 1
+    },
+    "kill_quotes": [
+     {
+      "date": "1893-04-05",
+      "text": "Gleichwohl gelang es mir, eine Fruchttaube, deren Gefieder in allen Karben des Regenbogens schillert und einen Schwarzen Kuckuck (Eudynamis hnnorata) zu erlegen, während Regner eine prächtige Nektarine (Arachnechthra pectoralis) schoss."
+     }
+    ]
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Regner\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 58,
+    "examples": [
+     {
+      "title": "Das Vaterland 20. Dezember 1893",
+      "date": "1893-12-20",
+      "url": "http://data.onb.ac.at/ANNO/vtl18931220?query=%22Regner%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Lieutenanten erster Classe: Carl Skala, Arthur Frhrn.Bourguignon v. Baumberg, Otto Ritter Regner v. Bley-leben und Anton S a n ch e z de la Cerda; das goldene Berdienst-..."
+     },
+     {
+      "title": "Oesterreichischer Soldatenfreund 25. Dezember 1893",
+      "date": "1893-12-25",
+      "url": "http://data.onb.ac.at/ANNO/mil18931225?query=%22Regner%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Milit&auml;rverdienstkreuz: den Liuienschiffslieutenanten erster Classe: CarlSkala, Arthur Freiherrn Bourguignon v. Baumberg, Otto Bitter RegnerV. Bleyleben und Anton Sanohez de la Cerda; das goldene Verdienstkreuz..."
+     },
+     {
+      "title": "Pester Lloyd 20. Dezember 1893",
+      "date": "1893-12-20",
+      "url": "http://data.onb.ac.at/ANNO/pel18931220?query=%22Regner%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...krr &raquo; z: die Linienschiffs-Lieut. Karl Skala, Arthur FreiherrBo&laquo;ra&laquo;ignon von Baumberg, Otto Ritter Regnervon Bleyleben und Anton Sanchez de la Cerda;..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-afb9604edd",
+   "name": "Ritter von Liburnau, Dr. Ludwig Lorenz",
+   "group": "Wissenschaft",
+   "role": "Zoologe des Naturhistorischen Hofmuseums",
+   "ranks": [],
+   "vault_note": "Personen/Ritter von Liburnau, Dr. Ludwig Lorenz.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\b(?:Lorenz|Liburnau)\\b",
+    "days": 3,
+    "first": "1893-02-22",
+    "last": "1893-05-14",
+    "dates": [
+     "1893-02-22",
+     "1893-03-07",
+     "1893-05-14"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "lobid",
+    "id": "117215821",
+    "candidates": null,
+    "name": "Lorenz-Liburnau, Ludwig von",
+    "born": "1856-08-26",
+    "died": "1943-12-09",
+    "professions": [
+     "Zoologe",
+     "Ornithologe"
+    ],
+    "url": "https://d-nb.info/gnd/117215821",
+    "wikidata": "Q6699277"
+   },
+   "wikidata": "Q6699277",
+   "anno": null,
+   "kulturpool": {
+    "found": 2,
+    "items": [
+     {
+      "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.360/1887",
+      "provider": "Naturhistorisches Museum Wien",
+      "date": null,
+      "url": "https://kulturpool.at/objekte/0a3c7a3d-082c-4312-bcb7-900a3a39694a",
+      "image": "https://media.kulturpool.at/images/iiif.nhm.at/4bc3de2900576aed9595057860ab76b04236fa4c_small.webp"
+     },
+     {
+      "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.729/1892",
+      "provider": "Naturhistorisches Museum Wien",
+      "date": null,
+      "url": "https://kulturpool.at/objekte/c7613b45-f091-483e-88e1-34930468ea5a",
+      "image": "https://media.kulturpool.at/images/iiif.nhm.at/fc2c85a8185c32b02855abb469368397def11732_small.webp"
+     }
+    ]
+   },
+   "wikidata_label": "Ludwig von Lorenz-Liburnau",
+   "wikidata_description": "österreichischer Zoologe und Parasitologe (1856–1943)"
+  },
+  {
+   "id": "tagebuch:Biaggio",
+   "name": "Biaggio",
+   "group": "Diener",
+   "role": "Tierwärter an Bord, aus Ragusa (Familienname in der OCR unleserlich)",
+   "ranks": [],
+   "vault_note": null,
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bBiaggio\\b",
+    "days": 2,
+    "first": "1893-04-15",
+    "last": "1893-06-17",
+    "dates": [
+     "1893-04-15",
+     "1893-06-17"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "not_searched",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Biaggio\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 2,
+    "examples": [
+     {
+      "title": "Dillinger's Reisezeitung 1. Juli 1893",
+      "date": "1893-07-01",
+      "url": "http://data.onb.ac.at/ANNO/dil18930701?query=%22Biaggio%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...D&ouml;rfchen auf einer schwer zug&auml;nglichen H&ouml;he von 1500 m &uuml;ber dem Meere ist, eineoriginelle Postbef&ouml;rderung ins Werk gesetzt worden. Auf der Hohe von Biaggiowurde ein Bretterh&uuml;ttehen als Abgangsstation errichtet, ein gleiches mit Wellbaum..."
+     },
+     {
+      "title": "Wiener Zeitung 1. Dezember 1893",
+      "date": "1893-12-01",
+      "url": "http://data.onb.ac.at/ANNO/wrz18931201?query=%22Biaggio%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Bei der Einzelnfirma: Biaggio Jasnigder Procurist Hugo Tamburins des sel. Dr...."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-29a2ab0ee7",
+   "name": "Pietzuk, Karl",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Marine-Commissariats-Adjunct"
+   ],
+   "vault_note": "Personen/Pietzuk, Karl.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bPietzuk\\b",
+    "days": 2,
+    "first": "1893-05-15",
+    "last": "1893-07-24",
+    "dates": [
+     "1893-05-15",
+     "1893-07-24"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-808d3fd78e",
+   "name": "Plumert, Arthur, Dr.",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffsarzt"
+   ],
+   "vault_note": "Personen/Plumert, Arthur, Dr..md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bPlumert\\b",
+    "days": 2,
+    "first": "1893-05-15",
+    "last": "1893-07-23",
+    "dates": [
+     "1893-05-15",
+     "1893-07-23"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "lobid",
+    "id": "1055450521",
+    "candidates": null,
+    "name": "Plumert, Arthur",
+    "born": "1851-08-15",
+    "died": "1904-08-09",
+    "professions": [
+     "Arzt"
+    ],
+    "url": "https://d-nb.info/gnd/1055450521",
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": {
+    "found": 0,
+    "items": []
+   }
+  },
+  {
+   "id": "ke-person-5b0a3e6bba",
+   "name": "Schleinitz, Friedrich Freih. v.",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Lieutenant"
+   ],
+   "vault_note": "Personen/Schleinitz, Friedrich Freih. v..md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bSchleinitz\\b",
+    "days": 2,
+    "first": "1893-05-15",
+    "last": "1893-05-21",
+    "dates": [
+     "1893-05-15",
+     "1893-05-21"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "lobid",
+    "id": "139552642",
+    "candidates": null,
+    "name": "Schleinitz, Friedrich von",
+    "born": "1862",
+    "died": "1917",
+    "professions": [
+     "Soldat",
+     "Kapitän"
+    ],
+    "url": "https://d-nb.info/gnd/139552642",
+    "wikidata": "Q55883179"
+   },
+   "wikidata": "Q55883179",
+   "anno": null,
+   "kulturpool": {
+    "found": 2,
+    "items": [
+     {
+      "title": "H. F. F. Sickel's Leitfaden der Geographie. bearb. von Hermann Otto von Schleinitz",
+      "provider": "Österreichische Nationalbibliothek",
+      "date": [
+       "[ca. 1845]"
+      ],
+      "url": "https://kulturpool.at/objekte/15239edc-78e4-4e64-8274-fc93a9696f40",
+      "image": "https://media.kulturpool.at/images/digital.onb.ac.at/170e7af48b0080520322faa7082dfebc57c97c65_small.webp"
+     },
+     {
+      "title": "Kürassier Regiment Schleinitz im Lager bei Berlin",
+      "provider": "Albertina",
+      "date": [
+       "um 1810"
+      ],
+      "url": "https://kulturpool.at/objekte/92197e19-ebcf-4591-9ad2-ecc2e4bba8e6",
+      "image": "https://media.kulturpool.at/images/sammlungenonline.albertina.at/9dd3037fd8d125ebd2ce32f840e3961d6ed3e471_small.webp"
+     }
+    ]
+   },
+   "wikidata_label": "Friedrich Freiherr von Schleinitz",
+   "wikidata_description": "1862 bis 1917 Beruf/Funktion k. u. k. Fregattenkapitän Konfession - Namensvarianten Schleinitz, Friedrich Freiherr von"
+  },
+  {
+   "id": "ke-person-52ab1ba831",
+   "name": "Eyb, Paul",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Maschinenbau- u. Betriebs-Ingenieur"
+   ],
+   "vault_note": "Personen/Eyb, Paul.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bEyb\\b",
+    "days": 1,
+    "first": "1893-05-15",
+    "last": "1893-05-15",
+    "dates": [
+     "1893-05-15"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-0d4af788b0",
+   "name": "Gamisch, Anton",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "prov. Marine-Commissariats-Eleve"
+   ],
+   "vault_note": "Personen/Gamisch, Anton.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bGamisch\\b",
+    "days": 1,
+    "first": "1893-05-15",
+    "last": "1893-05-15",
+    "dates": [
+     "1893-05-15"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-e09518ecd9",
+   "name": "Gründorf von Zebegényi, Hans Ritter",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Seecadet"
+   ],
+   "vault_note": "Personen/Gründorf von Zebegényi, Hans Ritter.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bGründorf\\b",
+    "days": 1,
+    "first": "1893-05-15",
+    "last": "1893-05-15",
+    "dates": [
+     "1893-05-15"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-f5da41938e",
+   "name": "Herrmann, Hugo",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Maschinenbau- u. Betriebs-Ingenieur"
+   ],
+   "vault_note": "Personen/Herrmann, Hugo.md",
+   "life_vault": null,
+   "possible_duplicate": [
+    "Hermann, Hugo"
+   ],
+   "diary": {
+    "pattern": "\\bHerrmann\\b",
+    "days": 1,
+    "first": "1893-05-15",
+    "last": "1893-05-15",
+    "dates": [
+     "1893-05-15"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "undated",
+    "id": null,
+    "candidates": [
+     {
+      "id": "1243832622",
+      "name": "Herrmann, Hugo",
+      "professions": []
+     }
+    ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-31cca3aa4a",
+   "name": "Kuralt, Johann",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Marinekaplan"
+   ],
+   "vault_note": "Personen/Kuralt, Johann.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bKuralt\\b",
+    "days": 1,
+    "first": "1893-05-15",
+    "last": "1893-05-15",
+    "dates": [
+     "1893-05-15"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-d592571ba8",
+   "name": "Modes, Lukas",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Maschinist"
+   ],
+   "vault_note": "Personen/Modes, Lukas.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bModes\\b",
+    "days": 1,
+    "first": "1893-05-15",
+    "last": "1893-05-15",
+    "dates": [
+     "1893-05-15"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-4def1be7f4",
+   "name": "Perkon, Anton",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Maschinist"
+   ],
+   "vault_note": "Personen/Perkon, Anton.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bPerkon\\b",
+    "days": 1,
+    "first": "1893-05-15",
+    "last": "1893-05-15",
+    "dates": [
+     "1893-05-15"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-835b2ff0e7",
+   "name": "Ritter von Jedina, Hermann",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Corvetten-Capitän"
+   ],
+   "vault_note": "Personen/Ritter von Jedina, Hermann.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bJedina\\b",
+    "days": 1,
+    "first": "1893-08-25",
+    "last": "1893-08-25",
+    "dates": [
+     "1893-08-25"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "lobid",
+    "id": "101288080X",
+    "candidates": null,
+    "name": "Jedina, Hermann von",
+    "born": "1847",
+    "died": "1906",
+    "professions": [
+     "Admiral"
+    ],
+    "url": "https://d-nb.info/gnd/101288080X",
+    "wikidata": "Q60815105"
+   },
+   "wikidata": "Q60815105",
+   "anno": null,
+   "kulturpool": {
+    "found": 0,
+    "items": []
+   },
+   "wikidata_label": "Hermann von Jedina",
+   "wikidata_description": "(1847 - 1906), Konteradmiral"
+  },
+  {
+   "id": "ke-person-ba533e9f8a",
+   "name": "Salvator von Österreich-Toskana, Erzherzog Leopold Ferdinand",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Lieutenant"
+   ],
+   "vault_note": "Personen/Salvator von Österreich-Toskana, Erzherzog Leopold Ferdinand.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\b(?:Leopold Ferdinand)\\b",
+    "days": 1,
+    "first": "1893-05-15",
+    "last": "1893-05-15",
+    "dates": [
+     "1893-05-15"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-b78cdc16ff",
+   "name": "Sternhardt, Maximilian",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Seecadet"
+   ],
+   "vault_note": "Personen/Sternhardt, Maximilian.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bSternhardt\\b",
+    "days": 1,
+    "first": "1893-07-24",
+    "last": "1893-07-24",
+    "dates": [
+     "1893-07-24"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-79e1db098d",
+   "name": "Turina, August",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Maschinist"
+   ],
+   "vault_note": "Personen/Turina, August.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bTurina\\b",
+    "days": 1,
+    "first": "1893-05-15",
+    "last": "1893-05-15",
+    "dates": [
+     "1893-05-15"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-aaf9650be1",
+   "name": "Wünschek, Alfons",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Seecadet"
+   ],
+   "vault_note": "Personen/Wünschek, Alfons.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bWünschek\\b",
+    "days": 1,
+    "first": "1893-05-15",
+    "last": "1893-05-15",
+    "dates": [
+     "1893-05-15"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-560dc9afb5",
+   "name": "Bugel, Edmund",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Seecadet"
+   ],
+   "vault_note": "Personen/Bugel, Edmund.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bBugel\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-be4ae250ad",
+   "name": "Bém, Jaroslaw, Dr.",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Fregattenarzt"
+   ],
+   "vault_note": "Personen/Bém, Jaroslaw, Dr..md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bBém\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-89ce2bd4c9",
+   "name": "Corsig, Cäsar",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Corsig, Cäsar.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bCorsig\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-d8845f1310",
+   "name": "Crivicich, Johann",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Crivicich, Johann.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bCrivicich\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-4da097742f",
+   "name": "Gianone, Coloman",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Gianone, Coloman.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bGianone\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-5b35ce465b",
+   "name": "Hermann, Hugo",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Hermann, Hugo.md",
+   "life_vault": null,
+   "possible_duplicate": [
+    "Herrmann, Hugo"
+   ],
+   "diary": {
+    "pattern": "(?:Herr|Herrn|Graf|Grafen|Baron|Freiherr|Capitän|Capitäns|Lieutenant|Linienschiffs-\\w+|Fregatten-\\w+|Corvetten-\\w+|Schiffsfähnrich|Dr\\.|Major|Mr\\.|Captain|Sir|Oberlieutenant|Arzt)\\s+Hermann\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-79fd0bee46",
+   "name": "Jeitler, Franz",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Jeitler, Franz.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bJeitler\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "undated",
+    "id": null,
+    "candidates": [
+     {
+      "id": "1033901164",
+      "name": "Jeitler, Franz",
+      "professions": []
+     }
+    ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-8c076142f5",
+   "name": "Koch, Ernst",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Koch, Ernst.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "(?:Herr|Herrn|Graf|Grafen|Baron|Freiherr|Capitän|Capitäns|Lieutenant|Linienschiffs-\\w+|Fregatten-\\w+|Corvetten-\\w+|Schiffsfähnrich|Dr\\.|Major|Mr\\.|Captain|Sir|Oberlieutenant|Arzt)\\s+Koch\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "implausible",
+    "id": null,
+    "candidates": [
+     {
+      "id": "104241078X",
+      "name": "Koch, Ernst",
+      "professions": [
+       "Arzt"
+      ]
+     }
+    ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-e05e33c5e5",
+   "name": "Kucan, Georg",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Kucan, Georg.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bKucan\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-d0ffa62605",
+   "name": "Laube, Guido",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Laube, Guido.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bLaube\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-82a66ca613",
+   "name": "Licen, Johann",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Licen, Johann.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bLicen\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-ec923ae8ee",
+   "name": "Metzger, Otto Edl. v.",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Seecadet"
+   ],
+   "vault_note": "Personen/Metzger, Otto Edl. v..md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bMetzger\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "implausible",
+    "id": null,
+    "candidates": [
+     {
+      "id": "1079471820",
+      "name": "Metzger, Otto",
+      "professions": [
+       "Maler"
+      ]
+     }
+    ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-c8342dfd87",
+   "name": "Milić, Alois",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Seecadet"
+   ],
+   "vault_note": "Personen/Milić, Alois.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bMilić\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "tagebuch:Oscar Henschel",
+   "name": "Oscar Henschel",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Oscar Henschel.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\b(?:Henschel)\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "not_searched",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-17033a0bf0",
+   "name": "Pleyer, Richard",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Seecadet"
+   ],
+   "vault_note": "Personen/Pleyer, Richard.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bPleyer\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "undated",
+    "id": null,
+    "candidates": [
+     {
+      "id": "126489440",
+      "name": "Pleyer, Richard",
+      "professions": []
+     }
+    ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-1245883d29",
+   "name": "Podhorsky, Ludwig",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Fähnrich"
+   ],
+   "vault_note": "Personen/Podhorsky, Ludwig.md",
+   "life_vault": null,
+   "possible_duplicate": [
+    "Podhorszky, Louis"
+   ],
+   "diary": {
+    "pattern": "\\bPodhorsky\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-f5eb8e3012",
+   "name": "Podhorszky, Louis",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Podhorszky, Louis.md",
+   "life_vault": null,
+   "possible_duplicate": [
+    "Podhorsky, Ludwig"
+   ],
+   "diary": {
+    "pattern": "\\bPodhorszky\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-cfc4b6b4a7",
+   "name": "Pozzi, Sigismund Ritt. v.",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Seecadet"
+   ],
+   "vault_note": "Personen/Pozzi, Sigismund Ritt. v..md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bPozzi\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-6454fd7cb7",
+   "name": "Preuschen v.u.z. Liebenstein, Ernst",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Fähnrich"
+   ],
+   "vault_note": "Personen/Preuschen v.u.z. Liebenstein, Ernst.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bPreuschen\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-0e3ff37a8f",
+   "name": "Pucher, Thomas",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Pucher, Thomas.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bPucher\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "undated",
+    "id": null,
+    "candidates": [
+     {
+      "id": "1052423477",
+      "name": "Pucher, Thomas",
+      "professions": [
+       "Architekt"
+      ]
+     }
+    ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-fe617f6f93",
+   "name": "Rasem, Anton",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Rasem, Anton.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bRasem\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-7f87370429",
+   "name": "Reiter, Michael",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Reiter, Michael.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "(?:Herr|Herrn|Graf|Grafen|Baron|Freiherr|Capitän|Capitäns|Lieutenant|Linienschiffs-\\w+|Fregatten-\\w+|Corvetten-\\w+|Schiffsfähnrich|Dr\\.|Major|Mr\\.|Captain|Sir|Oberlieutenant|Arzt)\\s+Reiter\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "undated",
+    "id": null,
+    "candidates": [
+     {
+      "id": "1080910883",
+      "name": "Reiter, Michael",
+      "professions": [
+       "Jurist"
+      ]
+     },
+     {
+      "id": "105349176X",
+      "name": "Reiter, Michael",
+      "professions": []
+     },
+     {
+      "id": "1261775325",
+      "name": "Reiter, Michael",
+      "professions": [
+       "Hochschullehrer",
+       "Informatiker"
+      ]
+     },
+     {
+      "id": "131938398",
+      "name": "Reiter, Michael",
+      "professions": []
+     },
+     {
+      "id": "142000736",
+      "name": "Reiter, Michael",
+      "professions": []
+     },
+     {
+      "id": "137529759",
+      "name": "Reiter, Michael",
+      "professions": [
+       "Musiker",
+       "Organist",
+       "Kirchenmusiker"
+      ]
+     },
+     {
+      "id": "129365726",
+      "name": "Reiter, Michael",
+      "professions": [
+       "Maler"
+      ]
+     },
+     {
+      "id": "134272838",
+      "name": "Reiter, Michael",
+      "professions": [
+       "Volkswirt"
+      ]
+     }
+    ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-446af750e1",
+   "name": "Reményi, Franz",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Fähnrich"
+   ],
+   "vault_note": "Personen/Reményi, Franz.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bReményi\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-f3ff53d6de",
+   "name": "Rubcic, Mathias",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Rubcic, Mathias.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bRubcic\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-ae29a36431",
+   "name": "Skala, Karl",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Linienschiffs-Lieutenant"
+   ],
+   "vault_note": "Personen/Skala, Karl.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bSkala\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-64e82f2816",
+   "name": "Sommer, Hubert",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Sommer, Hubert.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "(?:Herr|Herrn|Graf|Grafen|Baron|Freiherr|Capitän|Capitäns|Lieutenant|Linienschiffs-\\w+|Fregatten-\\w+|Corvetten-\\w+|Schiffsfähnrich|Dr\\.|Major|Mr\\.|Captain|Sir|Oberlieutenant|Arzt)\\s+Sommer\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "undated",
+    "id": null,
+    "candidates": [
+     {
+      "id": "1374338664",
+      "name": "Sommer, Hubert",
+      "professions": [
+       "Historiker"
+      ]
+     }
+    ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-6f0546d8b8",
+   "name": "Sore, Michael",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Sore, Michael.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bSore\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-948e1e3529",
+   "name": "Switak, Karl",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Maschinist"
+   ],
+   "vault_note": "Personen/Switak, Karl.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bSwitak\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-b661993bb6",
+   "name": "Valenta, Ludwig",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Valenta, Ludwig.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bValenta\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "undated",
+    "id": null,
+    "candidates": [
+     {
+      "id": "120263107X",
+      "name": "Valenta, Ludwig",
+      "professions": [
+       "Fernsehredakteur",
+       "Dokumentarfilmer",
+       "Kameramann"
+      ]
+     }
+    ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-ca3d025ac3",
+   "name": "Zrzavecky, Josef",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [
+    "Maschinist"
+   ],
+   "vault_note": "Personen/Zrzavecky, Josef.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bZrzavecky\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  }
+ ]
+}

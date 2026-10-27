@@ -2,6 +2,7 @@
 import hashlib
 import json
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -30,6 +31,12 @@ def get_json(url, params=None, retries=3):
                 data = json.load(r)
             path.write_text(json.dumps(data, ensure_ascii=False))
             return data
+        except urllib.error.HTTPError as e:
+            if attempt == retries - 1:
+                raise
+            # 429 Too Many Requests (Wikidata): honour Retry-After, else back off generously
+            wait = int(e.headers.get("Retry-After") or 0) if e.code == 429 else 0
+            time.sleep(max(wait, 15 * (attempt + 1) if e.code == 429 else 2 * (attempt + 1)))
         except Exception:
             if attempt == retries - 1:
                 raise

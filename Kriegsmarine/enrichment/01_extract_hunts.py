@@ -70,6 +70,7 @@ def main():
             "kill_sentences": len(kills),
             "first_person": sum(k["first_person"] for k in kills),
             "quotes": sorted(kills, key=lambda k: (not k["first_person"], -len(k["animals"])))[:4],
+            "kills": [k["text"] for k in kills],   # all kill sentences (for who was there: 03c_people)
         })
     save("hunt_entries.json", out)
 
