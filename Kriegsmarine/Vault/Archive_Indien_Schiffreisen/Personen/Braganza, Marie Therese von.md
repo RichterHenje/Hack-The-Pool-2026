@@ -12,7 +12,6 @@ checked: false
 - Lexikonbeitrag
 - Schiff: [[Kaiserin Elisabeth, Kreuzer]]
 	- - Rolle
-	- Kapitän
 - Ortschaft (Link)
 - Länderbezug (Tag)
 - Archivalien mit Signatur

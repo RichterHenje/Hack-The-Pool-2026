@@ -5,3 +5,4 @@ created_by: human
 checked: false
 ---
 - Korvettenkapitän
+- [[Kaiserin Elisabeth, Kreuzer]]

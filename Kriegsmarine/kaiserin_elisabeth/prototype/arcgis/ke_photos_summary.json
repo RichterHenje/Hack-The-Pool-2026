@@ -1,0 +1,182 @@
+{
+ "g2_route_vs_museum": {
+  "photos_with_museum_geography": 159,
+  "place_fits_museum_geography_string_rule": 69,
+  "place_fits_team_route_place_string_rule": 70,
+  "photos_with_team_route_place": 159
+ },
+ "g2_pairs_to_read": [
+  "Badgery Station <> Arthursleigh",
+  "Badgery Station <> New South Wales",
+  "Badgery Station <> Wollondilly River",
+  "Beli <> Terai",
+  "Black Mountain <> Okanagan Valley",
+  "Bombay <> Hyderabad",
+  "Bombay <> Tandur",
+  "Butte City <> Livingston",
+  "Dakna Bâgh <> Terai",
+  "Dechta Boli <> Terai",
+  "Dschaipur <> Jodhpur",
+  "Fountain Geyser Hotel <> Yellowstone National Park",
+  "Grand Canyon Hotel <> Yellowstone National Park",
+  "Havre <> Nordamerika",
+  "Jagdlager am Laroki <> Laloki River",
+  "Jagdlager am Vei Maori <> Viemauri River",
+  "Jokohama <> Japan",
+  "Kanton <> Guangzhou",
+  "Katni <> Terai",
+  "Kiôto <> Fuji-San",
+  "Kiôto <> Fuji-San | Gotemba",
+  "Mijanoschita <> Miyanoshita",
+  "Mijanoschita <> Shizuoka",
+  "New York <> Nordamerika",
+  "Numea <> N | A",
+  "Numea <> Noumea",
+  "Pentieton <> British Columbia",
+  "Port Moresby <> Hanuabada",
+  "Port Moresby <> Kadora River",
+  "Singapur <> Insulares Südostasien",
+  "Siriska <> Alwar",
+  "Sohela <> Terai",
+  "Steamer Point <> Ägypten",
+  "Sydney <> Blackheath",
+  "Tjiandjur <> Mande",
+  "Tjipandak <> Cipandak",
+  "Tôkio <> VR China",
+  "Ugi <> Ereere",
+  "Vancouver <> Ozeanien"
+ ],
+ "photos_in_team_file": 408,
+ "day_dated_mapped_rows": 159,
+ "no_day_date": 249,
+ "outside_route": 0,
+ "with_coordinates": 87,
+ "without_coordinates": 72,
+ "coord_source": {
+  "stop": 42,
+  "geonames": 45,
+  "geonames_rejected": 1,
+  "none": 71
+ },
+ "day_kind": {
+  "stay": 141,
+  "travel": 18,
+  "none": 0
+ },
+ "control_verified_photos": [
+  {
+   "vf_id": "VF_14363",
+   "place_of_day": "Steamer Point",
+   "museum_geography": "Nordafrika/Nilländer/Ägypten",
+   "string_fit": false
+  },
+  {
+   "vf_id": "VF_14514",
+   "place_of_day": "Haidarabad",
+   "museum_geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+   "string_fit": true
+  },
+  {
+   "vf_id": "VF_14515",
+   "place_of_day": "Haidarabad",
+   "museum_geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+   "string_fit": true
+  },
+  {
+   "vf_id": "VF_14517",
+   "place_of_day": "Haidarabad",
+   "museum_geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+   "string_fit": true
+  },
+  {
+   "vf_id": "VF_14518",
+   "place_of_day": "Haidarabad",
+   "museum_geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+   "string_fit": true
+  },
+  {
+   "vf_id": "VF_14527",
+   "place_of_day": "Haidarabad",
+   "museum_geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+   "string_fit": true
+  },
+  {
+   "vf_id": "VF_14528",
+   "place_of_day": "Haidarabad",
+   "museum_geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+   "string_fit": true
+  },
+  {
+   "vf_id": "VF_14530",
+   "place_of_day": "Haidarabad",
+   "museum_geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+   "string_fit": true
+  },
+  {
+   "vf_id": "VF_14532",
+   "place_of_day": "Haidarabad",
+   "museum_geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+   "string_fit": true
+  },
+  {
+   "vf_id": "VF_14533",
+   "place_of_day": "Haidarabad",
+   "museum_geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+   "string_fit": true
+  },
+  {
+   "vf_id": "VF_14534",
+   "place_of_day": "Haidarabad",
+   "museum_geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+   "string_fit": true
+  },
+  {
+   "vf_id": "VF_14724",
+   "place_of_day": "Dschodpur",
+   "museum_geography": "Südasien/Subkontinent/Indien/Rajasthan/Jodhpur",
+   "string_fit": true
+  },
+  {
+   "vf_id": "VF_14733",
+   "place_of_day": "Katni",
+   "museum_geography": "Südasien/Subkontinent/Nepal/Terai",
+   "string_fit": false
+  },
+  {
+   "vf_id": "VF_14741",
+   "place_of_day": "Katni",
+   "museum_geography": "Südasien/Subkontinent/Nepal/Terai",
+   "string_fit": false
+  },
+  {
+   "vf_id": "VF_14835",
+   "place_of_day": "Tjipandak",
+   "museum_geography": "Insulares Südostasien/Indonesien/Java/West-Java (Barat)/Cipandak",
+   "string_fit": false
+  }
+ ],
+ "places_without_coordinates": [
+  "Badgery Station",
+  "Banff",
+  "Beli",
+  "Black Mountain",
+  "Butte City",
+  "Dakna Bâgh",
+  "Dechta Boli",
+  "Fountain Geyser Hotel",
+  "Grand Canyon Hotel",
+  "Jagdlager am Laroki",
+  "Jagdlager am Vei Maori",
+  "Kalawewa",
+  "Katni",
+  "Mijanoschita",
+  "Narromine",
+  "Pentieton",
+  "Port Kennedy",
+  "Siriska",
+  "Sohela",
+  "Steamer Point",
+  "Tjipandak",
+  "Ugi"
+ ]
+}

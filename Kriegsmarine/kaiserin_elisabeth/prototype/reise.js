@@ -78,10 +78,37 @@
   }
   map.fitBounds(located.map((d) => [d.lat, d.lon]), { padding: [20, 20] });
 
+  // Layers "Menschen" and "Sammeln" (data/ke_layers.js, scripts/ke_layers.py)
+  const KL = window.KEL || { days: {}, voyage: {} };
+  const PEOPLE = "#56B4E9", COLLECT = "#CC79A7";
+  const peopleLayer = L.layerGroup(), collectLayer = L.layerGroup();
+  for (const d of located) {
+    const e = KL.days[d.date] || {};
+    if ((e.actors || []).length) {
+      L.circleMarker([d.lat, d.lon], { radius: 9, color: PEOPLE, weight: 2, fill: false })
+        .bindTooltip(`${esc(d.date)} · ${e.actors.length} im Archiv verbunden`)
+        .on("click", () => select(days.indexOf(d))).addTo(peopleLayer);
+    }
+    if ((e.collecting || []).length) {
+      L.circleMarker([d.lat, d.lon], { radius: 6, color: COLLECT, weight: 2, fillColor: COLLECT, fillOpacity: 0.5 })
+        .bindTooltip(`${esc(d.date)} · ${e.collecting.length} Stelle(n) zum Sammeln/Erwerben`)
+        .on("click", () => select(days.indexOf(d))).addTo(collectLayer);
+    }
+  }
+  const ctx = (KL.voyage && KL.voyage.kulturpool_context) || [];
+  document.getElementById("context").innerHTML = ctx.map((c) => `<li class="noimg"><div>
+    <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.label)}</a> ${esc(c.text)}
+    <div class="meta">${esc(c.section)}</div></div></li>`).join("") || "<li class='noimg'>–</li>";
+  const hf = (KL.voyage && KL.voyage.hoefer_photos) || [];
+  document.getElementById("hoefer-summary").textContent = `Fotos der Reise im Weltmuseum (${hf.length} Inventarnummern mit Ort)`;
+  document.getElementById("hoefer").innerHTML = hf.map((h) =>
+    `<li>${esc(h.vf_id)} · ${esc(h.stops)} (Höfer S. ${esc(h.page)})</li>`).join("");
+
   const toggle = (id, layer) => document.getElementById(id).addEventListener("change", (e) => {
     if (e.target.checked) layer.addTo(map); else map.removeLayer(layer);
   });
   toggle("lyr-route", routeLayer); toggle("lyr-hunt", huntLayer); toggle("lyr-kp", kpLayer); toggle("lyr-press", pressLayer);
+  toggle("lyr-people", peopleLayer); toggle("lyr-collect", collectLayer);
 
   // Stats
   const huntDays = days.filter((d) => d.kill_sentences > 0);
@@ -126,7 +153,31 @@
       ${d.kill_sentences ? `<h4>Jagd im Tagebuch: ${d.kill_sentences} ${d.kill_sentences === 1 ? "Satz" : "Sätze"}</h4>
         <div class="chips">${animals}</div>${quotes}
         <p class="note">Wortlaut aus der Texterkennung, am Scan prüfen. Genannte Tiere sind nicht gleich getötete Tiere.</p>` : ""}
-      ${kpHtml}${prHtml}`;
+      ${kpHtml}${prHtml}${layersHtml(d)}`;
+  }
+
+  function layersHtml(d) {
+    const e = KL.days[d.date] || {};
+    let html = "";
+    if ((e.collecting || []).length) {
+      html += `<h4>Sammeln und Erwerben im Tagebuch (automatisch, ungeprüft)</h4>${
+        e.collecting.slice(0, 4).map((s) => `<blockquote>${esc(s)}</blockquote>`).join("")}`;
+    }
+    if ((e.actors || []).length) {
+      html += `<h4>Im Archiv mit ${esc(e.place_note)} verbunden</h4><ul class="plain">${
+        e.actors.map((a) => `<li>${esc(a.note)} <span class="note">(${a.folder === "Personen" ? "Person" : "Firma/Institution"})</span></li>`).join("")}</ul>
+        <p class="note">Das Archiv nennt sie; eine eigene Stimme haben sie hier nicht.</p>`;
+    }
+    if ((e.aboard || []).length) {
+      const ranks = Object.entries(e.aboard_by_rank || {}).map(([r, n]) => `${esc(n)} ${esc(r)}`).join(" · ");
+      const medal = e.aboard.filter((a) => a.medal_note).length;
+      html += `<h4>An Bord: ${e.aboard.length} Offiziere (Rangliste vom ${esc(e.aboard_issue)})</h4>
+        <p class="note">${ranks}</p>
+        <details><summary>Namen${medal ? ` (${medal} mit Seereise-Denkmünze 1892/93)` : ""}</summary><ul class="plain">${
+          e.aboard.map((a) => `<li>${esc(a.name)}, ${esc(a.rank)}${a.medal_note ? " ✓ Denkmünze" : ""}</li>`).join("")}</ul></details>
+        <p class="note">Rangliste KI-gestützt transkribiert, ungeprüft; nennt den Stab, nicht die ganze Mannschaft.</p>`;
+    }
+    return html;
   }
 
   function select(i) {

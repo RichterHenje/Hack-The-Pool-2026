@@ -12,6 +12,7 @@ python3 02_anno.py            # ANNO newspapers → data/anno.json
 python3 03_kulturpool.py      # Kulturpool objects → data/kulturpool.json
 python3 03b_hoefer_photos.py  # Höfer itinerary + Weltmuseum/Commons photos → data/hoefer_photos.json
 python3 03c_people.py         # people of the voyage: diary, hunts, GND/Wikidata, ANNO, Kulturpool → data/people.json
+python3 03d_objects.py        # Este collection objects (Weltmuseum) ↔ stops, diary, index cards → data/objects.json
 python3 04_build.py           # merge → data/enrichment.json, data/hunts.geojson
 python3 05_export_presse.py   # ANNO clippings → ../kaiserin_elisabeth/prototype/data/presse_anno.csv
 python3 06_crosscheck_ffworld.py  # itinerary check vs franzferdinandsworld.com → data/ffworld_days.csv, ffworld_crosscheck.json
@@ -41,6 +42,7 @@ episodes[]                       one hunting episode = consecutive diary entries
   hoefer                         stays[{stay, from, to, section}], from, to, days_without_hunting_entry, diary_within_hoefer
   photos[]                       source (Weltmuseum Wien | Wikimedia Commons), title, date, url, vf_id, image, rights
   people[]                       who is named in the episode's kill sentences: id (vault), name, group, kill_sentences, gnd, wikidata
+  objects[]                      Este objects acquired/described at this stop on the episode's days: inventory, type, url, strength, evidence, card
 voyage
   kulturpool[]                   voyage-level objects (tier: voyage | modern)
   anno_coverage                  issues per month mentioning FF / FF + hunting, 12/1892–12/1893
@@ -66,4 +68,5 @@ The whole route with coordinates is in `data/route_places.json` / `data/route.ge
   - **Pages are missing from the OCR** (e.g. 31 March, 15 July: the drowned parrot, the steamer „Vindobona“ and the 14 monkeys). Those passages are cited from the site's translation (`site` quotes, checked against the cached page).
   - Höfer's table (`../Analysen/itinerary_1892_93.csv`) has an empty stage for 1–4 January 1893.
 - **People** (`03c_people.py`, input `normalization/json/personen_reise.json`, 64 people): diary days and kill sentences naming the person (surname; OCR variants like „Prönay“; surnames that are also nouns – Reiter, Koch, Sommer, Hermann – only after a title). GND: from the vault, else lobid-gnd, linked only if surname and first name match exactly (Karl = Carl), the record has life dates fitting 1892/93 and – for the crew – a naval or medical profession; otherwise `ambiguous`, `undated` or `implausible` with the candidates listed. Linked: Clam-Martinic, Becker (vault), Kinsky, Jedina, Lorenz-Liburnau, Ramberg, Plumert, Schleinitz (lobid). Not in the GND: Wurmbrand, Prónay, Havelock, Stockinger. Eduard Hodek's GND record is undated and its Wikidata item describes Hodek senior (b. 1827), not the son who travelled – left unlinked.
+- **Objects** (`03d_objects.py`, input `normalization/json/objekte.json`, 1,798 online objects of the Este collection): links to the voyage are suggestions with evidence. Place: the object's region (`Ortschaft (Route)`, else `Geografie`) → the diary days at that stop (`via` for regions FF did not visit but whose objects were sold at a stop: Tibet/Sikkim/Bhutan → Darjeeling, Moluccas → Amboina, Borneo → Kuching; „Indien“ alone gets no days). Diary: the object word (inflected, not inside a compound; materials and adjectives ignored) in a sentence on those days. `strong` (18) = that sentence speaks of buying or a gift, or the index card records a gift to the archduke – e.g. weapons bought in Hyderabad (25.1.), the gold inkstand the Nizam gave as a keepsake (26.1.), a powder horn in Jaipur, the Meiji emperor's carbine (card); `medium` (131) = the type is described in the diary at that stop, or the card names the School of Art / 1893; `place` = only the region fits. Animal motifs and materials are tagged, but a motif is no link to a hunt. Weltmuseum images are linked, not shown (no licence stated).
 - Place coordinates come from Wikidata (P625); Nepal camps, Tjipandak, Badgery Station and Aru are approximate (`coord_note`).

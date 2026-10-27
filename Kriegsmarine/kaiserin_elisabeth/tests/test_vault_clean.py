@@ -103,6 +103,26 @@ def test_second_run_does_not_reread_review_entries(tmp_path):
     assert '"Link ohne Ziel: Kowalski, Anton"' in ship  # no [[…]] inside frontmatter
 
 
+def test_layers_page_break_does_not_swallow_next_sentence(tmp_path):
+    from scripts import ke_layers
+
+    src = tmp_path / "src"
+    src.mkdir()
+    day = (
+        "### 1893-07-25 · Kanton\n"
+        "Ein Rundgang wirkte bald so anwidernd, dass ich an Bord zurückkehrte.\n"
+        "m r-^'t -v.f -^9^v .^\n"
+        "*S. 227 · Scan 240*\n"
+        "Bei einem Händler erstand ich nach langem Feilschen eine alte Bronzefigur.\n"
+    )
+    (src / "FF Tagebuch Bd. 1.md").write_text(day, encoding="utf-8")
+    (src / "FF Tagebuch Bd. 2.md").write_text("", encoding="utf-8")
+    d = ke_layers.parse_diary(src)[0]
+    text = "\n".join(d["text"])
+    assert "Scan 240" not in text and "^" not in text
+    assert "erstand ich" in text
+
+
 def test_disable_rule_leaves_class_unfixed(tmp_path):
     v = make(tmp_path)
     run(v, tmp_path, "--disable", "R2,R3")

@@ -1,4 +1,4 @@
-"""Step 4: merge diary hunts + ANNO + Kulturpool + photos + people into one file per episode for the web app.
+"""Step 4: merge diary hunts + ANNO + Kulturpool + photos + people + objects into one file per episode for the web app.
 
 Output: data/enrichment.json (full), data/hunts.geojson (one point per episode)
 """
@@ -25,6 +25,7 @@ def main():
     kp_eps = {e["hunt_id"]: e for e in kp["episodes"]}
     hp = {e["hunt_id"]: e for e in load("hoefer_photos.json")["episodes"]}
     people = load("people.json")["people"]
+    objects = [o for o in load("objects.json")["objects"] if o["strength"] in ("strong", "medium")]
 
     episodes = []
     for a in anno["episodes"]:
@@ -46,6 +47,10 @@ def main():
             "kulturpool": {"direct": [kp_direct[i] for i in k["direct"]], "context": k["context"]},
             "hoefer": hp.get(h["id"], {}).get("hoefer"),
             "photos": hp.get(h["id"], {}).get("photos", []),
+            # objects of the Este collection acquired or described at this stop during the episode's stay
+            "objects": [{k: o[k] for k in ("id", "inventory", "type", "title", "url", "strength")}
+                        | {"evidence": (o["diary"][0] if o["diary"] else None), "card": o["card"]}
+                        for o in objects if h["id"] in o["hunts_here"]][:12],
             "people": sorted(({"id": x["id"], "name": x["name"], "group": x["group"],
                                "kill_sentences": x["diary"]["kills_by_hunt"][h["id"]],
                                "gnd": x["gnd"]["url"], "wikidata": x["wikidata"]}
@@ -66,6 +71,7 @@ def main():
         },
         "episodes": episodes,
         "voyage": {
+            "objects_strong": [o for o in load("objects.json")["objects"] if o["strength"] == "strong"],
             "kulturpool": kp["direct"],
             "anno_coverage": anno["coverage"],
             "anno_topics": [t | {"documents": [d for d in t["documents"] if d.get("snippets")][:12]}

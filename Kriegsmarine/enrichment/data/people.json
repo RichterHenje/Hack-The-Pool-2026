@@ -1205,6 +1205,50 @@
    "kulturpool": null
   },
   {
+   "id": "ke-person-2e981c7d87",
+   "name": "Bussatto, Luigi",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Bussatto, Luigi.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bBussatto\\b",
+    "days": 4,
+    "first": "1893-03-29",
+    "last": "1893-05-26",
+    "dates": [
+     "1893-03-29",
+     "1893-04-09",
+     "1893-05-14",
+     "1893-05-26"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Bussatto\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 0,
+    "examples": []
+   },
+   "kulturpool": null
+  },
+  {
    "id": "ke-person-f018e3c48c",
    "name": "Havelock, Arthur E.",
    "group": "Gastgeber",
@@ -1406,6 +1450,130 @@
    "kulturpool": null
   },
   {
+   "id": "ke-person-7dda95b2da",
+   "name": "Janaczek, Franz",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Janaczek, Franz.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bJanaczek\\b",
+    "days": 3,
+    "first": "1893-02-22",
+    "last": "1893-05-14",
+    "dates": [
+     "1893-02-22",
+     "1893-02-24",
+     "1893-05-14"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Janaczek\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 16,
+    "examples": [
+     {
+      "title": "(Neuigkeits) Welt Blatt 11. August 1893",
+      "date": "1893-08-11",
+      "url": "http://data.onb.ac.at/ANNO/nwb18930811?query=%22Janaczek%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Die Anklage legt demselben zur Last, da&szlig; er den35j&auml;hrigen Franz Janaczek aus Wicchnow amPstngstsonntag den 21. Mai d. I., Nachmittags,..."
+     },
+     {
+      "title": "Klagenfurter Zeitung 5. Juli 1893",
+      "date": "1893-07-05",
+      "url": "http://data.onb.ac.at/ANNO/kfz18930705?query=%22Janaczek%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...A. Galeitner, Pfarrer, Schwarzenberg.I. Janaczek s. Sohn, Kaufmann, Wien.Hotel Gandwirr. (G. u. A. Simon.)..."
+     },
+     {
+      "title": "Das Vaterland 10. August 1893",
+      "date": "1893-08-10",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930810?query=%22Janaczek%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...handlung statt. Hrazdera hatte am 31. Mai d. I. auf der Stra&szlig;evon Pohrlitz nach Schabitz dem 35j&auml;hrigen Franz Janaczek zw&ouml;lfStichwunden versetzt und ihn beraubt. Der Ueberfallene wurde..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-7f12fce307",
+   "name": "Mahmud",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Mahmud.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bMahmud\\b",
+    "days": 3,
+    "first": "1893-05-14",
+    "last": "1893-08-24",
+    "dates": [
+     "1893-05-14",
+     "1893-05-26",
+     "1893-08-24"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "not_searched",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": {
+    "query": "\"Mahmud\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 50,
+    "examples": [
+     {
+      "title": "Das Vaterland 9. Jänner 1893",
+      "date": "1893-01-09",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930109?query=%22Mahmud%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Festlichkeiten fand die Verheiratung des Gouverneurs desSuezcanals, Mahmud Pascha Riaz, mit der Tochter desverstorbenen Rassam Pascha Rassim vorige Woche in Kairo..."
+     },
+     {
+      "title": "Grazer Volksblatt 24. Juni 1893",
+      "date": "1893-06-24",
+      "url": "http://data.onb.ac.at/ANNO/gre18930624?query=%22Mahmud%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Nachricht von dieser Niederlage nach Constanti-nopel kam, war Sultan Mahmud II gestorben,und es hatte dessen sechzehnj&auml;hriger Sohn Abd-ul-..."
+     },
+     {
+      "title": "Die Presse 9. August 1893",
+      "date": "1893-08-09",
+      "url": "http://data.onb.ac.at/ANNO/apr18930809?query=%22Mahmud%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...k&ouml;pfigen Insulaner, deren Aspirationen durch die Beschwichttgungs-mission des au&szlig;erordentlichen Gesandten Mahmud Dschelall&raquo;eddin Pascha noch mehr aufgestachelt wurden, zu be&shy;..."
+     }
+    ]
+   },
+   "kulturpool": null
+  },
+  {
    "id": "ke-person-60b766f9c7",
    "name": "Regner v. Bleyleben, Otto Ritt.",
    "group": "Besatzung",
@@ -1596,6 +1764,44 @@
    "kulturpool": null
   },
   {
+   "id": "ke-person-f7ce9cadad",
+   "name": "Friedrich Kirchner",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Friedrich Kirchner.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bFriedrich\\b",
+    "days": 2,
+    "first": "1893-05-15",
+    "last": "1893-07-06",
+    "dates": [
+     "1893-05-15",
+     "1893-07-06"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "not_searched",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
    "id": "ke-person-29a2ab0ee7",
    "name": "Pietzuk, Karl",
    "group": "Besatzung",
@@ -1614,6 +1820,44 @@
     "dates": [
      "1893-05-15",
      "1893-07-24"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-c69c726069",
+   "name": "Plowden, Trevor C.",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Plowden, Trevor C..md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bPlowden\\b",
+    "days": 2,
+    "first": "1893-01-24",
+    "last": "1893-01-25",
+    "dates": [
+     "1893-01-24",
+     "1893-01-25"
     ],
     "kill_sentences": 0,
     "hunts": [],
@@ -1951,6 +2195,43 @@
    "kulturpool": null
   },
   {
+   "id": "ke-person-a10a924567",
+   "name": "Libra, Ludwig",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Libra, Ludwig.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bLibra\\b",
+    "days": 1,
+    "first": "1893-05-14",
+    "last": "1893-05-14",
+    "dates": [
+     "1893-05-14"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
    "id": "ke-person-d592571ba8",
    "name": "Modes, Lukas",
    "group": "Besatzung",
@@ -1990,6 +2271,43 @@
    "kulturpool": null
   },
   {
+   "id": "ke-person-db6ad3d75c",
+   "name": "Nizam von Hyderabad",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Nizam von Hyderabad.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bNizam\\b",
+    "days": 1,
+    "first": "1893-01-21",
+    "last": "1893-01-21",
+    "dates": [
+     "1893-01-21"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "not_searched",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
    "id": "ke-person-4def1be7f4",
    "name": "Perkon, Anton",
    "group": "Besatzung",
@@ -2007,6 +2325,43 @@
     "last": "1893-05-15",
     "dates": [
      "1893-05-15"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-ce3feee6df",
+   "name": "Rada, Raimund",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Rada, Raimund.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bRada\\b",
+    "days": 1,
+    "first": "1893-05-14",
+    "last": "1893-05-14",
+    "dates": [
+     "1893-05-14"
     ],
     "kill_sentences": 0,
     "hunts": [],
@@ -2231,6 +2586,76 @@
    "kulturpool": null
   },
   {
+   "id": "ke-person-234628b512",
+   "name": "Ahrlé, Frederick",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Ahrlé, Frederick.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bAhrlé\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-ba29d62989",
+   "name": "Braganza, Marie Therese von",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Braganza, Marie Therese von.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bBraganza\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
    "id": "ke-person-560dc9afb5",
    "name": "Bugel, Edmund",
    "group": "Besatzung",
@@ -2280,6 +2705,41 @@
    "possible_duplicate": null,
    "diary": {
     "pattern": "\\bBém\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-c89c57efc5",
+   "name": "Cerda, Anton Sanchez de la",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Cerda, Anton Sanchez de la.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bCerda\\b",
     "days": 0,
     "first": null,
     "last": null,
@@ -2363,6 +2823,49 @@
     "status": "none",
     "id": null,
     "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-4677224d2f",
+   "name": "Dayal, Lala Deen",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Dayal, Lala Deen.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bDayal\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "implausible",
+    "id": null,
+    "candidates": [
+     {
+      "id": "133576116",
+      "name": "Dayal, Lala Din",
+      "professions": [
+       "Fotograf"
+      ]
+     }
+    ],
     "name": null,
     "born": null,
     "died": null,
@@ -2473,6 +2976,82 @@
      {
       "id": "1033901164",
       "name": "Jeitler, Franz",
+      "professions": []
+     }
+    ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-7354864781",
+   "name": "Kammermaier, Josef",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Kammermaier, Josef.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bKammermaier\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-a718563324",
+   "name": "Kerr, Charles",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Kerr, Charles.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bKerr\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "implausible",
+    "id": null,
+    "candidates": [
+     {
+      "id": "119510006",
+      "name": "Kerr, Charles H.",
       "professions": []
      }
     ],
@@ -2636,6 +3215,76 @@
    "kulturpool": null
   },
   {
+   "id": "ke-person-25f65fbf86",
+   "name": "Maharaja Jai Singh, Rajput Alwar",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Maharaja Jai Singh, Rajput Alwar.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bMaharaja\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-d0e50b69f2",
+   "name": "Maharaja Sir Pratap Singh",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Maharaja Sir Pratap Singh.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bMaharaja\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "not_searched",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
    "id": "ke-person-ec923ae8ee",
    "name": "Metzger, Otto Edl. v.",
    "group": "Besatzung",
@@ -2718,6 +3367,41 @@
    "kulturpool": null
   },
   {
+   "id": "ke-person-9fcf6f81ef",
+   "name": "Mr. Murray",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Mr. Murray.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bMr\\.\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "not_searched",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
    "id": "tagebuch:Oscar Henschel",
    "name": "Oscar Henschel",
    "group": "Besatzung",
@@ -2739,6 +3423,41 @@
    },
    "gnd": {
     "status": "not_searched",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-c0dd700a89",
+   "name": "Paskoevič, Blasius",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Paskoevič, Blasius.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bPaskoevič\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
     "id": null,
     "candidates": null,
     "name": null,
@@ -2796,55 +3515,16 @@
    "kulturpool": null
   },
   {
-   "id": "ke-person-1245883d29",
-   "name": "Podhorsky, Ludwig",
+   "id": "ke-person-f5eb8e3012",
+   "name": "Podhorszky, Louis",
    "group": "Besatzung",
    "role": null,
    "ranks": [
     "Linienschiffs-Fähnrich"
    ],
-   "vault_note": "Personen/Podhorsky, Ludwig.md",
-   "life_vault": null,
-   "possible_duplicate": [
-    "Podhorszky, Louis"
-   ],
-   "diary": {
-    "pattern": "\\bPodhorsky\\b",
-    "days": 0,
-    "first": null,
-    "last": null,
-    "dates": [],
-    "kill_sentences": 0,
-    "hunts": [],
-    "kills_by_hunt": {},
-    "kill_quotes": []
-   },
-   "gnd": {
-    "status": "none",
-    "id": null,
-    "candidates": null,
-    "name": null,
-    "born": null,
-    "died": null,
-    "professions": [],
-    "url": null,
-    "wikidata": null
-   },
-   "wikidata": null,
-   "anno": null,
-   "kulturpool": null
-  },
-  {
-   "id": "ke-person-f5eb8e3012",
-   "name": "Podhorszky, Louis",
-   "group": "Besatzung",
-   "role": null,
-   "ranks": [],
    "vault_note": "Personen/Podhorszky, Louis.md",
    "life_vault": null,
-   "possible_duplicate": [
-    "Podhorsky, Ludwig"
-   ],
+   "possible_duplicate": null,
    "diary": {
     "pattern": "\\bPodhorszky\\b",
     "days": 0,
@@ -2977,6 +3657,41 @@
       ]
      }
     ],
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-c5f4153324",
+   "name": "Raja Sir Sourindro Mohun Tagore",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Raja Sir Sourindro Mohun Tagore.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bRaja\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "not_searched",
+    "id": null,
+    "candidates": null,
     "name": null,
     "born": null,
     "died": null,

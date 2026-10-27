@@ -4,7 +4,7 @@ id: ke-person-81e8128d0c
 created_by: ai-assisted
 checked: false
 ---
--  Titel:
+-  Titel: Freiherr von Sterneck
 - Lebensdaten:
 - Beruf/Funktionen: Linienschiffs Leutnant
 - Auszeichnung: 
@@ -20,3 +20,8 @@ checked: false
 - Links zu Bezugspersonen
 - Literatur
 - Quelle: [https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1899-05-15/?pg=97&layout=s](https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1899-05-15/?pg=155&layout=s)
+
+Übernommen aus der gelöschten Notiz „Daublebsky Freiherr von Sterneck, Maximilian“:
+(1829-1897)
+oberster Kommandant der k.u.k. Kriegsmarine ab 1883
+[[Das Historische und Schifffahrtsmuseum Istriens]]

@@ -28,9 +28,12 @@
         <label><input type="checkbox" id="lyr-hunt" checked> Jagd</label>
         <label><input type="checkbox" id="lyr-kp"> Kulturpool</label>
         <label><input type="checkbox" id="lyr-press" checked> Presse (ANNO)</label>
+        <label><input type="checkbox" id="lyr-people"> Menschen</label>
+        <label><input type="checkbox" id="lyr-collect"> Sammeln</label>
       </div>
       <dl id="stats" class="stats"></dl>
     </section>
+
 
     <section>
       <div class="stepper">
@@ -39,6 +42,20 @@
         <button type="button" id="next" aria-label="Nächster Tag">›</button>
       </div>
       <article id="card" class="card" aria-live="polite"></article>
+    </section>
+
+    <section>
+      <h2>Sammeln: was belegt ist</h2>
+      <p class="note">Die Objekte der Reise liegen großteils im Weltmuseum Wien und im Naturhistorischen
+        Museum; das Weltmuseum liefert nicht an den Kulturpool. Belegt sind hier Akten, Bücher und
+        Inventarnummern, keine Objekte.</p>
+      <ul id="context" class="records"></ul>
+      <details>
+        <summary id="hoefer-summary">Fotos der Reise im Weltmuseum (Inventarnummern)</summary>
+        <p class="note">Nummern aus Höfer 2010, <em>Imperial Sightseeing</em>, mit dem dort genannten Ort.
+          Ohne Bild: die Fotos sind nicht frei lizenziert.</p>
+        <ul id="hoefer" class="plain"></ul>
+      </details>
     </section>
 
     <section class="sources">
@@ -52,6 +69,14 @@
           soweit Quellen vorliegen.</li>
         <li>Orte: GeoNames (CC BY 4.0); kleine Orte ohne Koordinate stehen nur in der Tagesliste.</li>
         <li>Presse: ANNO (Österreichische Nationalbibliothek); automatisch gefundene Berichte über die Jagden (Ausschnitt nennt den Erzherzog, OCR, ungeprüft) stehen beim Tag, über den sie berichten, siehe <code>../enrichment/</code>; von Hand ergänzte Einträge beim Erscheinungsdatum ± 3 Tage.</li>
+        <li>„An Bord“: Offiziere laut der jeweils gültigen Rangliste (Ausgabe vor dem Tag), vom Team
+          KI-gestützt transkribiert, ungeprüft. Die Listen nennen den Stab, nicht die ganze Mannschaft.</li>
+        <li>„Im Archiv mit diesem Ort verbunden“: Personen und Firmen, deren Notiz im Vault auf den Ort
+          verweist. Das Archiv nennt sie; eine eigene Stimme haben sie hier nicht.</li>
+        <li>„Sammeln und Erwerben“: Tagebuchsätze mit Wörtern des Erwerbens und eines Gegenstands,
+          automatisch gefunden; nach eigener Durchsicht trifft etwa jeder zweite bis dritte Satz zu (ungeprüft).
+          Die Ebenen Jagd, Menschen und Sammeln hängen an den 170 OCR-Einträgen von <code>ke_diary.json</code> (ein Eintrag kann
+          mehrere Tage umfassen, siehe <code>../README.md</code>).</li>
       </ul>
     </section>
   </aside>
@@ -63,6 +88,7 @@
   <script src="data/world.js"></script>
   <script src="data/ke_data.js"></script>
   <script src="data/ke_diary.js"></script>
+  <script src="data/ke_layers.js"></script>
   <script src="reise.js"></script>
 </body>
 </html>

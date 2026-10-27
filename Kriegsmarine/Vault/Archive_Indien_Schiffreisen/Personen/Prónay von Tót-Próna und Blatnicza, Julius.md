@@ -5,3 +5,4 @@ created_by: human
 checked: false
 ---
 - Oberlieutenant
+- [[Kaiserin Elisabeth, Kreuzer]]
