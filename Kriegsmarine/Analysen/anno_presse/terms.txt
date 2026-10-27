@@ -1,0 +1,6 @@
+# Ein Suchbegriff je Zeile, Syntax wie auf https://anno.onb.ac.at/anno-suche
+# ("..." = Phrase, mehrere Wörter = alle kommen in der Ausgabe vor).
+# Bewusst eng gehalten: "Kaiserin Elisabeth" allein findet vor allem die Kaiserin.
+Kreuzer "Kaiserin Elisabeth"
+Rammkreuzer "Kaiserin Elisabeth"
+Thronfolger "Kaiserin Elisabeth"
