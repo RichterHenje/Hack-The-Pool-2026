@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMS Kaiserin Elisabeth 1892–1914</title>
+  <meta name="description" content="Prototyp: Reisen des Kreuzers SMS Kaiserin Elisabeth aus einem Archiv-Vault, verknüpft mit Kulturpool-Datensätzen und historischen Ortsnamen.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside id="panel">
+    <header>
+      <p class="kicker">Hack the Pool 2026 · Prototyp</p>
+      <h1>SMS Kaiserin Elisabeth</h1>
+      <p class="sub">Kreuzer der k.u.k. Kriegsmarine, 1892–1914</p>
+      <p class="intro">Ein Schiff, 22 Jahre: die Route aus dem Archiv-Vault des Teams, jede Station mit den
+        Kulturpool-Datensätzen, die den Ort <em>in diesen Jahren</em> nennen, und den damals gültigen Ortsnamen.</p>
+    </header>
+
+    <section>
+      <h2>Reisen</h2>
+      <ul id="segments" class="segments"></ul>
+    </section>
+
+    <section>
+      <h2>Was die Daten zeigen</h2>
+      <dl id="stats" class="stats"></dl>
+    </section>
+
+    <section>
+      <h2>Das Schiff im Kulturpool</h2>
+      <ul id="ship-records" class="records"></ul>
+    </section>
+
+    <section>
+      <details>
+        <summary id="unmapped-summary">Stationen ohne Koordinaten</summary>
+        <p class="note">Zu klein für das Ortsverzeichnis (GeoNames, Städte über 15.000 Einwohner).
+          Bewusst nicht ergänzt: das Archiv wird gezeigt, wie es ist.</p>
+        <ul id="unmapped" class="plain"></ul>
+      </details>
+    </section>
+
+    <section class="sources">
+      <h2>Quellen und Grenzen</h2>
+      <ul class="plain">
+        <li>Route, Personen, Orte: Archiv-Vault <code>Archive_Indien_Schiffreisen</code> des Teams (Branch khm-team).
+          Personenseiten aus den Ranglisten sind KI-gestützt transkribiert und gegen die Originale zu prüfen.</li>
+        <li>Kulturpool-Treffer sind Datensätze, die den Ortsnamen im Zeitfenster der Reise (± 2 Jahre) <em>nennen</em>,
+          keine Objekte von der Reise. „Colombo“ findet auch Kolumbus.</li>
+        <li>Bilder nur bei offenen Rechten (alle Rechteangaben OPEN); sonst Titel, Lizenz und Link.</li>
+        <li>Koordinaten: GeoNames (CC BY 4.0). Historische Namen: GeoNames, Wikidata (CC0);
+          Format: Linked Places (World Historical Gazetteer).</li>
+        <li>Stationen stehen in der Reihenfolge des Vaults; Tagesdaten pro Station sind dort nicht erfasst.
+          Linien verbinden Stationen gerade, sie zeigen keine Seewege.</li>
+        <li>Direktlink zu einer Station: <code>#stop=Colombo</code> (öffnet das Popup).</li>
+      </ul>
+      <p class="generated" id="generated"></p>
+    </section>
+  </aside>
+
+  <main id="map" aria-label="Karte der Reisen"></main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="data/world.js"></script>
+  <script src="data/ke_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
