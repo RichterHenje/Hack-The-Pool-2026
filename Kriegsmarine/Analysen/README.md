@@ -22,9 +22,11 @@ Regina Höfer (Hrsg.), *Imperial Sightseeing: Die Indienreise von Erzherzog Fran
 | `itinerary_1892_93.csv` | Reiseübersicht als Tabelle: 219 datierte Etappen und Aufenthalte, 15.12.1892-18.10.1893, Ortsnamen wie gedruckt, km; Summe 44.775 km |
 | `stop_dates.csv` | die 48 Stationen Franz Ferdinands aus dem Prototyp mit erstem und letztem Datum laut Reiseübersicht; 33 eindeutig zugeordnet |
 | `vf_photo_ids.csv` | 48 Foto-Inventarnummern des Museums für Völkerkunde (VF_…, heute Weltmuseum Wien), wie bei Höfer gedruckt, mit Seite (erschlossen) |
+| `vf_weltmuseum.csv` | die 48 VF-Nummern den Objektseiten des Weltmuseums zugeordnet: 21 geprüft (Dateiname der Seite = VF-Nummer, Titel und Datum passen zu Höfer), 1 nur Varianten, 24 nicht online, 2 offen |
 | `person_links.csv` | Personen-Notizen des Vaults, deren Name bei Höfer vorkommt (19 mit Vor- und Nachname; mindestens 1 Fehltreffer: „Ritter, Franz von“) |
 | `day_compare.csv`, `spine_compare.md`, `compare_summary.json` | Tag-für-Tag-Abgleich Reiseübersicht ↔ Tagebuch-Einträge (`Sources/FF Tagebuch`) |
 | `itinerary_summary.json` | Zählungen, Abschnitte und die Aufenthalte, die im Prototyp keine Station haben |
+| `anno_presse/` | Zeitungsmeldungen 1892/93 aus ANNO (ÖNB) als Kandidaten, je Etappe zugeordnet; Skript, Begriffe, Tests (eigenes README) |
 
 ## Ergebnisse in Kürze
 
@@ -51,7 +53,7 @@ Regina Höfer (Hrsg.), *Imperial Sightseeing: Die Indienreise von Erzherzog Fran
    auf GND 117525626 („Hodek, Eduard“, Präparator, aktiv 1870). Höfer nennt Hodek jun. selbst
    „Tierpräparator und Fotograf“ (S. 36). Ist der GND-Satz jun. oder sen.?
 4. **VF-Nummern:** Die Download-Dateien des Weltmuseums tragen die VF-Nummer im Namen
-   (Objekt 503567 → `VF_14814_a.jpg`). Damit ließen sich Höfers 48 Nummern den Weltmuseum-Seiten
+   (Objekt 503567 → `VF_14814_a.jpg`; der Hauptdatensatz desselben Fotos ist 255458 → `VF_14814`). Damit ließen sich Höfers 48 Nummern den Weltmuseum-Seiten
    zuordnen. Das Weltmuseum liefert nicht an den Kulturpool.
 
 ## Beispiel: 11. Jänner 1893
