@@ -1,3 +1,9 @@
+---
+type: ship
+id: ke-ship-b3fef8a4fa
+created_by: human
+checked: false
+---
 1900-1904: Teil des [[k.u.k Eskader für Ostasien]]
 
 

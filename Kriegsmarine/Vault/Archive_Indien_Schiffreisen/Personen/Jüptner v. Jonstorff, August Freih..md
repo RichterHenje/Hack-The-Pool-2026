@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-ba6f62d9f0
+created_by: ai-assisted
+checked: false
+---
 - Titel: Freiherr von
 - Lebensdaten:
 - Beruf/Funktionen: Mar. Kom. Adjkt. 2. Kl.

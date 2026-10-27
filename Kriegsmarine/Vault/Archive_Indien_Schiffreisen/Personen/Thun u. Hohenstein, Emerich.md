@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-a11a6a040e
+created_by: ai-assisted
+checked: false
+---
 - Titel: Graf
 - Lebensdaten:
 - Beruf/Funktionen: Seecadet

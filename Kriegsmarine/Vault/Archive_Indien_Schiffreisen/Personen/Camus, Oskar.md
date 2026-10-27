@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-191ab93666
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Freg. L.

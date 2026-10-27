@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-a49d32e030
+created_by: ai-assisted
+checked: false
+---
 - Titel
 - Lebensdaten (Jahr, Ort - Jahr, Ort)
 - Beruf/Funktionen (z. B. Kapitän): Fotograf, Marinemaler

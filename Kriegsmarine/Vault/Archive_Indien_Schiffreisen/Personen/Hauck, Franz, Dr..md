@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-a1c978e145
+created_by: ai-assisted
+checked: false
+---
 - Titel: Dr.
 - Lebensdaten:
 - Beruf/Funktionen: Prov. Corv. Arzt

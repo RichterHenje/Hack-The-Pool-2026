@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-e05e33c5e5
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten (1862, Ort - Jahr, Ort)
 - Beruf/Funktionen: Unter-Steuermänner (Vorgeschriebener Stand 8.)

@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-be4ae250ad
+created_by: ai-assisted
+checked: false
+---
 - Titel: Dr.
 - Lebensdaten (Jahr, Ort - Jahr, Ort)
 - Beruf/Funktionen: Linienschiffs-Arzt (Vorgeschriebener Kriegstand 32. Vorgeschriebener Friedensstand 18.)

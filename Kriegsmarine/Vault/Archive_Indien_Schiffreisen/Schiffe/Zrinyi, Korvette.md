@@ -1,3 +1,9 @@
+---
+type: ship
+id: ke-ship-a4a84d3501
+created_by: human
+checked: false
+---
  GND
 - Reise :Westindien
 	- Jahr: 1885-1886

@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-af40d134be
+created_by: ai-assisted
+checked: false
+---
 
 - Titel: Ritter von
 - Lebensdaten: 1842, Aue bei Schottwien - 1900, Fiume

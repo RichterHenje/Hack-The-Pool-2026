@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-27d8e57961
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Mar. Komr. 1. Kl.

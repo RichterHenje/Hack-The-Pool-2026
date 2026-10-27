@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-c496c4be4b
+created_by: ai-assisted
+checked: false
+---
 -  Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Marine Commissariat Adjunct 2. Klasse
@@ -5,7 +11,7 @@
 - GND oder VIAF (Identifier)
 - Lexikonbeitrag
 - Schiff: [[Kaiserin Elisabeth, Kreuzer]]
-	- Rolle: Marine Commissariat Adjunct 2. Klasse (seit 21. Jänner 1994)
+	- Rolle: Marine Commissariat Adjunct 2. Klasse (seit 21. Jänner 1894)
 - Ortschaft (Link):
 - Länderbezug (Tag)
 - Archivalien mit Signatur

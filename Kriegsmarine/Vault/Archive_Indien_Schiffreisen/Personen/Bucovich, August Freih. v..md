@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-6771410522
+created_by: ai-assisted
+checked: false
+---
 - Titel: Freiherr von
 - Lebensdaten:
 - Beruf/Funktionen: Corv. C.

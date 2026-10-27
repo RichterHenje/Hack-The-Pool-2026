@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-ddad4341aa
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Seeasp.

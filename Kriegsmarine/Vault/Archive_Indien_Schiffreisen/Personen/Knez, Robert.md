@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-ccc73d2a19
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Maschlt. 1. Kl.

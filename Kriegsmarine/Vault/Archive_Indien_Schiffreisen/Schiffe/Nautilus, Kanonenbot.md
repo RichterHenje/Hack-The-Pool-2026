@@ -1,3 +1,9 @@
+---
+type: ship
+id: ke-ship-af3612ae33
+created_by: human
+checked: false
+---
  GND
 - Reise 1: Missionsreise- Ostasien, Stationsschiff Japan, Korea
 	- 1884-1887

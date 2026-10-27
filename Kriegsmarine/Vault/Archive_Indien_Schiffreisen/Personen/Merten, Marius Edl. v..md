@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-ff3ad92417
+created_by: ai-assisted
+checked: false
+---
 - Titel: Edler von
 - Lebensdaten:
 - Beruf/Funktionen: Seekad.

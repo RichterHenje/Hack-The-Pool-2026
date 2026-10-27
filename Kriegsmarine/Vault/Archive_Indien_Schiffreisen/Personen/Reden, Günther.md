@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-d7596e0140
+created_by: ai-assisted
+checked: false
+---
 - Titel: Freiherr von
 - Lebensdaten:
 - Beruf/Funktionen: Seecadet

@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-26ba143c2b
+created_by: ai-assisted
+checked: false
+---
 - Titel: Freiherr von
 - Lebensdaten:
 - Beruf/Funktionen: Seecad.

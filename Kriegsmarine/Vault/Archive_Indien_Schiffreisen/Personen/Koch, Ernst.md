@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-8c076142f5
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten (1866, Ort - Jahr, Ort)
 - Beruf/Funktionen: Maschinenleiter 3. Classe (Vorgeschriebener Kriegstand 67. Vorgeschriebener Friedensstand 50.)

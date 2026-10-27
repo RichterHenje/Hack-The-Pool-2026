@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-fa8da4bbae
+created_by: ai-assisted
+checked: false
+---
 - Titel: Ritter von
 - Lebensdaten:
 - Beruf/Funktionen: Corv. C.

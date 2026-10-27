@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-27132210aa
+created_by: ai-assisted
+checked: false
+---
 - Titel: Conte
 - Lebensdaten:
 - Beruf/Funktionen: L. Sch. L.

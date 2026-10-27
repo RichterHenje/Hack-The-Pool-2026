@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-cd92812e82
+created_by: ai-assisted
+checked: false
+---
 - Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Seecadet

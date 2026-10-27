@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-fe617f6f93
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten (1862, Ort - Jahr, Ort)
 - Beruf/Funktionen: Unter-Bootsmänner (Geschütz-Meister) (Vorgeschriebener Stand 17.)

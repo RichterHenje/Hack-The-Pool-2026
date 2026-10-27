@@ -1,3 +1,11 @@
+---
+type: person
+id: ke-person-bf0a802b47
+created_by: ai-assisted
+checked: false
+review:
+  - "Dublette? [[Cociancig, Alois]]"
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Maschlt. 3. Cl.

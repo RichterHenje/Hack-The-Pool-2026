@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-c89c57efc5
+created_by: human
+checked: false
+---
 - Titel
 - Lebensdaten (1860, Knin - 1914, Tulln an der Donau)
 - Beruf/Funktionen: Lieutenant

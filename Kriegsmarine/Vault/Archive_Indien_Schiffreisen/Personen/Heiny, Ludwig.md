@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-fb957298f8
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Mar. Kom. Eleve

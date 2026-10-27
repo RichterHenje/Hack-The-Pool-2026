@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-64e82f2816
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten (1867, Ort - Jahr, Ort)
 - Beruf/Funktionen: Marine-Diener 1. Klasse (Vorgeschriebener Stand 54.)

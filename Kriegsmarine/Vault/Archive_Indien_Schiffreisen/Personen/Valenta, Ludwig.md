@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-b661993bb6
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten (1866, Ort - Jahr, Ort)
 - Beruf/Funktionen: Marine-Diener 2. Klasse (Vorgeschriebener Stand 53.)

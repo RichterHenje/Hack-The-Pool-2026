@@ -1,3 +1,9 @@
+---
+type: note
+id: ke-note-a1c213cb8e
+created_by: human
+checked: false
+---
 # Import Ranglisten Kaiserin Elisabeth (Stand 23.10.2026)
 
 Anmerkungen zum Import der Besatzungslisten des Kreuzers [[Kaiserin Elisabeth, Kreuzer]] in den Ordner Personen. Die Transkription ist KI-gestützt (Claude) und vor Publikationen stichprobenartig gegen die Originale zu prüfen. Zur Kennzeichnung von KI-Beiträgen: Forschungsservices bzw. KI-Beauftragte.

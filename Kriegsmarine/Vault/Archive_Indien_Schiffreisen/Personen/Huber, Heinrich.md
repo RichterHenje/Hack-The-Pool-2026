@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-d482251e50
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Korv. K.

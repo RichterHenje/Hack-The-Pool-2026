@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-ccda3b1137
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: See F.

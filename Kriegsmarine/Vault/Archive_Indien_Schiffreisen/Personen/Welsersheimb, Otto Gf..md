@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-c0292195b9
+created_by: ai-assisted
+checked: false
+---
 - Titel: Graf
 - Lebensdaten:
 - Beruf/Funktionen: Seecad.

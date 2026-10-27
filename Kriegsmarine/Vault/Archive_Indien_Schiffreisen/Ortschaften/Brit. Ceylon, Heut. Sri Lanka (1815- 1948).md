@@ -1,3 +1,9 @@
+---
+type: place
+id: ke-place-531547c9e8
+created_by: human
+checked: false
+---
 [[Colombo (Hauptstadt, Sri Lanka)]] 
 [[Ceylon Parcel Post]]
 [[Kaiserin Elisabeth, Kreuzer]]

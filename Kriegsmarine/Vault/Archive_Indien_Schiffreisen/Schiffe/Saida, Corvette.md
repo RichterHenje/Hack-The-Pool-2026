@@ -1,3 +1,11 @@
+---
+type: ship
+id: ke-ship-eae8ed26ab
+created_by: human
+checked: false
+review:
+  - "Link ohne Ziel: Huber von Varese"
+---
 #Route: 
 1 Reise: 02.10.1884-05.02.1886: 
 Instruktionsreise unter Fregattenkapitän Heinrich Fayenz.
@@ -8,7 +16,7 @@ Instruktionsreise unter Linienschiffskapitän Hermann Heinz
 Südamerika, Kapstadt, Ostafrika
 (Besucht von Sisi, nicht das Schiff in Korfu) 
 
-3 Reise: 04.10.2888-23.12.1889
+3 Reise: 04.10.1888-23.12.1889
 Instruktionsreise unter Fregattenkapitän [[Becker, Alois Ritter von]] 
 Westindien, Nordamerika
 

@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-f5eb8e3012
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten (1868, Ort - Jahr, Ort)
 - Beruf/Funktionen: Linienschiffs-Fähnriche

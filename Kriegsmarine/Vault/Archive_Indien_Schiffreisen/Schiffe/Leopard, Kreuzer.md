@@ -1,3 +1,9 @@
+---
+type: ship
+id: ke-ship-b06e0be670
+created_by: human
+checked: false
+---
 Reise: Australien, Polynesien und Ostasien
 01.10.1900-01.10.1901
 Instruktionsreise unter Fregattenkapitän Friedrich Ritter Müller von Elblein

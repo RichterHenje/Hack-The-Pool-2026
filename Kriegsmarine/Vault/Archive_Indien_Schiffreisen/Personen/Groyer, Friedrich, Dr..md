@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-57a1934aaa
+created_by: ai-assisted
+checked: false
+---
 - Titel: Dr.
 - Lebensdaten:
 - Beruf/Funktionen: Prov. Korv. Arzt

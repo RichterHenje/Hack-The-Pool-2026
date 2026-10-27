@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-4469fe15c8
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: L. Sch. L.

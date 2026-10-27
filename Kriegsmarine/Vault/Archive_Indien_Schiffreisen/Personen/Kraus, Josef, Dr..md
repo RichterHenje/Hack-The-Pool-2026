@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-b03fb8bf35
+created_by: ai-assisted
+checked: false
+---
 - Titel: Dr.
 - Lebensdaten:
 - Beruf/Funktionen: L. Sch. Arzt

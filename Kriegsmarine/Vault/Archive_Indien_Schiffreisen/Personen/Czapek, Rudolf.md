@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-4c34ab4d57
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: L. Sch. F.

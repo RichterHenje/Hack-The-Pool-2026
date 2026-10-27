@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-f61f856904
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Maschltr. 3. Cl.

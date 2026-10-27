@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-15d104e36f
+created_by: ai-assisted
+checked: false
+---
  - Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Maschinenleiter 2. Classe
@@ -5,7 +11,7 @@
 - GND oder VIAF (Identifier)
 - Lexikonbeitrag
 - Schiff: [[Kaiserin Elisabeth, Kreuzer]]
-	- Rolle: Maschinenleiter 2. Classe (seit 14. Jänner 1999)
+	- Rolle: Maschinenleiter 2. Classe (seit 14. Jänner 1899)
 - Ortschaft (Link):
 - Länderbezug (Tag)
 - Archivalien mit Signatur

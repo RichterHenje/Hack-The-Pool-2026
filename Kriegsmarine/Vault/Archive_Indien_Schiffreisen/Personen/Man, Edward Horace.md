@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-0b276c1fcd
+created_by: human
+checked: false
+---
 - (1846-1929)
 - Superintendent der britischen Strafkolonie auf Kamorta
 - Ethnographische Gegenstände auf den Nikobaren und Andamanen gesammelt.
