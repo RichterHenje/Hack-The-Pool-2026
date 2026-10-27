@@ -1,0 +1,269 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.5563,
+     8.0135
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-01-10-ceylon",
+    "label": "Kala Wewa (Ceylon) / Kandy (Ceylon)",
+    "start": "1893-01-10",
+    "end": "1893-01-12",
+    "animals": "Elefant, Affe, Vögel (sonstige), Büffel/Banteng",
+    "kill_sentences": 8,
+    "newspaper_issues_high": 6,
+    "kulturpool_direct": 1,
+    "photos": 3,
+    "vault_ids": "ke-place-f7bc511558, ke-place-b0bb1cc60a"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-01-21-hyderabad",
+    "label": "Tandur (Hyderabad State) / Hyderabad",
+    "start": "1893-01-21",
+    "end": "1893-01-25",
+    "animals": "Hirsch, Tiger, Vögel (sonstige)",
+    "kill_sentences": 9,
+    "newspaper_issues_high": 11,
+    "kulturpool_direct": 0,
+    "photos": 10,
+    "vault_ids": "ke-place-eb5c1a35e4, ke-place-f2704ec7e8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.02,
+     27.18
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-02-13-agra",
+    "label": "Agra",
+    "start": "1893-02-13",
+    "end": "1893-02-15",
+    "animals": "Vögel (sonstige), Antilope, Hirsch, Schakal/Hyäne",
+    "kill_sentences": 18,
+    "newspaper_issues_high": 2,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-25cf049ce2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.4369,
+     27.3175
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-02-20-alwar",
+    "label": "Sariska (Alwar State)",
+    "start": "1893-02-20",
+    "end": "1893-02-27",
+    "animals": "Hirsch, Tiger, Antilope, Vögel (sonstige)",
+    "kill_sentences": 22,
+    "newspaper_issues_high": 7,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-224c44805c"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0278,
+     26.2944
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-02-28-jodhpur",
+    "label": "Jodhpur",
+    "start": "1893-02-28",
+    "end": "1893-03-02",
+    "animals": "Hirsch, Wildschwein, Vögel (sonstige), Antilope",
+    "kill_sentences": 5,
+    "newspaper_issues_high": 6,
+    "kulturpool_direct": 0,
+    "photos": 1,
+    "vault_ids": "ke-place-21307d9f52"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.82,
+     26.915
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-03-03-jaipur",
+    "label": "Jaipur",
+    "start": "1893-03-03",
+    "end": "1893-03-04",
+    "animals": "Hirsch, Antilope, Vögel (sonstige)",
+    "kill_sentences": 4,
+    "newspaper_issues_high": 5,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-342139a06d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.3333,
+     28.8333
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-03-10-nepal",
+    "label": "Nepal Terai (Dakna Bāgh, Beli …)",
+    "start": "1893-03-10",
+    "end": "1893-03-26",
+    "animals": "Tiger, Vögel (sonstige), Hirsch, Elefant",
+    "kill_sentences": 33,
+    "newspaper_issues_high": 8,
+    "kulturpool_direct": 1,
+    "photos": 2,
+    "vault_ids": "ke-place-4bfd653020, ke-place-2b7becd30b"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8269,
+     -6.1753
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-04-11-java",
+    "label": "Batavia (Jakarta) / Garut (Java) / Tjiandjur (Cianjur, Java) / Tjipandak (Java)",
+    "start": "1893-04-11",
+    "end": "1893-04-23",
+    "animals": "Büffel/Banteng, Krokodil, Hirsch, Vögel (sonstige)",
+    "kill_sentences": 14,
+    "newspaper_issues_high": 1,
+    "kulturpool_direct": 0,
+    "photos": 1,
+    "vault_ids": "ke-place-9d5ffe029c, ke-place-1dc0928819, ke-place-18f3651c25, ke-place-680627ae16"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.2333,
+     -32.2333
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-05-18-nsw-west",
+    "label": "Narromine (NSW)",
+    "start": "1893-05-18",
+    "end": "1893-05-20",
+    "animals": "Känguru, Vögel (sonstige), Emu/Kasuar",
+    "kill_sentences": 15,
+    "newspaper_issues_high": 5,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-1c687368ce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.0011,
+     -34.715
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-05-23-badgery",
+    "label": "Arthursleigh / Badgery Station (NSW)",
+    "start": "1893-05-23",
+    "end": "1893-05-25",
+    "animals": "Känguru, Bär, Tiger",
+    "kill_sentences": 10,
+    "newspaper_issues_high": 5,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-4d42aa16b3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1494,
+     -9.4789
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-06-15-new-guinea",
+    "label": "Port Moresby / Laroki (New Guinea)",
+    "start": "1893-06-15",
+    "end": "1893-06-17",
+    "animals": "Vögel (sonstige), Känguru",
+    "kill_sentences": 7,
+    "newspaper_issues_high": 7,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-d6c0ce20e1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.6322,
+     -3.4458
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-06-29-buru",
+    "label": "Kajeli (Buru)",
+    "start": "1893-06-29",
+    "end": "1893-06-30",
+    "animals": "Vögel (sonstige), Hirsch",
+    "kill_sentences": 6,
+    "newspaper_issues_high": 6,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-2f6495b24a"
+   }
+  }
+ ]
+}

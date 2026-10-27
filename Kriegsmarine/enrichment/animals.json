@@ -1,0 +1,19 @@
+[
+  {"id": "tiger",       "de": "Tiger",          "en": "tiger",           "pattern": "tiger(?!jagd)|tigerin",            "anno": ["Tiger", "Tigers", "Tigern", "Tigerjagd", "Tigerjagden"]},
+  {"id": "leopard",     "de": "Panther/Leopard", "en": "leopard",        "pattern": "panther|leopard",                  "anno": ["Panther", "Leopard", "Leoparden"]},
+  {"id": "elephant",    "de": "Elefant",        "en": "elephant",        "pattern": "elephant|elefant",                 "anno": ["Elephant", "Elephanten", "Elefant", "Elefanten"]},
+  {"id": "rhinoceros",  "de": "Nashorn",        "en": "rhinoceros",      "pattern": "nashorn(?!vog)|rhinoc",            "anno": ["Nashorn", "Rhinoceros"]},
+  {"id": "bear",        "de": "Bär",            "en": "bear",            "pattern": "\\bbär(?:e|en|in)?\\b",            "anno": ["Bär", "Bären"]},
+  {"id": "crocodile",   "de": "Krokodil",       "en": "crocodile",       "pattern": "krokodil|crocodil|alligator|gavial", "anno": ["Krokodil", "Krokodile", "Crocodil"]},
+  {"id": "buffalo",     "de": "Büffel/Banteng", "en": "buffalo/banteng", "pattern": "büffel|banteng|gaur\\b|bison",     "anno": ["Büffel", "Banteng"]},
+  {"id": "deer",        "de": "Hirsch",         "en": "deer",            "pattern": "hirsch|sambar|axis|wapiti|\\bbock\\b|\\bböcke", "anno": ["Hirsch", "Hirsche", "Sambar"]},
+  {"id": "antelope",    "de": "Antilope",       "en": "antelope",        "pattern": "antilop|nilgau|gazell|black ?buck|schwarzbock", "anno": ["Antilope", "Antilopen", "Gazelle", "Gazellen", "Nilgau"]},
+  {"id": "boar",        "de": "Wildschwein",    "en": "wild boar",       "pattern": "wildschwein|keiler|\\bsau\\b|sauen\\b|bache", "anno": ["Wildschwein", "Wildschweine", "Eber"]},
+  {"id": "kangaroo",    "de": "Känguru",        "en": "kangaroo",        "pattern": "känguru|kängur|wallab",            "anno": ["Känguruh", "Känguruhs", "Kängurus", "Wallaby"]},
+  {"id": "emu",         "de": "Emu/Kasuar",     "en": "emu/cassowary",   "pattern": "\\bemus?\\b|kasuar|casuar",        "anno": ["Emu", "Emus", "Casuar", "Kasuar"]},
+  {"id": "jackal",      "de": "Schakal/Hyäne",  "en": "jackal/hyena",    "pattern": "schakal|hyäne|hyaene",             "anno": ["Schakal", "Schakale", "Hyäne"]},
+  {"id": "monkey",      "de": "Affe",           "en": "monkey",          "pattern": "\\baffe|languren|makak",           "anno": ["Affe", "Affen"]},
+  {"id": "peafowl",     "de": "Pfau",           "en": "peafowl",         "pattern": "\\bpfau",                          "anno": ["Pfau", "Pfauen"]},
+  {"id": "birdofparadise", "de": "Paradiesvogel", "en": "bird-of-paradise", "pattern": "paradiesv",                 "anno": ["Paradiesvogel", "Paradiesvögel"]},
+  {"id": "bird",        "de": "Vögel (sonstige)", "en": "birds (other)", "pattern": "papagei|kakadu|flamingo|adler|geier|reiher|nashornvog|ente\\b|enten\\b|fasan|hühner|cormoran|kormoran|taube", "anno": ["Vögel", "Papageien", "Flamingo"]}
+]

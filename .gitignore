@@ -5,3 +5,7 @@
 # Obsidian: lokaler Fensterzustand und Papierkorb
 **/.obsidian/workspace.json
 .trash/
+
+# Enrichment: API-Cache
+Kriegsmarine/enrichment/.cache/
+__pycache__/

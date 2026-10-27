@@ -66,10 +66,12 @@
     L.circleMarker([Number(s.latitude), Number(s.longitude)], { radius: 6, color: KP, weight: 2, fill: false })
       .bindTooltip(`${esc(s.place_note)}: ${s.kp_found} Kulturpool-Treffer`).addTo(kpLayer);
   }
-  // Press: clippings by date; placed at the diary location of that date when known
+  // Press: clippings placed at the diary day they report on (event_date, set by
+  // enrichment/05_export_presse.py), else at the diary location of the publication date
   for (const p of presse) {
-    const day = days.find((d) => d.date === p.date && d.lat !== null) ||
-      located.filter((d) => d.date <= p.date).pop();
+    const key = p.event_date || p.date;
+    const day = days.find((d) => d.date === key && d.lat !== null) ||
+      located.filter((d) => d.date <= key).pop();
     if (!day) continue;
     L.circleMarker([day.lat, day.lon], { radius: 7, color: PRESS, weight: 2, fillColor: PRESS, fillOpacity: 0.2 })
       .bindTooltip(`${esc(p.date)} · ${esc(p.newspaper)}`).on("click", () => select(days.indexOf(day))).addTo(pressLayer);
@@ -99,8 +101,10 @@
 
   function weekPress(date) {
     const t = Date.parse(date);
-    return presse.filter((p) => Math.abs(Date.parse(p.date) - t) <= 3.5 * 864e5);
+    return presse.filter((p) => !p.event_date && Math.abs(Date.parse(p.date) - t) <= 3.5 * 864e5);
   }
+  const aboutPress = (date) => presse.filter((p) => p.event_date === date);
+  const pressQuote = (p) => `<blockquote>${esc(p.quote)}<br><span class="note">${esc(p.newspaper)}, ${esc(p.date)} · <a href="${esc(p.page_url)}" target="_blank" rel="noopener">ANNO</a></span></blockquote>`;
 
   function card(d) {
     const quotes = d.kill_quotes.map((q) => `<blockquote>${esc(q)}</blockquote>`).join("");
@@ -110,9 +114,10 @@
       kp.kp_records.slice(0, 4).map((r) => `<li class="noimg"><div><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
         <div class="meta">${esc(r.provider)}${r.date ? " · " + esc(r.date) : ""} <span class="lic">${r.open ? "offen" : esc(r.licence)}</span></div></div></li>`).join("")}</ul>
       <p class="note">Datensätze nennen den Ort in diesen Jahren; sie stammen nicht von der Reise.</p>` : "";
-    const pr = weekPress(d.date);
-    const prHtml = pr.length ? `<h4>Presse (ANNO), ± 3 Tage</h4>${pr.map((p) =>
-      `<blockquote>${esc(p.quote)}<br><span class="note">${esc(p.newspaper)}, ${esc(p.date)} · <a href="${esc(p.page_url)}" target="_blank" rel="noopener">ANNO</a></span></blockquote>`).join("")}` : "";
+    const ab = aboutPress(d.date), pr = weekPress(d.date);
+    const prHtml = (ab.length ? `<h4>Presse (ANNO) über diesen Tag: ${ab.length}</h4>${ab.map(pressQuote).join("")}
+        <p class="note">Automatisch gefunden (ANNO-Suche, Ausschnitt nennt den Erzherzog); erschienen meist Wochen später.</p>` : "") +
+      (pr.length ? `<h4>Presse (ANNO), ± 3 Tage</h4>${pr.map(pressQuote).join("")}` : "");
     return `<h3>${esc(d.place_as_printed || d.heading || "–")}</h3>
       <div class="meta">${esc(d.date)} · <span class="kind">${esc(KIND[d.kind] || d.kind)}</span>
         ${d.place && d.place !== d.place_as_printed ? " · heute " + esc(d.place) : ""}
