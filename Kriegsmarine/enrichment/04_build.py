@@ -1,4 +1,4 @@
-"""Step 4: merge diary hunts + ANNO + Kulturpool + photos + people + objects into one file per episode for the web app.
+"""Step 4: merge diary hunts + ANNO + Kulturpool + photos + people + objects + Europeana photos into one file per episode for the web app.
 
 Output: data/enrichment.json (full), data/hunts.geojson (one point per episode)
 """
@@ -26,6 +26,8 @@ def main():
     hp = {e["hunt_id"]: e for e in load("hoefer_photos.json")["episodes"]}
     people = load("people.json")["people"]
     objects = [o for o in load("objects.json")["objects"] if o["strength"] in ("strong", "medium")]
+    europeana = load("europeana.json")
+    eu_by_vf = {r["vf"]: r for r in europeana["records"] if r["vf"]}
 
     episodes = []
     for a in anno["episodes"]:
@@ -46,7 +48,14 @@ def main():
             },
             "kulturpool": {"direct": [kp_direct[i] for i in k["direct"]], "context": k["context"]},
             "hoefer": hp.get(h["id"], {}).get("hoefer"),
-            "photos": hp.get(h["id"], {}).get("photos", []),
+            # Weltmuseum photos get licence and preview from their Europeana record (VF number)
+            "photos": [p | ({"rights": eu_by_vf[p["vf_id"]]["rights"], "europeana": eu_by_vf[p["vf_id"]]["europeana"],
+                             "preview": eu_by_vf[p["vf_id"]]["preview"]} if p.get("vf_id") in eu_by_vf else {})
+                       for p in hp.get(h["id"], {}).get("photos", [])],
+            # photographs by the voyage's photographers dated on a day of this episode (Europeana)
+            "europeana": [{k: r[k] for k in ("id", "title", "date", "creators", "photographers", "provider", "rights",
+                                             "europeana", "preview", "vf", "animals")}
+                          for r in europeana["records"] if r["hunt"] == h["id"]],
             # objects of the Este collection acquired or described at this stop during the episode's stay
             "objects": [{k: o[k] for k in ("id", "inventory", "type", "title", "url", "strength")}
                         | {"evidence": (o["diary"][0] if o["diary"] else None), "card": o["card"]}
@@ -71,6 +80,7 @@ def main():
         },
         "episodes": episodes,
         "voyage": {
+            "europeana": {k: europeana[k] for k in ("photographers", "rights", "providers", "dated", "at_hunts")},
             "objects_strong": [o for o in load("objects.json")["objects"] if o["strength"] == "strong"],
             "kulturpool": kp["direct"],
             "anno_coverage": anno["coverage"],

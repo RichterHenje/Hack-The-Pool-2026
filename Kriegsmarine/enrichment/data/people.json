@@ -507,8 +507,8 @@
   {
    "id": "ke-person-a4b84c682b",
    "name": "Hodek, Eduard",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Wissenschaft",
+   "role": "Fotograf und Präparator an Bord (Eduard Hodek jun.)",
    "ranks": [],
    "vault_note": "Personen/Hodek, Eduard.md",
    "life_vault": null,
@@ -1067,72 +1067,6 @@
    "kulturpool": null
   },
   {
-   "id": "tagebuch:Sanchez de la Cerda, Anton",
-   "name": "Sanchez de la Cerda, Anton",
-   "group": "Besatzung",
-   "role": null,
-   "ranks": [
-    "Linienschiffs-Lieutenant"
-   ],
-   "vault_note": null,
-   "life_vault": null,
-   "possible_duplicate": null,
-   "diary": {
-    "pattern": "\\bSanchez\\b",
-    "days": 5,
-    "first": "1893-04-05",
-    "last": "1893-09-13",
-    "dates": [
-     "1893-04-05",
-     "1893-05-14",
-     "1893-05-27",
-     "1893-06-09",
-     "1893-09-13"
-    ],
-    "kill_sentences": 0,
-    "hunts": [],
-    "kills_by_hunt": {},
-    "kill_quotes": []
-   },
-   "gnd": {
-    "status": "not_searched",
-    "id": null,
-    "candidates": null,
-    "name": null,
-    "born": null,
-    "died": null,
-    "professions": [],
-    "url": null,
-    "wikidata": null
-   },
-   "wikidata": null,
-   "anno": {
-    "query": "\"Sanchez\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
-    "total": 31,
-    "examples": [
-     {
-      "title": "Grazer Tagblatt 18. Dezember 1893",
-      "date": "1893-12-18",
-      "url": "http://data.onb.ac.at/ANNO/gtb18931218?query=%22Sanchez%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
-      "snippet": "...gro&szlig;es Bankett zu Ehren des Erzherzogs statt. Gesternhat sich der Schiffsf&auml;hnrich Anton Sanchez dellaCerda &uuml;ber Auftrag des Erzherzogs nach Pola be&shy;..."
-     },
-     {
-      "title": "Mittheilungen der kaiserlich-königlichen Geographischen Gesellschaft: Generalindex 1857-1907 1893",
-      "date": null,
-      "url": "http://data.onb.ac.at/ANNOP/geo18930009?query=%28text%3ASanchez+AND+%28text%3AErzherzog+OR+text%3AThronfolger%29+AND+%28text%3AWeltreise+OR+text%3AIndien+OR+text%3ACeylon+OR+text%3A%22Kaiserin+Elisabeth%22+OR+text%3AJapan+OR+text%3AAustralien%29%29&ref=anno-search",
-      "snippet": "...1894, 28*&mdash; Bericht &uuml;ber die Weltreise, San-chez de la Cerda 37, 1894, 300 &mdash; Erzh., Reise um die Erde, 39,..."
-     },
-     {
-      "title": "Pester Lloyd 20. Dezember 1893",
-      "date": "1893-12-20",
-      "url": "http://data.onb.ac.at/ANNO/pel18931220?query=%22Sanchez%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
-      "snippet": "...Bo&laquo;ra&laquo;ignon von Baumberg, Otto Ritter Regnervon Bleyleben und Anton Sanchez de la Cerda;das goldene Verdienstkreuz mit der Krone: die..."
-     }
-    ]
-   },
-   "kulturpool": null
-  },
-  {
    "id": "tagebuch:Bedford",
    "name": "Bedford",
    "group": "Gastgeber",
@@ -1207,8 +1141,8 @@
   {
    "id": "ke-person-2e981c7d87",
    "name": "Bussatto, Luigi",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Bussatto, Luigi.md",
    "life_vault": null,
@@ -1452,8 +1386,8 @@
   {
    "id": "ke-person-7dda95b2da",
    "name": "Janaczek, Franz",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Janaczek, Franz.md",
    "life_vault": null,
@@ -1514,8 +1448,8 @@
   {
    "id": "ke-person-7f12fce307",
    "name": "Mahmud",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Mahmud.md",
    "life_vault": null,
@@ -1571,6 +1505,45 @@
      }
     ]
    },
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-c0dd700a89",
+   "name": "Paskoevič, Blasius",
+   "group": "Diener",
+   "role": "Diener an Bord; vermutlich der Tierwärter „Biaggio“ des Tagebuchs (Biaggio = Blasius), 1894 Aufseher der Ausstellung („Biaggio Paste…vich, eines Ragusaners“)",
+   "ranks": [],
+   "vault_note": "Personen/Paskoevič, Blasius.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\b(?:Biaggio|Paskoevi\\w*)\\b",
+    "days": 3,
+    "first": "1893-04-15",
+    "last": "1893-06-17",
+    "dates": [
+     "1893-04-15",
+     "1893-05-14",
+     "1893-06-17"
+    ],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
    "kulturpool": null
   },
   {
@@ -1709,65 +1682,10 @@
    "wikidata_description": "österreichischer Zoologe und Parasitologe (1856–1943)"
   },
   {
-   "id": "tagebuch:Biaggio",
-   "name": "Biaggio",
-   "group": "Diener",
-   "role": "Tierwärter an Bord, aus Ragusa (Familienname in der OCR unleserlich)",
-   "ranks": [],
-   "vault_note": null,
-   "life_vault": null,
-   "possible_duplicate": null,
-   "diary": {
-    "pattern": "\\bBiaggio\\b",
-    "days": 2,
-    "first": "1893-04-15",
-    "last": "1893-06-17",
-    "dates": [
-     "1893-04-15",
-     "1893-06-17"
-    ],
-    "kill_sentences": 0,
-    "hunts": [],
-    "kills_by_hunt": {},
-    "kill_quotes": []
-   },
-   "gnd": {
-    "status": "not_searched",
-    "id": null,
-    "candidates": null,
-    "name": null,
-    "born": null,
-    "died": null,
-    "professions": [],
-    "url": null,
-    "wikidata": null
-   },
-   "wikidata": null,
-   "anno": {
-    "query": "\"Biaggio\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
-    "total": 2,
-    "examples": [
-     {
-      "title": "Dillinger's Reisezeitung 1. Juli 1893",
-      "date": "1893-07-01",
-      "url": "http://data.onb.ac.at/ANNO/dil18930701?query=%22Biaggio%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
-      "snippet": "...D&ouml;rfchen auf einer schwer zug&auml;nglichen H&ouml;he von 1500 m &uuml;ber dem Meere ist, eineoriginelle Postbef&ouml;rderung ins Werk gesetzt worden. Auf der Hohe von Biaggiowurde ein Bretterh&uuml;ttehen als Abgangsstation errichtet, ein gleiches mit Wellbaum..."
-     },
-     {
-      "title": "Wiener Zeitung 1. Dezember 1893",
-      "date": "1893-12-01",
-      "url": "http://data.onb.ac.at/ANNO/wrz18931201?query=%22Biaggio%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
-      "snippet": "...Bei der Einzelnfirma: Biaggio Jasnigder Procurist Hugo Tamburins des sel. Dr...."
-     }
-    ]
-   },
-   "kulturpool": null
-  },
-  {
    "id": "ke-person-f7ce9cadad",
    "name": "Friedrich Kirchner",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Friedrich Kirchner.md",
    "life_vault": null,
@@ -1798,7 +1716,30 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Friedrich\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 4152,
+    "examples": [
+     {
+      "title": "Cur- und Bade-Zeitung. Hygiea 18. Dezember 1892",
+      "date": "1892-12-18",
+      "url": "http://data.onb.ac.at/ANNO/hyg18921218?query=%22Friedrich%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...wieder in Wien eingelroffen. Se. Majest&auml;t tauschte mit dem Kron&shy;prinzen Friedrich von D&auml;nemark, der hier unter dem Incognitoeines Grafen Kronburg aus Italien eingetroffen war, Besuche aus...."
+     },
+     {
+      "title": "Das Vaterland 9. Februar 1893",
+      "date": "1893-02-09",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930209?query=%22Friedrich%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...lichen Hauses u&raquo;d des Aeu&szlig;ern Rudolph Graf von Wolfers&shy;heim b das Gro&szlig;kreuz des k&ouml;niglich m&uuml;rttembergischen Friedrich-Ordens ; der Hof- und Ministerialrath in demselben Ministerium..."
+     },
+     {
+      "title": "Oesterreichischer Soldatenfreund 6. Mai 1893",
+      "date": "1893-05-06",
+      "url": "http://data.onb.ac.at/ANNO/mil18930506?query=%22Friedrich%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Zeitschritt bringt u. A. die Bilder Ihrer kais. Hoheiten der Herren Erz&shy;herzoge Al brecht, Wilhelm und weiland Friedrich, der S&ouml;hne desSiegers von Aspern, interessante Betrachtungen &uuml;ber die Eventualit&auml;ten..."
+     }
+    ]
+   },
    "kulturpool": null
   },
   {
@@ -1844,8 +1785,8 @@
   {
    "id": "ke-person-c69c726069",
    "name": "Plowden, Trevor C.",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Plowden, Trevor C..md",
    "life_vault": null,
@@ -1876,7 +1817,11 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Plowden\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 0,
+    "examples": []
+   },
    "kulturpool": null
   },
   {
@@ -2197,8 +2142,8 @@
   {
    "id": "ke-person-a10a924567",
    "name": "Libra, Ludwig",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Libra, Ludwig.md",
    "life_vault": null,
@@ -2228,7 +2173,30 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Libra\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 4,
+    "examples": [
+     {
+      "title": "Wiener Allgemeine Zeitung 13. Dezember 1892",
+      "date": "1892-12-13",
+      "url": "http://data.onb.ac.at/ANNO/waz18921213?query=%22Libra%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Finanzin in ister geladen waren.Paris, 11. December. Dem Journal &bdquo;Libra Pa&shy;role&quot; zufolge h&auml;tten die Aerzte die Ursache des Todes..."
+     },
+     {
+      "title": "Das Vaterland 29. Oktober 1893",
+      "date": "1893-10-29",
+      "url": "http://data.onb.ac.at/ANNO/vtl18931029?query=%22Libra%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...damals circa 40.000 S&auml;cke betrag&laquo; haben. F&uuml;r1 Libra Wolle konnte man 21 bis 24 Libras Weizenkauf&laquo;; sie war also als Handelsartikel dem Getreide..."
+     },
+     {
+      "title": "(Neuigkeits) Welt Blatt 7. Juli 1893",
+      "date": "1893-07-07",
+      "url": "http://data.onb.ac.at/ANNO/nwb18930707?query=%22Libra%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...halten. In N&uuml;rnberg wurde&raquo; n&auml;mlich gestern 116libra!&laquo; und 143 sozialistische Wahlm&auml;nner aew&auml;hlt,wodurch die von der Temckratie unterst&uuml;tzte Sozial-..."
+     }
+    ]
+   },
    "kulturpool": null
   },
   {
@@ -2273,8 +2241,8 @@
   {
    "id": "ke-person-db6ad3d75c",
    "name": "Nizam von Hyderabad",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Nizam von Hyderabad.md",
    "life_vault": null,
@@ -2304,7 +2272,30 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Nizam\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 21,
+    "examples": [
+     {
+      "title": "Neue Freie Presse 6. Februar 1893",
+      "date": "1893-02-06",
+      "url": "http://data.onb.ac.at/ANNO/nfp18930206?query=%22Nizam%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...gegeben wird. Bombay wird der Erzherzog am 20. Januar,Nachmittags, verlassen, um zun&auml;chst dem Nizam von Hydera&shy;bad einen Besuch abzustatten, der f&uuml;r den Erzherzog gro&szlig;e..."
+     },
+     {
+      "title": "Prager Abendblatt 8. Februar 1893",
+      "date": "1893-02-08",
+      "url": "http://data.onb.ac.at/ANNO/pab18930208?query=%22Nizam%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...wird. Bombay wird Ler Herr Erzherzog am 20. J&auml;nerNachmittags verlasien, um zun&auml;chst dem Nizam vonHvderabad einen Besuch abzustatten, der f&uuml;r den Herrn..."
+     },
+     {
+      "title": "Österreichische Forst-Zeitung 17. Februar 1893",
+      "date": "1893-02-17",
+      "url": "http://data.onb.ac.at/ANNO/ftz18930217?query=%22Nizam%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...parator abgebalgt. Nach der Abreise von Bombay in Indienstattete der Erzherzog zun&auml;chst dem Nizam von Hyderabad einenBesuch ab; dieser halte s&uuml;r den Erzherzog Jagden auf Axishirsche..."
+     }
+    ]
+   },
    "kulturpool": null
   },
   {
@@ -2349,8 +2340,8 @@
   {
    "id": "ke-person-ce3feee6df",
    "name": "Rada, Raimund",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Rada, Raimund.md",
    "life_vault": null,
@@ -2380,7 +2371,30 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Rada\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 98,
+    "examples": [
+     {
+      "title": "Das Vaterland 1. Februar 1893",
+      "date": "1893-02-01",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930201?query=%22Rada%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...thenischen Pfarr&auml;mter wurde soeben von dem alkruthcnische&raquo;Vereine &bdquo;Ruska Rada&quot; der lithographirte Text eines Ge&shy;suches versendet, in welchem bei Sr. Majest&auml;t dem Kaiser..."
+     },
+     {
+      "title": "Das Vaterland 12. Juli 1893",
+      "date": "1893-07-12",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930712?query=%22Rada%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...des Verhalten versprechend, so richtete der Aus&shy;schu&szlig; der &bdquo;Narodna Rada&quot; einen von den Herren. Professor Romanczuk und Dr. Levicki gezeichneten..."
+     },
+     {
+      "title": "Prager Abendblatt 19. Dezember 1892",
+      "date": "1892-12-19",
+      "url": "http://data.onb.ac.at/ANNO/pab18921219?query=%22Rada%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Bloraann, c. k. mistodrzitelsky rada a docent nniv.1 zl. Pari Antonin Poncc, c. k. mistodriitebkv..."
+     }
+    ]
+   },
    "kulturpool": null
   },
   {
@@ -2588,8 +2602,8 @@
   {
    "id": "ke-person-234628b512",
    "name": "Ahrlé, Frederick",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Ahrlé, Frederick.md",
    "life_vault": null,
@@ -2617,14 +2631,18 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Ahrlé\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 0,
+    "examples": []
+   },
    "kulturpool": null
   },
   {
    "id": "ke-person-ba29d62989",
    "name": "Braganza, Marie Therese von",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Braganza, Marie Therese von.md",
    "life_vault": null,
@@ -2652,7 +2670,30 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Braganza\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 234,
+    "examples": [
+     {
+      "title": "Grazer Volksblatt 24. Juni 1893",
+      "date": "1893-06-24",
+      "url": "http://data.onb.ac.at/ANNO/gre18930624?query=%22Braganza%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Wilhelm von Luxemburg mit PrinzessinMaria Anna von Braganza fungierten alsBrautzeugen Se. k. Hoheit Herr Erzherzog K a r l..."
+     },
+     {
+      "title": "Linzer Volksblatt 1. Juni 1893",
+      "date": "1893-06-01",
+      "url": "http://data.onb.ac.at/ANNO/lvb18930601?query=%22Braganza%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Confeffion angeh&ouml;rt, hat sich mit der katholischen Herzogin vonBraganza, einer Schwester der Erzherzogin Maria Theresia, verlobt.AuS dem Haag vom 27. d. wird nun der &bdquo;Germania&quot; ge&shy;..."
+     },
+     {
+      "title": "Deutsches Volksblatt 2. Juni 1893",
+      "date": "1893-06-02",
+      "url": "http://data.onb.ac.at/ANNO/dvb18930602?query=%22Braganza%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...testantischen Conseffion angeh&ouml;rt, hat sich mit der katholischenHerzogin von Braganza, einer Schwester der ErzhcrzoainMaria Theresia, verlobt. Aus dem Haag vom 27. v. M.,..."
+     }
+    ]
+   },
    "kulturpool": null
   },
   {
@@ -2734,7 +2775,9 @@
    "name": "Cerda, Anton Sanchez de la",
    "group": "Besatzung",
    "role": null,
-   "ranks": [],
+   "ranks": [
+    "Linienschiffs-Lieutenant"
+   ],
    "vault_note": "Personen/Cerda, Anton Sanchez de la.md",
    "life_vault": null,
    "possible_duplicate": null,
@@ -2837,8 +2880,8 @@
   {
    "id": "ke-person-4677224d2f",
    "name": "Dayal, Lala Deen",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Dayal, Lala Deen.md",
    "life_vault": null,
@@ -2855,17 +2898,83 @@
     "kill_quotes": []
    },
    "gnd": {
-    "status": "implausible",
-    "id": null,
-    "candidates": [
-     {
-      "id": "133576116",
-      "name": "Dayal, Lala Din",
-      "professions": [
-       "Fotograf"
-      ]
-     }
+    "status": "lobid",
+    "id": "133576116",
+    "candidates": null,
+    "name": "Dayal, Lala Din",
+    "born": "1844",
+    "died": "1910",
+    "professions": [
+     "Fotograf"
     ],
+    "url": "https://d-nb.info/gnd/133576116",
+    "wikidata": "Q133746796"
+   },
+   "wikidata": "Q133746796",
+   "anno": {
+    "query": "\"Dayal\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 0,
+    "examples": []
+   },
+   "kulturpool": {
+    "found": 3,
+    "items": [
+     {
+      "title": "Fotografie war nie nur ein weißes Medium",
+      "provider": "eSel.at",
+      "date": [
+       "2023-06-08"
+      ],
+      "url": "https://kulturpool.at/objekte/74aacf21-f580-4247-8f69-b742393ced10",
+      "image": "https://media.kulturpool.at/images/rewind.esel.at/b0c897ca4bb728979a85d20458835771a3859135_small.webp"
+     },
+     {
+      "title": "Imperial Sightseeing: Die Indienreise von Erzherzog Franz Ferdinand von Öst",
+      "provider": "eSel.at",
+      "date": [
+       "2010-07-06"
+      ],
+      "url": "https://kulturpool.at/objekte/adcea14f-8767-4468-b178-2b4a0e3b9c49",
+      "image": "https://media.kulturpool.at/images/rewind.esel.at/b431a01045737f8e550c62417f07a1c962589b82_small.webp"
+     },
+     {
+      "title": "Imperial Sightseeing: Die Indienreise von Erzherzog Franz Ferdinand von Öst",
+      "provider": "eSel.at",
+      "date": [
+       "2010-07-07"
+      ],
+      "url": "https://kulturpool.at/objekte/cebcfb7c-30aa-466c-b5c1-d9c67b7a006a",
+      "image": "https://media.kulturpool.at/images/rewind.esel.at/823d2c6bf5d60861e1a70dc115858d11574c7e8b_small.webp"
+     }
+    ]
+   },
+   "wikidata_label": null,
+   "wikidata_description": null
+  },
+  {
+   "id": "ke-person-d0d0d89589",
+   "name": "Dennig, Heinrich",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Dennig, Heinrich.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bDennig\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
     "name": null,
     "born": null,
     "died": null,
@@ -2993,8 +3102,8 @@
   {
    "id": "ke-person-7354864781",
    "name": "Kammermaier, Josef",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Kammermaier, Josef.md",
    "life_vault": null,
@@ -3022,14 +3131,18 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Kammermaier\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 0,
+    "examples": []
+   },
    "kulturpool": null
   },
   {
    "id": "ke-person-a718563324",
    "name": "Kerr, Charles",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Kerr, Charles.md",
    "life_vault": null,
@@ -3046,7 +3159,7 @@
     "kill_quotes": []
    },
    "gnd": {
-    "status": "implausible",
+    "status": "unconfirmed",
     "id": null,
     "candidates": [
      {
@@ -3063,7 +3176,30 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Kerr\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 104,
+    "examples": [
+     {
+      "title": "Wiener Salonblatt 2. April 1893",
+      "date": "1893-04-02",
+      "url": "http://data.onb.ac.at/ANNO/wsb18930402?query=%22Kerr%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Se st. und k. Koheit Kerr Erzherzog Aranz Serdinandin &Auml;sien...."
+     },
+     {
+      "title": "(Neuigkeits) Welt Blatt 25. Februar 1893",
+      "date": "1893-02-25",
+      "url": "http://data.onb.ac.at/ANNO/nwb18930225?query=%22Kerr%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Spital-Arzt. Doktor der Med., Thir.,kerr. Mitglied der Socivte k^ao^sisei'L^gioos in Paris. Auch brieflich..."
+     },
+     {
+      "title": "Mährisches Tagblatt 17. November 1893",
+      "date": "1893-11-17",
+      "url": "http://data.onb.ac.at/ANNO/mtb18931117?query=%22Kerr%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...und Civilbeh&ouml;rde&raquo; rc. geladen sind.(Aesnch des Kerr&raquo; Statthatters Aare&laquo;Spens &raquo;. Aoodeu Sei&laquo; &szlig;echw. Kerr&laquo; ASrst-erzbifchof pr. Kohlt.) Morgen Samstag, fr&uuml;h..."
+     }
+    ]
+   },
    "kulturpool": null
   },
   {
@@ -3217,8 +3353,8 @@
   {
    "id": "ke-person-25f65fbf86",
    "name": "Maharaja Jai Singh, Rajput Alwar",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Maharaja Jai Singh, Rajput Alwar.md",
    "life_vault": null,
@@ -3246,14 +3382,37 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Maharaja\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 10,
+    "examples": [
+     {
+      "title": "Grazer Volksblatt 7. September 1893",
+      "date": "1893-09-07",
+      "url": "http://data.onb.ac.at/ANNO/gre18930907?query=%22Maharaja%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...* (Kinder-Ehen in Indien.) Wie eng&shy;lische Bl&auml;tter berichten, hat der Maharaja vonMysore ein Edict erlassen, nach welchem in den..."
+     },
+     {
+      "title": "Das Vaterland 5. September 1893",
+      "date": "1893-09-05",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930905?query=%22Maharaja%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...* [Kinderchen in Indien.) Wie englische Bl&auml;tterberichten, hat der Maharaja von Mysore ein Edict erlassen,nach welchem in den Mysore-Territorim das Heiraten von..."
+     },
+     {
+      "title": "Kremser Volksblatt 1. Oktober 1893",
+      "date": "1893-10-01",
+      "url": "http://data.onb.ac.at/ANNO/kvb18931001?query=%22Maharaja%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Kin-errhen in Indien. Wie englischeBl&auml;tter berichten, hat der Maharaja von Mysoreein Edikt erlassen, nach welchem in den Mysore-..."
+     }
+    ]
+   },
    "kulturpool": null
   },
   {
    "id": "ke-person-d0e50b69f2",
    "name": "Maharaja Sir Pratap Singh",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Maharaja Sir Pratap Singh.md",
    "life_vault": null,
@@ -3281,7 +3440,30 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Maharaja\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 10,
+    "examples": [
+     {
+      "title": "Grazer Volksblatt 7. September 1893",
+      "date": "1893-09-07",
+      "url": "http://data.onb.ac.at/ANNO/gre18930907?query=%22Maharaja%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...* (Kinder-Ehen in Indien.) Wie eng&shy;lische Bl&auml;tter berichten, hat der Maharaja vonMysore ein Edict erlassen, nach welchem in den..."
+     },
+     {
+      "title": "Das Vaterland 5. September 1893",
+      "date": "1893-09-05",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930905?query=%22Maharaja%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...* [Kinderchen in Indien.) Wie englische Bl&auml;tterberichten, hat der Maharaja von Mysore ein Edict erlassen,nach welchem in den Mysore-Territorim das Heiraten von..."
+     },
+     {
+      "title": "Kremser Volksblatt 1. Oktober 1893",
+      "date": "1893-10-01",
+      "url": "http://data.onb.ac.at/ANNO/kvb18931001?query=%22Maharaja%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Kin-errhen in Indien. Wie englischeBl&auml;tter berichten, hat der Maharaja von Mysoreein Edikt erlassen, nach welchem in den Mysore-..."
+     }
+    ]
+   },
    "kulturpool": null
   },
   {
@@ -3369,8 +3551,8 @@
   {
    "id": "ke-person-9fcf6f81ef",
    "name": "Mr. Murray",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Mr. Murray.md",
    "life_vault": null,
@@ -3398,20 +3580,43 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Mr.\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 3441,
+    "examples": [
+     {
+      "title": "Cur- und Bade-Zeitung. Hygiea 18. Dezember 1892",
+      "date": "1892-12-18",
+      "url": "http://data.onb.ac.at/ANNO/hyg18921218?query=%22Mr.%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...PARIS, 59 Rue des Petites Ecuries:Mr. Guillaume Kana...."
+     },
+     {
+      "title": "Prager Abendblatt 1. Februar 1893",
+      "date": "1893-02-01",
+      "url": "http://data.onb.ac.at/ANNO/pab18930201?query=%22Mr.%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...zun&auml;chst den k. und k. G neralkonsnl zn Bombay HerrnStcckinger und den Konsul Mr. Schnell ; dann erschiender Gouverneur von Ceylon Mr. Havelock in Beglei&shy;ch ng der Herren Hauptmann Pirie und Lieutenant..."
+     },
+     {
+      "title": "Das Vaterland 9. Februar 1893",
+      "date": "1893-02-09",
+      "url": "http://data.onb.ac.at/ANNO/vtl18930209?query=%22Mr.%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Treppe. Umgeben von den Mitgliedern seiner Bot--schaft begr&uuml;&szlig;te im Empfangssaale Mr. Decraisseine G&auml;ste. Im ansto&szlig;enden Salon machte die Ge&shy;..."
+     }
+    ]
+   },
    "kulturpool": null
   },
   {
-   "id": "tagebuch:Oscar Henschel",
-   "name": "Oscar Henschel",
+   "id": "ke-person-8ba2f9e356",
+   "name": "Paugger, Karl",
    "group": "Besatzung",
    "role": null,
    "ranks": [],
-   "vault_note": "Oscar Henschel.md",
+   "vault_note": "Personen/Paugger, Karl.md",
    "life_vault": null,
    "possible_duplicate": null,
    "diary": {
-    "pattern": "\\b(?:Henschel)\\b",
+    "pattern": "\\bPaugger\\b",
     "days": 0,
     "first": null,
     "last": null,
@@ -3422,7 +3627,7 @@
     "kill_quotes": []
    },
    "gnd": {
-    "status": "not_searched",
+    "status": "none",
     "id": null,
     "candidates": null,
     "name": null,
@@ -3437,16 +3642,16 @@
    "kulturpool": null
   },
   {
-   "id": "ke-person-c0dd700a89",
-   "name": "Paskoevič, Blasius",
+   "id": "ke-person-6561c1fed7",
+   "name": "Peternel, Ernst",
    "group": "Besatzung",
    "role": null,
    "ranks": [],
-   "vault_note": "Personen/Paskoevič, Blasius.md",
+   "vault_note": "Personen/Peternel, Ernst.md",
    "life_vault": null,
    "possible_duplicate": null,
    "diary": {
-    "pattern": "\\bPaskoevič\\b",
+    "pattern": "\\bPeternel\\b",
     "days": 0,
     "first": null,
     "last": null,
@@ -3671,8 +3876,8 @@
   {
    "id": "ke-person-c5f4153324",
    "name": "Raja Sir Sourindro Mohun Tagore",
-   "group": "Besatzung",
-   "role": null,
+   "group": "Kontakt",
+   "role": "verlinkt die Kaiserin Elisabeth im Vault (ohne Medaille/Rangliste)",
    "ranks": [],
    "vault_note": "Personen/Raja Sir Sourindro Mohun Tagore.md",
    "life_vault": null,
@@ -3700,7 +3905,30 @@
     "wikidata": null
    },
    "wikidata": null,
-   "anno": null,
+   "anno": {
+    "query": "\"Raja\" AND (Erzherzog OR Thronfolger) AND (Weltreise OR Indien OR Ceylon OR \"Kaiserin Elisabeth\" OR Japan OR Australien)",
+    "total": 21,
+    "examples": [
+     {
+      "title": "Wiener Salonblatt 16. Juli 1893",
+      "date": "1893-07-16",
+      "url": "http://data.onb.ac.at/ANNO/wsb18930716?query=%22Raja%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...mit den Prinzessinnen Bamba, Catherine und Sophy, Prinz VictorDhulip Singh. der Rajah von Bobbili, der Raja VanngopalaBahadur, der F&uuml;rst und die F&uuml;rstin von Leiningen, der Erdprinz..."
+     },
+     {
+      "title": "Die Presse 21. Dezember 1892",
+      "date": "1892-12-21",
+      "url": "http://data.onb.ac.at/ANNO/apr18921221?query=%22Raja%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...Lustspiel iti 3 Anfz&uuml;gen von VictorienSur&raquo;&raquo;&raquo; und E. de Raja:. Teutsch vonL-Iar Ltlumenthal...."
+     },
+     {
+      "title": "Bregenzer/Vorarlberger Tagblatt 13. Jänner 1893",
+      "date": "1893-01-13",
+      "url": "http://data.onb.ac.at/ANNO/btb18930113?query=%22Raja%22+%28%22Erzherzog%22+%22Thronfolger%22%29+%28%22Weltreise%22+%22Indien%22+%22Ceylon%22+%22Kaiserin+Elisabeth%22+%22Japan%22+%22Australien%22%29&ref=anno-search",
+      "snippet": "...der ganz hergestellt sei, wa&raquo; durch Bermtttlungde&raquo; Raja von Ugeim bald geschehen werde, sok&ouml;nne der Lat&laquo; sie abholen, oder durch verl&auml;&szlig;&shy;..."
+     }
+    ]
+   },
    "kulturpool": null
   },
   {
@@ -3865,6 +4093,41 @@
    "kulturpool": null
   },
   {
+   "id": "ke-person-f20c6e8987",
+   "name": "Ritz, Ferdinand",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Ritz, Ferdinand.md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bRitz\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
    "id": "ke-person-f3ff53d6de",
    "name": "Rubcic, Mathias",
    "group": "Besatzung",
@@ -3990,6 +4253,41 @@
    "possible_duplicate": null,
    "diary": {
     "pattern": "\\bSore\\b",
+    "days": 0,
+    "first": null,
+    "last": null,
+    "dates": [],
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
+   },
+   "gnd": {
+    "status": "none",
+    "id": null,
+    "candidates": null,
+    "name": null,
+    "born": null,
+    "died": null,
+    "professions": [],
+    "url": null,
+    "wikidata": null
+   },
+   "wikidata": null,
+   "anno": null,
+   "kulturpool": null
+  },
+  {
+   "id": "ke-person-d1a4cf5cff",
+   "name": "Steinhart, Ferdinand Edl. v.",
+   "group": "Besatzung",
+   "role": null,
+   "ranks": [],
+   "vault_note": "Personen/Steinhart, Ferdinand Edl. v..md",
+   "life_vault": null,
+   "possible_duplicate": null,
+   "diary": {
+    "pattern": "\\bSteinhart\\b",
     "days": 0,
     "first": null,
     "last": null,
