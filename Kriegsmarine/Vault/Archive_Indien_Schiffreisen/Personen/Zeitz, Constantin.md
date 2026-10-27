@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-a2e9095076
+created_by: ai-assisted
+checked: false
+---
 - Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Maschinenleiter 2. Classe

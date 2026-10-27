@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-667db31eb8
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Maschlt. 2. Kl.

@@ -1,3 +1,9 @@
+---
+type: ship
+id: ke-ship-be99fcc34c
+created_by: human
+checked: false
+---
 Thailand, China, Japan, Philippinen, Indien
 
 Reise: Missionsreise Ostasien 

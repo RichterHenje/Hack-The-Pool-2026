@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-d1a4cf5cff
+created_by: ai-assisted
+checked: false
+---
 - Titel: Edler von
 - Lebensdaten:
 - Beruf/Funktionen: Seecad.

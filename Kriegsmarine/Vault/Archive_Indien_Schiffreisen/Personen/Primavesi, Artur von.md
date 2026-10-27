@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-3a90f1ece9
+created_by: ai-assisted
+checked: false
+---
 - Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Korvette Kapitän

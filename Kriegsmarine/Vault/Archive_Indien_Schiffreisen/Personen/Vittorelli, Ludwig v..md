@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-b837a07ff4
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Corv. C.

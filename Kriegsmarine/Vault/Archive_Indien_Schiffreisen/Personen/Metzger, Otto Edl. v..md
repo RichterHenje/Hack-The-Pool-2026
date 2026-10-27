@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-ec923ae8ee
+created_by: ai-assisted
+checked: false
+---
 - Titel
 - Lebensdaten (Jahr, Ort - Jahr, Ort)
 - Beruf/Funktionen (z. B. Kapitän)

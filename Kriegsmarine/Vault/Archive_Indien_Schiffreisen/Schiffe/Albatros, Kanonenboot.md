@@ -1,3 +1,9 @@
+---
+type: ship
+id: ke-ship-2fbe126071
+created_by: human
+checked: false
+---
 - GND
 - Reise 1: Missionsreise - Ostasien 
 	- Jahr 1883-1885, 

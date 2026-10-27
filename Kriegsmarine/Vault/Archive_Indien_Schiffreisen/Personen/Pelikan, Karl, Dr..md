@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-d2b2f00460
+created_by: ai-assisted
+checked: false
+---
 - Titel: Dr.
 - Lebensdaten:
 - Beruf/Funktionen: Freg. Arzt

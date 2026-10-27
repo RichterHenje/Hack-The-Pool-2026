@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-904fd6bac2
+created_by: ai-assisted
+checked: false
+---
 - Titel: Dr.
 - Lebensdaten:
 - Beruf/Funktionen: Fregatten Arzt

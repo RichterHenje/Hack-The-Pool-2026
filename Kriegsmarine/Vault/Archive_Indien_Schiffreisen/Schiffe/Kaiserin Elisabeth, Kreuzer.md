@@ -1,3 +1,9 @@
+---
+type: ship
+id: ke-ship-f3a91e7047
+created_by: human
+checked: false
+---
 - Reise 1:  [[Weltreise Erzherzog Franz Ferdinand von Österreich-Este (1892-1893)]]  12.12.1892-19.12.1893. ( Für genauere Route, siehe voriger Weltreise Link)
 Linienschiffskapitän [[Becker, Alois Ritter von]]
 "Missionsreise´" von [[Triest]] nach [[Ostasien]],  [[Australien]] und [[Ozeanien und insulares Süd-Ostasien]] ; diente dem Austausch des ratifizierten Handelsvertrags mit [[Korea]]  (ohne Franz Ferdinand, der in Japan blieb), kehrte dann in [[Pola, Istrien]] wieder zurück.

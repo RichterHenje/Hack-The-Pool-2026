@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-4df92a473d
+created_by: ai-assisted
+checked: false
+---
 - Titel: Dr.
 - Lebensdaten:
 - Beruf/Funktionen: Mar. Kaplan

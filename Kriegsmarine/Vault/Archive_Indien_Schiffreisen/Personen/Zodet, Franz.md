@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-c6eb9c3efd
+created_by: ai-assisted
+checked: false
+---
 - Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Maschinenleiter 1. Classe

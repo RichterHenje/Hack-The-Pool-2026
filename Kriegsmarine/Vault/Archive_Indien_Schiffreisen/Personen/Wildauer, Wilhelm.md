@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-db9e2ca6bb
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Mar. Kom. Adjkt. 2. Kl.

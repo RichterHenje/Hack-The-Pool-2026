@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-eed93c9c3b
+created_by: ai-assisted
+checked: false
+---
 -  Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Linienschifffskapitän

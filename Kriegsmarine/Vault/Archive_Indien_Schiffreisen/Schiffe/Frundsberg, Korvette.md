@@ -1,3 +1,9 @@
+---
+type: ship
+id: ke-ship-3d51bc0f11
+created_by: human
+checked: false
+---
 #Route 
 Reise:
 22.08.1884-22.04.1885 

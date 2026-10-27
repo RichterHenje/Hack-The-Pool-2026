@@ -1,3 +1,9 @@
+---
+type: collection
+id: ke-collection-e32366a76a
+created_by: human
+checked: false
+---
 #Kontakt:
 Christof Capellaro, M.A.  
 Österreichische Zentralbibliothek für Physik &  

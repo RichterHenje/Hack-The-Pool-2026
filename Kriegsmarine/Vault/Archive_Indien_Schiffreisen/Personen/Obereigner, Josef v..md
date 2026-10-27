@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-5486a67b33
+created_by: ai-assisted
+checked: false
+---
  - Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Maschinenbau und Betriebs. - Ing. 3. Classe

@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-8ba2f9e356
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Mar. Com. Adjct. 2. Cl.

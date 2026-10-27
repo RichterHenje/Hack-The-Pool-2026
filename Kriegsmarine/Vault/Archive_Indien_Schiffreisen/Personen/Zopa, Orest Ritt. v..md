@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-a795a54139
+created_by: ai-assisted
+checked: false
+---
 - Titel: Ritter von
 - Lebensdaten:
 - Beruf/Funktionen: Freg. L.

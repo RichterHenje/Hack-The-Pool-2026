@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-89ce2bd4c9
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten (1864, Ort - Jahr, Ort)
 - Beruf/Funktionen: Ober-Maschinenwärter

@@ -1,3 +1,9 @@
+---
+type: collection
+id: ke-collection-30e474c726
+created_by: human
+checked: false
+---
 https://museodelmaretrieste.it/
 #### Opening hours
 

@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-c9e8f94a47
+created_by: ai-assisted
+checked: false
+---
 - Titel: Edler von
 - Lebensdaten:
 - Beruf/Funktionen: Freg. L.

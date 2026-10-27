@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-2e981c7d87
+created_by: human
+checked: false
+---
 - Lebensdaten (Jahr, Ort - Jahr, Ort)
 - Beruf/Funktionen: Hofkoch
 - GND oder VIAF (Identifier)

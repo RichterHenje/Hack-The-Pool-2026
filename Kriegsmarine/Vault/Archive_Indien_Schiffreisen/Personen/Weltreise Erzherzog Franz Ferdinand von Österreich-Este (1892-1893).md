@@ -1,3 +1,14 @@
+---
+type: person
+id: ke-person-d1484bec98
+created_by: human
+checked: false
+review:
+  - "Link ohne Ziel: Oscar Henschel"
+  - "Link ohne Ziel: Paris, Frankreich"
+  - "Link ohne Ziel: Stuttgart, Deutschland"
+  - "Typ prüfen: Schiff oder Ereignis unter Personen"
+---
 Franz Ferdinand Karl Ludwig Joseph Maria von Habsburg-Lothringen (ab 1875 von Österreich-Este)
 18 Dezember 1863 Graz, † 28. Juni 1914 Sarajevo
 Aus gesundheitlichen Gründen (Tuberkulose) ging Franz Ferdinand häufig auf Seereisen (15. Dezember 1892 bis 18. Oktober 1893 Weltreise mit dem Torpedorammkreuzer "Kaiserin Elisabeth", von der er zahlreiche Exponate heimbrachte).

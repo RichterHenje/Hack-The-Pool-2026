@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-1e468d47ad
+created_by: ai-assisted
+checked: false
+---
 - Titel: Ritter von
 - Lebensdaten:
 - Beruf/Funktionen: Seecadet

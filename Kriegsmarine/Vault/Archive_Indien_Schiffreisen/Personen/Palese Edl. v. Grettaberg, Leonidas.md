@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-bb5f24ea32
+created_by: ai-assisted
+checked: false
+---
 - Titel: Edler von
 - Lebensdaten:
 - Beruf/Funktionen: L. Sch. F.

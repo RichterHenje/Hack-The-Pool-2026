@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-d8845f1310
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten (1861, Ort - Jahr, Ort)
 - Beruf/Funktionen: Unter-Bootsmänner (Vorgeschriebener Stand 27.)

@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-e1a63eeb33
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Prov. Maschb. u. Betrbs. Ing. 3. Cl.

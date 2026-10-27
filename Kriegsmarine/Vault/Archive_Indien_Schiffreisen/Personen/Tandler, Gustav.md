@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-a52b4a85c6
+created_by: ai-assisted
+checked: false
+---
 - Titel: Dr.
 - Lebensdaten:
 - Beruf/Funktionen: Corvette Arzt

@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-2ecee554a4
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Maschbetrlt. 3. Kl.

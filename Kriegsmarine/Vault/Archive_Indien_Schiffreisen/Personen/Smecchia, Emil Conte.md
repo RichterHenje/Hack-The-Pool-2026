@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-1e4ae8a1d6
+created_by: ai-assisted
+checked: false
+---
 -  Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Fregatte Schiff

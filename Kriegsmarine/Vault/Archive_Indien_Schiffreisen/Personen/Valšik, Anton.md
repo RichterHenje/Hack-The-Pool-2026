@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-c9e2c7915a
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Maschb. u. Betrbs. Ing. 3. Cl.

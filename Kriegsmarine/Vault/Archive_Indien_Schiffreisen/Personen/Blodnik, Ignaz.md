@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-6803800b1b
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Prov. Mar. Com. Eleve

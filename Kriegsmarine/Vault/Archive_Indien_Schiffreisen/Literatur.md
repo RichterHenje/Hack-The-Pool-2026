@@ -1,3 +1,9 @@
+---
+type: note
+id: ke-note-3219e4101e
+created_by: human
+checked: false
+---
 
 Primärquellen:
 

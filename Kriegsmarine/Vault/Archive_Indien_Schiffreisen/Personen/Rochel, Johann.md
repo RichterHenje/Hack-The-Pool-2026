@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-fdd85c186d
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Marina Commissariat Adjunct 3. Klasse

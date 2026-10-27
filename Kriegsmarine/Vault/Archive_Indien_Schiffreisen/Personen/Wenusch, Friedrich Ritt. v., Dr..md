@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-8f6d33e3e5
+created_by: ai-assisted
+checked: false
+---
 - Titel: Ritter von, Dr.
 - Lebensdaten:
 - Beruf/Funktionen: Corv. Arzt

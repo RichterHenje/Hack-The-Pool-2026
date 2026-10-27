@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-a3427f866d
+created_by: ai-assisted
+checked: false
+---
 -  Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Maschinenbetriebsleiter 1. Klasse

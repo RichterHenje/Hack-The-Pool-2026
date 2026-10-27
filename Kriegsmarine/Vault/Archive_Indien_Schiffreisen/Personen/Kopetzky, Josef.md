@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-043117fe5f
+created_by: human
+checked: false
+---
 - Titel: Dr.
 - Lebensdaten (Jahr, Ort - Jahr, Ort)
 - Beruf/Funktionen: Linienschiffsarzt

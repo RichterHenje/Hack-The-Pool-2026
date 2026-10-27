@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-4a24aae578
+created_by: ai-assisted
+checked: false
+---
 - Titel: Freiherr von
 - Lebensdaten:
 - Beruf/Funktionen: Linienschiff Leutnant

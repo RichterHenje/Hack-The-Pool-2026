@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-a00b6b4c8b
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Maschbetrltr. 1. Kl.

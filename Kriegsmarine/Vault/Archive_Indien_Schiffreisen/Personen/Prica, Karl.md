@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-3326f91ab0
+created_by: ai-assisted
+checked: false
+---
 -  Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Linienschiffs Leutnant

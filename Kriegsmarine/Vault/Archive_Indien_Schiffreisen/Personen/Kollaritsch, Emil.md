@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-f2cf6f8e4c
+created_by: ai-assisted
+checked: false
+---
 - Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Marine Commissariat Adjunct 1. Klasse

@@ -1,3 +1,11 @@
+---
+type: person
+id: ke-person-5b35ce465b
+created_by: ai-assisted
+checked: false
+review:
+  - "Dublette? [[Herrmann, Hugo]]"
+---
 - Titel: 
 - Lebensdaten (Jahr, Ort - Jahr, Ort)
 - Beruf/Funktionen: Ingenieur 1. Classe (Vorgeschriebener Kriegstand 32. Vorgeschriebener Friedensstand 18.)

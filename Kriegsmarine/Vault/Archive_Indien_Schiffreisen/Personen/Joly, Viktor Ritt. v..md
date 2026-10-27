@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-88abf5870d
+created_by: ai-assisted
+checked: false
+---
 - Titel: Ritter von
 - Lebensdaten:
 - Beruf/Funktionen: L. Sch. L.

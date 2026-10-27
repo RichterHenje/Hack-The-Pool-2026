@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-733c024541
+created_by: ai-assisted
+checked: false
+---
 - Titel: Graf
 - Lebensdaten:
 - Beruf/Funktionen: L. Sch. F.

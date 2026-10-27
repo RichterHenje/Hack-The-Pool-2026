@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-c98ffb7819
+created_by: ai-assisted
+checked: false
+---
 -  Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Marine Commissariat 1. Klasse

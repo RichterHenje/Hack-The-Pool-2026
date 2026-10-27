@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-a7d7367b09
+created_by: human
+checked: false
+---
 
 - Titel: Dr.
 - Lebensdaten (Jahr, Ort - Jahr, Ort): geboren 27. Juni 1855 Tourin, Kroatien - 31.08.1900, Krapina Kroatien 

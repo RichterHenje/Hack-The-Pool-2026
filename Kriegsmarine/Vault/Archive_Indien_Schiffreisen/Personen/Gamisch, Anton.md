@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-0d4af788b0
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten (1871, Ort - Jahr, Ort)
 - Beruf/Funktionen: Marine-Commissariats-Adjunct 2. Klasse (Vorgeschriebener Stand 41.)

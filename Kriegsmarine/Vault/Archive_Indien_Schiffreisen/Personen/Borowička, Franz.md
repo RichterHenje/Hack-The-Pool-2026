@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-a258dbe7ba
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Maschb. u. Betrbs.-Ing. 2. Cl.

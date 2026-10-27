@@ -1,3 +1,11 @@
+---
+type: person
+id: ke-person-52ab1ba831
+created_by: ai-assisted
+checked: false
+review:
+  - "Jahreszahl prüfen: 1992"
+---
 -  Titel: 
 - Lebensdaten (1845, Ort - Jahr, Ort)
 - Beruf/Funktionen: Ober-Ingenieur 3. Classe

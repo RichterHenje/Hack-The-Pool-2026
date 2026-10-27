@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-0e188dc4f6
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Seekad.

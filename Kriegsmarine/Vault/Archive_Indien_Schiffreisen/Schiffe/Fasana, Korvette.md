@@ -1,3 +1,9 @@
+---
+type: ship
+id: ke-ship-7bf3d2a0b6
+created_by: human
+checked: false
+---
  Ostasien, indische Ozean, Australien, Polinesien
 
 Reise: Ostasien

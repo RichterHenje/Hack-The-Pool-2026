@@ -1,3 +1,9 @@
+---
+type: place
+id: ke-place-7873bda9dc
+created_by: human
+checked: false
+---
 [[China]]
 [[Ostasien]]
 Von 1897 bis 1914 Hauptstadt des Deutschen Schutzgebiets Kiautschou.

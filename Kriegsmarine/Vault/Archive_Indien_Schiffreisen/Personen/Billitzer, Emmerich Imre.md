@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-3cdd48cca6
+created_by: human
+checked: false
+---
 
 - Titel: Dr.
 - Lebensdaten (1848, Nyitra - 1887, Pula)

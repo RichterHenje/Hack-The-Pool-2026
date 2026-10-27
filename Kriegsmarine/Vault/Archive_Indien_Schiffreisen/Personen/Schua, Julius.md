@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-e87eee0622
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Maschst. 3. Cl.

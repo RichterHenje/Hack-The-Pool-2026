@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-0cb4c72373
+created_by: ai-assisted
+checked: false
+---
 - Titel: Freiherr von
 - Lebensdaten:
 - Beruf/Funktionen: L. Sch. L.

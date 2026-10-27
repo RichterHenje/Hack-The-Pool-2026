@@ -1,3 +1,11 @@
+---
+type: place
+id: ke-place-d4e10a2cde
+created_by: human
+checked: false
+review:
+  - "Typ prüfen: Land oder Region, kein Ort"
+---
 [[Bombay (Indien, Heut. Mumbai)]]
 [[Indian National Post]]
 [[Simla (Indien)]]

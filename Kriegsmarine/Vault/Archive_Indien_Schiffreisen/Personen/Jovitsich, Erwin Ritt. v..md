@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-469e392c69
+created_by: ai-assisted
+checked: false
+---
 - Titel: Ritter von
 - Lebensdaten:
 - Beruf/Funktionen: Seecad.

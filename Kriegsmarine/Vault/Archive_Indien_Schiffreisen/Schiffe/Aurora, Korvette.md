@@ -1,3 +1,9 @@
+---
+type: ship
+id: ke-ship-f7e4bf34e4
+created_by: human
+checked: false
+---
 #GND: https://d-nb.info/gnd/4196817-7
 
 Reise:  Missionsreise nach Brasilien, 

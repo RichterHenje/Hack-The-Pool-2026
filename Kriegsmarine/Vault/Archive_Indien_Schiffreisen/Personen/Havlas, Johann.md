@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-d0de6360c5
+created_by: ai-assisted
+checked: false
+---
 - Titel:
 - Lebensdaten:
 - Beruf/Funktionen: Maschinenleiter 3. Classe

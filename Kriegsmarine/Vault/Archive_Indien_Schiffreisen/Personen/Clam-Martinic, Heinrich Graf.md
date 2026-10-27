@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-17052a794e
+created_by: human
+checked: false
+---
 - Nachname, Vorname (für die alphabetische Sortierung)
 - Titel: Graf
 - Lebensdaten (1863, Wien - 1932, Klam bei Grein)

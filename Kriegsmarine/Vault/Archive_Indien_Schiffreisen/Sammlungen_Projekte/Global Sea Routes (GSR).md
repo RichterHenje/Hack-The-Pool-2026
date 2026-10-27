@@ -1,3 +1,9 @@
+---
+type: collection
+id: ke-collection-c55a2cbb0d
+created_by: human
+checked: false
+---
 https://globalsearoutes.net/the-project/
 
 **Global Sea Routes (GSR)** project is a geospatial relational database aimed at the representation of European commercial sea routes on a global scale in the early modern and modern ages, in order to understand how world interconnectedness, in terms of maritime passage times from European ports to overseas destinations, evolved over four centuries (1500-1900).  

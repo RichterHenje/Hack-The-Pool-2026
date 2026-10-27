@@ -1,3 +1,11 @@
+---
+type: person
+id: ke-person-5505c4d660
+created_by: ai-assisted
+checked: false
+review:
+  - "Dublette? [[Gociancig, Alois]]"
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Maschbetrltr. 1. Kl.

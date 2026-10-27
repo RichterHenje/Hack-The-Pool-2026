@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-b62d499cbd
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten:
 - Beruf/Funktionen: Seecad.

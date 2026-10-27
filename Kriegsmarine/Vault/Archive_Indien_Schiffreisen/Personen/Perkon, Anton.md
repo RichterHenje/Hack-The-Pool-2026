@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-4def1be7f4
+created_by: ai-assisted
+checked: false
+---
 - Titel: 
 - Lebensdaten (Jahr, Ort - Jahr, Ort)
 - Beruf/Funktionen: Maschinenleiter 2. Classe (Vorgeschriebener Kriegstand 48. Vorgeschriebener Friedensstand 34.)

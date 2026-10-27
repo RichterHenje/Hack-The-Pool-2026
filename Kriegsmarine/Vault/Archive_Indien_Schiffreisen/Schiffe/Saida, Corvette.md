@@ -1,3 +1,11 @@
+---
+type: ship
+id: ke-ship-eae8ed26ab
+created_by: human
+checked: false
+review:
+  - "Link ohne Ziel: Huber von Varese"
+---
 #Route: 
 1 Reise: 02.10.1884-05.02.1886: 
 Instruktionsreise unter Fregattenkapitän Heinrich Fayenz.

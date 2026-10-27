@@ -1,3 +1,9 @@
+---
+type: person
+id: ke-person-fbfb8c8709
+created_by: ai-assisted
+checked: false
+---
 -  Titel: Graf
 - Lebensdaten:
 - Beruf/Funktionen: Corvettecapitän
