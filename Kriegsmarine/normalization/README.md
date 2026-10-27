@@ -89,3 +89,23 @@ Eduard Hodek jun. Enthalten sind nur die **408 Bilder, die auf weltmuseumwien.at
   Darstellungen und Tierprodukte (Felle, Federn), gekennzeichnet in Klammern, z. B. „Drache (Darstellung)“.
   `_meta.review` markiert Fälle, in denen das Modell unsicher war.
 - `_meta.id`: `ke-image-` + SHA-1 des Dateinamens (10 Zeichen), analog zu den Vault-IDs.
+
+## `objekte.json`: Objekte der Sammlung Este im Weltmuseum Wien
+
+Wie `bilder.json` außerhalb des Repos aus TMS erzeugt. Auswahl: alle Objekte, die in einem der drei
+Inventarbände der Sammlung Este eingetragen sind (`VIO_Este_1`, `VIO_Este_2`,
+`VIO_Este_Handschriftliches_Inventar`; in TMS über die gemeinsamen Scans der Inventarseiten), insgesamt
+10.082. Enthalten sind nur die **1.798 Objekte, die auf weltmuseumwien.at online sind**.
+
+- Felder: `Inventarnummer`, `Objektbezeichnung`, `Titel`, `Datierung`, `Material`, `Maße`, `Beschreibung`,
+  `Abteilung`, `Inventarband`, `Este-Nummer`, `Geografie`, `Geografie-Pfad`, `Ortschaft (Route)`,
+  `Karteikarte`, `Weltmuseum-Link`, `Bild-Link` (nur freigegebene Bilder, Hauptbild zuerst),
+  `Transkription`; fehlende Werte `"NA"`. Felder wie bei `bilder.json`; `Ortschaft (Route)` ist auch hier ein
+  Vorschlag nach denselben Regeln (296 Objekte).
+- `Karteikarte` / `Transkription`: die Karteikarten des Museums sind eigene Datensätze, verknüpft mit dem
+  Objekt („siehe auch“). Die Transkription der Kartenbilder steht nur dort, wo das **Kartenbild selbst auf
+  weltmuseumwien.at freigegeben** ist (1.614 Objekte, 1.961 Kartenseiten); sie gibt dessen Inhalt als Text
+  wieder. `bild-link` führt zum Kartenbild. Formatierungsreste (lange Leerzeichen- und Strichfolgen) sind
+  gekürzt, der Wortlaut ist unverändert; die Transkriptionen sind nicht geprüft und können Lesefehler enthalten.
+- Bild- und Kartenlinks am 27.10.2026 stichprobenartig geprüft (je 40, alle erreichbar).
+- `_meta.id`: `ke-object-` + SHA-1 der Inventarnummer (10 Zeichen); `created_by: "tms-export"`.
