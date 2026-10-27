@@ -19,7 +19,10 @@ from common import ROOT, load, save
 ANIMALS = json.loads((ROOT / "animals.json").read_text())
 PLACES = load("places_resolved.json")
 
-KILL = re.compile(r"erleg|geschoss|\bschoss|\bschoß|schöss|zur strecke|\bbeute\b|erbeut|schweißt|\bfehlte", re.I)
+# kill verbs at a word start ("verlegt", "Erdgeschoss" are not kills); "zur Strecke", not "Strecke" (distance)
+KILL = re.compile(r"\berleg|\bgeschossen\b|\bschoss|\bschoß|\bschöss|zur strecke|\bbeute\b|\berbeut|schweißt|\bfehlte", re.I)
+# fishing scenes (cormorant fishing in Kyoto: "Beute", fish that "schössen") are no hunt
+NOT_KILL = re.compile(r"\bFisch", re.I)
 FIRST_PERSON = re.compile(r"\b(ich|mir|mich|meine[nmrs]?|mein)\b", re.I)
 # elephants were mostly ridden ("vom Elephanten aus"), not shot
 RIDING = re.compile(r"(auf|vom|von|mit|zu|die|den)\s+\S*\s*$", re.I)
@@ -57,7 +60,7 @@ def main():
     for e in entries:
         kills = []
         for s in re.split(r"(?<=[.!?;])\s+", e["text"]):
-            if KILL.search(s) and (ids := animals_in(s)):
+            if KILL.search(s) and not NOT_KILL.search(s) and (ids := animals_in(s)):
                 kills.append({"text": s[:400], "animals": ids, "first_person": bool(FIRST_PERSON.search(s))})
         if not kills:
             continue

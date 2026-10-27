@@ -4,10 +4,13 @@
   "region": "port-said",
   "label": "Port Said",
   "diary": [
-   "Port Said"
+   "Port Said",
+   "Menzaleh"
   ],
   "anno": [
-   "Port Said"
+   "Port Said",
+   "Menzaleh",
+   "Mensaleh"
   ],
   "wikidata": "Q134509",
   "lat": 31.2625,
@@ -670,5 +673,50 @@
   ],
   "coords_from": "wikidata",
   "on_route": false
+ },
+ {
+  "id": "gwalior",
+  "region": "gwalior",
+  "label": "Gwalior",
+  "diary": [
+   "Gwalior"
+  ],
+  "anno": [
+   "Gwalior"
+  ],
+  "wikidata": "Q158467",
+  "lat": 26.2125,
+  "lon": 78.1775,
+  "vault": [
+   {
+    "note": "Gwalior, (Madhya Pradesh, Indien)",
+    "id": "ke-place-c16efe6ffc"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "owaraha",
+  "region": "solomon",
+  "label": "Owa Raha / Ugi (Salomonen)",
+  "diary": [
+   "Owa Raha",
+   "Ugi"
+  ],
+  "anno": [
+   "Salomon"
+  ],
+  "wikidata": "Q2042567",
+  "lat": -10.8283,
+  "lon": 162.4636,
+  "vault": [
+   {
+    "note": "Owaraha, Salomonen Inseln",
+    "id": "ke-place-17b0dc9d30"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
  }
 ]

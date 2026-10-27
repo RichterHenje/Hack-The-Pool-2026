@@ -6,6 +6,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     32.3061,
+     31.2625
+    ]
+   },
+   "properties": {
+    "id": "hunt-1892-12-20-port-said",
+    "label": "Port Said",
+    "start": "1892-12-20",
+    "end": "1892-12-20",
+    "animals": "Vögel (sonstige)",
+    "kill_sentences": 2,
+    "newspaper_issues_high": 6,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-30c32adc7f"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      80.5563,
      8.0135
     ]
@@ -15,9 +37,9 @@
     "label": "Kala Wewa (Ceylon)",
     "start": "1893-01-10",
     "end": "1893-01-12",
-    "animals": "Elefant, Affe, Vögel (sonstige), Büffel/Banteng",
-    "kill_sentences": 8,
-    "newspaper_issues_high": 7,
+    "animals": "Elefant, Vögel (sonstige), Affe, Büffel/Banteng",
+    "kill_sentences": 7,
+    "newspaper_issues_high": 8,
     "kulturpool_direct": 1,
     "photos": 3,
     "vault_ids": "ke-place-f7bc511558"
@@ -33,16 +55,38 @@
     ]
    },
    "properties": {
-    "id": "hunt-1893-01-22-hyderabad",
+    "id": "hunt-1893-01-23-hyderabad",
     "label": "Tandur (Hyderabad State) / Hyderabad",
-    "start": "1893-01-22",
+    "start": "1893-01-23",
     "end": "1893-01-26",
-    "animals": "Hirsch, Tiger, Vögel (sonstige)",
-    "kill_sentences": 9,
-    "newspaper_issues_high": 11,
+    "animals": "Hirsch, Tiger",
+    "kill_sentences": 8,
+    "newspaper_issues_high": 7,
     "kulturpool_direct": 0,
     "photos": 10,
     "vault_ids": "ke-place-eb5c1a35e4, ke-place-f2704ec7e8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.1775,
+     26.2125
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-01-30-gwalior",
+    "label": "Gwalior",
+    "start": "1893-01-30",
+    "end": "1893-01-30",
+    "animals": "Vögel (sonstige)",
+    "kill_sentences": 4,
+    "newspaper_issues_high": 0,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-c16efe6ffc"
    }
   },
   {
@@ -60,7 +104,7 @@
     "start": "1893-02-13",
     "end": "1893-02-15",
     "animals": "Vögel (sonstige), Antilope, Hirsch, Schakal/Hyäne",
-    "kill_sentences": 18,
+    "kill_sentences": 17,
     "newspaper_issues_high": 2,
     "kulturpool_direct": 0,
     "photos": 0,
@@ -81,9 +125,9 @@
     "label": "Sariska (Alwar State)",
     "start": "1893-02-20",
     "end": "1893-02-27",
-    "animals": "Tiger, Hirsch, Antilope, Vögel (sonstige)",
-    "kill_sentences": 22,
-    "newspaper_issues_high": 7,
+    "animals": "Tiger, Antilope, Hirsch, Vögel (sonstige)",
+    "kill_sentences": 19,
+    "newspaper_issues_high": 4,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-224c44805c"
@@ -105,7 +149,7 @@
     "end": "1893-03-02",
     "animals": "Hirsch, Wildschwein, Vögel (sonstige), Antilope",
     "kill_sentences": 5,
-    "newspaper_issues_high": 6,
+    "newspaper_issues_high": 4,
     "kulturpool_direct": 0,
     "photos": 1,
     "vault_ids": "ke-place-21307d9f52"
@@ -125,12 +169,34 @@
     "label": "Jaipur",
     "start": "1893-03-03",
     "end": "1893-03-04",
-    "animals": "Hirsch, Antilope, Vögel (sonstige)",
-    "kill_sentences": 4,
-    "newspaper_issues_high": 5,
+    "animals": "Hirsch, Antilope",
+    "kill_sentences": 3,
+    "newspaper_issues_high": 4,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-342139a06d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.02,
+     27.18
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-03-07-agra",
+    "label": "Agra",
+    "start": "1893-03-07",
+    "end": "1893-03-07",
+    "animals": "Antilope, Vögel (sonstige)",
+    "kill_sentences": 2,
+    "newspaper_issues_high": 3,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-25cf049ce2"
    }
   },
   {
@@ -147,9 +213,9 @@
     "label": "Nepal Terai (Dakna Bāgh, Beli …)",
     "start": "1893-03-09",
     "end": "1893-03-26",
-    "animals": "Tiger, Vögel (sonstige), Hirsch, Elefant",
-    "kill_sentences": 39,
-    "newspaper_issues_high": 8,
+    "animals": "Tiger, Vögel (sonstige), Elefant, Panther/Leopard",
+    "kill_sentences": 36,
+    "newspaper_issues_high": 9,
     "kulturpool_direct": 1,
     "photos": 2,
     "vault_ids": "ke-place-4bfd653020, ke-place-2b7becd30b"
@@ -169,12 +235,34 @@
     "label": "Batavia (Jakarta) / Garut (Java) / Tjiandjur (Cianjur, Java) / Tjipandak (Java)",
     "start": "1893-04-11",
     "end": "1893-04-23",
-    "animals": "Büffel/Banteng, Krokodil, Hirsch, Vögel (sonstige)",
-    "kill_sentences": 14,
-    "newspaper_issues_high": 1,
+    "animals": "Büffel/Banteng, Krokodil, Wildschwein, Hirsch",
+    "kill_sentences": 15,
+    "newspaper_issues_high": 4,
     "kulturpool_direct": 0,
     "photos": 1,
     "vault_ids": "ke-place-9d5ffe029c, ke-place-1dc0928819, ke-place-18f3651c25, ke-place-680627ae16"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.22,
+     -10.5789
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-05-06-port-kennedy",
+    "label": "Port Kennedy (Thursday Island)",
+    "start": "1893-05-06",
+    "end": "1893-05-07",
+    "animals": "Vögel (sonstige), Känguru",
+    "kill_sentences": 3,
+    "newspaper_issues_high": 1,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-700e9ec3d4"
    }
   },
   {
@@ -192,8 +280,8 @@
     "start": "1893-05-18",
     "end": "1893-05-20",
     "animals": "Känguru, Vögel (sonstige), Emu/Kasuar",
-    "kill_sentences": 15,
-    "newspaper_issues_high": 5,
+    "kill_sentences": 14,
+    "newspaper_issues_high": 6,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-daf25f722e, ke-place-1c687368ce"
@@ -213,12 +301,34 @@
     "label": "Arthursleigh / Badgery Station (NSW)",
     "start": "1893-05-23",
     "end": "1893-05-25",
-    "animals": "Känguru, Bär, Tiger",
+    "animals": "Känguru, Bär",
     "kill_sentences": 10,
-    "newspaper_issues_high": 5,
+    "newspaper_issues_high": 1,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-4d42aa16b3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     162.4636,
+     -10.8283
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-06-08-solomon",
+    "label": "Owa Raha / Ugi (Salomonen)",
+    "start": "1893-06-08",
+    "end": "1893-06-09",
+    "animals": "Vögel (sonstige)",
+    "kill_sentences": 3,
+    "newspaper_issues_high": 0,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-17b0dc9d30"
    }
   },
   {
@@ -236,11 +346,33 @@
     "start": "1893-06-16",
     "end": "1893-06-17",
     "animals": "Vögel (sonstige), Känguru",
-    "kill_sentences": 7,
-    "newspaper_issues_high": 7,
+    "kill_sentences": 3,
+    "newspaper_issues_high": 3,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-d6c0ce20e1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.5,
+     -6.2
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-06-25-aru",
+    "label": "Aru Islands",
+    "start": "1893-06-25",
+    "end": "1893-06-26",
+    "animals": "Vögel (sonstige)",
+    "kill_sentences": 2,
+    "newspaper_issues_high": 0,
+    "kulturpool_direct": 0,
+    "photos": 0,
+    "vault_ids": "ke-place-f58a8c8654"
    }
   },
   {
@@ -258,8 +390,8 @@
     "start": "1893-06-29",
     "end": "1893-06-30",
     "animals": "Vögel (sonstige), Hirsch",
-    "kill_sentences": 5,
-    "newspaper_issues_high": 6,
+    "kill_sentences": 4,
+    "newspaper_issues_high": 2,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-2f6495b24a"

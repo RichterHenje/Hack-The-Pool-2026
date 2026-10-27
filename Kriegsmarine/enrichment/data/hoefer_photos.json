@@ -96,7 +96,7 @@
    "photos": []
   },
   {
-   "hunt_id": "hunt-1893-01-22-hyderabad",
+   "hunt_id": "hunt-1893-01-23-hyderabad",
    "hoefer": {
     "stays": [
      {
@@ -114,7 +114,7 @@
     ],
     "from": "1893-01-21",
     "to": "1893-01-26",
-    "days_without_hunting_entry": 3,
+    "days_without_hunting_entry": 4,
     "diary_within_hoefer": true
    },
    "photos": [
@@ -251,6 +251,24 @@
    ]
   },
   {
+   "hunt_id": "hunt-1893-01-30-gwalior",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Gwalior",
+      "from": "1893-01-29",
+      "to": "1893-01-30",
+      "section": "Indien"
+     }
+    ],
+    "from": "1893-01-29",
+    "to": "1893-01-30",
+    "days_without_hunting_entry": 1,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
    "hunt_id": "hunt-1893-02-03-calcutta",
    "hoefer": {
     "stays": [
@@ -282,24 +300,6 @@
     "from": "1893-02-12",
     "to": "1893-02-15",
     "days_without_hunting_entry": 1,
-    "diary_within_hoefer": true
-   },
-   "photos": []
-  },
-  {
-   "hunt_id": "hunt-1893-02-17-delhi",
-   "hoefer": {
-    "stays": [
-     {
-      "stay": "Dehli",
-      "from": "1893-02-16",
-      "to": "1893-02-18",
-      "section": "Indien"
-     }
-    ],
-    "from": "1893-02-16",
-    "to": "1893-02-18",
-    "days_without_hunting_entry": 2,
     "diary_within_hoefer": true
    },
    "photos": []
@@ -521,7 +521,7 @@
     ],
     "from": "1893-05-05",
     "to": "1893-05-09",
-    "days_without_hunting_entry": 2,
+    "days_without_hunting_entry": 3,
     "diary_within_hoefer": true
    },
    "photos": []
@@ -558,6 +558,30 @@
     "from": "1893-05-23",
     "to": "1893-05-25",
     "days_without_hunting_entry": 0,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-06-08-solomon",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Owa Raha",
+      "from": "1893-06-07",
+      "to": "1893-06-08",
+      "section": "Pazifik"
+     },
+     {
+      "stay": "Ugi",
+      "from": "1893-06-08",
+      "to": "1893-06-10",
+      "section": "Pazifik"
+     }
+    ],
+    "from": "1893-06-07",
+    "to": "1893-06-10",
+    "days_without_hunting_entry": 2,
     "diary_within_hoefer": true
    },
    "photos": []
@@ -622,25 +646,7 @@
    "photos": []
   },
   {
-   "hunt_id": "hunt-1893-07-24-canton",
-   "hoefer": {
-    "stays": [
-     {
-      "stay": "Kanton",
-      "from": "1893-07-23",
-      "to": "1893-07-26",
-      "section": "Pazifik"
-     }
-    ],
-    "from": "1893-07-23",
-    "to": "1893-07-26",
-    "days_without_hunting_entry": 3,
-    "diary_within_hoefer": true
-   },
-   "photos": []
-  },
-  {
-   "hunt_id": "hunt-1893-08-08-kyoto",
+   "hunt_id": "hunt-1893-08-14-kyoto",
    "hoefer": {
     "stays": [
      {
@@ -658,25 +664,7 @@
     ],
     "from": "1893-08-08",
     "to": "1893-08-14",
-    "days_without_hunting_entry": 5,
-    "diary_within_hoefer": true
-   },
-   "photos": []
-  },
-  {
-   "hunt_id": "hunt-1893-09-10-canada",
-   "hoefer": {
-    "stays": [
-     {
-      "stay": "Banff",
-      "from": "1893-09-09",
-      "to": "1893-09-10",
-      "section": "Japan"
-     }
-    ],
-    "from": "1893-09-09",
-    "to": "1893-09-10",
-    "days_without_hunting_entry": 1,
+    "days_without_hunting_entry": 6,
     "diary_within_hoefer": true
    },
    "photos": []

@@ -63,7 +63,7 @@
   "The European Library": 3
  },
  "dated": 60,
- "at_hunts": 37,
+ "at_hunts": 36,
  "records": [
   {
    "id": "/15504/VF_14687",
@@ -84,7 +84,7 @@
    "in_bilder_json": true,
    "date": "1893-01-23",
    "day_place": "Tandur, India",
-   "hunt": "hunt-1893-01-22-hyderabad",
+   "hunt": "hunt-1893-01-23-hyderabad",
    "animals": []
   },
   {
@@ -1344,7 +1344,7 @@
    "in_bilder_json": true,
    "date": "1893-09-10",
    "day_place": "Banff to Penticton, Canada",
-   "hunt": "hunt-1893-09-10-canada",
+   "hunt": null,
    "animals": []
   },
   {
@@ -2191,9 +2191,7 @@
    "date": null,
    "day_place": null,
    "hunt": null,
-   "animals": [
-    "bird"
-   ]
+   "animals": []
   },
   {
    "id": "/15504/VF_14545",
@@ -2919,9 +2917,7 @@
    "date": null,
    "day_place": null,
    "hunt": null,
-   "animals": [
-    "bird"
-   ]
+   "animals": []
   },
   {
    "id": "/15504/VF_14536",

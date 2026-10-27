@@ -1,5 +1,5 @@
 [
- {"id": "port-said", "region": "port-said", "label": "Port Said", "diary": ["Port Said"], "anno": ["Port Said"], "wikidata": "Q134509", "lat": 31.2625, "lon": 32.3061, "vault": ["Port Said"]},
+ {"id": "port-said", "region": "port-said", "label": "Port Said", "diary": ["Port Said", "Menzaleh"], "anno": ["Port Said", "Menzaleh", "Mensaleh"], "wikidata": "Q134509", "lat": 31.2625, "lon": 32.3061, "vault": ["Port Said"]},
  {"id": "kalawewa", "region": "ceylon", "label": "Kala Wewa (Ceylon)", "diary": ["Kalawewa", "Kala Wewa"], "anno": ["Ceylon", "Kalawewa"], "wikidata": "Q7354820", "lat": 8.0135, "lon": 80.5563, "vault": ["Kala Wewa, Sri Lanka"]},
  {"id": "kandy", "region": "ceylon", "label": "Kandy (Ceylon)", "diary": ["Kandy"], "anno": ["Ceylon", "Kandy"], "wikidata": "Q203197", "lat": 7.2931, "lon": 80.635, "vault": ["Kandy, Sri Lanka"]},
  {"id": "bombay", "region": "bombay", "label": "Bombay (Mumbai)", "diary": ["Bombay"], "anno": ["Bombay"], "wikidata": "Q1156", "lat": 19.0758, "lon": 72.8775, "vault": ["Bombay (Indien, Heut. Mumbai)"]},
@@ -26,5 +26,7 @@
  {"id": "canton", "region": "canton", "label": "Canton (Guangzhou)", "diary": ["Kanton"], "anno": ["Canton"], "wikidata": "Q16572", "lat": 23.13, "lon": 113.26, "vault": ["Kanton, (heut. Guangzhou, China)"]},
  {"id": "kyoto", "region": "kyoto", "label": "Kyoto", "diary": ["Kiötö", "Kioto"], "anno": ["Kioto"], "wikidata": "Q34600", "lat": 35.0116, "lon": 135.7681, "vault": ["Kyoto, Japan"]},
  {"id": "banff", "region": "canada", "label": "Banff (Alberta)", "diary": ["Banff"], "anno": ["Canada"], "wikidata": "Q41858", "lat": 51.1667, "lon": -115.55, "vault": ["Banff, Kanada"]},
- {"id": "penticton", "region": "canada", "label": "Penticton / Shingle Creek (BC)", "diary": ["Penticton", "Shingle Creek"], "anno": ["Canada"], "wikidata": "Q935519", "lat": 49.4911, "lon": -119.5886, "vault": ["Penticton, Kanada"]}
+ {"id": "penticton", "region": "canada", "label": "Penticton / Shingle Creek (BC)", "diary": ["Penticton", "Shingle Creek"], "anno": ["Canada"], "wikidata": "Q935519", "lat": 49.4911, "lon": -119.5886, "vault": ["Penticton, Kanada"]},
+ {"id": "gwalior", "region": "gwalior", "label": "Gwalior", "diary": ["Gwalior"], "anno": ["Gwalior"], "wikidata": "Q158467", "lat": 0, "lon": 0, "vault": ["Gwalior, (Madhya Pradesh, Indien)"]},
+ {"id": "owaraha", "region": "solomon", "label": "Owa Raha / Ugi (Salomonen)", "diary": ["Owa Raha", "Ugi"], "anno": ["Salomon"], "wikidata": "Q2042567", "lat": 0, "lon": 0, "vault": ["Owaraha, Salomonen Inseln"]}
 ]

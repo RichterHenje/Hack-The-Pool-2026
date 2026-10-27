@@ -29,8 +29,7 @@ HUNT_WORDS = ["Jagd", "Jagden", "erlegt", "erlegte", "Jagdbeute"]
 WINDOW_DAYS = 70
 PAGES = 3          # 10 issues per page
 SNIPPET_DOCS = 12  # issues per episode that get snippets
-MIN_KILL_SENTENCES = 4
-MIN_BIG_GAME = 2   # non-bird animal mentions in kill sentences
+MIN_KILL_SENTENCES = 2
 FF = re.compile(r"Erzherzog|Thronfolger|Franz Ferdinand|Ferdinand", re.I)
 
 
@@ -71,10 +70,20 @@ def snippets(doc_id, query, keep):
 RANK = {"high": 0, "medium": 1, "low": 2, "unchecked": 3}
 
 
-def relevance(r):
-    """high: a snippet names FF/the archduke and matches an episode term; medium: proximity hit."""
-    if any(FF.search(s["text"]) and "<mark>" in s["text"] for s in r["snippets"]):
-        return "high"
+GENERIC = {"Vögel", "Jagd", "Jagden", "erlegt", "erlegte", "Jagdbeute"}
+
+
+def relevance(r, specific, place):
+    """high: a snippet names FF/the archduke and the episode's place or a specific animal (not just "Vögel",
+    "Jagd", "erlegt"); medium: proximity hit; low: issue-level hit only."""
+    # the issue-level query already requires Erzherzog/Thronfolger in the issue; then a snippet naming the place or a
+    # specific animal is enough (the archduke is often named a sentence earlier, outside the snippet window)
+    for s in r["snippets"]:
+        t = re.sub(r"</?mark>", "", s["text"])
+        # the archduke in the snippet plus place or specific animal; or an issue-level hit whose snippet names the
+        # place (an animal alone is too common for that: market prices "Enten … das Paar")
+        if (FF.search(t) and specific.search(t)) or ("issue" in r["match"] and place.search(t)):
+            return "high"
     return "medium" if "near" in r["match"] else "low"
 
 
@@ -107,9 +116,13 @@ def enrich(h):
                                                    -(r["hits_in_issue"] or 0)))
     keep = re.compile("|".join(map(re.escape, animal_terms + ["Jagd", "erlegt"])), re.I)
     snip_query = " OR ".join(map(term, animal_terms + place_terms + ["Jagd", "erlegt"]))  # space = AND
+    specific = re.compile("|".join(map(re.escape, [t for t in animal_terms + place_terms if t not in GENERIC])), re.I)
+    place_rx = re.compile("|".join(map(re.escape, place_terms)), re.I)
+    # issue-level hits that name the place first: a generic proximity hit ("Erzherzog … Vögel") is weaker
+    ranked.sort(key=lambda r: ("issue" not in r["match"], "near" not in r["match"], -(r["hits_in_issue"] or 0)))
     for r in ranked[:SNIPPET_DOCS]:
         r["snippets"] = snippets(r["docId"], snip_query, keep)
-        r["relevance"] = relevance(r)
+        r["relevance"] = relevance(r, specific, place_rx)
     ranked.sort(key=lambda r: RANK[r.get("relevance", "unchecked")])
     n_high = sum(r.get("relevance") == "high" for r in ranked)
     print(f"  {h['id']:<32} near={n_near:<4} issue={n_issue:<4} kept={len(ranked):<3} high={n_high}")
@@ -160,8 +173,8 @@ def topic(t):
 
 
 def main():
-    hunts = [h for h in load("hunts.json") if h["region"] and h["kill_sentences"] >= MIN_KILL_SENTENCES
-             and sum(n for a, n in h["animals"].items() if a != "bird") >= MIN_BIG_GAME]
+    # every episode at a known place with >= 2 kill sentences, bird hunts included (Port Said: flamingos)
+    hunts = [h for h in load("hunts.json") if h["region"] and h["kill_sentences"] >= MIN_KILL_SENTENCES]
     print(f"ANNO: {len(hunts)} episodes")
     with ThreadPoolExecutor(4) as ex:
         episodes = list(ex.map(enrich, hunts))

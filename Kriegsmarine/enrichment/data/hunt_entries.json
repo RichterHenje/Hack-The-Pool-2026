@@ -72,10 +72,10 @@
   "day_method": "heading",
   "animals": {
    "elephant": 3,
-   "monkey": 2,
-   "bird": 2
+   "bird": 2,
+   "monkey": 1
   },
-  "kill_sentences": 6,
+  "kill_sentences": 5,
   "first_person": 5,
   "quotes": [
    {
@@ -112,7 +112,6 @@
    "Ich kehrte zu meinem ersten Elephanten zurück und überzeugte mich, dass ich ein außergewöhnlich starkes Männchen erlegt hatte, das sogar Stoßzähne besaß ^ eine große Seilenheil bei Elephanten auf Ceylon.",
    "Gleich darauf kam Pirie ganz aufgeregt herbeigestürzt und beglückwünschte mich, als ich ihm schon von weitem zurief, dasa ich zwei Elephanten auf der Decke hätte, auf das lebhafteste, beifügend, dass er ebenfalls einen starken Elephanten erlegt und einen zweiten angeschossen habe.",
    "Kndlich kehrte ich, da mit den Leuten absolut nichts anzufangetil war, auf die Straße zurück, wo ich Kinsky fand, der mir sehr stolz entgegenkam, da er ebenfalls einen Elephanten in voller Flucht erlegt tetÜM hatte.",
-   "Clam hatte dann eine Affenfamilie verfolgt und nach vieli Laufen und Schießen zwei Mitglieder derselben erlegt.",
    "Die Sonne stand schon tief am Horizont und warf malerische Lichter auf die dürren Riesenbäume, deren verschlungene, mitunter schlangenartig gewundene .\\ste und die im Wasser schwimmenden Wurzeln, Gleich beim Wegfahren erlegte ich mehrere Cormorane, sowie einen schwarzweilJen Eisvogel, den sogenannten Grauflscher (Ceryle rudis), schoss aber dann nicht mehr auf Sumpfwild, da ich hoch in den Lüften e",
    "denn obwohl ich das Boot weggeschickt hatte und lange Zeit auf einem aus dem Vasser emporragenden Baumstrunke wartete, kamen die Adler nicht, indem hackten, ohne sich zu rühren, weit davon auf, Zwei große Affen, die hier in tollen Sprüngen von Baum zu Baum schoss ich mit der Kugel, ohne dieselben heimbringen zu ^1 älnnen, da der eine im Geäste hängen blieb, der andere aber, ins isser fallend, sofo"
   ]
@@ -169,33 +168,6 @@
   ],
   "kills": [
    ".Alsbald stürzen sich die ingrigen Geier auf ihre Beute und binnen einer Stunde ist der LeichI bis auf die Knochen verzehrt."
-  ]
- },
- {
-  "date": "1893-01-22",
-  "place_raw": "Tandur, India",
-  "place_id": "tandur",
-  "region": "hyderabad",
-  "band": 1,
-  "scan": 119,
-  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n118/mode/1up",
-  "day_method": "aligned",
-  "animals": {
-   "bird": 1
-  },
-  "kill_sentences": 1,
-  "first_person": 1,
-  "quotes": [
-   {
-    "text": "Vor unserem .Aufbruche hatte ich mitten zwischen den neben unserem Camp gelegenen Hütten der Eingeborenen ein abgehäu'•^'\"s Schaf als Luder niederlegen lassen und konnte nun, nach der '^'ickkehr im Verlaufe weniger Minuten i:J Schmutzgeier (Neophron sifginianus) und 2 Schmarotzer- oder i'ariah-Milane {Milvus govinda)",
-    "animals": [
-     "bird"
-    ],
-    "first_person": true
-   }
-  ],
-  "kills": [
-   "Vor unserem .Aufbruche hatte ich mitten zwischen den neben unserem Camp gelegenen Hütten der Eingeborenen ein abgehäu'•^'\"s Schaf als Luder niederlegen lassen und konnte nun, nach der '^'ickkehr im Verlaufe weniger Minuten i:J Schmutzgeier (Neophron sifginianus) und 2 Schmarotzer- oder i'ariah-Milane {Milvus govinda)"
   ]
  },
  {
@@ -290,17 +262,17 @@
  {
   "date": "1893-01-30",
   "place_raw": "Gwalior, India",
-  "place_id": null,
-  "region": null,
+  "place_id": "gwalior",
+  "region": "gwalior",
   "band": 1,
   "scan": 165,
   "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n164/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "bird": 5
+   "bird": 4
   },
-  "kill_sentences": 5,
-  "first_person": 5,
+  "kill_sentences": 4,
+  "first_person": 4,
   "quotes": [
    {
     "text": "Mehrere Exemplare wurden mir zur Beute, leider fehlte ich aber mit einem nicht erprobten tlcwehre einen Adler, der sehr an unseren Kaiseradler erinnerte.",
@@ -324,7 +296,7 @@
     "first_person": true
    },
    {
-    "text": "Jt^in kaum hatte ich auf die beiden Kraniche geschossen, so streicht ülier meinen Kopf ein großer Silberreiher, auf den ich, statt den kranken \"^\"^nich auszumachen, schieße;",
+    "text": "Ein erneuertes Anfahren an die Black-bucks war von ebensowenig Erfolg gekrönt aLs das erste, und so beschied ich mich mil verschiedenen Enten, darunter I-Öffelenien (Anas clypeata), sowie rnil einigen Kampfhähnen, und kehrte ins Bungalow zurück, wo ich die anderen Herren traf, die ebenfalls reiche Beute gemacht hatten.",
     "animals": [
      "bird"
     ],
@@ -335,7 +307,6 @@
    "Mehrere Exemplare wurden mir zur Beute, leider fehlte ich aber mit einem nicht erprobten tlcwehre einen Adler, der sehr an unseren Kaiseradler erinnerte.",
    "Auf dem ersten Teiche saß ein Schwärm von mindestens vierbis fünfhundert verschiedener Enten, deren ich drei erlegte.",
    "Am Rande des Teiches fortschreitend, erbeutete ich noch eine -Anzahl Enten und zwei gemeine Blässhühner, mehrere Storchschnepfen lind eine Rohrweihe.",
-   "Jt^in kaum hatte ich auf die beiden Kraniche geschossen, so streicht ülier meinen Kopf ein großer Silberreiher, auf den ich, statt den kranken \"^\"^nich auszumachen, schieße;",
    "Ein erneuertes Anfahren an die Black-bucks war von ebensowenig Erfolg gekrönt aLs das erste, und so beschied ich mich mil verschiedenen Enten, darunter I-Öffelenien (Anas clypeata), sowie rnil einigen Kampfhähnen, und kehrte ins Bungalow zurück, wo ich die anderen Herren traf, die ebenfalls reiche Beute gemacht hatten."
   ]
  },
@@ -403,10 +374,10 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n238/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "bird": 5
+   "bird": 4
   },
-  "kill_sentences": 5,
-  "first_person": 5,
+  "kill_sentences": 4,
+  "first_person": 4,
   "quotes": [
    {
     "text": "Unmittelbar nachdem wir die Stadt verlassen hatten, schoss ich vom Wagen aus mehrere große Geier (Gyps indicus und Gyps bengalensisl ferner einen der so häufig sichtbaren Schmutzgeier und einige Schmarotzer- oder Pariah-Milane.",
@@ -441,8 +412,7 @@
    "Unmittelbar nachdem wir die Stadt verlassen hatten, schoss ich vom Wagen aus mehrere große Geier (Gyps indicus und Gyps bengalensisl ferner einen der so häufig sichtbaren Schmutzgeier und einige Schmarotzer- oder Pariah-Milane.",
    "Kurz darauf, noch Im Weichbildt der Stadt, fiel mir ein Adler zur Beute, den ich am Rande seines Horstes erlegte;",
    "Ebenfalls vom Horste herab, der auf einem Allecbaume gebaut war, schoss ich einen Vertreter einer anderen Adlerurt nämlich einen Fahlen Adler (Aquila vindhiana).",
-   "Die Umgebung der Moschee lieferte mir ornithologische Ausbeute, indem ich in dem Trümmerhaufen einen Juggur-Falken (Falcojiigguri und den seltenen Grauen Nashornvogel {Ocyceros birostris) erleglt.",
-   "Auf dem Heimwege schoss ich nebst einigen Geiern noch eintn metallisch schimmernden Weißhalsigen Storch (Ciconia leucocephalal, der unserem schwarzen Storch sehr ähnlich ist, sowie zwei Marabus, darunter ein besonders altes Männchen mit schneeweißer Brust und langen Flaumfedern."
+   "Die Umgebung der Moschee lieferte mir ornithologische Ausbeute, indem ich in dem Trümmerhaufen einen Juggur-Falken (Falcojiigguri und den seltenen Grauen Nashornvogel {Ocyceros birostris) erleglt."
   ]
  },
  {
@@ -558,33 +528,6 @@
   ]
  },
  {
-  "date": "1893-02-17",
-  "place_raw": "Delhi, India",
-  "place_id": "delhi",
-  "region": "delhi",
-  "band": 1,
-  "scan": 261,
-  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n260/mode/1up",
-  "day_method": "aligned",
-  "animals": {
-   "bird": 1
-  },
-  "kill_sentences": 1,
-  "first_person": 1,
-  "quotes": [
-   {
-    "text": "Das Vorwärtsdringen in diesen Ruinen mit den spitzen Steinen, den Mauern und den vielen scharfen Dornen war sehr erschwert, loch wurde die Mühe gelohnt, indem ich mehrere Indische Rebhühner 'Ortygornis pondiceriana), sowie vier Stück des Bunten Flughuhnes ^terocles fasciatus), von den Engländern »Sand grouse« genannt, erlegte.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": true
-   }
-  ],
-  "kills": [
-   "Das Vorwärtsdringen in diesen Ruinen mit den spitzen Steinen, den Mauern und den vielen scharfen Dornen war sehr erschwert, loch wurde die Mühe gelohnt, indem ich mehrere Indische Rebhühner 'Ortygornis pondiceriana), sowie vier Stück des Bunten Flughuhnes ^terocles fasciatus), von den Engländern »Sand grouse« genannt, erlegte."
-  ]
- },
- {
   "date": "1893-02-20",
   "place_raw": "Sariska, India",
   "place_id": "sariska",
@@ -594,17 +537,15 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n274/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "elephant": 2,
    "crocodile": 1,
    "tiger": 1
   },
-  "kill_sentences": 3,
+  "kill_sentences": 2,
   "first_person": 1,
   "quotes": [
    {
     "text": "Die Ruinen eines alten Tempel lu^;cn unter dein Schatten riesiger Bäume hervor, ein dunkelgrüne VVciliL-r erfreut diis Auge, steile Lehnen ragen rechts und links empoi I icr I (iiltpidtz wnr auch das Rendezvous für sämmtliche Jagdelephanten dir 14 an der Zahl — schön ausgerichtet mit ihren Mahäuls unc lläudiis ddsliuulen, sowie für sämmtliche Pferde und Tragkameele Da nKui uns erst in zwei Stunden",
     "animals": [
-     "elephant",
      "crocodile"
     ],
     "first_person": true
@@ -615,19 +556,11 @@
      "tiger"
     ],
     "first_person": false
-   },
-   {
-    "text": "Da ist zunächst das Lager der Jagdelephanten, ihrer .Mahäuts und Wärter, wo nach vollbrachtem Tagewerke die großen Thiere gefüttert und dann, sich i\\i diesem Zwecke oft niederlegend, von den Wärtern geputzt, gestriegelt und gewaschen werden, An dieses Lager schließt sich jenes der Treiber und Kameele.",
-    "animals": [
-     "elephant"
-    ],
-    "first_person": false
    }
   ],
   "kills": [
    "Die Ruinen eines alten Tempel lu^;cn unter dein Schatten riesiger Bäume hervor, ein dunkelgrüne VVciliL-r erfreut diis Auge, steile Lehnen ragen rechts und links empoi I icr I (iiltpidtz wnr auch das Rendezvous für sämmtliche Jagdelephanten dir 14 an der Zahl — schön ausgerichtet mit ihren Mahäuls unc lläudiis ddsliuulen, sowie für sämmtliche Pferde und Tragkameele Da nKui uns erst in zwei Stunden",
-   "Wenn nur die .Anzahl Jer Tiger, die uns zur Beute fallen sollen, im entsprechenden Verhältniwe zu der aufgewendeten Pracht steht!",
-   "Da ist zunächst das Lager der Jagdelephanten, ihrer .Mahäuts und Wärter, wo nach vollbrachtem Tagewerke die großen Thiere gefüttert und dann, sich i\\i diesem Zwecke oft niederlegend, von den Wärtern geputzt, gestriegelt und gewaschen werden, An dieses Lager schließt sich jenes der Treiber und Kameele."
+   "Wenn nur die .Anzahl Jer Tiger, die uns zur Beute fallen sollen, im entsprechenden Verhältniwe zu der aufgewendeten Pracht steht!"
   ]
  },
  {
@@ -640,12 +573,12 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n280/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "deer": 3,
+   "deer": 1,
    "bird": 1,
    "antelope": 1
   },
-  "kill_sentences": 5,
-  "first_person": 2,
+  "kill_sentences": 3,
+  "first_person": 1,
   "quotes": [
    {
     "text": "Der Fährte folgend, sah ich den kranken Hirsch durch dichtes Gestrüpp ziehen und schoss noch einmal, fehlte jedoch in der Hitze des Gefechtes.",
@@ -655,31 +588,22 @@
     "first_person": true
    },
    {
-    "text": "In der That kam der angeschossene Hirsch ■•^ch wenigen Minuten in Sicht und endete unter drei von mir und Wurmbrand abgegebenen Schüssen.",
+    "text": "Solange noch Schussücht andauerte, streiften wir in der Ebene beim Camp und brachten zahlreiche Hühner und Sand grouse zur Strecke.",
     "animals": [
-     "deer"
-    ],
-    "first_person": true
-   },
-   {
-    "text": "Die im Thale zurückgebliebenen Herren und die eingeborenen Jäger hatten nach dem Schusse den Hirsch ebenfalls krank flüchten gesehen, und nun gieng es mit wildem Geschrei und Durcheinander hinter dem angeschossenen Stücke her.",
-    "animals": [
-     "deer"
+     "bird"
     ],
     "first_person": false
    },
    {
-    "text": "Solange noch Schussücht andauerte, streiften wir in der Ebene beim Camp und brachten zahlreiche Hühner und Sand grouse zur Strecke.",
+    "text": "Wurmbrand halte das Waidmannsheü, eine Gazelle zu erlegen.",
     "animals": [
-     "bird"
+     "antelope"
     ],
     "first_person": false
    }
   ],
   "kills": [
    "Der Fährte folgend, sah ich den kranken Hirsch durch dichtes Gestrüpp ziehen und schoss noch einmal, fehlte jedoch in der Hitze des Gefechtes.",
-   "Die im Thale zurückgebliebenen Herren und die eingeborenen Jäger hatten nach dem Schusse den Hirsch ebenfalls krank flüchten gesehen, und nun gieng es mit wildem Geschrei und Durcheinander hinter dem angeschossenen Stücke her.",
-   "In der That kam der angeschossene Hirsch ■•^ch wenigen Minuten in Sicht und endete unter drei von mir und Wurmbrand abgegebenen Schüssen.",
    "Solange noch Schussücht andauerte, streiften wir in der Ebene beim Camp und brachten zahlreiche Hühner und Sand grouse zur Strecke.",
    "Wurmbrand halte das Waidmannsheü, eine Gazelle zu erlegen."
   ]
@@ -996,23 +920,15 @@
   "day_method": "heading",
   "animals": {
    "antelope": 1,
-   "deer": 1,
-   "bird": 1
+   "deer": 1
   },
-  "kill_sentences": 3,
-  "first_person": 2,
+  "kill_sentences": 2,
+  "first_person": 1,
   "quotes": [
    {
     "text": "In dieser Weise erlegte ich nächst einem kleinen Teiche einen jungen Riesenstorch, einige indische Wildgänse (.i\\nser indicus), sowie acht Black-hucks und ein« Chinkara-Gazelle, letztere mit einem Coup double auf diese und einen Black-buck.",
     "animals": [
      "antelope"
-    ],
-    "first_person": true
-   },
-   {
-    "text": "Zum Schlüsse streifte ich noch einen Wasserlauf entlang und erlegte zwei schöne, himmelblau gefärbte Porphyrhühner (Porphyrifi poliocephalus), eine schätzenswerte Bereicherung meiner Sammlung, Nach dem Diner, an welchem Mrs.",
-    "animals": [
-     "bird"
     ],
     "first_person": true
    },
@@ -1026,8 +942,7 @@
   ],
   "kills": [
    "In dieser Weise erlegte ich nächst einem kleinen Teiche einen jungen Riesenstorch, einige indische Wildgänse (.i\\nser indicus), sowie acht Black-hucks und ein« Chinkara-Gazelle, letztere mit einem Coup double auf diese und einen Black-buck.",
-   "Mehrere der erbeuteten Böcke waren geradezu capita!e Exemplare.",
-   "Zum Schlüsse streifte ich noch einen Wasserlauf entlang und erlegte zwei schöne, himmelblau gefärbte Porphyrhühner (Porphyrifi poliocephalus), eine schätzenswerte Bereicherung meiner Sammlung, Nach dem Diner, an welchem Mrs."
+   "Mehrere der erbeuteten Böcke waren geradezu capita!e Exemplare."
   ]
  },
  {
@@ -1079,10 +994,10 @@
   "animals": {
    "tiger": 4,
    "peafowl": 1,
-   "bird": 1,
-   "monkey": 1
+   "monkey": 1,
+   "bird": 1
   },
-  "kill_sentences": 6,
+  "kill_sentences": 7,
   "first_person": 4,
   "quotes": [
    {
@@ -1120,7 +1035,8 @@
    "Das zuerst von mir erlegte Thier, eine capitale Tigerin, hatte zum Glücke nur meinen Schuss, auf den hin die Katze gestürzt war.",
    "Eine Reihe von Schüssen wurde dann noch auf den verendenden Tiger abgegeben, eine hier übliche Unsitte, die ich nicht billigen kann, Meil sie Zweifel darüber her\\'orruft, wem ein erlegter Tiger zuzusprechen ,^ei, und weil sie wegen der Gewehre großen Calibers, welche die Engländer führen, den \\'erderb des schönen Felles nach sich zieht;",
    "Unter den Eingeborenen verlautete, dass der zuletzt erbeutete Tiger, ein stärkeres Männchen, mit jenem nicht identisch sei, auf Jon ich geschossen hatte.",
-   "Ich theilte diese .Ansicht jedoch nicht und glaube vielmehr, den Tiger im zu unterscheiden war, so dass man ungefähr folgern konnte, worauf der Nachbar wohl geschossen haben mochte."
+   "Ich theilte diese .Ansicht jedoch nicht und glaube vielmehr, den Tiger im zu unterscheiden war, so dass man ungefähr folgern konnte, worauf der Nachbar wohl geschossen haben mochte.",
+   "Bengal-Trappe (Sypheotides bengalensis), welche in der Größe die Mitte zwischen der Zwerg-Trappe und unserer großen Trappe hält, erbeutet."
   ]
  },
  {
@@ -1233,14 +1149,14 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n366/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "bird": 3,
    "boar": 1,
    "peafowl": 1,
    "elephant": 1,
    "deer": 1,
-   "leopard": 1
+   "leopard": 1,
+   "bird": 1
   },
-  "kill_sentences": 6,
+  "kill_sentences": 5,
   "first_person": 2,
   "quotes": [
    {
@@ -1261,8 +1177,7 @@
    {
     "text": "auch wurd*^ mehrere Hirtiche, sowie Pfauen und Frankolinhühner, die vor unsal standen, erlegt.",
     "animals": [
-     "peafowl",
-     "bird"
+     "peafowl"
     ],
     "first_person": false
    },
@@ -1279,7 +1194,6 @@
    "auch wurd*^ mehrere Hirtiche, sowie Pfauen und Frankolinhühner, die vor unsal standen, erlegt.",
    "Nach diesem interessanten Intermezzo wurde die Streuung fnrlgeselzt, in deren Verlauf ich zunächst einige Bellende Hirsche erbeutete, die immer knapp vor dem Elephanten aufstanden und, in dem hohen Grase kaum sichtbar, llüchtig wie Hasen ausrissen.",
    ".Prönay und Stockinger hatten auf einen Panther im hohen Grase geschossen und ihn gefehlt.",
-   "reiche Beute lieferte ein von Famen und Lianen über^vucheries Dschunprl, der Ueblingsaufenthalt von Bronzetauben und Dschungelhühnem.",
    "Wir waren jedoch überaus begünstigt, so dass wir im gun«\" 52 Dschungel hühner erlegten."
   ]
  },
@@ -1320,7 +1234,6 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n374/mode/1up",
   "day_method": "heading",
   "animals": {
-   "bird": 2,
    "deer": 1,
    "peafowl": 1
   },
@@ -1330,16 +1243,14 @@
    {
     "text": "Hatte das Jagdterrain anfänglich auch vielverheißend ausgesehen, so trafen wir hier doch nur auf wenig Wild, so dass ich bloß einen Schopf-Schlangenadler (Spilornis cheela) und einen Bellenden Hirsch erlegte;",
     "animals": [
-     "deer",
-     "bird"
+     "deer"
     ],
     "first_person": true
    },
    {
     "text": "erst in der Nähe eines Flusses, an dessen Llfer unser Lager, fast schon völlig aufgeschlagen, sich erhob, standen Pfaue und Dschungelhühner auf, deren wir einige erbeuteten.",
     "animals": [
-     "peafowl",
-     "bird"
+     "peafowl"
     ],
     "first_person": false
    }
@@ -1359,11 +1270,11 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n376/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "deer": 2,
    "tiger": 1,
+   "deer": 1,
    "bird": 1
   },
-  "kill_sentences": 3,
+  "kill_sentences": 2,
   "first_person": 1,
   "quotes": [
    {
@@ -1380,19 +1291,11 @@
      "tiger"
     ],
     "first_person": false
-   },
-   {
-    "text": "Pronay schoss «inen .Sumpfhirsch von sechs Enden.",
-    "animals": [
-     "deer"
-    ],
-    "first_person": false
    }
   ],
   "kills": [
    "^^ Wir hatten uns noch immer mit der Hoffnung getragen, Tiger zu erbeuten.",
-   "so erlegte ich allein 10 Stück .-^xiswild, S Stück Schweinshirschwild, einen Bellenden Hirsch, ein Stück Schwarzwild, einen Schopf-Schlangenadler, einen mir bisher noch unbekannten liabi cht ähnlichen Adler (Spizaetus nipalensis), — zur Gattung der -Haiibenadler gehörig — verschiedenes anderes Federwild, darunter «inen der prachtvollen zinnoberrothen Mennigvögel.",
-   "Pronay schoss «inen .Sumpfhirsch von sechs Enden."
+   "so erlegte ich allein 10 Stück .-^xiswild, S Stück Schweinshirschwild, einen Bellenden Hirsch, ein Stück Schwarzwild, einen Schopf-Schlangenadler, einen mir bisher noch unbekannten liabi cht ähnlichen Adler (Spizaetus nipalensis), — zur Gattung der -Haiibenadler gehörig — verschiedenes anderes Federwild, darunter «inen der prachtvollen zinnoberrothen Mennigvögel."
   ]
  },
  {
@@ -1406,22 +1309,24 @@
   "day_method": "aligned",
   "animals": {
    "deer": 1,
-   "elephant": 1
+   "elephant": 1,
+   "bird": 1
   },
   "kill_sentences": 2,
   "first_person": 2,
   "quotes": [
    {
-    "text": "Ich erlegte in der Folge meinen ersten Sumpfhirsch, der leider nur ein Spießer, im Wildpret jedoch so stark war wie ein sehr guter jagdbarer Hirsch unserer Wälder;",
+    "text": "Da der Vogel sehr scheu war und vor dem Elephanten nicht aushielt, so schlich ich ihn zu Fuß an und erlegte in ihm zu meiner großen Freude einen seltenen Ibis (Geronticus papillosus) mit stahlblaufarbigen Flügeln, braunem Leib und rothem Kopfe.",
     "animals": [
-     "deer"
+     "elephant",
+     "bird"
     ],
     "first_person": true
    },
    {
-    "text": "Da der Vogel sehr scheu war und vor dem Elephanten nicht aushielt, so schlich ich ihn zu Fuß an und erlegte in ihm zu meiner großen Freude einen seltenen Ibis (Geronticus papillosus) mit stahlblaufarbigen Flügeln, braunem Leib und rothem Kopfe.",
+    "text": "Ich erlegte in der Folge meinen ersten Sumpfhirsch, der leider nur ein Spießer, im Wildpret jedoch so stark war wie ein sehr guter jagdbarer Hirsch unserer Wälder;",
     "animals": [
-     "elephant"
+     "deer"
     ],
     "first_person": true
    }
@@ -1495,23 +1400,15 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n382/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "tiger": 4,
-   "elephant": 1
+   "tiger": 3
   },
-  "kill_sentences": 5,
-  "first_person": 2,
+  "kill_sentences": 3,
+  "first_person": 1,
   "quotes": [
    {
     "text": "Kurz darauf schoss Wurmbrand links von mir auf einen schwachen Tiger, den ich nicht sehen konnte und der sich, auch getroffen, in einem Grasbusche verbarg.",
     "animals": [
      "tiger"
-    ],
-    "first_person": true
-   },
-   {
-    "text": "Im Lager statteten wir dem armen angeschossenen Elephanten einen Besuch ab und fanden ihn eben unter der Behandlung des Arztes, wobei ich die Klugheit und Geduld des Thieres bewundern konnte.",
-    "animals": [
-     "elephant"
     ],
     "first_person": true
    },
@@ -1523,7 +1420,7 @@
     "first_person": false
    },
    {
-    "text": "Stockinger und Prönay wollten die hiedurch eingerissene Lücke verstellen, verloren aber hiebei die Direction, erschienen im Jagdeifer plötzlich mitten im Kreise vor uns und eröffneten hier, auf den von Wurmbrand angeschossenen Tiger stoßend, auf diesen ein wohlgenährtes Schnellfeuer, so dass er zum Schlüsse von sieben Kugeln durchbohrt auf die Strecke gebracht wurde.",
+    "text": "^8-1 Erlegung von Tigern besonderer Erlaubnis, welche dann ertheilt wird, wenn ein Tiger unter den Viehherden der benachbarten Ortschaften große Verheerungen anrichtet.",
     "animals": [
      "tiger"
     ],
@@ -1533,9 +1430,7 @@
   "kills": [
    "doch da die Eingeborenen mit Bestimmtheit auf einen Tiger rechneten und uns versicherten, dass ein solcher sich in der Nähe befände, wurde die Linie gebildet und ein Streif in einem ziemlich lichten, benachbarten Dschungel unternommen, wobei aber auf kein anderes Wild als auf Tiger geschossen werden sollte.",
    "Kurz darauf schoss Wurmbrand links von mir auf einen schwachen Tiger, den ich nicht sehen konnte und der sich, auch getroffen, in einem Grasbusche verbarg.",
-   "Stockinger und Prönay wollten die hiedurch eingerissene Lücke verstellen, verloren aber hiebei die Direction, erschienen im Jagdeifer plötzlich mitten im Kreise vor uns und eröffneten hier, auf den von Wurmbrand angeschossenen Tiger stoßend, auf diesen ein wohlgenährtes Schnellfeuer, so dass er zum Schlüsse von sieben Kugeln durchbohrt auf die Strecke gebracht wurde.",
-   "^8-1 Erlegung von Tigern besonderer Erlaubnis, welche dann ertheilt wird, wenn ein Tiger unter den Viehherden der benachbarten Ortschaften große Verheerungen anrichtet.",
-   "Im Lager statteten wir dem armen angeschossenen Elephanten einen Besuch ab und fanden ihn eben unter der Behandlung des Arztes, wobei ich die Klugheit und Geduld des Thieres bewundern konnte."
+   "^8-1 Erlegung von Tigern besonderer Erlaubnis, welche dann ertheilt wird, wenn ein Tiger unter den Viehherden der benachbarten Ortschaften große Verheerungen anrichtet."
   ]
  },
  {
@@ -1549,7 +1444,7 @@
   "day_method": "aligned",
   "animals": {
    "tiger": 1,
-   "deer": 1
+   "bird": 1
   },
   "kill_sentences": 2,
   "first_person": 2,
@@ -1564,7 +1459,7 @@
    {
     "text": "Auf mein Befragen wurde mir bedeutet, es handle sich hier nur um eine Spielerei der Leute, worauf wir beruhigt von dannen zogen, eine Ebene am Rande eines größeren Flusslaufes durchstreifend, in der ich wieder eine der schönen Bengal -Trappen mit weißen Flügeln, einen capitalen Schweinshirsch mit hohem, starkem Geweih und zwei Zibethmarder, sowie verschiedenes kleineres Wild erlegte.",
     "animals": [
-     "deer"
+     "bird"
     ],
     "first_person": true
    }
@@ -1601,41 +1496,6 @@
   ],
   "kills": [
    "Da springt zwischen zwei Elephanten ein Panther, der sich bisher im Grase geduckt und nicht gerührt hatte, auf, durchbricht in dem Tumulte, den sein unerwartetes Erscheinen hervorruft, die Linie, und flüchtet, ohne dass geschossen werden kann, in das benachbarte Dschungel."
-  ]
- },
- {
-  "date": "1893-04-05",
-  "place_raw": "At Sea to Singapore",
-  "place_id": null,
-  "region": null,
-  "band": 1,
-  "scan": 405,
-  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n404/mode/1up",
-  "day_method": "aligned",
-  "animals": {
-   "bird": 2
-  },
-  "kill_sentences": 2,
-  "first_person": 1,
-  "quotes": [
-   {
-    "text": "Gleichwohl gelang es mir, eine Fruchttaube, deren Gefieder in allen Karben des Regenbogens schillert und einen Schwarzen Kuckuck (Eudynamis hnnorata) zu erlegen, während Regner eine prächtige Nektarine (Arachnechthra pectoralis) schoss.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": true
-   },
-   {
-    "text": "Drei blau und weiß i^-e färbte Baumlieste (Halcyon chloris), sowie mehrere Exemplare einer -A rt von Zwergreihern (ButoroYdes javanica) fielen uns zur Beute.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": false
-   }
-  ],
-  "kills": [
-   "Gleichwohl gelang es mir, eine Fruchttaube, deren Gefieder in allen Karben des Regenbogens schillert und einen Schwarzen Kuckuck (Eudynamis hnnorata) zu erlegen, während Regner eine prächtige Nektarine (Arachnechthra pectoralis) schoss.",
-   "Drei blau und weiß i^-e färbte Baumlieste (Halcyon chloris), sowie mehrere Exemplare einer -A rt von Zwergreihern (ButoroYdes javanica) fielen uns zur Beute."
   ]
  },
  {
@@ -1718,12 +1578,12 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n462/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "boar": 1,
+   "boar": 2,
    "rhinoceros": 1,
    "buffalo": 1,
    "deer": 1
   },
-  "kill_sentences": 2,
+  "kill_sentences": 3,
   "first_person": 2,
   "quotes": [
    {
@@ -1741,9 +1601,17 @@
      "boar"
     ],
     "first_person": true
+   },
+   {
+    "text": "Frischlinge zu fangen und natürlich' anzuschneiden, soda:>» von vielen derselben nur mehr einzelne Oberreste zur Strecke gebm wurden.",
+    "animals": [
+     "boar"
+    ],
+    "first_person": false
    }
   ],
   "kills": [
+   "Frischlinge zu fangen und natürlich' anzuschneiden, soda:>» von vielen derselben nur mehr einzelne Oberreste zur Strecke gebm wurden.",
    "Ich schoss im ganzen 21 Stücke, danmter aber nur einen gil^ Keiler.",
    "Der Regent scheint gleichfalls ein passionierter Jäger zu sein, denn mit Stolz zeigte er mir seine Gewehre, sowie Häupter von erlegten Hirschen (Cervus hippelaphus), von Bantengs, dem wilden Rinde der indischen Inseln, und von Rhinocerossen."
   ]
@@ -2000,33 +1868,6 @@
   ]
  },
  {
-  "date": "1893-05-08",
-  "place_raw": "Port Kennedy, Thursday Island",
-  "place_id": "port-kennedy",
-  "region": "port-kennedy",
-  "band": 1,
-  "scan": 520,
-  "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n519/mode/1up",
-  "day_method": "aligned",
-  "animals": {
-   "bird": 1
-  },
-  "kill_sentences": 1,
-  "first_person": 1,
-  "quotes": [
-   {
-    "text": "Den Wirmittag verbrachte ich an Bord und erlegte vom EisenlUvk aus einen Seeadler, -- ein sehr schönes Exemplar von Haliaetus k'uoogastcr - der auf ein im Wasser schwimmendes Stück Fleisch gestolSen hatte.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": true
-   }
-  ],
-  "kills": [
-   "Den Wirmittag verbrachte ich an Bord und erlegte vom EisenlUvk aus einen Seeadler, -- ein sehr schönes Exemplar von Haliaetus k'uoogastcr - der auf ein im Wasser schwimmendes Stück Fleisch gestolSen hatte."
-  ]
- },
- {
   "date": "1893-05-16",
   "place_raw": "Sydney, Australia",
   "place_id": null,
@@ -2067,11 +1908,11 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n26/mode/1up",
   "day_method": "heading",
   "animals": {
-   "kangaroo": 5,
+   "kangaroo": 4,
    "bird": 2
   },
-  "kill_sentences": 7,
-  "first_person": 6,
+  "kill_sentences": 6,
+  "first_person": 5,
   "quotes": [
    {
     "text": "Nach einiger Zeit wurde die tolle Fahrt unterbrochen und Kriegsrath gehalten, während dessen ich drei reizende Papageien erlegte, die in der Nähe des Wagens eingefallen waren und alle Farben des Regenbogens in ihrem Gefieder aufwiesen.",
@@ -2088,14 +1929,14 @@
     "first_person": true
    },
    {
-    "text": "Durch die Schüsse wurde das Rudel, welches schon ganz nahe an meinen .Stand herangekommen war, in Verwirrung gebracht, das Leitkänguruh sprang von einem Platz zum anderen, die fierde ihm nach, so dass ich unmittelbar nacheinander noch drei Stücke derselben erlegen konnte.",
+    "text": "Macks wurde noch ein Trieb in einem licht bestockten Eucalyptus-Walde, der von hohem, gelbem Gras unterwachsen war, durchgeführt, wobei die Reiter zuerst zwei auffallend starke Känguruhs auftrieben, deren eines von Clam, das andere — in tollster Flucht — von mir mit der Kugel erlegt wurde.",
     "animals": [
      "kangaroo"
     ],
     "first_person": true
    },
    {
-    "text": "Macks wurde noch ein Trieb in einem licht bestockten Eucalyptus-Walde, der von hohem, gelbem Gras unterwachsen war, durchgeführt, wobei die Reiter zuerst zwei auffallend starke Känguruhs auftrieben, deren eines von Clam, das andere — in tollster Flucht — von mir mit der Kugel erlegt wurde.",
+    "text": "Zum Schlüsse kam mir längs eines Zaunes noch ein Känguruh angesprungen, das ich schoss, als es den Arm eines Wasserlaufes passierte.",
     "animals": [
      "kangaroo"
     ],
@@ -2105,7 +1946,6 @@
   "kills": [
    "Nach einiger Zeit wurde die tolle Fahrt unterbrochen und Kriegsrath gehalten, während dessen ich drei reizende Papageien erlegte, die in der Nähe des Wagens eingefallen waren und alle Farben des Regenbogens in ihrem Gefieder aufwiesen.",
    "Die Erlegung des ersten Känguruhs freute mich umsomehr, als dasselbe ein schönes Exemplar der großen Art Macropus giganteus war.",
-   "Durch die Schüsse wurde das Rudel, welches schon ganz nahe an meinen .Stand herangekommen war, in Verwirrung gebracht, das Leitkänguruh sprang von einem Platz zum anderen, die fierde ihm nach, so dass ich unmittelbar nacheinander noch drei Stücke derselben erlegen konnte.",
    "Während wir die erlegten Stücke betrachteten und deren F'elle abgestreift wurden, tauchten hinter uns abermals Känguruhs auf, welche, obgleich die Reiter alsbald im Sattel waren, nicht mehr gewendet werden konnten.",
    "Macks wurde noch ein Trieb in einem licht bestockten Eucalyptus-Walde, der von hohem, gelbem Gras unterwachsen war, durchgeführt, wobei die Reiter zuerst zwei auffallend starke Känguruhs auftrieben, deren eines von Clam, das andere — in tollster Flucht — von mir mit der Kugel erlegt wurde.",
    "Zum Schlüsse kam mir längs eines Zaunes noch ein Känguruh angesprungen, das ich schoss, als es den Arm eines Wasserlaufes passierte.",
@@ -2226,7 +2066,6 @@
   "day_method": "heading",
   "animals": {
    "kangaroo": 2,
-   "tiger": 1,
    "bear": 1
   },
   "kill_sentences": 3,
@@ -2235,7 +2074,6 @@
    {
     "text": "erbrachte uns eine Beute von 15 Wallabies und zwei Känguaihs, Soviel ich bemerken konnte, sind die Wallabies ^scheuer und vorsichtiger als die Känguruhs, denn sie werden schon luchtig, sobald sich die Treiber nur einigermaßen bemerkbar machen und setzen sich nach wenigen Sprüngen jedesmal aufrecht nieder, um nach allen Seiten hin zu äugen, wobei sie jede, auch die geringste Bewegung des Schützen w",
     "animals": [
-     "tiger",
      "kangaroo"
     ],
     "first_person": true
@@ -2385,37 +2223,10 @@
   ]
  },
  {
-  "date": "1893-06-07",
-  "place_raw": "Owa Raha, Solomon Islands",
-  "place_id": null,
-  "region": null,
-  "band": 2,
-  "scan": 102,
-  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n101/mode/1up",
-  "day_method": "aligned",
-  "animals": {
-   "bird": 1
-  },
-  "kill_sentences": 1,
-  "first_person": 0,
-  "quotes": [
-   {
-    "text": "Dennoch gelang es unserem Boolsmanne, der, Neptun gleichend, mit der Harpune bewehrt am Buge stand, einzelne merkwürdige Stücke zu erbeuten, so einen ganz wei(3en Rochen, eine Art Mondfisch, mehrere aalähnliche Fische mit reiherartigem Schnabel und spitzen Zähnen, eine selten schöne Languste mit schwarzgelb geränderten Extremitäten und grünen Rückenschildern.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": false
-   }
-  ],
-  "kills": [
-   "Dennoch gelang es unserem Boolsmanne, der, Neptun gleichend, mit der Harpune bewehrt am Buge stand, einzelne merkwürdige Stücke zu erbeuten, so einen ganz wei(3en Rochen, eine Art Mondfisch, mehrere aalähnliche Fische mit reiherartigem Schnabel und spitzen Zähnen, eine selten schöne Languste mit schwarzgelb geränderten Extremitäten und grünen Rückenschildern."
-  ]
- },
- {
   "date": "1893-06-08",
   "place_raw": "Owa Raha to Ugi, Solomon Islands",
-  "place_id": null,
-  "region": null,
+  "place_id": "owaraha",
+  "region": "solomon",
   "band": 2,
   "scan": 114,
   "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n113/mode/1up",
@@ -2449,8 +2260,8 @@
  {
   "date": "1893-06-09",
   "place_raw": "Ugi, Solomon Islands",
-  "place_id": null,
-  "region": null,
+  "place_id": "owaraha",
+  "region": "solomon",
   "band": 2,
   "scan": 118,
   "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n117/mode/1up",
@@ -2483,19 +2294,12 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n138/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "bird": 4,
+   "bird": 1,
    "kangaroo": 1
   },
-  "kill_sentences": 5,
-  "first_person": 4,
+  "kill_sentences": 2,
+  "first_person": 1,
   "quotes": [
-   {
-    "text": "wo ich auf SO Gänge weit einen großen, hühnerarrlgen Vogel entdeckte und schoss.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": true
-   },
    {
     "text": "Auf einer kleinen, mit Gras bedeckten Lichtung sprangen plötzlich zwei kleine Wallabics zu meinen Püßen auf, deren eines ich, das andere Bedford erlegte.",
     "animals": [
@@ -2504,26 +2308,16 @@
     "first_person": true
    },
    {
-    "text": "Meine nächste Beute waren zwei sehr große Fruchttauben (Carpophaga pinon) und ein Exemplar einer mir ganz neuen, schwarz» gelb und weiß gefärbten Maina-Art (Eulabes dumonti), welches auf einem Eucalyptus-Baume saö.",
+    "text": "Die erste Beute war ein schön gerarbier Papagei, der.",
     "animals": [
      "bird"
     ],
-    "first_person": true
-   },
-   {
-    "text": "Ein Nachtreiher (Nycticorax caledonicus), den ich schoss, als er über meinen Kopf strich, ließ mich die Nähe von Wasser ahnen, und in der That kam ich bald an einen mit Röhricht überzogenen Tümpel, in dem sich allerhand Wasserwild umhertrieb.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": true
+    "first_person": false
    }
   ],
   "kills": [
    "Die erste Beute war ein schön gerarbier Papagei, der.",
-   "wo ich auf SO Gänge weit einen großen, hühnerarrlgen Vogel entdeckte und schoss.",
-   "Auf einer kleinen, mit Gras bedeckten Lichtung sprangen plötzlich zwei kleine Wallabics zu meinen Püßen auf, deren eines ich, das andere Bedford erlegte.",
-   "Meine nächste Beute waren zwei sehr große Fruchttauben (Carpophaga pinon) und ein Exemplar einer mir ganz neuen, schwarz» gelb und weiß gefärbten Maina-Art (Eulabes dumonti), welches auf einem Eucalyptus-Baume saö.",
-   "Ein Nachtreiher (Nycticorax caledonicus), den ich schoss, als er über meinen Kopf strich, ließ mich die Nähe von Wasser ahnen, und in der That kam ich bald an einen mit Röhricht überzogenen Tümpel, in dem sich allerhand Wasserwild umhertrieb."
+   "Auf einer kleinen, mit Gras bedeckten Lichtung sprangen plötzlich zwei kleine Wallabics zu meinen Püßen auf, deren eines ich, das andere Bedford erlegte."
   ]
  },
  {
@@ -2536,11 +2330,10 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n145/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "bird": 1,
-   "kangaroo": 1
+   "bird": 1
   },
-  "kill_sentences": 2,
-  "first_person": 2,
+  "kill_sentences": 1,
+  "first_person": 1,
   "quotes": [
    {
     "text": "Ich hatte die Hoffnung auf ein günstiges Ergebnis bereits aufgegeben, als ich 7AVe\\ selten schön porpurroth und citrongelb gefärbte Tauben (Ptilopus iozonus) entdeckte, die ich erbeutete.",
@@ -2548,18 +2341,10 @@
      "bird"
     ],
     "first_person": true
-   },
-   {
-    "text": "denn sie rauchten Tabak, welchen sie von mir erbettelt hatten, brieten das frischgeschossene Wallaby und verzehrten den seltsamen Braten mit Behagen.",
-    "animals": [
-     "kangaroo"
-    ],
-    "first_person": true
    }
   ],
   "kills": [
-   "Ich hatte die Hoffnung auf ein günstiges Ergebnis bereits aufgegeben, als ich 7AVe\\ selten schön porpurroth und citrongelb gefärbte Tauben (Ptilopus iozonus) entdeckte, die ich erbeutete.",
-   "denn sie rauchten Tabak, welchen sie von mir erbettelt hatten, brieten das frischgeschossene Wallaby und verzehrten den seltsamen Braten mit Behagen."
+   "Ich hatte die Hoffnung auf ein günstiges Ergebnis bereits aufgegeben, als ich 7AVe\\ selten schön porpurroth und citrongelb gefärbte Tauben (Ptilopus iozonus) entdeckte, die ich erbeutete."
   ]
  },
  {
@@ -2572,10 +2357,10 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n166/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "bird": 2
+   "bird": 1
   },
-  "kill_sentences": 2,
-  "first_person": 2,
+  "kill_sentences": 1,
+  "first_person": 1,
   "quotes": [
    {
     "text": "Ich bemühte mich vor allem, einen der schwarzen Kakadus» Welche sich durch ihr schönes, mit Weiß gleichsam überpudertes Gefieder» hellroth gefärbte Backen und den prächtigen, aufrecht stehenden Schopf auszeichnen, zu erlegen;",
@@ -2583,18 +2368,10 @@
      "bird"
     ],
     "first_person": true
-   },
-   {
-    "text": "Dafür erlegte ich zwei aufgebäumte Bu.schhühner (Talegaltus fuscirostris), mehrere Fischer einer mir neuen I •*^rt (Suuromarptis gaudichaudi) und drei große Tauben.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": true
    }
   ],
   "kills": [
-   "Ich bemühte mich vor allem, einen der schwarzen Kakadus» Welche sich durch ihr schönes, mit Weiß gleichsam überpudertes Gefieder» hellroth gefärbte Backen und den prächtigen, aufrecht stehenden Schopf auszeichnen, zu erlegen;",
-   "Dafür erlegte ich zwei aufgebäumte Bu.schhühner (Talegaltus fuscirostris), mehrere Fischer einer mir neuen I •*^rt (Suuromarptis gaudichaudi) und drei große Tauben."
+   "Ich bemühte mich vor allem, einen der schwarzen Kakadus» Welche sich durch ihr schönes, mit Weiß gleichsam überpudertes Gefieder» hellroth gefärbte Backen und den prächtigen, aufrecht stehenden Schopf auszeichnen, zu erlegen;"
   ]
  },
  {
@@ -2607,20 +2384,11 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n171/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "bird": 2,
-   "deer": 1
+   "bird": 1
   },
-  "kill_sentences": 2,
-  "first_person": 2,
+  "kill_sentences": 1,
+  "first_person": 1,
   "quotes": [
-   {
-    "text": "Ich hatte diesmal, ausgenommen zwei Buschhühner, wieder nichts gesehen, doch waren neben mir drei vSchüsse gefallen, mit welchen Clam einen sehr flüchtigen Sechserhirsch erlegt hatte.",
-    "animals": [
-     "deer",
-     "bird"
-    ],
-    "first_person": true
-   },
    {
     "text": "Bei Sonnenuntergang traf ich an der Küste wieder mit meinen Herren zusammen, deren einige glücklicher gewesen waren als ich — Beweis dafür, dass sie einen schwarzen Kakadu, zahlreiche Papageien und einen schonen, lichtbraunen Reiher erbeutet hatten.",
     "animals": [
@@ -2630,8 +2398,7 @@
    }
   ],
   "kills": [
-   "Bei Sonnenuntergang traf ich an der Küste wieder mit meinen Herren zusammen, deren einige glücklicher gewesen waren als ich — Beweis dafür, dass sie einen schwarzen Kakadu, zahlreiche Papageien und einen schonen, lichtbraunen Reiher erbeutet hatten.",
-   "Ich hatte diesmal, ausgenommen zwei Buschhühner, wieder nichts gesehen, doch waren neben mir drei vSchüsse gefallen, mit welchen Clam einen sehr flüchtigen Sechserhirsch erlegt hatte."
+   "Bei Sonnenuntergang traf ich an der Küste wieder mit meinen Herren zusammen, deren einige glücklicher gewesen waren als ich — Beweis dafür, dass sie einen schwarzen Kakadu, zahlreiche Papageien und einen schonen, lichtbraunen Reiher erbeutet hatten."
   ]
  },
  {
@@ -2672,10 +2439,10 @@
   "day_method": "aligned",
   "animals": {
    "deer": 2,
-   "bird": 2
+   "bird": 1
   },
-  "kill_sentences": 4,
-  "first_person": 3,
+  "kill_sentences": 3,
+  "first_person": 2,
   "quotes": [
    {
     "text": "Trotzdem wir den Treibern auf das eindringlichste mit Worten und Geberden, Bitten und Befehlen eingeschärft hatten, die Hunde nicht auszulassen und sich auf dem Wege zum Triebe ruhig zu verhalten, hörten wir ihr Geschrei fortwährend durch den Wald klingen, ja bald gaben auch die Hunde jagend Laut und brachten ein Hirschkalb in unsere Nähe, welches ich aber leider fehlte.",
@@ -2692,13 +2459,6 @@
     "first_person": true
    },
    {
-    "text": "Ich war so glückltch, in kurzen Intervallen durch Zufall drei Raubvögel zu erlegen, und zvv^ar einen mächtigen weißbauchigen Seeadler (Haliaetus leucogaster) mit weißem Leibe» gebändertem Stoß und taubengrauen Schwingen, der auf einem hohen Ast aufgebäumt hatte, ferner einen Fischadler (Pandion leucocephalus), dem europäischen sehr ähnlich, und einen Falken (Falco moluccensis), der an unseren Thur",
-    "animals": [
-     "bird"
-    ],
-    "first_person": true
-   },
-   {
     "text": "Da wir sahen, dass die Treiber der Jagd schon überdrüssig waren und gar keine Ordnung mehr herrschte, wendeten wir unsere Aufmerksamkeit wieder der zahlreich vertretenen Vogelwelt zu und erlegten eine beträchtliche Anzahl großer, grauer und gelber Tauben, sowie mehrere Papageien.",
     "animals": [
      "bird"
@@ -2709,62 +2469,7 @@
   "kills": [
    "Trotzdem wir den Treibern auf das eindringlichste mit Worten und Geberden, Bitten und Befehlen eingeschärft hatten, die Hunde nicht auszulassen und sich auf dem Wege zum Triebe ruhig zu verhalten, hörten wir ihr Geschrei fortwährend durch den Wald klingen, ja bald gaben auch die Hunde jagend Laut und brachten ein Hirschkalb in unsere Nähe, welches ich aber leider fehlte.",
    "doch als ich dasselbe erlegt halte, zeigte sich, dass es bereits von einem anderen Schützen einen Uufschuss erhalten hatte, Nach Beendigung des langwierigen Triebes stellte es sich heraus, dass fast alle Schüsse von den eingeborenen Schützen abgegeben worden waren, welche in der That guten Anlauf gehabt und, freilich ohne jedes Resultat, viel Hochwild, darunter einen guten Hirsch» mit iichrot besc",
-   "Da wir sahen, dass die Treiber der Jagd schon überdrüssig waren und gar keine Ordnung mehr herrschte, wendeten wir unsere Aufmerksamkeit wieder der zahlreich vertretenen Vogelwelt zu und erlegten eine beträchtliche Anzahl großer, grauer und gelber Tauben, sowie mehrere Papageien.",
-   "Ich war so glückltch, in kurzen Intervallen durch Zufall drei Raubvögel zu erlegen, und zvv^ar einen mächtigen weißbauchigen Seeadler (Haliaetus leucogaster) mit weißem Leibe» gebändertem Stoß und taubengrauen Schwingen, der auf einem hohen Ast aufgebäumt hatte, ferner einen Fischadler (Pandion leucocephalus), dem europäischen sehr ähnlich, und einen Falken (Falco moluccensis), der an unseren Thur"
-  ]
- },
- {
-  "date": "1893-07-24",
-  "place_raw": "Canton",
-  "place_id": "canton",
-  "region": "canton",
-  "band": 2,
-  "scan": 252,
-  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n251/mode/1up",
-  "day_method": "heading",
-  "animals": {
-   "bird": 1
-  },
-  "kill_sentences": 1,
-  "first_person": 0,
-  "quotes": [
-   {
-    "text": "In di:n Söhnen des Tschung-kuock (Dschong-koe), des »Reiches der Mitte*, ist, wenngleich sie, durch die eiserne Faust eunvpäischer Staaten wiederholt gebeugt und in vielfachen Handelsbcziehungen mit der alten Welt stehend, die Überlegenheit abendländischer Cultur sehr genau kennen, die AbschlieOung gegen alle fremden Elemente und deren EinOuss so tief gewurzelt, dass von einer irgendwie nachhaltig",
-    "animals": [
-     "bird"
-    ],
-    "first_person": false
-   }
-  ],
-  "kills": [
-   "In di:n Söhnen des Tschung-kuock (Dschong-koe), des »Reiches der Mitte*, ist, wenngleich sie, durch die eiserne Faust eunvpäischer Staaten wiederholt gebeugt und in vielfachen Handelsbcziehungen mit der alten Welt stehend, die Überlegenheit abendländischer Cultur sehr genau kennen, die AbschlieOung gegen alle fremden Elemente und deren EinOuss so tief gewurzelt, dass von einer irgendwie nachhaltig"
-  ]
- },
- {
-  "date": "1893-08-08",
-  "place_raw": "Kyoto, Japan",
-  "place_id": "kyoto",
-  "region": "kyoto",
-  "band": 2,
-  "scan": 345,
-  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n344/mode/1up",
-  "day_method": "aligned",
-  "animals": {
-   "tiger": 1
-  },
-  "kill_sentences": 1,
-  "first_person": 0,
-  "quotes": [
-   {
-    "text": "den neuen Ideen musste ein günstigerer Nährboden gegeben werden als die 5^tätte alter Erinnerung, So wurde denn die Residenz des Mikados nach Tokio verlegt und damit die Hegemonie Kiötos gebrochen — erstere Stadt bedeutet die Zukunft, letztere die Vergangenheit Japans, Dem conservativen Japaner aber ist Kiöto, obschon dieses nicht nur in politischer, sondern auch in materieller Beziehung zu Gunste",
-    "animals": [
-     "tiger"
-    ],
-    "first_person": false
-   }
-  ],
-  "kills": [
-   "den neuen Ideen musste ein günstigerer Nährboden gegeben werden als die 5^tätte alter Erinnerung, So wurde denn die Residenz des Mikados nach Tokio verlegt und damit die Hegemonie Kiötos gebrochen — erstere Stadt bedeutet die Zukunft, letztere die Vergangenheit Japans, Dem conservativen Japaner aber ist Kiöto, obschon dieses nicht nur in politischer, sondern auch in materieller Beziehung zu Gunste"
+   "Da wir sahen, dass die Treiber der Jagd schon überdrüssig waren und gar keine Ordnung mehr herrschte, wendeten wir unsere Aufmerksamkeit wieder der zahlreich vertretenen Vogelwelt zu und erlegten eine beträchtliche Anzahl großer, grauer und gelber Tauben, sowie mehrere Papageien."
   ]
  },
  {
@@ -2777,64 +2482,13 @@
   "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n377/mode/1up",
   "day_method": "aligned",
   "animals": {
-   "bird": 4
-  },
-  "kill_sentences": 4,
-  "first_person": 0,
-  "quotes": [
-   {
-    "text": "Hat nun der tauchende Cormoran eine Anzahl Fische erhascht und im Kropf untergebracht, so wird der Vogel ins Boot gezogen und von seinem Herrn durch einen Druck gegen den Hals der Beute beraubt.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": false
-   },
-   {
-    "text": "vor ihnen die untcroder emportauchenden Cormorane, deren bald dieser, bald jener in da^ Fahrzeug gehisst wurde, um, der Beute entledigt, wieder in der Flut zu ^rersch winden;",
-    "animals": [
-     "bird"
-    ],
-    "first_person": false
-   },
-   {
-    "text": "Die Feuer erhellten |das Wasser bis auf die Sohle des Flussbettes, Schwärme von Fischen schössen erschreckt hin und her, stets verfolgt von den Cormoranen, und besondere Lebhaftigkeit entwickelte sich unter Wasser, wenn zwei der braven Taucher einen und denselben Fisch verfolgten, da sich idänn ein wahrer Wettstreit entspann, bis aus diesem einer der Vögel als Sieger hervorgieng.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": false
-   },
-   {
-    "text": "Einem Cormoran wurden vor unseren Augen nicht weniger als IG Fische aus dem Kröpfe genommen — eine Zahl, die ganz auOer V^erhältnis zu der Gröf5e des jV^ogels steht, I Die erbeuteten Fische gehörten alle zu den Salmoniden^ die sehr geschätzt sind und ein Lieblingsgericht des Mikadns bilden sollen, su dass sie angeblich nie auf seiner Tafel fehlen dürfen.",
-    "animals": [
-     "bird"
-    ],
-    "first_person": false
-   }
-  ],
-  "kills": [
-   "Hat nun der tauchende Cormoran eine Anzahl Fische erhascht und im Kropf untergebracht, so wird der Vogel ins Boot gezogen und von seinem Herrn durch einen Druck gegen den Hals der Beute beraubt.",
-   "vor ihnen die untcroder emportauchenden Cormorane, deren bald dieser, bald jener in da^ Fahrzeug gehisst wurde, um, der Beute entledigt, wieder in der Flut zu ^rersch winden;",
-   "Die Feuer erhellten |das Wasser bis auf die Sohle des Flussbettes, Schwärme von Fischen schössen erschreckt hin und her, stets verfolgt von den Cormoranen, und besondere Lebhaftigkeit entwickelte sich unter Wasser, wenn zwei der braven Taucher einen und denselben Fisch verfolgten, da sich idänn ein wahrer Wettstreit entspann, bis aus diesem einer der Vögel als Sieger hervorgieng.",
-   "Einem Cormoran wurden vor unseren Augen nicht weniger als IG Fische aus dem Kröpfe genommen — eine Zahl, die ganz auOer V^erhältnis zu der Gröf5e des jV^ogels steht, I Die erbeuteten Fische gehörten alle zu den Salmoniden^ die sehr geschätzt sind und ein Lieblingsgericht des Mikadns bilden sollen, su dass sie angeblich nie auf seiner Tafel fehlen dürfen."
-  ]
- },
- {
-  "date": "1893-09-10",
-  "place_raw": "Banff to Penticton, Canada",
-  "place_id": "banff",
-  "region": "canada",
-  "band": 2,
-  "scan": 456,
-  "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n455/mode/1up",
-  "day_method": "heading",
-  "animals": {
    "bird": 1
   },
   "kill_sentences": 1,
   "first_person": 0,
   "quotes": [
    {
-    "text": "Ein Fischadler zieht in scharfem Flug über den Wasserspiegel, von Zeit zu Zeit auf Beute herabstoßend;",
+    "text": "vor ihnen die untcroder emportauchenden Cormorane, deren bald dieser, bald jener in da^ Fahrzeug gehisst wurde, um, der Beute entledigt, wieder in der Flut zu ^rersch winden;",
     "animals": [
      "bird"
     ],
@@ -2842,7 +2496,7 @@
    }
   ],
   "kills": [
-   "Ein Fischadler zieht in scharfem Flug über den Wasserspiegel, von Zeit zu Zeit auf Beute herabstoßend;"
+   "vor ihnen die untcroder emportauchenden Cormorane, deren bald dieser, bald jener in da^ Fahrzeug gehisst wurde, um, der Beute entledigt, wieder in der Flut zu ^rersch winden;"
   ]
  }
 ]

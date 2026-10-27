@@ -57,32 +57,24 @@
      "1893-09-23",
      "1893-09-24"
     ],
-    "kill_sentences": 8,
+    "kill_sentences": 6,
     "hunts": [
-     "hunt-1893-01-10-ceylon",
      "hunt-1893-02-13-agra",
      "hunt-1893-02-20-alwar",
      "hunt-1893-03-09-nepal",
      "hunt-1893-05-06-port-kennedy",
      "hunt-1893-05-18-nsw-west",
-     "hunt-1893-05-23-badgery",
-     "hunt-1893-06-25-aru"
+     "hunt-1893-05-23-badgery"
     ],
     "kills_by_hunt": {
-     "hunt-1893-01-10-ceylon": 1,
      "hunt-1893-02-13-agra": 1,
      "hunt-1893-02-20-alwar": 1,
      "hunt-1893-03-09-nepal": 1,
      "hunt-1893-05-06-port-kennedy": 1,
      "hunt-1893-05-18-nsw-west": 1,
-     "hunt-1893-05-23-badgery": 1,
-     "hunt-1893-06-25-aru": 1
+     "hunt-1893-05-23-badgery": 1
     },
     "kill_quotes": [
-     {
-      "date": "1893-01-11",
-      "text": "Clam hatte dann eine Affenfamilie verfolgt und nach vieli Laufen und Schießen zwei Mitglieder derselben erlegt."
-     },
      {
       "date": "1893-02-15",
       "text": "Die Herren waren flugs mit ihren Stutzen aus den Waggons, während ich nur als Zuschauer fungierte, da ich ja schon tagszuvor drei Nilgaus erlegt hatte, Clam streckte einen Stier im Feuer, Wurmbrand schweißte einen anderen stark an, den er nach langer Nachsuche endlich ausmachte, Prönay fehlte einen Stier in der Flucht."
@@ -90,6 +82,10 @@
      {
       "date": "1893-02-27",
       "text": "Nach diesem ermunternden Erfolge hub abermals die heitere Eisenbahnpürsche an, in deren Verlaufe wir noch dreimal Gelegenheil hatten, an Black-bucks heranzukommen, so dass ich einen starken Bock, Clam eine Gais erlegen konnte."
+     },
+     {
+      "date": "1893-03-12",
+      "text": "knallten derselben entlang auch schon Schüsse auf mannigfaltiges WTM ich schoss einen starken Keiler, Clam ein Stachelschwein;"
      }
     ]
    },
@@ -238,7 +234,7 @@
      "1893-09-14",
      "1893-09-22"
     ],
-    "kill_sentences": 10,
+    "kill_sentences": 8,
     "hunts": [
      "hunt-1893-02-13-agra",
      "hunt-1893-02-20-alwar",
@@ -247,8 +243,8 @@
     ],
     "kills_by_hunt": {
      "hunt-1893-02-13-agra": 1,
-     "hunt-1893-02-20-alwar": 3,
-     "hunt-1893-03-09-nepal": 4,
+     "hunt-1893-02-20-alwar": 2,
+     "hunt-1893-03-09-nepal": 3,
      "hunt-1893-05-23-badgery": 2
     },
     "kill_quotes": [
@@ -258,11 +254,11 @@
      },
      {
       "date": "1893-02-22",
-      "text": "In der That kam der angeschossene Hirsch ■•^ch wenigen Minuten in Sicht und endete unter drei von mir und Wurmbrand abgegebenen Schüssen."
+      "text": "Wurmbrand halte das Waidmannsheü, eine Gazelle zu erlegen."
      },
      {
-      "date": "1893-02-22",
-      "text": "Wurmbrand halte das Waidmannsheü, eine Gazelle zu erlegen."
+      "date": "1893-02-27",
+      "text": "Ich pürschte nun einige hundert Meter vor und erlegte eine Gazellengais sowie einen Kitzbock, während Wurmbrand auf einen starken Bock schoss."
      }
     ]
    },
@@ -464,18 +460,18 @@
      "1893-09-14",
      "1893-09-23"
     ],
-    "kill_sentences": 6,
+    "kill_sentences": 4,
     "hunts": [
      "hunt-1893-02-13-agra",
      "hunt-1893-03-09-nepal",
      "hunt-1893-05-23-badgery",
-     "hunt-1893-06-09-unknown"
+     "hunt-1893-06-08-solomon"
     ],
     "kills_by_hunt": {
      "hunt-1893-02-13-agra": 1,
-     "hunt-1893-03-09-nepal": 3,
+     "hunt-1893-03-09-nepal": 1,
      "hunt-1893-05-23-badgery": 1,
-     "hunt-1893-06-09-unknown": 1
+     "hunt-1893-06-08-solomon": 1
     },
     "kill_quotes": [
      {
@@ -487,8 +483,8 @@
       "text": ".Prönay und Stockinger hatten auf einen Panther im hohen Grase geschossen und ihn gefehlt."
      },
      {
-      "date": "1893-03-16",
-      "text": "Pronay schoss «inen .Sumpfhirsch von sechs Enden."
+      "date": "1893-05-25",
+      "text": "Leider gelang dieser Versuch nicht, da das Wild an den Flanken ausbrach, so dass nur Wurmbrand und Pronay je ein Wallaby schössen, während ich mich mit einem Hasen begnügte."
      }
     ]
    },
@@ -630,21 +626,17 @@
      "1893-03-29",
      "1893-05-14"
     ],
-    "kill_sentences": 2,
+    "kill_sentences": 1,
     "hunts": [
      "hunt-1893-03-09-nepal"
     ],
     "kills_by_hunt": {
-     "hunt-1893-03-09-nepal": 2
+     "hunt-1893-03-09-nepal": 1
     },
     "kill_quotes": [
      {
       "date": "1893-03-12",
       "text": ".Prönay und Stockinger hatten auf einen Panther im hohen Grase geschossen und ihn gefehlt."
-     },
-     {
-      "date": "1893-03-21",
-      "text": "Stockinger und Prönay wollten die hiedurch eingerissene Lücke verstellen, verloren aber hiebei die Direction, erschienen im Jagdeifer plötzlich mitten im Kreise vor uns und eröffneten hier, auf den von Wurmbrand angeschossenen Tiger stoßend, auf diesen ein wohlgenährtes Schnellfeuer, so dass er zum Schlüsse von sieben Kugeln durchbohrt auf die Strecke gebracht wurde."
      }
     ]
    },
@@ -1586,19 +1578,10 @@
      "1893-05-06",
      "1893-06-09"
     ],
-    "kill_sentences": 1,
-    "hunts": [
-     "hunt-1893-04-05-unknown"
-    ],
-    "kills_by_hunt": {
-     "hunt-1893-04-05-unknown": 1
-    },
-    "kill_quotes": [
-     {
-      "date": "1893-04-05",
-      "text": "Gleichwohl gelang es mir, eine Fruchttaube, deren Gefieder in allen Karben des Regenbogens schillert und einen Schwarzen Kuckuck (Eudynamis hnnorata) zu erlegen, während Regner eine prächtige Nektarine (Arachnechthra pectoralis) schoss."
-     }
-    ]
+    "kill_sentences": 0,
+    "hunts": [],
+    "kills_by_hunt": {},
+    "kill_quotes": []
    },
    "gnd": {
     "status": "none",
