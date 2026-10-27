@@ -12,15 +12,15 @@
    },
    "properties": {
     "id": "hunt-1893-01-10-ceylon",
-    "label": "Kala Wewa (Ceylon) / Kandy (Ceylon)",
+    "label": "Kala Wewa (Ceylon)",
     "start": "1893-01-10",
     "end": "1893-01-12",
     "animals": "Elefant, Affe, Vögel (sonstige), Büffel/Banteng",
     "kill_sentences": 8,
-    "newspaper_issues_high": 6,
+    "newspaper_issues_high": 7,
     "kulturpool_direct": 1,
     "photos": 3,
-    "vault_ids": "ke-place-f7bc511558, ke-place-b0bb1cc60a"
+    "vault_ids": "ke-place-f7bc511558"
    }
   },
   {
@@ -33,10 +33,10 @@
     ]
    },
    "properties": {
-    "id": "hunt-1893-01-21-hyderabad",
+    "id": "hunt-1893-01-22-hyderabad",
     "label": "Tandur (Hyderabad State) / Hyderabad",
-    "start": "1893-01-21",
-    "end": "1893-01-25",
+    "start": "1893-01-22",
+    "end": "1893-01-26",
     "animals": "Hirsch, Tiger, Vögel (sonstige)",
     "kill_sentences": 9,
     "newspaper_issues_high": 11,
@@ -81,7 +81,7 @@
     "label": "Sariska (Alwar State)",
     "start": "1893-02-20",
     "end": "1893-02-27",
-    "animals": "Hirsch, Tiger, Antilope, Vögel (sonstige)",
+    "animals": "Tiger, Hirsch, Antilope, Vögel (sonstige)",
     "kill_sentences": 22,
     "newspaper_issues_high": 7,
     "kulturpool_direct": 0,
@@ -99,9 +99,9 @@
     ]
    },
    "properties": {
-    "id": "hunt-1893-02-28-jodhpur",
+    "id": "hunt-1893-03-01-jodhpur",
     "label": "Jodhpur",
-    "start": "1893-02-28",
+    "start": "1893-03-01",
     "end": "1893-03-02",
     "animals": "Hirsch, Wildschwein, Vögel (sonstige), Antilope",
     "kill_sentences": 5,
@@ -143,12 +143,12 @@
     ]
    },
    "properties": {
-    "id": "hunt-1893-03-10-nepal",
+    "id": "hunt-1893-03-09-nepal",
     "label": "Nepal Terai (Dakna Bāgh, Beli …)",
-    "start": "1893-03-10",
+    "start": "1893-03-09",
     "end": "1893-03-26",
     "animals": "Tiger, Vögel (sonstige), Hirsch, Elefant",
-    "kill_sentences": 33,
+    "kill_sentences": 39,
     "newspaper_issues_high": 8,
     "kulturpool_direct": 1,
     "photos": 2,
@@ -196,7 +196,7 @@
     "newspaper_issues_high": 5,
     "kulturpool_direct": 0,
     "photos": 0,
-    "vault_ids": "ke-place-1c687368ce"
+    "vault_ids": "ke-place-daf25f722e, ke-place-1c687368ce"
    }
   },
   {
@@ -231,9 +231,9 @@
     ]
    },
    "properties": {
-    "id": "hunt-1893-06-15-new-guinea",
+    "id": "hunt-1893-06-16-new-guinea",
     "label": "Port Moresby / Laroki (New Guinea)",
-    "start": "1893-06-15",
+    "start": "1893-06-16",
     "end": "1893-06-17",
     "animals": "Vögel (sonstige), Känguru",
     "kill_sentences": 7,
@@ -258,7 +258,7 @@
     "start": "1893-06-29",
     "end": "1893-06-30",
     "animals": "Vögel (sonstige), Hirsch",
-    "kill_sentences": 6,
+    "kill_sentences": 5,
     "newspaper_issues_high": 6,
     "kulturpool_direct": 0,
     "photos": 0,

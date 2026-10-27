@@ -3,32 +3,18 @@
 Output: data/enrichment.json (full), data/hunts.geojson (one point per episode)
 """
 import json
-import re
 
 from common import ROOT, load, save
 
 ANIMALS = {a["id"]: a for a in json.loads((ROOT / "animals.json").read_text())}
-PLACES = {p["id"]: p for p in json.loads((ROOT / "places.json").read_text())}
+PLACES = {p["id"]: p for p in load("places_resolved.json")}
 ARTICLES_PER_EPISODE = 10
-VAULT = ROOT.parent / "Vault" / "Archive_Indien_Schiffreisen"
-
-
-def vault_ids():
-    """Note title -> YAML `id` of the vault notes (properties added by the team's vault cleaner)."""
-    ids = {}
-    for f in VAULT.rglob("*.md"):
-        if m := re.search(r"^id:\s*(\S+)", f.read_text(encoding="utf-8", errors="ignore")[:500], re.M):
-            ids[f.stem] = m.group(1)
-    return ids
-
-
-VAULT_IDS = vault_ids()
 
 
 def place(pid):
+    """Hunting place with Wikidata coordinates and vault ids (00_places.py, from normalization/)."""
     p = PLACES[pid]
-    return {k: p.get(k) for k in ("id", "label", "lat", "lon", "wikidata", "coord_note")} | {
-        "vault": [{"note": t, "id": VAULT_IDS.get(t)} for t in p.get("vault", [])]}
+    return {k: p.get(k) for k in ("id", "label", "lat", "lon", "wikidata", "coord_note", "vault", "on_route")}
 
 
 def main():

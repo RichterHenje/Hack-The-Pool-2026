@@ -36,6 +36,25 @@ def get_json(url, params=None, retries=3):
             time.sleep(2 * (attempt + 1))
 
 
+def get_text(url, retries=3):
+    """GET an HTML/text resource, cached on disk by URL (same cache as get_json)."""
+    path = CACHE / (hashlib.sha1(url.encode()).hexdigest() + ".html")
+    if path.exists():
+        return path.read_text()
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                text = r.read().decode("utf-8", "ignore")
+            path.write_text(text)
+            time.sleep(0.5)
+            return text
+        except Exception:
+            if attempt == retries - 1:
+                raise
+            time.sleep(2 * (attempt + 1))
+
+
 def load(name):
     return json.loads((DATA / name).read_text())
 

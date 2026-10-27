@@ -1,0 +1,692 @@
+{
+ "source": "normalization/json/ortschaften.json + Wikidata",
+ "places": [
+  {
+   "vault_id": "ke-place-4ebbd66048",
+   "vault_note": "Pola, Istrien",
+   "label": "Pola, Istrien",
+   "route_positions": [
+    1
+   ],
+   "wikidata": "Q4656",
+   "wikidata_label": "Pula",
+   "lat": 44.8703,
+   "lon": 13.8456,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-082e80f4dd",
+   "vault_note": "Triest",
+   "label": "Triest",
+   "route_positions": [
+    2
+   ],
+   "wikidata": "Q546",
+   "wikidata_label": "Triest",
+   "lat": 45.6503,
+   "lon": 13.7703,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-30c32adc7f",
+   "vault_note": "Port Said",
+   "label": "Port Said",
+   "route_positions": [
+    3
+   ],
+   "wikidata": "Q134509",
+   "wikidata_label": "Port Said",
+   "lat": 31.2625,
+   "lon": 32.3061,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-5465531c5a",
+   "vault_note": "Colombo (Hauptstadt, Sri Lanka)",
+   "label": "Colombo (Hauptstadt, Sri Lanka)",
+   "route_positions": [
+    4
+   ],
+   "wikidata": "Q35381",
+   "wikidata_label": "Colombo",
+   "lat": 6.9267,
+   "lon": 79.8606,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-b0bb1cc60a",
+   "vault_note": "Kandy, Sri Lanka",
+   "label": "Kandy, Sri Lanka",
+   "route_positions": [
+    5
+   ],
+   "wikidata": "Q203197",
+   "wikidata_label": "Kandy",
+   "lat": 7.2931,
+   "lon": 80.635,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-f7bc511558",
+   "vault_note": "Kala Wewa, Sri Lanka",
+   "label": "Kala Wewa, Sri Lanka",
+   "route_positions": [
+    6
+   ],
+   "wikidata": "Q7354820",
+   "wikidata_label": "Kala Wewa",
+   "lat": 8.0135,
+   "lon": 80.5563,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-88273659d6",
+   "vault_note": "Bombay (Indien, Heut. Mumbai)",
+   "label": "Bombay (Indien, Heut. Mumbai)",
+   "route_positions": [
+    7
+   ],
+   "wikidata": "Q1156",
+   "wikidata_label": "Mumbai",
+   "lat": 19.0758,
+   "lon": 72.8775,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-eb5c1a35e4",
+   "vault_note": "Tandur, Telangana, Indien",
+   "label": "Tandur, Telangana, Indien",
+   "route_positions": [
+    8
+   ],
+   "wikidata": "Q720922",
+   "wikidata_label": "Tandur",
+   "lat": 17.23,
+   "lon": 77.58,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-f2704ec7e8",
+   "vault_note": "Nizamate of Hyderabad, State, (Indien)",
+   "label": "Nizamate of Hyderabad, State, (Indien)",
+   "route_positions": [
+    9
+   ],
+   "wikidata": "Q1361",
+   "wikidata_label": "Hyderabad",
+   "lat": 17.3617,
+   "lon": 78.4747,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-c16efe6ffc",
+   "vault_note": "Gwalior, (Madhya Pradesh, Indien)",
+   "label": "Gwalior, (Madhya Pradesh, Indien)",
+   "route_positions": [
+    10
+   ],
+   "wikidata": "Q158467",
+   "wikidata_label": "Gwalior",
+   "lat": 26.2125,
+   "lon": 78.1775,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-86d6613db1",
+   "vault_note": "Calcutta (Indien)",
+   "label": "Calcutta (Indien)",
+   "route_positions": [
+    11
+   ],
+   "wikidata": "Q1348",
+   "wikidata_label": "Kolkata",
+   "lat": 22.5675,
+   "lon": 88.37,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-2ae78b9ae3",
+   "vault_note": "Darjeeling, (West Bengal, Indien)",
+   "label": "Darjeeling, (West Bengal, Indien)",
+   "route_positions": [
+    12
+   ],
+   "wikidata": "Q169997",
+   "wikidata_label": "Darjeeling",
+   "lat": 27.0375,
+   "lon": 88.2631,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-25cf049ce2",
+   "vault_note": "Agra, (U.P.), Indien",
+   "label": "Agra, (U.P.), Indien",
+   "route_positions": [
+    13
+   ],
+   "wikidata": "Q42941",
+   "wikidata_label": "Agra",
+   "lat": 27.18,
+   "lon": 78.02,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-1cae542c46",
+   "vault_note": "Delhi (Indien)",
+   "label": "Delhi (Indien)",
+   "route_positions": [
+    14
+   ],
+   "wikidata": "Q1353",
+   "wikidata_label": "Delhi",
+   "lat": 28.6667,
+   "lon": 77.2167,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-224c44805c",
+   "vault_note": "Alwar, Rajputana (Indien)",
+   "label": "Alwar, Rajputana (Indien)",
+   "route_positions": [
+    15
+   ],
+   "wikidata": "Q2572177",
+   "wikidata_label": "Sariska-Nationalpark",
+   "lat": 27.3175,
+   "lon": 76.4369,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-21307d9f52",
+   "vault_note": "Jodhpur, Rajasthan, Indien",
+   "label": "Jodhpur, Rajasthan, Indien",
+   "route_positions": [
+    16
+   ],
+   "wikidata": "Q200019",
+   "wikidata_label": "Jodhpur",
+   "lat": 26.2944,
+   "lon": 73.0278,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-342139a06d",
+   "vault_note": "Jaipur (Jeypore), Rajasthan, Indien",
+   "label": "Jaipur (Jeypore), Rajasthan, Indien",
+   "route_positions": [
+    17
+   ],
+   "wikidata": "Q66485",
+   "wikidata_label": "Jaipur",
+   "lat": 26.915,
+   "lon": 75.82,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-e0a92fe46e",
+   "vault_note": "Pilibhit, (U.P. Indien)",
+   "label": "Pilibhit, (U.P. Indien)",
+   "route_positions": [
+    18
+   ],
+   "wikidata": "Q1197824",
+   "wikidata_label": "Pilibhit",
+   "lat": 28.6333,
+   "lon": 79.7667,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-4bfd653020",
+   "vault_note": "Dakna Bâgh, Nepal",
+   "label": "Dakna Bâgh, Nepal",
+   "route_positions": [
+    19
+   ],
+   "wikidata": "Q28981",
+   "wikidata_label": "Kanchanpur",
+   "lat": 28.8333,
+   "lon": 80.3333,
+   "coords_from": "fixed",
+   "coord_note": "approximate: Kanchanpur District (W Nepal Terai), camp not geolocated"
+  },
+  {
+   "vault_id": "ke-place-2b7becd30b",
+   "vault_note": "Beli, Nepal",
+   "label": "Beli, Nepal",
+   "route_positions": [
+    20
+   ],
+   "wikidata": "Q28981",
+   "wikidata_label": "Kanchanpur",
+   "lat": 28.8333,
+   "lon": 80.3333,
+   "coords_from": "fixed",
+   "coord_note": "approximate: Kanchanpur District (W Nepal Terai), camp not geolocated"
+  },
+  {
+   "vault_id": "ke-place-b5dd2d88e4",
+   "vault_note": "Singapur",
+   "label": "Singapur",
+   "route_positions": [
+    21,
+    39
+   ],
+   "wikidata": "Q334",
+   "wikidata_label": "Singapur",
+   "lat": 1.3,
+   "lon": 103.8,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-9d5ffe029c",
+   "vault_note": "Batavia (heut. Jakarta, Indonesien)",
+   "label": "Batavia (heut. Jakarta, Indonesien)",
+   "route_positions": [
+    22
+   ],
+   "wikidata": "Q3630",
+   "wikidata_label": "Jakarta",
+   "lat": -6.1753,
+   "lon": 106.8269,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-1dc0928819",
+   "vault_note": "Garut, Indonesien",
+   "label": "Garut, Indonesien",
+   "route_positions": [
+    23
+   ],
+   "wikidata": "Q10371",
+   "wikidata_label": "Garut",
+   "lat": -7.2047,
+   "lon": 107.8876,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-f53ce2eb94",
+   "vault_note": "Buitenzog, ( heut. Bogor, Indonesien)",
+   "label": "Buitenzog, ( heut. Bogor, Indonesien)",
+   "route_positions": [
+    24
+   ],
+   "wikidata": "Q10393",
+   "wikidata_label": "Bogor",
+   "lat": -6.5978,
+   "lon": 106.7993,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-18f3651c25",
+   "vault_note": "Tjiandjur (heut. Cianjur, Indonesien)",
+   "label": "Tjiandjur (heut. Cianjur, Indonesien)",
+   "route_positions": [
+    25
+   ],
+   "wikidata": "Q10367",
+   "wikidata_label": "Cianjur",
+   "lat": -6.8212,
+   "lon": 107.1401,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-680627ae16",
+   "vault_note": "Tjipandak, (heut. Cipandak, Indoensien)",
+   "label": "Tjipandak, (heut. Cipandak, Indoensien)",
+   "route_positions": [
+    26
+   ],
+   "wikidata": "Q10367",
+   "wikidata_label": "Cianjur",
+   "lat": -7.3,
+   "lon": 107.1,
+   "coords_from": "fixed",
+   "coord_note": "approximate: southern Cianjur Regency"
+  },
+  {
+   "vault_id": "ke-place-700e9ec3d4",
+   "vault_note": "Port Kennedy, Australien",
+   "label": "Port Kennedy, Australien",
+   "route_positions": [
+    27
+   ],
+   "wikidata": "Q556632",
+   "wikidata_label": "Thursday Island",
+   "lat": -10.5789,
+   "lon": 142.22,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-f2d0a8a14c",
+   "vault_note": "Sydney, Australien",
+   "label": "Sydney, Australien",
+   "route_positions": [
+    28
+   ],
+   "wikidata": "Q3130",
+   "wikidata_label": "Sydney",
+   "lat": -33.8678,
+   "lon": 151.21,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-daf25f722e",
+   "vault_note": "Narromine, Australien",
+   "label": "Narromine, Australien",
+   "route_positions": [
+    29
+   ],
+   "wikidata": "Q610975",
+   "wikidata_label": "Narromine Shire",
+   "lat": -32.2333,
+   "lon": 148.2333,
+   "coords_from": "wikidata",
+   "coord_note": "Narromine Shire (no item for the town)"
+  },
+  {
+   "vault_id": "ke-place-1c687368ce",
+   "vault_note": "Mullengudgerey, Australien",
+   "label": "Mullengudgerey, Australien",
+   "route_positions": [
+    30
+   ],
+   "wikidata": "Q55178659",
+   "wikidata_label": "Mullengudgery",
+   "lat": -31.7118,
+   "lon": 147.4802,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-4d42aa16b3",
+   "vault_note": "Arthurs Leigh Badgery Station, Australien",
+   "label": "Arthurs Leigh Badgery Station, Australien",
+   "route_positions": [
+    31
+   ],
+   "wikidata": "Q6777932",
+   "wikidata_label": "Marulan",
+   "lat": -34.715,
+   "lon": 150.0011,
+   "coords_from": "fixed",
+   "coord_note": "approximate: Marulan, NSW"
+  },
+  {
+   "vault_id": "ke-place-a917f81cd7",
+   "vault_note": "Nouméa, Neukaledonien",
+   "label": "Nouméa, Neukaledonien",
+   "route_positions": [
+    32
+   ],
+   "wikidata": "Q9733",
+   "wikidata_label": "Nouméa",
+   "lat": -22.2667,
+   "lon": 166.45,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-17b0dc9d30",
+   "vault_note": "Owaraha, Salomonen Inseln",
+   "label": "Owaraha, Salomonen Inseln",
+   "route_positions": [
+    33
+   ],
+   "wikidata": "Q2042567",
+   "wikidata_label": "Owaraha",
+   "lat": -10.8283,
+   "lon": 162.4636,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-d6c0ce20e1",
+   "vault_note": "Port Moresby, Papa Neuguinea",
+   "label": "Port Moresby, Papa Neuguinea",
+   "route_positions": [
+    34
+   ],
+   "wikidata": "Q36526",
+   "wikidata_label": "Port Moresby",
+   "lat": -9.4789,
+   "lon": 147.1494,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-f58a8c8654",
+   "vault_note": "Dobo, Aru Inseln,  Indonesien",
+   "label": "Dobo, Aru Inseln,  Indonesien",
+   "route_positions": [
+    35
+   ],
+   "wikidata": null,
+   "wikidata_label": null,
+   "lat": -6.2,
+   "lon": 134.5,
+   "coords_from": "fixed",
+   "coord_note": "approximate"
+  },
+  {
+   "vault_id": "ke-place-b4d317ce78",
+   "vault_note": "Amboina (heut. Ambon, Indonesien)",
+   "label": "Amboina (heut. Ambon, Indonesien)",
+   "route_positions": [
+    36
+   ],
+   "wikidata": "Q18970",
+   "wikidata_label": "Ambon",
+   "lat": -3.6967,
+   "lon": 128.1783,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-2f6495b24a",
+   "vault_note": "Kajeli (heut. Buru, Indonesien)",
+   "label": "Kajeli (heut. Buru, Indonesien)",
+   "route_positions": [
+    37
+   ],
+   "wikidata": "Q271030",
+   "wikidata_label": "Buru",
+   "lat": -3.4458,
+   "lon": 126.6322,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-fdaeced97d",
+   "vault_note": "Cape Po (heut. Tanjung Po, Malaysia)",
+   "label": "Cape Po (heut. Tanjung Po, Malaysia)",
+   "route_positions": [
+    38
+   ],
+   "wikidata": null,
+   "wikidata_label": null,
+   "lat": null,
+   "lon": null,
+   "coords_from": null,
+   "coord_note": "no Wikidata item found; not geolocated"
+  },
+  {
+   "vault_id": "ke-place-12cf75bc95",
+   "vault_note": "Hong Kong, China",
+   "label": "Hong Kong, China",
+   "route_positions": [
+    40
+   ],
+   "wikidata": "Q8646",
+   "wikidata_label": "Hongkong",
+   "lat": 22.2783,
+   "lon": 114.1586,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-d265df6074",
+   "vault_note": "Kanton, (heut. Guangzhou, China)",
+   "label": "Kanton, (heut. Guangzhou, China)",
+   "route_positions": [
+    41
+   ],
+   "wikidata": "Q16572",
+   "wikidata_label": "Guangzhou",
+   "lat": 23.13,
+   "lon": 113.26,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-3c9cd8347f",
+   "vault_note": "Nagasaki, Japan",
+   "label": "Nagasaki, Japan",
+   "route_positions": [
+    42
+   ],
+   "wikidata": "Q38234",
+   "wikidata_label": "Nagasaki",
+   "lat": 32.7495,
+   "lon": 129.8796,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-bc43c108d7",
+   "vault_note": "Kumamoto, Japan",
+   "label": "Kumamoto, Japan",
+   "route_positions": [
+    43
+   ],
+   "wikidata": "Q199889",
+   "wikidata_label": "Kumamoto",
+   "lat": 32.803,
+   "lon": 130.7079,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-a85d6abc04",
+   "vault_note": "Shimonoseki, Japan",
+   "label": "Shimonoseki, Japan",
+   "route_positions": [
+    44
+   ],
+   "wikidata": "Q203308",
+   "wikidata_label": "Shimonoseki",
+   "lat": 33.9579,
+   "lon": 130.9413,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-e7ab519b7b",
+   "vault_note": "Kyoto, Japan",
+   "label": "Kyoto, Japan",
+   "route_positions": [
+    45
+   ],
+   "wikidata": "Q34600",
+   "wikidata_label": "Kyōto",
+   "lat": 35.0116,
+   "lon": 135.7681,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-bf4b761ca2",
+   "vault_note": "Nagoya, Japan",
+   "label": "Nagoya, Japan",
+   "route_positions": [
+    46
+   ],
+   "wikidata": "Q11751",
+   "wikidata_label": "Nagoya",
+   "lat": 35.1814,
+   "lon": 136.9064,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-67123d23d2",
+   "vault_note": "Miyanoshita, Japan",
+   "label": "Miyanoshita, Japan",
+   "route_positions": [
+    47
+   ],
+   "wikidata": "Q35490179",
+   "wikidata_label": "Miyanoshita Onsen",
+   "lat": 35.2417,
+   "lon": 139.0572,
+   "coords_from": "wikidata",
+   "coord_note": "Miyanoshita Onsen (spa town item)"
+  },
+  {
+   "vault_id": "ke-place-ec8603ac85",
+   "vault_note": "Tokyo, Japan",
+   "label": "Tokyo, Japan",
+   "route_positions": [
+    48
+   ],
+   "wikidata": "Q1490",
+   "wikidata_label": "Tokio",
+   "lat": 35.6894,
+   "lon": 139.6917,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-4d938ab530",
+   "vault_note": "Nikko, Japan",
+   "label": "Nikko, Japan",
+   "route_positions": [
+    49
+   ],
+   "wikidata": "Q235753",
+   "wikidata_label": "Nikkō",
+   "lat": 36.7198,
+   "lon": 139.6982,
+   "coords_from": "wikidata",
+   "coord_note": null
+  },
+  {
+   "vault_id": "ke-place-5971a13f73",
+   "vault_note": "Yokohama, Japan",
+   "label": "Yokohama, Japan",
+   "route_positions": [
+    50
+   ],
+   "wikidata": "Q38283",
+   "wikidata_label": "Yokohama",
+   "lat": 35.4503,
+   "lon": 139.6342,
+   "coords_from": "wikidata",
+   "coord_note": null
+  }
+ ]
+}

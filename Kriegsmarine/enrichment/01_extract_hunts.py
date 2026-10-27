@@ -1,47 +1,33 @@
-"""Step 1: find hunting passages in Franz Ferdinand's diary (OCR text) per dated entry.
+"""Step 1: find hunting passages in Franz Ferdinand's diary (OCR text) per day.
 
-A "kill sentence" is a sentence with a killing verb (erlegen, schießen, Strecke, Beute ...)
-plus at least one animal from animals.json. Entries with kill sentences are grouped into
-hunting episodes by place (places.json maps the OCR place names to a normalised key).
+Input: ../normalization/json/tagebuch_tage.json – the diary split into days (diary_days.py; the
+OCR headings alone give only 170 entries for ~284 days).
 
-Output: data/hunt_entries.json (per diary entry), data/hunts.json (per episode)
+A "kill sentence" is a sentence with a killing verb (erlegen, schießen, zur Strecke, Beute ...)
+plus at least one animal from animals.json. Days with kill sentences are grouped into
+hunting episodes by region (places.json maps day places / OCR spellings to a place).
+
+Output: data/hunt_entries.json (per day), data/hunts.json (per episode)
 """
 import json
 import re
 from collections import Counter
 from datetime import date
 
-from common import ROOT, SOURCES, save
+from common import ROOT, load, save
 
 ANIMALS = json.loads((ROOT / "animals.json").read_text())
-PLACES = json.loads((ROOT / "places.json").read_text())
+PLACES = load("places_resolved.json")
 
 KILL = re.compile(r"erleg|geschoss|\bschoss|\bschoß|schöss|zur strecke|\bbeute\b|erbeut|schweißt|\bfehlte", re.I)
 FIRST_PERSON = re.compile(r"\b(ich|mir|mich|meine[nmrs]?|mein)\b", re.I)
 # elephants were mostly ridden ("vom Elephanten aus"), not shot
 RIDING = re.compile(r"(auf|vom|von|mit|zu|die|den)\s+\S*\s*$", re.I)
-HEADING = re.compile(r"^### (\d{4}-\d{2}-\d{2}) · (.*)$")
-SCAN = re.compile(r"^\*Scan (\d+)\*")
+DAYS = ROOT.parent / "normalization" / "json" / "tagebuch_tage.json"
 
 
-def parse_diary(path, band):
-    entries, cur, scan = [], None, None
-    for line in path.read_text().splitlines():
-        if m := SCAN.match(line):
-            scan = int(m.group(1))
-            continue
-        if m := HEADING.match(line):
-            cur = {"date": m.group(1), "place_raw": m.group(2).strip(), "band": band, "scan": scan, "text": []}
-            entries.append(cur)
-        elif line.startswith("## "):
-            cur = None
-        elif cur is not None:
-            if cur["scan"] is None and scan:
-                cur["scan"] = scan
-            cur["text"].append(line)
-    for e in entries:
-        e["text"] = re.sub(r"\s+", " ", " ".join(e["text"])).strip()
-    return entries
+def diary_days():
+    return [d for d in json.loads(DAYS.read_text())["days"] if d["text"]]
 
 
 def animals_in(sentence):
@@ -55,16 +41,18 @@ def animals_in(sentence):
     return found
 
 
-def place_of(raw):
-    low = raw.lower()
-    for p in PLACES:
-        if any(v.lower() in low for v in p["diary"]):
-            return p
+def place_of(*names):
+    """First place whose diary/OCR spelling occurs in the day's place (site) or the OCR heading."""
+    for raw in names:
+        low = (raw or "").lower()
+        for p in PLACES:
+            if any(v.lower() in low for v in p["diary"]):
+                return p
     return {"id": None, "region": None}
 
 
 def main():
-    entries = parse_diary(SOURCES / "FF Tagebuch Bd. 1.md", 1) + parse_diary(SOURCES / "FF Tagebuch Bd. 2.md", 2)
+    entries = diary_days()
     out = []
     for e in entries:
         kills = []
@@ -75,8 +63,9 @@ def main():
             continue
         counts = Counter(a for k in kills for a in k["animals"])
         out.append({
-            "date": e["date"], "place_raw": e["place_raw"], "place_id": (pl := place_of(e["place_raw"]))["id"], "region": pl["region"],
-            "band": e["band"], "scan": e["scan"],
+            "date": e["date"], "place_raw": e["place_site"] or e["heading_ocr"],
+            "place_id": (pl := place_of(e["place_site"], e["heading_ocr"]))["id"], "region": pl["region"],
+            "band": e["band"], "scan": e["scan"], "page_url": e["page_url"], "day_method": e["method"],
             "animals": dict(counts.most_common()),
             "kill_sentences": len(kills),
             "first_person": sum(k["first_person"] for k in kills),

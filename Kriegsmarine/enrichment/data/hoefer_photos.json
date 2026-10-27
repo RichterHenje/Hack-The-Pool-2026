@@ -28,27 +28,15 @@
    "hoefer": {
     "stays": [
      {
-      "stay": "Kandy",
-      "from": "1893-01-06",
-      "to": "1893-01-07",
-      "section": "Ceylon (Sri Lanka)"
-     },
-     {
       "stay": "Kalawewa",
       "from": "1893-01-07",
       "to": "1893-01-12",
       "section": "Ceylon (Sri Lanka)"
-     },
-     {
-      "stay": "Kandy",
-      "from": "1893-01-12",
-      "to": "1893-01-13",
-      "section": "Ceylon (Sri Lanka)"
      }
     ],
-    "from": "1893-01-06",
-    "to": "1893-01-13",
-    "days_without_hunting_entry": 6,
+    "from": "1893-01-07",
+    "to": "1893-01-12",
+    "days_without_hunting_entry": 3,
     "diary_within_hoefer": true
    },
    "photos": [
@@ -108,7 +96,7 @@
    "photos": []
   },
   {
-   "hunt_id": "hunt-1893-01-21-hyderabad",
+   "hunt_id": "hunt-1893-01-22-hyderabad",
    "hoefer": {
     "stays": [
      {
@@ -293,13 +281,13 @@
     ],
     "from": "1893-02-12",
     "to": "1893-02-15",
-    "days_without_hunting_entry": 2,
+    "days_without_hunting_entry": 1,
     "diary_within_hoefer": true
    },
    "photos": []
   },
   {
-   "hunt_id": "hunt-1893-02-16-delhi",
+   "hunt_id": "hunt-1893-02-17-delhi",
    "hoefer": {
     "stays": [
      {
@@ -335,13 +323,13 @@
     ],
     "from": "1893-02-19",
     "to": "1893-02-27",
-    "days_without_hunting_entry": 5,
+    "days_without_hunting_entry": 3,
     "diary_within_hoefer": true
    },
    "photos": []
   },
   {
-   "hunt_id": "hunt-1893-02-28-jodhpur",
+   "hunt_id": "hunt-1893-03-01-jodhpur",
    "hoefer": {
     "stays": [
      {
@@ -402,7 +390,7 @@
    "photos": []
   },
   {
-   "hunt_id": "hunt-1893-03-10-nepal",
+   "hunt_id": "hunt-1893-03-09-nepal",
    "hoefer": {
     "stays": [
      {
@@ -438,7 +426,7 @@
     ],
     "from": "1893-03-08",
     "to": "1893-03-27",
-    "days_without_hunting_entry": 13,
+    "days_without_hunting_entry": 7,
     "diary_within_hoefer": true
    },
    "photos": [
@@ -501,7 +489,7 @@
     ],
     "from": "1893-04-11",
     "to": "1893-04-24",
-    "days_without_hunting_entry": 8,
+    "days_without_hunting_entry": 6,
     "diary_within_hoefer": true
    },
    "photos": [
@@ -521,7 +509,7 @@
    ]
   },
   {
-   "hunt_id": "hunt-1893-05-05-port-kennedy",
+   "hunt_id": "hunt-1893-05-06-port-kennedy",
    "hoefer": {
     "stays": [
      {
@@ -575,7 +563,7 @@
    "photos": []
   },
   {
-   "hunt_id": "hunt-1893-06-15-new-guinea",
+   "hunt_id": "hunt-1893-06-16-new-guinea",
    "hoefer": {
     "stays": [
      {
@@ -605,11 +593,11 @@
    "photos": []
   },
   {
-   "hunt_id": "hunt-1893-06-23-aru",
+   "hunt_id": "hunt-1893-06-25-aru",
    "hoefer": {
     "stays": [],
-    "from": "1893-06-23",
-    "to": "1893-06-23",
+    "from": "1893-06-25",
+    "to": "1893-06-26",
     "days_without_hunting_entry": 0,
     "diary_within_hoefer": false
    },

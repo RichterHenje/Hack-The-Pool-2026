@@ -30,7 +30,7 @@ from pathlib import Path
 NA = "NA"
 
 HERE = Path(__file__).resolve().parent
-DEFAULT_VAULT = HERE.parent / "Archive_Indien_Schiffreisen"
+DEFAULT_VAULT = HERE.parent / "Vault" / "Archive_Indien_Schiffreisen"
 DEFAULT_OUT = HERE / "json"
 
 VOYAGE_TITLE = "Weltreise Erzherzog Franz Ferdinand von Österreich-Este (1892-1893)"
