@@ -1,0 +1,171 @@
+date,diary_kind,diary_heading,diary_place,scan_url,hoefer_rows,hoefer_places,hoefer_sections,place_check,shared_tokens,kind_check
+1892-12-15,at_sea,In See nach Port Said,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n14/mode/1up,1,Triest → Port Saïd,Anreise,agree,port said,agree
+1892-12-16,at_sea,In See nach Port Said,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n16/mode/1up,1,Triest → Port Saïd,Anreise,agree,port said,agree
+1892-12-17,at_sea,In See nach Port Said,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n17/mode/1up,1,Triest → Port Saïd,Anreise,agree,port said,agree
+1892-12-18,at_sea,In See nach Port Said,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n18/mode/1up,1,Triest → Port Saïd,Anreise,agree,port said,agree
+1892-12-19,at_sea,In See nach Port SaUi,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n20/mode/1up,1,Triest → Port Saïd,Anreise,agree,port,agree
+1892-12-20,stay,Port Said,Port Said,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n20/mode/1up,2,Triest → Port Saïd | Port Saïd,Anreise,agree,port said,agree
+1892-12-22,at_sea,In See nach Steamer Point,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n25/mode/1up,1,Port Saïd → Steamer Point,Anreise,agree,point steamer,agree
+1892-12-23,at_sea,In See nach Steamer Point,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n26/mode/1up,1,Port Saïd → Steamer Point,Anreise,agree,point steamer,agree
+1892-12-24,at_sea,In See nach Stcamer Point,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n28/mode/1up,1,Port Saïd → Steamer Point,Anreise,agree,point,agree
+1892-12-25,at_sea,In See nach Steamer Point,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n30/mode/1up,1,Port Saïd → Steamer Point,Anreise,agree,point steamer,agree
+1892-12-26,stay,Steamer Point,Steamer Point,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n30/mode/1up,2,Port Saïd → Steamer Point | Steamer Point-Aden,Anreise,agree,aden point steamer,agree
+1892-12-27,stay,Aden,Aden,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n31/mode/1up,1,Steamer Point-Aden,Anreise,agree,aden,agree
+1892-12-28,at_sea,In See nach Coloinbo,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n40/mode/1up,2,Steamer Point-Aden | Steamer Point → Colombo,Anreise,disagree,,agree
+1892-12-29,at_sea,In See nach Colombo,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n41/mode/1up,1,Steamer Point → Colombo,Anreise,agree,colombo,agree
+1892-12-30,at_sea,In See nach Colombo,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n42/mode/1up,1,Steamer Point → Colombo,Anreise,agree,colombo,agree
+1892-12-31,at_sea,In See nach Colombo,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n42/mode/1up,2,Steamer Point → Colombo | ,Anreise,agree,colombo,agree
+1893-01-01,at_sea,In See nach Colombo,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n43/mode/1up,1,,Anreise,no_hoefer_place,,disagree
+1893-01-03,unknown,,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n45/mode/1up,1,,Anreise,no_diary_place,,diary_unknown
+1893-01-04,at_sea,In See nach Colombo,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n45/mode/1up,1,,Anreise,no_hoefer_place,,disagree
+1893-01-08,stay,Kalawewa,Kalawewa,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n67/mode/1up,1,Kalawewa,Ceylon (Sri Lanka),agree,kalawewa,agree
+1893-01-09,stay,Kalawewa,Kalawewa,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n70/mode/1up,1,Kalawewa,Ceylon (Sri Lanka),agree,kalawewa,agree
+1893-01-10,stay,Kalawewa,Kalawewa,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n72/mode/1up,1,Kalawewa,Ceylon (Sri Lanka),agree,kalawewa,agree
+1893-01-11,unknown,,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n74/mode/1up,1,Kalawewa,Ceylon (Sri Lanka),no_diary_place,,diary_unknown
+1893-01-12,stay,Kandy,Kandy,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n80/mode/1up,3,Kalawewa | Kalawewa → Kandy | Kandy,Ceylon (Sri Lanka),agree,kandy,agree
+1893-01-13,transfer,Kandy — Colombo,Colombo,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n83/mode/1up,3,Kandy | Kandy → Colombo | Colombo,Ceylon (Sri Lanka),agree,colombo kandy,agree
+1893-01-14,unknown,,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n88/mode/1up,2,Colombo | Colombo → Bombay (Mumbai),Ceylon (Sri Lanka),no_diary_place,,diary_unknown
+1893-01-18,stay,Bombay,Bombay,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n98/mode/1up,1,Bombay,Indien,agree,bombay,agree
+1893-01-19,stay,Bombay,Bombay,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n106/mode/1up,1,Bombay,Indien,agree,bombay,agree
+1893-01-20,stay,Tandur,Tandur,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n111/mode/1up,2,Bombay | Bombay → Tandur,Indien,agree,tandur,agree
+1893-01-21,stay,TaiuUir,TaiuUir,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n115/mode/1up,2,Bombay → Tandur | Tandur,Indien,agree,tandur,agree
+1893-01-23,stay,Tandur,Tandur,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n120/mode/1up,1,Tandur,Indien,agree,tandur,agree
+1893-01-25,stay,Haidarabad,Haidarabad,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up,1,Haidarabad,Indien,agree,haidarabad,agree
+1893-01-26,unknown,,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n144/mode/1up,2,Haidarabad | Haidarabad/Sikandarabad (Secunderabad) → Gwalior,Indien,no_diary_place,,diary_unknown
+1893-01-31,transfer,Gwalior — Calciitta,Calciitta,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n171/mode/1up,1,"Gwalior → Calcutta (Kolkata, Kalkutta)",Indien,agree,gwalior kolkata,agree
+1893-02-01,stay,Calcutta,Calcutta,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n173/mode/1up,2,"Gwalior → Calcutta (Kolkata, Kalkutta) | Calcutta",Indien,agree,calcutta kolkata,agree
+1893-02-02,stay,Calcutta,Calcutta,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n177/mode/1up,1,Calcutta,Indien,agree,calcutta,agree
+1893-02-03,stay,Calcutta,Calcutta,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n180/mode/1up,1,Calcutta,Indien,agree,calcutta,agree
+1893-02-04,stay,Calcutta,Calcutta,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n186/mode/1up,1,Calcutta,Indien,agree,calcutta,agree
+1893-02-06,stay,Dardschiling,Dardschiling,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n198/mode/1up,2,Barrackpur → Dardschiling (Darjeeling) | Dardschiling,Indien,agree,dardschiling,agree
+1893-02-07,stay,DarJschiling,DarJschiling,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n204/mode/1up,1,Dardschiling,Indien,disagree,,agree
+1893-02-12,stay,Agra,Agra,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n224/mode/1up,2,Benâres → Agra | Agra,Indien,agree,agra,agree
+1893-02-13,stay,Agra,Agra,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n238/mode/1up,1,Agra,Indien,agree,agra,agree
+1893-02-15,transfer,Agra — Bhartpur,Bhartpur,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n248/mode/1up,4,Agra | Agra → Bhartpur | Bhartpur → Agra | Agra → Dehli,Indien,agree,agra bhartpur,agree
+1893-02-16,stay,Dehii,Dehii,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n256/mode/1up,2,Agra → Dehli | Dehli,Indien,disagree,,agree
+1893-02-18,stay,Dehli,Dehli,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n263/mode/1up,2,Dehli | Dehli → Alwar,Indien,agree,dehli,agree
+1893-02-19,stay,Alwar,Alwar,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n265/mode/1up,2,Dehli → Alwar | Alwar,Indien,agree,alwar,agree
+1893-02-20,stay,Siriska,Siriska,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n274/mode/1up,3,Alwar | Alwar → Siriska (Sariska) | Siriska,Indien,agree,siriska,agree
+1893-02-23,stay,Siriska,Siriska,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n282/mode/1up,1,Siriska,Indien,agree,siriska,agree
+1893-02-24,stay,Siriska,Siriska,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n284/mode/1up,1,Siriska,Indien,agree,siriska,agree
+1893-02-27,transfer,Sirtska — Alwar,Alwar,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n292/mode/1up,3,Siriska | Siriska → Alwar | Alwar → Dschodpur (Jodhpur),Indien,agree,alwar,agree
+1893-02-28,stay,H Dschodpur,H Dschodpur,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n299/mode/1up,2,Alwar → Dschodpur (Jodhpur) | Dschodpur,Indien,agree,dschodpur jodhpur,agree
+1893-03-02,stay,Dscbodpur,Dscbodpur,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n316/mode/1up,2,Dschodpur | Dschodpur → Dschaipur (Jaipur),Indien,disagree,,agree
+1893-03-03,stay,Dschaipur,Dschaipur,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n327/mode/1up,2,Dschodpur → Dschaipur (Jaipur) | Dschaipur,Indien,agree,dschaipur jaipur,agree
+1893-03-04,stay,Dschaipur,Dschaipur,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n335/mode/1up,1,Dschaipur,Indien,agree,dschaipur,agree
+1893-03-05,stay,Dschaipur,Dschaipur,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n338/mode/1up,1,Dschaipur,Indien,agree,dschaipur,agree
+1893-03-06,stay,Dschaipur,Dschaipur,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n341/mode/1up,1,Dschaipur,Indien,agree,dschaipur,agree
+1893-03-07,transfer,Dschaipur — Agra,Agra,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n345/mode/1up,2,Dschaipur | Dschaipur → Pilibhit,Indien,agree,dschaipur,agree
+1893-03-10,stay,Dakna Bägh,Dakna Bägh,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n361/mode/1up,1,Dakna Bâgh,Nepal,agree,bagh dakna,agree
+1893-03-13,stay,Barbatta Tai,Barbatta Tai,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n372/mode/1up,2,Dakna Bâgh | Dakna Bâgh → Barbatta Tâl,Nepal,agree,barbatta,agree
+1893-03-14,stay,Dechta Bnli,Dechta Bnli,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n374/mode/1up,2,Barbatta Tâl → Dechta Boli | Dechta Boli,Nepal,agree,dechta,agree
+1893-03-15,stay,Dechta Boli,Dechta Boli,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n375/mode/1up,1,Dechta Boli,Nepal,agree,boli dechta,agree
+1893-03-16,stay,Dcchta Boli,Dcchta Boli,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n376/mode/1up,1,Dechta Boli,Nepal,agree,boli,agree
+1893-03-18,stay,Beli,Beli,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n378/mode/1up,2,Guleria → Beli | Beli,Nepal,agree,beli,agree
+1893-03-22,stay,Katni,Katni,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n384/mode/1up,1,Katni,Nepal,agree,katni,agree
+1893-03-26,stay,Sohela,Sohela,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n387/mode/1up,2,Bhanderia → Sohela | Sohela,Indien; Nepal,agree,sohela,agree
+1893-03-31,at_sea,In See nach Singapur,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n401/mode/1up,1,Diamond Harbour → Pulu Besar,Indien,disagree,,agree
+1893-04-04,at_sea,In See nach Singapur,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n403/mode/1up,1,Diamond Harbour → Pulu Besar,Indien,disagree,,agree
+1893-04-05,at_sea,In See nach SingapurPulu Besar,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n404/mode/1up,2,Diamond Harbour → Pulu Besar | Pulu Besar → Singapur,Indien; Singapur/Indonesien,agree,besar singapurpulu,agree
+1893-04-09,at_sea,In See nach Java,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n431/mode/1up,2,Singapur | Singapur → Tandjong-Priok,Singapur/Indonesien,disagree,,agree
+1893-04-11,stay,Baiavia,Baiavia,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n435/mode/1up,3,Singapur → Tandjong-Priok | Tandjong-Priok → Batavia | Batavia,Singapur/Indonesien,disagree,,agree
+1893-04-12,unknown,,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n441/mode/1up,3,Batavia | Batavia → Buitenzorg | Buitenzorg,Singapur/Indonesien,no_diary_place,,diary_unknown
+1893-04-13,transfer,Buitcnzorg — Garut,Garut,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n450/mode/1up,3,Buitenzorg | Buitenzorg → Garut | Garut,Singapur/Indonesien,agree,garut,agree
+1893-04-14,stay,Garut,Garut,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n456/mode/1up,1,Garut,Singapur/Indonesien,agree,garut,agree
+1893-04-16,stay,Tjiandjur,Tjiandjur,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n465/mode/1up,1,Tjiandjur,Singapur/Indonesien,agree,tjiandjur,agree
+1893-04-18,transfer,Tanggeng---Sindangbarang,Sindangbarang,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n476/mode/1up,1,Tanggeng → Sindangbarang,Singapur/Indonesien,agree,sindangbarang tanggeng,agree
+1893-04-19,stay,Tjipandak,Tjipandak,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n477/mode/1up,2,Sindangbarang → Tjipandak | Tjipandak,Singapur/Indonesien,agree,tjipandak,agree
+1893-04-21,stay,Tjipandak,Tjipandak,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n484/mode/1up,1,Tjipandak,Singapur/Indonesien,agree,tjipandak,agree
+1893-04-23,stay,Tjipandak,Tjipandak,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n486/mode/1up,1,Tjipandak,Singapur/Indonesien,agree,tjipandak,agree
+1893-04-26,stay,Buitenzorg,Buitenzorg,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n490/mode/1up,3,Tanggeng → Tjibeber | Tjibeber → Buitenzorg | Buitenzorg,Singapur/Indonesien,agree,buitenzorg,agree
+1893-04-27,transfer,Buitenzorg — Batavia — Tandjong Priok,Tandjong Priok,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n491/mode/1up,4,Buitenzorg | Buitenzorg → Batavia | Batavia → Tandjong-Priok | Tandjong-Priok → Thursday Island Port Kennedy,Singapur/Indonesien,agree,batavia buitenzorg priok tandjong,agree
+1893-04-28,unknown,,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n500/mode/1up,1,Tandjong-Priok → Thursday Island Port Kennedy,Singapur/Indonesien,no_diary_place,,diary_unknown
+1893-04-30,at_sea,In .See nach Port Kennedy,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n502/mode/1up,1,Tandjong-Priok → Thursday Island Port Kennedy,Singapur/Indonesien,agree,kennedy port,agree
+1893-05-02,at_sea,In See nach Port Kennedy,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n505/mode/1up,1,Tandjong-Priok → Thursday Island Port Kennedy,Singapur/Indonesien,agree,kennedy port,agree
+1893-05-04,at_sea,In See nach Port Kennedv,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n506/mode/1up,1,Tandjong-Priok → Thursday Island Port Kennedy,Singapur/Indonesien,agree,kennedv port,agree
+1893-05-05,stay,Port Kennedy,Port Kennedy,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n506/mode/1up,2,Tandjong-Priok → Thursday Island Port Kennedy | Port Kennedy,Singapur/Indonesien,agree,kennedy port,agree
+1893-05-07,stay,Port Kennedv,Port Kennedv,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n515/mode/1up,1,Port Kennedy,Singapur/Indonesien,agree,kennedv port,agree
+1893-05-08,stay,Port Kennedy,Port Kennedy,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n519/mode/1up,1,Port Kennedy,Singapur/Indonesien,agree,kennedy port,agree
+1893-05-10,at_sea,In See nach Sydney,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n523/mode/1up,1,Port Kennedy → Sydney,Singapur/Indonesien,agree,sydney,agree
+1893-05-11,at_sea,In See nach Svdnev%,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n525/mode/1up,1,Port Kennedy → Sydney,Singapur/Indonesien,disagree,,agree
+1893-05-12,at_sea,In See nach Sydney,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n527/mode/1up,1,Port Kennedy → Sydney,Singapur/Indonesien,agree,sydney,agree
+1893-05-13,at_sea,In See nach Sydney,,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n527/mode/1up,1,Port Kennedy → Sydney,Singapur/Indonesien,agree,sydney,agree
+1893-05-17,stay,Sydney,Sydney,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n22/mode/1up,4,Sydney | Sydney → Wentworth Falls | Wentworth Falls → Govett’s Leap | Govett’s Leap → Narromine,Australien,agree,sydney,agree
+1893-05-18,stay,Narromine,Narromine,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n26/mode/1up,1,Narromine,Australien,agree,narromine,agree
+1893-05-19,stay,Narromine,Narromine,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n32/mode/1up,2,Narromine | Narromine → Mullengudgery,Australien,agree,narromine,agree
+1893-05-20,stay,MuUengudgery,MuUengudgery,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n36/mode/1up,2,Narromine → Mullengudgery | Mullengudgery → Sydney,Australien,disagree,,disagree
+1893-05-21,stay,Sydney,Sydney,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n42/mode/1up,2,Mullengudgery → Sydney | Sydney,Australien,agree,sydney,agree
+1893-05-23,stay,Badgery Station,Badgery Station,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n51/mode/1up,2,Moss Vale → Badgery Station | Badgery Station,Australien,agree,badgery,agree
+1893-05-24,stay,Badgery Station,Badgery Station,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n56/mode/1up,1,Badgery Station,Australien,agree,badgery,agree
+1893-05-25,stay,Badgery Station,Badgery Station,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n60/mode/1up,2,Badgery Station | Badgery Station → Sydney,Australien,agree,badgery,agree
+1893-05-26,stay,Sydney,Sydney,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n65/mode/1up,2,Badgery Station → Sydney | Sydney,Australien,agree,sydney,agree
+1893-05-28,at_sea,In See nach KeuCaledonien,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n76/mode/1up,2,Sydney | Sydney → Numea,Australien,disagree,,agree
+1893-06-03,stay,Numea,Numea,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n91/mode/1up,1,Numea,Pazifik,agree,numea,agree
+1893-06-09,stay,Ugi,Ugi,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n117/mode/1up,1,Ugi,Pazifik,no_diary_place,,agree
+1893-06-10,at_sea,In See nach Xeu*Guinea,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n125/mode/1up,2,Ugi | Ugi → Neu-Guinea Port Moresby,Pazifik,agree,guinea,agree
+1893-06-14,unknown,,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n127/mode/1up,2,Ugi → Neu-Guinea Port Moresby | Port Moresby,Pazifik,no_diary_place,,diary_unknown
+1893-06-15,stay,Port Moresby,Port Moresby,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up,1,Port Moresby,Pazifik,agree,moresby port,agree
+1893-06-17,stay,Jagdlager am Laroki,Jagdlager am Laroki,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n145/mode/1up,1,Jagdlager am Laroki,Pazifik,agree,laroki,agree
+1893-06-20,transfer,Jagdlager am \''ei Maori — Varivari-Insel,Varivari-Insel,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n157/mode/1up,3,Jagdlager am Vei Maori | Jagdlager am Vei Maori → Varivari-Inseln | Varivari-Inseln → Aru-Inseln Dobo,Pazifik,agree,insel maori varivari,agree
+1893-06-21,at_sea,In See nach den Aru-Inseln,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n163/mode/1up,1,Varivari-Inseln → Aru-Inseln Dobo,Pazifik,agree,inseln,agree
+1893-06-23,at_sea,In See nach den Aru-Inseln,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n166/mode/1up,1,Varivari-Inseln → Aru-Inseln Dobo,Pazifik,agree,inseln,agree
+1893-06-27,at_sea,In See nach Amboina,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n175/mode/1up,1,Dobo → Amboina,Pazifik,agree,amboina,agree
+1893-06-28,stay,Amboina,Amboina,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n176/mode/1up,2,Dobo → Amboina | Amboina (Ambon) → Buru Kajel,Pazifik,agree,amboina ambon,disagree
+1893-06-29,stay,Kajeli,Kajeli,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n183/mode/1up,2,Amboina (Ambon) → Buru Kajel | Kajeli,Pazifik,agree,kajeli,agree
+1893-06-30,transfer,Kajeli — Amboina,Amboina,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n186/mode/1up,3,Kajeli | Kajeli → Amboina | Amboina,Pazifik,agree,amboina kajeli,agree
+1893-07-04,at_sea,In See nach Burncc,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n197/mode/1up,1,Amboina → Borneo Cap Po,Pazifik,disagree,,agree
+1893-07-13,stay,Singapur,Singapur,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n212/mode/1up,1,Singapur,Pazifik,agree,singapore singapur,agree
+1893-07-14,stay,Singapur,Singapur,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n212/mode/1up,1,Singapur,Pazifik,agree,singapore singapur,agree
+1893-07-16,at_sea,In See nach Hongkono,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n217/mode/1up,2,Singapur | Singapur → Hongkong,Pazifik,agree,hongkono,agree
+1893-07-17,at_sea,In See nach Hongkong,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n217/mode/1up,1,Singapur → Hongkong,Pazifik,agree,hongkong,agree
+1893-07-21,stay,Hongkong,Hongkong,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n218/mode/1up,2,Singapur → Hongkong | Hongkong,Pazifik,agree,hongkong,agree
+1893-07-22,stay,Honkong,Honkong,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n231/mode/1up,1,Hongkong,Pazifik,disagree,,agree
+1893-07-23,stay,Kanton,Kanton,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n239/mode/1up,3,Hongkong | Hongkong → Kanton | Kanton,Pazifik,agree,kanton,agree
+1893-07-24,stay,Kanton,Kanton,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n251/mode/1up,1,Kanton,Pazifik,agree,kanton,agree
+1893-07-25,stay,Kanton,Kanton,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n270/mode/1up,1,Kanton,Pazifik,agree,kanton,agree
+1893-07-27,transfer,IMacao — Hongkong,Hongkong,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n283/mode/1up,3,Kanton → Macao | Macao → Hongkong | Hongkong,Pazifik,agree,hongkong,agree
+1893-07-28,stay,Hongkong,Hongkong,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n289/mode/1up,1,Hongkong,Pazifik,agree,hongkong,agree
+1893-07-30,at_sea,In See nach Nagasaki,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n294/mode/1up,1,Hongkong → Nagasaki,Pazifik,agree,nagasaki,agree
+1893-08-01,at_sea,In See nach Nagasaki,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n295/mode/1up,1,Hongkong → Nagasaki,Pazifik,agree,nagasaki,agree
+1893-08-02,stay,Nagasaki,Nagasaki,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n295/mode/1up,2,Hongkong → Nagasaki | Nagasaki,Japan; Pazifik,agree,nagasaki,agree
+1893-08-03,stay,Nagasaki,Nagasaki,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n297/mode/1up,1,Nagasaki,Japan,agree,nagasaki,agree
+1893-08-04,transfer,Nagasaki -- Kumamoto,Kumamoto,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n307/mode/1up,4,Nagasaki | Nagasaki → Misumi | Misumi → Kumamoto | Kumamoto,Japan,agree,kumamoto nagasaki,agree
+1893-08-05,stay,Kumamoto,Kumamoto,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n319/mode/1up,4,Kumamoto | Kumamoto → Modschi | Modschi → Schimonoseki | Schimonoseki,Japan,agree,kumamoto,agree
+1893-08-08,stay,Kiötö,Kiötö,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n344/mode/1up,2,Mihara → Kiôto | Kiôto,Japan,agree,kioto,agree
+1893-08-12,stay,Kioto,Kioto,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n373/mode/1up,1,Kiôto,Japan,agree,kioto,agree
+1893-08-14,stay,Kioto,Kioto,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n377/mode/1up,5,Kiôto | Kiôto → Ôtsu | Ôtsu → Gifu | Gifu → Nagoja | Nagoja,Japan,agree,kioto,agree
+1893-08-16,stay,Mijanoschita,Mijanoschita,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n394/mode/1up,1,Mijanoschita,Japan,agree,mijanoschita,agree
+1893-08-19,stay,Tukio,Tukio,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n405/mode/1up,1,Tôkio,Japan,disagree,,agree
+1893-08-20,transfer,T 6 k i o — N i k k 6,N i k k 6,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n408/mode/1up,3,Tôkio | Tôkio → Nikkô | Nikkô,Japan,no_diary_place,,agree
+1893-08-21,stay,Nikko,Nikko,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n412/mode/1up,1,Nikkô,Japan,agree,nikko,agree
+1893-08-22,unknown,,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n421/mode/1up,3,Nikkô | Nikkô → Jokohama | Jokohama,Japan,no_diary_place,,diary_unknown
+1893-08-23,stay,Tokio,Tokio,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n424/mode/1up,4,Jokohama | Jokohama → Tôkio | Tôkio → Jokohama | Jokohama,Japan,agree,tokio,agree
+1893-08-25,at_sea,In See nach Vancouver,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n431/mode/1up,2,Jokohama | Jokohama → Vancouver,Japan,agree,vancouver,agree
+1893-08-26,at_sea,In See nach Vancouver,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n434/mode/1up,1,Jokohama → Vancouver,Japan,agree,vancouver,agree
+1893-09-03,stay,Vancouver,Vancouver,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n438/mode/1up,1,Jokohama → Vancouver,Japan,agree,vancouver,disagree
+1893-09-06,stay,Vancouver,Vancouver,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n441/mode/1up,1,Vancouver,Japan,agree,vancouver,agree
+1893-09-07,stay,Vancouver,Vancouver,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n444/mode/1up,1,Vancouver,Japan,agree,vancouver,agree
+1893-09-08,transfer,Vancouver — Banff,Banff,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n446/mode/1up,2,Vancouver | Vancouver → Banff,Japan,agree,banff vancouver,agree
+1893-09-09,stay,Banff,Banff,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n450/mode/1up,2,Vancouver → Banff | Banff,Japan,agree,banff,agree
+1893-09-10,transfer,Banff — Penticton,Penticton,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n455/mode/1up,2,Banff | Banff → Priests’ Landing,Japan,agree,banff,agree
+1893-09-11,stay,Penticton,Penticton,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n455/mode/1up,2,Banff → Priests’ Landing | Priests’ Landing → Pentieton,Japan,agree,penticton,disagree
+1893-09-13,unknown,,,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n461/mode/1up,2,Shingle Creek → Black Mountain | Black Mountain,Japan,no_diary_place,,diary_unknown
+1893-09-14,stay,Shingle Creek,Shingle Creek,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n466/mode/1up,2,Black Mountain | Black Mountain → Shingle Creek,Japan,agree,creek shingle,agree
+1893-09-15,transfer,Shingle Creek — Penticton,Penticton,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n467/mode/1up,1,Shingle Creek → Pentieton,Japan,agree,creek penticton shingle,agree
+1893-09-20,stay,Spokane— Livingston,Livingston,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n479/mode/1up,1,Spokane → Livingston,Japan,agree,livingston spokane,disagree
+1893-09-22,stay,Fountain Geyser Hotel,Fountain Geyser Hotel,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n484/mode/1up,2,Mammoth Hot Springs Hotel → Fountain Geyser Hotel | Fountain Geyser Hotel,Japan,agree,fountain geyser hotel,agree
+1893-09-23,stay,Fountain Geyser HoteL,Fountain Geyser HoteL,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n491/mode/1up,1,Fountain Geyser Hotel,Japan,agree,fountain geyser hotel,agree
+1893-09-24,stay,Yellowstone Lake Hotel,Yellowstone Lake Hotel,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n494/mode/1up,2,Fountain Geyser Hotel | Fountain Geyser Hotel → Yellowstone Lake Hotel,Japan,agree,hotel lake yellowstone,agree
+1893-09-26,stay,Mammoth Hot Springs Hotel,Mammoth Hot Springs Hotel,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n502/mode/1up,1,Grand Canyon Hotel → Mammoth Hot Springs Hotel,Japan,agree,hotel mammoth springs,disagree
+1893-09-27,transfer,Mammoth Hot Springs Hotel — Livingston,Livingston,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n504/mode/1up,1,Mammoth Hot Springs Hotel → Livingston,Japan,agree,hotel livingston mammoth springs,agree
+1893-09-29,transfer,Salt Lake City — Colorado Springs,Colorado Springs,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n512/mode/1up,2,Butte City → Salt Lake City | Salt Lake City → Colorado Springs,Japan,agree,city colorado lake salt springs,agree
+1893-09-30,stay,Colorado Springs,Colorado Springs,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n516/mode/1up,1,Salt Lake City → Colorado Springs,Japan,agree,colorado springs,disagree
+1893-10-01,stay,Manitou,Manitou,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n518/mode/1up,2,Colorado Springs → Manitou | Manitou → Chicago,Japan,agree,manitou,disagree
+1893-10-02,transfer,Manitou — Chicago,Chicago,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n520/mode/1up,1,Manitou → Chicago,Japan,agree,chicago manitou,agree
+1893-10-03,stay,Chicago,Chicago,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n522/mode/1up,2,Manitou → Chicago | Chicago → Niagara Falls,Japan,agree,chicago,disagree
+1893-10-04,stay,Niagara Falls,Niagara Falls,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n534/mode/1up,2,Chicago → Niagara Falls | Niagara Falls,Japan,agree,falls niagara,agree
+1893-10-06,stay,New York,New York,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n538/mode/1up,2,Niagara Falls → New York | New York,Japan,agree,york,agree
+1893-10-07,stay,New York,New York,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n542/mode/1up,2,New York | New York → Havre,Japan; Rückreise,agree,york,agree
+1893-10-15,transfer,Havre — Paris,Paris,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n554/mode/1up,3,New York → Havre | Havre → Paris | Paris,Rückreise,agree,havre paris,agree
+1893-10-16,stay,Paris,Paris,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n555/mode/1up,2,Paris | Paris → Stuttgart,Rückreise,agree,paris,agree
+1893-10-17,stay,Stuttgart Wien,Stuttgart Wien,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n555/mode/1up,2,Paris → Stuttgart | Stuttgart,Rückreise,agree,stuttgart,agree
