@@ -22,7 +22,7 @@ Struktur der `0_Muster_*`-Vorlagen; fehlende Werte sind `"NA"`, `_meta` enthält
 | --- | --- |
 | `weltreise.json` | die Reise: Beschreibung, Schiff, Besatzung laut Eintrag, Route (Ortsnotizen in Reihenfolge) |
 | `ortschaften.json` | 49 Ortsnotizen der Route mit Position(en) auf der Route |
-| `personen.json` | 43 Personen (Seereise-Denkmünze oder im Weltreise-Eintrag genannt) |
+| `personen.json` | 58 Personen (Seereise-Denkmünze, im Weltreise-Eintrag genannt oder „Kaiserin Elisabeth“ ohne Datum verlinkt – im Feld Schiff oder sonst in der Notiz; datierte Einträge stammen aus Ranglisten nach der Reise) |
 | `schiffe.json`, `sammlungen_projekte.json` | das Schiff (nur diese Reise), verlinkte Sammlungen |
 
 ## `diary_days.py`: das Tagebuch nach Tagen
@@ -49,8 +49,8 @@ Eintrag umfasst oft mehrere Tage.
 ## `people_voyage.py`: alle Personen der Reise
 
 `filter_voyage.py` wählt Personen über die Seereise-Denkmünze bzw. die Besatzung im Weltreise-Eintrag
-(43). `people_voyage.py` ergänzt – mit Code und Objektstruktur aus `filter_voyage.py`, das unverändert
-bleibt – zu 64 Personen:
+und undatierte Links auf das Schiff (58). `people_voyage.py` ergänzt – mit Code und Objektstruktur aus `filter_voyage.py`, das unverändert
+bleibt – zu 73 Personen:
 
 - **Besatzung laut Rangliste**: alle Einträge der Ranglisten 15.11.1892–1.9.1893
   (`../Sources/Ranglisten/kaiserin_elisabeth_ranglisten.csv`), zugeordnet zur Vault-Notiz (Nachname +

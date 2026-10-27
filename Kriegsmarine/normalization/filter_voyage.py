@@ -9,7 +9,11 @@ Auswahlkriterien
   "Ab Hier mit einem anderen Passagierschiff" (danach anderes Schiff).
 - Personen: "Seereise-Denkmünze" im *Wert* des Feldes "Auszeichnung"
   (der Vorlagen-Hinweis "Auszeichnung (z. B. Seereise-Denkmünze ...)" zählt nicht),
-  sowie die im Weltreise-Eintrag namentlich genannte Besatzung (Kapitän, Fotograf, ...).
+  sowie die im Weltreise-Eintrag namentlich genannte Besatzung (Kapitän, Fotograf, ...),
+  sowie Personen, deren Feld "Schiff" die "Kaiserin Elisabeth" verlinkt, ohne dass dort
+  (Wert oder Unterpunkte wie "Rolle") ein Datum steht: datierte Einträge stammen aus den
+  Ranglisten nach der Reise, undatierte Einträge bezeichnen Personen an Bord der Weltreise.
+  Notizen ohne Feld "Schiff" zählen ebenso, wenn eine Zeile ohne Jahr das Schiff verlinkt.
 - Schiff: "Kaiserin Elisabeth, Kreuzer" (nur die Reise der Weltreise).
 - Sammlungen: Einträge, die auf die Weltreise, eine Routen-Ortschaft oder
   eine Weltreise-Person verlinken.
@@ -314,6 +318,24 @@ def has_medal(note):
     return any(MEDAL in b["value"] for b in find(parse_fields(note), "Auszeichnung"))
 
 
+def undated_ship(note):
+    """Feld "Schiff" verlinkt die Kaiserin Elisabeth, weder Wert noch Unterpunkte nennen ein Jahr."""
+    for b in find(parse_fields(note), "Schiff"):
+        if any(norm(l) == norm(SHIP_TITLE) for l in links_in(b["value"])):
+            texts = [b["value"]] + [c["raw"] for c in b["children"]]
+            if not any(re.search(r"\b1[89]\d\d\b", t) for t in texts):
+                return True
+    return False
+
+
+def undated_ship_link(note):
+    """Ohne Feld "Schiff": eine Zeile verlinkt die Kaiserin Elisabeth und nennt kein Jahr."""
+    if any(norm(l) == norm(SHIP_TITLE) for b in find(parse_fields(note), "Schiff") for l in links_in(b["value"])):
+        return False
+    return any(not re.search(r"\b1[89]\d\d\b", line) for line in note.lines
+               if any(norm(l) == norm(SHIP_TITLE) for l in links_in(line)))
+
+
 def build_person(vault, note, reasons, voyage_roles=None, name=None):
     if note is None:  # Person ohne eigenen Eintrag im Vault
         obj = {k: NA for k in ["Nachname, Vorname", "Titel", "Lebensdaten", "Beruf/Funktionen",
@@ -485,6 +507,10 @@ def main():
             reasons.append(f"Auszeichnung: {MEDAL} 1892/1893")
         if norm(note.title) in crew_roles:
             reasons.append("Im Weltreise-Eintrag genannt")
+        if undated_ship(note):
+            reasons.append(f"Schiff: {SHIP_TITLE} ohne Datum (an Bord während der Weltreise)")
+        if undated_ship_link(note):
+            reasons.append(f"Verlinkt {SHIP_TITLE} ohne Datum (an Bord während der Weltreise)")
         if reasons:
             persons[norm(note.title)] = build_person(vault, note, reasons, crew_roles.get(norm(note.title)))
     for key, roles in crew_roles.items():
