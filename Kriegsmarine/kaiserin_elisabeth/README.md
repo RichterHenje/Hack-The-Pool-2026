@@ -48,6 +48,7 @@ uv run python -m scripts.ke_stop_records    # Kulturpool-Treffer je Station (ind
 uv run python -m scripts.ke_related         # thematische Kulturpool-Suche -> analysis/
 uv run python -m scripts.ke_arcgis_pack     # Layer für ArcGIS Online
 uv run python -m scripts.vault_review       # Auffälligkeiten im Vault
+uv run python -m scripts.vault_clean ../Vault/Archive_Indien_Schiffreisen --report data/clean.json   # Bereinigung (ändert Dateien! nur auf einer Kopie/Branch)
 uv run --group dev pytest -q
 ```
 
@@ -64,6 +65,7 @@ Das Ortsverzeichnis (GeoNames) wird beim ersten Lauf nach `data/` geladen (nicht
 | `analysis/` | Kulturpool-Kontext, Abgleich Vault ↔ Kulturpool, Auffälligkeiten im Vault |
 | `docs/08_historic_places.md` | historische Ortsnamen: Linked Places Format, Beleg vs. Gültigkeit |
 | `docs/09_vault_model.md` | Vorschlag Datenmodell, Automatisierung vs. Fachleute, Formate (LIDO, EDM, Wikidata, RDF, CIDOC CRM) |
+| `docs/10_vault_cleaning.md` | automatische Vault-Bereinigung als Vorschlag (Branch `khm-team-vault-cleanup`): Regeln, zwei Blindtests mit je 32 eingepflanzten Fehlern (32/32), Ergebnis |
 
 ## Grenzen
 
