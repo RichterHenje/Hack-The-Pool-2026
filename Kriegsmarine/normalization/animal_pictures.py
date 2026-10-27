@@ -16,6 +16,9 @@ json/bilder_tiere.json.
   Tierprodukte (Federn, Fell, Leder) und Namen in Anführungszeichen (Wasserfall „Drachenkopf“).
   Darstellungen sind gekennzeichnet, z. B. "Vogel (Darstellung)"; "Tier (unbestimmt)" nur,
   wenn sonst kein Tier genannt ist.
+- photographer: in den Metadaten des Objekts (Feld "_meta", z. B. Auswahlgrund
+  "Fotograf/Sammler Eduard Hodek jun.", sowie ein evtl. vorhandenes Feld "Fotograf")
+  verknüpfte Fotograf:innen; "NA", wenn keine gefunden werden.
 
 Optional (--classify): Bildanalyse mit CLIP (Zero-Shot-Klassifikation). Jedes Bild wird
 heruntergeladen (Cache: .cache/bilder/) und gegen eine feste Liste von Tierarten
@@ -111,6 +114,9 @@ DESCRIPTION_ANIMALS = [
 GENERIC_ANIMAL = "Tier (unbestimmt)"
 QUOTED_RE = re.compile(r"„[^“]*“|\"[^\"]*\"")
 WORD_RE = re.compile(r"[A-Za-zÄÖÜäöüß]+")
+# "Fotograf/Sammler Eduard Hodek jun.", "Fotografin: ...", "Photographer ..." -> Name
+PHOTOGRAPHER_RE = re.compile(r"\b(?:fotograf|photograph)(?:in|er)?(?:/\w+)*\s*:?\s*(.+)", re.I)
+PHOTOGRAPHER_KEYS = {"fotograf", "fotografin", "fotograf/sammler", "photographer"}
 
 NO_ANIMAL = "kein Tier"
 NO_ANIMAL_PROMPT = "a photograph of people and buildings without any animals"
@@ -156,10 +162,38 @@ def animals_in_description(text):
     return found or NA
 
 
+def strings_in(value):
+    if isinstance(value, str):
+        yield value
+    elif isinstance(value, list):
+        for v in value:
+            yield from strings_in(v)
+    elif isinstance(value, dict):
+        for v in value.values():
+            yield from strings_in(v)
+
+
+def photographer(entry):
+    """Mit dem Objekt verknüpfte Fotograf:innen aus den Metadaten, sonst "NA"."""
+    found = []
+    for key, value in entry.items():
+        if key.lower() in PHOTOGRAPHER_KEYS:
+            found += [v for v in strings_in(value) if v != NA]
+    for text in strings_in(entry.get("_meta", {})):
+        m = PHOTOGRAPHER_RE.search(text)
+        if m:
+            found.append(m.group(1).strip())
+    found = list(dict.fromkeys(found))
+    if not found:
+        return NA
+    return found[0] if len(found) == 1 else found
+
+
 def reduce(entry):
     out = {f: entry.get(f, NA) for f in FIELDS}
     out["Tierarten"] = repair_species(out["Tierarten"])
     out["depicted_animals"] = animals_in_description(entry.get("Bildbeschreibung"))
+    out["photographer"] = photographer(entry)
     out["_meta"] = {"id": entry.get("_meta", {}).get("id", NA), "datei": entry.get("Datei", NA)}
     return out
 
