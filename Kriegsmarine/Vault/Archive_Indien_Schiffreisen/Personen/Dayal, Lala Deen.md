@@ -6,4 +6,4 @@ checked: false
 ---
 - indischer Fotograf
 - [[Nizam von Hyderabad]]- Official Court Fotografer
-- 
+- [[Kaiserin Elisabeth, Kreuzer]]
