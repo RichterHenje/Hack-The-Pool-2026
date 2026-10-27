@@ -1,0 +1,91 @@
+segment,label,years,on_ship,seq,place_note,geo_status,geo_matched,geo_name,historic_names,country,geonames,ambiguous,latitude,longitude
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,1,"Pola, Istrien",matched,Pola,Pula,,HR,https://sws.geonames.org/3192224/,False,44.86833,13.84806
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,2,Triest,matched,Triest,Trieste,,IT,https://sws.geonames.org/3165185/,False,45.64953,13.77678
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,3,Port Said,matched,Port Said,Port Said,,EG,https://sws.geonames.org/358619/,False,31.26531,32.3019
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,4,"Colombo (Hauptstadt, Sri Lanka)",matched,Colombo,Colombo,,LK,https://sws.geonames.org/1248991/,False,6.93548,79.84868
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,5,"Kandy, Sri Lanka",matched,Kandy,Kandy,,LK,https://sws.geonames.org/1241622/,False,7.2906,80.6336
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,6,"Kala Wewa, Sri Lanka",unmatched,,,,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,7,"Bombay (Indien, Heut. Mumbai)",matched,Mumbai,Mumbai,Bombay,IN,https://sws.geonames.org/1275339/,False,19.07283,72.88261
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,8,"Tandur, Telangana, Indien",matched,Tandur,Tandur,,IN,https://sws.geonames.org/1255004/,False,17.24849,77.57698
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,9,"Nizamate of Hyderabad, State, (Indien)",unmatched,,,,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,10,"Gwalior, (Madhya Pradesh, Indien)",matched,Gwalior,Gwalior,,IN,https://sws.geonames.org/1270583/,False,26.22983,78.17337
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,11,Calcutta (Indien),matched,Calcutta,Kolkata,,IN,https://sws.geonames.org/1275004/,False,22.56263,88.36304
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,12,"Darjeeling, (West Bengal, Indien)",matched,Darjeeling,Dārjiling,,IN,https://sws.geonames.org/1273467/,False,27.03333,88.26667
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,13,"Agra, (U.P.), Indien",matched,Agra,Agra,,IN,https://sws.geonames.org/1279259/,False,27.18333,78.01667
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,14,Delhi (Indien),matched,Delhi,Delhi,,IN,https://sws.geonames.org/1273294/,False,28.65195,77.23149
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,15,"Alwar, Rajputana (Indien)",matched,Alwar,Alwar,,IN,https://sws.geonames.org/1278946/,False,27.56246,76.625
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,16,"Jodhpur, Rajasthan, Indien",matched,Jodhpur,Jodhpur,,IN,https://sws.geonames.org/1268865/,True,26.26841,73.00594
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,17,"Jaipur (Jeypore), Rajasthan, Indien",matched,Jaipur,Jaipur,,IN,https://sws.geonames.org/1269515/,False,26.91962,75.78781
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,18,"Pilibhit, (U.P. Indien)",matched,Pilibhit,Pīlibhīt,,IN,https://sws.geonames.org/1259686/,False,28.63124,79.80436
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,19,"Beli, Nepal",unmatched,,,,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,20,Singapur,matched,Singapur,Singapore,,SG,https://sws.geonames.org/1880252/,False,1.28967,103.85007
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,21,"Batavia (heut. Jakarta, Indonesien)",matched,Jakarta,Jakarta,Batavia,ID,https://sws.geonames.org/1642911/,False,-6.21462,106.84513
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,22,"Garut, Indonesien",matched,Garut,Garut,,ID,https://sws.geonames.org/1644409/,False,-7.245,107.921
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,23,"Buitenzog, ( heut. Bogor, Indonesien)",matched,Bogor,Bogor,Buitenzog,ID,https://sws.geonames.org/1648473/,False,-6.59444,106.78917
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,24,"Tjiandjur (heut. Cianjur, Indonesien)",matched,Cianjur,Cianjur,Tjiandjur,ID,https://sws.geonames.org/1647142/,False,-6.82222,107.13944
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,25,"Tjipandak, (heut. Cipandak, Indoensien)",unmatched,,,Tjipandak,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,26,"Port Kennedy, Australien",unmatched,,,,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,27,"Sydney, Australien",matched,Sydney,Sydney,,AU,https://sws.geonames.org/2147714/,False,-33.86785,151.20732
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,28,"Narromine, Australien",unmatched,,,,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,29,"Mullengudgerey, Australien",unmatched,,,,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,30,"Arthurs Leigh Badgery Station, Australien",unmatched,,,,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,31,"Nouméa, Neukaledonien",matched,Nouméa,Nouméa,,NC,https://sws.geonames.org/2139521/,False,-22.27407,166.44884
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,32,"Owaraha, Salomonen Inseln",unmatched,,,,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,33,"Port Moresby, Papa Neuguinea",matched,Port Moresby,Port Moresby,,PG,https://sws.geonames.org/2088122/,False,-9.47723,147.15089
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,34,"Dobo, Aru Inseln,  Indonesien",matched,Dobo,Dobo,,ID,https://sws.geonames.org/1645413/,False,-5.76092,134.23405
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,35,"Amboina (heut. Ambon, Indonesien)",matched,Ambon,Ambon,Amboina,ID,https://sws.geonames.org/1651531/,False,-3.69583,128.18333
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,36,"Kajeli (heut. Buru, Indonesien)",unmatched,,,Kajeli,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,37,"Cape Po (heut. Tanjung Po, Malaysia)",unmatched,,,Cape Po,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,38,Singapur,matched,Singapur,Singapore,,SG,https://sws.geonames.org/1880252/,False,1.28967,103.85007
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,39,"Hong Kong, China",matched,Hong Kong,Hong Kong,,HK,https://sws.geonames.org/1819729/,False,22.27832,114.17469
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,40,"Kanton, (heut. Guangzhou, China)",matched,Guangzhou,Guangzhou,Kanton,CN,https://sws.geonames.org/1809858/,False,23.11667,113.25
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,41,"Nagasaki, Japan",matched,Nagasaki,Nagasaki,,JP,https://sws.geonames.org/1856177/,True,32.75,129.88333
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,42,"Kumamoto, Japan",matched,Kumamoto,Kumamoto,,JP,https://sws.geonames.org/1858421/,False,32.80589,130.69181
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,43,"Shimonoseki, Japan",matched,Shimonoseki,Shimonoseki,,JP,https://sws.geonames.org/1852225/,False,33.95548,130.93713
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,44,"Kyoto, Japan",matched,Kyoto,Kyoto,,JP,https://sws.geonames.org/1857910/,False,35.02107,135.75385
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,45,"Nagoya, Japan",matched,Nagoya,Nagoya,,JP,https://sws.geonames.org/1856057/,False,35.18147,136.90641
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,46,"Miyanoshita, Japan",unmatched,,,,,,,,
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,47,"Tokyo, Japan",matched,Tokyo,Tokyo,,JP,https://sws.geonames.org/1850147/,False,35.6895,139.69171
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,48,"Nikko, Japan",matched,Nikko,Nikkō,,JP,https://sws.geonames.org/1855395/,False,36.75,139.61667
+weltreise_1892_93,Weltreise Franz Ferdinand (an Bord),1892-12-15/1893,True,49,"Yokohama, Japan",matched,Yokohama,Yokohama,,JP,https://sws.geonames.org/1848354/,False,35.43333,139.65
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,1,"Vancouver, Kanada",matched,Vancouver,Vancouver,,CA,https://sws.geonames.org/6173331/,False,49.24966,-123.11934
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,2,"Banff, Kanada",unmatched,,,,,,,,
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,3,"Penticton, Kanada",matched,Penticton,Penticton,,CA,https://sws.geonames.org/6101141/,False,49.48062,-119.58584
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,4,"Revelstoke, Kanada",unmatched,,,,,,,,
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,5,"Northport, Kanada",unmatched,,,,,,,,
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,6,"Spokane, Washington, USA",matched,Spokane,Spokane,,US,https://sws.geonames.org/5811696/,False,47.65966,-117.42908
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,7,"Livingston, Montana, USA",matched,Livingston,Livingston,,US,https://sws.geonames.org/5100572/,False,40.79593,-74.31487
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,8,"Yellowstone Nationalpark, Wyoming, USA",matched,Wyoming,Wyoming,,US,https://sws.geonames.org/5015618/,False,42.91336,-85.70531
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,9,"Manitou Springs, Colorado, USA",unmatched,,,,,,,,
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,10,"Chicago, USA",matched,Chicago,Chicago,,US,https://sws.geonames.org/4887398/,False,41.85003,-87.65005
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,11,"Niagara Falls, New York, USA",matched,Niagara Falls,Niagara Falls,,US,https://sws.geonames.org/5128723/,False,43.0945,-79.05671
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,12,"New York, New York, USA",matched,New York,New York City,,US,https://sws.geonames.org/5128581/,False,40.71427,-74.00597
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,13,"Le Havre, Frankreich",matched,Le Havre,Le Havre,,FR,https://sws.geonames.org/3003796/,False,49.49346,0.10785
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,14,"Paris, Frankreich",matched,Paris,Paris,,FR,https://sws.geonames.org/2988507/,False,48.85341,2.3488
+ff_onward_1893,Franz Ferdinand weiter ohne das Schiff,1893,False,15,"Stuttgart, Deutschland",matched,Stuttgart,Stuttgart,,DE,https://sws.geonames.org/2825297/,False,48.78232,9.17702
+voyage_1900_02,"Boxeraufstand, China",1900-1902,True,1,"Tianjin (hist. Tsingtau), China",matched,Tianjin,Tianjin,Tsingtau,CN,https://sws.geonames.org/1792947/,False,39.14222,117.17667
+voyage_1904_05,Stationsschiff Ostasien,1904-1905,True,1,"Peking, China",matched,Peking,Beijing,,CN,https://sws.geonames.org/1816670/,False,39.9075,116.39723
+voyage_1913,Fahrt nach Ostasien (Kapitän Makovitz),1913,True,1,"Pola, Istrien",matched,Pola,Pula,,HR,https://sws.geonames.org/3192224/,False,44.86833,13.84806
+voyage_1913,Fahrt nach Ostasien (Kapitän Makovitz),1913,True,2,Port Said,matched,Port Said,Port Said,,EG,https://sws.geonames.org/358619/,False,31.26531,32.3019
+voyage_1913,Fahrt nach Ostasien (Kapitän Makovitz),1913,True,3,"Aden, Jemen",matched,Aden,Aden,,YE,https://sws.geonames.org/415189/,False,12.77957,45.03852
+voyage_1913,Fahrt nach Ostasien (Kapitän Makovitz),1913,True,4,"Colombo (Hauptstadt, Sri Lanka)",matched,Colombo,Colombo,,LK,https://sws.geonames.org/1248991/,False,6.93548,79.84868
+voyage_1913,Fahrt nach Ostasien (Kapitän Makovitz),1913,True,5,Singapur,matched,Singapur,Singapore,,SG,https://sws.geonames.org/1880252/,False,1.28967,103.85007
+voyage_1913,Fahrt nach Ostasien (Kapitän Makovitz),1913,True,6,"Hong Kong, China",matched,Hong Kong,Hong Kong,,HK,https://sws.geonames.org/1819729/,False,22.27832,114.17469
+voyage_1913,Fahrt nach Ostasien (Kapitän Makovitz),1913,True,7,"Zhifu (hist. Chefoo), China",unmatched,,,Chefoo,,,,,
+voyage_1913,Fahrt nach Ostasien (Kapitän Makovitz),1913,True,8,"Qinhuangdao (hist. Tsing-wang-Tau), China",matched,Qinhuangdao,Qinhuangdao,Tsing-wang-Tau,CN,https://sws.geonames.org/1797595/,False,39.94104,119.58936
+voyage_1913,Fahrt nach Ostasien (Kapitän Makovitz),1913,True,9,"Nagasaki, Japan",matched,Nagasaki,Nagasaki,,JP,https://sws.geonames.org/1856177/,True,32.75,129.88333
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,1,"Shanghai, China",matched,Shanghai,Shanghai,,CN,https://sws.geonames.org/1796236/,False,31.22222,121.45806
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,2,"Fuzhou (hist. Foo-Chow), China",matched,Fuzhou,Fuzhou,Foo-Chow,CN,https://sws.geonames.org/1810821/,True,26.06139,119.30611
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,3,"Xiamen, (hist. Amoy), China",matched,Xiamen,Xiamen,Amoy,CN,https://sws.geonames.org/1790645/,False,24.47979,118.08187
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,4,"Beppu, Japan",matched,Beppu,Beppu,,JP,https://sws.geonames.org/1864750/,False,33.27945,131.49751
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,5,"Mitsuhama, Japan",unmatched,,,,,,,,
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,6,"Miyajima, Japan",unmatched,,,,,,,,
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,7,"Kobe, Japan",matched,Kobe,Kobe,,JP,https://sws.geonames.org/1859171/,False,34.6913,135.183
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,8,"Yokohama, Japan",matched,Yokohama,Yokohama,,JP,https://sws.geonames.org/1848354/,False,35.43333,139.65
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,9,"Toba, Japan",matched,Toba,Toba,,JP,https://sws.geonames.org/1850345/,False,34.4833,136.84186
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,10,"Kagoshima, Japan",matched,Kagoshima,Kagoshima,,JP,https://sws.geonames.org/1860827/,False,31.56667,130.55
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,11,"Shanghai, China",matched,Shanghai,Shanghai,,CN,https://sws.geonames.org/1796236/,False,31.22222,121.45806
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,12,"Qinhuangdao (hist. Tsing-wang-Tau), China",matched,Qinhuangdao,Qinhuangdao,Tsing-wang-Tau,CN,https://sws.geonames.org/1797595/,False,39.94104,119.58936
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,13,"Zhifu (hist. Chefoo), China",unmatched,,,Chefoo,,,,,
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,14,"Qingdao (hist. Tsingtau), China",matched,Qingdao,Qingdao,Tsingtau,CN,https://sws.geonames.org/1797929/,False,36.06488,120.38042
+voyage_1914,Ostasien bis zur Versenkung bei Tsingtau,1914,True,15,"Tianjin (hist. Tsingtau), China",matched,Tianjin,Tianjin,Tsingtau,CN,https://sws.geonames.org/1792947/,False,39.14222,117.17667

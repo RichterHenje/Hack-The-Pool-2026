@@ -1,0 +1,7302 @@
+{
+ "type": "FeatureCollection",
+ "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+ "features": [
+  {
+   "@id": "ke:place/pola-istrien",
+   "type": "Feature",
+   "properties": {
+    "title": "Pola, Istrien",
+    "ccodes": [
+     "HR"
+    ],
+    "segments": [
+     "voyage_1913",
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.84806,
+     44.86833
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Pola",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Pola, Istrien [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1913"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Póla",
+     "lang": "hu",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/3192224/"
+      }
+     ]
+    },
+    {
+     "toponym": "Pula",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/3192224/"
+      }
+     ]
+    },
+    {
+     "toponym": "Pola",
+     "lang": "it",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q4656"
+      }
+     ]
+    },
+    {
+     "toponym": "Pula",
+     "lang": "hr",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q4656"
+      }
+     ]
+    },
+    {
+     "toponym": "Pula",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q4656"
+      }
+     ]
+    },
+    {
+     "toponym": "Pula",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q4656"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/3192224/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q4656"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1913"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/triest",
+   "type": "Feature",
+   "properties": {
+    "title": "Triest",
+    "ccodes": [
+     "IT"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.77678,
+     45.64953
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Triest",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Triest [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Trieste",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/3165185/"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/3165185/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q49295431"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/port-said",
+   "type": "Feature",
+   "properties": {
+    "title": "Port Said",
+    "ccodes": [
+     "EG"
+    ],
+    "segments": [
+     "voyage_1913",
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.3019,
+     31.26531
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Port Said",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Port Said [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1913"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Port Said",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/358619/"
+      }
+     ]
+    },
+    {
+     "toponym": "بورسعيد",
+     "lang": "ar",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q134509"
+      }
+     ]
+    },
+    {
+     "toponym": "Port Said",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q134509"
+      }
+     ]
+    },
+    {
+     "toponym": "Port Said",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q134509"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/358619/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q134509"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1913"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/colombo-hauptstadt-sri-lanka",
+   "type": "Feature",
+   "properties": {
+    "title": "Colombo (Hauptstadt, Sri Lanka)",
+    "ccodes": [
+     "LK"
+    ],
+    "segments": [
+     "voyage_1913",
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.84868,
+     6.93548
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Colombo",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Colombo (Hauptstadt, Sri Lanka) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1913"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Colombo",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1248991/"
+      }
+     ]
+    },
+    {
+     "toponym": "කොළඹ",
+     "lang": "si",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q35381"
+      }
+     ]
+    },
+    {
+     "toponym": "Colombo",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q35381"
+      }
+     ]
+    },
+    {
+     "toponym": "Colombo",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q35381"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1248991/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q35381"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1913"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/kandy-sri-lanka",
+   "type": "Feature",
+   "properties": {
+    "title": "Kandy, Sri Lanka",
+    "ccodes": [
+     "LK"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.6336,
+     7.2906
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Kandy",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Kandy, Sri Lanka [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Kandy",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1241622/"
+      }
+     ]
+    },
+    {
+     "toponym": "මහනුවර",
+     "lang": "si",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q203197"
+      }
+     ]
+    },
+    {
+     "toponym": "Kandy",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q203197"
+      }
+     ]
+    },
+    {
+     "toponym": "Kandy",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q203197"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1241622/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q203197"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/bombay-indien-heut-mumbai",
+   "type": "Feature",
+   "properties": {
+    "title": "Bombay (Indien, Heut. Mumbai)",
+    "ccodes": [
+     "IN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.88261,
+     19.07283
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Bombay",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Bombay (Indien, Heut. Mumbai) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Mumbai",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [dated]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1995"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Bombaj",
+     "lang": "cs",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombaya",
+     "lang": "la",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "li",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombėjus",
+     "lang": "lt",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "nl",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombaj",
+     "lang": "pl",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "hbs",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "sv",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "tr",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombaim",
+     "lang": "pt",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "it",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "es",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombai",
+     "lang": "ca",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "fr",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "latest": "1995"
+        },
+        "end": {
+         "in": "1995"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "sc",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombai",
+     "lang": "an",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "ext",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombaj",
+     "lang": "sk",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "ug",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombai",
+     "lang": "oc",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "ia",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "بمبئی",
+     "lang": "ur",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "بمبئی",
+     "lang": "mzn",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "بومباي",
+     "lang": "ar",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Mumbai",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1275339/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bombey",
+     "lang": "az",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "latest": "1994"
+        },
+        "end": {
+         "in": "1994"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Бомбей",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "latest": "1994"
+        },
+        "end": {
+         "in": "1994"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Mumbaj",
+     "lang": "pl",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ]
+    },
+    {
+     "toponym": "Бомбай",
+     "lang": "bg",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "latest": "1995"
+        },
+        "end": {
+         "in": "1995"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Мумбай",
+     "lang": "bg",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1995"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Bombay",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "latest": "1995"
+        },
+        "end": {
+         "in": "1995"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Mumbai",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1995"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Bombaj",
+     "lang": "pl",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ]
+    },
+    {
+     "toponym": "Mumbajčan",
+     "lang": "sl",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ]
+    },
+    {
+     "toponym": "Мумбаи",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1995"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Mumbajčanka",
+     "lang": "sl",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ]
+    },
+    {
+     "toponym": "Mumbai",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ]
+    },
+    {
+     "toponym": "Mumbai",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1156"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1275339/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q1156"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/tandur-telangana-indien",
+   "type": "Feature",
+   "properties": {
+    "title": "Tandur, Telangana, Indien",
+    "ccodes": [
+     "IN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.57698,
+     17.24849
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Tandur",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Tandur, Telangana, Indien [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Tandur",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1255004/"
+      }
+     ]
+    },
+    {
+     "toponym": "Tandur",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q720922"
+      }
+     ]
+    },
+    {
+     "toponym": "Tandur",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q720922"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1255004/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q720922"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/gwalior-madhya-pradesh-indien",
+   "type": "Feature",
+   "properties": {
+    "title": "Gwalior, (Madhya Pradesh, Indien)",
+    "ccodes": [
+     "IN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.17337,
+     26.22983
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Gwalior",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Gwalior, (Madhya Pradesh, Indien) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Gwalior",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1270583/"
+      }
+     ]
+    },
+    {
+     "toponym": "Gwalior",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q158467"
+      }
+     ]
+    },
+    {
+     "toponym": "Gwalior",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q158467"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1270583/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q158467"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/calcutta-indien",
+   "type": "Feature",
+   "properties": {
+    "title": "Calcutta (Indien)",
+    "ccodes": [
+     "IN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.36304,
+     22.56263
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Calcutta",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Calcutta (Indien) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Kalkutta",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275004/"
+      }
+     ]
+    },
+    {
+     "toponym": "Calcutta",
+     "lang": "hr",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275004/"
+      }
+     ]
+    },
+    {
+     "toponym": "Calcutta",
+     "lang": "no",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275004/"
+      }
+     ]
+    },
+    {
+     "toponym": "Calcutta",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1275004/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "latest": "2001"
+        },
+        "end": {
+         "in": "2001"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Kolkata",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1275004/"
+      }
+     ]
+    },
+    {
+     "toponym": "Kolkata",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1348"
+      }
+     ]
+    },
+    {
+     "toponym": "Kolkata",
+     "lang": "pl",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1348"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "2012"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "কলকাতা",
+     "lang": "bn",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1348"
+      }
+     ]
+    },
+    {
+     "toponym": "Kolkata",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1348"
+      }
+     ]
+    },
+    {
+     "toponym": "Kolkata",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1348"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1275004/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q1348"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/darjeeling-west-bengal-indien",
+   "type": "Feature",
+   "properties": {
+    "title": "Darjeeling, (West Bengal, Indien)",
+    "ccodes": [
+     "IN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.26667,
+     27.03333
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Darjeeling",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Darjeeling, (West Bengal, Indien) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Dārjiling",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1273467/"
+      }
+     ]
+    },
+    {
+     "toponym": "दार्जीलिङ",
+     "lang": "ne",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q169997"
+      }
+     ]
+    },
+    {
+     "toponym": "দার্জিলিং",
+     "lang": "bn",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q169997"
+      }
+     ]
+    },
+    {
+     "toponym": "Darjeeling",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q169997"
+      }
+     ]
+    },
+    {
+     "toponym": "Darjeeling",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q169997"
+      }
+     ]
+    },
+    {
+     "toponym": "Darjeeling",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q169997"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1273467/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q169997"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/agra-u-p-indien",
+   "type": "Feature",
+   "properties": {
+    "title": "Agra, (U.P.), Indien",
+    "ccodes": [
+     "IN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.01667,
+     27.18333
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Agra",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Agra, (U.P.), Indien [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Agra",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1279259/"
+      }
+     ]
+    },
+    {
+     "toponym": "आगरा",
+     "lang": "hi",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q42941"
+      }
+     ]
+    },
+    {
+     "toponym": "Agra",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q42941"
+      }
+     ]
+    },
+    {
+     "toponym": "Agra",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q42941"
+      }
+     ]
+    },
+    {
+     "toponym": "Agra",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q42941"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1279259/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q42941"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/delhi-indien",
+   "type": "Feature",
+   "properties": {
+    "title": "Delhi (Indien)",
+    "ccodes": [
+     "IN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.23149,
+     28.65195
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Delhi",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Delhi (Indien) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Delhi",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1273294/"
+      }
+     ]
+    },
+    {
+     "toponym": "دہلی",
+     "lang": "ur",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1353"
+      }
+     ]
+    },
+    {
+     "toponym": "दिल्ली",
+     "lang": "hi",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1353"
+      }
+     ]
+    },
+    {
+     "toponym": "Delhi",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1353"
+      }
+     ]
+    },
+    {
+     "toponym": "Delhi",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1353"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1273294/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q1353"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/alwar-rajputana-indien",
+   "type": "Feature",
+   "properties": {
+    "title": "Alwar, Rajputana (Indien)",
+    "ccodes": [
+     "IN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.625,
+     27.56246
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Alwar",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Alwar, Rajputana (Indien) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Alwar",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1278946/"
+      }
+     ]
+    },
+    {
+     "toponym": "Alwar",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q2722762"
+      }
+     ]
+    },
+    {
+     "toponym": "Alwar",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q2722762"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1278946/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q2722762"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/jodhpur-rajasthan-indien",
+   "type": "Feature",
+   "properties": {
+    "title": "Jodhpur, Rajasthan, Indien",
+    "ccodes": [
+     "IN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.00594,
+     26.26841
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Jodhpur",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Jodhpur, Rajasthan, Indien [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Jodhpur",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1268865/"
+      }
+     ]
+    },
+    {
+     "toponym": "Jodhpur",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q200019"
+      }
+     ]
+    },
+    {
+     "toponym": "Jodhpur",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q200019"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1268865/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q200019"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/jaipur-jeypore-rajasthan-indien",
+   "type": "Feature",
+   "properties": {
+    "title": "Jaipur (Jeypore), Rajasthan, Indien",
+    "ccodes": [
+     "IN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.78781,
+     26.91962
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Jaipur",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Jaipur (Jeypore), Rajasthan, Indien [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Jaipur",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1269515/"
+      }
+     ]
+    },
+    {
+     "toponym": "जयपुर",
+     "lang": "hi",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q66485"
+      }
+     ]
+    },
+    {
+     "toponym": "Jaipur",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q66485"
+      }
+     ]
+    },
+    {
+     "toponym": "Jaipur",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q66485"
+      }
+     ]
+    },
+    {
+     "toponym": "Jaipur",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q66485"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1269515/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q66485"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/pilibhit-u-p-indien",
+   "type": "Feature",
+   "properties": {
+    "title": "Pilibhit, (U.P. Indien)",
+    "ccodes": [
+     "IN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.80436,
+     28.63124
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Pilibhit",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Pilibhit, (U.P. Indien) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Pīlibhīt",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1259686/"
+      }
+     ]
+    },
+    {
+     "toponym": "Pilibhit",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1197824"
+      }
+     ]
+    },
+    {
+     "toponym": "Pilibhit",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1197824"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1259686/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q1197824"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/singapur",
+   "type": "Feature",
+   "properties": {
+    "title": "Singapur",
+    "ccodes": [
+     "SG"
+    ],
+    "segments": [
+     "voyage_1913",
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.85007,
+     1.28967
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Singapur",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Singapur [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1913"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Tumasik",
+     "lang": "my",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1880252/"
+      }
+     ]
+    },
+    {
+     "toponym": "Temasek",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1880252/"
+      }
+     ]
+    },
+    {
+     "toponym": "Dānmǎxī",
+     "lang": "zh",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1880252/"
+      }
+     ]
+    },
+    {
+     "toponym": "Syonan-to",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1880252/"
+      }
+     ]
+    },
+    {
+     "toponym": "Singapore",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1880252/"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1880252/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q49755161"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1913"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/batavia-heut-jakarta-indonesien",
+   "type": "Feature",
+   "properties": {
+    "title": "Batavia (heut. Jakarta, Indonesien)",
+    "ccodes": [
+     "ID"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.84513,
+     -6.21462
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Batavia",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Batavia (heut. Jakarta, Indonesien) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Batavia",
+     "lang": "nl",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ]
+    },
+    {
+     "toponym": "Jakarta",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [dated]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1972"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Djakarta",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1949"
+        },
+        "end": {
+         "in": "1972"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Batavia",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1619"
+        },
+        "end": {
+         "in": "1949"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Jayakarta",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1527"
+        },
+        "end": {
+         "in": "1619"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Sunda Kelapa",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "397"
+        },
+        "end": {
+         "in": "1527"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "巴达威亚",
+     "lang": "zh-CN",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [dated]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1619"
+        },
+        "end": {
+         "in": "1949"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "勿礁維",
+     "lang": "zh-Hant",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1619"
+        },
+        "end": {
+         "in": "1949"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "勿礁维",
+     "lang": "zh-Hant",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1619"
+        },
+        "end": {
+         "in": "1949"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Sundapura",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "358"
+        },
+        "end": {
+         "in": "669"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Sunda Kelapa",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "669"
+        },
+        "end": {
+         "in": "1527"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "バタヴィア",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1619"
+        },
+        "end": {
+         "in": "1949"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Jakarta",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1642911/"
+      }
+     ]
+    },
+    {
+     "toponym": "Batavia",
+     "lang": "nl",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q3630"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1619"
+        },
+        "end": {
+         "in": "1949"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Jakarta",
+     "lang": "jv",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q3630"
+      }
+     ]
+    },
+    {
+     "toponym": "Daerah Khusus Ibukota Jakarta",
+     "lang": "id",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q3630"
+      }
+     ]
+    },
+    {
+     "toponym": "Jakarta",
+     "lang": "id",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q3630"
+      }
+     ]
+    },
+    {
+     "toponym": "Jakarta",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q3630"
+      }
+     ]
+    },
+    {
+     "toponym": "Jakarta",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q3630"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1642911/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q3630"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/garut-indonesien",
+   "type": "Feature",
+   "properties": {
+    "title": "Garut, Indonesien",
+    "ccodes": [
+     "ID"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.921,
+     -7.245
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Garut",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Garut, Indonesien [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Garut",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1644409/"
+      }
+     ]
+    },
+    {
+     "toponym": "Garutkota",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q26735134"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1644409/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q26735134"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/buitenzog-heut-bogor-indonesien",
+   "type": "Feature",
+   "properties": {
+    "title": "Buitenzog, ( heut. Bogor, Indonesien)",
+    "ccodes": [
+     "ID"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.78917,
+     -6.59444
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Buitenzog",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Buitenzog, ( heut. Bogor, Indonesien) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Bogor",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1648473/"
+      }
+     ]
+    },
+    {
+     "toponym": "Bogor",
+     "lang": "id",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q10393"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1945"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Buitenzorg",
+     "lang": "nl",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q10393"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "latest": "1945"
+        },
+        "end": {
+         "in": "1945"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Kota Besar Bogor",
+     "lang": "id",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q10393"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1950"
+        },
+        "end": {
+         "in": "1957"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Kotapraja Bogor",
+     "lang": "id",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q10393"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1957"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Kota Bogor",
+     "lang": "id",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q10393"
+      }
+     ]
+    },
+    {
+     "toponym": "Bogor",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q10393"
+      }
+     ]
+    },
+    {
+     "toponym": "Bogor",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q10393"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1648473/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q10393"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/tjiandjur-heut-cianjur-indonesien",
+   "type": "Feature",
+   "properties": {
+    "title": "Tjiandjur (heut. Cianjur, Indonesien)",
+    "ccodes": [
+     "ID"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.13944,
+     -6.82222
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Tjiandjur",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Tjiandjur (heut. Cianjur, Indonesien) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Cianjur",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1647142/"
+      }
+     ]
+    },
+    {
+     "toponym": "Cianjur",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q10367"
+      }
+     ]
+    },
+    {
+     "toponym": "Cianjur",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q10367"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1647142/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q10367"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/sydney-australien",
+   "type": "Feature",
+   "properties": {
+    "title": "Sydney, Australien",
+    "ccodes": [
+     "AU"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.20732,
+     -33.86785
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Sydney",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Sydney, Australien [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Sydney",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/2147714/"
+      }
+     ]
+    },
+    {
+     "toponym": "Sydney",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q3130"
+      }
+     ]
+    },
+    {
+     "toponym": "Sydney",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q3130"
+      }
+     ]
+    },
+    {
+     "toponym": "Sydney",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q3130"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/2147714/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q3130"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/noumea-neukaledonien",
+   "type": "Feature",
+   "properties": {
+    "title": "Nouméa, Neukaledonien",
+    "ccodes": [
+     "NC"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     166.44884,
+     -22.27407
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Nouméa",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Nouméa, Neukaledonien [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Nouméa",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/2139521/"
+      }
+     ]
+    },
+    {
+     "toponym": "Nouméa",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q9733"
+      }
+     ]
+    },
+    {
+     "toponym": "Nouméa",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q9733"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/2139521/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q9733"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/port-moresby-papa-neuguinea",
+   "type": "Feature",
+   "properties": {
+    "title": "Port Moresby, Papa Neuguinea",
+    "ccodes": [
+     "PG"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.15089,
+     -9.47723
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Port Moresby",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Port Moresby, Papa Neuguinea [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Port Moresby",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/2088122/"
+      }
+     ]
+    },
+    {
+     "toponym": "Port Moresby",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q36526"
+      }
+     ]
+    },
+    {
+     "toponym": "Port Moresby",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q36526"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/2088122/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q36526"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/dobo-aru-inseln-indonesien",
+   "type": "Feature",
+   "properties": {
+    "title": "Dobo, Aru Inseln,  Indonesien",
+    "ccodes": [
+     "ID"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.23405,
+     -5.76092
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Dobo",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Dobo, Aru Inseln,  Indonesien [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Dobo",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1645413/"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1645413/"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/amboina-heut-ambon-indonesien",
+   "type": "Feature",
+   "properties": {
+    "title": "Amboina (heut. Ambon, Indonesien)",
+    "ccodes": [
+     "ID"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     128.18333,
+     -3.69583
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Amboina",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Amboina (heut. Ambon, Indonesien) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Ambon",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1651531/"
+      }
+     ]
+    },
+    {
+     "toponym": "Kota Ambon",
+     "lang": "id",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q18970"
+      }
+     ]
+    },
+    {
+     "toponym": "Ambon",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q18970"
+      }
+     ]
+    },
+    {
+     "toponym": "Ambon",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q18970"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1651531/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q18970"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/hong-kong-china",
+   "type": "Feature",
+   "properties": {
+    "title": "Hong Kong, China",
+    "ccodes": [
+     "HK"
+    ],
+    "segments": [
+     "voyage_1913",
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.17469,
+     22.27832
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Hong Kong",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Hong Kong, China [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1913"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Hong Kong",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1819729/"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1819729/"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1913"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/kanton-heut-guangzhou-china",
+   "type": "Feature",
+   "properties": {
+    "title": "Kanton, (heut. Guangzhou, China)",
+    "ccodes": [
+     "CN"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.25,
+     23.11667
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Kanton",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Kanton, (heut. Guangzhou, China) [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Кантон",
+     "lang": "ru",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1809858/"
+      }
+     ]
+    },
+    {
+     "toponym": "Kanton",
+     "lang": "hr",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1809858/"
+      }
+     ]
+    },
+    {
+     "toponym": "Guangzhou",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1809858/"
+      }
+     ]
+    },
+    {
+     "toponym": "广州市",
+     "lang": "zh-cn",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q16572"
+      }
+     ]
+    },
+    {
+     "toponym": "Guangzhou",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q16572"
+      }
+     ]
+    },
+    {
+     "toponym": "Guangzhou",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q16572"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1809858/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q16572"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/nagasaki-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Nagasaki, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "voyage_1913",
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     129.88333,
+     32.75
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Nagasaki",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Nagasaki, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1913"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Nagasaki",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1856177/"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1856177/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q49295299"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1913"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/kumamoto-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Kumamoto, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.69181,
+     32.80589
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Kumamoto",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Kumamoto, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Kumamoto",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1858421/"
+      }
+     ]
+    },
+    {
+     "toponym": "熊本市",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q199889"
+      }
+     ]
+    },
+    {
+     "toponym": "Kumamoto",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q199889"
+      }
+     ]
+    },
+    {
+     "toponym": "Kumamoto",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q199889"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1858421/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q199889"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/shimonoseki-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Shimonoseki, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.93713,
+     33.95548
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Shimonoseki",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Shimonoseki, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Shimonoseki",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1852225/"
+      }
+     ]
+    },
+    {
+     "toponym": "赤間関市",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q203308"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1889"
+        },
+        "end": {
+         "in": "1902"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "下関市",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q203308"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1902"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Shimonoseki",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q203308"
+      }
+     ]
+    },
+    {
+     "toponym": "Shimonoseki",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q203308"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1852225/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q203308"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/kyoto-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Kyoto, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.75385,
+     35.02107
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Kyoto",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Kyoto, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Kyoto",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1857910/"
+      }
+     ]
+    },
+    {
+     "toponym": "京都市",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q34600"
+      }
+     ]
+    },
+    {
+     "toponym": "Kyōto",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q34600"
+      }
+     ]
+    },
+    {
+     "toponym": "Kyoto",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q34600"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1857910/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q34600"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/nagoya-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Nagoya, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.90641,
+     35.18147
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Nagoya",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Nagoya, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Nagoya",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1856057/"
+      }
+     ]
+    },
+    {
+     "toponym": "Nagoya",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q11751"
+      }
+     ]
+    },
+    {
+     "toponym": "Nagoya",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q11751"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1856057/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q11751"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/tokyo-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Tokyo, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.69171,
+     35.6895
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Tokyo",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Tokyo, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Edo",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1850147/"
+      }
+     ]
+    },
+    {
+     "toponym": "Tokyo",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1850147/"
+      }
+     ]
+    },
+    {
+     "toponym": "江戸",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1490"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "latest": "1868"
+        },
+        "end": {
+         "in": "1868"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "東京都",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1490"
+      }
+     ]
+    },
+    {
+     "toponym": "Tokio",
+     "lang": "pl",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1490"
+      }
+     ]
+    },
+    {
+     "toponym": "Tokio",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1490"
+      }
+     ]
+    },
+    {
+     "toponym": "Tokyo",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1490"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1850147/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q1490"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/nikko-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Nikko, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.61667,
+     36.75
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Nikko",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Nikko, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Nikkō",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1855395/"
+      }
+     ]
+    },
+    {
+     "toponym": "日光町",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q235753"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1889"
+        },
+        "end": {
+         "in": "1954"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "日光市",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q235753"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1954"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Nikkō",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q235753"
+      }
+     ]
+    },
+    {
+     "toponym": "Nikkō-shi",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q235753"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1855395/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q235753"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/yokohama-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Yokohama, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "voyage_1914",
+     "weltreise_1892_93"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.65,
+     35.43333
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Yokohama",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Yokohama, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1892"
+        },
+        "end": {
+         "in": "1914"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Yokohama",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1848354/"
+      }
+     ]
+    },
+    {
+     "toponym": "Yokohama",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q38283"
+      }
+     ]
+    },
+    {
+     "toponym": "Yokohama",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q38283"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1848354/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q38283"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1892"
+      },
+      "end": {
+       "in": "1914"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/vancouver-kanada",
+   "type": "Feature",
+   "properties": {
+    "title": "Vancouver, Kanada",
+    "ccodes": [
+     "CA"
+    ],
+    "segments": [
+     "ff_onward_1893"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -123.11934,
+     49.24966
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Vancouver",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Vancouver, Kanada [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Vancouver",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/6173331/"
+      }
+     ]
+    },
+    {
+     "toponym": "City of Vancouver",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q24639"
+      }
+     ]
+    },
+    {
+     "toponym": "Vancouver",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q24639"
+      }
+     ]
+    },
+    {
+     "toponym": "Vancouver",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q24639"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/6173331/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q24639"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1893"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/penticton-kanada",
+   "type": "Feature",
+   "properties": {
+    "title": "Penticton, Kanada",
+    "ccodes": [
+     "CA"
+    ],
+    "segments": [
+     "ff_onward_1893"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -119.58584,
+     49.48062
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Penticton",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Penticton, Kanada [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Penticton",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/6101141/"
+      }
+     ]
+    },
+    {
+     "toponym": "Penticton",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q935519"
+      }
+     ]
+    },
+    {
+     "toponym": "Penticton",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q935519"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/6101141/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q935519"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1893"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/spokane-washington-usa",
+   "type": "Feature",
+   "properties": {
+    "title": "Spokane, Washington, USA",
+    "ccodes": [
+     "US"
+    ],
+    "segments": [
+     "ff_onward_1893"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.42908,
+     47.65966
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Spokane",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Spokane, Washington, USA [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Spokane",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/5811696/"
+      }
+     ]
+    },
+    {
+     "toponym": "Spokane",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q187805"
+      }
+     ]
+    },
+    {
+     "toponym": "Spokane",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q187805"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/5811696/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q187805"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1893"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/livingston-montana-usa",
+   "type": "Feature",
+   "properties": {
+    "title": "Livingston, Montana, USA",
+    "ccodes": [
+     "US"
+    ],
+    "segments": [
+     "ff_onward_1893"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.31487,
+     40.79593
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Livingston",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Livingston, Montana, USA [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Livingston",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/5100572/"
+      }
+     ]
+    },
+    {
+     "toponym": "Livingston",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q35718445"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/5100572/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q35718445"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1893"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/yellowstone-nationalpark-wyoming-usa",
+   "type": "Feature",
+   "properties": {
+    "title": "Yellowstone Nationalpark, Wyoming, USA",
+    "ccodes": [
+     "US"
+    ],
+    "segments": [
+     "ff_onward_1893"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -85.70531,
+     42.91336
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Wyoming",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Yellowstone Nationalpark, Wyoming, USA [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Wyoming",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/5015618/"
+      }
+     ]
+    },
+    {
+     "toponym": "Wyoming",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1022953"
+      }
+     ]
+    },
+    {
+     "toponym": "Wyoming",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1022953"
+      }
+     ]
+    },
+    {
+     "toponym": "Wyoming",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1022953"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/5015618/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q1022953"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1893"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/chicago-usa",
+   "type": "Feature",
+   "properties": {
+    "title": "Chicago, USA",
+    "ccodes": [
+     "US"
+    ],
+    "segments": [
+     "ff_onward_1893"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.65005,
+     41.85003
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Chicago",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Chicago, USA [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Chicago",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/4887398/"
+      }
+     ]
+    },
+    {
+     "toponym": "City of Chicago",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1297"
+      }
+     ]
+    },
+    {
+     "toponym": "Chicago",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q1297"
+      }
+     ]
+    },
+    {
+     "toponym": "Chicago",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1297"
+      }
+     ]
+    },
+    {
+     "toponym": "Chicago",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q1297"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/4887398/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q1297"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1893"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/niagara-falls-new-york-usa",
+   "type": "Feature",
+   "properties": {
+    "title": "Niagara Falls, New York, USA",
+    "ccodes": [
+     "US"
+    ],
+    "segments": [
+     "ff_onward_1893"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.05671,
+     43.0945
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Niagara Falls",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Niagara Falls, New York, USA [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Niagara Falls",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/5128723/"
+      }
+     ]
+    },
+    {
+     "toponym": "City of Niagara Falls",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q128133"
+      }
+     ]
+    },
+    {
+     "toponym": "Niagara Falls",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q128133"
+      }
+     ]
+    },
+    {
+     "toponym": "Niagara Falls",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q128133"
+      }
+     ]
+    },
+    {
+     "toponym": "Niagara Falls",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q128133"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/5128723/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q128133"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1893"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/new-york-new-york-usa",
+   "type": "Feature",
+   "properties": {
+    "title": "New York, New York, USA",
+    "ccodes": [
+     "US"
+    ],
+    "segments": [
+     "ff_onward_1893"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.00597,
+     40.71427
+    ]
+   },
+   "names": [
+    {
+     "toponym": "New York",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: New York, New York, USA [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Aebura",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/5128581/"
+      }
+     ]
+    },
+    {
+     "toponym": "Nuova York",
+     "lang": "it",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/5128581/"
+      }
+     ]
+    },
+    {
+     "toponym": "New York City",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/5128581/"
+      }
+     ]
+    },
+    {
+     "toponym": "Fort Neu-Amsterdam",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q60"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1624"
+        },
+        "end": {
+         "in": "1664"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "New York",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q60"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1664"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "City of New York",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q60"
+      }
+     ]
+    },
+    {
+     "toponym": "New York City",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q60"
+      }
+     ]
+    },
+    {
+     "toponym": "New York City",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q60"
+      }
+     ]
+    },
+    {
+     "toponym": "New York City",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q60"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/5128581/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q60"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1893"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/le-havre-frankreich",
+   "type": "Feature",
+   "properties": {
+    "title": "Le Havre, Frankreich",
+    "ccodes": [
+     "FR"
+    ],
+    "segments": [
+     "ff_onward_1893"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.10785,
+     49.49346
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Le Havre",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Le Havre, Frankreich [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Le port de Grâce",
+     "lang": "fr",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/3003796/"
+      }
+     ]
+    },
+    {
+     "toponym": "Le Havre",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/3003796/"
+      }
+     ]
+    },
+    {
+     "toponym": "Le Havre",
+     "lang": "fr",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q42810"
+      }
+     ]
+    },
+    {
+     "toponym": "Le Havre-Marat",
+     "lang": "fr",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q42810"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1793"
+        },
+        "end": {
+         "in": "1795"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Le Havre",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q42810"
+      }
+     ]
+    },
+    {
+     "toponym": "Le Havre",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q42810"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/3003796/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q42810"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1893"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/paris-frankreich",
+   "type": "Feature",
+   "properties": {
+    "title": "Paris, Frankreich",
+    "ccodes": [
+     "FR"
+    ],
+    "segments": [
+     "ff_onward_1893"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3488,
+     48.85341
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Paris",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Paris, Frankreich [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Lutetia Parisorum",
+     "lang": "la",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/2988507/"
+      }
+     ]
+    },
+    {
+     "toponym": "Lutèce",
+     "lang": "la",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/2988507/"
+      }
+     ]
+    },
+    {
+     "toponym": "Lutetia",
+     "lang": "la",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/2988507/"
+      }
+     ]
+    },
+    {
+     "toponym": "Paris",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/2988507/"
+      }
+     ]
+    },
+    {
+     "toponym": "Paris",
+     "lang": "fr",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q90"
+      }
+     ]
+    },
+    {
+     "toponym": "Paris",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q90"
+      }
+     ]
+    },
+    {
+     "toponym": "Paris",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q90"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/2988507/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q90"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1893"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/stuttgart-deutschland",
+   "type": "Feature",
+   "properties": {
+    "title": "Stuttgart, Deutschland",
+    "ccodes": [
+     "DE"
+    ],
+    "segments": [
+     "ff_onward_1893"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.17702,
+     48.78232
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Stuttgart",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Stuttgart, Deutschland [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Stuttgart",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/2825297/"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/2825297/"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1893"
+      },
+      "end": {
+       "in": "1893"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/tianjin-hist-tsingtau-china",
+   "type": "Feature",
+   "properties": {
+    "title": "Tianjin (hist. Tsingtau), China",
+    "ccodes": [
+     "CN"
+    ],
+    "segments": [
+     "voyage_1900_02",
+     "voyage_1914"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.17667,
+     39.14222
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Tsingtau",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Tianjin (hist. Tsingtau), China [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1900"
+        },
+        "end": {
+         "in": "1914"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Tianjin",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1792947/"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1792947/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q49280798"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1900"
+      },
+      "end": {
+       "in": "1914"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/peking-china",
+   "type": "Feature",
+   "properties": {
+    "title": "Peking, China",
+    "ccodes": [
+     "CN"
+    ],
+    "segments": [
+     "voyage_1904_05"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.39723,
+     39.9075
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Peking",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Peking, China [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1904"
+        },
+        "end": {
+         "in": "1905"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Bak Ping",
+     "lang": "yue",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [dated]",
+       "@id": "https://www.geonames.org/1816670/"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "latest": "1949"
+        },
+        "end": {
+         "in": "1949"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Yin Ging",
+     "lang": "yue",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1816670/"
+      }
+     ]
+    },
+    {
+     "toponym": "Dai Dou",
+     "lang": "yue",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1816670/"
+      }
+     ]
+    },
+    {
+     "toponym": "Beijing",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1816670/"
+      }
+     ]
+    },
+    {
+     "toponym": "北京市",
+     "lang": "zh",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q956"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1421"
+        },
+        "end": {
+         "in": "1928"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "北京市",
+     "lang": "zh-cn",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q956"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1949"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "北平市",
+     "lang": "zh",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q956"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1945"
+        },
+        "end": {
+         "in": "1949"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Peking",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q956"
+      }
+     ]
+    },
+    {
+     "toponym": "Beijing",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q956"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1816670/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q956"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1904"
+      },
+      "end": {
+       "in": "1905"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/aden-jemen",
+   "type": "Feature",
+   "properties": {
+    "title": "Aden, Jemen",
+    "ccodes": [
+     "YE"
+    ],
+    "segments": [
+     "voyage_1913"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     45.03852,
+     12.77957
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Aden",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Aden, Jemen [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1913"
+        },
+        "end": {
+         "in": "1913"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Aden",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/415189/"
+      }
+     ]
+    },
+    {
+     "toponym": "عدن",
+     "lang": "ar",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q131694"
+      }
+     ]
+    },
+    {
+     "toponym": "Aden",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q131694"
+      }
+     ]
+    },
+    {
+     "toponym": "Aden",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q131694"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/415189/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q131694"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1913"
+      },
+      "end": {
+       "in": "1913"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/qinhuangdao-hist-tsing-wang-tau-china",
+   "type": "Feature",
+   "properties": {
+    "title": "Qinhuangdao (hist. Tsing-wang-Tau), China",
+    "ccodes": [
+     "CN"
+    ],
+    "segments": [
+     "voyage_1913",
+     "voyage_1914"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.58936,
+     39.94104
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Tsing-wang-Tau",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Qinhuangdao (hist. Tsing-wang-Tau), China [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1913"
+        },
+        "end": {
+         "in": "1914"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Qinhuangdao",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1797595/"
+      }
+     ]
+    },
+    {
+     "toponym": "秦皇岛市",
+     "lang": "zh-cn",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q58560"
+      }
+     ]
+    },
+    {
+     "toponym": "Qinhuangdao",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q58560"
+      }
+     ]
+    },
+    {
+     "toponym": "Qinhuangdao",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q58560"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1797595/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q58560"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1913"
+      },
+      "end": {
+       "in": "1914"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/shanghai-china",
+   "type": "Feature",
+   "properties": {
+    "title": "Shanghai, China",
+    "ccodes": [
+     "CN"
+    ],
+    "segments": [
+     "voyage_1914"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.45806,
+     31.22222
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Shanghai",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Shanghai, China [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1914"
+        },
+        "end": {
+         "in": "1914"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Gaa Ding",
+     "lang": "yue",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1796236/"
+      }
+     ]
+    },
+    {
+     "toponym": "Ka Ting",
+     "lang": "yue",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1796236/"
+      }
+     ]
+    },
+    {
+     "toponym": "Shanghai",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1796236/"
+      }
+     ]
+    },
+    {
+     "toponym": "上海市",
+     "lang": "zh-cn",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q8686"
+      }
+     ]
+    },
+    {
+     "toponym": "Shanghai",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q8686"
+      }
+     ]
+    },
+    {
+     "toponym": "Shanghai",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q8686"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1796236/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q8686"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1914"
+      },
+      "end": {
+       "in": "1914"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/fuzhou-hist-foo-chow-china",
+   "type": "Feature",
+   "properties": {
+    "title": "Fuzhou (hist. Foo-Chow), China",
+    "ccodes": [
+     "CN"
+    ],
+    "segments": [
+     "voyage_1914"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.30611,
+     26.06139
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Foo-Chow",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Fuzhou (hist. Foo-Chow), China [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1914"
+        },
+        "end": {
+         "in": "1914"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Fuzhou",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1810821/"
+      }
+     ]
+    },
+    {
+     "toponym": "Fuzhou",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q68481"
+      }
+     ]
+    },
+    {
+     "toponym": "Fuzhou",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q68481"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1810821/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q68481"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1914"
+      },
+      "end": {
+       "in": "1914"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/xiamen-hist-amoy-china",
+   "type": "Feature",
+   "properties": {
+    "title": "Xiamen, (hist. Amoy), China",
+    "ccodes": [
+     "CN"
+    ],
+    "segments": [
+     "voyage_1914"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.08187,
+     24.47979
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Amoy",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Xiamen, (hist. Amoy), China [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1914"
+        },
+        "end": {
+         "in": "1914"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Xiamen",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1790645/"
+      }
+     ]
+    },
+    {
+     "toponym": "厦门市",
+     "lang": "nan-hans",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q68744"
+      }
+     ]
+    },
+    {
+     "toponym": "厦门市",
+     "lang": "zh-cn",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q68744"
+      }
+     ]
+    },
+    {
+     "toponym": "Ē-mn̂g-chhī",
+     "lang": "nan-latn-pehoeji",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q68744"
+      }
+     ]
+    },
+    {
+     "toponym": "Xiamen",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q68744"
+      }
+     ]
+    },
+    {
+     "toponym": "Xiamen",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q68744"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1790645/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q68744"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1914"
+      },
+      "end": {
+       "in": "1914"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/beppu-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Beppu, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "voyage_1914"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.49751,
+     33.27945
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Beppu",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Beppu, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1914"
+        },
+        "end": {
+         "in": "1914"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Beppu",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1864750/"
+      }
+     ]
+    },
+    {
+     "toponym": "別府市",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q273880"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1924"
+        },
+        "end": {
+         "earliest": "2026"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "別府村",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q273880"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1889"
+        },
+        "end": {
+         "in": "1893"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "別府町",
+     "lang": "ja",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q273880"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1893"
+        },
+        "end": {
+         "in": "1924"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Beppu",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q273880"
+      }
+     ]
+    },
+    {
+     "toponym": "Beppu",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q273880"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1864750/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q273880"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1914"
+      },
+      "end": {
+       "in": "1914"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/kobe-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Kobe, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "voyage_1914"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.183,
+     34.6913
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Kobe",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Kobe, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1914"
+        },
+        "end": {
+         "in": "1914"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Kobe",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1859171/"
+      }
+     ]
+    },
+    {
+     "toponym": "Kōbe",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q48320"
+      }
+     ]
+    },
+    {
+     "toponym": "Kobe",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q48320"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1859171/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q48320"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1914"
+      },
+      "end": {
+       "in": "1914"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/toba-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Toba, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "voyage_1914"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.84186,
+     34.4833
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Toba",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Toba, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1914"
+        },
+        "end": {
+         "in": "1914"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Toba",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1850345/"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1850345/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q49369167"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1914"
+      },
+      "end": {
+       "in": "1914"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/kagoshima-japan",
+   "type": "Feature",
+   "properties": {
+    "title": "Kagoshima, Japan",
+    "ccodes": [
+     "JP"
+    ],
+    "segments": [
+     "voyage_1914"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.55,
+     31.56667
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Kagoshima",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Kagoshima, Japan [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1914"
+        },
+        "end": {
+         "in": "1914"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Kagoshima",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1860827/"
+      }
+     ]
+    },
+    {
+     "toponym": "Kagoshima",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q15674"
+      }
+     ]
+    },
+    {
+     "toponym": "Kagoshima",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q15674"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1860827/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q15674"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1914"
+      },
+      "end": {
+       "in": "1914"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@id": "ke:place/qingdao-hist-tsingtau-china",
+   "type": "Feature",
+   "properties": {
+    "title": "Qingdao (hist. Tsingtau), China",
+    "ccodes": [
+     "CN"
+    ],
+    "segments": [
+     "voyage_1914"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.38042,
+     36.06488
+    ]
+   },
+   "names": [
+    {
+     "toponym": "Tsingtau",
+     "lang": null,
+     "citations": [
+      {
+       "label": "Team vault Archive_Indien_Schiffreisen (khm-team), note: Qingdao (hist. Tsingtau), China [attested]"
+      }
+     ],
+     "when": {
+      "timespans": [
+       {
+        "start": {
+         "in": "1914"
+        },
+        "end": {
+         "in": "1914"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "toponym": "Tsingtau",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "GeoNames alternate name [historic]",
+       "@id": "https://www.geonames.org/1797929/"
+      }
+     ]
+    },
+    {
+     "toponym": "Qingdao",
+     "lang": null,
+     "citations": [
+      {
+       "label": "GeoNames [current]",
+       "@id": "https://www.geonames.org/1797929/"
+      }
+     ]
+    },
+    {
+     "toponym": "青岛市",
+     "lang": "zh-cn",
+     "citations": [
+      {
+       "label": "Wikidata P1448 [official]",
+       "@id": "http://www.wikidata.org/entity/Q170322"
+      }
+     ]
+    },
+    {
+     "toponym": "Qingdao",
+     "lang": "de",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q170322"
+      }
+     ]
+    },
+    {
+     "toponym": "Qingdao",
+     "lang": "en",
+     "citations": [
+      {
+       "label": "Wikidata label [label]",
+       "@id": "http://www.wikidata.org/entity/Q170322"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "type": "closeMatch",
+     "identifier": "https://www.geonames.org/1797929/"
+    },
+    {
+     "type": "closeMatch",
+     "identifier": "http://www.wikidata.org/entity/Q170322"
+    }
+   ],
+   "when": {
+    "timespans": [
+     {
+      "start": {
+       "in": "1914"
+      },
+      "end": {
+       "in": "1914"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

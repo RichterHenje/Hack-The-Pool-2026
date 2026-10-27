@@ -1,0 +1,22 @@
+[project]
+name = "kaiserin-elisabeth"
+version = "0.1.0"
+description = "SMS Kaiserin Elisabeth 1892-1914: itinerary map from the team vault, linked to Kulturpool"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.32",
+]
+
+[dependency-groups]
+dev = [
+    "jsonschema>=4.23",
+    "pytest>=8.3",
+    "ruff>=0.15",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
