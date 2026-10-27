@@ -1,0 +1,27 @@
+{
+ "diary_days": 170,
+ "diary_span": [
+  "1892-12-15",
+  "1893-10-17"
+ ],
+ "hoefer_rows": 219,
+ "hoefer_span": [
+  "1892-12-15",
+  "1893-10-18"
+ ],
+ "calendar_days_in_span": 308,
+ "hoefer_days_covered": 308,
+ "diary_days_without_hoefer_row": 0,
+ "hoefer_days_without_diary_entry": 138,
+ "place_check": {
+  "agree": 143,
+  "disagree": 14,
+  "no_hoefer_place": 2,
+  "no_diary_place": 11
+ },
+ "kind_check": {
+  "agree": 150,
+  "disagree": 11,
+  "diary_unknown": 9
+ }
+}
