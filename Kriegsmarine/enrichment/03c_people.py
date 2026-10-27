@@ -40,6 +40,10 @@ VARIANTS = {"Prónay": r"Pr[oóö6]nay", "Liburnau": r"Lorenz|Liburnau", "Salvat
             "Oscar": r"Henschel", "Paskoevič": r"Biaggio|Paskoevi\w*"}   # Blasius Paskoevič = "Biaggio" (vermutlich)
 
 
+# GND fixed by hand where the GND has duplicates (vault name -> GND id, reason)
+GND_FIXED = {"Dayal, Lala Deen": ("129514721", "GND has two records: 129514721 'Deen Dayal, Raja' (1844-1905, Wikidata "
+                                  "Q1182338, used as creator by the Weltmuseum/Europeana) and 133576116 'Dayal, Lala Din' "
+                                  "(1844-1910, Q133746796), probably a duplicate")}
 # vault name -> (surname, first name) as the GND has it, where the note title is arranged differently
 GND_NAME = {"Ritter von Liburnau, Dr. Ludwig Lorenz": ("Lorenz-Liburnau", "Ludwig")}
 
@@ -85,6 +89,10 @@ def years(text):
 
 def lobid(p):
     """GND candidates whose name and life dates fit; vault GND wins."""
+    if p["Nachname, Vorname"] in GND_FIXED:
+        gid, why = GND_FIXED[p["Nachname, Vorname"]]
+        r = get_json(LOBID, {"q": f"gndIdentifier:{gid}", "format": "json"})
+        return {"status": "fixed", "id": gid, "record": (r.get("member") or [None])[0], "note": why}
     vault_gnd = [g.rstrip("/").split("/")[-1] for g in (p["GND"] if p["GND"] != NA else [])]
     if vault_gnd:
         r = get_json(LOBID, {"q": f"gndIdentifier:{vault_gnd[0]}", "format": "json"})
@@ -151,7 +159,7 @@ def lobid(p):
 def gnd_summary(g):
     m = g.get("record") or {}
     wd = next((s["id"].split("/")[-1] for s in m.get("sameAs", []) if "wikidata.org" in s.get("id", "")), None)
-    return {"status": g["status"], "id": g.get("id"), "candidates": g.get("candidates"),
+    return {"status": g["status"], "id": g.get("id"), "candidates": g.get("candidates"), "note": g.get("note"),
             "name": m.get("preferredName"), "born": (m.get("dateOfBirth") or [None])[0],
             "died": (m.get("dateOfDeath") or [None])[0],
             "professions": [x.get("label") for x in m.get("professionOrOccupation", [])][:5],

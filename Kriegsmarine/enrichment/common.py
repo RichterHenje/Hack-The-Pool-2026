@@ -29,6 +29,8 @@ def get_json(url, params=None, retries=3):
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
             with urllib.request.urlopen(req, timeout=60) as r:
                 data = json.load(r)
+            if isinstance(data, dict) and "error" in data and "servedby" in data:   # MediaWiki error: retry, never cache
+                raise ValueError(data["error"].get("info", "MediaWiki API error"))
             path.write_text(json.dumps(data, ensure_ascii=False))
             return data
         except urllib.error.HTTPError as e:

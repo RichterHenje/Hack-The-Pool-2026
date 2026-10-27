@@ -81,6 +81,11 @@ def main():
         "episodes": episodes,
         "voyage": {
             "europeana": {k: europeana[k] for k in ("photographers", "rights", "providers", "dated", "at_hunts")},
+            # selected people (hunter, captain, photographers, doctors) in all sources, filtered by the journey
+            "person_sources": [{k: x[k] for k in ("id", "name", "category", "role", "vault_id", "gnd", "wikidata")}
+                               | {"counts": {s: {"raw": r["raw"], "kept": r["kept"]} for s, r in x["sources"].items()},
+                                  "kept": {s: r["items"][:8] for s, r in x["sources"].items() if r["items"]}}
+                               for x in load("person_sources.json")["people"]],
             "objects_strong": [o for o in load("objects.json")["objects"] if o["strength"] == "strong"],
             "kulturpool": kp["direct"],
             "anno_coverage": anno["coverage"],

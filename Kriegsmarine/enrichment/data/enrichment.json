@@ -9594,6 +9594,1025 @@
    "dated": 60,
    "at_hunts": 37
   },
+  "person_sources": [
+   {
+    "id": "janaczek",
+    "name": "Janaczek, Franz",
+    "category": "Jäger",
+    "role": "Leibjäger Franz Ferdinands",
+    "vault_id": "ke-person-7dda95b2da",
+    "gnd": null,
+    "wikidata": null,
+    "counts": {
+     "diary": {
+      "raw": 3,
+      "kept": 3
+     },
+     "weltmuseum_tms": {
+      "raw": 0,
+      "kept": 0
+     },
+     "anno": {
+      "raw": 31,
+      "kept": 0
+     },
+     "kulturpool": {
+      "raw": 306,
+      "kept": 0
+     },
+     "europeana": {
+      "raw": 3,
+      "kept": 0
+     },
+     "commons": {
+      "raw": 7,
+      "kept": 0
+     }
+    },
+    "kept": {
+     "diary": [
+      {
+       "date": "1893-02-22",
+       "place": "Sariska, India",
+       "scan": 281,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n280/mode/1up",
+       "text": "ich .Hein pürschte mit dem Schikäri und Janaczek einen überaus steilen lergrücken hinan, von dessen Grat aus der Schikäri nach der gegenIberliegenden Lehne auf einen angeblich starken Sambarhirsch deutete."
+      },
+      {
+       "date": "1893-02-24",
+       "place": "Sariska, India",
+       "scan": 285,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n284/mode/1up",
+       "text": "Janaczek und der Schikäri, welcher den Tiger bestätigt ] hatte, saßen hinter mir."
+      },
+      {
+       "date": "1893-05-14",
+       "place": "At Sea to Sydney, Australia",
+       "scan": 532,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n531/mode/1up",
+       "text": "Die Dienerschaft: Franz Janaczek, Leibjäger."
+      }
+     ]
+    }
+   },
+   {
+    "id": "becker",
+    "name": "Becker, Alois Ritter von",
+    "category": "Kapitän",
+    "role": "Kommandant der Kaiserin Elisabeth",
+    "vault_id": "ke-person-af40d134be",
+    "gnd": "https://d-nb.info/gnd/1056116455",
+    "wikidata": null,
+    "counts": {
+     "diary": {
+      "raw": 5,
+      "kept": 5
+     },
+     "weltmuseum_tms": {
+      "raw": 0,
+      "kept": 0
+     },
+     "anno": {
+      "raw": 87,
+      "kept": 8
+     },
+     "kulturpool": {
+      "raw": 62,
+      "kept": 0
+     },
+     "europeana": {
+      "raw": 8,
+      "kept": 0
+     },
+     "commons": {
+      "raw": 1,
+      "kept": 0
+     }
+    },
+    "kept": {
+     "diary": [
+      {
+       "date": "1892-12-15",
+       "place": "Trieste",
+       "scan": 15,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n14/mode/1up",
+       "text": "Becker, und der Stab cmpliengen."
+      },
+      {
+       "date": "1893-03-29",
+       "place": "Calcutta, India",
+       "scan": 395,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n394/mode/1up",
+       "text": "Becker empfieng, um mich Ti Galaboote durch einen Seitencanal nach der » Elisabeth ^^ zu geleiten, lie in dem Hugli vor Anker lag."
+      },
+      {
+       "date": "1893-07-24",
+       "place": "Canton",
+       "scan": 252,
+       "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n251/mode/1up",
+       "text": "Drew noch meine Herren, Commandant Becker, die anderen Herren vom Stabe, Generalconsul Haas, ferner die Herren Lange und Goetz eingefunden hatten."
+      },
+      {
+       "date": "1893-08-17",
+       "place": "Miyanoshita — Tokyo — Yokohama, Japan",
+       "scan": 395,
+       "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n394/mode/1up",
+       "text": "An dem Dejeuner nahmen vierzig Personen theil, darunter auch die Herren unserer GesandtSchaft und des Consulates, Commandant Becker mit mehreren anderen Herren vom Stabe der »Elisabeth*, ferner alle Minister und die obersten Hofchargen."
+      },
+      {
+       "date": "1893-08-25",
+       "place": "At Sea to Vancouver",
+       "scan": 432,
+       "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n431/mode/1up",
+       "text": "Wir tauschten noch einen letzten Händedruck mit Becker und Jedina, die Maschine der ^-Empress of China* begann zu arbeiten und das Riesenschiff wendete sich dem Ha^fenausgange zu."
+      }
+     ],
+     "anno": [
+      {
+       "date": "1893-12-24",
+       "title": "Ischler Wochenblatt 24. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/isl18931224?query=%22Capit%C3%A4n+Becker%22%7E3+%22Commandant+Becker%22%7E3+%22Linienschiffs-Capit%C3%A4n+Becker%22%7E3+%22Alois+Becker%22%7E3+%22Becker+Kaiserin+Elisabeth%22%7E25&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...als erster Commandant der „Elisabeth.\" Der gegenwartigeCommandant, LinienschiffS-Capitan Becker, welcher de» Ordender Eisernen Krone zweiter Classe erhalten hatte, dankte fur..."
+      },
+      {
+       "date": "1893-12-20",
+       "title": "Grazer Volksblatt 20. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/gre18931220?query=%22Capit%C3%A4n+Becker%22%7E3+%22Commandant+Becker%22%7E3+%22Linienschiffs-Capit%C3%A4n+Becker%22%7E3+%22Alois+Becker%22%7E3+%22Becker+Kaiserin+Elisabeth%22%7E25&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...mandant des Rammkreuzers .Kaiserin Elisabeth',Linienschiffs-Capitan Becker, erhielt den Ordender Eisernen Krvne zweiter Classe, die ubrigen..."
+      },
+      {
+       "date": "1892-12-15",
+       "title": "Das interessante Blatt 15. Dezember 1892",
+       "url": "http://data.onb.ac.at/ANNO/dib18921215?query=%22Capit%C3%A4n+Becker%22%7E3+%22Commandant+Becker%22%7E3+%22Linienschiffs-Capit%C3%A4n+Becker%22%7E3+%22Alois+Becker%22%7E3+%22Becker+Kaiserin+Elisabeth%22%7E25&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...vom Linienschiffs-CapitanAlois Ritter von Beckerbefehligt ist, einem der er-..."
+      },
+      {
+       "date": "1893-12-21",
+       "title": "Grazer Volksblatt 21. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/gre18931221?query=%22Capit%C3%A4n+Becker%22%7E3+%22Commandant+Becker%22%7E3+%22Linienschiffs-Capit%C3%A4n+Becker%22%7E3+%22Alois+Becker%22%7E3+%22Becker+Kaiserin+Elisabeth%22%7E25&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...der gegenwartige Commandant der .Elisabeth',Linienschiffs-Capitan Becker, fur die gnadigenWorte der beiden Herren Erzherzoge, bezeichnete..."
+      },
+      {
+       "date": "1893-12-25",
+       "title": "Oesterreichischer Soldatenfreund 25. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/mil18931225?query=%22Capit%C3%A4n+Becker%22%7E3+%22Commandant+Becker%22%7E3+%22Linienschiffs-Capit%C3%A4n+Becker%22%7E3+%22Alois+Becker%22%7E3+%22Becker+Kaiserin+Elisabeth%22%7E25&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Schlusse dankte der gegenwartige Commandant der „Elisabeth“, Linien-schiffscapitan Becker, fur die gnadigsten Worte der beiden Erzherzoge,bczeiehnete das gunstige Resultat der Reise als ein Ergebniss gunstiger..."
+      },
+      {
+       "date": "1893-12-20",
+       "title": "Wiener Zeitung 20. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/wrz18931220?query=%22Capit%C3%A4n+Becker%22%7E3+%22Commandant+Becker%22%7E3+%22Linienschiffs-Capit%C3%A4n+Becker%22%7E3+%22Alois+Becker%22%7E3+%22Becker+Kaiserin+Elisabeth%22%7E25&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Schiffes „Kaiserin Elisabeth\", Linienschiffs-CapitanAlois Ritter von Becker, den ubrigen Stabsoffizierenso wie den alteren Unteroffizieren, je nach ihrer..."
+      },
+      {
+       "date": "1893-12-20",
+       "title": "Prager Tagblatt 20. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/ptb18931220?query=%22Capit%C3%A4n+Becker%22%7E3+%22Commandant+Becker%22%7E3+%22Linienschiffs-Capit%C3%A4n+Becker%22%7E3+%22Alois+Becker%22%7E3+%22Becker+Kaiserin+Elisabeth%22%7E25&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Commandant der RammkreuzerS „Kaiserin Elisabeth\",Linienschiffs-Capitan Becker, erhielt den Orden derEisernen Krone II. Classe, die ubrigen Officiere und die..."
+      },
+      {
+       "date": "1893-12-20",
+       "title": "Das Vaterland 20. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/vtl18931220?query=%22Capit%C3%A4n+Becker%22%7E3+%22Commandant+Becker%22%7E3+%22Linienschiffs-Capit%C3%A4n+Becker%22%7E3+%22Alois+Becker%22%7E3+%22Becker+Kaiserin+Elisabeth%22%7E25&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Commandanten, den Stab und die Mannschaft des Schiffes„Kaiserin Elisabeth\", worauf Liinenschiffscapitan Beckerfur die gnadigsten Worte der beiden Herren Erzherzoge den..."
+      }
+     ]
+    }
+   },
+   {
+    "id": "ahrle",
+    "name": "Ahrlé, Frederick",
+    "category": "Fotograf",
+    "role": "Fotograf in Nordwest-Indien",
+    "vault_id": "ke-person-234628b512",
+    "gnd": null,
+    "wikidata": null,
+    "counts": {
+     "diary": {
+      "raw": 0,
+      "kept": 0
+     },
+     "weltmuseum_tms": {
+      "raw": 0,
+      "kept": 0
+     },
+     "anno": {
+      "raw": 0,
+      "kept": 0
+     },
+     "kulturpool": {
+      "raw": 102,
+      "kept": 0
+     },
+     "europeana": {
+      "raw": 24,
+      "kept": 1
+     },
+     "commons": {
+      "raw": 46,
+      "kept": 0
+     }
+    },
+    "kept": {
+     "europeana": [
+      {
+       "title": "Siriska: Archduke Franz Ferdinand with slain tiger Siriska:  Erzherzog Franz Ferdinand und erlegter Tiger",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14454",
+       "type": "IMAGE",
+       "kind": "undated"
+      }
+     ]
+    }
+   },
+   {
+    "id": "hodek",
+    "name": "Hodek, Eduard",
+    "category": "Fotograf",
+    "role": "Fotograf und Präparator an Bord (Eduard Hodek jun.)",
+    "vault_id": "ke-person-a4b84c682b",
+    "gnd": null,
+    "wikidata": null,
+    "counts": {
+     "diary": {
+      "raw": 30,
+      "kept": 30
+     },
+     "weltmuseum_tms": {
+      "raw": 3,
+      "kept": 3
+     },
+     "anno": {
+      "raw": 183,
+      "kept": 22
+     },
+     "kulturpool": {
+      "raw": 11,
+      "kept": 1
+     },
+     "europeana": {
+      "raw": 363,
+      "kept": 93
+     },
+     "commons": {
+      "raw": 13,
+      "kept": 0
+     }
+    },
+    "kept": {
+     "diary": [
+      {
+       "date": "1893-01-07",
+       "place": "Kandy to Kalawewa, Ceylon",
+       "scan": 63,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n62/mode/1up",
+       "text": "elstunden erreicht und IWirhatten Matale in nicht ganz drei Viert tftef^en daseihst hohe Wagen, um uns nach N'erladung des Gepäckes, ' Gewehre, der photographischen Apparate und der ganzen Hexenrtie Hodeks in Bewegung zu setzen."
+      },
+      {
+       "date": "1893-01-08",
+       "place": "Kalawewa, Ceylon",
+       "scan": 68,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n67/mode/1up",
+       "text": "Die anderen Herren hatten auf verschiedenes Kleinwild in der Umgebung gejagt und brachten ARen, gestreifte Eichhörnchen und allerlei Vögel heim, so dass Hodek viel zu thun bekam."
+      },
+      {
+       "date": "1893-01-11",
+       "place": "Kalawewa, Ceylon",
+       "scan": 75,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n74/mode/1up",
+       "text": "Umgeben von den noch immer vor Freude schreiemien Schikäris gieng ich ins Bungalow, um Hodek zu holen, und kehrte nach einem rasch eingenommenen Frühstück in das Dschungel zurück, wo Hodek sowie ein Photograph aus Kandy Aufnahmen machten und ersterer sodann die Elephanten zerlegte."
+      },
+      {
+       "date": "1893-01-26",
+       "place": "Hyderabad, India",
+       "scan": 145,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n144/mode/1up",
+       "text": "Die erlegten Böcke mit ihren dunkelbraunen und schneeiißen Decken, zierlichen Häuptern und Läufen, sowie dem schönen ihörne wurden sofort der Meisterhand Hodeks übergeben."
+      },
+      {
+       "date": "1893-02-24",
+       "place": "Sariska, India",
+       "scan": 285,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n284/mode/1up",
+       "text": "Hodek hatte seinen photographischen Apparat mitgenommen und verewigte das Trio, nämlich den Tiger, «Tisza> und mich, gleich an Ort und Stelle."
+      },
+      {
+       "date": "1893-02-24",
+       "place": "Sariska, India",
+       "scan": 285,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n284/mode/1up",
+       "text": "Dann wurden diese der Hund Hodeks übergeben, der sie noch denselben Abend für meine Sammlimg Die Tigerin hatte vier Junge in der Grolle von Ratten inne."
+      },
+      {
+       "date": "1893-03-13",
+       "place": "Barbatta Valley, Nepal",
+       "scan": 373,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n372/mode/1up",
+       "text": "jenes führt die Kiste mit dem literarischen Rüstzeug, den transportablen Flaschenkeller und all die Gifte Hodeks."
+      },
+      {
+       "date": "1893-03-14",
+       "place": "Dechta Boli, Nepal",
+       "scan": 375,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n374/mode/1up",
+       "text": "Jubelnd umdrängten die Nepalesen den starken Tiger, den sie so vorzüglich bestätigt hatten, und der auf dem Rücken eines Elephanten festgebunden, — ein imposanter Anblick — alsbald ins Lager gebracht wurde, wo ihn Hodek übernahm."
+      }
+     ],
+     "weltmuseum_tms": [
+      {
+       "kind": "photo",
+       "inventory": "VF_14710",
+       "title": "BOMBAY: PALAST DES ENGL. RESIDENTEN [LAUT HODEK GWALIOR]",
+       "dating": "29.1.1893",
+       "url": "https://www.weltmuseumwien.at/objekte/255344"
+      },
+      {
+       "kind": "photo",
+       "inventory": "VF_14835",
+       "title": "JAVA, AM TJI-PANDAK, HODEKS ATELIER",
+       "dating": "19.–24. April1893",
+       "url": "https://www.weltmuseumwien.at/objekte/255481"
+      },
+      {
+       "kind": "photo",
+       "inventory": "VF_56872",
+       "title": "PORTRÄTAUFNAHME HODEKS, DES FOTOGRAFEN AUF DER ERZH. FRANZ FERDINAND`SCHEN WELTREISE. HODEK BEDIENT SEINE PLATTENKAMERA",
+       "dating": "21./22.9.1893",
+       "url": "https://www.weltmuseumwien.at/objekte/297039"
+      }
+     ],
+     "anno": [
+      {
+       "date": "1892-11-11",
+       "title": "Innsbrucker Nachrichten 11. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/ibn18921111?query=%22Hodek%22+%28%22Erzherzog%22+%22Thronfolger%22+%22Weltreise%22+%22Kaiserin+Elisabeth%22+%22Pr%C3%A4parator%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Reise antritt. Der Praparator zoologischer Ob­jecte in Wien, Eduard Hodek, reist schon einigeTage fruher nach Triest, um dann gleichfalls im..."
+      },
+      {
+       "date": "1893-02-06",
+       "title": "Wiener Zeitung 6. Februar 1893",
+       "url": "http://data.onb.ac.at/ANNO/wrz18930206?query=%22Hodek%22+%28%22Erzherzog%22+%22Thronfolger%22+%22Weltreise%22+%22Kaiserin+Elisabeth%22+%22Pr%C3%A4parator%22%29&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...Capitan Pirie, Generalconsul Stockinger, Graf KarlKinsky, Praparator Eduard Hodek und die Diener­schaft. Die Bongalowo (Jagdhaus) steht aus einem Damme..."
+      },
+      {
+       "date": "1893-05-20",
+       "title": "Dillinger's Reisezeitung 20. Mai 1893",
+       "url": "http://data.onb.ac.at/ANNO/dil18930520?query=%22Hodek%22+%28%22Erzherzog%22+%22Thronfolger%22+%22Weltreise%22+%22Kaiserin+Elisabeth%22+%22Pr%C3%A4parator%22%29&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...in Wien angekommen. Bekanntlich wird der Erzherzog vom Praparator EduardHodek begleitet und diesem fallt die Aufgabe zu, Jagdstucke, welche der Erzherzogzum Andenken zu behalten wunscht, derart zu prapariren, dass sie die langwierige..."
+      },
+      {
+       "date": "1892-12-15",
+       "title": "Prager Abendblatt 15. Dezember 1892",
+       "url": "http://data.onb.ac.at/ANNO/pab18921215?query=%22Hodek%22+%28%22Erzherzog%22+%22Thronfolger%22+%22Weltreise%22+%22Kaiserin+Elisabeth%22+%22Pr%C3%A4parator%22%29&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...naturhistorischen Hosmuseums, und der Pra­parator Eduard Hodek. — Die Abfahrt der„Elisabeth\" erfolgt voraussichtlich heute' um..."
+      },
+      {
+       "date": "1892-12-16",
+       "title": "Klagenfurter Zeitung 16. Dezember 1892",
+       "url": "http://data.onb.ac.at/ANNO/kfz18921216?query=%22Hodek%22+%28%22Erzherzog%22+%22Thronfolger%22+%22Weltreise%22+%22Kaiserin+Elisabeth%22+%22Pr%C3%A4parator%22%29&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...rischen Hofmuseums, und der Praparator EduardHodek.Commandant des Rammkreuzers „Kaiserin Eli­..."
+      },
+      {
+       "date": "1892-11-12",
+       "title": "Znaimer Wochenblatt 12. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/zwb18921112?query=%22Hodek%22+%28%22Erzherzog%22+%22Thronfolger%22+%22Weltreise%22+%22Kaiserin+Elisabeth%22+%22Pr%C3%A4parator%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...antritt. Der bekannte Praparator zoologischer Objectein Wien, Eduard Hodek, welcher auch seinerzeit denverewigten Kronprinzen Rudolf auf seinen großen..."
+      },
+      {
+       "date": "1893-02-07",
+       "title": "Das Vaterland 7. Februar 1893",
+       "url": "http://data.onb.ac.at/ANNO/vtl18930207?query=%22Hodek%22+%28%22Erzherzog%22+%22Thronfolger%22+%22Weltreise%22+%22Kaiserin+Elisabeth%22+%22Pr%C3%A4parator%22%29&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...Eine photographische Aufnahme machte am NachmittagePraparator Hodek. Der durchlauchtigste Herr ErzherzogFranz Ferdinand ließ sich im Dschungel neben..."
+      },
+      {
+       "date": "1893-10-19",
+       "title": "Agramer Zeitung 19. Oktober 1893",
+       "url": "http://data.onb.ac.at/ANNO/apz18931019?query=%22Hodek%22+%28%22Erzherzog%22+%22Thronfolger%22+%22Weltreise%22+%22Kaiserin+Elisabeth%22+%22Pr%C3%A4parator%22%29&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...„Seine Hoheit hat aus Ceylon Elephanten ge­jagt. Haben Sie, Herr Hodek, den Erzherzog zurJagd begleitet?\"..."
+      }
+     ],
+     "kulturpool": [
+      {
+       "title": "Imperial Sightseeing: Die Indienreise von Erzherzog Franz Ferdinand von Öst",
+       "provider": "eSel.at",
+       "date": [
+        "2010-07-06"
+       ],
+       "url": "https://kulturpool.at/objekte/adcea14f-8767-4468-b178-2b4a0e3b9c49",
+       "kind": "modern"
+      }
+     ],
+     "europeana": [
+      {
+       "title": "The staff of “Empress Elisabeth” on board Der Stab der \"Kaiserin Elisabeth\" an Bord",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14356",
+       "type": "IMAGE",
+       "kind": "undated"
+      },
+      {
+       "title": "The “Ahmed” pilot, (driving through the Red Sea) Der Lotse \"Ahmed\", (Fahrt durch das Rote Meer)",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14358",
+       "type": "IMAGE",
+       "kind": "ff_collection"
+      },
+      {
+       "title": "Team visit on board (in Reih and Glied) Mannschaftsvisite an Bord (in Reih und Glied)",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14359",
+       "type": "IMAGE",
+       "kind": "ff_collection"
+      },
+      {
+       "title": "Weihnachtsabend 1892, ( In See nach Steamer Point) Christmas Eve 1892, (In See to Steamer Point)",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14363",
+       "type": "IMAGE",
+       "kind": "ff_collection"
+      },
+      {
+       "title": "India, “Tandur-Camp.” 23.I.1893 Indien, \"Tandur-Camp\". 23.I.1893",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14687",
+       "type": "IMAGE",
+       "kind": "voyage"
+      },
+      {
+       "title": "Siriska, Archduke Franz Ferdinand, the first tiger. 24.II.1893 Siriska, Erzherzog Franz Ferdinand u.der erste Tiger. 24.II.1893",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14702",
+       "type": "IMAGE",
+       "kind": "voyage"
+      },
+      {
+       "title": "Jeypore, Jagd-Gepard",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14712",
+       "type": "IMAGE",
+       "kind": "undated"
+      },
+      {
+       "title": "Jodhpore, Jodhpoor Camp. 1.III.1893 Jodhpore, Jodhpoor Camp. 1.III.1893",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14721",
+       "type": "IMAGE",
+       "kind": "voyage"
+      }
+     ]
+    }
+   },
+   {
+    "id": "ramberg",
+    "name": "Ramberg, August Freiherr von",
+    "category": "Fotograf",
+    "role": "Seeoffizier, Fotograf, Marinemaler",
+    "vault_id": "ke-person-a49d32e030",
+    "gnd": "https://d-nb.info/gnd/128265884",
+    "wikidata": "Q765205",
+    "counts": {
+     "diary": {
+      "raw": 4,
+      "kept": 4
+     },
+     "weltmuseum_tms": {
+      "raw": 0,
+      "kept": 0
+     },
+     "anno": {
+      "raw": 271,
+      "kept": 8
+     },
+     "kulturpool": {
+      "raw": 143,
+      "kept": 0
+     },
+     "europeana": {
+      "raw": 0,
+      "kept": 0
+     },
+     "commons": {
+      "raw": 15,
+      "kept": 0
+     }
+    },
+    "kept": {
+     "diary": [
+      {
+       "date": "1893-04-09",
+       "place": "At Sea to Java, crossing the equator",
+       "scan": 432,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n431/mode/1up",
+       "text": "dieses künstlerisch ausgeführte Diplom war von Ramberg gezeichnet und mit sinnigen Emblemen und Ornamenten geschmückt."
+      },
+      {
+       "date": "1893-05-06",
+       "place": "Port Kennedy and Somerset Bay",
+       "scan": 512,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n511/mode/1up",
+       "text": "Im Schatten der hohen Bäume hielten wir einen Augenblick Rast, welche Ramberg benützte, um mehrere photographische Aufnahmen zu machen."
+      },
+      {
+       "date": "1893-05-26",
+       "place": "Sydney, Australia",
+       "scan": 66,
+       "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n65/mode/1up",
+       "text": "Der von Ramberg arrangierte Cotillon — ein für Sydney neues choreographisches Ereignis — gefiel unseren Gästen ungemein."
+      },
+      {
+       "date": "1893-07-23",
+       "place": "Hongkong to Canton",
+       "scan": 240,
+       "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n239/mode/1up",
+       "text": "Bei strömendem Regen und dichtem Nebel schiffte ich mich mit unscr^m Commandanten sowie den Herren des Stabes, Scala, Ramberg und Or."
+      }
+     ],
+     "anno": [
+      {
+       "date": "1893-12-25",
+       "title": "Oesterreichischer Soldatenfreund 25. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/mil18931225?query=%22Ramberg%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22Erzherzog%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...richeii: Ernst Freiherrn Preusohen von und zu Liebenstein, August Frei-herrn v. Ramberg, Franz Remenyi, Eugen Mallinarisch v. Silbergrundund Ludwig Podhorsky, dem Fregattenarzte Dr. Jaroslav Bern, dem Ma­..."
+      },
+      {
+       "date": "1893-12-20",
+       "title": "Prager Abendblatt 20. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/pab18931220?query=%22Ramberg%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22Erzherzog%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...richen Ernst Freiherrn Preuschen von und zu Lie-benstein, August Freiherrn von Ramberg, FranzRemallyi, Eugen Mallinarich von Silber­..."
+      },
+      {
+       "date": "1892-11-05",
+       "title": "Linzer Volksblatt 5. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/lvb18921105?query=%22Ramberg%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22Erzherzog%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Cerda; die Linienschiffs-Fahnriche Baron Ernst Preuschen, AugustFreiherr von Ramberg, Franz Remenyi, Eugen R. v. Mallinarichund Ludwig Podhorsky. Ferner werden sich auf dem Schiffe be­..."
+      },
+      {
+       "date": "1892-11-04",
+       "title": "Das Vaterland 4. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/vtl18921104?query=%22Ramberg%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22Erzherzog%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...la Cerda; die Linienschiffs^ Fahnriche Baron Ernst Preuschen,August Frhr. v. Ramberg, Franz Remenyi, Eugen Ritterv. Mallinarich und Ludwig Podhorsky. Ferner werden sich..."
+      },
+      {
+       "date": "1892-12-21",
+       "title": "Die Presse 21. Dezember 1892",
+       "url": "http://data.onb.ac.at/ANNO/apr18921221?query=%22Ramberg%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22Erzherzog%22%29&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...v. Becker als Zeichner zahlt und der Liniensckiffs-f ahnrich Baron Ramberg, ein Neffe deS beruhmtenupferstechers Ramberg, als Marinemaler bereits Vor-! zugliches geleistet hat. Eines seiner sehr gelungenen See-..."
+      },
+      {
+       "date": "1893-12-13",
+       "title": "Die Presse 13. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/apr18931213?query=%22Ramberg%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22Erzherzog%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...st e > n, Alsred C i e o l i, Wilhelm Ritter v. P e r e l lAugustFreiherr v. Ramberg, Eugen Mallin arich v. Sitveg r,! n d, Conslanlin R a d e y. Zum k. und k. Marinc-Laad-..."
+      },
+      {
+       "date": "1892-11-03",
+       "title": "Die Presse 3. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/apr18921103?query=%22Ramberg%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22Erzherzog%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...die Linienschiffs Fahnriche Baron Ernst Preuschen, August Frei-derr v. Ramberg, Franz Remenyi, Eugen R. v. Mallinarich undLudwig Podhorsky. Ferner werden sich auf dem Schiffe befinden:..."
+      },
+      {
+       "date": "1892-11-04",
+       "title": "Prager Tagblatt 4. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/ptb18921104?query=%22Ramberg%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22Erzherzog%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Ccrda; die Linienschiffsfahnriche Baron Ernst Preufchen,August Freiherr v. Ramberg, Franz Remenyi, EugenR. v. Malliuarich und Ludwig Podhorsky. Ferner wer­..."
+      }
+     ]
+    }
+   },
+   {
+    "id": "remenyi",
+    "name": "Reményi, Franz",
+    "category": "Fotograf",
+    "role": "laut Vault Fotograf, Marinemaler (Notiz gleicht der von Ramberg)",
+    "vault_id": "ke-person-446af750e1",
+    "gnd": null,
+    "wikidata": null,
+    "counts": {
+     "diary": {
+      "raw": 0,
+      "kept": 0
+     },
+     "weltmuseum_tms": {
+      "raw": 0,
+      "kept": 0
+     },
+     "anno": {
+      "raw": 38,
+      "kept": 8
+     },
+     "kulturpool": {
+      "raw": 19,
+      "kept": 0
+     },
+     "europeana": {
+      "raw": 3,
+      "kept": 0
+     },
+     "commons": {
+      "raw": 0,
+      "kept": 0
+     }
+    },
+    "kept": {
+     "anno": [
+      {
+       "date": "1893-12-25",
+       "title": "Oesterreichischer Soldatenfreund 25. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/mil18931225?query=%22Rem%C3%A9nyi%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22F%C3%A4hnrich%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...richeii: Ernst Freiherrn Preusohen von und zu Liebenstein, August Frei-herrn v. Ramberg, Franz Remenyi, Eugen Mallinarisch v. Silbergrundund Ludwig Podhorsky, dem Fregattenarzte Dr. Jaroslav Bern, dem Ma­..."
+      },
+      {
+       "date": "1892-11-05",
+       "title": "Linzer Volksblatt 5. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/lvb18921105?query=%22Rem%C3%A9nyi%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22F%C3%A4hnrich%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Cerda; die Linienschiffs-Fahnriche Baron Ernst Preuschen, AugustFreiherr von Ramberg, Franz Remenyi, Eugen R. v. Mallinarichund Ludwig Podhorsky. Ferner werden sich auf dem Schiffe be­..."
+      },
+      {
+       "date": "1892-11-04",
+       "title": "Das Vaterland 4. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/vtl18921104?query=%22Rem%C3%A9nyi%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22F%C3%A4hnrich%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...la Cerda; die Linienschiffs^ Fahnriche Baron Ernst Preuschen,August Frhr. v. Ramberg, Franz Remenyi, Eugen Ritterv. Mallinarich und Ludwig Podhorsky. Ferner werden sich..."
+      },
+      {
+       "date": "1893-12-12",
+       "title": "Pester Lloyd 12. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/pel18931212?query=%22Rem%C3%A9nyi%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22F%C3%A4hnrich%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...zu erscheinen habe. In die Redaktion des Werkes ist auch Linien-schiffs-Fahnrich Franz Remenyi, welcher die Reise mitgemacht hat.nach Wien berufen worden...."
+      },
+      {
+       "date": "1892-11-04",
+       "title": "Prager Tagblatt 4. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/ptb18921104?query=%22Rem%C3%A9nyi%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22F%C3%A4hnrich%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Ccrda; die Linienschiffsfahnriche Baron Ernst Preufchen,August Freiherr v. Ramberg, Franz Remenyi, EugenR. v. Malliuarich und Ludwig Podhorsky. Ferner wer­..."
+      },
+      {
+       "date": "1892-11-03",
+       "title": "Die Presse 3. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/apr18921103?query=%22Rem%C3%A9nyi%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22F%C3%A4hnrich%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...die Linienschiffs Fahnriche Baron Ernst Preuschen, August Frei-derr v. Ramberg, Franz Remenyi, Eugen R. v. Mallinarich undLudwig Podhorsky. Ferner werden sich auf dem Schiffe befinden:..."
+      },
+      {
+       "date": "1892-11-04",
+       "title": "(Neuigkeits) Welt Blatt 4. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/nwb18921104?query=%22Rem%C3%A9nyi%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22F%C3%A4hnrich%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Erntt Breuschen, August Freiherr t>. R a mberg.Franz Remenyi, Eugen R. v. Mallin arrwund Ludwig Podhorsky. Ferner werden sich aus..."
+      },
+      {
+       "date": "1894-10-13",
+       "title": "Pester Lloyd 13. Oktober 1894",
+       "url": "http://data.onb.ac.at/ANNO/pel18941013?query=%22Rem%C3%A9nyi%22+%28Linienschiffs*+Seecadet*+%22Marine%22+%22Kaiserin+Elisabeth%22+%22F%C3%A4hnrich%22%29&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Sonne; den Linienschiffs Fahnrichen: Ernst Freiherr» Prcuschenvon lind zu Liebenftein. Franz Remenyi, Engen Mallinarich vonSilbecgruiiu mio Ludwig Podhorsk» fur die V. Klasse des kaiserl...."
+      }
+     ]
+    }
+   },
+   {
+    "id": "bem",
+    "name": "Bém, Jaroslaw, Dr.",
+    "category": "Arzt",
+    "role": "Linienschiffsarzt",
+    "vault_id": "ke-person-be4ae250ad",
+    "gnd": null,
+    "wikidata": null,
+    "counts": {
+     "diary": {
+      "raw": 1,
+      "kept": 1
+     },
+     "weltmuseum_tms": {
+      "raw": 0,
+      "kept": 0
+     },
+     "anno": {
+      "raw": 14,
+      "kept": 0
+     },
+     "kulturpool": {
+      "raw": 446,
+      "kept": 0
+     },
+     "europeana": {
+      "raw": 0,
+      "kept": 0
+     },
+     "commons": {
+      "raw": 0,
+      "kept": 0
+     }
+    },
+    "kept": {
+     "diary": [
+      {
+       "date": "1893-02-23",
+       "place": "Sariska, India",
+       "scan": 283,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n282/mode/1up",
+       "text": "Bem ein Iragikoif sches Missgeschick widerfuhr, Auch er hatte stolz ein Ross bestiege*^* doch endigte dieses kühne Vorhaben sehr bald mit einer Berührur»* der Erde, wobei sein Pferd überdies boshaft genug war, ihn gerac^ über einer dichten Cactushecke abzuschütteln, so dass er mit Stache*bedeckt ins"
+      }
+     ]
+    }
+   },
+   {
+    "id": "deen-dayal",
+    "name": "Dayal, Lala Deen",
+    "category": "Fotograf",
+    "role": "Hoffotograf des Nizam in Hyderabad",
+    "vault_id": "ke-person-4677224d2f",
+    "gnd": "https://d-nb.info/gnd/129514721",
+    "wikidata": "Q1182338",
+    "counts": {
+     "diary": {
+      "raw": 0,
+      "kept": 0
+     },
+     "weltmuseum_tms": {
+      "raw": 2,
+      "kept": 2
+     },
+     "anno": {
+      "raw": 0,
+      "kept": 0
+     },
+     "kulturpool": {
+      "raw": 3,
+      "kept": 3
+     },
+     "europeana": {
+      "raw": 39,
+      "kept": 32
+     },
+     "commons": {
+      "raw": 2,
+      "kept": 0
+     }
+    },
+    "kept": {
+     "weltmuseum_tms": [
+      {
+       "kind": "photo",
+       "inventory": "VF_ALB_18",
+       "title": "VISIT OF H.I. & R.H. THE ARCHDUKE FRANZ FERDINAND OF AUSTRIA ESTE TO HYDERABAD (DECCAN), JANUARY 1893",
+       "dating": "Jänner 1893",
+       "url": "https://www.weltmuseumwien.at/objekte/419634"
+      },
+      {
+       "kind": "photo",
+       "inventory": "VF_ALB_18",
+       "title": "VISIT OF H.I. & R.H. THE ARCHDUKE FRANZ FERDINAND OF AUSTRIA ESTE TO HYDERABAD (DECCAN), JANUARY 1893",
+       "dating": "Jänner 1893",
+       "url": "https://www.weltmuseumwien.at/objekte/419634"
+      }
+     ],
+     "kulturpool": [
+      {
+       "title": "Fotografie war nie nur ein weißes Medium",
+       "provider": "eSel.at",
+       "date": [
+        "2023-06-08"
+       ],
+       "url": "https://kulturpool.at/objekte/74aacf21-f580-4247-8f69-b742393ced10",
+       "kind": "modern"
+      },
+      {
+       "title": "Imperial Sightseeing: Die Indienreise von Erzherzog Franz Ferdinand von Öst",
+       "provider": "eSel.at",
+       "date": [
+        "2010-07-06"
+       ],
+       "url": "https://kulturpool.at/objekte/adcea14f-8767-4468-b178-2b4a0e3b9c49",
+       "kind": "modern"
+      },
+      {
+       "title": "Imperial Sightseeing: Die Indienreise von Erzherzog Franz Ferdinand von Öst",
+       "provider": "eSel.at",
+       "date": [
+        "2010-07-07"
+       ],
+       "url": "https://kulturpool.at/objekte/cebcfb7c-30aa-466c-b5c1-d9c67b7a006a",
+       "kind": "modern"
+      }
+     ],
+     "europeana": [
+      {
+       "title": "Hyderabad: Chowmahila-Palast des Nizam",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14542",
+       "type": "IMAGE",
+       "kind": "ff_collection"
+      },
+      {
+       "title": "Franz Ferdinand and the Nizam of Hyderabad Franz Ferdinand und der Nizam von Hyderabad",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14514",
+       "type": "IMAGE",
+       "kind": "undated"
+      },
+      {
+       "title": "Franz Ferdinand, the Nizam of Hyderabad, and suite Franz Ferdinand und der Nizam von Hyderabad mit Gefolge",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14515",
+       "type": "IMAGE",
+       "kind": "undated"
+      },
+      {
+       "title": "Besuch bei der Rückkehr des Erzherzogs beim Nizam im Cowmahila-Palast",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14516",
+       "type": "IMAGE",
+       "kind": "undated"
+      },
+      {
+       "title": "Elefanten-Prozession, ausgehend vom Cowmahila-Palast Elephant procession, starting from the Cowmahila Palace",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14517",
+       "type": "IMAGE",
+       "kind": "ff_collection"
+      },
+      {
+       "title": "The Imperial Luncheon party at the Residency Die kaiserl. Gesellschaft zum Frühstück beim Residenten",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14518",
+       "type": "IMAGE",
+       "kind": "ff_collection"
+      },
+      {
+       "title": "Der Erzherzog besichtigt die Linientruppen. Das kaiserl. Geleit und Aufzug zu Pferd. The Archduke visits the line troops. The Imperial Ride and elevator on horseback.",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14519",
+       "type": "IMAGE",
+       "kind": "undated"
+      },
+      {
+       "title": "Emperor Heerschau in Secunderabad Kaiserl. Heerschau in Secunderabad",
+       "provider": "World Museum Vienna",
+       "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+       "url": "https://www.europeana.eu/item/15504/VF_14520",
+       "type": "IMAGE",
+       "kind": "ff_collection"
+      }
+     ]
+    }
+   },
+   {
+    "id": "plumert",
+    "name": "Plumert, Arthur, Dr.",
+    "category": "Arzt",
+    "role": "Linienschiffsarzt",
+    "vault_id": "ke-person-808d3fd78e",
+    "gnd": "https://d-nb.info/gnd/1055450521",
+    "wikidata": null,
+    "counts": {
+     "diary": {
+      "raw": 2,
+      "kept": 2
+     },
+     "weltmuseum_tms": {
+      "raw": 0,
+      "kept": 0
+     },
+     "anno": {
+      "raw": 37,
+      "kept": 12
+     },
+     "kulturpool": {
+      "raw": 3,
+      "kept": 0
+     },
+     "europeana": {
+      "raw": 3,
+      "kept": 0
+     },
+     "commons": {
+      "raw": 0,
+      "kept": 0
+     }
+    },
+    "kept": {
+     "diary": [
+      {
+       "date": "1893-05-15",
+       "place": "At Sea to Sydney, Australia (End of Volume I)",
+       "scan": 533,
+       "page_url": "https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n532/mode/1up",
+       "text": "Arthur Plumert."
+      },
+      {
+       "date": "1893-07-23",
+       "place": "Hongkong to Canton",
+       "scan": 240,
+       "page_url": "https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n239/mode/1up",
+       "text": "Plumert, ein."
+      }
+     ],
+     "anno": [
+      {
+       "date": "1893-12-25",
+       "title": "Oesterreichischer Soldatenfreund 25. Dezember 1893",
+       "url": "http://data.onb.ac.at/ANNO/mil18931225?query=%22Plumert%22&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...oberingenieur dritter Classe, Paul Eyb; dem Marinecaplan erster Classe,Johann Kuralt, und dem Liniensohiffsarzte Dr. Arthur Plumert; dasMilitarverdienstkreuz: den Liuienschiffslieutenanten erster Classe: Carl..."
+      },
+      {
+       "date": "1892-12-10",
+       "title": "Oesterreichische Buchhändler-Correspondenz 10. Dezember 1892",
+       "url": "http://data.onb.ac.at/ANNO/obc18921210?query=%22Plumert%22&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...Soeben erschien :Plumert, Dr. A., -k. u. k. Linieii-schiffsarzt, Die hygienischen Ver­..."
+      },
+      {
+       "date": "1892-12-17",
+       "title": "L'Eco di Pola 17. Dezember 1892",
+       "url": "http://data.onb.ac.at/ANNO/edp18921217?query=%22Plumert%22&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...delin citta di Pola del Dr.Arturo Plumert, i. e r. medico di ta-scello. - Editore E. Scharff, Pola...."
+      },
+      {
+       "date": "1892-12-10",
+       "title": "L'Eco di Pola 10. Dezember 1892",
+       "url": "http://data.onb.ac.at/ANNO/edp18921210?query=%22Plumert%22&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...hibteninse der Studt Polator Dr. Arthur Plumert, k. u. k. Linien-schiffsarzi. — Dall'edilore sig. E. Seliarff..."
+      },
+      {
+       "date": "1893-05-28",
+       "title": "Wiener Zeitung 28. Mai 1893",
+       "url": "http://data.onb.ac.at/ANNO/wrz18930528?query=%22Plumert%22&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...Berlust gerathenen, fur den k. u. k. Fregat­tenarzt Dr. Arthur Plumert und dessen GattinAnna geb. Hancke mit dem Eigenthums- und..."
+      },
+      {
+       "date": "1893-05-25",
+       "title": "Wiener Zeitung 25. Mai 1893",
+       "url": "http://data.onb.ac.at/ANNO/wrz18930525?query=%22Plumert%22&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...Verlust gerathenen, fur den k. u. k. Fregat­tenarzt Dr. Arthur Plumert und dessen GattinAnna geb. Hancke mit dem Eigenthums- und..."
+      },
+      {
+       "date": "1893-05-21",
+       "title": "Wiener Zeitung 21. Mai 1893",
+       "url": "http://data.onb.ac.at/ANNO/wrz18930521?query=%22Plumert%22&ref=anno-search",
+       "kind": "voyage",
+       "snippet": "...Verlust gerathenen, fur den k. u. k. Fregat­tenarzt Dr. Arthur Plumert und dessen GattinAnna geb. Hancke mit dem Eigenthums- und..."
+      },
+      {
+       "date": "1892-11-08",
+       "title": "Prager Tagblatt 8. November 1892",
+       "url": "http://data.onb.ac.at/ANNO/ptb18921108?query=%22Plumert%22&ref=anno-search",
+       "kind": "reception",
+       "snippet": "...nehwen: SchWchesarzt Linienschiffsarzt Dr. ArthurPlumert, Fregattcnarzt Dr. Zaroslad Bem; vontechnischen Beamten- Chef-Ingenieur, Maschinenbau- und..."
+      }
+     ]
+    }
+   }
+  ],
   "objects_strong": [
    {
     "id": "ke-object-6479e09478",
