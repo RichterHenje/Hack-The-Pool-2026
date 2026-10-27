@@ -1,0 +1,13 @@
+﻿latitude,longitude,id,title,date_from,date_to,day_from,day_to,animals,kill_sentences,photos,description
+8.0135,80.5563,hunt-1893-01-10-ceylon,Kala Wewa (Ceylon),1893-01-10,1893-01-12,26,28,"Elefant, Affe, Vögel (sonstige), Büffel/Banteng",8,3,"10.01.1893–12.01.1893: Elefant, Affe, Vögel (sonstige), Büffel/Banteng"
+17.23,77.58,hunt-1893-01-22-hyderabad,Tandur (Hyderabad State) / Hyderabad,1893-01-22,1893-01-26,38,42,"Hirsch, Tiger, Vögel (sonstige)",9,10,"22.01.1893–26.01.1893: Hirsch, Tiger, Vögel (sonstige)"
+27.18,78.02,hunt-1893-02-13-agra,Agra,1893-02-13,1893-02-15,60,62,"Vögel (sonstige), Antilope, Hirsch, Schakal/Hyäne",18,0,"13.02.1893–15.02.1893: Vögel (sonstige), Antilope, Hirsch, Schakal/Hyäne"
+27.3175,76.4369,hunt-1893-02-20-alwar,Sariska (Alwar State),1893-02-20,1893-02-27,67,74,"Tiger, Hirsch, Antilope, Vögel (sonstige)",22,0,"20.02.1893–27.02.1893: Tiger, Hirsch, Antilope, Vögel (sonstige)"
+26.2944,73.0278,hunt-1893-03-01-jodhpur,Jodhpur,1893-03-01,1893-03-02,76,77,"Hirsch, Wildschwein, Vögel (sonstige), Antilope",5,1,"01.03.1893–02.03.1893: Hirsch, Wildschwein, Vögel (sonstige), Antilope"
+26.915,75.82,hunt-1893-03-03-jaipur,Jaipur,1893-03-03,1893-03-04,78,79,"Hirsch, Antilope, Vögel (sonstige)",4,0,"03.03.1893–04.03.1893: Hirsch, Antilope, Vögel (sonstige)"
+28.8333,80.3333,hunt-1893-03-09-nepal,"Nepal Terai (Dakna Bāgh, Beli …)",1893-03-09,1893-03-26,84,101,"Tiger, Vögel (sonstige), Hirsch, Elefant",39,2,"09.03.1893–26.03.1893: Tiger, Vögel (sonstige), Hirsch, Elefant"
+-6.1753,106.8269,hunt-1893-04-11-java,"Batavia (Jakarta) / Garut (Java) / Tjiandjur (Cianjur, Java) / Tjipandak (Java)",1893-04-11,1893-04-23,117,129,"Büffel/Banteng, Krokodil, Hirsch, Vögel (sonstige)",14,1,"11.04.1893–23.04.1893: Büffel/Banteng, Krokodil, Hirsch, Vögel (sonstige)"
+-32.2333,148.2333,hunt-1893-05-18-nsw-west,Narromine (NSW),1893-05-18,1893-05-20,154,156,"Känguru, Vögel (sonstige), Emu/Kasuar",15,0,"18.05.1893–20.05.1893: Känguru, Vögel (sonstige), Emu/Kasuar"
+-34.715,150.0011,hunt-1893-05-23-badgery,Arthursleigh / Badgery Station (NSW),1893-05-23,1893-05-25,159,161,"Känguru, Bär, Tiger",10,0,"23.05.1893–25.05.1893: Känguru, Bär, Tiger"
+-9.4789,147.1494,hunt-1893-06-16-new-guinea,Port Moresby / Laroki (New Guinea),1893-06-16,1893-06-17,183,184,"Vögel (sonstige), Känguru",7,0,"16.06.1893–17.06.1893: Vögel (sonstige), Känguru"
+-3.4458,126.6322,hunt-1893-06-29-buru,Kajeli (Buru),1893-06-29,1893-06-30,196,197,"Vögel (sonstige), Hirsch",5,0,"29.06.1893–30.06.1893: Vögel (sonstige), Hirsch"

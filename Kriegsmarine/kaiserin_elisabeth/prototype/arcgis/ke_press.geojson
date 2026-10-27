@@ -1,0 +1,1592 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.5563,
+     8.0135
+    ]
+   },
+   "properties": {
+    "title": "Pester Lloyd, 1893-01-14",
+    "date_published": "1893-01-14",
+    "event_date": "1893-01-11",
+    "day_index": 27,
+    "newspaper": "Pester Lloyd",
+    "place": "Kala Wewa (Ceylon)",
+    "episode": "hunt-1893-01-10-ceylon",
+    "relevance": "high",
+    "quote": "Eolombo, 13. Jänner. Erzherzog Franz Ferdinand ist Nachmittags von seinem Jagdausstuge aus der Kalawewa-Gegend zurückgekehrt, woselbst derselbe zwei Elephanten erlegte. Der Erzherzog reist um Mitternacht nach Bonibay ab",
+    "page_url": "http://data.onb.ac.at/ANNO/pel18930114?ref=anno-search&seite=5",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.5563,
+     8.0135
+    ]
+   },
+   "properties": {
+    "title": "(Linzer) Tages-Post, 1893-01-14",
+    "date_published": "1893-01-14",
+    "event_date": "1893-01-11",
+    "day_index": 27,
+    "newspaper": "(Linzer) Tages-Post",
+    "place": "Kala Wewa (Ceylon)",
+    "episode": "hunt-1893-01-10-ceylon",
+    "relevance": "high",
+    "quote": "Ferdinand erlegte während eines Jagdausfluges auf Ceylon vier Elephanten. San Francisco, 13.Jäuner. (C.-B.) In Osaka",
+    "page_url": "http://data.onb.ac.at/ANNO/tpt18930114?ref=anno-search&seite=5",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.5563,
+     8.0135
+    ]
+   },
+   "properties": {
+    "title": "Wiener Salonblatt, 1893-01-15",
+    "date_published": "1893-01-15",
+    "event_date": "1893-01-11",
+    "day_index": 27,
+    "newspaper": "Wiener Salonblatt",
+    "place": "Kala Wewa (Ceylon)",
+    "episode": "hunt-1893-01-10-ceylon",
+    "relevance": "high",
+    "quote": "einem Jagdansfluge in die Gebirge am Adamspick, wo Höchstdcrselbe vier Elephanten erlegte. Während des Aufenthaltes auf Ccplon war der Herr Erzherzog Gast der englischen Regierung, beziehungsweise",
+    "page_url": "http://data.onb.ac.at/ANNO/wsb18930115?ref=anno-search&seite=8",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.5563,
+     8.0135
+    ]
+   },
+   "properties": {
+    "title": "(Neuigkeits) Welt Blatt, 1893-02-01",
+    "date_published": "1893-02-01",
+    "event_date": "1893-01-11",
+    "day_index": 27,
+    "newspaper": "(Neuigkeits) Welt Blatt",
+    "place": "Kala Wewa (Ceylon)",
+    "episode": "hunt-1893-01-10-ceylon",
+    "relevance": "high",
+    "quote": "Elisabeth\". Kapitän Price, der Adjutant des Gouverneurs von Ceylon, snngirte als Reise« marschall und als Leiter der Jagd. In den Dschungeln von Kalawewa wurden von dem Erzherzog zwei große Elefanten verwundet. Die Thiere entkamen jedoch und",
+    "page_url": "http://data.onb.ac.at/ANNO/nwb18930201?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.5563,
+     8.0135
+    ]
+   },
+   "properties": {
+    "title": "Neues Wiener Tagblatt (Tages-Ausgabe), 1893-02-06",
+    "date_published": "1893-02-06",
+    "event_date": "1893-01-11",
+    "day_index": 27,
+    "newspaper": "Neues Wiener Tagblatt (Tages-Ausgabe)",
+    "place": "Kala Wewa (Ceylon)",
+    "episode": "hunt-1893-01-10-ceylon",
+    "relevance": "high",
+    "quote": "Jenseits der Teiche ziehen sich nudnrchdringliche Dschnngeln und uuberiihrte Urwiilder hin. Elefanten, Cetjton- bären, Biiffel, Affen nnd ein Heer befiederler Bewohner der Lüfte haben hicr ihre Wohnfihe aufgeschlagen. Die Jagd-",
+    "page_url": "http://data.onb.ac.at/ANNO/nwg18930206?ref=anno-search&seite=2",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.5563,
+     8.0135
+    ]
+   },
+   "properties": {
+    "title": "Das Vaterland, 1893-02-07",
+    "date_published": "1893-02-07",
+    "event_date": "1893-01-11",
+    "day_index": 27,
+    "newspaper": "Das Vaterland",
+    "place": "Kala Wewa (Ceylon)",
+    "episode": "hunt-1893-01-10-ceylon",
+    "relevance": "high",
+    "quote": "bieten, ein lästiges Jnscct zn todten, verordnen: Der Dieb soll mit der Keule erschlagen oder von Elephanten zertreten werden. Wer den Angehörigen einer höheren Kaste stößt",
+    "page_url": "http://data.onb.ac.at/ANNO/vtl18930207?ref=anno-search&seite=10",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.5563,
+     8.0135
+    ]
+   },
+   "properties": {
+    "title": "Pester Lloyd, 1893-02-07",
+    "date_published": "1893-02-07",
+    "event_date": "1893-01-11",
+    "day_index": 27,
+    "newspaper": "Pester Lloyd",
+    "place": "Kala Wewa (Ceylon)",
+    "episode": "hunt-1893-01-10-ceylon",
+    "relevance": "high",
+    "quote": "der Erzherzog die Zeit voni 8. bis ll. Jänner auf einem Jagdplatze vei Kalawewa zu. Am ersten Tage schon kam dort der Erzherzog auf zwei Elephanten zum Schutz, die aber trotz der ihnen ins mÄhtige Haupt gejagten Kugeln schwer verwundet entkamen. Dafür war der",
+    "page_url": "http://data.onb.ac.at/ANNO/pel18930207?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "title": "Grazer Volksblatt, 1893-03-07",
+    "date_published": "1893-03-07",
+    "event_date": "1893-01-23",
+    "day_index": 39,
+    "newspaper": "Grazer Volksblatt",
+    "place": "Tandur",
+    "episode": "hunt-1893-01-22-hyderabad",
+    "relevance": "high",
+    "quote": "verbeten. In Benares kaufte der Erzherzog zwei Tiger, zwei Hunde und eine Anzahl Tauben, so wie andere Vogel und in Darjeeling eine aus",
+    "page_url": "http://data.onb.ac.at/ANNO/gre18930307?ref=anno-search&seite=6",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-03-12",
+    "date_published": "1893-03-12",
+    "event_date": "1893-01-23",
+    "day_index": 39,
+    "newspaper": "Neue Freie Presse",
+    "place": "Tandur",
+    "episode": "hunt-1893-01-22-hyderabad",
+    "relevance": "high",
+    "quote": "zende Hoffeste, militärische Paraden und Jagden veranstaltet. Ein Tiger, auf den es abgesehen war, war wol aus seinem Dschungel nicht herauszubringen, dafür war aber der Herr Erzherzog so glücklich,",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930312?ref=anno-search&seite=6",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-03-13",
+    "date_published": "1893-03-13",
+    "event_date": "1893-01-23",
+    "day_index": 39,
+    "newspaper": "Neue Freie Presse",
+    "place": "Tandur",
+    "episode": "hunt-1893-01-22-hyderabad",
+    "relevance": "high",
+    "quote": "sucht wurde, und führten daselbst die Wärter zwei einiährige Tiger frei an der Leine wie Hunde vor. Dann ging cs durch die Stadt znin allen geräumigen Palaste. Der junge Rajah begrüßte",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930313?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "title": "(Neuigkeits) Welt Blatt, 1893-03-16",
+    "date_published": "1893-03-16",
+    "event_date": "1893-01-23",
+    "day_index": 39,
+    "newspaper": "(Neuigkeits) Welt Blatt",
+    "place": "Tandur",
+    "episode": "hunt-1893-01-22-hyderabad",
+    "relevance": "high",
+    "quote": "wurde. Man wollte dem Erzherzoge sogar Gr- • legenhett geben, einen Tiger zur Strecke zu bringen, was jedoch zum großen Mißvergnügen",
+    "page_url": "http://data.onb.ac.at/ANNO/nwb18930316?ref=anno-search&seite=28",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "title": "Das Vaterland, 1893-03-22",
+    "date_published": "1893-03-22",
+    "event_date": "1893-01-23",
+    "day_index": 39,
+    "newspaper": "Das Vaterland",
+    "place": "Tandur",
+    "episode": "hunt-1893-01-22-hyderabad",
+    "relevance": "high",
+    "quote": "hatte Herr Erzherzog Franz Ferdinand am 27. Februar ein Jagdabenteuer zu bestehen. Der Erzherzog schoß zwei Tiger, die sich in einem Triebe befanden. Der erste, ein Weibchen,",
+    "page_url": "http://data.onb.ac.at/ANNO/vtl18930322?ref=anno-search&seite=12",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "title": "Salzburger Chronik für Stadt und Land, 1893-03-23",
+    "date_published": "1893-03-23",
+    "event_date": "1893-01-23",
+    "day_index": 39,
+    "newspaper": "Salzburger Chronik für Stadt und Land",
+    "place": "Tandur",
+    "episode": "hunt-1893-01-22-hyderabad",
+    "relevance": "high",
+    "quote": "Franz Ferdinand am 27 Februar ein Jagdabenteuer zu bestehen. Der Erzherzog schoß zwei Tiger, die sich in einem Triebe befanden. Der erste, ein Weibchen,",
+    "page_url": "http://data.onb.ac.at/ANNO/sch18930323?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "title": "Grazer Volksblatt, 1893-03-23",
+    "date_published": "1893-03-23",
+    "event_date": "1893-01-23",
+    "day_index": 39,
+    "newspaper": "Grazer Volksblatt",
+    "place": "Tandur",
+    "episode": "hunt-1893-01-22-hyderabad",
+    "relevance": "high",
+    "quote": "Tiger, die sich in einem Triebe befanden. Der erste, ein Weibchen, roulierte wie ein Hase auf",
+    "page_url": "http://data.onb.ac.at/ANNO/gre18930323?ref=anno-search&seite=4",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "title": "Klagenfurter Zeitung, 1893-03-25",
+    "date_published": "1893-03-25",
+    "event_date": "1893-01-23",
+    "day_index": 39,
+    "newspaper": "Klagenfurter Zeitung",
+    "place": "Tandur",
+    "episode": "hunt-1893-01-22-hyderabad",
+    "relevance": "high",
+    "quote": "Herr Erzherzog am 27. Februar ein Jagdabenteuer zu bestehen. Der Erzherzog schoss zwei Tiger, die sich in einem Triebe befanden. Der erste, ein",
+    "page_url": "http://data.onb.ac.at/ANNO/kfz18930325?ref=anno-search&seite=2",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "title": "Wiener Montags-Journal, 1893-04-03",
+    "date_published": "1893-04-03",
+    "event_date": "1893-01-23",
+    "day_index": 39,
+    "newspaper": "Wiener Montags-Journal",
+    "place": "Tandur",
+    "episode": "hunt-1893-01-22-hyderabad",
+    "relevance": "high",
+    "quote": "F erdinand d'Este hat bekanntlich für die Schönbrunner Menagerie drei Tiger angekauft. Der Erzherzog sendete einen Herrn des Geiolges, die für Wien bestimmten Thiere zu be-",
+    "page_url": "http://data.onb.ac.at/ANNO/wmj18930403?ref=anno-search&seite=4",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "title": "Pester Lloyd, 1893-02-07",
+    "date_published": "1893-02-07",
+    "event_date": "1893-01-26",
+    "day_index": 42,
+    "newspaper": "Pester Lloyd",
+    "place": "Tandur (Hyderabad State)",
+    "episode": "hunt-1893-01-22-hyderabad",
+    "relevance": "high",
+    "quote": "Lcipnitz, Losoucz. — D. Llleiß, Gr.-Kanizsa. — O. Schiesinger, Th. Ehren- stein. Wien. — Ph. Eiern, M. Hirsch, Äralup. — F. Mautner, Prag. — A. Simonics, P. Trauts, Fiume. — St. Pawel, W. Kral, Kolin. — 8",
+    "page_url": "http://data.onb.ac.at/ANNO/pel18930207?ref=anno-search&seite=10",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.02,
+     27.18
+    ]
+   },
+   "properties": {
+    "title": "Pester Lloyd, 1893-03-13",
+    "date_published": "1893-03-13",
+    "event_date": "1893-02-15",
+    "day_index": 62,
+    "newspaper": "Pester Lloyd",
+    "place": "Bhartpur",
+    "episode": "hunt-1893-02-13-agra",
+    "relevance": "high",
+    "quote": "raden und Jagden veranstaltet. Bei Hyderadad erlegte der Erzherzog die ersten Bezoar-Antilopen. Eine Bahnfahrt von 60 Stunden folgte dem Aufenthalte in Hyderabad. Am Morgen des 29. Jänner erfolgte",
+    "page_url": "http://data.onb.ac.at/ANNO/pel18930313?ref=anno-search&seite=1",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.02,
+     27.18
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-04-04",
+    "date_published": "1893-04-04",
+    "event_date": "1893-02-15",
+    "day_index": 62,
+    "newspaper": "Neue Freie Presse",
+    "place": "Bhartpur",
+    "episode": "hunt-1893-02-13-agra",
+    "relevance": "high",
+    "quote": "hühner, Stcinhühner und Haushähne; diese wurden abgelöst von Gazellen, Blackbock-Antilopen, Schweinshirschen und Samber- hitfchen; besonders wild waren die schließlichen Turniere zwischen",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930404?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.4369,
+     27.3175
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-03-13",
+    "date_published": "1893-03-13",
+    "event_date": "1893-02-24",
+    "day_index": 71,
+    "newspaper": "Neue Freie Presse",
+    "place": "Siriska",
+    "episode": "hunt-1893-02-20-alwar",
+    "relevance": "high",
+    "quote": "sucht wurde, und führten daselbst die Wärter zwei einiährige Tiger frei an der Leine wie Hunde vor. Dann ging cs durch die Stadt znin allen geräumigen Palaste. Der junge Rajah begrüßte",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930313?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.4369,
+     27.3175
+    ]
+   },
+   "properties": {
+    "title": "Grazer Volksblatt, 1893-04-09",
+    "date_published": "1893-04-09",
+    "event_date": "1893-02-24",
+    "day_index": 71,
+    "newspaper": "Grazer Volksblatt",
+    "place": "Siriska",
+    "episode": "hunt-1893-02-20-alwar",
+    "relevance": "high",
+    "quote": "dinand von Österreich-Este drei prächtige bengalische Tiger und einen Luchs erworben. Der Erzherzog hat diese Thiere als Geschenk für die",
+    "page_url": "http://data.onb.ac.at/ANNO/gre18930409?ref=anno-search&seite=6",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.4369,
+     27.3175
+    ]
+   },
+   "properties": {
+    "title": "Wiener Zeitung, 1893-04-11",
+    "date_published": "1893-04-11",
+    "event_date": "1893-02-24",
+    "day_index": 71,
+    "newspaper": "Wiener Zeitung",
+    "place": "Siriska",
+    "episode": "hunt-1893-02-20-alwar",
+    "relevance": "high",
+    "quote": "hat abermals einen capitalen Tiger von 9 Fuß 4V2 Zoll englischer Größe erlegt. Das ist der vierzehnte Tiger in Nepal. Im Ganzen sind nun 16 Tiger und 4 Panther auf der Strecke. Die heutige Tigerjagd hatte einen interessanten Verlauf. Nachdem die Tiger einen der zum Köder angebundenen lebenden Büffel",
+    "page_url": "http://data.onb.ac.at/ANNO/wrz18930411?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.4369,
+     27.3175
+    ]
+   },
+   "properties": {
+    "title": "Grazer Tagblatt, 1893-04-12",
+    "date_published": "1893-04-12",
+    "event_date": "1893-02-24",
+    "day_index": 71,
+    "newspaper": "Grazer Tagblatt",
+    "place": "Siriska",
+    "episode": "hunt-1893-02-20-alwar",
+    "relevance": "high",
+    "quote": "fach hinauf und bricht ihn mit seinem Rüssel ab. Um halb 8 Uhr abends sind wir von einer Tiger jagd nach Catani zurückgekehrt. Erzherzog Franz Ferdi nand hat abermals einen kapitalen Tiger von 9 Fuß 4 1 /s Zoll engl. Größe erlegt. Dieser ist der vierzehnte Tiger, der in Nepal zur Strecke kam. Im ganzen sind nun 18 Tiger und 4 Panther erlegt. Die heutige Tigcrjagd hatte einen interessanten …",
+    "page_url": "http://data.onb.ac.at/ANNO/gtb18930412?ref=anno-search&seite=7",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.4369,
+     27.3175
+    ]
+   },
+   "properties": {
+    "title": "Kremser Volksblatt, 1893-04-16",
+    "date_published": "1893-04-16",
+    "event_date": "1893-02-24",
+    "day_index": 71,
+    "newspaper": "Kremser Volksblatt",
+    "place": "Siriska",
+    "episode": "hunt-1893-02-20-alwar",
+    "relevance": "high",
+    "quote": "Ferdinand von Oesterreich-Este drei prächtige bengalische Tiger und einen L u ch s erworben. Der Erzherzog hat diese Thiere als Geschenk",
+    "page_url": "http://data.onb.ac.at/ANNO/kvb18930416?ref=anno-search&seite=7",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.4369,
+     27.3175
+    ]
+   },
+   "properties": {
+    "title": "(Neuigkeits) Welt Blatt, 1893-04-23",
+    "date_published": "1893-04-23",
+    "event_date": "1893-02-24",
+    "day_index": 71,
+    "newspaper": "(Neuigkeits) Welt Blatt",
+    "place": "Siriska",
+    "episode": "hunt-1893-02-20-alwar",
+    "relevance": "high",
+    "quote": "zur See weiter fortzusetzen. Bei den Jagden in Nepal wurden im Ganzen 1075 Thiere erlegt, darunter 18 Tiger und 7 Panther, von denen der Erzherzog je 5 Tiger und 5 Panther, und zwar meist mit dem ersten",
+    "page_url": "http://data.onb.ac.at/ANNO/nwb18930423?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.4369,
+     27.3175
+    ]
+   },
+   "properties": {
+    "title": "Bregenzer/Vorarlberger Tagblatt, 1893-04-29",
+    "date_published": "1893-04-29",
+    "event_date": "1893-02-24",
+    "day_index": 71,
+    "newspaper": "Bregenzer/Vorarlberger Tagblatt",
+    "place": "Siriska",
+    "episode": "hunt-1893-02-20-alwar",
+    "relevance": "high",
+    "quote": "IagdauSflüge unternahm» um verschiedene Thiere zu erlegen. Bald jedoch traf man auf Tiger; Erzherzog Franz Ferdinand erlegte dort eigen«",
+    "page_url": "http://data.onb.ac.at/ANNO/btb18930429?ref=anno-search&seite=2",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0278,
+     26.2944
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-03-12",
+    "date_published": "1893-03-12",
+    "event_date": "1893-03-01",
+    "day_index": 76,
+    "newspaper": "Neue Freie Presse",
+    "place": "Jodhpur",
+    "episode": "hunt-1893-03-01-jodhpur",
+    "relevance": "high",
+    "quote": "hühner'und Wachteln erhoben sich ans den Feldern; außerdem wurden Nilgau-Antilopen, Gazellen,. Schakale und Hasen aufgc- . 'trieben und auch zur Strecke gebracht. Mit einer iiiimittolba.r vor",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930312?ref=anno-search&seite=7",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0278,
+     26.2944
+    ]
+   },
+   "properties": {
+    "title": "Pester Lloyd, 1893-03-13",
+    "date_published": "1893-03-13",
+    "event_date": "1893-03-01",
+    "day_index": 76,
+    "newspaper": "Pester Lloyd",
+    "place": "Jodhpur",
+    "episode": "hunt-1893-03-01-jodhpur",
+    "relevance": "high",
+    "quote": "raden und Jagden veranstaltet. Bei Hyderadad erlegte der Erzherzog die ersten Bezoar-Antilopen. Eine Bahnfahrt von 60 Stunden folgte dem Aufenthalte in Hyderabad. Am Morgen des 29. Jänner erfolgte",
+    "page_url": "http://data.onb.ac.at/ANNO/pel18930313?ref=anno-search&seite=1",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0278,
+     26.2944
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-04-04",
+    "date_published": "1893-04-04",
+    "event_date": "1893-03-01",
+    "day_index": 76,
+    "newspaper": "Neue Freie Presse",
+    "place": "Jodhpur",
+    "episode": "hunt-1893-03-01-jodhpur",
+    "relevance": "high",
+    "quote": "hühner, Stcinhühner und Haushähne; diese wurden abgelöst von Gazellen, Blackbock-Antilopen, Schweinshirschen und Samber- hitfchen; besonders wild waren die schließlichen Turniere zwischen",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930404?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0278,
+     26.2944
+    ]
+   },
+   "properties": {
+    "title": "Bregenzer/Vorarlberger Tagblatt, 1893-04-29",
+    "date_published": "1893-04-29",
+    "event_date": "1893-03-01",
+    "day_index": 76,
+    "newspaper": "Bregenzer/Vorarlberger Tagblatt",
+    "place": "Jodhpur",
+    "episode": "hunt-1893-03-01-jodhpur",
+    "relevance": "high",
+    "quote": "händig zwei gewaltige Tiger. Bon Ulvar wanderte «an nach Jodhpor, wo viele Gazellen erlegt wurden. Hier lernte der Erzherzog auch da» ,Eber, S echen* kennen, tu welcher schwierigen, ebensoviel",
+    "page_url": "http://data.onb.ac.at/ANNO/btb18930429?ref=anno-search&seite=2",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0278,
+     26.2944
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-05-07",
+    "date_published": "1893-05-07",
+    "event_date": "1893-03-01",
+    "day_index": 76,
+    "newspaper": "Neue Freie Presse",
+    "place": "Jodhpur",
+    "episode": "hunt-1893-03-01-jodhpur",
+    "relevance": "high",
+    "quote": "Viehstand bedeutend. Eigene Jagd. Nur direct an Selbst käufer ertheilt bereitwilligst nähere",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930507?ref=anno-search&seite=22",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0278,
+     26.2944
+    ]
+   },
+   "properties": {
+    "title": "Neues Wiener Tagblatt (Tages-Ausgabe), 1893-04-04",
+    "date_published": "1893-04-04",
+    "event_date": "1893-03-02",
+    "day_index": 77,
+    "newspaper": "Neues Wiener Tagblatt (Tages-Ausgabe)",
+    "place": "Jodhpur",
+    "episode": "hunt-1893-03-01-jodhpur",
+    "relevance": "high",
+    "quote": "Ani l. März, Fttih, jagte der Erzherzog ansGazelleth willst-end siir seine Snile ein »Pilsiicklng«, die Jagd ans Wildschweine tnit Lanzen, der Hanptsnori des Maharadstha, veranstaltet wlirde. Dtn nätdsteil Vorniittog stillte gleich-",
+    "page_url": "http://data.onb.ac.at/ANNO/nwg18930404?ref=anno-search&seite=18",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.82,
+     26.915
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-03-12",
+    "date_published": "1893-03-12",
+    "event_date": "1893-03-04",
+    "day_index": 79,
+    "newspaper": "Neue Freie Presse",
+    "place": "Jaipur",
+    "episode": "hunt-1893-03-03-jaipur",
+    "relevance": "high",
+    "quote": "hühner'und Wachteln erhoben sich ans den Feldern; außerdem wurden Nilgau-Antilopen, Gazellen,. Schakale und Hasen aufgc- . 'trieben und auch zur Strecke gebracht. Mit einer iiiimittolba.r vor",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930312?ref=anno-search&seite=7",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.82,
+     26.915
+    ]
+   },
+   "properties": {
+    "title": "Pester Lloyd, 1893-03-13",
+    "date_published": "1893-03-13",
+    "event_date": "1893-03-04",
+    "day_index": 79,
+    "newspaper": "Pester Lloyd",
+    "place": "Jaipur",
+    "episode": "hunt-1893-03-03-jaipur",
+    "relevance": "high",
+    "quote": "raden und Jagden veranstaltet. Bei Hyderadad erlegte der Erzherzog die ersten Bezoar-Antilopen. Eine Bahnfahrt von 60 Stunden folgte dem Aufenthalte in Hyderabad. Am Morgen des 29. Jänner erfolgte",
+    "page_url": "http://data.onb.ac.at/ANNO/pel18930313?ref=anno-search&seite=1",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.82,
+     26.915
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-04-04",
+    "date_published": "1893-04-04",
+    "event_date": "1893-03-04",
+    "day_index": 79,
+    "newspaper": "Neue Freie Presse",
+    "place": "Jaipur",
+    "episode": "hunt-1893-03-03-jaipur",
+    "relevance": "high",
+    "quote": "hühner, Stcinhühner und Haushähne; diese wurden abgelöst von Gazellen, Blackbock-Antilopen, Schweinshirschen und Samber- hitfchen; besonders wild waren die schließlichen Turniere zwischen",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930404?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.82,
+     26.915
+    ]
+   },
+   "properties": {
+    "title": "Neues Wiener Tagblatt (Tages-Ausgabe), 1893-04-04",
+    "date_published": "1893-04-04",
+    "event_date": "1893-03-04",
+    "day_index": 79,
+    "newspaper": "Neues Wiener Tagblatt (Tages-Ausgabe)",
+    "place": "Jaipur",
+    "episode": "hunt-1893-03-03-jaipur",
+    "relevance": "high",
+    "quote": "anther, dcr noti einem der anwtsettden englischen Cis-Hirn mit der Lanze erlegt tbttrdt· Ein offizielles Diner sckkt nachfolgender Partbelenchtnng nnd Fenettvert beschlos-",
+    "page_url": "http://data.onb.ac.at/ANNO/nwg18930404?ref=anno-search&seite=18",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.82,
+     26.915
+    ]
+   },
+   "properties": {
+    "title": "Bregenzer/Vorarlberger Tagblatt, 1893-04-29",
+    "date_published": "1893-04-29",
+    "event_date": "1893-03-04",
+    "day_index": 79,
+    "newspaper": "Bregenzer/Vorarlberger Tagblatt",
+    "place": "Jaipur",
+    "episode": "hunt-1893-03-03-jaipur",
+    "relevance": "high",
+    "quote": "händig zwei gewaltige Tiger. Bon Ulvar wanderte «an nach Jodhpor, wo viele Gazellen erlegt wurden. Hier lernte der Erzherzog auch da» ,Eber,",
+    "page_url": "http://data.onb.ac.at/ANNO/btb18930429?ref=anno-search&seite=2",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.3333,
+     28.8333
+    ]
+   },
+   "properties": {
+    "title": "Wiener Zeitung, 1893-04-11",
+    "date_published": "1893-04-11",
+    "event_date": "1893-03-11",
+    "day_index": 86,
+    "newspaper": "Wiener Zeitung",
+    "place": "Nepal Terai (Dakna Bāgh, Beli …)",
+    "episode": "hunt-1893-03-09-nepal",
+    "relevance": "high",
+    "quote": "hat abermals einen capitalen Tiger von 9 Fuß 4V2 Zoll englischer Größe erlegt. Das ist der vierzehnte Tiger in Nepal. Im Ganzen sind nun 16 Tiger und 4 Panther auf der Strecke. Die heutige Tigerjagd hatte einen interessanten Verlauf. Nachdem die Tiger einen der zum Köder angebundenen lebenden Büffel",
+    "page_url": "http://data.onb.ac.at/ANNO/wrz18930411?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.3333,
+     28.8333
+    ]
+   },
+   "properties": {
+    "title": "Das Vaterland, 1893-04-11",
+    "date_published": "1893-04-11",
+    "event_date": "1893-03-11",
+    "day_index": 86,
+    "newspaper": "Das Vaterland",
+    "place": "Nepal Terai (Dakna Bāgh, Beli …)",
+    "episode": "hunt-1893-03-09-nepal",
+    "relevance": "high",
+    "quote": "des Himalaya liegt. Obwohl bis jetzt hier zwölf Tiger, vier Panther und noch eine Menge anderer Thiere erlegt",
+    "page_url": "http://data.onb.ac.at/ANNO/vtl18930411?ref=anno-search&seite=16",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.3333,
+     28.8333
+    ]
+   },
+   "properties": {
+    "title": "Grazer Tagblatt, 1893-04-12",
+    "date_published": "1893-04-12",
+    "event_date": "1893-03-11",
+    "day_index": 86,
+    "newspaper": "Grazer Tagblatt",
+    "place": "Nepal Terai (Dakna Bāgh, Beli …)",
+    "episode": "hunt-1893-03-09-nepal",
+    "relevance": "high",
+    "quote": "fach hinauf und bricht ihn mit seinem Rüssel ab. Um halb 8 Uhr abends sind wir von einer Tiger jagd nach Catani zurückgekehrt. Erzherzog Franz Ferdi nand hat abermals einen kapitalen Tiger von 9 Fuß 4 1 /s Zoll engl. Größe erlegt. Dieser ist der vierzehnte",
+    "page_url": "http://data.onb.ac.at/ANNO/gtb18930412?ref=anno-search&seite=7",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.3333,
+     28.8333
+    ]
+   },
+   "properties": {
+    "title": "(Neuigkeits) Welt Blatt, 1893-04-12",
+    "date_published": "1893-04-12",
+    "event_date": "1893-03-11",
+    "day_index": 86,
+    "newspaper": "(Neuigkeits) Welt Blatt",
+    "place": "Nepal Terai (Dakna Bāgh, Beli …)",
+    "episode": "hunt-1893-03-09-nepal",
+    "relevance": "high",
+    "quote": "folge begleitet waren, indem im Ganzen bisher fünfzehn Tiger und sieben Panther erlegt wur den, darunter vier Tiger durch Erzherzog Franz Ferdinand. Au Bord des Kriegsschiffes",
+    "page_url": "http://data.onb.ac.at/ANNO/nwb18930412?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.3333,
+     28.8333
+    ]
+   },
+   "properties": {
+    "title": "Österreichische Forst-Zeitung, 1893-04-21",
+    "date_published": "1893-04-21",
+    "event_date": "1893-03-11",
+    "day_index": 86,
+    "newspaper": "Österreichische Forst-Zeitung",
+    "place": "Nepal Terai (Dakna Bāgh, Beli …)",
+    "episode": "hunt-1893-03-09-nepal",
+    "relevance": "high",
+    "quote": "indem im Ganzen bisher 16 Tiger und 7 Panther erlegt wurden, darunter 4 Tiger durch Erzherzog Franz Ferdinand. Wildabschuß aus den Markgraf Paüavicini'schen Herrschaften",
+    "page_url": "http://data.onb.ac.at/ANNO/ftz18930421?ref=anno-search&seite=4",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.3333,
+     28.8333
+    ]
+   },
+   "properties": {
+    "title": "(Neuigkeits) Welt Blatt, 1893-04-23",
+    "date_published": "1893-04-23",
+    "event_date": "1893-03-11",
+    "day_index": 86,
+    "newspaper": "(Neuigkeits) Welt Blatt",
+    "place": "Nepal Terai (Dakna Bāgh, Beli …)",
+    "episode": "hunt-1893-03-09-nepal",
+    "relevance": "high",
+    "quote": "zur See weiter fortzusetzen. Bei den Jagden in Nepal wurden im Ganzen 1075 Thiere erlegt, darunter 18 Tiger und 7 Panther, von denen der Erzherzog je 5 Tiger und 5 Panther, und zwar meist mit dem ersten",
+    "page_url": "http://data.onb.ac.at/ANNO/nwb18930423?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.3333,
+     28.8333
+    ]
+   },
+   "properties": {
+    "title": "Deutsches Volksblatt, 1893-04-23",
+    "date_published": "1893-04-23",
+    "event_date": "1893-03-11",
+    "day_index": 86,
+    "newspaper": "Deutsches Volksblatt",
+    "place": "Nepal Terai (Dakna Bāgh, Beli …)",
+    "episode": "hunt-1893-03-09-nepal",
+    "relevance": "high",
+    "quote": "seine Reise zur See weiter fortzusetzen. Bei den Jagden in Nepal wurden im Ganzen 1075 Thiere erlegt, darunter 18 Tiger und 7 Panther, von denen der Erzherzog je 5 Tiger und 5 Panther, und zwar meist mit dem ersten Schusse aus's Blatt getroffen, zur Strecke brachte. In Eal-",
+    "page_url": "http://data.onb.ac.at/ANNO/dvb18930423?ref=anno-search&seite=4",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.3333,
+     28.8333
+    ]
+   },
+   "properties": {
+    "title": "Österreichische Forst-Zeitung, 1893-05-05",
+    "date_published": "1893-05-05",
+    "event_date": "1893-03-11",
+    "day_index": 86,
+    "newspaper": "Österreichische Forst-Zeitung",
+    "place": "Nepal Terai (Dakna Bāgh, Beli …)",
+    "episode": "hunt-1893-03-09-nepal",
+    "relevance": "high",
+    "quote": "Jagden des Erzherzogs Franz Ferdinand. Auf den Jagden in Nepal wurden außer Tigern auch Pantherkatzen, Schakale, Zibethkatzen und Mangusten, zweierlei Hasen, dann Stachel",
+    "page_url": "http://data.onb.ac.at/ANNO/ftz18930505?ref=anno-search&seite=4",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8269,
+     -6.1753
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-06-08",
+    "date_published": "1893-06-08",
+    "event_date": "1893-04-11",
+    "day_index": 117,
+    "newspaper": "Neue Freie Presse",
+    "place": "Jakarta",
+    "episode": "hunt-1893-04-11-java",
+    "relevance": "high",
+    "quote": "Jagdgesellschaft in einen Seitenarm des Tjiliwony-Flusses, wo zahlreiche Krokodile Hansen. Der Erzherzog schoß acht Kroktzdilc, von denen' manches eine sehr refpcctable",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930608?ref=anno-search&seite=2",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.2333,
+     -32.2333
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-06-08",
+    "date_published": "1893-06-08",
+    "event_date": "1893-05-18",
+    "day_index": 154,
+    "newspaper": "Neue Freie Presse",
+    "place": "Narromine",
+    "episode": "hunt-1893-05-18-nsw-west",
+    "relevance": "high",
+    "quote": "des Herrn Erzherzogs, die, wie bekannt, hauptsächlich der Jagd und naturhistorischen und ethnographischen Studien ge widmet ist, hatte die niederländische Regierung alle Vor",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930608?ref=anno-search&seite=1",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.2333,
+     -32.2333
+    ]
+   },
+   "properties": {
+    "title": "Pester Lloyd, 1893-06-29",
+    "date_published": "1893-06-29",
+    "event_date": "1893-05-18",
+    "day_index": 154,
+    "newspaper": "Pester Lloyd",
+    "place": "Narromine",
+    "episode": "hunt-1893-05-18-nsw-west",
+    "relevance": "high",
+    "quote": "Ferdinand begab sich schon am nächsten Tage in das Innere des Kontinents, um der nur in Australien möglichen Känguruh-Jagd zu obliegen, doch war er schon wieder Sonntags zurück, um der heiligen",
+    "page_url": "http://data.onb.ac.at/ANNO/pel18930629?ref=anno-search&seite=5",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.2333,
+     -32.2333
+    ]
+   },
+   "properties": {
+    "title": "Grazer Tagblatt, 1893-07-05",
+    "date_published": "1893-07-05",
+    "event_date": "1893-05-18",
+    "day_index": 154,
+    "newspaper": "Grazer Tagblatt",
+    "place": "Narromine",
+    "episode": "hunt-1893-05-18-nsw-west",
+    "relevance": "high",
+    "quote": "beberbergt in noch ungeheueren Massen die oft nur in Australien heimischen Thiergattungen. .Hier tunimcln sich zahlreiche .Herden von Känguruhs, Trappen und der scheue Emu, welch letzterer Vogel die Straußgatlungcn in Australien vertritt. Die Jagd erfolgt zu Pferde oder von leichten Wägen aus, welche, mit zwei oder",
+    "page_url": "http://data.onb.ac.at/ANNO/gtb18930705?ref=anno-search&seite=6",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.2333,
+     -32.2333
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-07-22",
+    "date_published": "1893-07-22",
+    "event_date": "1893-05-18",
+    "day_index": 154,
+    "newspaper": "Neue Freie Presse",
+    "place": "Narromine",
+    "episode": "hunt-1893-05-18-nsw-west",
+    "relevance": "high",
+    "quote": "Känguruhjagd, und zwar mit Beihilfe von berittenen Treibern, dort abgehalten. Der Erzherzog streckte mehrere Känguruhs, außerdem wurden einige Stücke dieses absonderlichen Wildes mit Wind",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930722?ref=anno-search&seite=19",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.2333,
+     -32.2333
+    ]
+   },
+   "properties": {
+    "title": "Das Vaterland, 1893-07-23",
+    "date_published": "1893-07-23",
+    "event_date": "1893-05-18",
+    "day_index": 154,
+    "newspaper": "Das Vaterland",
+    "place": "Narromine",
+    "episode": "hunt-1893-05-18-nsw-west",
+    "relevance": "high",
+    "quote": "Mr. Andrew Badgery's Folge zu leisten. Am Pfingst- dienstage wurde die Jagd fortgesetzt, Nach deren Schluß und> Einbruch der Dunkelheit der Erzherzog eine ganz neue",
+    "page_url": "http://data.onb.ac.at/ANNO/vtl18930723?ref=anno-search&seite=5",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.0011,
+     -34.715
+    ]
+   },
+   "properties": {
+    "title": "Grazer Volksblatt, 1893-06-24",
+    "date_published": "1893-06-24",
+    "event_date": "1893-05-23",
+    "day_index": 159,
+    "newspaper": "Grazer Volksblatt",
+    "place": "Badgery Station",
+    "episode": "hunt-1893-05-23-badgery",
+    "relevance": "high",
+    "quote": "Präparierung im Atelier der Brüder Hodek in Wien angelangte Es sind diesmal drei Tiger, welche der Herr Erzherzog bei seinen Jagdzügen",
+    "page_url": "http://data.onb.ac.at/ANNO/gre18930624?ref=anno-search&seite=5",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.0011,
+     -34.715
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-07-22",
+    "date_published": "1893-07-22",
+    "event_date": "1893-05-23",
+    "day_index": 159,
+    "newspaper": "Neue Freie Presse",
+    "place": "Badgery Station",
+    "episode": "hunt-1893-05-23-badgery",
+    "relevance": "high",
+    "quote": "ihre erste Aufzeichnung im Zagdtagebuche des Erzherzogs fanden. Abgesehen von einer selten reichen Ausbeute an Tigern, Panthern, Schakalen, Wildschweinen, Pelikane», Reihern, Gänsen, Enten,",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930722?ref=anno-search&seite=19",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.0011,
+     -34.715
+    ]
+   },
+   "properties": {
+    "title": "Prager Tagblatt, 1893-07-31",
+    "date_published": "1893-07-31",
+    "event_date": "1893-05-23",
+    "day_index": 159,
+    "newspaper": "Prager Tagblatt",
+    "place": "Badgery Station",
+    "episode": "hunt-1893-05-23-badgery",
+    "relevance": "high",
+    "quote": "d'Este eingetroffen. Unter denselben befanden sich fünf kapitale Tiger und drei Panther, welche vom Erzherzog in einer der wildreichsten Gegend JndienS, in Nepal,s er legt wurden. Der größte der erlegten Tiger mißt von der Nase bis zur Schwanzspitze 3'/, Meter, der größte",
+    "page_url": "http://data.onb.ac.at/ANNO/ptb18930731?ref=anno-search&seite=5",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.0011,
+     -34.715
+    ]
+   },
+   "properties": {
+    "title": "Südsteirische Post, 1893-08-02",
+    "date_published": "1893-08-02",
+    "event_date": "1893-05-23",
+    "day_index": 159,
+    "newspaper": "Südsteirische Post",
+    "place": "Badgery Station",
+    "episode": "hunt-1893-05-23-badgery",
+    "relevance": "high",
+    "quote": "troffen. Unter denselben befinden sich fünf ca- pitale Tiger und drei Panther, welche vom Erzherzog in einer der wildreichsten Gegenden",
+    "page_url": "http://data.onb.ac.at/ANNO/spo18930802?ref=anno-search&seite=5",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.0011,
+     -34.715
+    ]
+   },
+   "properties": {
+    "title": "Das Vaterland, 1893-07-23",
+    "date_published": "1893-07-23",
+    "event_date": "1893-05-24",
+    "day_index": 160,
+    "newspaper": "Das Vaterland",
+    "place": "Badgery Station",
+    "episode": "hunt-1893-05-23-badgery",
+    "relevance": "high",
+    "quote": "Mr. Andrew Badgery's Folge zu leisten. Am Pfingst- dienstage wurde die Jagd fortgesetzt, Nach deren Schluß und> Einbruch der Dunkelheit der Erzherzog eine ganz neue",
+    "page_url": "http://data.onb.ac.at/ANNO/vtl18930723?ref=anno-search&seite=5",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1494,
+     -9.4789
+    ]
+   },
+   "properties": {
+    "title": "Pester Lloyd, 1893-06-29",
+    "date_published": "1893-06-29",
+    "event_date": "1893-06-16",
+    "day_index": 183,
+    "newspaper": "Pester Lloyd",
+    "place": "Port Moresby / Laroki (New Guinea)",
+    "episode": "hunt-1893-06-16-new-guinea",
+    "relevance": "high",
+    "quote": "Ferdinand begab sich schon am nächsten Tage in das Innere des Kontinents, um der nur in Australien möglichen Känguruh-Jagd zu obliegen, doch war er schon wieder Sonntags zurück, um der heiligen",
+    "page_url": "http://data.onb.ac.at/ANNO/pel18930629?ref=anno-search&seite=5",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1494,
+     -9.4789
+    ]
+   },
+   "properties": {
+    "title": "Grazer Tagblatt, 1893-07-05",
+    "date_published": "1893-07-05",
+    "event_date": "1893-06-16",
+    "day_index": 183,
+    "newspaper": "Grazer Tagblatt",
+    "place": "Port Moresby / Laroki (New Guinea)",
+    "episode": "hunt-1893-06-16-new-guinea",
+    "relevance": "high",
+    "quote": "Australien heimischen Thiergattungen. .Hier tunimcln sich zahlreiche .Herden von Känguruhs, Trappen und der scheue Emu, welch letzterer Vogel die Straußgatlungcn",
+    "page_url": "http://data.onb.ac.at/ANNO/gtb18930705?ref=anno-search&seite=6",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1494,
+     -9.4789
+    ]
+   },
+   "properties": {
+    "title": "Neue Freie Presse, 1893-07-22",
+    "date_published": "1893-07-22",
+    "event_date": "1893-06-16",
+    "day_index": 183,
+    "newspaper": "Neue Freie Presse",
+    "place": "Port Moresby / Laroki (New Guinea)",
+    "episode": "hunt-1893-06-16-new-guinea",
+    "relevance": "high",
+    "quote": "Känguruhjagd, und zwar mit Beihilfe von berittenen Treibern, dort abgehalten. Der Erzherzog streckte mehrere Känguruhs, außerdem wurden einige Stücke dieses absonderlichen Wildes mit Wind",
+    "page_url": "http://data.onb.ac.at/ANNO/nfp18930722?ref=anno-search&seite=19",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1494,
+     -9.4789
+    ]
+   },
+   "properties": {
+    "title": "Das Vaterland, 1893-07-23",
+    "date_published": "1893-07-23",
+    "event_date": "1893-06-16",
+    "day_index": 183,
+    "newspaper": "Das Vaterland",
+    "place": "Port Moresby / Laroki (New Guinea)",
+    "episode": "hunt-1893-06-16-new-guinea",
+    "relevance": "high",
+    "quote": "Mr. Andrew Badgery's Folge zu leisten. Am Pfingst- dienstage wurde die Jagd fortgesetzt, Nach deren Schluß und> Einbruch der Dunkelheit der Erzherzog eine ganz neue",
+    "page_url": "http://data.onb.ac.at/ANNO/vtl18930723?ref=anno-search&seite=5",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1494,
+     -9.4789
+    ]
+   },
+   "properties": {
+    "title": "Prager Abendblatt, 1893-08-01",
+    "date_published": "1893-08-01",
+    "event_date": "1893-06-16",
+    "day_index": 183,
+    "newspaper": "Prager Abendblatt",
+    "place": "Port Moresby / Laroki (New Guinea)",
+    "episode": "hunt-1893-06-16-new-guinea",
+    "relevance": "high",
+    "quote": "das Waidmannsglück besonders günstig und deckten am Abende der Jagd 250 Känguruhs, 27 Opossums, 7 austra lische Bären und 2 überaus seltene Schnabellhiere den",
+    "page_url": "http://data.onb.ac.at/ANNO/pab18930801?ref=anno-search&seite=1",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1494,
+     -9.4789
+    ]
+   },
+   "properties": {
+    "title": "Österreichische Forst-Zeitung, 1893-08-18",
+    "date_published": "1893-08-18",
+    "event_date": "1893-06-16",
+    "day_index": 183,
+    "newspaper": "Österreichische Forst-Zeitung",
+    "place": "Port Moresby / Laroki (New Guinea)",
+    "episode": "hunt-1893-06-16-new-guinea",
+    "relevance": "high",
+    "quote": "und 1 Thier zur Strecke gebracht. Der Kaiser erlegte einen Zwölfender und zwei starke Gemsböcke. Am 5. d. M. war Jagd in Fahrnau-Steineck des Bezirkes Offensee. Trotz ungünstiger",
+    "page_url": "http://data.onb.ac.at/ANNO/ftz18930818?ref=anno-search&seite=4",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1494,
+     -9.4789
+    ]
+   },
+   "properties": {
+    "title": "Neues Wiener Tagblatt (Tages-Ausgabe), 1893-08-25",
+    "date_published": "1893-08-25",
+    "event_date": "1893-06-16",
+    "day_index": 183,
+    "newspaper": "Neues Wiener Tagblatt (Tages-Ausgabe)",
+    "place": "Port Moresby / Laroki (New Guinea)",
+    "episode": "hunt-1893-06-16-new-guinea",
+    "relevance": "high",
+    "quote": "Der Erzherzog war nach Besichtignng der Ortschaft sofort aus die Jagd gegangen, da die Salomonsinseln nächst Neu-Guinea die schönsten Papageicn und Tauben beherbergen, von denen während des zweitägigen Aufenthalts so ziemlich",
+    "page_url": "http://data.onb.ac.at/ANNO/nwg18930825?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.6322,
+     -3.4458
+    ]
+   },
+   "properties": {
+    "title": "(Linzer) Tages-Post, 1893-08-09",
+    "date_published": "1893-08-09",
+    "event_date": "1893-06-30",
+    "day_index": 197,
+    "newspaper": "(Linzer) Tages-Post",
+    "place": "Ambon",
+    "episode": "hunt-1893-06-29-buru",
+    "relevance": "high",
+    "quote": "Paar, Falkenhayn und S«.Quentin theil und wurden hiebei 29 Gemse» und 3 Hirsche zur Strecke gebracht. Hievon schoss der Kaiser 2 Hirsche und 10 Gemsen, Prinz Leopold 7 Gemsen» Erzherzog Franz Salvator 4 Gemsen, Graf Paar",
+    "page_url": "http://data.onb.ac.at/ANNO/tpt18930809?ref=anno-search&seite=4",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.6322,
+     -3.4458
+    ]
+   },
+   "properties": {
+    "title": "Die Presse, 1893-08-09",
+    "date_published": "1893-08-09",
+    "event_date": "1893-06-30",
+    "day_index": 197,
+    "newspaper": "Die Presse",
+    "place": "Ambon",
+    "episode": "hunt-1893-06-29-buru",
+    "relevance": "high",
+    "quote": "vator, die Grasen Paar, Falkenhoyu und St. Quentin Theil. Es wurden hiebei 29 Gemsen und 3 Hirsche zur Strecke gebracht. Hievon schoß der Kaiser 2 Hirsche und 10 Gemsen, Prinz Leopold 7 Gemsen, Erzherzog Franz Salvator 4 Gem",
+    "page_url": "http://data.onb.ac.at/ANNO/apr18930809?ref=anno-search&seite=15",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.6322,
+     -3.4458
+    ]
+   },
+   "properties": {
+    "title": "Das Vaterland, 1893-08-10",
+    "date_published": "1893-08-10",
+    "event_date": "1893-06-30",
+    "day_index": 197,
+    "newspaper": "Das Vaterland",
+    "place": "Ambon",
+    "episode": "hunt-1893-06-29-buru",
+    "relevance": "high",
+    "quote": "die Grafen Paar, Falkenhayn und St. Quentin Theil. Es wurden hiebei 29 Gemsen und 3 Hirsche zur Strecke ge bracht. Hievon schoß der Kaiser 2 Hirsche und 10 Gemsen, Prinz Leopold 7 Gemsen, Erzherzog Franz Salvator",
+    "page_url": "http://data.onb.ac.at/ANNO/vtl18930810?ref=anno-search&seite=4",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.6322,
+     -3.4458
+    ]
+   },
+   "properties": {
+    "title": "Teplitz-Schönauer Anzeiger, 1893-08-16",
+    "date_published": "1893-08-16",
+    "event_date": "1893-06-30",
+    "day_index": 197,
+    "newspaper": "Teplitz-Schönauer Anzeiger",
+    "place": "Ambon",
+    "episode": "hunt-1893-06-29-buru",
+    "relevance": "high",
+    "quote": "Waldungen deS Erzherzog» Albrecht gan» besonder« Exemplare schöner Hirsche gesehen worden sein, die abzuschießen den Majestäten nunmehr Gelegenheit",
+    "page_url": "http://data.onb.ac.at/ANNO/tsa18930816?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.6322,
+     -3.4458
+    ]
+   },
+   "properties": {
+    "title": "Neues Wiener Tagblatt (Tages-Ausgabe), 1893-08-29",
+    "date_published": "1893-08-29",
+    "event_date": "1893-06-30",
+    "day_index": 197,
+    "newspaper": "Neues Wiener Tagblatt (Tages-Ausgabe)",
+    "place": "Ambon",
+    "episode": "hunt-1893-06-29-buru",
+    "relevance": "high",
+    "quote": "herzog eiuen Jagdausslug nach dcm 15 Meilen von Dobbo entfernten Wassir, woselbst die Holländer Hirsche akllimatifirt haben und es außerdem von wilden Schweinen wimmeln",
+    "page_url": "http://data.onb.ac.at/ANNO/nwg18930829?ref=anno-search&seite=2",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.6322,
+     -3.4458
+    ]
+   },
+   "properties": {
+    "title": "Mährisch-Schlesische Presse, 1893-09-06",
+    "date_published": "1893-09-06",
+    "event_date": "1893-06-30",
+    "day_index": 197,
+    "newspaper": "Mährisch-Schlesische Presse",
+    "place": "Ambon",
+    "episode": "hunt-1893-06-29-buru",
+    "relevance": "high",
+    "quote": "veranstalteten Hirschjagden ihren Abschluß gefunden. An den sechs Jagdtagen wurden 13 sehr starke Hirsche (davon drei vom Herrn Erzherzog) die Strecke ge",
+    "page_url": "http://data.onb.ac.at/ANNO/msp18930906?ref=anno-search&seite=3",
+    "status": "automatisch ausgewählt, ungeprüft (OCR)"
+   }
+  }
+ ]
+}
