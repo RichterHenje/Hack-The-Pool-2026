@@ -685,6 +685,7 @@
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Franz_Ferdinand_von_%C3%96sterreich-Este_auf_Elefantenjagd_1893.jpg/960px-Franz_Ferdinand_von_%C3%96sterreich-Este_auf_Elefantenjagd_1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
    ],
+   "europeana": [],
    "objects": [
     {
      "id": "ke-object-763ae7fe31",
@@ -1396,9 +1397,11 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
      "url": "https://www.weltmuseumwien.at/objekte/franz-ferdinand-und-der-nizam-von-hyderabad-255139",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14514",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255139%2FVF_14514.jpg&type=IMAGE"
     },
     {
      "source": "Weltmuseum Wien",
@@ -1409,9 +1412,11 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
      "url": "https://www.weltmuseumwien.at/objekte/franz-ferdinand-und-der-nizam-von-hyderabad-mit-gefolge-255140",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14515",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255140%2FVF_14515.jpg&type=IMAGE"
     },
     {
      "source": "Weltmuseum Wien",
@@ -1422,9 +1427,11 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
      "url": "https://www.weltmuseumwien.at/objekte/elefanten-prozession-ausgehend-vom-cowmahila-palast-255142",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14517",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255142%2FVF_14517.jpg&type=IMAGE"
     },
     {
      "source": "Weltmuseum Wien",
@@ -1435,9 +1442,11 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
      "url": "https://www.weltmuseumwien.at/objekte/die-kaiserl-gesellschaft-zum-fruehstueck-beim-residenten-255143",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14518",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255143%2FVF_14518.jpg&type=IMAGE"
     },
     {
      "source": "Weltmuseum Wien",
@@ -1448,9 +1457,11 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
      "url": "https://www.weltmuseumwien.at/objekte/der-erzherzog-begruesst-die-kommandierenden-offiziere-der-parade-255152",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14527",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255152%2FVF_14527.jpg&type=IMAGE"
     },
     {
      "source": "Weltmuseum Wien",
@@ -1461,9 +1472,11 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
      "url": "https://www.weltmuseumwien.at/objekte/geparden-auf-karren-255153",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14528",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255153%2FVF_14528.jpg&type=IMAGE"
     },
     {
      "source": "Weltmuseum Wien",
@@ -1474,9 +1487,11 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
      "url": "https://www.weltmuseumwien.at/objekte/tiger-beim-saroonagar-palast-255155",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14530",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255155%2FVF_14530.jpg&type=IMAGE"
     },
     {
      "source": "Weltmuseum Wien",
@@ -1487,9 +1502,11 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
      "url": "https://www.weltmuseumwien.at/objekte/malukpett-sport-das-ringen-auf-dem-ruecken-der-pferde-255157",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14532",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255157%2FVF_14532.jpg&type=IMAGE"
     },
     {
      "source": "Weltmuseum Wien",
@@ -1500,9 +1517,11 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
      "url": "https://www.weltmuseumwien.at/objekte/rifle-match-auf-geworfene-flaschen-23-zwischen-franz-ferdinand-und-dem-nizam-von-hyderabad-golkonda-festung-255158",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14533",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255158%2FVF_14533.jpg&type=IMAGE"
     },
     {
      "source": "Weltmuseum Wien",
@@ -1513,9 +1532,30 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
      "url": "https://www.weltmuseumwien.at/objekte/schiessen-auf-rupien-255159",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14534",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255159%2FVF_14534.jpg&type=IMAGE"
+    }
+   ],
+   "europeana": [
+    {
+     "id": "/15504/VF_14687",
+     "title": "India, “Tandur-Camp.” 23.I.1893 Indien, \"Tandur-Camp\". 23.I.1893",
+     "date": "1893-01-23",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14687",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255318%2FVF_14687_a.jpg&type=IMAGE",
+     "vf": "VF_14687",
+     "animals": []
     }
    ],
    "objects": [
@@ -2408,6 +2448,7 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "europeana": [],
    "objects": [],
    "people": [
     {
@@ -2974,6 +3015,61 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "europeana": [
+    {
+     "id": "/15504/VF_14777",
+     "title": "Alwar, \"Barra\". 20.II.1893",
+     "date": "1893-02-20",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14777",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255417%2FVF_14777.jpg&type=IMAGE",
+     "vf": "VF_14777",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14778",
+     "title": "Alwar, “Lunch near Barra.” 20.II.1893 Alwar, \"Lunch bei Barra\". 20.II.1893",
+     "date": "1893-02-20",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14778",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255418%2FVF_14778.jpg&type=IMAGE",
+     "vf": "VF_14778",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14702",
+     "title": "Siriska, Archduke Franz Ferdinand, the first tiger. 24.II.1893 Siriska, Erzherzog Franz Ferdinand u.der erste Tiger. 24.II.1893",
+     "date": "1893-02-24",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14702",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255335%2FVF_14702.jpg&type=IMAGE",
+     "vf": "VF_14702",
+     "animals": [
+      "tiger"
+     ]
+    }
+   ],
    "objects": [],
    "people": [
     {
@@ -3496,9 +3592,85 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Indien/Rajasthan/Jodhpur",
      "url": "https://www.weltmuseumwien.at/objekte/jodhpore-piggsticking-2-iii-1893-255359",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14724",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255359%2FVF_14724.jpg&type=IMAGE"
+    }
+   ],
+   "europeana": [
+    {
+     "id": "/15504/VF_14721",
+     "title": "Jodhpore, Jodhpoor Camp. 1.III.1893 Jodhpore, Jodhpoor Camp. 1.III.1893",
+     "date": "1893-03-01",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14721",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255356%2FVF_14721.jpg&type=IMAGE",
+     "vf": "VF_14721",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14724",
+     "title": "Jodhpore, “piggsticking.” 2.III.1893 Jodhpore, \"Piggsticking\". 2.III.1893",
+     "date": "1893-03-02",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14724",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255359%2FVF_14724.jpg&type=IMAGE",
+     "vf": "VF_14724",
+     "animals": [
+      "boar"
+     ]
+    },
+    {
+     "id": "/15504/VF_14724_a",
+     "title": "Jodhpore, “piggsticking.” 2.III.1893 Jodhpore, \"Piggsticking\". 2.III.1893",
+     "date": "1893-03-02",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14724_a",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F513840%2FVF_14724a.jpg&type=IMAGE",
+     "vf": "VF_14724_a",
+     "animals": [
+      "boar"
+     ]
+    },
+    {
+     "id": "/15504/VF_14722",
+     "title": "Jodhpore. 2.III.1893, Lanzenreiterei Jodhpore. 2.III.1893, Lanzenreiterei",
+     "date": "1893-03-02",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14722",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255357%2FVF_14722.jpg&type=IMAGE",
+     "vf": "VF_14722",
+     "animals": []
     }
    ],
    "objects": [],
@@ -4030,6 +4202,7 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "europeana": [],
    "objects": [
     {
      "id": "ke-object-c093e9ef20",
@@ -5016,9 +5189,11 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Nepal/Terai",
      "url": "https://www.weltmuseumwien.at/objekte/nepal-katni-camp-21-iii-1893-mahouts-beim-traenken-u-waschen-d-elefanten-255369",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14733",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255369%2FVF_14733.jpg&type=IMAGE"
     },
     {
      "source": "Weltmuseum Wien",
@@ -5029,9 +5204,197 @@
      "status": "verified",
      "geography": "Südasien/Subkontinent/Nepal/Terai",
      "url": "https://www.weltmuseumwien.at/objekte/nepal-katni-sr-k-u-k-hoheit-tiger-22-iii-1893-255378",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14741",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255378%2FVF_14741.jpg&type=IMAGE"
+    }
+   ],
+   "europeana": [
+    {
+     "id": "/15504/VF_14726",
+     "title": "Nepal, \"Von Barbata-Tal nach Gull-Cerie\". 14.III.1893 Nepal, “Von Barbata-Tal nach Gull-Cerie.” 14.III.1893",
+     "date": "1893-03-14",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14726",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255361%2FVF_14726.jpg&type=IMAGE",
+     "vf": "VF_14726",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14731",
+     "title": "Nepal, \"Gull-Cerie Camp\". 18.III.1893",
+     "date": "1893-03-18",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14731",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255367%2FVF_14731.jpg&type=IMAGE",
+     "vf": "VF_14731",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14732",
+     "title": "Nepal, “On the journey from Dakna-na bagh to Barbata valley.” 18.III.1893 Nepal, \"Auf der Reise von Dakna-na bagh nach Barbata-Tal\". 18.III.1893",
+     "date": "1893-03-18",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14732",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255368%2FVF_14732.jpg&type=IMAGE",
+     "vf": "VF_14732",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14734_a",
+     "title": "Nepal, \"Katni-Camp. Elefanten im Bad\". 21.III.1893",
+     "date": "1893-03-21",
+     "creators": [
+      "Eduard Hodek jun. (attributed to)",
+      "Eduard Hodek jun. (Zugeschrieben an)",
+      "Eduard Hodek jun. Zugeschrieben an"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14734_a",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255370%2FVF_14734_a.jpg&type=IMAGE",
+     "vf": "VF_14734_a",
+     "animals": [
+      "elephant"
+     ]
+    },
+    {
+     "id": "/15504/VF_14734_b",
+     "title": "Nepal, \"Katni-Camp. Elefanten im Bad\". 21.III.1893",
+     "date": "1893-03-21",
+     "creators": [
+      "Eduard Hodek jun. (attributed to)",
+      "Eduard Hodek jun. (Zugeschrieben an)",
+      "Eduard Hodek jun. Zugeschrieben an"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14734_b",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F504125%2FVF_14734_b.jpg&type=IMAGE",
+     "vf": "VF_14734_b",
+     "animals": [
+      "elephant"
+     ]
+    },
+    {
+     "id": "/15504/VF_14736",
+     "title": "Nepal, “Katni Camp.” 21.III.1893 Nepal, \"Katni-Camp\". 21.III.1893",
+     "date": "1893-03-21",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14736",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255372%2FVF_14736.jpg&type=IMAGE",
+     "vf": "VF_14736",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14733",
+     "title": "Nepal, “Katni Camp.” 21.III.1893, Mahouts while drinking and washing elephants Nepal, \"Katni-Camp\". 21.III.1893, Mahouts beim Tränken u. Waschen d. Elefanten",
+     "date": "1893-03-21",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14733",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255369%2FVF_14733.jpg&type=IMAGE",
+     "vf": "VF_14733",
+     "animals": [
+      "elephant"
+     ]
+    },
+    {
+     "id": "/15504/VF_14742",
+     "title": "Katni, Sr. k.u.k. Highness “Tiger.” 23.III.1893 Katni, Sr. k.u.k. Hoheit \"Tiger\". 23.III.1893",
+     "date": "1893-03-23",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14742",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255379%2FVF_14742.jpg&type=IMAGE",
+     "vf": "VF_14742",
+     "animals": [
+      "tiger"
+     ]
+    },
+    {
+     "id": "/15504/VF_14738",
+     "title": "Nepal, \"In der Dschungel\". 23.III.1893",
+     "date": "1893-03-23",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14738",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255374%2FVF_14738.jpg&type=IMAGE",
+     "vf": "VF_14738",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14743",
+     "title": "Nepal, “The Hunting Elephants Kal-mohana.” 26.III.1893 Nepal, \"Die Jagd Elefanten Kal-mohana\". 26.III.1893",
+     "date": "1893-03-26",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14743",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255380%2FVF_14743.jpg&type=IMAGE",
+     "vf": "VF_14743",
+     "animals": [
+      "elephant"
+     ]
     }
    ],
    "objects": [
@@ -5911,9 +6274,83 @@
      "status": "verified",
      "geography": "Insulares Südostasien/Indonesien/Java/West-Java (Barat)/Cipandak",
      "url": "https://www.weltmuseumwien.at/objekte/hodeks-atelier-am-cipandak-255481",
-     "rights": null,
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
      "image": null,
-     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14835",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255481%2FVF_14835.jpg&type=IMAGE"
+    }
+   ],
+   "europeana": [
+    {
+     "id": "/15504/VF_14828",
+     "title": "Franz Ferdinand and his entourage on a bamboo-bridge near Mande Franz Ferdinand und sein Gefolge auf einer Bambusbrücke bei Mande über den Tji-Koendoel. 16.IV.1893",
+     "date": "1893-04-16",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14828",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255473%2FVF_14828.jpg&type=IMAGE",
+     "vf": "VF_14828",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14827",
+     "title": "Franz Ferdinand u. sein Gefolge auf einer Bambusbrücke bei Mande über den Tji-Koendoel\". 16.IV.1893 Franz Ferdinand u. His entourage on a bamboo bridge near Mande over the Tji-Koendoel. \" 16.IV.1893",
+     "date": "1893-04-16",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14827",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255472%2FVF_14827.jpg&type=IMAGE",
+     "vf": "VF_14827",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14826",
+     "title": "Java, \"Nach der Hirschjagd im Ploembon\". 16.IV.1893 Java, “After deer hunting in the Ploembon.” 16.IV.1893",
+     "date": "1893-04-16",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14826",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255471%2FVF_14826.jpg&type=IMAGE",
+     "vf": "VF_14826",
+     "animals": [
+      "deer"
+     ]
+    },
+    {
+     "id": "/15504/VF_14825",
+     "title": "Java, Hochstand in \"Ploembon\". 16.IV.1893 Java, high ground in “Ploembon.” 16.IV.1893",
+     "date": "1893-04-16",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14825",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255470%2FVF_14825.jpg&type=IMAGE",
+     "vf": "VF_14825",
+     "animals": []
     }
    ],
    "objects": [
@@ -6579,6 +7016,59 @@
     "diary_within_hoefer": false
    },
    "photos": [],
+   "europeana": [
+    {
+     "id": "/15504/VF_14843",
+     "title": "Australia, Naramine, \"Jongall Janck\". 18.V.1893 Australien, Naramine, \"Jongall Janck\". 18.V.1893 [Narromine]",
+     "date": "1893-05-18",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14843",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255490%2FVF_14843.jpg&type=IMAGE",
+     "vf": "VF_14843",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14841",
+     "title": "Australia, Naramine, “Jongall Janck.” 18.V.1893 [Narromine] Australien, Naramine, \"Jongall Janck\". 18.V.1893 [Narromine]",
+     "date": "1893-05-18",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14841",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255488%2FVF_14841.jpg&type=IMAGE",
+     "vf": "VF_14841",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14842",
+     "title": "Australien, Naramine. 18.5.1893. Eisenbahnzug [Narromine]",
+     "date": "1893-05-18",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14842",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255489%2FVF_14842.jpg&type=IMAGE",
+     "vf": "VF_14842",
+     "animals": []
+    }
+   ],
    "objects": [
     {
      "id": "ke-object-f21e6b0a07",
@@ -7295,6 +7785,195 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "europeana": [
+    {
+     "id": "/15504/VF_14844",
+     "title": "Australia, Arthur’s Leigh Badgery Station. 24.V.1893 Australien, Arthurs Leigh Badgery Station. 24.V.1893",
+     "date": "1893-05-24",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14844",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255491%2FVF_14844.jpg&type=IMAGE",
+     "vf": "VF_14844",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14846_a",
+     "title": "Australia, Arthur’s Leigh Badgery Station. 24.V.1893 Australien, Arthurs Leigh Badgery Station. 24.V.1893",
+     "date": "1893-05-24",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14846_a",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255493%2FVF_14846_a.jpg&type=IMAGE",
+     "vf": "VF_14846_a",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14846_b",
+     "title": "Australia, Arthur’s Leigh Badgery Station. 24.V.1893 Australien, Arthurs Leigh Badgery Station. 24.V.1893",
+     "date": "1893-05-24",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14846_b",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F503569%2FVF_14846_b.jpg&type=IMAGE",
+     "vf": "VF_14846_b",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14845",
+     "title": "Australia, Arthur’s Leigh Badgery Station. 24.V.1893. 24.5.1893, Farmhaus Australien, Arthurs Leigh Badgery Station. 24.V.1893. 24.5.1893,  Farmhaus",
+     "date": "1893-05-24",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14845",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255492%2FVF_14845.jpg&type=IMAGE",
+     "vf": "VF_14845",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14847",
+     "title": "Australien, Arthurs Leigh Badgery Station. 24.5.1893 Australia, Arthur’s Leigh Badgery Station. 24.5.1893",
+     "date": "1893-05-24",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14847",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255494%2FVF_14847.jpg&type=IMAGE",
+     "vf": "VF_14847",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14848_a",
+     "title": "Australia, Through the Wallendelly River. 25.V.1893 Australien, Durch den Wallendelly River. 25.V.1893",
+     "date": "1893-05-25",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14848_a",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F503568%2FVF_14848_a.jpg&type=IMAGE",
+     "vf": "VF_14848_a",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14848_b",
+     "title": "Australia, Through the Wallendelly River. 25.V.1893 Australien, Durch den Wallendelly River. 25.V.1893",
+     "date": "1893-05-25",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14848_b",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255495%2FVF_14848_b.jpg&type=IMAGE",
+     "vf": "VF_14848_b",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14850",
+     "title": "Australia, “Im australischen Busch.” 25.5.1893 Australien, \"Im australischen Busch\". 25.5.1893",
+     "date": "1893-05-25",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14850",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255498%2FVF_14850.jpg&type=IMAGE",
+     "vf": "VF_14850",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14851",
+     "title": "Australia, “Im australischen Busch.” 25.5.1893. Australien, \"Im australischen Busch\". 25.5.1893.",
+     "date": "1893-05-25",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14851",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255499%2FVF_14851.jpg&type=IMAGE",
+     "vf": "VF_14851",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14849_a",
+     "title": "Australia, “Im australischen Busch.” 25.V.1893 Australien, \"Im australischen Busch\". 25.V.1893",
+     "date": "1893-05-25",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14849_a",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F1106055%2FVF_14849.jpg&type=IMAGE",
+     "vf": "VF_14849_a",
+     "animals": []
+    },
+    {
+     "id": "/15504/VF_14849",
+     "title": "Australien, \"Im australischen Busch\". 25.V.1893 Australia, “Im australischen Busch.” 25.V.1893",
+     "date": "1893-05-25",
+     "creators": [
+      "Eduard Hodek jun. Fotograf/in"
+     ],
+     "photographers": [
+      "hodek"
+     ],
+     "provider": "World Museum Vienna",
+     "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "europeana": "https://www.europeana.eu/item/15504/VF_14849",
+     "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255496%2FVF_14849_GPP.jpg&type=IMAGE",
+     "vf": "VF_14849",
+     "animals": []
+    }
+   ],
    "objects": [
     {
      "id": "ke-object-f21e6b0a07",
@@ -8029,6 +8708,7 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "europeana": [],
    "objects": [
     {
      "id": "ke-object-76ef4657e2",
@@ -8746,6 +9426,7 @@
     "diary_within_hoefer": true
    },
    "photos": [],
+   "europeana": [],
    "objects": [
     {
      "id": "ke-object-3f9bfec453",
@@ -8847,6 +9528,72 @@
   }
  ],
  "voyage": {
+  "europeana": {
+   "photographers": [
+    {
+     "id": "hodek",
+     "name": "Eduard Hodek jun.",
+     "role": "Fotograf und Präparator an Bord",
+     "queries": [
+      "who:\"Hodek\"",
+      "\"Hodek\" AND (\"Franz Ferdinand\" OR Erzherzog OR Archduke)"
+     ],
+     "searched": 355,
+     "kept": 92
+    },
+    {
+     "id": "deen-dayal",
+     "name": "Lala Deen Dayal",
+     "role": "Hoffotograf in Hyderabad",
+     "queries": [
+      "who:\"Deen Dayal\"",
+      "\"Deen Dayal\" AND (\"Franz Ferdinand\" OR Erzherzog OR Archduke)"
+     ],
+     "searched": 39,
+     "kept": 36
+    },
+    {
+     "id": "pietzner",
+     "name": "Carl Pietzner",
+     "role": "Wiener Hofatelier, Abzüge der Reisefotos",
+     "queries": [
+      "who:\"Pietzner\" AND (\"Franz Ferdinand\" OR Erzherzog OR Indien OR Japan OR Ceylon OR Nepal OR Java OR Siriska)"
+     ],
+     "searched": 4,
+     "kept": 3
+    },
+    {
+     "id": "bourne-shepherd",
+     "name": "Bourne & Shepherd",
+     "role": "Fotostudio in Indien",
+     "queries": [
+      "who:\"Bourne & Shepherd\" AND (\"Franz Ferdinand\" OR Archduke OR 1893)"
+     ],
+     "searched": 0,
+     "kept": 0
+    },
+    {
+     "id": "imhof",
+     "name": "Max von Imhof",
+     "role": "Fotograf in Nordamerika",
+     "queries": [
+      "who:\"Imhof\" AND (\"Franz Ferdinand\" OR Erzherzog OR 1893)"
+     ],
+     "searched": 6,
+     "kept": 6
+    }
+   ],
+   "rights": {
+    "http://creativecommons.org/licenses/by-nc-sa/4.0/": 131,
+    "http://rightsstatements.org/vocab/InC/1.0/": 3
+   },
+   "providers": {
+    "World Museum Vienna": 131,
+    "The European Library": 3
+   },
+   "dated": 60,
+   "at_hunts": 37
+  },
   "objects_strong": [
    {
     "id": "ke-object-6479e09478",

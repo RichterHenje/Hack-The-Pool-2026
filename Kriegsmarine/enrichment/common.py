@@ -62,6 +62,19 @@ def get_text(url, retries=3):
             time.sleep(2 * (attempt + 1))
 
 
+def env(name):
+    """Secret from the environment or the repo's .env (never written to data/ or logs)."""
+    import os
+    if os.environ.get(name):
+        return os.environ[name]
+    path = ROOT.parent.parent / ".env"
+    for line in (path.read_text().splitlines() if path.exists() else []):
+        k, _, v = line.partition("=")
+        if k.strip() == name:
+            return v.strip().strip('"').strip("'")
+    raise SystemExit(f"{name} missing: set it in the environment or in {path}")
+
+
 def load(name):
     return json.loads((DATA / name).read_text())
 
