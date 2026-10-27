@@ -19,10 +19,18 @@ python3 04_build.py           # merge → data/enrichment.json, data/hunts.geojs
 python3 05_export_presse.py   # ANNO clippings → ../kaiserin_elisabeth/prototype/data/presse_anno.csv
 python3 06_crosscheck_ffworld.py  # itinerary check vs franzferdinandsworld.com → data/ffworld_days.csv, ffworld_crosscheck.json
 python3 07_heroes.py          # surviving animals (heroes.json, curated) → data/heroes.json, heroes.geojson
+python3 08_export_prototype.py  # bundle for the prototype → ../kaiserin_elisabeth/prototype/data/ke_enrichment.js
 ```
 
 After step 5 rebuild the prototype bundle in `../kaiserin_elisabeth/`: `uv run python -m scripts.ke_diary`.
-`reise.html` then shows each clipping on the diary day it reports on (`event_date`), not on its publication date.
+Step 8 then bundles the enrichment for `../kaiserin_elisabeth/prototype/reise.html` (`data/ke_enrichment.js`,
+`window.KEE`). The page is built on it: the 309 days of `normalization/json/tagebuch_tage.json` as the spine
+(coordinates: hunting places from Wikidata first, then the prototype gazetteer, route places, a few stops by hand;
+`coords` says which), the 18 episodes with their ANNO articles, the Europeana photos and the Este objects at the
+day they are dated to, all 84 people of `data/people.json` (← `normalization/json/personen.json` + Ranglisten,
+with diary days, GND/Wikidata, ANNO and Kulturpool hits), the person search and the live animals (`heroes.json`).
+Views: days, hunts, animals, people, press echo (ANNO coverage, trophies/diary reviews, Kulturpool).
+Deep links: `reise.html#1893-02-24`, `#hunt-1893-03-09-nepal`, `#fips-mucki`.
 
 Hand-maintained inputs: `places.json` (hunting places: OCR/day spellings, ANNO terms, region, vault notes),
 `route_wikidata.json` (QID per route place), `animals.json`, `heroes.json`.
