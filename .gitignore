@@ -1,3 +1,7 @@
 .claude_session
 .DS_Store
 .env
+
+# Obsidian: lokaler Fensterzustand und Papierkorb
+.obsidian/workspace.json
+.trash/
