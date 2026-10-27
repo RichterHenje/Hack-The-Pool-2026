@@ -95,22 +95,68 @@
     photo: L.layerGroup(), object: L.layerGroup(), heroes: L.layerGroup(),
   };
   const located = days.filter((d) => d.lat !== null);
-  const markerOf = new Map();
   const heroLine = new Map();
   const pressOf = (id) => E.press.filter((p) => p.episode === id);
   let currentHero = null;
+  let current = 0;
+  let progress = null, ship = null;
+
+  // Where the ship is on day i: the day's own place, else (at sea, place unknown) interpolated
+  // between the nearest located days before and after – an estimate, drawn hollow. Interpolated
+  // in projected map space between the drawn points, so the ship stays on the route line.
+  const locIndex = days.map((d, i) => d.lat !== null ? i : -1).filter((i) => i >= 0);
+  function shipAt(i) {
+    const d = days[i];
+    if (d.lat !== null) return { ll: pos(d.lat, d.lon), exact: true };
+    const p = locIndex.filter((j) => j < i).pop(), q = locIndex.find((j) => j > i);
+    if (p === undefined || q === undefined) {
+      const a = days[p ?? q];
+      return { ll: pos(a.lat, a.lon), exact: false };
+    }
+    const t = (i - p) / (q - p), crs = L.CRS.EPSG3857;
+    const a = crs.project(L.latLng(pos(days[p].lat, days[p].lon))), b = crs.project(L.latLng(pos(days[q].lat, days[q].lon)));
+    return { ll: crs.unproject(a.add(b.subtract(a).multiplyBy(t))), exact: false };
+  }
+  // Route travelled up to the current day, and the ship
+  function updateProgress() {
+    if (!progress) return;
+    const d = days[current], s = shipAt(current);
+    const done = located.filter((x) => x.date <= d.date).map((x) => pos(x.lat, x.lon));
+    progress.setLatLngs(s.exact ? done : [...done, s.ll]);
+    ship.setLatLng(s.ll).setStyle(s.exact ? { fillColor: "#1d1d1b", dashArray: null } : { fillColor: "#fff", dashArray: "3 2" });
+    ship.setTooltipContent(`${esc(fmt(d.date))} · ${esc(d.place || "–")}${s.exact ? "" : " (Position geschätzt)"}`);
+  }
 
   // All map points, redrawn when the base map changes
   function draw() {
     for (const g of Object.values(layers)) g.clearLayers();
-    L.polyline(located.map((d) => pos(d.lat, d.lon)), { color: ROUTE, weight: 2.5, opacity: 0.7 }).addTo(layers.route);
+    L.polyline(located.map((d) => pos(d.lat, d.lon)), { color: ROUTE, weight: 2, opacity: 0.35 }).addTo(layers.route);
+    progress = L.polyline([], { color: ROUTE, weight: 3, opacity: 0.9, interactive: false }).addTo(layers.route);
+    // One marker per place (several days often share one): the tooltip lists the stays,
+    // a click picks the day there closest to the current one
+    const byPlace = new Map();
     for (const d of located) {
-      const m = L.circleMarker(pos(d.lat, d.lon), { radius: 3.5, color: "#fff", weight: 1, fillColor: ROUTE, fillOpacity: 0.9 })
-        .bindTooltip(`${esc(fmt(d.date))} · ${esc(d.place)}`)
-        .on("click", () => selectDay(dayIndex.get(d.date)));
-      m.addTo(layers.route);
-      markerOf.set(d.date, m);
+      const k = `${d.place}|${d.lat.toFixed(3)}|${d.lon.toFixed(3)}`;
+      if (!byPlace.has(k)) byPlace.set(k, []);
+      byPlace.get(k).push(dayIndex.get(d.date));
     }
+    for (const idx of byPlace.values()) {
+      const runs = [];
+      for (const i of idx) {
+        const last = runs[runs.length - 1];
+        if (last && i === last[1] + 1) last[1] = i; else runs.push([i, i]);
+      }
+      const d0 = days[idx[0]];
+      const text = runs.map(([a, b]) => `${esc(span(days[a].date, days[b].date))}${b > a ? ` (${b - a + 1} Tage)` : ""}`).join("<br>");
+      L.circleMarker(pos(d0.lat, d0.lon), { radius: 3.5, color: "#fff", weight: 1, fillColor: ROUTE, fillOpacity: 0.9 })
+        .bindTooltip(`<b>${esc(d0.place)}</b><br>${text}`)
+        .on("click", () => selectDay(idx.reduce((best, i) => Math.abs(i - current) < Math.abs(best - current) ? i : best)))
+        .addTo(layers.route);
+    }
+    // The current day's label sits on the ship, so exactly one label is open
+    ship = L.circleMarker([0, 0], { radius: 7, color: "#1d1d1b", weight: 2.5, fillColor: "#1d1d1b", fillOpacity: 1, interactive: false })
+      .bindTooltip("", { permanent: true, direction: "top", offset: [0, -6] }).addTo(layers.route);
+    updateProgress();
     // Hunts: one marker per episode place, sized by kill sentences; press as a ring around it
     for (const ep of episodes) {
       for (const p of ep.places) {
@@ -152,6 +198,7 @@
       heroLine.set(h.id, { pts, line });
     }
     if (currentHero) highlightHero(currentHero);
+    ship.bringToFront();
   }
   function highlightHero(id) {
     for (const [hid, { line }] of heroLine) {
@@ -259,7 +306,6 @@
   const sel = document.getElementById("day");
   sel.innerHTML = days.map((d, i) =>
     `<option value="${i}">${esc(d.date)} · ${d.hunt ? "◆ " : ""}${esc(d.place)}</option>`).join("");
-  let current = 0;
 
   function dayCard(d) {
     const ep = d.episode && epById.get(d.episode);
@@ -310,8 +356,11 @@
     const d = days[current];
     sel.value = String(current);
     document.getElementById("card").innerHTML = dayCard(d);
-    const m = markerOf.get(d.date);
-    if (m && pan) { map.panTo(m.getLatLng()); m.openTooltip(); }
+    updateProgress();
+    updateTimeline();
+    // Follow the ship, but only move the map when it leaves the view (smooth while scrubbing)
+    const ll = shipAt(current).ll;
+    if (pan && !map.getBounds().pad(-0.15).contains(ll)) map.panTo(ll);
     history.replaceState(null, "", `#${d.date}`);
   }
   sel.addEventListener("change", () => selectDay(Number(sel.value)));
@@ -321,6 +370,96 @@
     if (["SELECT", "INPUT"].includes(e.target.tagName) || document.getElementById("view-day").hidden) return;
     if (e.key === "ArrowRight") selectDay(current + 1);
     if (e.key === "ArrowLeft") selectDay(current - 1);
+  });
+
+  // --- timeline -------------------------------------------------------------------------
+  // One column per day, one row per layer (colours as on the map). Press is placed at the
+  // day the issue appeared, so the echo trails the hunts by weeks.
+  const tlTrack = document.getElementById("tl-track");
+  const tlSvg = document.getElementById("tl-svg");
+  const tlHover = document.getElementById("tl-hover");
+  const N = days.length, ROW = 12, LAND = "#7AA63A";   // yellow-green: apart from the sea blue and the press teal
+  const pressByDay = new Map();
+  let pressLater = 0;
+  for (const p of E.press) {
+    if (dayIndex.has(p.date)) pressByDay.set(p.date, (pressByDay.get(p.date) || 0) + 1);
+    else if (p.date > days[N - 1].date) pressLater += 1;
+  }
+  const rect = (x, row, w, color, op) =>
+    `<rect x="${x}" y="${row * ROW + 1}" width="${w}" height="${ROW - 2}" fill="${color}" fill-opacity="${op.toFixed(2)}"/>`;
+  const level = (n, full) => 0.3 + 0.7 * Math.min(1, n / full);
+  let svg = "";
+  days.forEach((d, i) => {
+    svg += d.lat !== null ? rect(i, 0, 1.02, LAND, 0.85) : rect(i, 0, 1.02, d.coords === "sea" ? "#a9c7d8" : "#d6d0c4", 0.6);
+  });
+  for (const ep of episodes) {
+    const a = dayIndex.get(ep.start), b = dayIndex.get(ep.end);
+    if (a !== undefined && b !== undefined) svg += rect(a, 1, b - a + 1, HUNT, 0.15);
+  }
+  days.forEach((d, i) => {
+    if (d.hunt) svg += rect(i, 1, 1.02, HUNT, level(d.hunt.n, 8));
+    if (pressByDay.has(d.date)) svg += rect(i, 2, 1.02, PRESS, level(pressByDay.get(d.date), 4));
+    if (d.photos.length) svg += rect(i, 3, 1.02, PHOTO, level(d.photos.length, 6));
+    if (d.objects.length) svg += rect(i, 4, 1.02, OBJECT, level(d.objects.length, 6));
+    if (d.heroes.length) svg += rect(i, 5, 1.02, HERO, level(d.heroes.length, 2));
+  });
+  tlSvg.setAttribute("viewBox", `0 0 ${N} ${6 * ROW}`);
+  tlSvg.innerHTML = svg;
+  // Month ticks
+  document.getElementById("tl-months").innerHTML = days.map((d, i) => {
+    if (i > 0 && !d.date.endsWith("-01")) return "";
+    const [y, m] = d.date.split("-");
+    const name = ["Jän", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"][m - 1];
+    return `<span style="left:${(i / N) * 100}%">${name}${m === "01" || i === 0 ? " " + y : ""}</span>`;
+  }).join("");
+  const key = (c, op, t) => `<span class="key" style="background:${c};opacity:${op}"></span> ${t}`;
+  document.getElementById("tl-note").innerHTML = `Ort: ${key(LAND, 0.85, "an Land")} ${key("#a9c7d8", 0.6, "auf See")}
+    ${key("#d6d0c4", 0.6, "ohne Ort")} · Presse nach Erscheinungstag${pressLater ? ` (${pressLater} Ausgaben nach Reiseende nicht gezeigt)` : ""}
+    · klicken oder ziehen, ← → Tag, Bild ↑↓ Woche`;
+
+  const dayLabel = (d) => `${fmt(d.date)} · ${d.place || (d.coords === "sea" ? "auf See" : "–")}`;
+  function updateTimeline() {
+    const d = days[current];
+    document.getElementById("tl-cursor").style.left = `${((current + 0.5) / N) * 100}%`;
+    const extra = [d.hunt && `Jagd: ${d.hunt.n} ${d.hunt.n === 1 ? "Satz" : "Sätze"}`, pressByDay.get(d.date) && `${pressByDay.get(d.date)} Zeitung(en)`,
+      d.photos.length && `${d.photos.length} Foto(s)`, d.objects.length && `${d.objects.length} Objekt(e)`, d.heroes.length && "Tiere"].filter(Boolean);
+    document.getElementById("tl-readout").innerHTML = `<b>${esc(dayLabel(d))}</b>${extra.length ? " · " + esc(extra.join(" · ")) : ""}`;
+    tlTrack.setAttribute("aria-valuemin", "0");
+    tlTrack.setAttribute("aria-valuemax", String(N - 1));
+    tlTrack.setAttribute("aria-valuenow", String(current));
+    tlTrack.setAttribute("aria-valuetext", dayLabel(d));
+  }
+  const indexAt = (e) => {
+    const r = tlSvg.getBoundingClientRect();
+    return Math.max(0, Math.min(N - 1, Math.floor(((e.clientX - r.left) / r.width) * N)));
+  };
+  const pickDay = (i) => {
+    if (document.getElementById("view-day").hidden) showTab("day");
+    if (i !== current) selectDay(i);
+  };
+  tlTrack.addEventListener("pointerdown", (e) => {
+    tlTrack.setPointerCapture(e.pointerId);
+    tlTrack.focus();
+    pickDay(indexAt(e));
+  });
+  tlTrack.addEventListener("pointermove", (e) => {
+    const i = indexAt(e);
+    if (tlTrack.hasPointerCapture(e.pointerId)) pickDay(i);
+    tlHover.hidden = false;
+    tlHover.style.left = `${((i + 0.5) / N) * 100}%`;
+    tlHover.textContent = dayLabel(days[i]);
+  });
+  tlTrack.addEventListener("pointerleave", () => { tlHover.hidden = true; });
+  tlTrack.addEventListener("keydown", (e) => {
+    const step = { ArrowLeft: -1, ArrowRight: 1, ArrowDown: -1, ArrowUp: 1, PageDown: -7, PageUp: 7 }[e.key];
+    let i = null;
+    if (step) i = current + step;
+    if (e.key === "Home") i = 0;
+    if (e.key === "End") i = N - 1;
+    if (i === null) return;
+    e.preventDefault();
+    e.stopPropagation();   // the document handler would step a second time
+    pickDay(Math.max(0, Math.min(N - 1, i)));
   });
 
   // --- hunts ----------------------------------------------------------------------------

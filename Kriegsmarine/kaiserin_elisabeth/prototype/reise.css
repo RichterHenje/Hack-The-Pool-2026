@@ -86,3 +86,25 @@
 .person[open] { padding-bottom: 10px; }
 .badge { display: inline-block; font-size: 11px; background: #dcebf2; border-radius: 3px; padding: 0 4px; margin-left: 4px; font-variant-numeric: tabular-nums; }
 .badge.hunt { background: #f3dcd2; }
+
+/* Timeline under the map (reise.html only; style.css is shared with index.html) */
+#stage { display: grid; grid-template-rows: minmax(0, 1fr) auto; height: 100vh; min-width: 0; }
+#stage #map { min-height: 0; }
+#timeline { background: var(--panel); border-top: 1px solid var(--line); padding: 8px 16px 10px; font-size: 12px; }
+.tl-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; margin-bottom: 26px; }
+#tl-readout { font-size: 13px; }
+.tl-body { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 8px; }
+.tl-labels { display: grid; grid-template-rows: repeat(6, 12px); font-size: 10px; line-height: 12px; color: var(--muted); }
+.tl-track { position: relative; cursor: pointer; touch-action: none; padding-bottom: 16px; }
+.tl-track:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.tl-track svg { display: block; width: 100%; height: 72px; }
+.tl-months { position: absolute; left: 0; right: 0; bottom: 0; height: 14px; }
+.tl-months span {
+  position: absolute; top: 0; font-size: 10px; line-height: 14px; color: var(--muted);
+  border-left: 1px solid var(--line); padding-left: 3px; white-space: nowrap;
+}
+.tl-cursor { position: absolute; top: -4px; height: 80px; width: 2px; margin-left: -1px; background: var(--ink); pointer-events: none; }
+.tl-hover {
+  position: absolute; top: -24px; transform: translateX(-50%); background: var(--ink); color: #fff;
+  font-size: 11px; padding: 1px 6px; border-radius: 3px; white-space: nowrap; pointer-events: none; z-index: 1;
+}

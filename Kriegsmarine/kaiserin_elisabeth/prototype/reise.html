@@ -101,7 +101,27 @@
     </section>
   </aside>
 
-  <main id="map" aria-label="Karte der Reise"></main>
+  <div id="stage">
+    <main id="map" aria-label="Karte der Reise"></main>
+    <section id="timeline" aria-label="Zeitleiste">
+      <div class="tl-head">
+        <span id="tl-readout" aria-live="polite"></span>
+        <span id="tl-note" class="note"></span>
+      </div>
+      <div class="tl-body">
+        <div class="tl-labels" aria-hidden="true">
+          <span>Ort</span><span style="color:#D55E00">Jagd</span><span style="color:#009E73">Presse</span>
+          <span style="color:#CC79A7">Fotos</span><span style="color:#B07800">Objekte</span><span style="color:#2E86C1">Tiere</span>
+        </div>
+        <div id="tl-track" class="tl-track" tabindex="0" role="slider" aria-label="Tag der Reise">
+          <svg id="tl-svg" preserveAspectRatio="none" aria-hidden="true"></svg>
+          <div id="tl-months" class="tl-months" aria-hidden="true"></div>
+          <div id="tl-cursor" class="tl-cursor"></div>
+          <div id="tl-hover" class="tl-hover" hidden></div>
+        </div>
+      </div>
+    </section>
+  </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
