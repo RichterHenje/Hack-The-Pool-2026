@@ -16,6 +16,7 @@ taugen deshalb nicht für einen Zeitschieberegler.
 | `ke_legs.geojson` | 47 Etappen als Großkreis (1°-Schritte), Yokohama → Vancouver an ±180° geteilt | Linien, Zeitschieberegler |
 | `ke_hunts.csv` / `.geojson` | 12 Jagden laut Tagebuch, Tiere, Zeitraum | Punkte |
 | `ke_press.csv` / `.geojson` | ANNO-Ausschnitte zu den Jagden aus `../data/presse_anno.csv` (Stand 27.10.: 69), am Ort der Jagd | Punkte, Pop-ups |
+| `ke_photos_dated.csv` / `.geojson` | 159 Weltmuseum-Fotos der Reise mit Tagesdatum (aus `normalization/json/bilder.json`), am Ort des Tages laut Reiseübersicht; 87 mit Koordinaten. Nur Links zum Museum, keine Bilder. Anleitung und Regeln: `README_photos.md` | Punkte (Clustering), Zeitschieberegler |
 
 ### Wichtige Felder
 
@@ -93,4 +94,5 @@ geteilter Layer wäre eine Weitergabe. Alternativen:
   Daten und Orte, kein Text.
 - Namen: Linked-Places-Gazetteer des Teams (GeoNames CC BY 4.0, Wikidata CC0).
 - Presse: ANNO, Österreichische Nationalbibliothek. Kulturpool: Lizenz je Datensatz.
+- Fotos: Weltmuseum Wien, Fotosammlung (Bildrecht beim Museum, nur Links). Ort des Tages aus der Reiseübersicht; Koordinaten aus den Stationen oder GeoNames (CC BY 4.0), höchstens 400 km von der Route.
 - Grundkarten in ArcGIS: Esri.
