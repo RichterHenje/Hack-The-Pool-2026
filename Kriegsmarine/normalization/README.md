@@ -71,10 +71,19 @@ nicht im Repo. Auswahl: VF-Objekte mit „Weltreise 1892-1893“ in der Beschrei
 Eduard Hodek jun. Enthalten sind nur die **408 Bilder, die auf weltmuseumwien.at online sind**
 (Objekt und Bild freigegeben); von insgesamt 2.029 Fotos sind die übrigen nicht öffentlich.
 
-- Felder: `Datei`, `Inventarnummer`, `Titel`, `Datierung` (wie im Museum), `Weltmuseum-Link`
-  (Objektseite), `Bild-Link` (das JPEG direkt, `https://www.weltmuseumwien.at/pics/<Objekt-ID>/<Datei>`,
-  Endung immer `.jpg`; alle 408 am 27.10.2026 geprüft), `Bildbeschreibung`, `Tiere` (`true`/`false`),
-  `Tierarten`; fehlende Werte `"NA"`.
+- Felder: `Datei`, `Inventarnummer`, `Titel`, `Datierung` (wie im Museum), `Geografie`,
+  `Geografie-Pfad`, `Ortschaft (Route)`, `Weltmuseum-Link` (Objektseite), `Bild-Link` (das JPEG direkt,
+  `https://www.weltmuseumwien.at/pics/<Objekt-ID>/<Datei>`, Endung immer `.jpg`; alle 408 am 27.10.2026
+  geprüft), `Bildbeschreibung`, `Tiere` (`true`/`false`), `Tierarten`; fehlende Werte `"NA"`.
+- `Geografie` / `Geografie-Pfad`: die geografische Zuordnung des Museums (Thesaurus „MVK Geografie“, wie auf
+  der Objektseite), z. B. „Kalawewa“ / „Südasien > Subkontinent > Sri Lanka > Kalawewa“. 405 der 408
+  Bilder haben eine; die Genauigkeit schwankt zwischen Ort und Land.
+- **`Ortschaft (Route)` ist ein Vorschlag aus String-Abgleich** mit `ortschaften.json` (236 Bilder):
+  gleicher Name, ganze Wörter des Routennamens („Hyderabad“ → „Nizamate of Hyderabad“), „heut. …“-Namen
+  aus der Notiz („Mumbai“ → „Bombay“), sehr ähnliche Schreibung („Noumea“ → „Nouméa“) und vier feste
+  Varianten (Kolkata/Calcutta, Singapore/Singapur, Darjiling/Darjeeling, Jeypore/Jaipur). Hat der genaueste
+  Begriff keinen Treffer, zählt der übergeordnete Ort unterhalb der Länderebene („Hanuabada“ → Port Moresby,
+  „Negishi“ → Yokohama, „Peradeniya“ → Kandy). Länder und Regionen werden nie einer Station zugeordnet.
 - **`Bildbeschreibung`, `Tiere` und `Tierarten` sind KI-generiert** (Claude Sonnet 5.5, 27.10.2026) und
   ungeprüft (`_meta.checked: false`, `_meta.ki`). Tiere sind bewusst großzügig getaggt, auch
   Darstellungen und Tierprodukte (Felle, Federn), gekennzeichnet in Klammern, z. B. „Drache (Darstellung)“.
