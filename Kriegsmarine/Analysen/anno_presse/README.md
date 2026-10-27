@@ -8,6 +8,15 @@ und ordnet jede Ausgabe der Etappe der Reiseübersicht zu (`../itinerary_1892_93
 und viele Treffer meinen etwas anderes (die Kaiserin, den russischen Thronfolger, das
 Kaiserin-Elisabeth-Spital). Was zitiert wird, entscheidet ein Mensch am Scan.
 
+## Lauf vom 27.10.2026
+
+- 3 Begriffe × 11 Monate (1892-12 bis 1893-10), Obergrenze 200 Ausgaben je Begriff und Monat;
+  keine Obergrenze erreicht.
+- 1.382 Ausgaben, 4.789 Ausschnitte in `candidates.csv`.
+- 229 Ausschnitte ohne Etappe: alle vom 1. bis 14.12.1892, also vor der Abfahrt.
+- Ungeprüft. Eine Auswahl von 68 Ausschnitten zu den Jagden (Pipeline `../../enrichment/`)
+  steht in `../../kaiserin_elisabeth/prototype/data/presse_anno.csv`.
+
 ## Aufruf
 
 Nur Python 3 (Standardbibliothek), keine Installation, kein Schlüssel. Aus diesem Ordner:

@@ -1,0 +1,280 @@
+{
+ "source": "https://anno.onb.ac.at/anno-suche/rest/search",
+ "months": "1892-12:1893-10",
+ "lag_days": 21,
+ "max_docs_per_month": 200,
+ "terms": [
+  "Kreuzer \"Kaiserin Elisabeth\"",
+  "Rammkreuzer \"Kaiserin Elisabeth\"",
+  "Thronfolger \"Kaiserin Elisabeth\""
+ ],
+ "docs": 1382,
+ "rows": 4789,
+ "rows_without_leg": 229,
+ "per_query_month": [
+  {
+   "query": "Kreuzer \"Kaiserin Elisabeth\"",
+   "month": "1892-12",
+   "total_hits": 151,
+   "fetched": 151,
+   "new_docs": 151,
+   "capped": false
+  },
+  {
+   "query": "Kreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-01",
+   "total_hits": 148,
+   "fetched": 148,
+   "new_docs": 148,
+   "capped": false
+  },
+  {
+   "query": "Kreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-02",
+   "total_hits": 106,
+   "fetched": 106,
+   "new_docs": 106,
+   "capped": false
+  },
+  {
+   "query": "Kreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-03",
+   "total_hits": 157,
+   "fetched": 157,
+   "new_docs": 157,
+   "capped": false
+  },
+  {
+   "query": "Kreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-04",
+   "total_hits": 131,
+   "fetched": 131,
+   "new_docs": 131,
+   "capped": false
+  },
+  {
+   "query": "Kreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-05",
+   "total_hits": 74,
+   "fetched": 74,
+   "new_docs": 74,
+   "capped": false
+  },
+  {
+   "query": "Kreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-06",
+   "total_hits": 95,
+   "fetched": 95,
+   "new_docs": 95,
+   "capped": false
+  },
+  {
+   "query": "Kreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-07",
+   "total_hits": 110,
+   "fetched": 110,
+   "new_docs": 110,
+   "capped": false
+  },
+  {
+   "query": "Kreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-08",
+   "total_hits": 112,
+   "fetched": 112,
+   "new_docs": 112,
+   "capped": false
+  },
+  {
+   "query": "Kreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-09",
+   "total_hits": 101,
+   "fetched": 101,
+   "new_docs": 101,
+   "capped": false
+  },
+  {
+   "query": "Kreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-10",
+   "total_hits": 51,
+   "fetched": 51,
+   "new_docs": 51,
+   "capped": false
+  },
+  {
+   "query": "Rammkreuzer \"Kaiserin Elisabeth\"",
+   "month": "1892-12",
+   "total_hits": 71,
+   "fetched": 71,
+   "new_docs": 20,
+   "capped": false
+  },
+  {
+   "query": "Rammkreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-01",
+   "total_hits": 33,
+   "fetched": 33,
+   "new_docs": 16,
+   "capped": false
+  },
+  {
+   "query": "Rammkreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-02",
+   "total_hits": 1,
+   "fetched": 1,
+   "new_docs": 0,
+   "capped": false
+  },
+  {
+   "query": "Rammkreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-03",
+   "total_hits": 14,
+   "fetched": 14,
+   "new_docs": 3,
+   "capped": false
+  },
+  {
+   "query": "Rammkreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-04",
+   "total_hits": 21,
+   "fetched": 21,
+   "new_docs": 6,
+   "capped": false
+  },
+  {
+   "query": "Rammkreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-05",
+   "total_hits": 15,
+   "fetched": 15,
+   "new_docs": 8,
+   "capped": false
+  },
+  {
+   "query": "Rammkreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-06",
+   "total_hits": 8,
+   "fetched": 8,
+   "new_docs": 3,
+   "capped": false
+  },
+  {
+   "query": "Rammkreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-07",
+   "total_hits": 10,
+   "fetched": 10,
+   "new_docs": 4,
+   "capped": false
+  },
+  {
+   "query": "Rammkreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-08",
+   "total_hits": 8,
+   "fetched": 8,
+   "new_docs": 5,
+   "capped": false
+  },
+  {
+   "query": "Rammkreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-09",
+   "total_hits": 1,
+   "fetched": 1,
+   "new_docs": 1,
+   "capped": false
+  },
+  {
+   "query": "Rammkreuzer \"Kaiserin Elisabeth\"",
+   "month": "1893-10",
+   "total_hits": 4,
+   "fetched": 4,
+   "new_docs": 3,
+   "capped": false
+  },
+  {
+   "query": "Thronfolger \"Kaiserin Elisabeth\"",
+   "month": "1892-12",
+   "total_hits": 46,
+   "fetched": 46,
+   "new_docs": 8,
+   "capped": false
+  },
+  {
+   "query": "Thronfolger \"Kaiserin Elisabeth\"",
+   "month": "1893-01",
+   "total_hits": 83,
+   "fetched": 83,
+   "new_docs": 17,
+   "capped": false
+  },
+  {
+   "query": "Thronfolger \"Kaiserin Elisabeth\"",
+   "month": "1893-02",
+   "total_hits": 40,
+   "fetched": 40,
+   "new_docs": 6,
+   "capped": false
+  },
+  {
+   "query": "Thronfolger \"Kaiserin Elisabeth\"",
+   "month": "1893-03",
+   "total_hits": 21,
+   "fetched": 21,
+   "new_docs": 0,
+   "capped": false
+  },
+  {
+   "query": "Thronfolger \"Kaiserin Elisabeth\"",
+   "month": "1893-04",
+   "total_hits": 18,
+   "fetched": 18,
+   "new_docs": 5,
+   "capped": false
+  },
+  {
+   "query": "Thronfolger \"Kaiserin Elisabeth\"",
+   "month": "1893-05",
+   "total_hits": 11,
+   "fetched": 11,
+   "new_docs": 3,
+   "capped": false
+  },
+  {
+   "query": "Thronfolger \"Kaiserin Elisabeth\"",
+   "month": "1893-06",
+   "total_hits": 34,
+   "fetched": 34,
+   "new_docs": 8,
+   "capped": false
+  },
+  {
+   "query": "Thronfolger \"Kaiserin Elisabeth\"",
+   "month": "1893-07",
+   "total_hits": 61,
+   "fetched": 61,
+   "new_docs": 19,
+   "capped": false
+  },
+  {
+   "query": "Thronfolger \"Kaiserin Elisabeth\"",
+   "month": "1893-08",
+   "total_hits": 19,
+   "fetched": 19,
+   "new_docs": 6,
+   "capped": false
+  },
+  {
+   "query": "Thronfolger \"Kaiserin Elisabeth\"",
+   "month": "1893-09",
+   "total_hits": 12,
+   "fetched": 12,
+   "new_docs": 1,
+   "capped": false
+  },
+  {
+   "query": "Thronfolger \"Kaiserin Elisabeth\"",
+   "month": "1893-10",
+   "total_hits": 9,
+   "fetched": 9,
+   "new_docs": 4,
+   "capped": false
+  }
+ ]
+}
