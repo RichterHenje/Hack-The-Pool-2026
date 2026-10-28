@@ -87,6 +87,32 @@
 .badge { display: inline-block; font-size: 11px; background: #dcebf2; border-radius: 3px; padding: 0 4px; margin-left: 4px; font-variant-numeric: tabular-nums; }
 .badge.hunt { background: #f3dcd2; }
 
+/* Provenance badges and the "Herkunft" checkboxes; reise.js writes the hide/dim rules */
+.srcb {
+  display: inline-block; font-size: 10.5px; font-weight: 400; line-height: 1.5; text-transform: none; letter-spacing: 0;
+  color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--c);
+  border-radius: 3px; padding: 0 4px; margin-left: 4px; vertical-align: 1px; white-space: nowrap;
+}
+.src-ctl {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+  padding: 6px 10px; max-height: 60vh; overflow-y: auto; font-size: 12.5px; color: var(--ink);
+}
+.src-ctl details[open] { width: 300px; max-width: calc(100vw - 100px); }
+.src-ctl summary { font-weight: 600; font-size: 13px; cursor: pointer; }
+.src-ctl .note { font-size: 11.5px; color: var(--muted); margin: 4px 0 6px; }
+.src-mode { display: block; margin-top: 8px; cursor: pointer; }
+#sources { display: grid; gap: 5px; }
+#sources label { display: flex; gap: 6px; align-items: flex-start; line-height: 1.3; cursor: pointer; }
+#sources .dot { width: 10px; height: 10px; border-radius: 2px; background: var(--c); flex: none; margin-top: 3px; }
+#sources input { margin: 1px 0 0; }
+#sources .from { color: var(--muted); }
+#sources .how { display: block; color: var(--muted); font-size: 11px; font-style: italic; }
+.place-pop .pop { margin: 0; max-height: 340px; overflow-y: auto; font-size: 13px; }
+.place-pop .pop h3 { font-size: 15px; }
+.place-pop .pop h4 { margin: 10px 0 4px; }
+.place-pop .pop p { margin: 4px 0; }
+.place-pop .off { opacity: 0.3; }
+
 /* Timeline under the map (reise.html only; style.css is shared with index.html) */
 #stage { display: grid; grid-template-rows: minmax(0, 1fr) auto; height: 100vh; min-width: 0; }
 #stage #map { min-height: 0; }
