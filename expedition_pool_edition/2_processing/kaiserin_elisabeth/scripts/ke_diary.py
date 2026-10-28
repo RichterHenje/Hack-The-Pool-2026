@@ -2,13 +2,19 @@
 
     uv run python -m scripts.ke_diary
 
-Reads the team's day-segmented diary (vault `expedition_pool_edition/1_sources/Sources/FF Tagebuch Bd. 1.md`,
-`Bd. 2.md`: one `### YYYY-MM-DD · Ort` heading per day, `^scanN` page markers, OCR text
-uncorrected) and writes prototype/data/ke_diary.json + ke_diary.csv:
+One record per day of the voyage (309 days, 14.12.1892–18.10.1893), from the diary split into
+days by the normalisation (`../normalization/json/tagebuch_tage.json`, diary_days.py). Earlier this
+script split the OCR at its 170 `### YYYY-MM-DD · Ort` headings (`1_sources/Sources/FF Tagebuch
+Bd. 1.md`, `Bd. 2.md`), but 63 of those entries span several days because the OCR mangled the date
+headings in the running text; their hunts and places were dated to the first day of the entry.
+The headings are still read, for the place and its coordinates on the days that have one.
+Writes ../../3_visualization/web/data/ke_diary.json, .csv and .js:
 
-  per day: date, volume, scan, archive.org page link, heading as printed, kind
-  (stay / transfer / at_sea / unknown), place (as printed, normalised, coordinates when
-  the gazetteer resolves it), and
+  per day: date, volume, scan, archive.org page link, heading as printed (days with their own
+  heading), kind (stay / transfer / at_sea / unknown), place (from the heading: as printed,
+  normalised, coordinates when the gazetteer resolves it; otherwise the place of the day on
+  franzferdinandsworld.com, without coordinates; `place_source` says which), entry_date and method
+  of the day split, and
   hunting: sentences with a kill verb (erlegte, geschossen, schoss …) quoted verbatim,
   and the animal words that occur IN those sentences.
 
@@ -33,6 +39,7 @@ VOLUMES = {
     "1": ("FF Tagebuch Bd. 1.md", "tagebuchmeinerr01ferdgoog"),
     "2": ("FF Tagebuch Bd. 2.md", "tagebuchmeinerr00ferdgoog"),
 }
+DAYS = Path("../normalization/json/tagebuch_tage.json")  # the diary by day (normalization/diary_days.py)
 OUT = Path("../../3_visualization/web/data")  # the web pages (expedition_pool_edition/3_visualization/web)
 
 KILL = re.compile(
@@ -179,43 +186,62 @@ def parse_volume(band: str) -> list[dict]:
     return entries
 
 
+def site_kind(place_site: str) -> tuple[str, str]:
+    """Kind and place of a day without its own heading, from the site's place ('Kandy to Kalawewa, Ceylon')."""
+    s = re.sub(r"\(.*?\)|\s+–\s+in \d{4}:.*", "", place_site or "").strip()
+    if not s or re.search(r"\b(at sea|ocean|red sea|gulf of)\b", s, re.IGNORECASE):
+        return ("at_sea" if s else "unknown"), ""
+    parts = re.split(r"\s+to\s+|\s+–\s+|\s+—\s+", s.split(";")[-1])
+    return ("transfer" if len(parts) > 1 else "stay"), parts[-1].split(",")[0].strip()
+
+
 def main() -> int:
     gaz = geo.Gazetteer()
+    # the OCR headings by date: place and coordinates for the days that have one
+    headings = {e["date"]: e for band in VOLUMES for e in parse_volume(band)}
     days = []
-    for band in VOLUMES:
-        for e in parse_volume(band):
-            text = "\n".join(e["text"])
-            k = kind_of(e["heading"])
-            loc = location_of(e["heading"], k)
+    for d in json.loads(DAYS.read_text(encoding="utf-8"))["days"]:
+        h = headings.get(d["date"])
+        if h:
+            heading, k = h["heading"], kind_of(h["heading"])
+            loc = location_of(heading, k)
             search = SPELLINGS.get(geo.norm(loc), loc) if loc else ""
-            m = gaz.lookup(search, stretch_countries(e["date"])) if search else None
-            kills = [s for s in sentences(text) if KILL.search(s)]
-            animals = sorted(
-                {a for a, pat in ANIMALS.items() for s in kills if re.search(pat, s, re.IGNORECASE)}
-            )
-            scan = e["scan"]
-            days.append(
-                {
-                    "date": e["date"],
-                    "band": int(band),
-                    "scan": scan,
-                    "page_url": f"https://archive.org/details/{e['ident']}/page/n{scan - 1}/mode/1up"
-                    if scan
-                    else f"https://archive.org/details/{e['ident']}",
-                    "heading": e["heading"],
-                    "kind": k,
-                    "place_as_printed": loc,
-                    "place": m["name"] if m else "",
-                    "country": m["country"] if m else "",
-                    "lat": m["lat"] if m else None,
-                    "lon": m["lon"] if m else None,
-                    "geonames": m["geonames"] if m else "",
-                    "words": len(text.split()),
-                    "kill_sentences": len(kills),
-                    "animals_in_kill_sentences": animals,
-                    "kill_quotes": [s[:320] for s in kills[:3]],
-                }
-            )
+            m = gaz.lookup(search, stretch_countries(d["date"])) if search else None
+            source = "heading" if loc else ""
+        else:
+            heading, m = "", None
+            k, loc = site_kind(d["place_site"])
+            source = "site" if loc else ""
+        text = d.get("text") or ""
+        kills = [s for s in sentences(text) if KILL.search(s)]
+        animals = sorted(
+            {a for a, pat in ANIMALS.items() for s in kills if re.search(pat, s, re.IGNORECASE)}
+        )
+        days.append(
+            {
+                "date": d["date"],
+                "band": int(d["band"]) if d.get("band") else None,
+                "scan": d.get("scan"),
+                "page_url": d.get("page_url") or "",
+                "heading": heading,
+                "kind": k,
+                "place_as_printed": loc,
+                "place_source": source,
+                "place": m["name"] if m else "",
+                "country": m["country"] if m else "",
+                "lat": m["lat"] if m else None,
+                "lon": m["lon"] if m else None,
+                "geonames": m["geonames"] if m else "",
+                "place_site": d["place_site"],
+                "ocr_entry": bool(h),  # the OCR has a `### date` heading on this day (170 of the 309 days)
+                "entry_date": d["entry_date"],
+                "method": d["method"],
+                "words": len(text.split()),
+                "kill_sentences": len(kills),
+                "animals_in_kill_sentences": animals,
+                "kill_quotes": [s[:320] for s in kills[:3]],
+            }
+        )
     days.sort(key=lambda d: d["date"])
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "ke_diary.json").write_text(
@@ -248,13 +274,14 @@ def main() -> int:
     hunting = [d for d in days if d["kill_sentences"]]
     print(f"{len(days)} diary days {days[0]['date']}..{days[-1]['date']}; kinds {kinds}")
     print(
-        f"located {len(located)} of {sum(1 for d in days if d['place_as_printed'])} days with a place"
+        f"located {len(located)} of {sum(1 for d in days if d['place_source'] == 'heading')} days with a heading place"
+        f" ({sum(1 for d in days if d['place_source'] == 'site')} more with the site's place, not located)"
     )
     print(
         f"days with kill sentences {len(hunting)}; kill sentences {sum(d['kill_sentences'] for d in days)}"
     )
     unresolved = sorted(
-        {d["place_as_printed"] for d in days if d["place_as_printed"] and d["lat"] is None}
+        {d["place_as_printed"] for d in days if d["place_source"] == "heading" and d["lat"] is None}
     )
     print("places not located:", unresolved)
     print(f"-> {OUT}/ke_diary.json, ke_diary.csv")

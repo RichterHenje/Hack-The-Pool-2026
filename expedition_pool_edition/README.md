@@ -289,13 +289,3 @@ Die Liste der Entitäten im Obsidian-Vault, nach Ordnern (Stand 16. Oktober 2026
 - Zrinyi, Korvette
 
 </details>
-
-## Hinweis: `ke_diary.json` ist veraltet
-
-`2_processing/kaiserin_elisabeth/scripts/ke_diary.py` teilt das Tagebuch an den 170 Überschriften, die die
-OCR erkannt hat. Das gedruckte Tagebuch hat aber rund 284 Tage: 63 dieser Einträge umfassen mehrere Tage
-(zusammen 113 Tage), weil die OCR die Tagesüberschriften im Fließtext verstümmelt hat. Für
-`3_visualization/web/data/ke_diary.json` (und `ke_diary.csv`, `ke_diary.js`) heißt das: Ort, Jagdsätze und
-Tiere eines Eintrags stehen beim ersten Tag des Eintrags und können 1–5 Tage zu früh datiert sein. Die
-korrigierte Fassung ist `2_processing/normalization/json/tagebuch_tage.json` (309 Tage; Verfahren in
-`2_processing/normalization/README.md`); `geschichte.html` und `reise.html` beruhen darauf.

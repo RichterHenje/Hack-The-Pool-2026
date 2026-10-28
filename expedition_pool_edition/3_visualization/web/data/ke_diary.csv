@@ -1,171 +1,310 @@
-date,band,scan,page_url,heading,kind,place_as_printed,place,country,lat,lon,geonames,words,kill_sentences,animals_in_kill_sentences
-1892-12-15,1,15,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n14/mode/1up,In See nach Port Said,at_sea,,,,,,,638,0,
-1892-12-16,1,17,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n16/mode/1up,In See nach Port Said,at_sea,,,,,,,167,0,
-1892-12-17,1,18,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n17/mode/1up,In See nach Port Said,at_sea,,,,,,,96,0,
-1892-12-18,1,19,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n18/mode/1up,In See nach Port Said,at_sea,,,,,,,584,0,
-1892-12-19,1,21,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n20/mode/1up,In See nach Port SaUi,at_sea,,,,,,,86,0,
-1892-12-20,1,21,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n20/mode/1up,Port Said,stay,Port Said,Port Said,EG,31.26531,32.3019,https://sws.geonames.org/358619/,1626,2,Wildvogel
-1892-12-22,1,26,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n25/mode/1up,In See nach Steamer Point,at_sea,,,,,,,226,0,
-1892-12-23,1,27,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n26/mode/1up,In See nach Steamer Point,at_sea,,,,,,,646,0,
-1892-12-24,1,29,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n28/mode/1up,In See nach Stcamer Point,at_sea,,,,,,,486,0,
-1892-12-25,1,31,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n30/mode/1up,In See nach Steamer Point,at_sea,,,,,,,115,0,
-1892-12-26,1,31,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n30/mode/1up,Steamer Point,stay,Steamer Point,Aden,YE,12.77957,45.03852,https://sws.geonames.org/415189/,398,0,
-1892-12-27,1,32,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n31/mode/1up,Aden,stay,Aden,Aden,YE,12.77957,45.03852,https://sws.geonames.org/415189/,1271,0,
-1892-12-28,1,41,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n40/mode/1up,In See nach Coloinbo,at_sea,,,,,,,157,0,
-1892-12-29,1,42,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n41/mode/1up,In See nach Colombo,at_sea,,,,,,,245,0,
-1892-12-30,1,43,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n42/mode/1up,In See nach Colombo,at_sea,,,,,,,148,0,
-1892-12-31,1,43,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n42/mode/1up,In See nach Colombo,at_sea,,,,,,,209,0,
-1893-01-01,1,44,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n43/mode/1up,In See nach Colombo,at_sea,,,,,,,449,0,
-1893-01-03,1,46,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n45/mode/1up,,unknown,,,,,,,48,0,
-1893-01-04,1,46,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n45/mode/1up,In See nach Colombo,at_sea,,,,,,,4548,1,
-1893-01-08,1,68,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n67/mode/1up,Kalawewa,stay,Kalawewa,,,,,,1072,1,Fisch/Hai; Wildvogel
-1893-01-09,1,71,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n70/mode/1up,Kalawewa,stay,Kalawewa,,,,,,340,2,
-1893-01-10,1,73,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n72/mode/1up,Kalawewa,stay,Kalawewa,,,,,,1037,0,
-1893-01-11,1,75,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n74/mode/1up,,unknown,,,,,,,2010,10,Affe; Elefant; Wildvogel
-1893-01-12,1,81,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n80/mode/1up,Kandy,stay,Kandy,Kandy,LK,7.2906,80.6336,https://sws.geonames.org/1241622/,1060,0,
-1893-01-13,1,84,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n83/mode/1up,Kandy — Colombo,transfer,Colombo,Colombo,LK,6.93548,79.84868,https://sws.geonames.org/1248991/,491,0,
-1893-01-14,1,89,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n88/mode/1up,,unknown,,,,,,,2937,0,
-1893-01-18,1,99,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n98/mode/1up,Bombay,stay,Bombay,Mumbai,IN,19.07283,72.88261,https://sws.geonames.org/1275339/,3075,1,
-1893-01-19,1,107,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n106/mode/1up,Bombay,stay,Bombay,Mumbai,IN,19.07283,72.88261,https://sws.geonames.org/1275339/,1469,0,
-1893-01-20,1,112,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n111/mode/1up,Tandur,stay,Tandur,Tandur,IN,17.24849,77.57698,https://sws.geonames.org/1255004/,215,0,
-1893-01-21,1,116,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n115/mode/1up,TaiuUir,stay,TaiuUir,Tandur,IN,17.24849,77.57698,https://sws.geonames.org/1255004/,1578,2,Schakal/Hyäne
-1893-01-23,1,121,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n120/mode/1up,Tandur,stay,Tandur,Tandur,IN,17.24849,77.57698,https://sws.geonames.org/1255004/,4242,2,Tiger
-1893-01-25,1,137,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up,Haidarabad,stay,Haidarabad,Hyderabad,IN,17.38405,78.45636,https://sws.geonames.org/1269843/,2394,2,
-1893-01-26,1,145,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n144/mode/1up,,unknown,,,,,,,7041,12,Tiger; Wildvogel
-1893-01-31,1,172,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n171/mode/1up,Gwalior — Calciitta,transfer,Calciitta,Kolkata,IN,22.56263,88.36304,https://sws.geonames.org/1275004/,699,0,
-1893-02-01,1,174,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n173/mode/1up,Calcutta,stay,Calcutta,Kolkata,IN,22.56263,88.36304,https://sws.geonames.org/1275004/,1282,0,
-1893-02-02,1,178,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n177/mode/1up,Calcutta,stay,Calcutta,Kolkata,IN,22.56263,88.36304,https://sws.geonames.org/1275004/,1016,0,
-1893-02-03,1,181,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n180/mode/1up,Calcutta,stay,Calcutta,Kolkata,IN,22.56263,88.36304,https://sws.geonames.org/1275004/,2314,1,
-1893-02-04,1,187,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n186/mode/1up,Calcutta,stay,Calcutta,Kolkata,IN,22.56263,88.36304,https://sws.geonames.org/1275004/,2663,0,
-1893-02-06,1,199,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n198/mode/1up,Dardschiling,stay,Dardschiling,Dārjiling,IN,27.03333,88.26667,https://sws.geonames.org/1273467/,1828,0,
-1893-02-07,1,205,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n204/mode/1up,DarJschiling,stay,DarJschiling,Dārjiling,IN,27.03333,88.26667,https://sws.geonames.org/1273467/,3814,1,Tiger
-1893-02-12,1,225,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n224/mode/1up,Agra,stay,Agra,Agra,IN,27.18333,78.01667,https://sws.geonames.org/1279259/,4466,1,
-1893-02-13,1,239,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n238/mode/1up,Agra,stay,Agra,Agra,IN,27.18333,78.01667,https://sws.geonames.org/1279259/,3420,13,Antilope/Gazelle; Wildvogel
-1893-02-15,1,249,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n248/mode/1up,Agra — Bhartpur,transfer,Bhartpur,,,,,,1310,7,Antilope/Gazelle; Fisch/Hai; Schakal/Hyäne; Wildvogel
-1893-02-16,1,257,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n256/mode/1up,Dehii,stay,Dehii,Delhi,IN,28.65195,77.23149,https://sws.geonames.org/1273294/,2302,1,
-1893-02-18,1,264,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n263/mode/1up,Dehli,stay,Dehli,Delhi,IN,28.65195,77.23149,https://sws.geonames.org/1273294/,859,0,
-1893-02-19,1,266,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n265/mode/1up,Alwar,stay,Alwar,Alwar,IN,27.56246,76.625,https://sws.geonames.org/1278946/,2124,0,
-1893-02-20,1,275,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n274/mode/1up,Siriska,stay,Siriska,,,,,,2616,4,Antilope/Gazelle; Hirsch
-1893-02-23,1,283,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n282/mode/1up,Siriska,stay,Siriska,,,,,,625,1,Antilope/Gazelle
-1893-02-24,1,285,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n284/mode/1up,Siriska,stay,Siriska,,,,,,2761,5,Antilope/Gazelle; Schakal/Hyäne; Tiger
-1893-02-27,1,293,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n292/mode/1up,Sirtska — Alwar,transfer,Alwar,Alwar,IN,27.56246,76.625,https://sws.geonames.org/1278946/,796,2,Antilope/Gazelle
-1893-02-28,1,300,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n299/mode/1up,H Dschodpur,stay,H Dschodpur,Jodhpur,IN,26.26841,73.00594,https://sws.geonames.org/1268865/,5854,4,Antilope/Gazelle; Wildvogel
-1893-03-02,1,317,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n316/mode/1up,Dscbodpur,stay,Dscbodpur,Jodhpur,IN,26.26841,73.00594,https://sws.geonames.org/1268865/,2367,2,Wildschwein
-1893-03-03,1,328,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n327/mode/1up,Dschaipur,stay,Dschaipur,Jaipur,IN,26.91962,75.78781,https://sws.geonames.org/1269515/,2534,1,Hirsch
-1893-03-04,1,336,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n335/mode/1up,Dschaipur,stay,Dschaipur,Jaipur,IN,26.91962,75.78781,https://sws.geonames.org/1269515/,870,2,Antilope/Gazelle; Wildvogel
-1893-03-05,1,339,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n338/mode/1up,Dschaipur,stay,Dschaipur,Jaipur,IN,26.91962,75.78781,https://sws.geonames.org/1269515/,1052,0,
-1893-03-06,1,342,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n341/mode/1up,Dschaipur,stay,Dschaipur,Jaipur,IN,26.91962,75.78781,https://sws.geonames.org/1269515/,1011,0,
-1893-03-07,1,346,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n345/mode/1up,Dschaipur — Agra,transfer,Agra,Agra,IN,27.18333,78.01667,https://sws.geonames.org/1279259/,4320,10,Affe; Antilope/Gazelle; Hirsch; Tiger; Wildvogel
-1893-03-10,1,362,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n361/mode/1up,Dakna Bägh,stay,Dakna Bägh,,,,,,2746,14,Elefant; Krokodil/Alligator; Panther/Leopard; Tiger; Wildschwein; Wildvogel
-1893-03-13,1,373,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n372/mode/1up,Barbatta Tai,stay,Barbatta Tai,,,,,,605,1,Elefant; Tiger
-1893-03-14,1,375,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n374/mode/1up,Dechta Bnli,stay,Dechta Bnli,,,,,,371,1,Hirsch; Wildvogel
-1893-03-15,1,376,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n375/mode/1up,Dechta Boli,stay,Dechta Boli,,,,,,298,0,
-1893-03-16,1,377,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n376/mode/1up,Dcchta Boli,stay,Dcchta Boli,,,,,,508,3,Elefant; Hirsch; Tiger; Wildschwein; Wildvogel
-1893-03-18,1,379,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n378/mode/1up,Beli,stay,Beli,,,,,,2388,6,Elefant; Hirsch; Nashorn; Tiger; Wildvogel
-1893-03-22,1,385,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n384/mode/1up,Katni,stay,Katni,Murwāra,IN,23.83776,80.39405,https://sws.geonames.org/1262395/,937,2,Hirsch; Panther/Leopard; Tiger
-1893-03-26,1,388,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n387/mode/1up,Sohela,stay,Sohela,,,,,,3645,1,Elefant; Panther/Leopard
-1893-03-31,1,402,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n401/mode/1up,In See nach Singapur,at_sea,,,,,,,378,0,
-1893-04-04,1,404,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n403/mode/1up,In See nach Singapur,at_sea,,,,,,,284,0,
-1893-04-05,1,405,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n404/mode/1up,In See nach SingapurPulu Besar,at_sea,,,,,,,6247,2,Krokodil/Alligator; Wildvogel
-1893-04-09,1,432,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n431/mode/1up,In See nach Java,at_sea,,,,,,,1119,0,
-1893-04-11,1,436,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n435/mode/1up,Baiavia,stay,Baiavia,Jakarta,ID,-6.21462,106.84513,https://sws.geonames.org/1642911/,1862,5,Krokodil/Alligator
-1893-04-12,1,442,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n441/mode/1up,,unknown,,,,,,,2749,0,
-1893-04-13,1,451,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n450/mode/1up,Buitcnzorg — Garut,transfer,Garut,Garut,ID,-7.245,107.921,https://sws.geonames.org/1644409/,1734,0,
-1893-04-14,1,457,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n456/mode/1up,Garut,stay,Garut,Garut,ID,-7.245,107.921,https://sws.geonames.org/1644409/,2825,2,Hirsch; Nashorn; Wildschwein
-1893-04-16,1,466,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n465/mode/1up,Tjiandjur,stay,Tjiandjur,Cianjur,ID,-6.82222,107.13944,https://sws.geonames.org/1647142/,2095,2,Hirsch
-1893-04-18,1,477,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n476/mode/1up,Tanggeng---Sindangbarang,transfer,Sindangbarang,,,,,,472,0,
-1893-04-19,1,478,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n477/mode/1up,Tjipandak,stay,Tjipandak,,,,,,2386,2,
-1893-04-21,1,485,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n484/mode/1up,Tjipandak,stay,Tjipandak,,,,,,632,1,Wildvogel
-1893-04-23,1,487,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n486/mode/1up,Tjipandak,stay,Tjipandak,,,,,,1085,2,Wildvogel
-1893-04-26,1,491,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n490/mode/1up,Buitenzorg,stay,Buitenzorg,Bogor,ID,-6.59444,106.78917,https://sws.geonames.org/1648473/,396,0,
-1893-04-27,1,492,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n491/mode/1up,Buitenzorg — Batavia — Tandjong Priok,transfer,Tandjong Priok,Jakarta,ID,-6.21462,106.84513,https://sws.geonames.org/1642911/,1842,0,
-1893-04-28,1,501,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n500/mode/1up,,unknown,,,,,,,713,0,
-1893-04-30,1,503,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n502/mode/1up,In .See nach Port Kennedy,at_sea,,,,,,,613,1,
-1893-05-02,1,506,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n505/mode/1up,In See nach Port Kennedy,at_sea,,,,,,,209,1,Fisch/Hai
-1893-05-04,1,507,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n506/mode/1up,In See nach Port Kennedv,at_sea,,,,,,,187,0,
-1893-05-05,1,507,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n506/mode/1up,Port Kennedy,stay,Port Kennedy,,,,,,2530,2,Känguru; Wildvogel
-1893-05-07,1,516,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n515/mode/1up,Port Kennedv,stay,Port Kennedv,,,,,,1178,1,Wildvogel
-1893-05-08,1,520,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n519/mode/1up,Port Kennedy,stay,Port Kennedy,,,,,,1026,1,Wildvogel
-1893-05-10,1,524,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n523/mode/1up,In See nach Sydney,at_sea,,,,,,,584,0,
-1893-05-11,1,526,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n525/mode/1up,In See nach Svdnev%,at_sea,,,,,,,147,0,
-1893-05-12,1,528,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n527/mode/1up,In See nach Sydney,at_sea,,,,,,,181,0,
-1893-05-13,1,528,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n527/mode/1up,In See nach Sydney,at_sea,,,,,,,2847,1,Büffel; Elefant; Tiger
-1893-05-17,2,23,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n22/mode/1up,Sydney,stay,Sydney,Sydney,AU,-33.86785,151.20732,https://sws.geonames.org/2147714/,1530,0,
-1893-05-18,2,27,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n26/mode/1up,Narromine,stay,Narromine,,,,,,2267,10,Känguru; Wildvogel
-1893-05-19,2,33,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n32/mode/1up,Narromine,stay,Narromine,,,,,,1478,5,Känguru
-1893-05-20,2,37,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n36/mode/1up,MuUengudgery,stay,MuUengudgery,,,,,,2141,10,Wildvogel
-1893-05-21,2,43,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n42/mode/1up,Sydney,stay,Sydney,Sydney,AU,-33.86785,151.20732,https://sws.geonames.org/2147714/,1693,0,
-1893-05-23,2,52,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n51/mode/1up,Badgery Station,stay,Badgery Station,,,,,,2102,4,Bär
-1893-05-24,2,57,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n56/mode/1up,Badgery Station,stay,Badgery Station,,,,,,1621,5,Bär; Känguru
-1893-05-25,2,61,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n60/mode/1up,Badgery Station,stay,Badgery Station,,,,,,1726,4,Bär
-1893-05-26,2,66,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n65/mode/1up,Sydney,stay,Sydney,Sydney,AU,-33.86785,151.20732,https://sws.geonames.org/2147714/,2869,0,
-1893-05-28,2,77,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n76/mode/1up,In See nach KeuCaledonien,at_sea,,,,,,,5026,1,
-1893-06-03,2,92,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n91/mode/1up,Numea,stay,Numea,Nouméa,NC,-22.27407,166.44884,https://sws.geonames.org/2139521/,7820,3,Wildvogel
-1893-06-09,2,118,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n117/mode/1up,Ugi,stay,Ugi,,,,,,1601,1,Wildvogel
-1893-06-10,2,126,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n125/mode/1up,In See nach Xeu*Guinea,at_sea,,,,,,,752,1,
-1893-06-14,2,128,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n127/mode/1up,,unknown,,,,,,,1469,0,
-1893-06-15,2,132,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up,Port Moresby,stay,Port Moresby,Port Moresby,PG,-9.47723,147.15089,https://sws.geonames.org/2088122/,4686,4,Wildvogel
-1893-06-17,2,146,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n145/mode/1up,Jagdlager am Laroki,stay,Jagdlager am Laroki,,,,,,4568,5,
-1893-06-20,2,158,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n157/mode/1up,Jagdlager am \''ei Maori — Varivari-Insel,transfer,Varivari-Insel,,,,,,797,0,
-1893-06-21,2,164,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n163/mode/1up,In See nach den Aru-Inseln,at_sea,,,,,,,784,0,
-1893-06-23,2,167,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n166/mode/1up,In See nach den Aru-Inseln,at_sea,,,,,,,3337,4,Fisch/Hai; Hirsch; Wildvogel
-1893-06-27,2,176,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n175/mode/1up,In See nach Amboina,at_sea,,,,,,,249,0,
-1893-06-28,2,177,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n176/mode/1up,Amboina,stay,Amboina,Ambon,ID,-3.69583,128.18333,https://sws.geonames.org/1651531/,2477,0,
-1893-06-29,2,184,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n183/mode/1up,Kajeli,stay,Kajeli,,,,,,1226,2,Wildvogel
-1893-06-30,2,187,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n186/mode/1up,Kajeli — Amboina,transfer,Amboina,Ambon,ID,-3.69583,128.18333,https://sws.geonames.org/1651531/,2322,3,Fisch/Hai; Hirsch; Wildvogel
-1893-07-04,2,198,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n197/mode/1up,In See nach Burncc,at_sea,,,,,,,4348,0,
-1893-07-13,2,213,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n212/mode/1up,Singapur,stay,Singapur,Singapore,SG,1.28967,103.85007,https://sws.geonames.org/1880252/,44,0,
-1893-07-14,2,213,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n212/mode/1up,Singapur,stay,Singapur,Singapore,SG,1.28967,103.85007,https://sws.geonames.org/1880252/,597,0,
-1893-07-16,2,218,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n217/mode/1up,In See nach Hongkono,at_sea,,,,,,,120,0,
-1893-07-17,2,218,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n217/mode/1up,In See nach Hongkong,at_sea,,,,,,,270,0,
-1893-07-21,2,219,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n218/mode/1up,Hongkong,stay,Hongkong,Hong Kong,HK,22.27832,114.17469,https://sws.geonames.org/1819729/,4169,0,
-1893-07-22,2,232,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n231/mode/1up,Honkong,stay,Honkong,Hong Kong,HK,22.27832,114.17469,https://sws.geonames.org/1819729/,1622,0,
-1893-07-23,2,240,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n239/mode/1up,Kanton,stay,Kanton,Guangzhou,CN,23.11667,113.25,https://sws.geonames.org/1809858/,4374,0,
-1893-07-24,2,252,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n251/mode/1up,Kanton,stay,Kanton,Guangzhou,CN,23.11667,113.25,https://sws.geonames.org/1809858/,6936,0,
-1893-07-25,2,271,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n270/mode/1up,Kanton,stay,Kanton,Guangzhou,CN,23.11667,113.25,https://sws.geonames.org/1809858/,3079,0,
-1893-07-27,2,284,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n283/mode/1up,IMacao — Hongkong,transfer,Hongkong,Hong Kong,HK,22.27832,114.17469,https://sws.geonames.org/1819729/,2315,0,
-1893-07-28,2,290,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n289/mode/1up,Hongkong,stay,Hongkong,Hong Kong,HK,22.27832,114.17469,https://sws.geonames.org/1819729/,267,0,
-1893-07-30,2,295,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n294/mode/1up,In See nach Nagasaki,at_sea,,,,,,,271,0,
-1893-08-01,2,296,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n295/mode/1up,In See nach Nagasaki,at_sea,,,,,,,30,0,
-1893-08-02,2,296,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n295/mode/1up,Nagasaki,stay,Nagasaki,Nagasaki,JP,32.75,129.88333,https://sws.geonames.org/1856177/,701,0,
-1893-08-03,2,298,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n297/mode/1up,Nagasaki,stay,Nagasaki,Nagasaki,JP,32.75,129.88333,https://sws.geonames.org/1856177/,3804,0,
-1893-08-04,2,308,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n307/mode/1up,Nagasaki -- Kumamoto,transfer,Kumamoto,Kumamoto,JP,32.80589,130.69181,https://sws.geonames.org/1858421/,4020,0,
-1893-08-05,2,320,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n319/mode/1up,Kumamoto,stay,Kumamoto,Kumamoto,JP,32.80589,130.69181,https://sws.geonames.org/1858421/,7422,0,
-1893-08-08,2,345,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n344/mode/1up,Kiötö,stay,Kiötö,Kyoto,JP,35.02107,135.75385,https://sws.geonames.org/1857910/,10362,0,
-1893-08-12,2,374,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n373/mode/1up,Kioto,stay,Kioto,Kyoto,JP,35.02107,135.75385,https://sws.geonames.org/1857910/,1537,0,
-1893-08-14,2,378,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n377/mode/1up,Kioto,stay,Kioto,Kyoto,JP,35.02107,135.75385,https://sws.geonames.org/1857910/,4621,0,
-1893-08-16,2,395,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n394/mode/1up,Mijanoschita,stay,Mijanoschita,,,,,,3685,0,
-1893-08-19,2,406,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n405/mode/1up,Tukio,stay,Tukio,Tokyo,JP,35.6895,139.69171,https://sws.geonames.org/1850147/,1134,0,
-1893-08-20,2,409,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n408/mode/1up,T 6 k i o — N i k k 6,transfer,N i k k 6,,,,,,1221,0,
-1893-08-21,2,413,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n412/mode/1up,Nikko,stay,Nikko,Nikkō,JP,36.75,139.61667,https://sws.geonames.org/1855395/,3379,0,
-1893-08-22,2,422,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n421/mode/1up,,unknown,,,,,,,887,0,
-1893-08-23,2,425,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n424/mode/1up,Tokio,stay,Tokio,Tokyo,JP,35.6895,139.69171,https://sws.geonames.org/1850147/,1396,0,
-1893-08-25,2,432,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n431/mode/1up,In See nach Vancouver,at_sea,,,,,,,1218,0,
-1893-08-26,2,435,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n434/mode/1up,In See nach Vancouver,at_sea,,,,,,,1157,0,
-1893-09-03,2,439,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n438/mode/1up,Vancouver,stay,Vancouver,Vancouver,CA,49.24966,-123.11934,https://sws.geonames.org/6173331/,1073,0,
-1893-09-06,2,442,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n441/mode/1up,Vancouver,stay,Vancouver,Vancouver,CA,49.24966,-123.11934,https://sws.geonames.org/6173331/,1118,0,
-1893-09-07,2,445,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n444/mode/1up,Vancouver,stay,Vancouver,Vancouver,CA,49.24966,-123.11934,https://sws.geonames.org/6173331/,589,1,
-1893-09-08,2,447,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n446/mode/1up,Vancouver — Banff,transfer,Banff,,,,,,1516,0,
-1893-09-09,2,451,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n450/mode/1up,Banff,stay,Banff,,,,,,864,0,
-1893-09-10,2,456,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n455/mode/1up,Banff — Penticton,transfer,Penticton,Penticton,CA,49.48062,-119.58584,https://sws.geonames.org/6101141/,275,0,
-1893-09-11,2,456,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n455/mode/1up,Penticton,stay,Penticton,Penticton,CA,49.48062,-119.58584,https://sws.geonames.org/6101141/,1864,0,
-1893-09-13,2,462,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n461/mode/1up,,unknown,,,,,,,1892,4,
-1893-09-14,2,467,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n466/mode/1up,Shingle Creek,stay,Shingle Creek,,,,,,512,1,
-1893-09-15,2,468,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n467/mode/1up,Shingle Creek — Penticton,transfer,Penticton,Penticton,CA,49.48062,-119.58584,https://sws.geonames.org/6101141/,3179,0,
-1893-09-20,2,480,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n479/mode/1up,Spokane— Livingston,stay,Livingston,,,,,,1605,0,
-1893-09-22,2,485,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n484/mode/1up,Fountain Geyser Hotel,stay,Fountain Geyser Hotel,,,,,,2154,1,
-1893-09-23,2,492,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n491/mode/1up,Fountain Geyser HoteL,stay,Fountain Geyser HoteL,,,,,,1178,0,
-1893-09-24,2,495,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n494/mode/1up,Yellowstone Lake Hotel,stay,Yellowstone Lake Hotel,,,,,,2846,0,
-1893-09-26,2,503,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n502/mode/1up,Mammoth Hot Springs Hotel,stay,Mammoth Hot Springs Hotel,,,,,,648,0,
-1893-09-27,2,505,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n504/mode/1up,Mammoth Hot Springs Hotel — Livingston,transfer,Livingston,,,,,,1237,0,
-1893-09-29,2,513,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n512/mode/1up,Salt Lake City — Colorado Springs,transfer,Colorado Springs,Colorado Springs,US,38.83388,-104.82136,https://sws.geonames.org/5417598/,1290,0,
-1893-09-30,2,517,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n516/mode/1up,Colorado Springs,stay,Colorado Springs,Colorado Springs,US,38.83388,-104.82136,https://sws.geonames.org/5417598/,728,0,
-1893-10-01,2,519,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n518/mode/1up,Manitou,stay,Manitou,,,,,,851,0,
-1893-10-02,2,521,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n520/mode/1up,Manitou — Chicago,transfer,Chicago,Chicago,US,41.85003,-87.65005,https://sws.geonames.org/4887398/,642,0,
-1893-10-03,2,523,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n522/mode/1up,Chicago,stay,Chicago,Chicago,US,41.85003,-87.65005,https://sws.geonames.org/4887398/,4186,1,
-1893-10-04,2,535,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n534/mode/1up,Niagara Falls,stay,Niagara Falls,Niagara Falls,CA,43.10012,-79.06627,https://sws.geonames.org/6087892/,1418,0,
-1893-10-06,2,539,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n538/mode/1up,New York,stay,New York,New York City,US,40.71427,-74.00597,https://sws.geonames.org/5128581/,1444,0,
-1893-10-07,2,543,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n542/mode/1up,New York,stay,New York,New York City,US,40.71427,-74.00597,https://sws.geonames.org/5128581/,3087,0,
-1893-10-15,2,555,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n554/mode/1up,Havre — Paris,transfer,Paris,Paris,FR,48.85341,2.3488,https://sws.geonames.org/2988507/,236,0,
-1893-10-16,2,556,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n555/mode/1up,Paris,stay,Paris,Paris,FR,48.85341,2.3488,https://sws.geonames.org/2988507/,129,0,
-1893-10-17,2,556,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n555/mode/1up,Stuttgart Wien,stay,Stuttgart Wien,,,,,,3208,0,
+date,band,scan,page_url,heading,kind,place_as_printed,place_source,place,country,lat,lon,geonames,place_site,ocr_entry,entry_date,method,words,kill_sentences,animals_in_kill_sentences
+1892-12-14,,,,,transfer,Trieste,site,,,,,,departure by train from Vienna to Trieste,False,,no_entry,0,0,
+1892-12-15,1,15,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n14/mode/1up,In See nach Port Said,at_sea,,,,,,,,Trieste,True,1892-12-15,heading,638,0,
+1892-12-16,1,17,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n16/mode/1up,In See nach Port Said,at_sea,,,,,,,,at sea near Lissa,True,1892-12-16,heading,167,0,
+1892-12-17,1,18,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n17/mode/1up,In See nach Port Said,at_sea,,,,,,,,at sea near Zakynthos,True,1892-12-17,heading,96,0,
+1892-12-18,1,19,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n18/mode/1up,In See nach Port Said,at_sea,,,,,,,,29th birthday of Franz Ferdinand; at sea near Gavdos,True,1892-12-18,heading,584,0,
+1892-12-19,1,21,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n20/mode/1up,In See nach Port SaUi,at_sea,,,,,,,,at sea between Crete and Egypt,True,1892-12-19,heading,86,0,
+1892-12-20,1,21,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n20/mode/1up,Port Said,stay,Port Said,heading,Port Said,EG,31.26531,32.3019,https://sws.geonames.org/358619/,"Port Said, Egypt",True,1892-12-20,aligned,994,2,Wildvogel
+1892-12-21,1,24,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n23/mode/1up,,stay,Ismaïlia,site,,,,,,"Ismaïlia, Egypt",False,1892-12-20,aligned,632,0,
+1892-12-22,1,26,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n25/mode/1up,In See nach Steamer Point,at_sea,,,,,,,,Gulf of Suez,True,1892-12-22,heading,226,0,
+1892-12-23,1,27,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n26/mode/1up,In See nach Steamer Point,at_sea,,,,,,,,"Daedalus Reef, Red Sea",True,1892-12-23,heading,646,0,
+1892-12-24,1,29,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n28/mode/1up,In See nach Stcamer Point,at_sea,,,,,,,,Christmas Day; Red Sea,True,1892-12-24,heading,486,0,
+1892-12-25,1,31,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n30/mode/1up,In See nach Steamer Point,at_sea,,,,,,,,"Jebel Teir, Red Sea",True,1892-12-25,heading,115,0,
+1892-12-26,1,31,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n30/mode/1up,Steamer Point,stay,Steamer Point,heading,Aden,YE,12.77957,45.03852,https://sws.geonames.org/415189/,Steamer Point and Aden,True,1892-12-26,heading,398,0,
+1892-12-27,1,33,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n32/mode/1up,Aden,stay,Aden,heading,Aden,YE,12.77957,45.03852,https://sws.geonames.org/415189/,Aden,True,1892-12-27,heading,1271,0,
+1892-12-28,1,41,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n40/mode/1up,In See nach Coloinbo,at_sea,,,,,,,,"Arabian Sea, at sea to Colombo",True,1892-12-28,heading,157,0,
+1892-12-29,1,42,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n41/mode/1up,In See nach Colombo,at_sea,,,,,,,,"Arabian Sea, at sea to Colombo",True,1892-12-29,heading,245,0,
+1892-12-30,1,43,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n42/mode/1up,In See nach Colombo,at_sea,,,,,,,,"near Socotra, Arabian Sea, at sea to Colombo",True,1892-12-30,heading,148,0,
+1892-12-31,1,43,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n42/mode/1up,In See nach Colombo,at_sea,,,,,,,,"Arabian Sea, at sea to Colombo",True,1892-12-31,heading,209,0,
+1893-01-01,1,44,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n43/mode/1up,In See nach Colombo,at_sea,,,,,,,,"Arabian Sea, at sea to Colombo",True,1893-01-01,aligned,21,0,
+1893-01-02,1,44,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n43/mode/1up,,at_sea,,,,,,,,"Arabian Sea, at sea to Colombo",False,1893-01-01,aligned,428,0,
+1893-01-03,1,46,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n45/mode/1up,,unknown,,,,,,,,"near Minicoy, Indian Ocean",True,1893-01-03,heading,48,0,
+1893-01-04,1,46,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n45/mode/1up,In See nach Colombo,at_sea,,,,,,,,"near India, Indian Ocean",True,1893-01-04,aligned,101,1,
+1893-01-05,1,47,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n46/mode/1up,,stay,Colombo,site,,,,,,"Colombo, Ceylon",False,1893-01-04,aligned,1939,0,
+1893-01-06,1,55,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n54/mode/1up,,stay,Kandy,site,,,,,,"Kandy, Ceylon",False,1893-01-04,aligned,1093,0,
+1893-01-07,1,63,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n62/mode/1up,,transfer,Kalawewa,site,,,,,,"Kandy to Kalawewa, Ceylon",False,1893-01-04,aligned,1415,0,
+1893-01-08,1,68,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n67/mode/1up,Kalawewa,stay,Kalawewa,heading,,,,,,"Kalawewa, Ceylon",True,1893-01-08,heading,1072,1,Fisch/Hai; Wildvogel
+1893-01-09,1,71,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n70/mode/1up,Kalawewa,stay,Kalawewa,heading,,,,,,"Kalawewa, Ceylon",True,1893-01-09,heading,340,2,
+1893-01-10,1,73,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n72/mode/1up,Kalawewa,stay,Kalawewa,heading,,,,,,"Kalawewa, Ceylon",True,1893-01-10,heading,1037,0,
+1893-01-11,1,75,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n74/mode/1up,,unknown,,,,,,,,"Kalawewa, Ceylon",True,1893-01-11,heading,2010,10,Affe; Elefant; Wildvogel
+1893-01-12,1,81,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n80/mode/1up,Kandy,stay,Kandy,heading,Kandy,LK,7.2906,80.6336,https://sws.geonames.org/1241622/,"Kalawewa to Kandy, Ceylon",True,1893-01-12,heading,1060,0,
+1893-01-13,1,84,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n83/mode/1up,Kandy — Colombo,transfer,Colombo,heading,Colombo,LK,6.93548,79.84868,https://sws.geonames.org/1248991/,"Kandy, Ceylon",True,1893-01-13,heading,491,0,
+1893-01-14,1,89,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n88/mode/1up,,unknown,,,,,,,,"near Cape Comorin, India",True,1893-01-14,aligned,196,0,
+1893-01-15,1,90,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n89/mode/1up,,stay,near the Indian coastline,site,,,,,,near the Indian coastline,False,1893-01-14,aligned,239,0,
+1893-01-16,1,,,,stay,near Goa,site,,,,,,"near Goa, India",False,1893-01-14,aligned,0,0,
+1893-01-17,1,91,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n90/mode/1up,,stay,Bombay,site,,,,,,"Bombay, India",False,1893-01-14,aligned,2502,0,
+1893-01-18,1,99,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n98/mode/1up,Bombay,stay,Bombay,heading,Mumbai,IN,19.07283,72.88261,https://sws.geonames.org/1275339/,"Bombay, India",True,1893-01-18,heading,3075,1,
+1893-01-19,1,107,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n106/mode/1up,Bombay,stay,Bombay,heading,Mumbai,IN,19.07283,72.88261,https://sws.geonames.org/1275339/,"Bombay, India",True,1893-01-19,heading,1469,0,
+1893-01-20,1,112,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n111/mode/1up,Tandur,stay,Tandur,heading,Tandur,IN,17.24849,77.57698,https://sws.geonames.org/1255004/,"Poona, India",True,1893-01-20,heading,215,0,
+1893-01-21,1,116,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n115/mode/1up,TaiuUir,stay,TaiuUir,heading,Tandur,IN,17.24849,77.57698,https://sws.geonames.org/1255004/,"Tandur, India",True,1893-01-21,aligned,1084,0,
+1893-01-22,1,119,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n118/mode/1up,,stay,Tandur,site,,,,,,"Tandur, India",False,1893-01-21,aligned,494,2,Schakal/Hyäne
+1893-01-23,1,121,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n120/mode/1up,Tandur,stay,Tandur,heading,Tandur,IN,17.24849,77.57698,https://sws.geonames.org/1255004/,"Tandur, India",True,1893-01-23,aligned,1574,2,Tiger
+1893-01-24,1,129,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n128/mode/1up,,stay,Hyderabad,site,,,,,,"Hyderabad, India",False,1893-01-23,aligned,2668,0,
+1893-01-25,1,137,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n136/mode/1up,Haidarabad,stay,Haidarabad,heading,Hyderabad,IN,17.38405,78.45636,https://sws.geonames.org/1269843/,"Hyderabad, India",True,1893-01-25,heading,2394,2,
+1893-01-26,1,145,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n144/mode/1up,,unknown,,,,,,,,"Hyderabad, India",True,1893-01-26,aligned,2351,8,Tiger
+1893-01-27,1,155,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n154/mode/1up,,stay,Sikanderaba,site,,,,,,"Sikanderaba, India",False,1893-01-26,aligned,303,0,
+1893-01-28,,,,,stay,Jhansi,site,,,,,,"Jhansi, India (joint entry with 27 January)",False,,no_entry,0,0,
+1893-01-29,1,157,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n156/mode/1up,,stay,Gwalior,site,,,,,,"Gwalior, India",False,1893-01-26,aligned,3032,0,
+1893-01-30,1,165,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n164/mode/1up,,stay,Gwalior,site,,,,,,"Gwalior, India",False,1893-01-26,aligned,1355,4,Wildvogel
+1893-01-31,1,172,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n171/mode/1up,Gwalior — Calciitta,transfer,Calciitta,heading,Kolkata,IN,22.56263,88.36304,https://sws.geonames.org/1275004/,"Patna, India",True,1893-01-31,heading,699,0,
+1893-02-01,1,174,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n173/mode/1up,Calcutta,stay,Calcutta,heading,Kolkata,IN,22.56263,88.36304,https://sws.geonames.org/1275004/,"Calcutta, India",True,1893-02-01,heading,1282,0,
+1893-02-02,1,178,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n177/mode/1up,Calcutta,stay,Calcutta,heading,Kolkata,IN,22.56263,88.36304,https://sws.geonames.org/1275004/,"Calcutta, India",True,1893-02-02,heading,1016,0,
+1893-02-03,1,181,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n180/mode/1up,Calcutta,stay,Calcutta,heading,Kolkata,IN,22.56263,88.36304,https://sws.geonames.org/1275004/,"Calcutta, India",True,1893-02-03,heading,2314,1,
+1893-02-04,1,187,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n186/mode/1up,Calcutta,stay,Calcutta,heading,Kolkata,IN,22.56263,88.36304,https://sws.geonames.org/1275004/,"Calcutta, India",True,1893-02-04,aligned,1622,0,
+1893-02-05,1,192,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n191/mode/1up,,stay,Calcutta,site,,,,,,"Calcutta, India",False,1893-02-04,aligned,1041,0,
+1893-02-06,1,199,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n198/mode/1up,Dardschiling,stay,Dardschiling,heading,Dārjiling,IN,27.03333,88.26667,https://sws.geonames.org/1273467/,"Darjeeling, India",True,1893-02-06,heading,1828,0,
+1893-02-07,1,205,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n204/mode/1up,DarJschiling,stay,DarJschiling,heading,Dārjiling,IN,27.03333,88.26667,https://sws.geonames.org/1273467/,"Darjeeling, India",True,1893-02-07,aligned,514,0,
+1893-02-08,1,206,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n205/mode/1up,,stay,Darjeeling,site,,,,,,"Darjeeling, India",False,1893-02-07,aligned,610,0,
+1893-02-09,1,214,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n213/mode/1up,,transfer,Benares,site,,,,,,"Darjeeling to Benares, India",False,1893-02-07,aligned,185,0,
+1893-02-10,1,216,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n215/mode/1up,,stay,Benares,site,,,,,,"Benares, India",False,1893-02-07,aligned,2087,0,
+1893-02-11,1,222,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n221/mode/1up,,stay,Benares,site,,,,,,"Benares, India",False,1893-02-07,aligned,418,1,Tiger
+1893-02-12,1,225,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n224/mode/1up,Agra,stay,Agra,heading,Agra,IN,27.18333,78.01667,https://sws.geonames.org/1279259/,"Agra, India (Taj Mahal)",True,1893-02-12,heading,4466,1,
+1893-02-13,1,239,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n238/mode/1up,Agra,stay,Agra,heading,Agra,IN,27.18333,78.01667,https://sws.geonames.org/1279259/,"Agra, India (Fatehpur Sikri)",True,1893-02-13,aligned,1555,5,Wildvogel
+1893-02-14,1,244,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n243/mode/1up,,stay,Agra,site,,,,,,"Agra, India",False,1893-02-13,aligned,1865,8,Antilope/Gazelle; Wildvogel
+1893-02-15,1,249,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n248/mode/1up,Agra — Bhartpur,transfer,Bhartpur,heading,,,,,,"Agra, India",True,1893-02-15,heading,1310,7,Antilope/Gazelle; Fisch/Hai; Schakal/Hyäne; Wildvogel
+1893-02-16,1,257,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n256/mode/1up,Dehii,stay,Dehii,heading,Delhi,IN,28.65195,77.23149,https://sws.geonames.org/1273294/,"Delhi, India",True,1893-02-16,aligned,1539,0,
+1893-02-17,1,261,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n260/mode/1up,,stay,Delhi,site,,,,,,"Delhi, India",False,1893-02-16,aligned,763,1,
+1893-02-18,1,264,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n263/mode/1up,Dehli,stay,Dehli,heading,Delhi,IN,28.65195,77.23149,https://sws.geonames.org/1273294/,"Delhi, India",True,1893-02-18,heading,859,0,
+1893-02-19,1,266,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n265/mode/1up,Alwar,stay,Alwar,heading,Alwar,IN,27.56246,76.625,https://sws.geonames.org/1278946/,"Alwar, India",True,1893-02-19,heading,2124,0,
+1893-02-20,1,275,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n274/mode/1up,Siriska,stay,Siriska,heading,,,,,,"Sariska, India",True,1893-02-20,aligned,1065,0,
+1893-02-21,1,278,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n277/mode/1up,,stay,Sariska,site,,,,,,"Sariska, India",False,1893-02-20,aligned,686,0,
+1893-02-22,1,281,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n280/mode/1up,,stay,Sariska,site,,,,,,"Sariska, India",False,1893-02-20,aligned,865,4,Antilope/Gazelle; Hirsch
+1893-02-23,1,283,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n282/mode/1up,Siriska,stay,Siriska,heading,,,,,,"Sariska, India",True,1893-02-23,heading,625,1,Antilope/Gazelle
+1893-02-24,1,285,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n284/mode/1up,Siriska,stay,Siriska,heading,,,,,,"Sariska, India",True,1893-02-24,aligned,1683,3,Tiger
+1893-02-25,1,289,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n288/mode/1up,,stay,Sariska,site,,,,,,"Sariska, India",False,1893-02-24,aligned,601,2,Antilope/Gazelle; Schakal/Hyäne
+1893-02-26,1,291,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n290/mode/1up,,stay,Sariska,site,,,,,,"Sariska, India",False,1893-02-24,aligned,477,0,
+1893-02-27,1,293,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n292/mode/1up,Sirtska — Alwar,transfer,Alwar,heading,Alwar,IN,27.56246,76.625,https://sws.geonames.org/1278946/,"Sariska to Alwar, India",True,1893-02-27,heading,796,2,Antilope/Gazelle
+1893-02-28,1,300,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n299/mode/1up,H Dschodpur,stay,H Dschodpur,heading,Jodhpur,IN,26.26841,73.00594,https://sws.geonames.org/1268865/,"Jodhpur, India",True,1893-02-28,aligned,4902,0,
+1893-03-01,1,314,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n313/mode/1up,,stay,Jodhpur,site,,,,,,"Jodhpur, India",False,1893-02-28,aligned,952,4,Antilope/Gazelle; Wildvogel
+1893-03-02,1,317,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n316/mode/1up,Dscbodpur,stay,Dscbodpur,heading,Jodhpur,IN,26.26841,73.00594,https://sws.geonames.org/1268865/,"Jodhpur, India",True,1893-03-02,heading,2367,2,Wildschwein
+1893-03-03,1,328,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n327/mode/1up,Dschaipur,stay,Dschaipur,heading,Jaipur,IN,26.91962,75.78781,https://sws.geonames.org/1269515/,"Jaipur, India",True,1893-03-03,heading,2534,1,Hirsch
+1893-03-04,1,336,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n335/mode/1up,Dschaipur,stay,Dschaipur,heading,Jaipur,IN,26.91962,75.78781,https://sws.geonames.org/1269515/,"Jaipur, India",True,1893-03-04,heading,870,2,Antilope/Gazelle; Wildvogel
+1893-03-05,1,339,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n338/mode/1up,Dschaipur,stay,Dschaipur,heading,Jaipur,IN,26.91962,75.78781,https://sws.geonames.org/1269515/,"Jaipur, India",True,1893-03-05,heading,1052,0,
+1893-03-06,1,342,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n341/mode/1up,Dschaipur,stay,Dschaipur,heading,Jaipur,IN,26.91962,75.78781,https://sws.geonames.org/1269515/,"Jaipur, India",True,1893-03-06,heading,1011,0,
+1893-03-07,1,346,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n345/mode/1up,Dschaipur — Agra,transfer,Agra,heading,Agra,IN,27.18333,78.01667,https://sws.geonames.org/1279259/,"Jaipur to Agra, India",True,1893-03-07,aligned,486,3,Antilope/Gazelle; Wildvogel
+1893-03-08,1,349,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n348/mode/1up,,stay,Dakna Bagh,site,,,,,,"Dakna Bagh, Nepal",False,1893-03-07,aligned,2010,1,
+1893-03-09,1,356,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n355/mode/1up,,stay,Dakna Bagh,site,,,,,,"Dakna Bagh, Nepal",False,1893-03-07,aligned,1824,6,Affe; Hirsch; Tiger; Wildvogel
+1893-03-10,1,362,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n361/mode/1up,Dakna Bägh,stay,Dakna Bägh,heading,,,,,,"Dakna Bagh, Nepal",True,1893-03-10,aligned,535,3,Elefant; Krokodil/Alligator; Wildschwein
+1893-03-11,1,364,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n363/mode/1up,,stay,Dakna Bagh,site,,,,,,"Dakna Bagh, Nepal",False,1893-03-10,aligned,1266,6,Panther/Leopard; Tiger
+1893-03-12,1,367,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n366/mode/1up,,stay,Dakna Bagh,site,,,,,,"Dakna Bagh, Nepal",False,1893-03-10,aligned,945,5,Elefant; Panther/Leopard; Wildschwein; Wildvogel
+1893-03-13,1,373,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n372/mode/1up,Barbatta Tai,stay,Barbatta Tai,heading,,,,,,"Barbatta Valley, Nepal",True,1893-03-13,heading,605,1,Elefant; Tiger
+1893-03-14,1,375,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n374/mode/1up,Dechta Bnli,stay,Dechta Bnli,heading,,,,,,"Dechta Boli, Nepal",True,1893-03-14,heading,371,1,Hirsch; Wildvogel
+1893-03-15,1,376,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n375/mode/1up,Dechta Boli,stay,Dechta Boli,heading,,,,,,"Dechta Boli, Nepal",True,1893-03-15,heading,298,0,
+1893-03-16,1,377,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n376/mode/1up,Dcchta Boli,stay,Dcchta Boli,heading,,,,,,"Dechta Boli, Nepal",True,1893-03-16,aligned,430,3,Elefant; Hirsch; Tiger; Wildschwein; Wildvogel
+1893-03-17,1,378,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n377/mode/1up,,stay,Guleria,site,,,,,,"Guleria, Nepal",False,1893-03-16,aligned,78,0,
+1893-03-18,1,379,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n378/mode/1up,Beli,stay,Beli,heading,,,,,,"Beli, Nepal",True,1893-03-18,aligned,402,2,Elefant; Hirsch; Wildvogel
+1893-03-19,1,380,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n379/mode/1up,,stay,Beli,site,,,,,,"Beli, Nepal",False,1893-03-18,aligned,424,1,Tiger
+1893-03-20,1,381,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n380/mode/1up,,stay,Katni,site,,,,,,"Katni, Nepal",False,1893-03-18,aligned,881,0,
+1893-03-21,1,383,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n382/mode/1up,,stay,Katni,site,,,,,,"Katni, Nepal",False,1893-03-18,aligned,681,3,Nashorn; Tiger
+1893-03-22,1,385,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n384/mode/1up,Katni,stay,Katni,heading,Murwāra,IN,23.83776,80.39405,https://sws.geonames.org/1262395/,"Katni, Nepal",True,1893-03-22,aligned,143,0,
+1893-03-23,1,386,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n385/mode/1up,,stay,Katni,site,,,,,,"Katni, Nepal",False,1893-03-22,aligned,320,2,Hirsch; Panther/Leopard; Tiger
+1893-03-24,1,386,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n385/mode/1up,,stay,Katni,site,,,,,,"Katni, Nepal",False,1893-03-22,aligned,215,0,
+1893-03-25,1,387,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n386/mode/1up,,stay,Bhanderia,site,,,,,,"Bhanderia, Nepal",False,1893-03-22,aligned,259,0,
+1893-03-26,1,388,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n387/mode/1up,Sohela,stay,Sohela,heading,,,,,,"Bhanderia to Sohela, India",True,1893-03-26,aligned,952,1,Elefant; Panther/Leopard
+1893-03-27,1,391,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n390/mode/1up,,transfer,Lucknow,site,,,,,,"Sohela to Lucknow, India",False,1893-03-26,aligned,401,0,
+1893-03-28,1,,,,transfer,Calcutta,site,,,,,,"Lucknow to Calcutta, India",False,1893-03-26,aligned,0,0,
+1893-03-29,1,395,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n394/mode/1up,,stay,Calcutta,site,,,,,,"Calcutta, India",False,1893-03-26,aligned,574,0,
+1893-03-30,1,397,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n396/mode/1up,,at_sea,,,,,,,,At Sea to Singapore,False,1893-03-26,aligned,1718,0,
+1893-03-31,1,402,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n401/mode/1up,In See nach Singapur,at_sea,,,,,,,,At Sea to Singapore,True,1893-03-31,aligned,115,0,
+1893-04-01,1,403,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n402/mode/1up,,at_sea,,,,,,,,"Andaman Islands, at Sea to Singapore",False,1893-03-31,aligned,78,0,
+1893-04-02,1,,,,at_sea,,,,,,,,At Sea to Singapore,False,1893-03-31,aligned,0,0,
+1893-04-03,1,403,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n402/mode/1up,,at_sea,,,,,,,,At Sea to Singapore,False,1893-03-31,aligned,185,0,
+1893-04-04,1,404,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n403/mode/1up,In See nach Singapur,at_sea,,,,,,,,At Sea to Singapore,True,1893-04-04,heading,284,0,
+1893-04-05,1,405,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n404/mode/1up,In See nach SingapurPulu Besar,at_sea,,,,,,,,At Sea to Singapore,True,1893-04-05,aligned,1582,1,Wildvogel
+1893-04-06,1,412,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n411/mode/1up,,stay,Singapore,site,,,,,,Singapore,False,1893-04-05,aligned,2655,1,Krokodil/Alligator
+1893-04-07,1,420,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n419/mode/1up,,transfer,Singapore,site,,,,,,Johor to Singapore,False,1893-04-05,aligned,1748,0,
+1893-04-08,1,427,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n426/mode/1up,,stay,Singapore,site,,,,,,Singapore,False,1893-04-05,aligned,262,0,
+1893-04-09,1,432,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n431/mode/1up,In See nach Java,at_sea,,,,,,,,"At Sea to Java, crossing the equator",True,1893-04-09,aligned,901,0,
+1893-04-10,1,434,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n433/mode/1up,,at_sea,,,,,,,,At Sea to Java,False,1893-04-09,aligned,218,0,
+1893-04-11,1,436,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n435/mode/1up,Baiavia,stay,Baiavia,heading,Jakarta,ID,-6.21462,106.84513,https://sws.geonames.org/1642911/,"Batavia, Java",True,1893-04-11,heading,1862,5,Krokodil/Alligator
+1893-04-12,1,442,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n441/mode/1up,,unknown,,,,,,,,"Batavia to Buitenzorg, Java",True,1893-04-12,heading,2749,0,
+1893-04-13,1,451,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n450/mode/1up,Buitcnzorg — Garut,transfer,Garut,heading,Garut,ID,-7.245,107.921,https://sws.geonames.org/1644409/,"Buitenzorg to Garut, Java",True,1893-04-13,heading,1734,0,
+1893-04-14,1,457,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n456/mode/1up,Garut,stay,Garut,heading,Garut,ID,-7.245,107.921,https://sws.geonames.org/1644409/,"Garut, Java",True,1893-04-14,aligned,1678,0,
+1893-04-15,1,463,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n462/mode/1up,,transfer,Tjandjur,site,,,,,,"Garut to Tjandjur, Java",False,1893-04-14,aligned,1147,2,Hirsch; Nashorn; Wildschwein
+1893-04-16,1,466,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n465/mode/1up,Tjiandjur,stay,Tjiandjur,heading,Cianjur,ID,-6.82222,107.13944,https://sws.geonames.org/1647142/,"Tjandjur, Java",True,1893-04-16,aligned,922,2,Hirsch
+1893-04-17,1,469,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n468/mode/1up,,transfer,Tanggeng,site,,,,,,"Tjandjur to Tanggeng, Java",False,1893-04-16,aligned,1173,0,
+1893-04-18,1,477,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n476/mode/1up,Tanggeng---Sindangbarang,transfer,Sindangbarang,heading,,,,,,"Tanggeng to Sindangbarang, Java",True,1893-04-18,heading,472,0,
+1893-04-19,1,478,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n477/mode/1up,Tjipandak,stay,Tjipandak,heading,,,,,,"Sindangbarang to Tjipandak, Java",True,1893-04-19,aligned,1686,1,
+1893-04-20,1,483,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n482/mode/1up,,stay,Tjipandak,site,,,,,,"Tjipandak, Java",False,1893-04-19,aligned,700,1,
+1893-04-21,1,485,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n484/mode/1up,Tjipandak,stay,Tjipandak,heading,,,,,,"Tjipandak, Java",True,1893-04-21,aligned,425,1,Wildvogel
+1893-04-22,1,486,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n485/mode/1up,,stay,Tjipandak,site,,,,,,"Tjipandak, Java",False,1893-04-21,aligned,207,0,
+1893-04-23,1,487,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n486/mode/1up,Tjipandak,stay,Tjipandak,heading,,,,,,"Tjipandak, Java",True,1893-04-23,aligned,446,2,Wildvogel
+1893-04-24,1,488,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n487/mode/1up,,transfer,Sindangbarang,site,,,,,,"Tjipandak to Sindangbarang, Java",False,1893-04-23,aligned,230,0,
+1893-04-25,1,489,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n488/mode/1up,,transfer,Tanggeng,site,,,,,,"Sindangbarang to Tanggeng, Java",False,1893-04-23,aligned,409,0,
+1893-04-26,1,491,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n490/mode/1up,Buitenzorg,stay,Buitenzorg,heading,Bogor,ID,-6.59444,106.78917,https://sws.geonames.org/1648473/,"Tanggeng to Buitenzorg, Java",True,1893-04-26,heading,396,0,
+1893-04-27,1,492,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n491/mode/1up,Buitenzorg — Batavia — Tandjong Priok,transfer,Tandjong Priok,heading,Jakarta,ID,-6.21462,106.84513,https://sws.geonames.org/1642911/,"Buitenzorg to Tandjong Priok, Java",True,1893-04-27,heading,1842,0,
+1893-04-28,1,501,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n500/mode/1up,,unknown,,,,,,,,At Sea to Port Kennedy,True,1893-04-28,aligned,323,0,
+1893-04-29,1,502,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n501/mode/1up,,at_sea,,,,,,,,At Sea to Port Kennedy (near Lombok),False,1893-04-28,aligned,390,0,
+1893-04-30,1,503,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n502/mode/1up,In .See nach Port Kennedy,at_sea,,,,,,,,At Sea to Port Kennedy (near Flores),True,1893-04-30,aligned,242,1,
+1893-05-01,1,505,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n504/mode/1up,,at_sea,,,,,,,,At Sea to Port Kennedy,False,1893-04-30,aligned,371,0,
+1893-05-02,1,506,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n505/mode/1up,In See nach Port Kennedy,at_sea,,,,,,,,At Sea to Port Kennedy,True,1893-05-02,aligned,205,1,Fisch/Hai
+1893-05-03,1,506,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n505/mode/1up,,at_sea,,,,,,,,At Sea to Port Kennedy,False,1893-05-02,aligned,4,0,
+1893-05-04,1,507,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n506/mode/1up,In See nach Port Kennedv,at_sea,,,,,,,,At Sea to Port Kennedy (north of Australia),True,1893-05-04,heading,187,0,
+1893-05-05,1,507,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n506/mode/1up,Port Kennedy,stay,Port Kennedy,heading,,,,,,"Port Kennedy, Thursday Island",True,1893-05-05,aligned,1209,0,
+1893-05-06,1,512,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n511/mode/1up,,stay,Port Kennedy and Somerset Bay,site,,,,,,Port Kennedy and Somerset Bay,False,1893-05-05,aligned,1321,2,Känguru; Wildvogel
+1893-05-07,1,516,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n515/mode/1up,Port Kennedv,stay,Port Kennedv,heading,,,,,,"Port Kennedy, Thursday Island (Prince of Wales Island)",True,1893-05-07,heading,1178,1,Wildvogel
+1893-05-08,1,520,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n519/mode/1up,Port Kennedy,stay,Port Kennedy,heading,,,,,,"Port Kennedy, Thursday Island",True,1893-05-08,aligned,483,1,Wildvogel
+1893-05-09,1,521,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n520/mode/1up,,at_sea,,,,,,,,"At Sea to Sydney, Australia",False,1893-05-08,aligned,543,0,
+1893-05-10,1,524,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n523/mode/1up,In See nach Sydney,at_sea,,,,,,,,"At Sea to Sydney, Australia",True,1893-05-10,heading,584,0,
+1893-05-11,1,526,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n525/mode/1up,In See nach Svdnev%,at_sea,,,,,,,,"At Sea to Sydney, Australia",True,1893-05-11,heading,147,0,
+1893-05-12,1,528,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n527/mode/1up,In See nach Sydney,at_sea,,,,,,,,"At Sea to Sydney, Australia",True,1893-05-12,heading,181,0,
+1893-05-13,1,528,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n527/mode/1up,In See nach Sydney,at_sea,,,,,,,,"At Sea to Sydney, Australia",True,1893-05-13,aligned,185,0,
+1893-05-14,1,532,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n531/mode/1up,,at_sea,,,,,,,,"At Sea to Sydney, Australia",False,1893-05-13,aligned,158,0,
+1893-05-15,1,533,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n532/mode/1up,,at_sea,,,,,,,,"At Sea to Sydney, Australia (End of Volume I)",False,1893-05-13,aligned,388,0,
+1893-05-16,1,536,https://archive.org/details/tagebuchmeinerr01ferdgoog/page/n535/mode/1up,,stay,Sydney,site,,,,,,"Sydney, Australia",False,1893-05-13,aligned,2116,1,Büffel; Elefant; Tiger
+1893-05-17,2,23,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n22/mode/1up,Sydney,stay,Sydney,heading,Sydney,AU,-33.86785,151.20732,https://sws.geonames.org/2147714/,"Sydney, Australia",True,1893-05-17,heading,1530,0,
+1893-05-18,2,27,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n26/mode/1up,Narromine,stay,Narromine,heading,,,,,,"Narromine, Australia",True,1893-05-18,heading,2267,10,Känguru; Wildvogel
+1893-05-19,2,33,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n32/mode/1up,Narromine,stay,Narromine,heading,,,,,,"Narromine, Australia",True,1893-05-19,heading,1478,5,Känguru
+1893-05-20,2,37,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n36/mode/1up,MuUengudgery,stay,MuUengudgery,heading,,,,,,"Mullengudgery, Australia",True,1893-05-20,heading,2141,10,Wildvogel
+1893-05-21,2,43,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n42/mode/1up,Sydney,stay,Sydney,heading,Sydney,AU,-33.86785,151.20732,https://sws.geonames.org/2147714/,"Sydney, Australia",True,1893-05-21,aligned,838,0,
+1893-05-22,2,49,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n48/mode/1up,,transfer,Moss Valley,site,,,,,,"Sydney – Auburn – Moss Valley, Australia",False,1893-05-21,aligned,855,0,
+1893-05-23,2,52,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n51/mode/1up,Badgery Station,stay,Badgery Station,heading,,,,,,"Badgery Station, Australia",True,1893-05-23,heading,2102,4,Bär
+1893-05-24,2,57,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n56/mode/1up,Badgery Station,stay,Badgery Station,heading,,,,,,"Badgery Station, Australia",True,1893-05-24,heading,1621,5,Bär; Känguru
+1893-05-25,2,61,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n60/mode/1up,Badgery Station,stay,Badgery Station,heading,,,,,,"Badgery Station, Australia",True,1893-05-25,heading,1726,4,Bär
+1893-05-26,2,66,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n65/mode/1up,Sydney,stay,Sydney,heading,Sydney,AU,-33.86785,151.20732,https://sws.geonames.org/2147714/,"Sydney, Australia",True,1893-05-26,aligned,1916,0,
+1893-05-27,2,71,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n70/mode/1up,,stay,Sydney,site,,,,,,"Sydney, Australia",False,1893-05-26,aligned,953,0,
+1893-05-28,2,77,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n76/mode/1up,In See nach KeuCaledonien,at_sea,,,,,,,,At Sea to New Caledonia,True,1893-05-28,aligned,382,0,
+1893-05-29,2,78,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n77/mode/1up,,at_sea,,,,,,,,At Sea to Numea,False,1893-05-28,aligned,465,1,
+1893-05-30,,,,,at_sea,,,,,,,,At Sea to Numea (no separate entry),False,,no_entry,0,0,
+1893-05-31,,,,,at_sea,,,,,,,,At Sea to Numea (no separate entry),False,,no_entry,0,0,
+1893-06-01,2,79,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n78/mode/1up,,stay,Numea,site,,,,,,"Numea, New Caledonia",False,1893-05-28,aligned,2518,0,
+1893-06-02,2,87,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n86/mode/1up,,stay,Numea,site,,,,,,"Numea, New Caledonia",False,1893-05-28,aligned,1661,0,
+1893-06-03,2,92,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n91/mode/1up,Numea,stay,Numea,heading,Nouméa,NC,-22.27407,166.44884,https://sws.geonames.org/2139521/,"Numea, New Caledonia",True,1893-06-03,aligned,1779,0,
+1893-06-04,2,100,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n99/mode/1up,,at_sea,,,,,,,,At Sea to the Solomon Islands,False,1893-06-03,aligned,533,0,
+1893-06-05,2,102,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n101/mode/1up,,at_sea,,,,,,,,At Sea to the Solomon Islands,False,1893-06-03,aligned,288,0,
+1893-06-06,,,,,at_sea,,,,,,,,At Sea to the Solomon Islands (no separate entry),False,,no_entry,0,0,
+1893-06-07,2,102,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n101/mode/1up,,stay,Owa Raha,site,,,,,,"Owa Raha, Solomon Islands",False,1893-06-03,aligned,3724,0,
+1893-06-08,2,114,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n113/mode/1up,,transfer,Ugi,site,,,,,,"Owa Raha to Ugi, Solomon Islands",False,1893-06-03,aligned,1496,3,Wildvogel
+1893-06-09,2,118,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n117/mode/1up,Ugi,stay,Ugi,heading,,,,,,"Ugi, Solomon Islands",True,1893-06-09,heading,1601,1,Wildvogel
+1893-06-10,2,126,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n125/mode/1up,In See nach Xeu*Guinea,at_sea,,,,,,,,At Sea to New Guinea,True,1893-06-10,aligned,297,0,
+1893-06-11,2,127,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n126/mode/1up,,at_sea,,,,,,,,At Sea to New Guinea,False,1893-06-10,aligned,455,1,
+1893-06-12,,,,,at_sea,,,,,,,,At Sea to New Guinea (no separate entry),False,,no_entry,0,0,
+1893-06-13,,,,,at_sea,,,,,,,,At Sea to New Guinea (no separate entry),False,,no_entry,0,0,
+1893-06-14,2,128,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n127/mode/1up,,unknown,,,,,,,,"Port Moresby, New Guinea",True,1893-06-14,heading,1469,0,
+1893-06-15,2,132,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n131/mode/1up,Port Moresby,stay,Port Moresby,heading,Port Moresby,PG,-9.47723,147.15089,https://sws.geonames.org/2088122/,"Port Moresby, New Guinea",True,1893-06-15,aligned,2279,0,
+1893-06-16,2,139,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n138/mode/1up,,transfer,the hunting camp at Laroki,site,,,,,,"Port Moresby to the hunting camp at Laroki, New Guinea",False,1893-06-15,aligned,2407,4,Wildvogel
+1893-06-17,2,146,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n145/mode/1up,Jagdlager am Laroki,stay,Jagdlager am Laroki,heading,,,,,,"Hunting camp at the Laroki river, New Guinea",True,1893-06-17,aligned,1858,4,
+1893-06-18,2,151,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n150/mode/1up,,transfer,Port Moresby,site,,,,,,"Hunting camp at the Laroki river to Port Moresby, New Guinea",False,1893-06-17,aligned,684,0,
+1893-06-19,2,153,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n152/mode/1up,,transfer,the hunting camp at Vei Maori,site,,,,,,"Port Moresby to the hunting camp at Vei Maori, New Guinea",False,1893-06-17,aligned,2026,1,
+1893-06-20,2,158,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n157/mode/1up,Jagdlager am \''ei Maori — Varivari-Insel,transfer,Varivari-Insel,heading,,,,,,"Hunting camp at Vei Maori, New Guinea",True,1893-06-20,heading,797,0,
+1893-06-21,2,164,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n163/mode/1up,In See nach den Aru-Inseln,at_sea,,,,,,,,At Sea to the Aru islands (Rennel island),True,1893-06-21,aligned,427,0,
+1893-06-22,2,165,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n164/mode/1up,,at_sea,,,,,,,,At Sea to the Aru islands (Thursday Island),False,1893-06-21,aligned,357,0,
+1893-06-23,2,167,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n166/mode/1up,In See nach den Aru-Inseln,at_sea,,,,,,,,At Sea to the Aru islands,True,1893-06-23,aligned,232,0,
+1893-06-24,,,,,at_sea,,,,,,,,At Sea to the Aru islands (no separate entry),False,,no_entry,0,0,
+1893-06-25,2,167,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n166/mode/1up,,stay,Dobo,site,,,,,,"Dobo, Aru islands",False,1893-06-23,aligned,1774,3,Fisch/Hai; Wildvogel
+1893-06-26,2,172,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n171/mode/1up,,stay,Dobo,site,,,,,,"Dobo, Aru islands",False,1893-06-23,aligned,1331,1,Hirsch
+1893-06-27,2,176,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n175/mode/1up,In See nach Amboina,at_sea,,,,,,,,At Sea to Amboina,True,1893-06-27,heading,249,0,
+1893-06-28,2,177,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n176/mode/1up,Amboina,stay,Amboina,heading,Ambon,ID,-3.69583,128.18333,https://sws.geonames.org/1651531/,Amboina – in 1914: Assassination of Franz Ferdinand in Sarajevo,True,1893-06-28,heading,2477,0,
+1893-06-29,2,184,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n183/mode/1up,Kajeli,stay,Kajeli,heading,,,,,,"Kajeli, Amboina",True,1893-06-29,heading,1226,2,Wildvogel
+1893-06-30,2,187,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n186/mode/1up,Kajeli — Amboina,transfer,Amboina,heading,Ambon,ID,-3.69583,128.18333,https://sws.geonames.org/1651531/,Kajeli to Amboina,True,1893-06-30,aligned,850,3,Fisch/Hai; Hirsch; Wildvogel
+1893-07-01,2,190,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n189/mode/1up,,stay,Amboina,site,,,,,,Amboina,False,1893-06-30,aligned,611,0,
+1893-07-02,2,191,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n190/mode/1up,,stay,Amboina,site,,,,,,Amboina,False,1893-06-30,aligned,79,0,
+1893-07-03,2,196,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n195/mode/1up,,at_sea,,,,,,,,At Sea to Borneo,False,1893-06-30,aligned,782,0,
+1893-07-04,2,198,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n197/mode/1up,In See nach Burncc,at_sea,,,,,,,,At Sea to Borneo,True,1893-07-04,aligned,137,0,
+1893-07-05,2,199,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n198/mode/1up,,at_sea,,,,,,,,At Sea to Borneo,False,1893-07-04,aligned,54,0,
+1893-07-06,2,199,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n198/mode/1up,,at_sea,,,,,,,,At Sea to Borneo,False,1893-07-04,aligned,68,0,
+1893-07-07,2,199,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n198/mode/1up,,at_sea,,,,,,,,At Sea to Borneo,False,1893-07-04,aligned,63,0,
+1893-07-08,2,199,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n198/mode/1up,,at_sea,,,,,,,,At Sea to Borneo,False,1893-07-04,aligned,239,0,
+1893-07-09,2,200,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n199/mode/1up,,at_sea,,,,,,,,"At Sea to Borneo, Cape Po",False,1893-07-04,aligned,866,0,
+1893-07-10,2,204,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n203/mode/1up,,stay,Kuching,site,,,,,,"Kuching, Borneo",False,1893-07-04,aligned,2152,0,
+1893-07-11,2,210,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n209/mode/1up,,at_sea,,,,,,,,At Sea to Singapore,False,1893-07-04,aligned,22,0,
+1893-07-12,2,210,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n209/mode/1up,,stay,Singapore,site,,,,,,Singapore,False,1893-07-04,aligned,747,0,
+1893-07-13,2,213,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n212/mode/1up,Singapur,stay,Singapur,heading,Singapore,SG,1.28967,103.85007,https://sws.geonames.org/1880252/,Singapore,True,1893-07-13,heading,44,0,
+1893-07-14,2,213,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n212/mode/1up,Singapur,stay,Singapur,heading,Singapore,SG,1.28967,103.85007,https://sws.geonames.org/1880252/,Singapore,True,1893-07-14,aligned,149,0,
+1893-07-15,2,213,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n212/mode/1up,,stay,Singapore,site,,,,,,Singapore,False,1893-07-14,aligned,448,0,
+1893-07-16,2,218,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n217/mode/1up,In See nach Hongkono,at_sea,,,,,,,,At Sea to Hongkong,True,1893-07-16,heading,120,0,
+1893-07-17,2,218,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n217/mode/1up,In See nach Hongkong,at_sea,,,,,,,,At Sea to Hongkong,True,1893-07-17,aligned,102,0,
+1893-07-18,,,,,at_sea,,,,,,,,At Sea to Hongkong (no separate entry),False,,no_entry,0,0,
+1893-07-19,2,219,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n218/mode/1up,,at_sea,,,,,,,,At Sea to Hongkong,False,1893-07-17,aligned,168,0,
+1893-07-20,,,,,at_sea,,,,,,,,At Sea to Hongkong (no separate entry),False,,no_entry,0,0,
+1893-07-21,2,219,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n218/mode/1up,Hongkong,stay,Hongkong,heading,Hong Kong,HK,22.27832,114.17469,https://sws.geonames.org/1819729/,Hongkong,True,1893-07-21,heading,4169,0,
+1893-07-22,2,232,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n231/mode/1up,Honkong,stay,Honkong,heading,Hong Kong,HK,22.27832,114.17469,https://sws.geonames.org/1819729/,Hongkong,True,1893-07-22,heading,1622,0,
+1893-07-23,2,240,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n239/mode/1up,Kanton,stay,Kanton,heading,Guangzhou,CN,23.11667,113.25,https://sws.geonames.org/1809858/,Hongkong to Canton,True,1893-07-23,heading,4374,0,
+1893-07-24,2,252,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n251/mode/1up,Kanton,stay,Kanton,heading,Guangzhou,CN,23.11667,113.25,https://sws.geonames.org/1809858/,Canton,True,1893-07-24,heading,6936,0,
+1893-07-25,2,271,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n270/mode/1up,Kanton,stay,Kanton,heading,Guangzhou,CN,23.11667,113.25,https://sws.geonames.org/1809858/,Canton,True,1893-07-25,aligned,2533,0,
+1893-07-26,2,278,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n277/mode/1up,,stay,Canton,site,,,,,,Canton,False,1893-07-25,aligned,546,0,
+1893-07-27,2,284,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n283/mode/1up,IMacao — Hongkong,transfer,Hongkong,heading,Hong Kong,HK,22.27832,114.17469,https://sws.geonames.org/1819729/,Macao,True,1893-07-27,heading,2315,0,
+1893-07-28,2,290,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n289/mode/1up,Hongkong,stay,Hongkong,heading,Hong Kong,HK,22.27832,114.17469,https://sws.geonames.org/1819729/,Hongkong,True,1893-07-28,aligned,30,0,
+1893-07-29,2,294,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n293/mode/1up,,at_sea,,,,,,,,At Sea to Nagasaki,False,1893-07-28,aligned,237,0,
+1893-07-30,2,295,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n294/mode/1up,In See nach Nagasaki,at_sea,,,,,,,,At Sea to Nagasaki,True,1893-07-30,aligned,202,0,
+1893-07-31,2,295,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n294/mode/1up,,at_sea,,,,,,,,At Sea to Nagasaki,False,1893-07-30,aligned,69,0,
+1893-08-01,2,296,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n295/mode/1up,In See nach Nagasaki,at_sea,,,,,,,,At Sea to Nagasaki,True,1893-08-01,heading,30,0,
+1893-08-02,2,296,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n295/mode/1up,Nagasaki,stay,Nagasaki,heading,Nagasaki,JP,32.75,129.88333,https://sws.geonames.org/1856177/,"Nagasaki, Japan",True,1893-08-02,heading,701,0,
+1893-08-03,2,298,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n297/mode/1up,Nagasaki,stay,Nagasaki,heading,Nagasaki,JP,32.75,129.88333,https://sws.geonames.org/1856177/,"Nagasaki, Japan",True,1893-08-03,heading,3804,0,
+1893-08-04,2,308,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n307/mode/1up,Nagasaki -- Kumamoto,transfer,Kumamoto,heading,Kumamoto,JP,32.80589,130.69181,https://sws.geonames.org/1858421/,"Nagasaki to Kumamoto, Japan",True,1893-08-04,heading,4020,0,
+1893-08-05,2,320,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n319/mode/1up,Kumamoto,stay,Kumamoto,heading,Kumamoto,JP,32.80589,130.69181,https://sws.geonames.org/1858421/,"Kumamoto, Japan",True,1893-08-05,aligned,3567,0,
+1893-08-06,2,330,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n329/mode/1up,,transfer,Miyajima,site,,,,,,"Shimonoseki to Miyajima, Japan",False,1893-08-05,aligned,2950,0,
+1893-08-07,2,342,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n341/mode/1up,,transfer,Kyoto,site,,,,,,"Miyajima to Kyoto, Japan",False,1893-08-05,aligned,905,0,
+1893-08-08,2,345,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n344/mode/1up,Kiötö,stay,Kiötö,heading,Kyoto,JP,35.02107,135.75385,https://sws.geonames.org/1857910/,"Kyoto, Japan",True,1893-08-08,aligned,4249,0,
+1893-08-09,2,356,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n355/mode/1up,,stay,Kyoto,site,,,,,,"Kyoto, Japan",False,1893-08-08,aligned,1528,0,
+1893-08-10,2,361,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n360/mode/1up,,transfer,Osaka,site,,,,,,"Kyoto to Osaka, Japan",False,1893-08-08,aligned,2991,0,
+1893-08-11,2,369,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n368/mode/1up,,stay,Nara,site,,,,,,"Nara, Japan",False,1893-08-08,aligned,1594,0,
+1893-08-12,2,374,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n373/mode/1up,Kioto,stay,Kioto,heading,Kyoto,JP,35.02107,135.75385,https://sws.geonames.org/1857910/,"Kyoto, Japan",True,1893-08-12,aligned,1135,0,
+1893-08-13,2,377,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n376/mode/1up,,stay,Kyoto,site,,,,,,"Kyoto, Japan",False,1893-08-12,aligned,402,0,
+1893-08-14,2,378,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n377/mode/1up,Kioto,stay,Kioto,heading,Kyoto,JP,35.02107,135.75385,https://sws.geonames.org/1857910/,"Kyoto, Japan",True,1893-08-14,aligned,2895,0,
+1893-08-15,2,386,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n385/mode/1up,,transfer,Kosu,site,,,,,,"Nagoya to Kosu, Japan",False,1893-08-14,aligned,1726,0,
+1893-08-16,2,395,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n394/mode/1up,Mijanoschita,stay,Mijanoschita,heading,,,,,,"Miyanoshita, Japan",True,1893-08-16,aligned,207,0,
+1893-08-17,2,395,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n394/mode/1up,,transfer,Yokohama,site,,,,,,"Miyanoshita — Tokyo — Yokohama, Japan",False,1893-08-16,aligned,2514,0,
+1893-08-18,2,402,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n401/mode/1up,,stay,Tokyo,site,,,,,,"Tokyo, Japan",False,1893-08-16,aligned,964,0,
+1893-08-19,2,406,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n405/mode/1up,Tukio,stay,Tukio,heading,Tokyo,JP,35.6895,139.69171,https://sws.geonames.org/1850147/,"Tokyo, Japan",True,1893-08-19,heading,1134,0,
+1893-08-20,2,409,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n408/mode/1up,T 6 k i o — N i k k 6,transfer,N i k k 6,heading,,,,,,"Tokyo to Nikko, Japan",True,1893-08-20,heading,1221,0,
+1893-08-21,2,413,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n412/mode/1up,Nikko,stay,Nikko,heading,Nikkō,JP,36.75,139.61667,https://sws.geonames.org/1855395/,"Nikko, Japan",True,1893-08-21,heading,3379,0,
+1893-08-22,2,422,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n421/mode/1up,,unknown,,,,,,,,"Nikko to Yokohama, Japan",True,1893-08-22,heading,887,0,
+1893-08-23,2,425,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n424/mode/1up,Tokio,stay,Tokio,heading,Tokyo,JP,35.6895,139.69171,https://sws.geonames.org/1850147/,"Yokohama to Tokyo, Japan",True,1893-08-23,aligned,237,0,
+1893-08-24,2,425,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n424/mode/1up,,stay,Yokohama,site,,,,,,"Yokohama, Japan",False,1893-08-23,aligned,1159,0,
+1893-08-25,2,432,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n431/mode/1up,In See nach Vancouver,at_sea,,,,,,,,At Sea to Vancouver,True,1893-08-25,heading,1218,0,
+1893-08-26,2,435,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n434/mode/1up,In See nach Vancouver,at_sea,,,,,,,,At Sea to Vancouver,True,1893-08-26,heading,1157,0,
+1893-08-27,,,,,at_sea,,,,,,,,At Sea to Vancouver (no separate entry),False,,no_entry,0,0,
+1893-08-28,,,,,at_sea,,,,,,,,At Sea to Vancouver (no separate entry),False,,no_entry,0,0,
+1893-08-29,,,,,at_sea,,,,,,,,At Sea to Vancouver (no separate entry),False,,no_entry,0,0,
+1893-08-30,,,,,at_sea,,,,,,,,At Sea to Vancouver (no separate entry),False,,no_entry,0,0,
+1893-08-31,,,,,at_sea,,,,,,,,At Sea to Vancouver (no separate entry),False,,no_entry,0,0,
+1893-09-01,,,,,at_sea,,,,,,,,At Sea to Vancouver (no separate entry),False,,no_entry,0,0,
+1893-09-02,,,,,at_sea,,,,,,,,At Sea to Vancouver (no separate entry),False,,no_entry,0,0,
+1893-09-03,,,,Vancouver,stay,Vancouver,heading,Vancouver,CA,49.24966,-123.11934,https://sws.geonames.org/6173331/,At Sea to Vancouver (no separate entry),True,,no_entry,0,0,
+1893-09-04,,,,,at_sea,,,,,,,,At Sea to Vancouver (no separate entry),False,,no_entry,0,0,
+1893-09-05,2,439,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n438/mode/1up,,stay,Vancouver,site,,,,,,"Vancouver, Canada",False,1893-09-03,heading,1073,0,
+1893-09-06,2,442,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n441/mode/1up,Vancouver,stay,Vancouver,heading,Vancouver,CA,49.24966,-123.11934,https://sws.geonames.org/6173331/,"Vancouver, Canada",True,1893-09-06,heading,1118,0,
+1893-09-07,2,445,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n444/mode/1up,Vancouver,stay,Vancouver,heading,Vancouver,CA,49.24966,-123.11934,https://sws.geonames.org/6173331/,"Vancouver, Canada",True,1893-09-07,heading,589,1,
+1893-09-08,2,447,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n446/mode/1up,Vancouver — Banff,transfer,Banff,heading,,,,,,"Vancouver to Banff, Canada",True,1893-09-08,heading,1516,0,
+1893-09-09,2,451,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n450/mode/1up,Banff,stay,Banff,heading,,,,,,"Banff, Canada",True,1893-09-09,heading,864,0,
+1893-09-10,2,456,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n455/mode/1up,Banff — Penticton,transfer,Penticton,heading,Penticton,CA,49.48062,-119.58584,https://sws.geonames.org/6101141/,"Banff to Penticton, Canada",True,1893-09-10,heading,275,0,
+1893-09-11,2,456,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n455/mode/1up,Penticton,stay,Penticton,heading,Penticton,CA,49.48062,-119.58584,https://sws.geonames.org/6101141/,"Penticton, Canada",True,1893-09-11,aligned,461,0,
+1893-09-12,2,458,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n457/mode/1up,,transfer,Shingle Creek,site,,,,,,"Penticton to Shingle Creek, Canada",False,1893-09-11,aligned,1403,0,
+1893-09-13,2,462,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n461/mode/1up,,unknown,,,,,,,,"Shingle Creek to Black Mountain, Canada",True,1893-09-13,heading,1892,4,
+1893-09-14,2,467,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n466/mode/1up,Shingle Creek,stay,Shingle Creek,heading,,,,,,"Black Mountain to Shingle Creek, Canada",True,1893-09-14,heading,512,1,
+1893-09-15,2,468,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n467/mode/1up,Shingle Creek — Penticton,transfer,Penticton,heading,Penticton,CA,49.48062,-119.58584,https://sws.geonames.org/6101141/,"Shingle Creek to Penticton, Canada",True,1893-09-15,aligned,862,0,
+1893-09-16,2,470,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n469/mode/1up,,transfer,Priests‘ Landing,site,,,,,,"Penticton to Priests‘ Landing, Canada",False,1893-09-15,aligned,518,0,
+1893-09-17,2,475,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n474/mode/1up,,transfer,Revelstoke,site,,,,,,"Priests‘ Landing to Revelstoke, Canada",False,1893-09-15,aligned,649,0,
+1893-09-18,2,477,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n476/mode/1up,,transfer,Northport,site,,,,,,Revelstoke to Northport (still on the Canadian side),False,1893-09-15,aligned,508,0,
+1893-09-19,2,478,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n477/mode/1up,,transfer,Spokane,site,,,,,,"Northport to Spokane, Washington, United States",False,1893-09-15,aligned,642,0,
+1893-09-20,2,480,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n479/mode/1up,Spokane— Livingston,stay,Livingston,heading,,,,,,"Spokane to Livingston, Montana, United States",True,1893-09-20,aligned,423,0,
+1893-09-21,2,481,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n480/mode/1up,,transfer,Mammoth Hot Springs Hotel,site,,,,,,"Livingston to Mammoth Hot Springs Hotel, Yellowstone NP, United States",False,1893-09-20,aligned,1182,0,
+1893-09-22,2,485,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n484/mode/1up,Fountain Geyser Hotel,stay,Fountain Geyser Hotel,heading,,,,,,"Fountain Geyser Hotel, Yellowstone NP, United States",True,1893-09-22,heading,2154,1,
+1893-09-23,2,492,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n491/mode/1up,Fountain Geyser HoteL,stay,Fountain Geyser HoteL,heading,,,,,,"Fountain Geyser Hotel, Yellowstone NP, United States",True,1893-09-23,heading,1178,0,
+1893-09-24,2,495,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n494/mode/1up,Yellowstone Lake Hotel,stay,Yellowstone Lake Hotel,heading,,,,,,"Yellowstone Lake Hotel, Yellowstone NP, United States",True,1893-09-24,aligned,1266,0,
+1893-09-25,2,499,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n498/mode/1up,,stay,Grand Canon Hotel,site,,,,,,"Grand Canon Hotel, Yellowstone NP, United States",False,1893-09-24,aligned,1580,0,
+1893-09-26,2,503,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n502/mode/1up,Mammoth Hot Springs Hotel,stay,Mammoth Hot Springs Hotel,heading,,,,,,"Mammoth Hot Springs Hotel, Yellowstone NP, United States",True,1893-09-26,heading,648,0,
+1893-09-27,2,505,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n504/mode/1up,Mammoth Hot Springs Hotel — Livingston,transfer,Livingston,heading,,,,,,"Mammoth Hot Springs Hotel to Livingston, Montana, United States",True,1893-09-27,aligned,903,0,
+1893-09-28,2,511,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n510/mode/1up,,transfer,Butte City,site,,,,,,"Livingston to Butte City, Montana, United States",False,1893-09-27,aligned,334,0,
+1893-09-29,2,513,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n512/mode/1up,Salt Lake City — Colorado Springs,transfer,Colorado Springs,heading,Colorado Springs,US,38.83388,-104.82136,https://sws.geonames.org/5417598/,"Salt Lake City to Colorado Springs, Colorado, United States",True,1893-09-29,heading,1290,0,
+1893-09-30,2,517,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n516/mode/1up,Colorado Springs,stay,Colorado Springs,heading,Colorado Springs,US,38.83388,-104.82136,https://sws.geonames.org/5417598/,"Colorado Springs, Colorado, United States",True,1893-09-30,heading,728,0,
+1893-10-01,2,519,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n518/mode/1up,Manitou,stay,Manitou,heading,,,,,,"Manitou (Springs), Colorado, United States",True,1893-10-01,heading,851,0,
+1893-10-02,2,521,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n520/mode/1up,Manitou — Chicago,transfer,Chicago,heading,Chicago,US,41.85003,-87.65005,https://sws.geonames.org/4887398/,"Manitou (Springs) to Chicago, Illinois, United States",True,1893-10-02,heading,642,0,
+1893-10-03,2,523,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n522/mode/1up,Chicago,stay,Chicago,heading,Chicago,US,41.85003,-87.65005,https://sws.geonames.org/4887398/,"Chicago, Illinois, United States (Columbian exposition or World’s Fair visit)",True,1893-10-03,heading,4186,1,
+1893-10-04,2,535,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n534/mode/1up,Niagara Falls,stay,Niagara Falls,heading,Niagara Falls,CA,43.10012,-79.06627,https://sws.geonames.org/6087892/,"Niagara Falls, Ontario, Canada",True,1893-10-04,aligned,857,0,
+1893-10-05,2,538,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n537/mode/1up,,transfer,New York,site,,,,,,"Niagara Falls to New York, New York, United States",False,1893-10-04,aligned,561,0,
+1893-10-06,2,539,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n538/mode/1up,New York,stay,New York,heading,New York City,US,40.71427,-74.00597,https://sws.geonames.org/5128581/,"New York, New York, United States",True,1893-10-06,heading,1444,0,
+1893-10-07,2,543,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n542/mode/1up,New York,stay,New York,heading,New York City,US,40.71427,-74.00597,https://sws.geonames.org/5128581/,"New York, New York, United States",True,1893-10-07,aligned,2262,0,
+1893-10-08,2,549,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n548/mode/1up,,at_sea,,,,,,,,"At Sea to Havre, France",False,1893-10-07,aligned,825,0,
+1893-10-09,,,,,at_sea,,,,,,,,"At Sea to Havre, France (no separate entry)",False,,no_entry,0,0,
+1893-10-10,,,,,at_sea,,,,,,,,"At Sea to Havre, France (no separate entry)",False,,no_entry,0,0,
+1893-10-11,,,,,at_sea,,,,,,,,"At Sea to Havre, France (no separate entry)",False,,no_entry,0,0,
+1893-10-12,,,,,at_sea,,,,,,,,"At Sea to Havre, France (no separate entry)",False,,no_entry,0,0,
+1893-10-13,,,,,at_sea,,,,,,,,"At Sea to Havre, France (no separate entry)",False,,no_entry,0,0,
+1893-10-14,,,,,at_sea,,,,,,,,"At Sea to Havre, France (no separate entry)",False,,no_entry,0,0,
+1893-10-15,2,555,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n554/mode/1up,Havre — Paris,transfer,Paris,heading,Paris,FR,48.85341,2.3488,https://sws.geonames.org/2988507/,"Havre to Paris, France",True,1893-10-15,heading,236,0,
+1893-10-16,2,556,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n555/mode/1up,Paris,stay,Paris,heading,Paris,FR,48.85341,2.3488,https://sws.geonames.org/2988507/,"Paris, France",True,1893-10-16,heading,129,0,
+1893-10-17,2,556,https://archive.org/details/tagebuchmeinerr00ferdgoog/page/n555/mode/1up,Stuttgart Wien,stay,Stuttgart Wien,heading,,,,,,"Stuttgart, Germany",True,1893-10-17,heading,3208,0,
+1893-10-18,,,,,stay,Vienna,site,,,,,,"Vienna, Austria (no separate entry)",False,,no_entry,0,0,

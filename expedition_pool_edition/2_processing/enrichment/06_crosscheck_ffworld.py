@@ -81,8 +81,9 @@ def main():
     print(f"site: {len(days)} days {days[0]['date']}..{days[-1]['date']}, {sum(bool(d['url']) for d in days)} with a page")
 
     hoefer = list(csv.DictReader((ANALYSES / "itinerary_1892_93.csv").open(encoding="utf-8")))
+    # the 170 OCR heading entries (ke_diary.json has all 309 days; ocr_entry marks the days with a heading)
     diary = {d["date"]: d for d in json.loads(
-        (WEB_DATA / "ke_diary.json").read_text())}
+        (WEB_DATA / "ke_diary.json").read_text()) if d.get("ocr_entry", True)}
     out = {"hoefer": [], "diary": []}
     n = {"hoefer": 0, "diary": 0}
     for d in days:

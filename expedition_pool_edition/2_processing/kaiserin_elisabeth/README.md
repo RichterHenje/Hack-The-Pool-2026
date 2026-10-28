@@ -20,7 +20,7 @@ Direkt im Browser öffnen (ohne Server; `reise.html` lädt als Hintergrund Karte
 
 | | |
 | --- | --- |
-| Tagebuchtage (15.12.1892–17.10.1893) | 170; 81 auf der Karte, kleine Orte nur in der Tagesliste |
+| Tagebuchtage (14.12.1892–18.10.1893) | 309 (nach `../normalization/json/tagebuch_tage.json`), davon 170 mit eigener Überschrift in der OCR; 79 Überschrift-Orte im Ortsverzeichnis gefunden |
 | Tage mit Sätzen vom Erlegen oder Schießen | 65 Tage, 211 Sätze (ungeprüft; genannte Tiere ≠ getötete Tiere) |
 | Stationen aller Reisen 1892–1914 (Vault) | 90, davon 70 verortet; 24 mit Kulturpool-Treffern im Zeitfenster |
 | Kulturpool-Datensätze, die das Schiff nennen | 2 (Phrasensuche) |
@@ -69,7 +69,7 @@ Ausschnitte von Hand in `../../3_visualization/web/data/presse_anno.csv` eintrag
 Python 3.13, [uv](https://docs.astral.sh/uv/), im Ordner `expedition_pool_edition/2_processing/kaiserin_elisabeth/`:
 
 ```
-uv run python -m scripts.ke_diary           # Tagebuch -> Tagesroute, Jagdsätze, Presse (reise.html)
+uv run python -m scripts.ke_diary           # Tagebuch nach Tagen (aus ../normalization) -> Tagesroute, Jagdsätze, Presse
 uv run python -m scripts.ke_itinerary       # Reisen aus dem Vault -> Stationen, Linien (schiff.html)
 uv run python -m scripts.ke_places_lpf      # historische Ortsnamen (Linked Places)
 uv run python -m scripts.ke_stop_records    # Kulturpool-Treffer je Station (schiff.html)

@@ -358,9 +358,9 @@ Like `places.json`, but `vault` is `[{note, id}]` (vault IDs resolved) plus `coo
 
 ## 5. `3_visualization/web/data/` – map prototype data
 
-### `data/ke_diary.json` — [170] diary entries with location
+### `data/ke_diary.json` — [309] diary days with location
 
-`date`, `band`, `scan`, `page_url`, `heading`, `kind` (`stay` / `at_sea` / `transfer` / `unknown`), `place_as_printed`, `place`, `country` (ISO code), `lat`/`lon` (float\|null), `geonames` (URL), `words` (int), `kill_sentences` (int), `animals_in_kill_sentences` [str], `kill_quotes` [str].
+One record per day (from `2_processing/normalization/json/tagebuch_tage.json`). `date`, `band`, `scan`, `page_url`, `heading` (OCR heading, only on days that have one), `kind` (`stay` / `at_sea` / `transfer` / `unknown`), `place_as_printed`, `place_source` (`heading` / `site` / empty), `place`, `country` (ISO code), `lat`/`lon` (float\|null; only for heading places), `geonames` (URL), `place_site` (franzferdinandsworld.com), `ocr_entry` (bool: the OCR has a heading on this day, 170 days), `entry_date`, `method` (of the day split), `words` (int), `kill_sentences` (int), `animals_in_kill_sentences` [str], `kill_quotes` [str].
 
 ### `data/ke_layers.json` — per-day layers for the timeline
 ```
