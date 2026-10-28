@@ -35,7 +35,7 @@ Each ask names the finding behind it (slide 5).
 
 1. Kulturpool and ACDH: trace the 2019 delivery, and tell us which records belong to this voyage. Finding: the Weltmuseum photographs reached Europeana through Kulturpool in 2019, the portal finds no Tandur-Camp today; 24 of 70 stations have a dated record, 2 records name the ship.
 2. The museums that hold the voyage (Weltmuseum Wien, KHM, Heeresgeschichtliches Museum, Staatsarchiv): connect as data providers, or tell us where the records are. Finding: none of them appears as a data provider in today's portal.
-3. Everyone who works with sources: check the hunting sentences against the scans, with us. Finding: they are machine-read and nobody has checked them yet. After the slam we bring the scan links and the blind method used for the diary days (`validation/diary_days_check.csv`); a sheet for the hunting sentences is planned, not yet made.
+3. Everyone who works with sources: check the hunting sentences against the scans, with us. Finding: they are machine-read and nobody has checked them yet. After the slam we bring the scan links and the blind method prepared for the diary days (`validation/diary_days_check.csv`, not yet filled); a sheet for the hunting sentences is planned, not yet made.
 
 Closing line: "Nothing in the archive needs rewriting. It needs connecting." (claim 10, PROPOSED)
 
