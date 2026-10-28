@@ -9,7 +9,7 @@ the place in that period, not objects from the voyage ("Colombo" also finds Colu
 the page labels them so. Images are shown only for records whose rights are all OPEN.
 
 Also writes prototype/data/ke_data.js (window.KE = {...}) bundling routes, stops and
-records, so prototype/index.html works from disk and on GitHub Pages without a server.
+records, so prototype/schiff.html works from disk and on GitHub Pages without a server.
 """
 
 from __future__ import annotations
