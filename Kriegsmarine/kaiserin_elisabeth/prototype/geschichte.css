@@ -1,6 +1,6 @@
 /* Jagdreise 1892–93: story page in the Kulturpool look (kulturpool.at): white, black text, 0.5 px hairlines,
    square boxes; muted colours taken from the 1872 map: hunts terracotta, route steel blue, land sand, sea pale blue. Kulturpool's own faces (Feature Display, Forma DJR) are licensed; Gloock and
-   Public Sans stand in. The text column is wide, the map stays beside it. Shared with ueber.html. */
+   Public Sans stand in. The text column is wide, the map stays beside it. Shared with index.html (home page). */
 :root {
   --bg: #ffffff;
   --text: #1e1e1e;
@@ -141,7 +141,7 @@ details.days .k { color: var(--accent); font-weight: 600; }
 }
 #map { min-height: 0; }
 .leaflet-container { background: var(--panel); font-family: var(--sans); }
-.leaflet-tile-pane { filter: saturate(.55) contrast(.95); }
+.leaflet-tile-pane { filter: saturate(.55) contrast(.95); opacity: .82; }
 .leaflet-bar a { border-radius: 0 !important; }
 #timeline { background: var(--bg); border-top: var(--hair) solid var(--line); padding: 10px 14px 8px; }
 #tl-label { font: 500 14px/1.3 var(--sans); min-height: 1.3em; margin-bottom: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -172,7 +172,7 @@ details.days .k { color: var(--accent); font-weight: 600; }
   .chapter { padding: 40px 0 28px; }
 }
 
-/* --- ueber.html: one column, same tokens ------------------------------------------------ */
+/* --- index.html (home page): one column, same tokens ------------------------------------------------ */
 body.page { display: block; --cols: 4; }
 body.page main { max-width: 56rem; margin: 0 auto; padding: 40px 16px 96px; }
 body.page section { border-top: var(--hair) solid var(--line); padding: 36px 0 12px; }
@@ -184,15 +184,51 @@ ol.steps li { counter-increment: step; display: grid; grid-template-columns: 56p
 ol.steps li::before { content: counter(step); grid-row: span 2; font: 400 40px/1 var(--display); color: var(--accent); }
 ol.steps h3 { border: 0; padding: 0; margin: 4px 0 6px; font-size: 17px; }
 ol.steps p { margin: 0; }
-ul.partners { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
-ul.partners li { border: var(--hair) solid var(--line); border-radius: var(--radius); padding: 20px; display: flex; flex-direction: column; }
-ul.partners .logo { height: 54px; width: auto; max-width: 100%; object-fit: contain; object-position: left; margin-bottom: 14px; background: #fff; padding: 4px; }
-ul.partners .logo.wide { height: 40px; padding: 10px 4px; }
-ul.partners .logo.tall { height: 96px; margin: -12px 0 2px -10px; }
-ul.partners h3 { border: 0; padding: 0; margin: 0 0 6px; font-size: 16px; }
-ul.partners p { margin: 0 0 12px; font-size: 15px; flex: 1; }
-ul.partners a { font-size: 14px; }
+ul.partners { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; }
+ul.partners li { border: var(--hair) solid var(--line); display: flex; flex-direction: column; background: var(--bg); }
+/* the logo is the card's heading; its alt text is the institution's name (no second, plain-text name) */
+ul.partners .logo-head { height: 92px; margin: 0; padding: 0 20px; display: flex; align-items: center;
+  border: 0; border-bottom: var(--hair) solid var(--line); background: #fff; }
+ul.partners .logo-head img { display: block; width: auto; max-width: 100%; }
+ul.partners .logo-head .kp { height: 26px; }
+ul.partners .logo-head .onb { height: 40px; }
+ul.partners .logo-head .wmw { height: 56px; }
+ul.partners .logo-head .eu { height: 30px; }
+ul.partners .role { margin: 16px 20px 6px; font-size: 13px; font-weight: 600; color: var(--accent); }
+ul.partners p { margin: 0 20px 14px; font-size: 15px; flex: 1; }
+ul.partners p.role { flex: 0; }
+ul.partners a { margin: 0 20px 18px; font-size: 14px; }
 ul.team { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0 24px; }
 ul.team li { padding: 12px 0; border-bottom: var(--hair) solid var(--line); display: flex; flex-direction: column; }
 ul.team b { font: 400 22px/1.2 var(--display); }
 ul.team span { font-size: 14px; color: var(--soft); }
+ul.views { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+ul.views a.view { display: flex; flex-direction: column; height: 100%; text-decoration: none; color: inherit;
+  border: var(--hair) solid var(--line); background: var(--bg); }
+ul.views a.view:hover { outline: 2px solid var(--accent); outline-offset: -1px; }
+ul.views a.view:hover h3 { text-decoration: underline; text-decoration-thickness: var(--hair); text-underline-offset: 3px; }
+ul.views img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top left;
+  border-bottom: var(--hair) solid var(--line); background: var(--panel); }
+ul.views .label { font-size: 13px; font-weight: 600; color: var(--accent); margin: 14px 16px 0; }
+ul.views h3 { border: 0; padding: 0; margin: 4px 16px 6px; font: 400 24px/1.15 var(--display); }
+ul.views p { margin: 0 16px 18px; font-size: 15px; }
+body.page header.intro { padding-bottom: 28px; }
+/* event bar on index.html: Hack the Pool with organiser, partner and funder */
+.eventbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 28px;
+  max-width: 56rem; margin: 0 auto; padding: 18px 16px 16px; border-bottom: var(--hair) solid var(--line); }
+.eventbar .event { font: 400 26px/1 var(--display); text-decoration: none; }
+.eventbar .event:hover { text-decoration: underline; text-decoration-thickness: var(--hair); }
+.eventlogos { list-style: none; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 26px; margin: 0; padding: 0; }
+.eventlogos a { display: block; line-height: 0; }
+.eventlogos img { display: block; width: auto; }
+.eventlogos .kp { height: 24px; }
+.eventlogos .acdh { height: 34px; }
+.eventlogos .clariah { height: 28px; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .eventlogos img { background: #fff; padding: 4px; } }
+:root[data-theme="dark"] .eventlogos img { background: #fff; padding: 4px; }
+ul.refs { padding-left: 20px; margin: 0; }
+ul.refs li { margin-bottom: 10px; }
+/* content note before images of killed animals (index.html, geschichte.html) */
+.content-note { margin: 20px 0; padding: 12px 16px; border: var(--hair) solid var(--line); border-left: 3px solid var(--accent);
+  background: var(--panel); font-size: 15px; line-height: 1.5; }
+.content-note b { display: block; font-weight: 600; margin-bottom: 2px; }

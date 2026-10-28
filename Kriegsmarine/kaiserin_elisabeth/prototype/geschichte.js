@@ -220,8 +220,8 @@
     return pos(d.lat, lon);
   });
   L.polyline(afterLine, { color: AFTER, weight: 3, dashArray: "5 7", opacity: 0.95, interactive: false }).addTo(map);
-  L.polyline(shipLine.map(ll), { color: SHIP, weight: 2, opacity: 0.3, interactive: false }).addTo(map);
-  const travelled = L.polyline([], { color: SHIP, weight: 3, opacity: 0.9, interactive: false }).addTo(map);
+  L.polyline(shipLine.map(ll), { color: SHIP, weight: 2.5, opacity: 0.55, interactive: false }).addTo(map);
+  const travelled = L.polyline([], { color: SHIP, weight: 3.5, opacity: 1, interactive: false }).addTo(map);
   const current = L.polyline([], { color: HUNT, weight: 4, opacity: 0.95, interactive: false }).addTo(map);
   const hunts = L.layerGroup().addTo(map), here = L.layerGroup().addTo(map);
   for (const c of chapters.filter((c) => c.kind === "hunt")) {

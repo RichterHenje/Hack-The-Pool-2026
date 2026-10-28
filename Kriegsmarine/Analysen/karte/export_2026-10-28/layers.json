@@ -1,0 +1,878 @@
+{
+ "KE1893_legs": {
+  "service": "KE1893_legs",
+  "map_filter": null,
+  "fields": [
+   {
+    "name": "OBJECTID",
+    "type": "esriFieldTypeOID"
+   },
+   {
+    "name": "from_name",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "to_name",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "on_ship",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "date_from",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "date_to",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "day_from",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "day_to",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "estimated",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "title",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "Shape__Length",
+    "type": "esriFieldTypeDouble"
+   }
+  ],
+  "timeInfo": {
+   "startTimeField": "date_from",
+   "endTimeField": "date_to",
+   "trackIdField": "",
+   "timeExtent": [
+    -2431252800000,
+    -2404814400000
+   ],
+   "timeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+   },
+   "timeInterval": 1,
+   "timeIntervalUnits": "esriTimeUnitsDays",
+   "exportOptions": {
+    "useTime": false,
+    "timeDataCumulative": false,
+    "TimeOffset": 0,
+    "timeOffsetUnits": "esriTimeUnitsCenturies"
+   },
+   "hasLiveData": false
+  }
+ },
+ "KE1893_days": {
+  "service": "KE1893_days",
+  "map_filter": null,
+  "fields": [
+   {
+    "name": "OBJECTID",
+    "type": "esriFieldTypeOID"
+   },
+   {
+    "name": "day_date",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "place",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "heading",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "method",
+    "type": "esriFieldTypeString",
+    "length": 64
+   },
+   {
+    "name": "method_de",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "coords",
+    "type": "esriFieldTypeString",
+    "length": 32
+   },
+   {
+    "name": "coords_de",
+    "type": "esriFieldTypeString",
+    "length": 64
+   },
+   {
+    "name": "band",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "scan",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "page_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "site_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "hunt_day",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "episode",
+    "type": "esriFieldTypeString",
+    "length": 64
+   },
+   {
+    "name": "coord_basis",
+    "type": "esriFieldTypeString",
+    "length": 32
+   },
+   {
+    "name": "coord_basis_de",
+    "type": "esriFieldTypeString",
+    "length": 64
+   },
+   {
+    "name": "coord_name",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "coord_ref",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "coord_note",
+    "type": "esriFieldTypeString",
+    "length": 512
+   }
+  ],
+  "timeInfo": {
+   "startTimeField": "day_date",
+   "endTimeField": "",
+   "trackIdField": "",
+   "timeExtent": [
+    -2431339200000,
+    -2404728000000
+   ],
+   "timeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+   },
+   "timeInterval": 1,
+   "timeIntervalUnits": "esriTimeUnitsDays",
+   "exportOptions": {
+    "useTime": false,
+    "timeDataCumulative": false,
+    "TimeOffset": 0,
+    "timeOffsetUnits": "esriTimeUnitsCenturies"
+   },
+   "hasLiveData": false
+  }
+ },
+ "KE1893_stops": {
+  "service": "KE1893_stops",
+  "map_filter": null,
+  "fields": [
+   {
+    "name": "OBJECTID",
+    "type": "esriFieldTypeOID"
+   },
+   {
+    "name": "seq",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "leg",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "on_ship",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "title",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "name_then",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "name_now",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "country",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "arrival_date",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "day_index",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "date_estimated",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "hoefer_from",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "hoefer_to",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "hoefer_printed",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "names_history",
+    "type": "esriFieldTypeString",
+    "length": 512
+   },
+   {
+    "name": "description",
+    "type": "esriFieldTypeString",
+    "length": 1024
+   },
+   {
+    "name": "kp_hits",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "kp_search_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "kp_example",
+    "type": "esriFieldTypeString",
+    "length": 512
+   },
+   {
+    "name": "kp_example_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "kp_licence",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "image_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "image_title",
+    "type": "esriFieldTypeString",
+    "length": 512
+   },
+   {
+    "name": "image_licence",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "image_record_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "wikidata",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "geonames",
+    "type": "esriFieldTypeString",
+    "length": 256
+   }
+  ],
+  "timeInfo": {
+   "startTimeField": "arrival_date",
+   "endTimeField": "",
+   "trackIdField": "",
+   "timeExtent": [
+    -2431252800000,
+    -2404814400000
+   ],
+   "timeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+   },
+   "timeInterval": 1,
+   "timeIntervalUnits": "esriTimeUnitsDays",
+   "exportOptions": {
+    "useTime": false,
+    "timeDataCumulative": false,
+    "TimeOffset": 0,
+    "timeOffsetUnits": "esriTimeUnitsCenturies"
+   },
+   "hasLiveData": false
+  }
+ },
+ "KE1893_hunts": {
+  "service": "KE1893_hunts",
+  "map_filter": null,
+  "fields": [
+   {
+    "name": "OBJECTID",
+    "type": "esriFieldTypeOID"
+   },
+   {
+    "name": "id",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "title",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "date_from",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "date_to",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "day_from",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "day_to",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "animals",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "kill_sentences",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "photos",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "description",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "quote",
+    "type": "esriFieldTypeString",
+    "length": 2048
+   },
+   {
+    "name": "quote_date",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "quote_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "anno_issues",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "anno_high",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "kp_count",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "coord_note",
+    "type": "esriFieldTypeString",
+    "length": 256
+   }
+  ],
+  "timeInfo": {
+   "startTimeField": "date_from",
+   "endTimeField": "date_to",
+   "trackIdField": "",
+   "timeExtent": [
+    -2430820800000,
+    -2414232000000
+   ],
+   "timeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+   },
+   "timeInterval": 1,
+   "timeIntervalUnits": "esriTimeUnitsDays",
+   "exportOptions": {
+    "useTime": false,
+    "timeDataCumulative": false,
+    "TimeOffset": 0,
+    "timeOffsetUnits": "esriTimeUnitsCenturies"
+   },
+   "hasLiveData": false
+  }
+ },
+ "KE1893_kills": {
+  "service": "KE1893_kills",
+  "map_filter": null,
+  "fields": [
+   {
+    "name": "OBJECTID",
+    "type": "esriFieldTypeOID"
+   },
+   {
+    "name": "entry_date",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "place",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "place_raw",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "coord_note",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "animals",
+    "type": "esriFieldTypeString",
+    "length": 512
+   },
+   {
+    "name": "kill_sentences",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "first_person",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "ff_self",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "quote",
+    "type": "esriFieldTypeString",
+    "length": 2048
+   },
+   {
+    "name": "quote_first_person",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "page_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "band",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "scan",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "day_method",
+    "type": "esriFieldTypeString",
+    "length": 32
+   },
+   {
+    "name": "episode",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "no_hunt_place",
+    "type": "esriFieldTypeInteger"
+   }
+  ],
+  "timeInfo": {
+   "startTimeField": "entry_date",
+   "endTimeField": "",
+   "trackIdField": "",
+   "timeExtent": [
+    -2430820800000,
+    -2410344000000
+   ],
+   "timeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+   },
+   "timeInterval": 1,
+   "timeIntervalUnits": "esriTimeUnitsDays",
+   "exportOptions": {
+    "useTime": false,
+    "timeDataCumulative": false,
+    "TimeOffset": 0,
+    "timeOffsetUnits": "esriTimeUnitsCenturies"
+   },
+   "hasLiveData": false
+  }
+ },
+ "KE1893_objects": {
+  "service": "KE1893_objects",
+  "map_filter": "strength = 'strong'",
+  "fields": [
+   {
+    "name": "OBJECTID",
+    "type": "esriFieldTypeOID"
+   },
+   {
+    "name": "inventory",
+    "type": "esriFieldTypeString",
+    "length": 64
+   },
+   {
+    "name": "obj_type",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "title",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "region",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "strength",
+    "type": "esriFieldTypeString",
+    "length": 16
+   },
+   {
+    "name": "strength_de",
+    "type": "esriFieldTypeString",
+    "length": 160
+   },
+   {
+    "name": "diary_date",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "place",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "evidence",
+    "type": "esriFieldTypeString",
+    "length": 2048
+   },
+   {
+    "name": "url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "page_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "acquisition",
+    "type": "esriFieldTypeInteger"
+   }
+  ],
+  "timeInfo": {
+   "startTimeField": "diary_date",
+   "endTimeField": "",
+   "trackIdField": "",
+   "timeExtent": [
+    -2430302400000,
+    -2406888000000
+   ],
+   "timeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+   },
+   "timeInterval": 1,
+   "timeIntervalUnits": "esriTimeUnitsDays",
+   "exportOptions": {
+    "useTime": false,
+    "timeDataCumulative": false,
+    "TimeOffset": 0,
+    "timeOffsetUnits": "esriTimeUnitsCenturies"
+   },
+   "hasLiveData": false
+  }
+ },
+ "KE1893_press": {
+  "service": "KE1893_press",
+  "map_filter": null,
+  "fields": [
+   {
+    "name": "OBJECTID",
+    "type": "esriFieldTypeOID"
+   },
+   {
+    "name": "title",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "date_published",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "event_date",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "day_index",
+    "type": "esriFieldTypeInteger"
+   },
+   {
+    "name": "newspaper",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "place",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "episode",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "relevance",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "quote",
+    "type": "esriFieldTypeString",
+    "length": 1024
+   },
+   {
+    "name": "page_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "status",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "pub_place",
+    "type": "esriFieldTypeString",
+    "length": 64
+   }
+  ],
+  "timeInfo": {
+   "startTimeField": "date_published",
+   "endTimeField": "",
+   "trackIdField": "",
+   "timeExtent": [
+    -2429870400000,
+    -2409048000000
+   ],
+   "timeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+   },
+   "timeInterval": 1,
+   "timeIntervalUnits": "esriTimeUnitsDays",
+   "exportOptions": {
+    "useTime": false,
+    "timeDataCumulative": false,
+    "TimeOffset": 0,
+    "timeOffsetUnits": "esriTimeUnitsCenturies"
+   },
+   "hasLiveData": false
+  }
+ },
+ "KE1893_photos_undated": {
+  "service": "KE1893_photos_all",
+  "map_filter": "photo_date IS NULL",
+  "fields": [
+   {
+    "name": "OBJECTID",
+    "type": "esriFieldTypeOID"
+   },
+   {
+    "name": "vf_id",
+    "type": "esriFieldTypeString",
+    "length": 32
+   },
+   {
+    "name": "title",
+    "type": "esriFieldTypeString",
+    "length": 1024
+   },
+   {
+    "name": "museum_date",
+    "type": "esriFieldTypeString",
+    "length": 64
+   },
+   {
+    "name": "photo_date",
+    "type": "esriFieldTypeDate",
+    "length": 8
+   },
+   {
+    "name": "date_range",
+    "type": "esriFieldTypeString",
+    "length": 8
+   },
+   {
+    "name": "place_name",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "place_tier",
+    "type": "esriFieldTypeString",
+    "length": 4
+   },
+   {
+    "name": "place_rule",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "place_src",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "museum_geography",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "route_place",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "image_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "museum_url",
+    "type": "esriFieldTypeString",
+    "length": 256
+   },
+   {
+    "name": "licence",
+    "type": "esriFieldTypeString",
+    "length": 64
+   },
+   {
+    "name": "creator",
+    "type": "esriFieldTypeString",
+    "length": 128
+   },
+   {
+    "name": "europeana",
+    "type": "esriFieldTypeString",
+    "length": 128
+   }
+  ],
+  "timeInfo": {
+   "startTimeField": "photo_date",
+   "endTimeField": "",
+   "trackIdField": "",
+   "timeExtent": [
+    -2429265600000,
+    -2406456000000
+   ],
+   "timeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+   },
+   "timeInterval": 1,
+   "timeIntervalUnits": "esriTimeUnitsDays",
+   "exportOptions": {
+    "useTime": false,
+    "timeDataCumulative": false,
+    "TimeOffset": 0,
+    "timeOffsetUnits": "esriTimeUnitsCenturies"
+   },
+   "hasLiveData": false
+  }
+ },
+ "KE1893_photos_dated": {
+  "service": "KE1893_photos_all",
+  "map_filter": "photo_date IS NOT NULL"
+ }
+}

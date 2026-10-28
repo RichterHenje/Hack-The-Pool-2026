@@ -1,0 +1,155 @@
+{
+ "webmap": {
+  "id": "977298da4e1a47c380c77a9041e11908",
+  "title": "SMS Kaiserin Elisabeth 1892–93 (Demo)",
+  "type": "Web Map",
+  "snippet": "Demo for Hack the Pool 2026: the voyage of SMS Kaiserin Elisabeth 1892–93 with Franz Ferdinand's diary, hunts, collection, press and photographs; every layer states its source, method and check status.",
+  "description": "<p>Demo for Hack the Pool 2026 (Kulturpool, ÖAW, 27–28 October 2026). The voyage of the cruiser SMS Kaiserin Elisabeth with Archduke Franz Ferdinand, 15 December 1892 to 18 October 1893, read against the grain: beside the route, the diary's hunts and kills, the collection, the press and the photographs. Each layer's description says where its data comes from, how it was made and what has been checked; each pop-up links the single record (scan, newspaper page, museum object).</p><p><b>How to read the status</b></p><ul><li><b>checked by a person</b>: a named check by a team member exists</li><li><b>machine-made, unchecked</b>: produced by a script, OCR or a match; a proposal until a person checks it</li><li><b>rule-based</b>: follows a fixed, written rule (e.g. arrival date = end of the leg); can be wrong where the rule does not fit</li></ul><p><b>Layers</b></p><ul><li><b>Stations</b>: rule-based (dates), machine-made (Kulturpool counts)</li><li><b>Legs (straight lines)</b>: rule-based</li><li><b>Diary, day by day</b>: machine-made, unchecked (dates partly rule-based); coordinate origin given per day</li><li><b>Hunts (according to the diary)</b>: machine-made, unchecked</li><li><b>Kill entries in the diary (per day)</b>: machine-made, unchecked</li><li><b>Este collection: purchase or gift documented</b>: machine-made, unchecked (proposals with evidence)</li><li><b>Press (ANNO, unchecked)</b>: machine-made, unchecked</li><li><b>Photographs, Weltmuseum Wien</b>: rule-based (place), licence per record</li></ul><p><b>Sources</b></p><ul><li>ANNO – AustriaN Newspapers Online, Österreichische Nationalbibliothek. <a href='https://anno.onb.ac.at/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://anno.onb.ac.at/</a> (link and short quotation only)</li><li>Franz Ferdinand von Österreich-Este: Tagebuch meiner Reise um die Erde 1892–1893. 2 vols. Wien: Alfred Hölder, 1895. <a href='https://archive.org/details/tagebuchmeinerr01ferdgoog' target='_blank' rel='nofollow ugc noopener noreferrer'>https://archive.org/details/tagebuchmeinerr01ferdgoog</a> (public domain (scans); OCR text by the Internet Archive)</li><li>Europeana: records of the Weltmuseum Wien photographs of the voyage, delivered through Kulturpool. <a href='https://www.europeana.eu/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.europeana.eu/</a> (CC BY-NC-SA 4.0 for the labelled photographs (per record))</li><li>GeoNames geographical database. <a href='https://www.geonames.org/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.geonames.org/</a> (CC BY 4.0)</li><li>Regina Höfer (ed.): Imperial Sightseeing. Die Indienreise von Erzherzog Franz Ferdinand von Österreich-Este. Wien 2010. doi:10.11588/xarep.00001404. <a href='https://doi.org/10.11588/xarep.00001404' target='_blank' rel='nofollow ugc noopener noreferrer'>https://doi.org/10.11588/xarep.00001404</a> (in copyright; only dates, places and page numbers are used, no text or images)</li><li>Kulturpool: search API (api.kulturpool.at/search), queried 27 October 2026; portal search kulturpool.at/suche. <a href='https://kulturpool.at/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://kulturpool.at/</a> (licence per record (shown in the pop-up))</li><li>KHM team, Hack the Pool 2026: research vault (Obsidian), normalised JSON (normalization/json) and enrichment pipeline (Kriegsmarine/enrichment), branch khm-team at commits b5e1464 and a4b8b5a (see each layer). <a href='https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine' target='_blank' rel='nofollow ugc noopener noreferrer'>https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine</a></li><li>Weltmuseum Wien: photo collection (VF numbers) and the Este inventory (VO numbers), online object pages. <a href='https://www.weltmuseumwien.at/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.weltmuseumwien.at/</a> (per record; see Europeana for the photographs)</li><li>Wikidata. <a href='https://www.wikidata.org/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.wikidata.org/</a> (CC0)</li></ul><p><i>Counts: live layers, 2026-10-28. Team data: commits b5e1464 and a4b8b5a (see each layer).</i> Basemap: Kenneth Townsend, NASA, Natural Earth, John Nelson (Esri), Vintage Shaded Relief.</p>",
+  "accessInformation": "ANNO/ÖNB; Franz Ferdinand, Tagebuch 1895 (Internet Archive); Europeana; GeoNames; Höfer (ed.) 2010; Kulturpool; KHM team, Hack the Pool 2026; Weltmuseum Wien; Wikidata; Basemap: Kenneth Townsend, NASA, Natural Earth, John Nelson (Esri)",
+  "licenseInfo": "<p>Shared publicly on 28 October 2026 (owner decision); images without a checked licence are marked “Lizenz nicht geprüft”. Rights per source:</p><ul><li>ANNO/ÖNB: link and short quotation only</li><li>Franz Ferdinand, Tagebuch 1895 (Internet Archive): public domain (scans); OCR text by the Internet Archive</li><li>Europeana: CC BY-NC-SA 4.0 for the labelled photographs (per record)</li><li>GeoNames: CC BY 4.0</li><li>Höfer (ed.) 2010: in copyright; only dates, places and page numbers are used, no text or images</li><li>Kulturpool: licence per record (shown in the pop-up)</li><li>Weltmuseum Wien: per record; see Europeana for the photographs</li><li>Wikidata: CC0</li></ul>",
+  "tags": [
+   "Hack the Pool 2026",
+   "Kaiserin Elisabeth",
+   "1892-93"
+  ],
+  "access": "public",
+  "created": 1793139591000,
+  "modified": 1793184715000
+ },
+ "KE1893_legs": {
+  "id": "a79a79039fe545559c5fe540a72d4575",
+  "title": "KE 1892-93 Etappen",
+  "type": "Feature Service",
+  "snippet": "Legs (straight lines): 47 legs between the stations, drawn as great circles; not the ship's track. Status: rule-based.",
+  "description": "<p><b>Legs (straight lines).</b> 47 legs between the stations, drawn as great circles; not the ship's track.</p><p><b>Status:</b> rule-based.</p><p><b>How it was made</b></p><ul><li>Dates: arrival at both ends (Höfer's route overview); 10 legs have an estimated date.</li><li>'on_ship' marks the route section before / after Yokohama (36 / 11); it includes land journeys and does not mean 'on board'.</li><li>Corrected on 28 October 2026: the legs Spokane–Livingston–Wyoming–Chicago were redrawn after the station fix; the leg Buitenzorg–Tjiandjur runs from the first Buitenzorg visit (12.4.1893, Höfer) to 15.4.1893.</li></ul><p><b>Checks</b></p><ul><li>No check by a person yet.</li></ul><p><b>Sources</b></p><ul><li>Regina Höfer (ed.): Imperial Sightseeing. Die Indienreise von Erzherzog Franz Ferdinand von Österreich-Este. Wien 2010. doi:10.11588/xarep.00001404. Its route overview (Reiseübersicht, after the diary's appendices: vol. I Anh. III pp. 561–564, vol. II Anh. pp. 549–563). <a href='https://doi.org/10.11588/xarep.00001404' target='_blank' rel='nofollow ugc noopener noreferrer'>https://doi.org/10.11588/xarep.00001404</a> (in copyright; only dates, places and page numbers are used, no text or images)</li><li>KHM team, Hack the Pool 2026: research vault (Obsidian), normalised JSON (normalization/json) and enrichment pipeline (Kriegsmarine/enrichment), branch khm-team at commits b5e1464 and a4b8b5a (see each layer). Public repository on GitHub. <a href='https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine' target='_blank' rel='nofollow ugc noopener noreferrer'>https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine</a></li></ul><p><i>Counted on the live layer 2026-10-28; team data commit b5e1464; inputs unchanged at a4b8b5a; corrections of 28.10. (see above).</i></p>",
+  "accessInformation": "Höfer (ed.) 2010; KHM team, Hack the Pool 2026",
+  "licenseInfo": "<ul><li>Höfer (ed.) 2010: in copyright; only dates, places and page numbers are used, no text or images</li></ul>",
+  "tags": [
+   "Hack the Pool 2026",
+   "Kaiserin Elisabeth",
+   "1892-93"
+  ],
+  "access": "public",
+  "created": 1793139437000,
+  "modified": 1793185044000
+ },
+ "KE1893_days": {
+  "id": "0bfc650e853949dc8c82618f50c0e18f",
+  "title": "KE 1892-93 Tagebuch (Tage mit Ort)",
+  "type": "Feature Service",
+  "snippet": "Diary, day by day: 216 of the diary's 309 days have a place and are on the map. Status: machine-made, unchecked (dates partly rule-based); coordinate origin given per day.",
+  "description": "<p><b>Diary, day by day.</b> 216 of the diary's 309 days have a place and are on the map.</p><p><b>Status:</b> machine-made, unchecked (dates partly rule-based); coordinate origin given per day.</p><p><b>How it was made</b></p><ul><li>Day date: 84 days have an entry of their own, 129 are part of a multi-day entry and were assigned by matching the team's English day page, 3 have no entry of their own. OCR lost many headings, so an assigned date can be 1–5 days early.</li><li>Coordinate basis per day (team field coord_source): Wikidata 98, GeoNames 63, estimated 15, set by hand (approximate) 40; 169 days link their Wikidata or GeoNames record in the pop-up ('Beleg').</li><li>Coordinate method: hunting place 87, camp or station of a hunting place 28, place in the day's heading 37, same place on another day 17, hand list 41, route place 6.</li><li>Every day links to its page scan; quote from the scan, not from the OCR.</li></ul><p><b>Checks</b></p><ul><li>Team commit 61a4de9 (28 October 2026) checked the day coordinates and added their origin; who checked is not recorded in the data, so this map counts it as not checked by a person.</li></ul><p><b>Sources</b></p><ul><li>Franz Ferdinand von Österreich-Este: Tagebuch meiner Reise um die Erde 1892–1893. 2 vols. Wien: Alfred Hölder, 1895. Scans: Internet Archive, vol. 1 tagebuchmeinerr01ferdgoog, vol. 2 tagebuchmeinerr00ferdgoog (Google digitisation; archive.org status: not in copyright). Also Biodiversity Heritage Library, doi:10.5962/bhl.title.130758. <a href='https://archive.org/details/tagebuchmeinerr01ferdgoog' target='_blank' rel='nofollow ugc noopener noreferrer'>https://archive.org/details/tagebuchmeinerr01ferdgoog</a> (public domain (scans); OCR text by the Internet Archive)</li><li>KHM team, Hack the Pool 2026: research vault (Obsidian), normalised JSON (normalization/json) and enrichment pipeline (Kriegsmarine/enrichment), branch khm-team at commits b5e1464 and a4b8b5a (see each layer). Public repository on GitHub. <a href='https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine' target='_blank' rel='nofollow ugc noopener noreferrer'>https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine</a></li><li>Wikidata. Coordinates of route places, hunting places and places the museum names. <a href='https://www.wikidata.org/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.wikidata.org/</a> (CC0)</li><li>GeoNames geographical database. Coordinates and today's names of stations and of places in the diary's day headings. <a href='https://www.geonames.org/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.geonames.org/</a> (CC BY 4.0)</li></ul><p><i>Counted on the live layer 2026-10-28; team data commit a4b8b5a (28.10.).</i></p>",
+  "accessInformation": "Franz Ferdinand, Tagebuch 1895 (Internet Archive); KHM team, Hack the Pool 2026; Wikidata; GeoNames",
+  "licenseInfo": "<ul><li>Franz Ferdinand, Tagebuch 1895 (Internet Archive): public domain (scans); OCR text by the Internet Archive</li><li>Wikidata: CC0</li><li>GeoNames: CC BY 4.0</li></ul>",
+  "tags": [
+   "Hack the Pool 2026",
+   "Kaiserin Elisabeth",
+   "1892-93"
+  ],
+  "access": "public",
+  "created": 1793144077000,
+  "modified": 1793181611000
+ },
+ "KE1893_stops": {
+  "id": "6a005afe2e294c78bf1f1d0dc807ad56",
+  "title": "KE 1892-93 Stationen",
+  "type": "Feature Service",
+  "snippet": "Stations: 48 stations of the 1892–93 voyage; 47 with an arrival date. Status: rule-based (dates), machine-made (Kulturpool counts).",
+  "description": "<p><b>Stations.</b> 48 stations of the 1892–93 voyage; 47 with an arrival date.</p><p><b>Status:</b> rule-based (dates), machine-made (Kulturpool counts).</p><p><b>How it was made</b></p><ul><li>Stations and their order: the team's vault, matched to Höfer's route overview.</li><li>Arrival date = end of the leg into the place in Höfer's route overview (not the first mention). 5 dates are estimated.</li><li>Coordinates and today's names: GeoNames via the team's gazetteer.</li><li>Kulturpool count: records that name the place and are dated 1890–1895 (voyage years ±2); 16 of 48 stations have at least one. The count is about the place, not the voyage.</li><li>Corrected on 28 October 2026: two stations had wrong GeoNames matches (Livingston in New Jersey, Wyoming in Michigan) and now sit at Livingston, Montana (the team's hand-set point of the diary day 20.9.1893) and Yellowstone National Park (Wikidata Q351); Tjiandjur's arrival follows Höfer (15.4.1893) instead of an estimate (6.5.1893).</li></ul><p><b>Checks</b></p><ul><li>Höfer's route against the diary: 143 of 170 diary days name the same place by string, 14 differ (spelling or OCR, read by an AI agent; not checked by a person).</li></ul><p><b>Sources</b></p><ul><li>Regina Höfer (ed.): Imperial Sightseeing. Die Indienreise von Erzherzog Franz Ferdinand von Österreich-Este. Wien 2010. doi:10.11588/xarep.00001404. Its route overview (Reiseübersicht, after the diary's appendices: vol. I Anh. III pp. 561–564, vol. II Anh. pp. 549–563). <a href='https://doi.org/10.11588/xarep.00001404' target='_blank' rel='nofollow ugc noopener noreferrer'>https://doi.org/10.11588/xarep.00001404</a> (in copyright; only dates, places and page numbers are used, no text or images)</li><li>Franz Ferdinand von Österreich-Este: Tagebuch meiner Reise um die Erde 1892–1893. 2 vols. Wien: Alfred Hölder, 1895. Scans: Internet Archive, vol. 1 tagebuchmeinerr01ferdgoog, vol. 2 tagebuchmeinerr00ferdgoog (Google digitisation; archive.org status: not in copyright). Also Biodiversity Heritage Library, doi:10.5962/bhl.title.130758. <a href='https://archive.org/details/tagebuchmeinerr01ferdgoog' target='_blank' rel='nofollow ugc noopener noreferrer'>https://archive.org/details/tagebuchmeinerr01ferdgoog</a> (public domain (scans); OCR text by the Internet Archive)</li><li>KHM team, Hack the Pool 2026: research vault (Obsidian), normalised JSON (normalization/json) and enrichment pipeline (Kriegsmarine/enrichment), branch khm-team at commits b5e1464 and a4b8b5a (see each layer). Public repository on GitHub. <a href='https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine' target='_blank' rel='nofollow ugc noopener noreferrer'>https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine</a></li><li>GeoNames geographical database. Coordinates and today's names of stations and of places in the diary's day headings. <a href='https://www.geonames.org/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.geonames.org/</a> (CC BY 4.0)</li><li>Kulturpool: search API (api.kulturpool.at/search), queried 27 October 2026; portal search kulturpool.at/suche. Number of records naming a station and dated 1890–1895; link to the portal search per station. <a href='https://kulturpool.at/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://kulturpool.at/</a> (licence per record (shown in the pop-up))</li></ul><p><i>Counted on the live layer 2026-10-28; team data commit b5e1464; inputs unchanged at a4b8b5a; corrections of 28.10. (see above).</i></p>",
+  "accessInformation": "Höfer (ed.) 2010; Franz Ferdinand, Tagebuch 1895 (Internet Archive); KHM team, Hack the Pool 2026; GeoNames; Kulturpool",
+  "licenseInfo": "<ul><li>Höfer (ed.) 2010: in copyright; only dates, places and page numbers are used, no text or images</li><li>Franz Ferdinand, Tagebuch 1895 (Internet Archive): public domain (scans); OCR text by the Internet Archive</li><li>GeoNames: CC BY 4.0</li><li>Kulturpool: licence per record (shown in the pop-up)</li></ul>",
+  "tags": [
+   "Hack the Pool 2026",
+   "Kaiserin Elisabeth",
+   "1892-93"
+  ],
+  "access": "public",
+  "created": 1793139418000,
+  "modified": 1793185042000
+ },
+ "KE1893_hunts": {
+  "id": "53d27a6c989d423ab71bb0b13e5f42ee",
+  "title": "KE 1892-93 Jagden",
+  "type": "Feature Service",
+  "snippet": "Hunts (according to the diary): 18 hunting episodes, defined by the team. Status: machine-made, unchecked.",
+  "description": "<p><b>Hunts (according to the diary).</b> 18 hunting episodes, defined by the team.</p><p><b>Status:</b> machine-made, unchecked.</p><p><b>How it was made</b></p><ul><li>Size of the symbol = number of kill sentences, found automatically by keywords in the OCR text. Animal list = animals mentioned in those sentences.</li><li>Press count = ANNO clippings the enrichment pipeline matched to the hunt.</li></ul><p><b>Checks</b></p><ul><li>No check by a person yet.</li></ul><p><b>Sources</b></p><ul><li>Franz Ferdinand von Österreich-Este: Tagebuch meiner Reise um die Erde 1892–1893. 2 vols. Wien: Alfred Hölder, 1895. Scans: Internet Archive, vol. 1 tagebuchmeinerr01ferdgoog, vol. 2 tagebuchmeinerr00ferdgoog (Google digitisation; archive.org status: not in copyright). Also Biodiversity Heritage Library, doi:10.5962/bhl.title.130758. <a href='https://archive.org/details/tagebuchmeinerr01ferdgoog' target='_blank' rel='nofollow ugc noopener noreferrer'>https://archive.org/details/tagebuchmeinerr01ferdgoog</a> (public domain (scans); OCR text by the Internet Archive)</li><li>KHM team, Hack the Pool 2026: research vault (Obsidian), normalised JSON (normalization/json) and enrichment pipeline (Kriegsmarine/enrichment), branch khm-team at commits b5e1464 and a4b8b5a (see each layer). Public repository on GitHub. <a href='https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine' target='_blank' rel='nofollow ugc noopener noreferrer'>https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine</a></li><li>ANNO – AustriaN Newspapers Online, Österreichische Nationalbibliothek. REST search (anno-suche), issues December 1892 – October 1893; selection by the team's enrichment pipeline. <a href='https://anno.onb.ac.at/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://anno.onb.ac.at/</a> (link and short quotation only)</li></ul><p><i>Counted on the live layer 2026-10-28; team data commit b5e1464, Nepal coordinate note from a4b8b5a.</i></p>",
+  "accessInformation": "Franz Ferdinand, Tagebuch 1895 (Internet Archive); KHM team, Hack the Pool 2026; ANNO/ÖNB",
+  "licenseInfo": "<ul><li>Franz Ferdinand, Tagebuch 1895 (Internet Archive): public domain (scans); OCR text by the Internet Archive</li><li>ANNO/ÖNB: link and short quotation only</li></ul>",
+  "tags": [
+   "Hack the Pool 2026",
+   "Kaiserin Elisabeth",
+   "1892-93"
+  ],
+  "access": "public",
+  "created": 1793139475000,
+  "modified": 1793181612000
+ },
+ "KE1893_kills": {
+  "id": "5cccd75ead8f4e42901c3e0439393928",
+  "title": "KE 1892-93 Abschuss-Einträge (Tagebuch)",
+  "type": "Feature Service",
+  "snippet": "Kill entries in the diary (per day): 65 diary days with kill sentences; 4 lie outside any hunt place and are marked. Status: machine-made, unchecked.",
+  "description": "<p><b>Kill entries in the diary (per day).</b> 65 diary days with kill sentences; 4 lie outside any hunt place and are marked.</p><p><b>Status:</b> machine-made, unchecked.</p><p><b>How it was made</b></p><ul><li>Found automatically by keywords in the OCR text (team file hunt_entries.json); the quote is the OCR sentence, the link opens the scan.</li><li>Entries whose hunting place has no coordinate in the team data sit at the point of the same diary day (corrected on 28 October 2026; before, they lay at 0°/0°).</li></ul><p><b>Checks</b></p><ul><li>No check by a person yet.</li></ul><p><b>Sources</b></p><ul><li>Franz Ferdinand von Österreich-Este: Tagebuch meiner Reise um die Erde 1892–1893. 2 vols. Wien: Alfred Hölder, 1895. Scans: Internet Archive, vol. 1 tagebuchmeinerr01ferdgoog, vol. 2 tagebuchmeinerr00ferdgoog (Google digitisation; archive.org status: not in copyright). Also Biodiversity Heritage Library, doi:10.5962/bhl.title.130758. <a href='https://archive.org/details/tagebuchmeinerr01ferdgoog' target='_blank' rel='nofollow ugc noopener noreferrer'>https://archive.org/details/tagebuchmeinerr01ferdgoog</a> (public domain (scans); OCR text by the Internet Archive)</li><li>KHM team, Hack the Pool 2026: research vault (Obsidian), normalised JSON (normalization/json) and enrichment pipeline (Kriegsmarine/enrichment), branch khm-team at commits b5e1464 and a4b8b5a (see each layer). Public repository on GitHub. <a href='https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine' target='_blank' rel='nofollow ugc noopener noreferrer'>https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine</a></li></ul><p><i>Counted on the live layer 2026-10-28; team data commit b5e1464; inputs unchanged at a4b8b5a; corrections of 28.10. (see above).</i></p>",
+  "accessInformation": "Franz Ferdinand, Tagebuch 1895 (Internet Archive); KHM team, Hack the Pool 2026",
+  "licenseInfo": "<ul><li>Franz Ferdinand, Tagebuch 1895 (Internet Archive): public domain (scans); OCR text by the Internet Archive</li></ul>",
+  "tags": [
+   "Hack the Pool 2026",
+   "Kaiserin Elisabeth",
+   "1892-93"
+  ],
+  "access": "public",
+  "created": 1793146168000,
+  "modified": 1793185045000
+ },
+ "KE1893_objects": {
+  "id": "32d663a04d8f4e82b2913c368fef4ad7",
+  "title": "KE 1892-93 Sammlung Este (Vorschläge mit Beleg)",
+  "type": "Feature Service",
+  "snippet": "Este collection: purchase or gift documented: The map shows 18 of 136 placed objects: only links rated 'strong' (purchase or gift named in the diary). 118 'medium' links are hidden. Status: machine-made, unchecked (proposals with evidence).",
+  "description": "<p><b>Este collection: purchase or gift documented.</b> The map shows 18 of 136 placed objects: only links rated 'strong' (purchase or gift named in the diary). 118 'medium' links are hidden.</p><p><b>Status:</b> machine-made, unchecked (proposals with evidence).</p><p><b>How it was made</b></p><ul><li>Objects of the Weltmuseum Wien's Este inventory, placed via the diary day the team's pipeline linked them to.</li></ul><p><b>Checks</b></p><ul><li>No check by a person yet.</li></ul><p><b>Sources</b></p><ul><li>Weltmuseum Wien: photo collection (VF numbers) and the Este inventory (VO numbers), online object pages. weltmuseumwien.at/objekte/&lt;id&gt;; object lists compiled by the KHM team (bilder.json, objekte.json). <a href='https://www.weltmuseumwien.at/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.weltmuseumwien.at/</a> (per record; see Europeana for the photographs)</li><li>Franz Ferdinand von Österreich-Este: Tagebuch meiner Reise um die Erde 1892–1893. 2 vols. Wien: Alfred Hölder, 1895. Scans: Internet Archive, vol. 1 tagebuchmeinerr01ferdgoog, vol. 2 tagebuchmeinerr00ferdgoog (Google digitisation; archive.org status: not in copyright). Also Biodiversity Heritage Library, doi:10.5962/bhl.title.130758. <a href='https://archive.org/details/tagebuchmeinerr01ferdgoog' target='_blank' rel='nofollow ugc noopener noreferrer'>https://archive.org/details/tagebuchmeinerr01ferdgoog</a> (public domain (scans); OCR text by the Internet Archive)</li><li>KHM team, Hack the Pool 2026: research vault (Obsidian), normalised JSON (normalization/json) and enrichment pipeline (Kriegsmarine/enrichment), branch khm-team at commits b5e1464 and a4b8b5a (see each layer). Public repository on GitHub. <a href='https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine' target='_blank' rel='nofollow ugc noopener noreferrer'>https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine</a></li></ul><p><i>Counted on the live layer 2026-10-28; team data commit b5e1464; inputs unchanged at a4b8b5a.</i></p>",
+  "accessInformation": "Weltmuseum Wien; Franz Ferdinand, Tagebuch 1895 (Internet Archive); KHM team, Hack the Pool 2026",
+  "licenseInfo": "<ul><li>Weltmuseum Wien: per record; see Europeana for the photographs</li><li>Franz Ferdinand, Tagebuch 1895 (Internet Archive): public domain (scans); OCR text by the Internet Archive</li></ul>",
+  "tags": [
+   "Hack the Pool 2026",
+   "Kaiserin Elisabeth",
+   "1892-93"
+  ],
+  "access": "public",
+  "created": 1793144319000,
+  "modified": 1793181616000
+ },
+ "KE1893_press": {
+  "id": "46dbaff0a0ea4deab74859ae26880b1e",
+  "title": "KE 1892-93 Presse (ANNO, ungeprüft)",
+  "type": "Feature Service",
+  "snippet": "Press (ANNO, unchecked): 104 newspaper clippings; relevance high 64, medium 40. Status: machine-made, unchecked.",
+  "description": "<p><b>Press (ANNO, unchecked).</b> 104 newspaper clippings; relevance high 64, medium 40.</p><p><b>Status:</b> machine-made, unchecked.</p><p><b>How it was made</b></p><ul><li>Found and matched to the voyage by the team's enrichment pipeline in the OCR text of ANNO; placed at the place of the event, dated by publication.</li><li>Papers from the whole monarchy, not only Vienna.</li></ul><p><b>Checks</b></p><ul><li>No check by a person yet.</li></ul><p><b>Sources</b></p><ul><li>ANNO – AustriaN Newspapers Online, Österreichische Nationalbibliothek. REST search (anno-suche), issues December 1892 – October 1893; selection by the team's enrichment pipeline. <a href='https://anno.onb.ac.at/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://anno.onb.ac.at/</a> (link and short quotation only)</li><li>KHM team, Hack the Pool 2026: research vault (Obsidian), normalised JSON (normalization/json) and enrichment pipeline (Kriegsmarine/enrichment), branch khm-team at commits b5e1464 and a4b8b5a (see each layer). Public repository on GitHub. <a href='https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine' target='_blank' rel='nofollow ugc noopener noreferrer'>https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine</a></li></ul><p><i>Counted on the live layer 2026-10-28; team data commit b5e1464; inputs unchanged at a4b8b5a.</i></p>",
+  "accessInformation": "ANNO/ÖNB; KHM team, Hack the Pool 2026",
+  "licenseInfo": "<ul><li>ANNO/ÖNB: link and short quotation only</li></ul>",
+  "tags": [
+   "Hack the Pool 2026",
+   "Kaiserin Elisabeth",
+   "1892-93"
+  ],
+  "access": "public",
+  "created": 1793142406000,
+  "modified": 1793181617000
+ },
+ "KE1893_photos_all": {
+  "id": "83168e4e37ed442698036078788680d2",
+  "title": "KE 1892-93 Fotos (alle)",
+  "type": "Feature Service",
+  "snippet": "Photographs, Weltmuseum Wien: 357 of the team's 408 photographs are placed (128 with a day date, shown with the time slider; the rest in the layer 'ohne Tagesdatum'). 51 name only a region and are not on the map. Status: rule-based (place), licence per record.",
+  "description": "<p><b>Photographs, Weltmuseum Wien.</b> 357 of the team's 408 photographs are placed (128 with a day date, shown with the time slider; the rest in the layer 'ohne Tagesdatum'). 51 name only a region and are not on the map.</p><p><b>Status:</b> rule-based (place), licence per record.</p><p><b>How it was made</b></p><ul><li>Point = the place the museum or the team names, not Franz Ferdinand's position.</li><li>Place tiers: A 236 team gazetteer (route place), A2 6 same via the museum's geography, B 96 Wikidata, T 19 Nepal Terai hunt camp (approximate).</li><li>Licence: 109 photos (108 Europeana records) carry CC BY-NC-SA 4.0 with attribution in the caption; 248 read 'Lizenz nicht geprüft' and are shown with that label (owner decision 28 October 2026; rights not cleared).</li><li>Photos whose museum geography is 'Livingston' had been placed in Livingston, New Jersey by a GeoNames match; on 28 October they were moved to the team's hand-set Livingston, Montana (diary day 20.9.1893), after the team removed the wrong GeoNames entry.</li></ul><p><b>Checks</b></p><ul><li>Day-dated photos against the route: 15 of 15 fit by date and country (read by an AI agent; not checked by a person).</li></ul><p><b>Sources</b></p><ul><li>Weltmuseum Wien: photo collection (VF numbers) and the Este inventory (VO numbers), online object pages. weltmuseumwien.at/objekte/&lt;id&gt;; object lists compiled by the KHM team (bilder.json, objekte.json). <a href='https://www.weltmuseumwien.at/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.weltmuseumwien.at/</a> (per record; see Europeana for the photographs)</li><li>Europeana: records of the Weltmuseum Wien photographs of the voyage, delivered through Kulturpool. Licence statement per record (the map shows it in the photo caption). <a href='https://www.europeana.eu/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.europeana.eu/</a> (CC BY-NC-SA 4.0 for the labelled photographs (per record))</li><li>KHM team, Hack the Pool 2026: research vault (Obsidian), normalised JSON (normalization/json) and enrichment pipeline (Kriegsmarine/enrichment), branch khm-team at commits b5e1464 and a4b8b5a (see each layer). Public repository on GitHub. <a href='https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine' target='_blank' rel='nofollow ugc noopener noreferrer'>https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine</a></li><li>Wikidata. Coordinates of route places, hunting places and places the museum names. <a href='https://www.wikidata.org/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.wikidata.org/</a> (CC0)</li></ul><p><i>Counted on the live layer 2026-10-28; team data commit b5e1464, Livingston corrected after a4b8b5a.</i></p>",
+  "accessInformation": "Weltmuseum Wien; Europeana; KHM team, Hack the Pool 2026; Wikidata",
+  "licenseInfo": "<ul><li>Weltmuseum Wien: per record; see Europeana for the photographs</li><li>Europeana: CC BY-NC-SA 4.0 for the labelled photographs (per record)</li><li>Wikidata: CC0</li></ul>",
+  "tags": [
+   "Hack the Pool 2026",
+   "Kaiserin Elisabeth",
+   "1892-93"
+  ],
+  "access": "public",
+  "created": 1793145995000,
+  "modified": 1793184716000
+ }
+}

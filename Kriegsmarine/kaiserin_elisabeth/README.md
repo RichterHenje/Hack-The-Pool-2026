@@ -13,8 +13,8 @@ Direkt im Browser öffnen (ohne Server; `reise.html` lädt als Hintergrund Karte
 | --- | --- |
 | `prototype/reise.html` | **Weltreise 1892–93 Tag für Tag**: Route nach dem Tagebuch, Tageskarten mit Scan-Link, Ebene „Jagd“ (Sätze vom Erlegen/Schießen im Wortlaut), Kulturpool, Presse (ANNO). Direktlink zu einem Tag: `reise.html#1893-01-11` |
 | `prototype/geschichte.html` | **Jagdreise 1892–93 als Geschichte**: nur die Fahrt mit S.M.S. Kaiserin Elisabeth bis Yokohama (24.8.1893), in Kapiteln entlang der 18 Jagden und der Strecken dazwischen; großer Text mit Foto, Tagebuch-Zitaten, Presse, lebenden Tieren und Objekten, kleine Karte (Karte 1872) und einzeilige Zeitleiste. Die 55 Tage danach (ohne das Schiff) nur als Epilog und graue Linie. Gleiche Daten wie `reise.html` (`data/ke_enrichment.js`). Direktlink zu einem Kapitel: `geschichte.html#hunt-1893-03-09-nepal` |
-| `prototype/ueber.html` | **Über das Projekt**: Ziel, Weg der Daten (Quellen → Normalisierung → Anreicherung → Prüfung → Erzählung, Zahlen live aus `data/ke_enrichment.js`), beteiligte Institutionen mit Logos (Kulturpool, ÖNB, KHM-Museumsverband; `img/logos/`, Marken der Institutionen), Team, Grenzen. Gestaltung wie `geschichte.html` im Kulturpool-Stil (`geschichte.css`) |
-| `prototype/index.html` | alle Reisen des Schiffs 1892–1914 aus dem Vault, Kulturpool-Treffer je Station. Direktlink: `index.html#stop=Bombay` |
+| `prototype/index.html` | **Startseite**: wie die Daten entstanden (Quellen, Normalisierung, Anreicherung, Prüfung; Zahlen live aus `data/ke_enrichment.js`), drei Ansichten als Kacheln mit Vorschau (`img/previews/`: Geschichte, Reise Tag für Tag, offene Daten in ArcGIS), Leiste „Hack the Pool 2026“ mit Kulturpool, ACDH-CH (ÖAW) und CLARIAH-AT, Institutionen mit Logos, Literatur (Tagebuch, Höfer 2010) (`img/logos/`: Kulturpool, ÖNB, Weltmuseum Wien, Europeana, CLARIAH-AT von deren Websites, ACDH-CH von Wikimedia Commons unter CC BY-SA 4.0; Marken der Institutionen), Team, Grenzen. Die ArcGIS-Kachel verlinkt Leanders StoryMap „Who was hunted?“ (https://arcg.is/0DXKX), die Kartenebenen liegen in `prototype/arcgis/` |
+| `prototype/schiff.html` | erster Prototyp (früher `index.html`): alle Reisen des Schiffs 1892–1914 aus dem Vault, Kulturpool-Treffer je Station. Direktlink: `schiff.html#stop=Bombay` |
 
 ## Was die Daten zeigen (Stand 27.10.2026)
 
@@ -70,9 +70,9 @@ Python 3.13, [uv](https://docs.astral.sh/uv/), im Ordner `Kriegsmarine/kaiserin_
 
 ```
 uv run python -m scripts.ke_diary           # Tagebuch -> Tagesroute, Jagdsätze, Presse (reise.html)
-uv run python -m scripts.ke_itinerary       # Reisen aus dem Vault -> Stationen, Linien (index.html)
+uv run python -m scripts.ke_itinerary       # Reisen aus dem Vault -> Stationen, Linien (schiff.html)
 uv run python -m scripts.ke_places_lpf      # historische Ortsnamen (Linked Places)
-uv run python -m scripts.ke_stop_records    # Kulturpool-Treffer je Station (index.html)
+uv run python -m scripts.ke_stop_records    # Kulturpool-Treffer je Station (schiff.html)
 uv run python -m scripts.ke_related         # thematische Kulturpool-Suche -> analysis/
 uv run python -m scripts.ke_arcgis_pack     # Layer für ArcGIS Online
 uv run python -m scripts.vault_review       # Auffälligkeiten im Vault
@@ -80,7 +80,7 @@ uv run python -m scripts.vault_clean ../Vault/Archive_Indien_Schiffreisen --repo
 uv run --group dev pytest -q
 ```
 
-Datenstand: Vault `c76376a` (index.html), Tagebuch-Quellen `7ccdfa9` (reise.html).
+Datenstand: Vault `c76376a` (schiff.html), Tagebuch-Quellen `7ccdfa9` (reise.html).
 Das Ortsverzeichnis (GeoNames) wird beim ersten Lauf nach `data/` geladen (nicht im Repo).
 
 ## Inhalt
