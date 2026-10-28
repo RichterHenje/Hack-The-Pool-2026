@@ -1,0 +1,25 @@
+---
+type: person
+id: ke-person-4ba62b4b6a
+created_by: ai-assisted
+checked: false
+---
+- Titel: Ritter von
+- Lebensdaten:
+- Beruf/Funktionen: L. Sch. L.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: L. Sch. L. (Rangliste 1896, ohne Datum)
+	- Rolle: L. Sch. L. (seit 25. März 1896)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1896-03-15__pages161-162.pdf (S. 160–161)
+- Quelle: RangUndEinteilungslisteMarine_1896-05-15__pages149-150.pdf (S. 148–149 bzw. 157–158)
+- Quelle: RangUndEinteilungslisteMarine_1896-05-15__pages158-159.pdf (S. 148–149 bzw. 157–158)

@@ -1,0 +1,1125 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.8456,
+      44.8703
+     ],
+     [
+      13.7703,
+      45.6503
+     ],
+     [
+      32.3061,
+      31.2625
+     ],
+     [
+      79.8606,
+      6.9267
+     ],
+     [
+      80.635,
+      7.2931
+     ],
+     [
+      80.5563,
+      8.0135
+     ],
+     [
+      72.8775,
+      19.0758
+     ],
+     [
+      77.58,
+      17.23
+     ],
+     [
+      78.4747,
+      17.3617
+     ],
+     [
+      78.1775,
+      26.2125
+     ],
+     [
+      88.37,
+      22.5675
+     ],
+     [
+      88.2631,
+      27.0375
+     ],
+     [
+      78.02,
+      27.18
+     ],
+     [
+      77.2167,
+      28.6667
+     ],
+     [
+      76.4369,
+      27.3175
+     ],
+     [
+      73.0278,
+      26.2944
+     ],
+     [
+      75.82,
+      26.915
+     ],
+     [
+      79.7667,
+      28.6333
+     ],
+     [
+      80.177,
+      28.869
+     ],
+     [
+      80.6647,
+      28.6826
+     ],
+     [
+      103.8,
+      1.3
+     ],
+     [
+      106.8269,
+      -6.1753
+     ],
+     [
+      107.8876,
+      -7.2047
+     ],
+     [
+      106.7993,
+      -6.5978
+     ],
+     [
+      107.1401,
+      -6.8212
+     ],
+     [
+      107.1,
+      -7.3
+     ],
+     [
+      142.22,
+      -10.5789
+     ],
+     [
+      151.21,
+      -33.8678
+     ],
+     [
+      148.2333,
+      -32.2333
+     ],
+     [
+      147.4802,
+      -31.7118
+     ],
+     [
+      150.0011,
+      -34.715
+     ],
+     [
+      166.45,
+      -22.2667
+     ],
+     [
+      162.4636,
+      -10.8283
+     ],
+     [
+      147.1494,
+      -9.4789
+     ],
+     [
+      134.5,
+      -6.2
+     ],
+     [
+      128.1783,
+      -3.6967
+     ],
+     [
+      126.6322,
+      -3.4458
+     ],
+     [
+      103.8,
+      1.3
+     ],
+     [
+      114.1586,
+      22.2783
+     ],
+     [
+      113.26,
+      23.13
+     ],
+     [
+      129.8796,
+      32.7495
+     ],
+     [
+      130.7079,
+      32.803
+     ],
+     [
+      130.9413,
+      33.9579
+     ],
+     [
+      135.7681,
+      35.0116
+     ],
+     [
+      136.9064,
+      35.1814
+     ],
+     [
+      139.0572,
+      35.2417
+     ],
+     [
+      139.6917,
+      35.6894
+     ],
+     [
+      139.6982,
+      36.7198
+     ],
+     [
+      139.6342,
+      35.4503
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Route der Weltreise laut Vault (Reihenfolge der Ortsnotizen)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.8456,
+     44.8703
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-4ebbd66048",
+    "label": "Pola, Istrien",
+    "route_positions": [
+     1
+    ],
+    "wikidata": "Q4656",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.7703,
+     45.6503
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-082e80f4dd",
+    "label": "Triest",
+    "route_positions": [
+     2
+    ],
+    "wikidata": "Q546",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.3061,
+     31.2625
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-30c32adc7f",
+    "label": "Port Said",
+    "route_positions": [
+     3
+    ],
+    "wikidata": "Q134509",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.8606,
+     6.9267
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-5465531c5a",
+    "label": "Colombo (Hauptstadt, Sri Lanka)",
+    "route_positions": [
+     4
+    ],
+    "wikidata": "Q35381",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.635,
+     7.2931
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-b0bb1cc60a",
+    "label": "Kandy, Sri Lanka",
+    "route_positions": [
+     5
+    ],
+    "wikidata": "Q203197",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.5563,
+     8.0135
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-f7bc511558",
+    "label": "Kala Wewa, Sri Lanka",
+    "route_positions": [
+     6
+    ],
+    "wikidata": "Q7354820",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.8775,
+     19.0758
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-88273659d6",
+    "label": "Bombay (Indien, Heut. Mumbai)",
+    "route_positions": [
+     7
+    ],
+    "wikidata": "Q1156",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-eb5c1a35e4",
+    "label": "Tandur, Telangana, Indien",
+    "route_positions": [
+     8
+    ],
+    "wikidata": "Q720922",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.4747,
+     17.3617
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-f2704ec7e8",
+    "label": "Nizamate of Hyderabad, State, (Indien)",
+    "route_positions": [
+     9
+    ],
+    "wikidata": "Q1361",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.1775,
+     26.2125
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-c16efe6ffc",
+    "label": "Gwalior, (Madhya Pradesh, Indien)",
+    "route_positions": [
+     10
+    ],
+    "wikidata": "Q158467",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.37,
+     22.5675
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-86d6613db1",
+    "label": "Calcutta (Indien)",
+    "route_positions": [
+     11
+    ],
+    "wikidata": "Q1348",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.2631,
+     27.0375
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-2ae78b9ae3",
+    "label": "Darjeeling, (West Bengal, Indien)",
+    "route_positions": [
+     12
+    ],
+    "wikidata": "Q169997",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.02,
+     27.18
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-25cf049ce2",
+    "label": "Agra, (U.P.), Indien",
+    "route_positions": [
+     13
+    ],
+    "wikidata": "Q42941",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.2167,
+     28.6667
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-1cae542c46",
+    "label": "Delhi (Indien)",
+    "route_positions": [
+     14
+    ],
+    "wikidata": "Q1353",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.4369,
+     27.3175
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-224c44805c",
+    "label": "Alwar, Rajputana (Indien)",
+    "route_positions": [
+     15
+    ],
+    "wikidata": "Q2572177",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0278,
+     26.2944
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-21307d9f52",
+    "label": "Jodhpur, Rajasthan, Indien",
+    "route_positions": [
+     16
+    ],
+    "wikidata": "Q200019",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.82,
+     26.915
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-342139a06d",
+    "label": "Jaipur (Jeypore), Rajasthan, Indien",
+    "route_positions": [
+     17
+    ],
+    "wikidata": "Q66485",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.7667,
+     28.6333
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-e0a92fe46e",
+    "label": "Pilibhit, (U.P. Indien)",
+    "route_positions": [
+     18
+    ],
+    "wikidata": "Q1197824",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.177,
+     28.869
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-4bfd653020",
+    "label": "Dakna Bâgh, Nepal",
+    "route_positions": [
+     19
+    ],
+    "wikidata": "Q28981",
+    "coord_note": "camp, estimated: diary: Barbatta 10 km south-east, Pilibhit 41 km (places.json camps)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.6647,
+     28.6826
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-2b7becd30b",
+    "label": "Beli, Nepal",
+    "route_positions": [
+     20
+    ],
+    "wikidata": "Q28981",
+    "coord_note": "camp, geonames: Beli, Kailali; 24 km from Gulariya (diary: 23 km east) (places.json camps)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8,
+     1.3
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-b5dd2d88e4",
+    "label": "Singapur",
+    "route_positions": [
+     21,
+     39
+    ],
+    "wikidata": "Q334",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8269,
+     -6.1753
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-9d5ffe029c",
+    "label": "Batavia (heut. Jakarta, Indonesien)",
+    "route_positions": [
+     22
+    ],
+    "wikidata": "Q3630",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.8876,
+     -7.2047
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-1dc0928819",
+    "label": "Garut, Indonesien",
+    "route_positions": [
+     23
+    ],
+    "wikidata": "Q10371",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.7993,
+     -6.5978
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-f53ce2eb94",
+    "label": "Buitenzog, ( heut. Bogor, Indonesien)",
+    "route_positions": [
+     24
+    ],
+    "wikidata": "Q10393",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.1401,
+     -6.8212
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-18f3651c25",
+    "label": "Tjiandjur (heut. Cianjur, Indonesien)",
+    "route_positions": [
+     25
+    ],
+    "wikidata": "Q10367",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.1,
+     -7.3
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-680627ae16",
+    "label": "Tjipandak, (heut. Cipandak, Indoensien)",
+    "route_positions": [
+     26
+    ],
+    "wikidata": "Q10367",
+    "coord_note": "approximate: southern Cianjur Regency"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.22,
+     -10.5789
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-700e9ec3d4",
+    "label": "Port Kennedy, Australien",
+    "route_positions": [
+     27
+    ],
+    "wikidata": "Q556632",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.21,
+     -33.8678
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-f2d0a8a14c",
+    "label": "Sydney, Australien",
+    "route_positions": [
+     28
+    ],
+    "wikidata": "Q3130",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.2333,
+     -32.2333
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-daf25f722e",
+    "label": "Narromine, Australien",
+    "route_positions": [
+     29
+    ],
+    "wikidata": "Q610975",
+    "coord_note": "Narromine Shire (no item for the town)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.4802,
+     -31.7118
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-1c687368ce",
+    "label": "Mullengudgerey, Australien",
+    "route_positions": [
+     30
+    ],
+    "wikidata": "Q55178659",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.0011,
+     -34.715
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-4d42aa16b3",
+    "label": "Arthurs Leigh Badgery Station, Australien",
+    "route_positions": [
+     31
+    ],
+    "wikidata": "Q6777932",
+    "coord_note": "approximate: Marulan, NSW"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     166.45,
+     -22.2667
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-a917f81cd7",
+    "label": "Nouméa, Neukaledonien",
+    "route_positions": [
+     32
+    ],
+    "wikidata": "Q9733",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     162.4636,
+     -10.8283
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-17b0dc9d30",
+    "label": "Owaraha, Salomonen Inseln",
+    "route_positions": [
+     33
+    ],
+    "wikidata": "Q2042567",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1494,
+     -9.4789
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-d6c0ce20e1",
+    "label": "Port Moresby, Papa Neuguinea",
+    "route_positions": [
+     34
+    ],
+    "wikidata": "Q36526",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.5,
+     -6.2
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-f58a8c8654",
+    "label": "Dobo, Aru Inseln,  Indonesien",
+    "route_positions": [
+     35
+    ],
+    "wikidata": null,
+    "coord_note": "approximate"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     128.1783,
+     -3.6967
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-b4d317ce78",
+    "label": "Amboina (heut. Ambon, Indonesien)",
+    "route_positions": [
+     36
+    ],
+    "wikidata": "Q18970",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.6322,
+     -3.4458
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-2f6495b24a",
+    "label": "Kajeli (heut. Buru, Indonesien)",
+    "route_positions": [
+     37
+    ],
+    "wikidata": "Q271030",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.1586,
+     22.2783
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-12cf75bc95",
+    "label": "Hong Kong, China",
+    "route_positions": [
+     40
+    ],
+    "wikidata": "Q8646",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.26,
+     23.13
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-d265df6074",
+    "label": "Kanton, (heut. Guangzhou, China)",
+    "route_positions": [
+     41
+    ],
+    "wikidata": "Q16572",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     129.8796,
+     32.7495
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-3c9cd8347f",
+    "label": "Nagasaki, Japan",
+    "route_positions": [
+     42
+    ],
+    "wikidata": "Q38234",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.7079,
+     32.803
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-bc43c108d7",
+    "label": "Kumamoto, Japan",
+    "route_positions": [
+     43
+    ],
+    "wikidata": "Q199889",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.9413,
+     33.9579
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-a85d6abc04",
+    "label": "Shimonoseki, Japan",
+    "route_positions": [
+     44
+    ],
+    "wikidata": "Q203308",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.7681,
+     35.0116
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-e7ab519b7b",
+    "label": "Kyoto, Japan",
+    "route_positions": [
+     45
+    ],
+    "wikidata": "Q34600",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.9064,
+     35.1814
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-bf4b761ca2",
+    "label": "Nagoya, Japan",
+    "route_positions": [
+     46
+    ],
+    "wikidata": "Q11751",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.0572,
+     35.2417
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-67123d23d2",
+    "label": "Miyanoshita, Japan",
+    "route_positions": [
+     47
+    ],
+    "wikidata": "Q35490179",
+    "coord_note": "Miyanoshita Onsen (spa town item)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6894
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-ec8603ac85",
+    "label": "Tokyo, Japan",
+    "route_positions": [
+     48
+    ],
+    "wikidata": "Q1490",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6982,
+     36.7198
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-4d938ab530",
+    "label": "Nikko, Japan",
+    "route_positions": [
+     49
+    ],
+    "wikidata": "Q235753",
+    "coord_note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6342,
+     35.4503
+    ]
+   },
+   "properties": {
+    "vault_id": "ke-place-5971a13f73",
+    "label": "Yokohama, Japan",
+    "route_positions": [
+     50
+    ],
+    "wikidata": "Q38283",
+    "coord_note": null
+   }
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 606 468" width="606" height="468" role="img">
+<title>Tiernennungen in Jagdsätzen nach Art und Monat</title>
+<style>
+  text { font-family: "IBM Plex Sans", "Segoe UI", Arial, sans-serif; }
+  .col { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; fill: #586b7c; }
+  .src { fill: none; stroke: #9db0bf; stroke-width: 1.5; }
+  .step { fill: #dfe9f0; stroke: none; }
+  .sep { stroke: #9db0bf; stroke-width: 1; }
+  .out { fill: #14283b; }
+  .review { fill: none; stroke: #a8680f; stroke-width: 1.5; stroke-dasharray: 6 4; }
+  .t { font-size: 13px; font-weight: 600; fill: #14283b; }
+  .s { font-size: 11px; font-weight: 400; fill: #586b7c; }
+  .t-out { font-size: 13px; font-weight: 600; fill: #f2f5f7; }
+  .s-out { font-size: 11px; font-weight: 400; fill: #f2f5f7; opacity: 0.8; }
+  .t-rev { font-size: 12px; font-weight: 600; fill: #a8680f; }
+  .flow { fill: none; stroke: #14283b; stroke-width: 1.4; }
+  .sea { fill: #f2f5f7; }
+  .land { fill: #c4d3de; stroke: none; }
+  .route { fill: none; stroke: #a8680f; stroke-width: 1.6; stroke-linejoin: round; }
+  .dot circle { fill: #14283b; }
+  .frame { fill: none; stroke: #14283b; stroke-width: 1.5; }
+  .lab { font-size: 13px; fill: #14283b; }
+  .val { font-size: 12px; font-weight: 600; fill: #14283b; }
+  .tick { font-size: 11px; fill: #586b7c; }
+  .bar, .data { fill: #1f5c8a; }
+  .empty { fill: #e6edf2; }
+  .grid { stroke: #d3dde5; stroke-width: 1; }
+  .axis { stroke: #586b7c; stroke-width: 1; }
+  .cell { font-size: 12px; font-weight: 600; fill: #14283b; }
+  .cellon { font-size: 12px; font-weight: 600; fill: #f2f5f7; }
+</style>
+<rect width="606" height="468" fill="#f2f5f7" />
+<text x="20" y="30" style="font-family:Georgia,serif;font-size:20px;font-weight:600;fill:#14283b">Tiernennungen in Jagdsätzen nach Art und Monat</text>
+<g transform="translate(0 48)">
+<text class="tick" x="160.0" y="16" text-anchor="middle">Dez</text>
+<text class="tick" x="202.0" y="16" text-anchor="middle">Jan</text>
+<text class="tick" x="244.0" y="16" text-anchor="middle">Feb</text>
+<text class="tick" x="286.0" y="16" text-anchor="middle">Mär</text>
+<text class="tick" x="328.0" y="16" text-anchor="middle">Apr</text>
+<text class="tick" x="370.0" y="16" text-anchor="middle">Mai</text>
+<text class="tick" x="412.0" y="16" text-anchor="middle">Jun</text>
+<text class="tick" x="454.0" y="16" text-anchor="middle">Jul</text>
+<text class="tick" x="496.0" y="16" text-anchor="middle">Aug</text>
+<text class="tick" x="538.0" y="16" text-anchor="middle">Sep</text>
+<text class="tick" x="580.0" y="16" text-anchor="middle">Okt</text>
+<text class="lab" x="130" y="42" text-anchor="end">Wildvogel</text>
+<g><title>Wildvogel, Dez 1892: 1</title><rect class="data" x="140" y="26" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="160.0" y="42" text-anchor="middle">1</text></g>
+<g><title>Wildvogel, Jan 1893: 3</title><rect class="data" x="182" y="26" width="40" height="24" rx="3" fill-opacity="0.51" /><text class="cell" x="202.0" y="42" text-anchor="middle">3</text></g>
+<g><title>Wildvogel, Feb 1893: 3</title><rect class="data" x="224" y="26" width="40" height="24" rx="3" fill-opacity="0.51" /><text class="cell" x="244.0" y="42" text-anchor="middle">3</text></g>
+<g><title>Wildvogel, Mär 1893: 6</title><rect class="data" x="266" y="26" width="40" height="24" rx="3" fill-opacity="0.88" /><text class="cellon" x="286.0" y="42" text-anchor="middle">6</text></g>
+<g><title>Wildvogel, Apr 1893: 3</title><rect class="data" x="308" y="26" width="40" height="24" rx="3" fill-opacity="0.51" /><text class="cell" x="328.0" y="42" text-anchor="middle">3</text></g>
+<g><title>Wildvogel, Mai 1893: 5</title><rect class="data" x="350" y="26" width="40" height="24" rx="3" fill-opacity="0.75" /><text class="cellon" x="370.0" y="42" text-anchor="middle">5</text></g>
+<g><title>Wildvogel, Jun 1893: 6</title><rect class="data" x="392" y="26" width="40" height="24" rx="3" fill-opacity="0.88" /><text class="cellon" x="412.0" y="42" text-anchor="middle">6</text></g>
+<rect class="empty" x="434" y="26" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="26" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="26" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="26" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="68" text-anchor="end">Hirsch</text>
+<rect class="empty" x="140" y="52" width="40" height="24" rx="3" />
+<rect class="empty" x="182" y="52" width="40" height="24" rx="3" />
+<g><title>Hirsch, Feb 1893: 1</title><rect class="data" x="224" y="52" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="244.0" y="68" text-anchor="middle">1</text></g>
+<g><title>Hirsch, Mär 1893: 6</title><rect class="data" x="266" y="52" width="40" height="24" rx="3" fill-opacity="0.88" /><text class="cellon" x="286.0" y="68" text-anchor="middle">6</text></g>
+<g><title>Hirsch, Apr 1893: 2</title><rect class="data" x="308" y="52" width="40" height="24" rx="3" fill-opacity="0.39" /><text class="cell" x="328.0" y="68" text-anchor="middle">2</text></g>
+<rect class="empty" x="350" y="52" width="40" height="24" rx="3" />
+<g><title>Hirsch, Jun 1893: 2</title><rect class="data" x="392" y="52" width="40" height="24" rx="3" fill-opacity="0.39" /><text class="cell" x="412.0" y="68" text-anchor="middle">2</text></g>
+<rect class="empty" x="434" y="52" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="52" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="52" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="52" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="94" text-anchor="end">Tiger</text>
+<rect class="empty" x="140" y="78" width="40" height="24" rx="3" />
+<g><title>Tiger, Jan 1893: 2</title><rect class="data" x="182" y="78" width="40" height="24" rx="3" fill-opacity="0.39" /><text class="cell" x="202.0" y="94" text-anchor="middle">2</text></g>
+<g><title>Tiger, Feb 1893: 2</title><rect class="data" x="224" y="78" width="40" height="24" rx="3" fill-opacity="0.39" /><text class="cell" x="244.0" y="94" text-anchor="middle">2</text></g>
+<g><title>Tiger, Mär 1893: 6</title><rect class="data" x="266" y="78" width="40" height="24" rx="3" fill-opacity="0.88" /><text class="cellon" x="286.0" y="94" text-anchor="middle">6</text></g>
+<rect class="empty" x="308" y="78" width="40" height="24" rx="3" />
+<g><title>Tiger, Mai 1893: 1</title><rect class="data" x="350" y="78" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="370.0" y="94" text-anchor="middle">1</text></g>
+<rect class="empty" x="392" y="78" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="78" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="78" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="78" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="78" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="120" text-anchor="end">Antilope/Gazelle</text>
+<rect class="empty" x="140" y="104" width="40" height="24" rx="3" />
+<rect class="empty" x="182" y="104" width="40" height="24" rx="3" />
+<g><title>Antilope/Gazelle, Feb 1893: 7</title><rect class="data" x="224" y="104" width="40" height="24" rx="3" fill-opacity="1.00" /><text class="cellon" x="244.0" y="120" text-anchor="middle">7</text></g>
+<g><title>Antilope/Gazelle, Mär 1893: 2</title><rect class="data" x="266" y="104" width="40" height="24" rx="3" fill-opacity="0.39" /><text class="cell" x="286.0" y="120" text-anchor="middle">2</text></g>
+<rect class="empty" x="308" y="104" width="40" height="24" rx="3" />
+<rect class="empty" x="350" y="104" width="40" height="24" rx="3" />
+<rect class="empty" x="392" y="104" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="104" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="104" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="104" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="104" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="146" text-anchor="end">Elefant</text>
+<rect class="empty" x="140" y="130" width="40" height="24" rx="3" />
+<g><title>Elefant, Jan 1893: 1</title><rect class="data" x="182" y="130" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="202.0" y="146" text-anchor="middle">1</text></g>
+<rect class="empty" x="224" y="130" width="40" height="24" rx="3" />
+<g><title>Elefant, Mär 1893: 5</title><rect class="data" x="266" y="130" width="40" height="24" rx="3" fill-opacity="0.75" /><text class="cellon" x="286.0" y="146" text-anchor="middle">5</text></g>
+<rect class="empty" x="308" y="130" width="40" height="24" rx="3" />
+<g><title>Elefant, Mai 1893: 1</title><rect class="data" x="350" y="130" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="370.0" y="146" text-anchor="middle">1</text></g>
+<rect class="empty" x="392" y="130" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="130" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="130" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="130" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="130" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="172" text-anchor="end">Fisch/Hai</text>
+<rect class="empty" x="140" y="156" width="40" height="24" rx="3" />
+<g><title>Fisch/Hai, Jan 1893: 1</title><rect class="data" x="182" y="156" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="202.0" y="172" text-anchor="middle">1</text></g>
+<g><title>Fisch/Hai, Feb 1893: 1</title><rect class="data" x="224" y="156" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="244.0" y="172" text-anchor="middle">1</text></g>
+<rect class="empty" x="266" y="156" width="40" height="24" rx="3" />
+<rect class="empty" x="308" y="156" width="40" height="24" rx="3" />
+<g><title>Fisch/Hai, Mai 1893: 1</title><rect class="data" x="350" y="156" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="370.0" y="172" text-anchor="middle">1</text></g>
+<g><title>Fisch/Hai, Jun 1893: 2</title><rect class="data" x="392" y="156" width="40" height="24" rx="3" fill-opacity="0.39" /><text class="cell" x="412.0" y="172" text-anchor="middle">2</text></g>
+<rect class="empty" x="434" y="156" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="156" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="156" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="156" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="198" text-anchor="end">Känguru</text>
+<rect class="empty" x="140" y="182" width="40" height="24" rx="3" />
+<rect class="empty" x="182" y="182" width="40" height="24" rx="3" />
+<rect class="empty" x="224" y="182" width="40" height="24" rx="3" />
+<rect class="empty" x="266" y="182" width="40" height="24" rx="3" />
+<rect class="empty" x="308" y="182" width="40" height="24" rx="3" />
+<g><title>Känguru, Mai 1893: 4</title><rect class="data" x="350" y="182" width="40" height="24" rx="3" fill-opacity="0.63" /><text class="cellon" x="370.0" y="198" text-anchor="middle">4</text></g>
+<rect class="empty" x="392" y="182" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="182" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="182" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="182" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="182" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="224" text-anchor="end">Wildschwein</text>
+<rect class="empty" x="140" y="208" width="40" height="24" rx="3" />
+<rect class="empty" x="182" y="208" width="40" height="24" rx="3" />
+<rect class="empty" x="224" y="208" width="40" height="24" rx="3" />
+<g><title>Wildschwein, Mär 1893: 3</title><rect class="data" x="266" y="208" width="40" height="24" rx="3" fill-opacity="0.51" /><text class="cell" x="286.0" y="224" text-anchor="middle">3</text></g>
+<g><title>Wildschwein, Apr 1893: 1</title><rect class="data" x="308" y="208" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="328.0" y="224" text-anchor="middle">1</text></g>
+<rect class="empty" x="350" y="208" width="40" height="24" rx="3" />
+<rect class="empty" x="392" y="208" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="208" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="208" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="208" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="208" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="250" text-anchor="end">Bär</text>
+<rect class="empty" x="140" y="234" width="40" height="24" rx="3" />
+<rect class="empty" x="182" y="234" width="40" height="24" rx="3" />
+<rect class="empty" x="224" y="234" width="40" height="24" rx="3" />
+<rect class="empty" x="266" y="234" width="40" height="24" rx="3" />
+<rect class="empty" x="308" y="234" width="40" height="24" rx="3" />
+<g><title>Bär, Mai 1893: 3</title><rect class="data" x="350" y="234" width="40" height="24" rx="3" fill-opacity="0.51" /><text class="cell" x="370.0" y="250" text-anchor="middle">3</text></g>
+<rect class="empty" x="392" y="234" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="234" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="234" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="234" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="234" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="276" text-anchor="end">Krokodil/Alligator</text>
+<rect class="empty" x="140" y="260" width="40" height="24" rx="3" />
+<rect class="empty" x="182" y="260" width="40" height="24" rx="3" />
+<rect class="empty" x="224" y="260" width="40" height="24" rx="3" />
+<g><title>Krokodil/Alligator, Mär 1893: 1</title><rect class="data" x="266" y="260" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="286.0" y="276" text-anchor="middle">1</text></g>
+<g><title>Krokodil/Alligator, Apr 1893: 2</title><rect class="data" x="308" y="260" width="40" height="24" rx="3" fill-opacity="0.39" /><text class="cell" x="328.0" y="276" text-anchor="middle">2</text></g>
+<rect class="empty" x="350" y="260" width="40" height="24" rx="3" />
+<rect class="empty" x="392" y="260" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="260" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="260" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="260" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="260" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="302" text-anchor="end">Panther/Leopard</text>
+<rect class="empty" x="140" y="286" width="40" height="24" rx="3" />
+<rect class="empty" x="182" y="286" width="40" height="24" rx="3" />
+<rect class="empty" x="224" y="286" width="40" height="24" rx="3" />
+<g><title>Panther/Leopard, Mär 1893: 3</title><rect class="data" x="266" y="286" width="40" height="24" rx="3" fill-opacity="0.51" /><text class="cell" x="286.0" y="302" text-anchor="middle">3</text></g>
+<rect class="empty" x="308" y="286" width="40" height="24" rx="3" />
+<rect class="empty" x="350" y="286" width="40" height="24" rx="3" />
+<rect class="empty" x="392" y="286" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="286" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="286" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="286" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="286" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="328" text-anchor="end">Schakal/Hyäne</text>
+<rect class="empty" x="140" y="312" width="40" height="24" rx="3" />
+<g><title>Schakal/Hyäne, Jan 1893: 1</title><rect class="data" x="182" y="312" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="202.0" y="328" text-anchor="middle">1</text></g>
+<g><title>Schakal/Hyäne, Feb 1893: 2</title><rect class="data" x="224" y="312" width="40" height="24" rx="3" fill-opacity="0.39" /><text class="cell" x="244.0" y="328" text-anchor="middle">2</text></g>
+<rect class="empty" x="266" y="312" width="40" height="24" rx="3" />
+<rect class="empty" x="308" y="312" width="40" height="24" rx="3" />
+<rect class="empty" x="350" y="312" width="40" height="24" rx="3" />
+<rect class="empty" x="392" y="312" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="312" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="312" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="312" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="312" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="354" text-anchor="end">Affe</text>
+<rect class="empty" x="140" y="338" width="40" height="24" rx="3" />
+<g><title>Affe, Jan 1893: 1</title><rect class="data" x="182" y="338" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="202.0" y="354" text-anchor="middle">1</text></g>
+<rect class="empty" x="224" y="338" width="40" height="24" rx="3" />
+<g><title>Affe, Mär 1893: 1</title><rect class="data" x="266" y="338" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="286.0" y="354" text-anchor="middle">1</text></g>
+<rect class="empty" x="308" y="338" width="40" height="24" rx="3" />
+<rect class="empty" x="350" y="338" width="40" height="24" rx="3" />
+<rect class="empty" x="392" y="338" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="338" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="338" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="338" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="338" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="380" text-anchor="end">Nashorn</text>
+<rect class="empty" x="140" y="364" width="40" height="24" rx="3" />
+<rect class="empty" x="182" y="364" width="40" height="24" rx="3" />
+<rect class="empty" x="224" y="364" width="40" height="24" rx="3" />
+<g><title>Nashorn, Mär 1893: 1</title><rect class="data" x="266" y="364" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="286.0" y="380" text-anchor="middle">1</text></g>
+<g><title>Nashorn, Apr 1893: 1</title><rect class="data" x="308" y="364" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="328.0" y="380" text-anchor="middle">1</text></g>
+<rect class="empty" x="350" y="364" width="40" height="24" rx="3" />
+<rect class="empty" x="392" y="364" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="364" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="364" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="364" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="364" width="40" height="24" rx="3" />
+<text class="lab" x="130" y="406" text-anchor="end">Büffel</text>
+<rect class="empty" x="140" y="390" width="40" height="24" rx="3" />
+<rect class="empty" x="182" y="390" width="40" height="24" rx="3" />
+<rect class="empty" x="224" y="390" width="40" height="24" rx="3" />
+<rect class="empty" x="266" y="390" width="40" height="24" rx="3" />
+<rect class="empty" x="308" y="390" width="40" height="24" rx="3" />
+<g><title>Büffel, Mai 1893: 1</title><rect class="data" x="350" y="390" width="40" height="24" rx="3" fill-opacity="0.26" /><text class="cell" x="370.0" y="406" text-anchor="middle">1</text></g>
+<rect class="empty" x="392" y="390" width="40" height="24" rx="3" />
+<rect class="empty" x="434" y="390" width="40" height="24" rx="3" />
+<rect class="empty" x="476" y="390" width="40" height="24" rx="3" />
+<rect class="empty" x="518" y="390" width="40" height="24" rx="3" />
+<rect class="empty" x="560" y="390" width="40" height="24" rx="3" />
+</g>
+</svg>

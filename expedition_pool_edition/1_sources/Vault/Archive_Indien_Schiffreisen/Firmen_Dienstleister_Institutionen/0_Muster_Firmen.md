@@ -1,0 +1,8 @@
+- Adresse (Ort als Link)
+- Schiff (als Link)
+- Personennamen (als Link)
+- Datum
+- WMW Archivalien: Signatur
+- Normdaten: GND, VIAF
+- Weiterführende Links
+- Goobilink

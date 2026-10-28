@@ -1,0 +1,673 @@
+{
+ "sources": {
+  "hoefer": "Regina Höfer (Hg.), Imperial Sightseeing, Wien 2010, doi:10.11588/xarep.00001404 (via Kriegsmarine/Analysen/itinerary_1892_93.csv)",
+  "weltmuseum": "Weltmuseum Wien, Online-Sammlung (via Kriegsmarine/Analysen/vf_weltmuseum.csv)",
+  "commons": "Wikimedia Commons API"
+ },
+ "episodes": [
+  {
+   "hunt_id": "hunt-1892-12-20-port-said",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Port Saïd",
+      "from": "1892-12-20",
+      "to": "1892-12-21",
+      "section": "Anreise"
+     }
+    ],
+    "from": "1892-12-20",
+    "to": "1892-12-21",
+    "days_without_hunting_entry": 1,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-01-10-ceylon",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Kalawewa",
+      "from": "1893-01-07",
+      "to": "1893-01-12",
+      "section": "Ceylon (Sri Lanka)"
+     }
+    ],
+    "from": "1893-01-07",
+    "to": "1893-01-12",
+    "days_without_hunting_entry": 3,
+    "diary_within_hoefer": true
+   },
+   "photos": [
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14810",
+     "title": "Sr k.u.k. Hoheit mit Mr. Pirie u. Mr. Murray beim erlegten Elephanten",
+     "date": "1893-01-10",
+     "date_to": "1893-01-10",
+     "status": "variants_only",
+     "geography": "Südasien/Subkontinent/Sri Lanka/Kalawewa",
+     "url": "https://www.weltmuseumwien.at/objekte/sr-k-u-k-hoheit-mit-mr-pirie-u-mr-murray-beim-erlegten-elephanten-255454",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    },
+    {
+     "source": "Wikimedia Commons",
+     "title": "Franz Ferdinand Elephant hunter c1893",
+     "description": "Archduke Franz Ferdinand of Austria during Elephant hunting in Ceylon",
+     "date": "1893-01-11",
+     "creator": "Carl Pietzner",
+     "credit": "Dorotheum",
+     "rights": "Public domain",
+     "url": "https://commons.wikimedia.org/wiki/File:Franz_Ferdinand_Elephant_hunter_c1893.jpg",
+     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Franz_Ferdinand_Elephant_hunter_c1893.jpg/960px-Franz_Ferdinand_Elephant_hunter_c1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "source": "Wikimedia Commons",
+     "title": "Franz Ferdinand von Österreich-Este auf Elefantenjagd 1893",
+     "description": "Franz Ferdinand von Österreich-Este auf Elefantenjagd\nCeylon: Kalawewa. „Der erste Elefant“\nEhzg Franz Ferdinand allein vor dem Bauch des erlegten Elefanten stehend, erigierter Penis des Elefanten (auf Bild 18 und 19 mit Zweigen verdeckt).",
+     "date": "1893-01-11",
+     "creator": "Carl Pietzner",
+     "credit": "Austrian National Library",
+     "rights": "Public domain",
+     "url": "https://commons.wikimedia.org/wiki/File:Franz_Ferdinand_von_%C3%96sterreich-Este_auf_Elefantenjagd_1893.jpg",
+     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Franz_Ferdinand_von_%C3%96sterreich-Este_auf_Elefantenjagd_1893.jpg/960px-Franz_Ferdinand_von_%C3%96sterreich-Este_auf_Elefantenjagd_1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-01-18-bombay",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Bombay",
+      "from": "1893-01-17",
+      "to": "1893-01-20",
+      "section": "Indien"
+     }
+    ],
+    "from": "1893-01-17",
+    "to": "1893-01-20",
+    "days_without_hunting_entry": 3,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-01-23-hyderabad",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Tandur",
+      "from": "1893-01-21",
+      "to": "1893-01-24",
+      "section": "Indien"
+     },
+     {
+      "stay": "Haidarabad",
+      "from": "1893-01-24",
+      "to": "1893-01-26",
+      "section": "Indien"
+     }
+    ],
+    "from": "1893-01-21",
+    "to": "1893-01-26",
+    "days_without_hunting_entry": 4,
+    "diary_within_hoefer": true
+   },
+   "photos": [
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14514",
+     "title": "Franz Ferdinand und der Nizam von Hyderabad",
+     "date": "1893-01-24",
+     "date_to": "1893-01-24",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+     "url": "https://www.weltmuseumwien.at/objekte/franz-ferdinand-und-der-nizam-von-hyderabad-255139",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    },
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14515",
+     "title": "Franz Ferdinand und der Nizam von Hyderabad mit Gefolge",
+     "date": "1893-01-24",
+     "date_to": "1893-01-24",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+     "url": "https://www.weltmuseumwien.at/objekte/franz-ferdinand-und-der-nizam-von-hyderabad-mit-gefolge-255140",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    },
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14517",
+     "title": "Elefanten-Prozession, ausgehend vom Cowmahila-Palast",
+     "date": "1893-01-24",
+     "date_to": "1893-01-24",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+     "url": "https://www.weltmuseumwien.at/objekte/elefanten-prozession-ausgehend-vom-cowmahila-palast-255142",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    },
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14518",
+     "title": "Die kaiserl. Gesellschaft zum Frühstück beim Residenten",
+     "date": "1893-01-25",
+     "date_to": "1893-01-25",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+     "url": "https://www.weltmuseumwien.at/objekte/die-kaiserl-gesellschaft-zum-fruehstueck-beim-residenten-255143",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    },
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14527",
+     "title": "Der Erzherzog begrüßt die kommandierenden Offiziere der Parade",
+     "date": "1893-01-25",
+     "date_to": "1893-01-25",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+     "url": "https://www.weltmuseumwien.at/objekte/der-erzherzog-begruesst-die-kommandierenden-offiziere-der-parade-255152",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    },
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14528",
+     "title": "Geparden auf Karren",
+     "date": "1893-01-26",
+     "date_to": "1893-01-26",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+     "url": "https://www.weltmuseumwien.at/objekte/geparden-auf-karren-255153",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    },
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14530",
+     "title": "Tiger beim Saroonagar-Palast",
+     "date": "1893-01-26",
+     "date_to": "1893-01-26",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+     "url": "https://www.weltmuseumwien.at/objekte/tiger-beim-saroonagar-palast-255155",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    },
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14532",
+     "title": "Malukpett Sport, das Ringen auf dem Rücken der Pferde",
+     "date": "1893-01-26",
+     "date_to": "1893-01-26",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+     "url": "https://www.weltmuseumwien.at/objekte/malukpett-sport-das-ringen-auf-dem-ruecken-der-pferde-255157",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    },
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14533",
+     "title": "„Rifle match“ auf geworfene Flaschen 23 zwischen Franz Ferdinand und dem Nizam von Hyderabad, Go...",
+     "date": "1893-01-26",
+     "date_to": "1893-01-26",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+     "url": "https://www.weltmuseumwien.at/objekte/rifle-match-auf-geworfene-flaschen-23-zwischen-franz-ferdinand-und-dem-nizam-von-hyderabad-golkonda-festung-255158",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    },
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14534",
+     "title": "Schießen auf Rupien",
+     "date": "1893-01-26",
+     "date_to": "1893-01-26",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Indien/Andhra Pradesh/Hyderabad",
+     "url": "https://www.weltmuseumwien.at/objekte/schiessen-auf-rupien-255159",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-01-30-gwalior",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Gwalior",
+      "from": "1893-01-29",
+      "to": "1893-01-30",
+      "section": "Indien"
+     }
+    ],
+    "from": "1893-01-29",
+    "to": "1893-01-30",
+    "days_without_hunting_entry": 1,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-02-03-calcutta",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Calcutta",
+      "from": "1893-02-01",
+      "to": "1893-02-05",
+      "section": "Indien"
+     }
+    ],
+    "from": "1893-02-01",
+    "to": "1893-02-05",
+    "days_without_hunting_entry": 4,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-02-13-agra",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Agra",
+      "from": "1893-02-12",
+      "to": "1893-02-15",
+      "section": "Indien"
+     }
+    ],
+    "from": "1893-02-12",
+    "to": "1893-02-15",
+    "days_without_hunting_entry": 1,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-02-20-alwar",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Alwar",
+      "from": "1893-02-19",
+      "to": "1893-02-20",
+      "section": "Indien"
+     },
+     {
+      "stay": "Siriska",
+      "from": "1893-02-20",
+      "to": "1893-02-27",
+      "section": "Indien"
+     }
+    ],
+    "from": "1893-02-19",
+    "to": "1893-02-27",
+    "days_without_hunting_entry": 3,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-03-01-jodhpur",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Dschodpur",
+      "from": "1893-02-28",
+      "to": "1893-03-02",
+      "section": "Indien"
+     }
+    ],
+    "from": "1893-02-28",
+    "to": "1893-03-02",
+    "days_without_hunting_entry": 1,
+    "diary_within_hoefer": true
+   },
+   "photos": [
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14724",
+     "title": "Jodhpore, \"Piggsticking\". 2.III.1893",
+     "date": "1893-03-02",
+     "date_to": "1893-03-02",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Indien/Rajasthan/Jodhpur",
+     "url": "https://www.weltmuseumwien.at/objekte/jodhpore-piggsticking-2-iii-1893-255359",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-03-03-jaipur",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Dschaipur",
+      "from": "1893-03-03",
+      "to": "1893-03-07",
+      "section": "Indien"
+     }
+    ],
+    "from": "1893-03-03",
+    "to": "1893-03-07",
+    "days_without_hunting_entry": 3,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-03-07-agra",
+   "hoefer": {
+    "stays": [],
+    "from": "1893-03-07",
+    "to": "1893-03-07",
+    "days_without_hunting_entry": 0,
+    "diary_within_hoefer": false
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-03-09-nepal",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Dakna Bâgh",
+      "from": "1893-03-08",
+      "to": "1893-03-13",
+      "section": "Nepal"
+     },
+     {
+      "stay": "Dechta Boli",
+      "from": "1893-03-14",
+      "to": "1893-03-17",
+      "section": "Nepal"
+     },
+     {
+      "stay": "Beli",
+      "from": "1893-03-18",
+      "to": "1893-03-20",
+      "section": "Nepal"
+     },
+     {
+      "stay": "Katni",
+      "from": "1893-03-20",
+      "to": "1893-03-25",
+      "section": "Nepal"
+     },
+     {
+      "stay": "Sohela",
+      "from": "1893-03-26",
+      "to": "1893-03-27",
+      "section": "Indien"
+     }
+    ],
+    "from": "1893-03-08",
+    "to": "1893-03-27",
+    "days_without_hunting_entry": 7,
+    "diary_within_hoefer": true
+   },
+   "photos": [
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14733",
+     "title": "Nepal, \"Katni-Camp\". 21.III.1893, Mahouts beim Tränken u. Waschen d. Elefanten",
+     "date": "1893-03-21",
+     "date_to": "1893-03-21",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Nepal/Terai",
+     "url": "https://www.weltmuseumwien.at/objekte/nepal-katni-camp-21-iii-1893-mahouts-beim-traenken-u-waschen-d-elefanten-255369",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    },
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14741",
+     "title": "Nepal, Katni, \"Sr. k.u.k. Hoheit Tiger\". 22.III.1893",
+     "date": "1893-03-22",
+     "date_to": "1893-03-22",
+     "status": "verified",
+     "geography": "Südasien/Subkontinent/Nepal/Terai",
+     "url": "https://www.weltmuseumwien.at/objekte/nepal-katni-sr-k-u-k-hoheit-tiger-22-iii-1893-255378",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-04-11-java",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Batavia",
+      "from": "1893-04-11",
+      "to": "1893-04-12",
+      "section": "Singapur/Indonesien"
+     },
+     {
+      "stay": "Garut",
+      "from": "1893-04-13",
+      "to": "1893-04-15",
+      "section": "Singapur/Indonesien"
+     },
+     {
+      "stay": "Tjiandjur",
+      "from": "1893-04-15",
+      "to": "1893-04-17",
+      "section": "Singapur/Indonesien"
+     },
+     {
+      "stay": "Tjipandak",
+      "from": "1893-04-19",
+      "to": "1893-04-24",
+      "section": "Singapur/Indonesien"
+     }
+    ],
+    "from": "1893-04-11",
+    "to": "1893-04-24",
+    "days_without_hunting_entry": 6,
+    "diary_within_hoefer": true
+   },
+   "photos": [
+    {
+     "source": "Weltmuseum Wien",
+     "vf_id": "VF_14835",
+     "title": "Hodeks Atelier am Cipandak",
+     "date": "1893-04-19",
+     "date_to": "1893-04-24",
+     "status": "verified",
+     "geography": "Insulares Südostasien/Indonesien/Java/West-Java (Barat)/Cipandak",
+     "url": "https://www.weltmuseumwien.at/objekte/hodeks-atelier-am-cipandak-255481",
+     "rights": null,
+     "image": null,
+     "note": "VF number from Höfer 2010, matched by the team (Analysen/vf_weltmuseum.csv)"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-05-06-port-kennedy",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Port Kennedy",
+      "from": "1893-05-05",
+      "to": "1893-05-09",
+      "section": "Singapur/Indonesien"
+     }
+    ],
+    "from": "1893-05-05",
+    "to": "1893-05-09",
+    "days_without_hunting_entry": 3,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-05-18-nsw-west",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Narromine",
+      "from": "1893-05-18",
+      "to": "1893-05-19",
+      "section": "Australien"
+     }
+    ],
+    "from": "1893-05-18",
+    "to": "1893-05-20",
+    "days_without_hunting_entry": 0,
+    "diary_within_hoefer": false
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-05-23-badgery",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Badgery Station",
+      "from": "1893-05-23",
+      "to": "1893-05-25",
+      "section": "Australien"
+     }
+    ],
+    "from": "1893-05-23",
+    "to": "1893-05-25",
+    "days_without_hunting_entry": 0,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-06-08-solomon",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Owa Raha",
+      "from": "1893-06-07",
+      "to": "1893-06-08",
+      "section": "Pazifik"
+     },
+     {
+      "stay": "Ugi",
+      "from": "1893-06-08",
+      "to": "1893-06-10",
+      "section": "Pazifik"
+     }
+    ],
+    "from": "1893-06-07",
+    "to": "1893-06-10",
+    "days_without_hunting_entry": 2,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-06-16-new-guinea",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Port Moresby",
+      "from": "1893-06-14",
+      "to": "1893-06-16",
+      "section": "Pazifik"
+     },
+     {
+      "stay": "Jagdlager am Laroki",
+      "from": "1893-06-16",
+      "to": "1893-06-18",
+      "section": "Pazifik"
+     },
+     {
+      "stay": "Port Moresby",
+      "from": "1893-06-18",
+      "to": "1893-06-19",
+      "section": "Pazifik"
+     }
+    ],
+    "from": "1893-06-14",
+    "to": "1893-06-19",
+    "days_without_hunting_entry": 4,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-06-25-aru",
+   "hoefer": {
+    "stays": [],
+    "from": "1893-06-25",
+    "to": "1893-06-26",
+    "days_without_hunting_entry": 0,
+    "diary_within_hoefer": false
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-06-29-buru",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Kajeli",
+      "from": "1893-06-29",
+      "to": "1893-06-30",
+      "section": "Pazifik"
+     }
+    ],
+    "from": "1893-06-29",
+    "to": "1893-06-30",
+    "days_without_hunting_entry": 0,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  },
+  {
+   "hunt_id": "hunt-1893-08-14-kyoto",
+   "hoefer": {
+    "stays": [
+     {
+      "stay": "Kiôto",
+      "from": "1893-08-08",
+      "to": "1893-08-10",
+      "section": "Japan"
+     },
+     {
+      "stay": "Kiôto",
+      "from": "1893-08-11",
+      "to": "1893-08-14",
+      "section": "Japan"
+     }
+    ],
+    "from": "1893-08-08",
+    "to": "1893-08-14",
+    "days_without_hunting_entry": 6,
+    "diary_within_hoefer": true
+   },
+   "photos": []
+  }
+ ]
+}

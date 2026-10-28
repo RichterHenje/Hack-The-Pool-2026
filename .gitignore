@@ -1,3 +1,11 @@
 .claude_session
 .DS_Store
 .env
+
+# Obsidian: lokaler Fensterzustand und Papierkorb
+**/.obsidian/workspace.json
+.trash/
+
+# Enrichment: API-Cache
+expedition_pool_edition/2_processing/enrichment/.cache/
+__pycache__/

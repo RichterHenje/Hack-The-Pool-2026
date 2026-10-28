@@ -1,0 +1,22 @@
+---
+type: person
+id: ke-person-3a90f1ece9
+created_by: ai-assisted
+checked: false
+---
+- Titel:
+- Lebensdaten:
+- Beruf/Funktionen: Korvette Kapitän
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Korvette Kapitän (seit 14. November 1911)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1912-01-11/?pg=221&layout=s&query=Kaiserin%20Elisabeth

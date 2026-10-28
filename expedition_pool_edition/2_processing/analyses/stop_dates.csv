@@ -1,0 +1,49 @@
+seq,place,voyage,on_ship,prototype_from,prototype_to,n_rows,first_date,last_date,sections,names_as_printed
+1,"Pola, Istrien",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+2,Triest,Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,1,1892-12-15,1892-12-20,Anreise,Triest
+3,Port Said,Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+4,"Colombo (Hauptstadt, Sri Lanka)",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,6,1892-12-28,1893-01-17,Anreise; Ceylon (Sri Lanka),Colombo
+5,"Kandy, Sri Lanka",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,6,1893-01-06,1893-01-13,Ceylon (Sri Lanka),Kandy
+7,"Bombay (Indien, Heut. Mumbai)",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,3,1893-01-14,1893-01-21,Ceylon (Sri Lanka); Indien,Bombay; Bombay (Mumbai)
+8,"Tandur, Telangana, Indien",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,3,1893-01-20,1893-01-24,Indien,Tandur
+10,"Gwalior, (Madhya Pradesh, Indien)",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,3,1893-01-26,1893-02-01,Indien,Gwalior
+11,Calcutta (Indien),Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,5,1893-01-30,1893-03-29,Indien,"Calcutta; Calcutta (Kolkata, Kalkutta)"
+12,"Darjeeling, (West Bengal, Indien)",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,1,1893-02-05,1893-02-06,Indien,Dardschiling (Darjeeling)
+13,"Agra, (U.P.), Indien",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,7,1893-02-11,1893-02-16,Indien,Agra
+14,Delhi (Indien),Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+15,"Alwar, Rajputana (Indien)",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,5,1893-02-18,1893-02-28,Indien,Alwar
+16,"Jodhpur, Rajasthan, Indien",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,1,1893-02-27,1893-02-28,Indien,Dschodpur (Jodhpur)
+17,"Jaipur (Jeypore), Rajasthan, Indien",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,1,1893-03-02,1893-03-03,Indien,Dschaipur (Jaipur)
+18,"Pilibhit, (U.P. Indien)",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,2,1893-03-07,1893-03-08,Indien,Pilibhit
+20,Singapur,Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,9,1893-04-05,1893-07-21,Pazifik; Singapur/Indonesien,Singapur
+21,"Batavia (heut. Jakarta, Indonesien)",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,5,1893-04-11,1893-04-27,Singapur/Indonesien,Batavia
+22,"Garut, Indonesien",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,3,1893-04-13,1893-04-15,Singapur/Indonesien,Garut
+23,"Buitenzog, ( heut. Bogor, Indonesien)",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+24,"Tjiandjur (heut. Cianjur, Indonesien)",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,3,1893-04-15,1893-04-17,Singapur/Indonesien,Tjiandjur
+27,"Sydney, Australien",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,11,1893-05-09,1893-06-01,Australien; Singapur/Indonesien,Sydney
+31,"Nouméa, Neukaledonien",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+33,"Port Moresby, Papa Neuguinea",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,6,1893-06-10,1893-06-19,Pazifik,Neu-Guinea Port Moresby; Port Moresby
+34,"Dobo, Aru Inseln,  Indonesien",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,3,1893-06-20,1893-06-28,Pazifik,Aru-Inseln Dobo; Dobo
+35,"Amboina (heut. Ambon, Indonesien)",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,5,1893-06-26,1893-07-09,Pazifik,Amboina; Amboina (Ambon)
+38,Singapur,Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,9,1893-04-05,1893-07-21,Pazifik; Singapur/Indonesien,Singapur
+39,"Hong Kong, China",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+40,"Kanton, (heut. Guangzhou, China)",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,3,1893-07-23,1893-07-27,Pazifik,Kanton
+41,"Nagasaki, Japan",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,3,1893-07-29,1893-08-04,Japan; Pazifik,Nagasaki
+42,"Kumamoto, Japan",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,3,1893-08-04,1893-08-05,Japan,Kumamoto
+43,"Shimonoseki, Japan",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+44,"Kyoto, Japan",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+45,"Nagoya, Japan",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+47,"Tokyo, Japan",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+48,"Nikko, Japan",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+49,"Yokohama, Japan",Weltreise Franz Ferdinand (an Bord),ja,1892-12-12,1893-12-19,0,,,,
+1,"Vancouver, Kanada",Franz Ferdinand weiter ohne das Schiff,nein,,1893-10-18,3,1893-08-25,1893-09-09,Japan,Vancouver
+3,"Penticton, Kanada",Franz Ferdinand weiter ohne das Schiff,nein,,1893-10-18,0,,,,
+6,"Spokane, Washington, USA",Franz Ferdinand weiter ohne das Schiff,nein,,1893-10-18,2,1893-09-19,1893-09-20,Japan,Spokane
+7,"Livingston, Montana, USA",Franz Ferdinand weiter ohne das Schiff,nein,,1893-10-18,4,1893-09-20,1893-09-28,Japan,Livingston
+8,"Yellowstone Nationalpark, Wyoming, USA",Franz Ferdinand weiter ohne das Schiff,nein,,1893-10-18,0,,,,
+10,"Chicago, USA",Franz Ferdinand weiter ohne das Schiff,nein,,1893-10-18,2,1893-10-01,1893-10-04,Japan,Chicago
+11,"Niagara Falls, New York, USA",Franz Ferdinand weiter ohne das Schiff,nein,,1893-10-18,3,1893-10-03,1893-10-06,Japan,Niagara Falls
+12,"New York, New York, USA",Franz Ferdinand weiter ohne das Schiff,nein,,1893-10-18,3,1893-10-05,1893-10-15,Japan; Rückreise,New York
+13,"Le Havre, Frankreich",Franz Ferdinand weiter ohne das Schiff,nein,,1893-10-18,0,,,,
+14,"Paris, Frankreich",Franz Ferdinand weiter ohne das Schiff,nein,,1893-10-18,3,1893-10-15,1893-10-17,Rückreise,Paris
+15,"Stuttgart, Deutschland",Franz Ferdinand weiter ohne das Schiff,nein,,1893-10-18,3,1893-10-16,1893-10-18,Rückreise,Stuttgart

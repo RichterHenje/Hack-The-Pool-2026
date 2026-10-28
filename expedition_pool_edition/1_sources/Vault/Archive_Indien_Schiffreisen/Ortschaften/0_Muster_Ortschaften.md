@@ -1,0 +1,5 @@
+- Ort (Titel)
+- Region und Land (Tags)
+- Geonames (https://www.geonames.org/)
+- GND Geographisches Schlagwort (https://swb.bsz-bw.de/DB=2.104/?COOKIE=Us998,Pbszgast,I2017,B20728+,SY,NRecherche-DB,D2.104,E72d1cdcd-0,A,H,R193.171.63.242,FY&COOKIE=Us998,Pbszgast,I2017,B20728,SY,NRecherche-DB,D2.104,E679d613a-0,A,H,R193.197.31.8,FY)
+- Schiff (Link)

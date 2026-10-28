@@ -1,0 +1,22 @@
+---
+type: person
+id: ke-person-95926b8afd
+created_by: ai-assisted
+checked: false
+---
+- Titel: 
+- Lebensdaten:
+- Beruf/Funktionen: See F.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: See F. (seit 26. August 1908)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1909-01-16__pages173-173.pdf (S. 172)

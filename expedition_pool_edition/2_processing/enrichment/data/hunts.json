@@ -1,0 +1,1600 @@
+[
+ {
+  "id": "hunt-1892-12-20-port-said",
+  "region": "port-said",
+  "place_ids": [
+   "port-said"
+  ],
+  "place_raw": "Port Said, Egypt",
+  "start": "1892-12-20",
+  "end": "1892-12-20",
+  "animals": {
+   "bird": 2
+  },
+  "kill_sentences": 2,
+  "diary": [
+   {
+    "date": "1892-12-20",
+    "band": 1,
+    "scan": 21
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Wie vom Blitz getroffen stürzt der Flamingo mitten durch die Brust geschossen ins Wasser, aus dem zu meiner großen Freude ein Araber das prächtige Exemplar apportiert.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1892-12-20",
+    "band": 1,
+    "scan": 21
+   },
+   {
+    "text": "Nun beschäftigten wir uns noch mit dem übrigen Wasserwild, erlegten mehrere Enten und Taucher und kehrten dann, da die Sonne im Untergehen begriffen war, ans Land zurück, wo wir uns von dem trübseligen Pascha verabschiedeten und an Bord der -Etisabethfuhren.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": false,
+    "date": "1892-12-20",
+    "band": 1,
+    "scan": 21
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-01-10-ceylon",
+  "region": "ceylon",
+  "place_ids": [
+   "kalawewa"
+  ],
+  "place_raw": "Kalawewa, Ceylon",
+  "start": "1893-01-10",
+  "end": "1893-01-12",
+  "animals": {
+   "elephant": 4,
+   "bird": 2,
+   "monkey": 1,
+   "buffalo": 1
+  },
+  "kill_sentences": 7,
+  "diary": [
+   {
+    "date": "1893-01-10",
+    "band": 1,
+    "scan": 73
+   },
+   {
+    "date": "1893-01-11",
+    "band": 1,
+    "scan": 75
+   },
+   {
+    "date": "1893-01-12",
+    "band": 1,
+    "scan": 81
+   }
+  ],
+  "quotes": [
+   {
+    "text": "DieSchikäris hatten den Abend vorher gemeldet, der angeschweißte Elephant sei von ihnen gesehen worden, befinde sich in der Mitte einer Herde und klage laut, so dass er in wenigen Tagen verendet sein dürfte.",
+    "animals": [
+     "elephant"
+    ],
+    "first_person": false,
+    "date": "1893-01-10",
+    "band": 1,
+    "scan": 73
+   },
+   {
+    "text": "denn obwohl ich das Boot weggeschickt hatte und lange Zeit auf einem aus dem Vasser emporragenden Baumstrunke wartete, kamen die Adler nicht, indem hackten, ohne sich zu rühren, weit davon auf, Zwei große Affen, die hier in tollen Sprüngen von Baum zu Baum schoss ich mit der Kugel, ohne dieselben heimbringen zu ^1 älnnen, da der eine im Geäste hängen blieb, der andere aber, ins isser fallend, sofo",
+    "animals": [
+     "monkey",
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-01-11",
+    "band": 1,
+    "scan": 75
+   },
+   {
+    "text": "Ich kehrte zu meinem ersten Elephanten zurück und überzeugte mich, dass ich ein außergewöhnlich starkes Männchen erlegt hatte, das sogar Stoßzähne besaß ^ eine große Seilenheil bei Elephanten auf Ceylon.",
+    "animals": [
+     "elephant"
+    ],
+    "first_person": true,
+    "date": "1893-01-11",
+    "band": 1,
+    "scan": 75
+   },
+   {
+    "text": "Jevers, welches die Nachricht enthielt, dass nachsuchende Schikäris den von mir angeschweißten Büffel etwa tausend Schritte vom Anschussorte entfernt verendet gefunden hatten.",
+    "animals": [
+     "buffalo"
+    ],
+    "first_person": true,
+    "date": "1893-01-12",
+    "band": 1,
+    "scan": 81
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-01-18-bombay",
+  "region": "bombay",
+  "place_ids": [
+   "bombay"
+  ],
+  "place_raw": "Bombay, India",
+  "start": "1893-01-18",
+  "end": "1893-01-18",
+  "animals": {
+   "bird": 1
+  },
+  "kill_sentences": 1,
+  "diary": [
+   {
+    "date": "1893-01-18",
+    "band": 1,
+    "scan": 99
+   }
+  ],
+  "quotes": [
+   {
+    "text": ".Alsbald stürzen sich die ingrigen Geier auf ihre Beute und binnen einer Stunde ist der LeichI bis auf die Knochen verzehrt.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": false,
+    "date": "1893-01-18",
+    "band": 1,
+    "scan": 99
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-01-23-hyderabad",
+  "region": "hyderabad",
+  "place_ids": [
+   "tandur",
+   "hyderabad"
+  ],
+  "place_raw": "Tandur, India",
+  "start": "1893-01-23",
+  "end": "1893-01-26",
+  "animals": {
+   "deer": 5,
+   "tiger": 3
+  },
+  "kill_sentences": 8,
+  "diary": [
+   {
+    "date": "1893-01-23",
+    "band": 1,
+    "scan": 121
+   },
+   {
+    "date": "1893-01-26",
+    "band": 1,
+    "scan": 145
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Mir bleibt zwar nicht das stolze B«vusstsein, den ersehnien Tiger gesehen, geschweige denn erlegt zu haben, gleichwohl aber das GefiJhl hoher Befriedigung;",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true,
+    "date": "1893-01-23",
+    "band": 1,
+    "scan": 121
+   },
+   {
+    "text": "denn diese Leute haben eben begreiflicherweise gruüen Respect vor Tigern und sind, bevor sie nicht in jedes Gebüsch geschossen oder Steine geworfen haben, nicht vorwärts zu bringen, so dass ein ganz kleiner Trieb von einigen 100 «i Ausdehnung unverhältnismäßig lange Zeit erfordert.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": false,
+    "date": "1893-01-23",
+    "band": 1,
+    "scan": 121
+   },
+   {
+    "text": "derselbe zeichnete gut, wie ein aufs Blatt getroffenes Stück Hochwild, gieng aber dennoch flüchtig mit dem Rudel fort, in diesem Augenblicke verhofTte ein zweiler capitaler Bock, den ich im Feuer erlegte.",
+    "animals": [
+     "deer"
+    ],
+    "first_person": true,
+    "date": "1893-01-26",
+    "band": 1,
+    "scan": 145
+   },
+   {
+    "text": "so dass ich einen Bock nur mit einem Schlegelschuss anschweißte.",
+    "animals": [
+     "deer"
+    ],
+    "first_person": true,
+    "date": "1893-01-26",
+    "band": 1,
+    "scan": 145
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-01-30-gwalior",
+  "region": "gwalior",
+  "place_ids": [
+   "gwalior"
+  ],
+  "place_raw": "Gwalior, India",
+  "start": "1893-01-30",
+  "end": "1893-01-30",
+  "animals": {
+   "bird": 4
+  },
+  "kill_sentences": 4,
+  "diary": [
+   {
+    "date": "1893-01-30",
+    "band": 1,
+    "scan": 165
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Mehrere Exemplare wurden mir zur Beute, leider fehlte ich aber mit einem nicht erprobten tlcwehre einen Adler, der sehr an unseren Kaiseradler erinnerte.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-01-30",
+    "band": 1,
+    "scan": 165
+   },
+   {
+    "text": "Auf dem ersten Teiche saß ein Schwärm von mindestens vierbis fünfhundert verschiedener Enten, deren ich drei erlegte.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-01-30",
+    "band": 1,
+    "scan": 165
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-02-03-calcutta",
+  "region": "calcutta",
+  "place_ids": [
+   "calcutta"
+  ],
+  "place_raw": "Calcutta, India",
+  "start": "1893-02-03",
+  "end": "1893-02-03",
+  "animals": {
+   "bird": 1
+  },
+  "kill_sentences": 1,
+  "diary": [
+   {
+    "date": "1893-02-03",
+    "band": 1,
+    "scan": 181
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Während dei Fahrt erlegte einer der Herren meiner Suite mit sicherem Coup double zwei Hausenten, die ihm ein Enj^länder als interessante Wildenten angesagt hatte.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-02-03",
+    "band": 1,
+    "scan": 181
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-02-11-unknown",
+  "region": null,
+  "place_ids": [],
+  "place_raw": "Benares, India",
+  "start": "1893-02-11",
+  "end": "1893-02-11",
+  "animals": {
+   "tiger": 1
+  },
+  "kill_sentences": 1,
+  "diary": [
+   {
+    "date": "1893-02-11",
+    "band": 1,
+    "scan": 222
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Auf '^ein Befragen theilte er mir mit, dass er in seinem Staate bereits ^ Tiger erlegt habe, Dass uns ein Photograph vor dem Palaste in einer Gruppe aufnahm, braucht kaum ausdrücklich erwähnt zu werden.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true,
+    "date": "1893-02-11",
+    "band": 1,
+    "scan": 222
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-02-13-agra",
+  "region": "agra",
+  "place_ids": [
+   "agra"
+  ],
+  "place_raw": "Agra, India (Fatehpur Sikri)",
+  "start": "1893-02-13",
+  "end": "1893-02-15",
+  "animals": {
+   "bird": 9,
+   "antelope": 7,
+   "deer": 1,
+   "jackal": 1
+  },
+  "kill_sentences": 17,
+  "diary": [
+   {
+    "date": "1893-02-13",
+    "band": 1,
+    "scan": 239
+   },
+   {
+    "date": "1893-02-14",
+    "band": 1,
+    "scan": 244
+   },
+   {
+    "date": "1893-02-15",
+    "band": 1,
+    "scan": 249
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Unmittelbar nachdem wir die Stadt verlassen hatten, schoss ich vom Wagen aus mehrere große Geier (Gyps indicus und Gyps bengalensisl ferner einen der so häufig sichtbaren Schmutzgeier und einige Schmarotzer- oder Pariah-Milane.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-02-13",
+    "band": 1,
+    "scan": 239
+   },
+   {
+    "text": "Kurz darauf, noch Im Weichbildt der Stadt, fiel mir ein Adler zur Beute, den ich am Rande seines Horstes erlegte;",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-02-13",
+    "band": 1,
+    "scan": 239
+   },
+   {
+    "text": "Dann gieng\"s quer durch einen Teich in ein dichteres, wildreiches Dschungel, wo ich mehrere größere Rudei von Black-bucks antraf, aber nur einen starken Bock in voller Flucht erlegen konnte.",
+    "animals": [
+     "deer"
+    ],
+    "first_person": true,
+    "date": "1893-02-14",
+    "band": 1,
+    "scan": 244
+   },
+   {
+    "text": "doch suchten leider die seltenen und scheuen Exemplare, besonders die Kraniche, Störche und Reiher sehr bald das Weite, so dass mir nur zwei schneeweiße Silberreiher (.\\rdea alba, im Winterkleide) zur Beute fielen.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-02-14",
+    "band": 1,
+    "scan": 244
+   },
+   {
+    "text": "Bei dem ersten Versuche fehlte ich auch eine erkleckliche Zahl von Enten und Cormoranen, und nicht besser ergieng's mit der Kugel, da ich gleich nach Jtm Eindringen in das Dschungel ein Nilgau fehlte.",
+    "animals": [
+     "antelope",
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-02-15",
+    "band": 1,
+    "scan": 249
+   },
+   {
+    "text": "Die Herren waren flugs mit ihren Stutzen aus den Waggons, während ich nur als Zuschauer fungierte, da ich ja schon tagszuvor drei Nilgaus erlegt hatte, Clam streckte einen Stier im Feuer, Wurmbrand schweißte einen anderen stark an, den er nach langer Nachsuche endlich ausmachte, Prönay fehlte einen Stier in der Flucht.",
+    "animals": [
+     "antelope"
+    ],
+    "first_person": true,
+    "date": "1893-02-15",
+    "band": 1,
+    "scan": 249
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-02-20-alwar",
+  "region": "alwar",
+  "place_ids": [
+   "sariska"
+  ],
+  "place_raw": "Sariska, India",
+  "start": "1893-02-20",
+  "end": "1893-02-27",
+  "animals": {
+   "tiger": 6,
+   "antelope": 5,
+   "deer": 4,
+   "bird": 4,
+   "jackal": 3,
+   "crocodile": 1
+  },
+  "kill_sentences": 19,
+  "diary": [
+   {
+    "date": "1893-02-20",
+    "band": 1,
+    "scan": 275
+   },
+   {
+    "date": "1893-02-22",
+    "band": 1,
+    "scan": 281
+   },
+   {
+    "date": "1893-02-23",
+    "band": 1,
+    "scan": 283
+   },
+   {
+    "date": "1893-02-24",
+    "band": 1,
+    "scan": 285
+   },
+   {
+    "date": "1893-02-25",
+    "band": 1,
+    "scan": 289
+   },
+   {
+    "date": "1893-02-27",
+    "band": 1,
+    "scan": 293
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Die Ruinen eines alten Tempel lu^;cn unter dein Schatten riesiger Bäume hervor, ein dunkelgrüne VVciliL-r erfreut diis Auge, steile Lehnen ragen rechts und links empoi I icr I (iiltpidtz wnr auch das Rendezvous für sämmtliche Jagdelephanten dir 14 an der Zahl — schön ausgerichtet mit ihren Mahäuls unc lläudiis ddsliuulen, sowie für sämmtliche Pferde und Tragkameele Da nKui uns erst in zwei Stunden",
+    "animals": [
+     "crocodile"
+    ],
+    "first_person": true,
+    "date": "1893-02-20",
+    "band": 1,
+    "scan": 275
+   },
+   {
+    "text": "Wenn nur die .Anzahl Jer Tiger, die uns zur Beute fallen sollen, im entsprechenden Verhältniwe zu der aufgewendeten Pracht steht!",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": false,
+    "date": "1893-02-20",
+    "band": 1,
+    "scan": 275
+   },
+   {
+    "text": "Der Fährte folgend, sah ich den kranken Hirsch durch dichtes Gestrüpp ziehen und schoss noch einmal, fehlte jedoch in der Hitze des Gefechtes.",
+    "animals": [
+     "deer"
+    ],
+    "first_person": true,
+    "date": "1893-02-22",
+    "band": 1,
+    "scan": 281
+   },
+   {
+    "text": "Solange noch Schussücht andauerte, streiften wir in der Ebene beim Camp und brachten zahlreiche Hühner und Sand grouse zur Strecke.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": false,
+    "date": "1893-02-22",
+    "band": 1,
+    "scan": 281
+   },
+   {
+    "text": "Zu sein« größten Erstaunen überließ ich erstere Wurmhrand, letztere Kinski der damals, ais wir die verpönten Nilgaus in Bhartpur geschossen, heftigem Fieber gelegen war.",
+    "animals": [
+     "antelope"
+    ],
+    "first_person": true,
+    "date": "1893-02-23",
+    "band": 1,
+    "scan": 283
+   },
+   {
+    "text": "Mit den anderen Herren führte ich eine große Durchstreifun^ des ganzen Thaies aus, wobei wir alle kleinen Bodenerhebungen, alle Dschungel und Lehnen absuchten und in vier Stunden 80 Hühner linii Sand grouse zur Strecke brachten.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-02-23",
+    "band": 1,
+    "scan": 283
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-03-01-jodhpur",
+  "region": "jodhpur",
+  "place_ids": [
+   "jodhpur"
+  ],
+  "place_raw": "Jodhpur, India",
+  "start": "1893-03-01",
+  "end": "1893-03-02",
+  "animals": {
+   "deer": 2,
+   "boar": 2,
+   "bird": 1,
+   "antelope": 1
+  },
+  "kill_sentences": 5,
+  "diary": [
+   {
+    "date": "1893-03-01",
+    "band": 1,
+    "scan": 314
+   },
+   {
+    "date": "1893-03-02",
+    "band": 1,
+    "scan": 317
+   }
+  ],
+  "quotes": [
+   {
+    "text": "doch schoss ich noch einige Adler und Falken, die mir unbekannten Arten angehörten.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-03-01",
+    "band": 1,
+    "scan": 314
+   },
+   {
+    "text": "Rasch entschlossen requirierten wir einen mit Zebuochsen bespannten Wagen, durch welchen gedeckt wir trachteten, an das scheue Wild heranzukommen, so dass ich einen starken Bock erlegen konnte.",
+    "animals": [
+     "deer"
+    ],
+    "first_person": true,
+    "date": "1893-03-01",
+    "band": 1,
+    "scan": 314
+   },
+   {
+    "text": "Dort sprang Hardschi Singh mitten in die iJfirnen, die hier von Bauern aufgehäuft worden waren, hinein, worauf alsbald in der dem Reiter entgegengesetzten Richtung ein starker Keiler mit auffallend schönen Waffen hinausflüchtete, den ich nach wenigen Sprüngen erlegte.",
+    "animals": [
+     "boar"
+    ],
+    "first_person": true,
+    "date": "1893-03-02",
+    "band": 1,
+    "scan": 317
+   },
+   {
+    "text": "Wir hatten ausgemacht, dass diesen Keiler Wurnibrand, der noch kein Schwein erlegt hatte, stechen ■loliU';",
+    "animals": [
+     "boar"
+    ],
+    "first_person": false,
+    "date": "1893-03-02",
+    "band": 1,
+    "scan": 317
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-03-03-jaipur",
+  "region": "jaipur",
+  "place_ids": [
+   "jaipur"
+  ],
+  "place_raw": "Jaipur, India",
+  "start": "1893-03-03",
+  "end": "1893-03-04",
+  "animals": {
+   "deer": 2,
+   "antelope": 1
+  },
+  "kill_sentences": 3,
+  "diary": [
+   {
+    "date": "1893-03-03",
+    "band": 1,
+    "scan": 328
+   },
+   {
+    "date": "1893-03-04",
+    "band": 1,
+    "scan": 336
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Als der Trieb beendet war, erlegte ich einen knapp ov den Treibern flüchtenden Sambarhirsch.",
+    "animals": [
+     "deer"
+    ],
+    "first_person": true,
+    "date": "1893-03-03",
+    "band": 1,
+    "scan": 328
+   },
+   {
+    "text": "In dieser Weise erlegte ich nächst einem kleinen Teiche einen jungen Riesenstorch, einige indische Wildgänse (.i\\nser indicus), sowie acht Black-hucks und ein« Chinkara-Gazelle, letztere mit einem Coup double auf diese und einen Black-buck.",
+    "animals": [
+     "antelope"
+    ],
+    "first_person": true,
+    "date": "1893-03-04",
+    "band": 1,
+    "scan": 336
+   },
+   {
+    "text": "Mehrere der erbeuteten Böcke waren geradezu capita!e Exemplare.",
+    "animals": [
+     "deer"
+    ],
+    "first_person": false,
+    "date": "1893-03-04",
+    "band": 1,
+    "scan": 336
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-03-07-agra",
+  "region": "agra",
+  "place_ids": [
+   "agra"
+  ],
+  "place_raw": "Jaipur to Agra, India",
+  "start": "1893-03-07",
+  "end": "1893-03-07",
+  "animals": {
+   "antelope": 2,
+   "bird": 1
+  },
+  "kill_sentences": 2,
+  "diary": [
+   {
+    "date": "1893-03-07",
+    "band": 1,
+    "scan": 346
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Ich erlegte auf diese .Art 208 Stücke, darunter Geier, Falken, Reb- und Steppenhührer und eine große Zahl von Wildtauben, Gegen Abend erreichten wir wieder das Gebiet des Maharadschas von Bhartpur, woselbst es von Nilgaus wimmelte.",
+    "animals": [
+     "antelope",
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-03-07",
+    "band": 1,
+    "scan": 346
+   },
+   {
+    "text": "So verließen wir denn das Gebiet von Bhartpur mit einer Beute von drei Nilgaus, hoffend, dass auch diesmal dem Maharadscha unser Wildschützcnzug ein Geheimnis bleiben werde.",
+    "animals": [
+     "antelope"
+    ],
+    "first_person": false,
+    "date": "1893-03-07",
+    "band": 1,
+    "scan": 346
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-03-09-nepal",
+  "region": "nepal",
+  "place_ids": [
+   "nepal-terai"
+  ],
+  "place_raw": "Dakna Bagh, Nepal",
+  "start": "1893-03-09",
+  "end": "1893-03-26",
+  "animals": {
+   "tiger": 17,
+   "bird": 5,
+   "elephant": 4,
+   "leopard": 4,
+   "deer": 4,
+   "peafowl": 3,
+   "boar": 2,
+   "monkey": 1,
+   "crocodile": 1
+  },
+  "kill_sentences": 36,
+  "diary": [
+   {
+    "date": "1893-03-09",
+    "band": 1,
+    "scan": 356
+   },
+   {
+    "date": "1893-03-10",
+    "band": 1,
+    "scan": 362
+   },
+   {
+    "date": "1893-03-11",
+    "band": 1,
+    "scan": 364
+   },
+   {
+    "date": "1893-03-12",
+    "band": 1,
+    "scan": 367
+   },
+   {
+    "date": "1893-03-13",
+    "band": 1,
+    "scan": 373
+   },
+   {
+    "date": "1893-03-14",
+    "band": 1,
+    "scan": 375
+   },
+   {
+    "date": "1893-03-16",
+    "band": 1,
+    "scan": 377
+   },
+   {
+    "date": "1893-03-18",
+    "band": 1,
+    "scan": 379
+   },
+   {
+    "date": "1893-03-19",
+    "band": 1,
+    "scan": 380
+   },
+   {
+    "date": "1893-03-20",
+    "band": 1,
+    "scan": 381
+   },
+   {
+    "date": "1893-03-21",
+    "band": 1,
+    "scan": 383
+   },
+   {
+    "date": "1893-03-23",
+    "band": 1,
+    "scan": 386
+   },
+   {
+    "date": "1893-03-26",
+    "band": 1,
+    "scan": 388
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Das zuerst von mir erlegte Thier, eine capitale Tigerin, hatte zum Glücke nur meinen Schuss, auf den hin die Katze gestürzt war.",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true,
+    "date": "1893-03-09",
+    "band": 1,
+    "scan": 356
+   },
+   {
+    "text": "Eine Reihe von Schüssen wurde dann noch auf den verendenden Tiger abgegeben, eine hier übliche Unsitte, die ich nicht billigen kann, Meil sie Zweifel darüber her\\'orruft, wem ein erlegter Tiger zuzusprechen ,^ei, und weil sie wegen der Gewehre großen Calibers, welche die Engländer führen, den \\'erderb des schönen Felles nach sich zieht;",
+    "animals": [
+     "tiger"
+    ],
+    "first_person": true,
+    "date": "1893-03-09",
+    "band": 1,
+    "scan": 356
+   },
+   {
+    "text": "Ein auf einer kleinen Insel sich sonnendes Krokodil von riesigen Dimensionen schoss ich an, ohne desselben habhaft werden zu können, da es nach dem Schusse in tiefes, schlammiges Wasser glitt und darin verschwand.",
+    "animals": [
+     "crocodile"
+    ],
+    "first_person": true,
+    "date": "1893-03-10",
+    "band": 1,
+    "scan": 362
+   },
+   {
+    "text": "unter anderem schoss Wurmbrand einen auffallend starken Keiler und Kinsky einen Sumptliirsoh -Spießer, während ich ein Thier gleicher .^rt erlegte.",
+    "animals": [
+     "boar"
+    ],
+    "first_person": true,
+    "date": "1893-03-10",
+    "band": 1,
+    "scan": 362
+   },
+   {
+    "text": "welche anfänglich die Panther für Tiger gehalten hatten, erklärte sich aus der seltenen Stärke der Panther, deren einen erlegt zu haben, mich umsumehr beglückte, als er mein erster war.",
+    "animals": [
+     "tiger",
+     "leopard"
+    ],
+    "first_person": true,
+    "date": "1893-03-11",
+    "band": 1,
+    "scan": 364
+   },
+   {
+    "text": "Ich ritt nun zu der Stelle hin und fand da einen sehr starken, bereits verendeten Panther, den Kinsky erlegt halte, während dort, wo ich hingeschossen, ebenfalls ein auffaltend starker, dunkelgefärbter Panther mit zwei Blattschüssen lag.",
+    "animals": [
+     "leopard"
+    ],
+    "first_person": true,
+    "date": "1893-03-11",
+    "band": 1,
+    "scan": 364
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-04-06-unknown",
+  "region": null,
+  "place_ids": [],
+  "place_raw": "Singapore",
+  "start": "1893-04-06",
+  "end": "1893-04-06",
+  "animals": {
+   "crocodile": 1
+  },
+  "kill_sentences": 1,
+  "diary": [
+   {
+    "date": "1893-04-06",
+    "band": 1,
+    "scan": 412
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Die zoologische .'\\btheilung ist ziemlich lückenhaft, nur einige mir unbekannte Vertreter der Ornis von Malakka und ein auffallend großes Krokodil, das in der Nähe von Singapur erlegt worden, erregten hier meine Aufmerksamkeit, Die ethnof^raphische .Abtheilung befindet sich in ziemlich verwahrlostem Zustande.",
+    "animals": [
+     "crocodile"
+    ],
+    "first_person": true,
+    "date": "1893-04-06",
+    "band": 1,
+    "scan": 412
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-04-11-java",
+  "region": "java",
+  "place_ids": [
+   "batavia",
+   "garut",
+   "cianjur",
+   "tjipandak"
+  ],
+  "place_raw": "Batavia, Java",
+  "start": "1893-04-11",
+  "end": "1893-04-23",
+  "animals": {
+   "buffalo": 6,
+   "crocodile": 3,
+   "boar": 2,
+   "deer": 2,
+   "bird": 2,
+   "rhinoceros": 1,
+   "peafowl": 1
+  },
+  "kill_sentences": 15,
+  "diary": [
+   {
+    "date": "1893-04-11",
+    "band": 1,
+    "scan": 436
+   },
+   {
+    "date": "1893-04-15",
+    "band": 1,
+    "scan": 463
+   },
+   {
+    "date": "1893-04-16",
+    "band": 1,
+    "scan": 466
+   },
+   {
+    "date": "1893-04-19",
+    "band": 1,
+    "scan": 478
+   },
+   {
+    "date": "1893-04-20",
+    "band": 1,
+    "scan": 483
+   },
+   {
+    "date": "1893-04-21",
+    "band": 1,
+    "scan": 485
+   },
+   {
+    "date": "1893-04-22",
+    "band": 1,
+    "scan": 486
+   },
+   {
+    "date": "1893-04-23",
+    "band": 1,
+    "scan": 487
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Ich schoss auf gut Glück nach der Stelle hin, an welcher ich das Haupt des Thieres vermuthete und alsbald bewies eine Schweißspur, sowie das Umberschlagen des aus dem Schlamm auftauchenden, gezackten Schweifes, dass ich das Krokodil getroffen hatte.",
+    "animals": [
+     "crocodile"
+    ],
+    "first_person": true,
+    "date": "1893-04-11",
+    "band": 1,
+    "scan": 436
+   },
+   {
+    "text": "So oft sich ein Kopf zeigte, gab ich auf die Lichter oder auf den Halswirbel, die einzig verwundbaren Stellen der Krokodile, I'cucr und vcrniuchle auf diese Art noch sechs starke Exemplare zu erlegen, so dass meine Strecke acht Krokodile betrug, deren jedes über 2 Hl maß.",
+    "animals": [
+     "crocodile"
+    ],
+    "first_person": true,
+    "date": "1893-04-11",
+    "band": 1,
+    "scan": 436
+   },
+   {
+    "text": "Der Regent scheint gleichfalls ein passionierter Jäger zu sein, denn mit Stolz zeigte er mir seine Gewehre, sowie Häupter von erlegten Hirschen (Cervus hippelaphus), von Bantengs, dem wilden Rinde der indischen Inseln, und von Rhinocerossen.",
+    "animals": [
+     "rhinoceros",
+     "buffalo",
+     "deer"
+    ],
+    "first_person": true,
+    "date": "1893-04-15",
+    "band": 1,
+    "scan": 463
+   },
+   {
+    "text": "Ich schoss im ganzen 21 Stücke, danmter aber nur einen gil^ Keiler.",
+    "animals": [
+     "boar"
+    ],
+    "first_person": true,
+    "date": "1893-04-15",
+    "band": 1,
+    "scan": 463
+   },
+   {
+    "text": "hii-- Sov'hsi-rjicweih des von mir erlegten Hirsches war ieicer nivli un Uasio, Hio Hir>che in Java sowie jene in Indien scheinen keine b.<slnun)te AbwuHVeit :\\i haben: denn zu i;leicher Zeit kommen Hirsche mil nun/ \\evschlii};enem ^iewoihc.",
+    "animals": [
+     "deer"
+    ],
+    "first_person": true,
+    "date": "1893-04-16",
+    "band": 1,
+    "scan": 466
+   },
+   {
+    "text": "Das Ziel meiner Wünsche war nämlich, einen Banteng zu erlegen und dessen prachtvoll gehörnten Kopf als Trophäe heimzuführen.",
+    "animals": [
+     "buffalo"
+    ],
+    "first_person": true,
+    "date": "1893-04-19",
+    "band": 1,
+    "scan": 478
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-05-06-port-kennedy",
+  "region": "port-kennedy",
+  "place_ids": [
+   "port-kennedy"
+  ],
+  "place_raw": "Port Kennedy and Somerset Bay",
+  "start": "1893-05-06",
+  "end": "1893-05-07",
+  "animals": {
+   "bird": 2,
+   "kangaroo": 1
+  },
+  "kill_sentences": 3,
+  "diary": [
+   {
+    "date": "1893-05-06",
+    "band": 1,
+    "scan": 512
+   },
+   {
+    "date": "1893-05-07",
+    "band": 1,
+    "scan": 516
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Ich erlegte Exemplare verschiedener Arten der australischen Vogelwelt, doch konnte ich leider weder Kakadus, noch Papageien zu Gesicht bejiommen.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-05-06",
+    "band": 1,
+    "scan": 512
+   },
+   {
+    "text": "Am Ufer des Pola River fortschreitend, kam ich mit VVurmbrand und Clam zusammen, von denen letzterer das Waidmannsheil gehabt hatte, das erste Känguruh zu erlegen — ein Zwergkänguruh aus der Gattung der Hasen springen, das aber immerhin von der Nase bis zum Schwanzende 175>« maß.",
+    "animals": [
+     "kangaroo"
+    ],
+    "first_person": true,
+    "date": "1893-05-06",
+    "band": 1,
+    "scan": 512
+   },
+   {
+    "text": "Ich schoss hier eine selten schön gefärbte Papageitaube;",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-05-07",
+    "band": 1,
+    "scan": 516
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-05-16-unknown",
+  "region": null,
+  "place_ids": [],
+  "place_raw": "Sydney, Australia",
+  "start": "1893-05-16",
+  "end": "1893-05-16",
+  "animals": {
+   "tiger": 1,
+   "elephant": 1,
+   "buffalo": 1
+  },
+  "kill_sentences": 1,
+  "diary": [
+   {
+    "date": "1893-05-16",
+    "band": 1,
+    "scan": 536
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Steamer Point Kine Partie aus dem botanischen Garten von Peradenia 3 25 29 Kine Singhalesen-Ansiedelung Der Teich von Kalawewa 47 51 Der erste erlegte Elephant Der Kclsentempel auf der Insel Elephanta Die Thürme des Schweigens Das Jagdlager in Tandur Auf der Suche nach Tigern Eine StraÜe in Haidarabad 74 77 102 105 114 117 Kitt auf Elephanten durch Haidarabad Das Kort von üwalior 141 145 F^clief a",
+    "animals": [
+     "tiger",
+     "elephant",
+     "buffalo"
+    ],
+    "first_person": false,
+    "date": "1893-05-16",
+    "band": 1,
+    "scan": 536
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-05-18-nsw-west",
+  "region": "nsw-west",
+  "place_ids": [
+   "narromine"
+  ],
+  "place_raw": "Narromine, Australia",
+  "start": "1893-05-18",
+  "end": "1893-05-20",
+  "animals": {
+   "kangaroo": 8,
+   "bird": 5,
+   "emu": 1
+  },
+  "kill_sentences": 14,
+  "diary": [
+   {
+    "date": "1893-05-18",
+    "band": 2,
+    "scan": 27
+   },
+   {
+    "date": "1893-05-19",
+    "band": 2,
+    "scan": 33
+   },
+   {
+    "date": "1893-05-20",
+    "band": 2,
+    "scan": 37
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Nach einiger Zeit wurde die tolle Fahrt unterbrochen und Kriegsrath gehalten, während dessen ich drei reizende Papageien erlegte, die in der Nähe des Wagens eingefallen waren und alle Farben des Regenbogens in ihrem Gefieder aufwiesen.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-05-18",
+    "band": 2,
+    "scan": 27
+   },
+   {
+    "text": "Die Erlegung des ersten Känguruhs freute mich umsomehr, als dasselbe ein schönes Exemplar der großen Art Macropus giganteus war.",
+    "animals": [
+     "kangaroo"
+    ],
+    "first_person": true,
+    "date": "1893-05-18",
+    "band": 2,
+    "scan": 27
+   },
+   {
+    "text": "doch schien leider die I^ission, dem Wilde mit den Hunden nachzusetzen, die treibenden Reiter etwas zu sehr befallen zu haben, da zwar viele Känguruhs im Triebe waren, aber alle zur Seite oder rückwärts ausbrachen, so dass ich nur ein Stück erlegen konnte, während deren zwei gekillt wurden.",
+    "animals": [
+     "kangaroo"
+    ],
+    "first_person": true,
+    "date": "1893-05-19",
+    "band": 2,
+    "scan": 33
+   },
+   {
+    "text": "mehrere in demselben Districte hefindliche Farmer arrangieren dann gemeinschaftUch große Treibjagden zu Pferde, wobei sie die Känguruhs rudelweise in solche Einfange treiben und hiedurch oft unglaublich scheinende Mengen erbeuten.",
+    "animals": [
+     "kangaroo"
+    ],
+    "first_person": false,
+    "date": "1893-05-19",
+    "band": 2,
+    "scan": 33
+   },
+   {
+    "text": "Ich wartete zwei Stunden lang und musste mich im \\'erlaufe dieser Zeit mit vier Enten begnügen, bis meine .Ausdauer gegen Schluss der Jagd hin ihren Lohn fand, indem ich zwei \\'ögel erlegte, welche eine schöne X'crniehrung meiner Sammlung darstellten: einen Ibis, welchen ich aus einem über meinen Kopf hinwegstreichenden Schwärme herausschoss, sowie einen Australischen Kranich.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-05-20",
+    "band": 2,
+    "scan": 37
+   },
+   {
+    "text": "Schon während des Triebes hatte ich in weiter Entfernung mehrere Emus vorbeiwechseln gesehen, und drängte nun, da es mir hauptsächlich darum zu thun war, eines dieser seltenen Thiere zu erlegen, die Farmer, den Nachmittag zum Treiben auf dieselben zu verwenden.",
+    "animals": [
+     "emu"
+    ],
+    "first_person": true,
+    "date": "1893-05-20",
+    "band": 2,
+    "scan": 37
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-05-23-badgery",
+  "region": "badgery",
+  "place_ids": [
+   "badgery"
+  ],
+  "place_raw": "Badgery Station, Australia",
+  "start": "1893-05-23",
+  "end": "1893-05-25",
+  "animals": {
+   "kangaroo": 7,
+   "bear": 3
+  },
+  "kill_sentences": 10,
+  "diary": [
+   {
+    "date": "1893-05-23",
+    "band": 2,
+    "scan": 52
+   },
+   {
+    "date": "1893-05-24",
+    "band": 2,
+    "scan": 57
+   },
+   {
+    "date": "1893-05-25",
+    "band": 2,
+    "scan": 61
+   }
+  ],
+  "quotes": [
+   {
+    "text": "erbrachte uns eine Beute von 15 Wallabies und zwei Känguaihs, Soviel ich bemerken konnte, sind die Wallabies ^scheuer und vorsichtiger als die Känguruhs, denn sie werden schon luchtig, sobald sich die Treiber nur einigermaßen bemerkbar machen und setzen sich nach wenigen Sprüngen jedesmal aufrecht nieder, um nach allen Seiten hin zu äugen, wobei sie jede, auch die geringste Bewegung des Schützen w",
+    "animals": [
+     "kangaroo"
+    ],
+    "first_person": true,
+    "date": "1893-05-23",
+    "band": 2,
+    "scan": 52
+   },
+   {
+    "text": "Wir streiften in der herrlichen, kühlen Mondnacht noch durch etwa zwei Stunden umher und kehrten endlich, nachdem ich sechs Kusus und einen Australischen Bären erlegt hatte, heim.",
+    "animals": [
+     "bear"
+    ],
+    "first_person": true,
+    "date": "1893-05-23",
+    "band": 2,
+    "scan": 52
+   },
+   {
+    "text": "Sind schon die Bewegungen der Känguruhs überaus drollig, so sind es jene der Wallabies, deren ich einige im Sprung erlegte, noch viel mehr.",
+    "animals": [
+     "kangaroo"
+    ],
+    "first_person": true,
+    "date": "1893-05-24",
+    "band": 2,
+    "scan": 57
+   },
+   {
+    "text": "Bald waren öl Stück Felsen-Wallabies, deren LMi auf mich enttiolcn, zur Strecke gebracht.",
+    "animals": [
+     "kangaroo"
+    ],
+    "first_person": true,
+    "date": "1893-05-24",
+    "band": 2,
+    "scan": 57
+   },
+   {
+    "text": "Auf dem Wege nach der Farm hatte ich doch noch einigermaf3cn Waidmannsheil, indem ich zwei Bären und einen Bussard erlegte.",
+    "animals": [
+     "bear"
+    ],
+    "first_person": true,
+    "date": "1893-05-25",
+    "band": 2,
+    "scan": 61
+   },
+   {
+    "text": "Schon im ersten Triebe wurde eine erstaunliche Anzahl von Wallabies flüchtig, die aber diesmal meinen Stand größtentheils mieden und seitwärts ausbrachen, wo Wurmbrand und Clam standen, so dass der eine 18, der andere 19 Stück erlegte.",
+    "animals": [
+     "kangaroo"
+    ],
+    "first_person": true,
+    "date": "1893-05-25",
+    "band": 2,
+    "scan": 61
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-06-02-unknown",
+  "region": null,
+  "place_ids": [],
+  "place_raw": "Numea, New Caledonia",
+  "start": "1893-06-02",
+  "end": "1893-06-02",
+  "animals": {
+   "deer": 1
+  },
+  "kill_sentences": 1,
+  "diary": [
+   {
+    "date": "1893-06-02",
+    "band": 2,
+    "scan": 87
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Da mir die Möglichkeit fehlte, meine Ansicht durch einige eingeborene Kraft- und Kemworte zum Ausdrucke zu bringen, nahm ich in ohnmächtigem Ärger meinen Stutzen auf den Rücken und wandte mich von dieser »-wilden, verwegenen Jagd\" ab, dem Wagen zu, wo ich von einem mir eiligen Laufes folgenden Jagdarrangeur die Nachricht erhielt, dass eben vier Hirsche über den von mir verlassenen Stand gewechselt",
+    "animals": [
+     "deer"
+    ],
+    "first_person": true,
+    "date": "1893-06-02",
+    "band": 2,
+    "scan": 87
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-06-08-solomon",
+  "region": "solomon",
+  "place_ids": [
+   "owaraha"
+  ],
+  "place_raw": "Owa Raha to Ugi, Solomon Islands",
+  "start": "1893-06-08",
+  "end": "1893-06-09",
+  "animals": {
+   "bird": 3
+  },
+  "kill_sentences": 3,
+  "diary": [
+   {
+    "date": "1893-06-08",
+    "band": 2,
+    "scan": 114
+   },
+   {
+    "date": "1893-06-09",
+    "band": 2,
+    "scan": 118
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Ich wMr kaum 100 Schritte in den Wald eingedrungen, als niif der erste Schuss schon einen prachtvollen, ganz rothen Papagei (Eos cardinalis) brachte, und ich gleich darauf eine wunderschön gefärbt^ Taube (Ptilopus eugeniae) mit schneeweißem Kopfe, carminrothem Brustflecke, gelbem Bauch und grün und violett gestreiften Flügeln schossUnmittelbar nachher strich von einer hohen Dracaene ein größere*' ",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-06-08",
+    "band": 2,
+    "scan": 114
+   },
+   {
+    "text": "Im weiteren Verlaufe meines Umherstreifens scHoss ich noch eine scharlachrothe Nectanne fMysomela pulcherrima), eine ganz kaffeebraune Taube von der Gestalt einer Turteltaube und zwei große Fruchttauben (Carpophaga pistrinaria)» ferner ein Paar der Y>rachtvollen Banda- Papageien (Lorius chlorocercus), die an ihrem Gefieder alle Farben des Regenbogens tragen und zu den schönsten Papageien überhaupt",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-06-08",
+    "band": 2,
+    "scan": 114
+   },
+   {
+    "text": "v.>g<;hi spähend, doch sah es, da kurz vor Tagesanbruch ^m Rc|:«ti niedergegangen war und auch jetzt noch Regen mit Sonnen^^jb^ Abwechselte, mit der \\'ngelwelt, deren Vertreter in den dichten IjMMtronen versteckt waren, übel aus, und ich konnte daher nur ^imitk fifvßön, grünen Papagei erlegen, während Pronay eine selten 3iCWSii gefärbte Taube mit gelben, violetten und grünen Federn zur Sltrcckc br",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-06-09",
+    "band": 2,
+    "scan": 118
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-06-16-new-guinea",
+  "region": "new-guinea",
+  "place_ids": [
+   "port-moresby"
+  ],
+  "place_raw": "Port Moresby to the hunting camp at Laroki, New Guinea",
+  "start": "1893-06-16",
+  "end": "1893-06-17",
+  "animals": {
+   "bird": 2,
+   "kangaroo": 1
+  },
+  "kill_sentences": 3,
+  "diary": [
+   {
+    "date": "1893-06-16",
+    "band": 2,
+    "scan": 139
+   },
+   {
+    "date": "1893-06-17",
+    "band": 2,
+    "scan": 146
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Auf einer kleinen, mit Gras bedeckten Lichtung sprangen plötzlich zwei kleine Wallabics zu meinen Püßen auf, deren eines ich, das andere Bedford erlegte.",
+    "animals": [
+     "kangaroo"
+    ],
+    "first_person": true,
+    "date": "1893-06-16",
+    "band": 2,
+    "scan": 139
+   },
+   {
+    "text": "Die erste Beute war ein schön gerarbier Papagei, der.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": false,
+    "date": "1893-06-16",
+    "band": 2,
+    "scan": 139
+   },
+   {
+    "text": "Ich hatte die Hoffnung auf ein günstiges Ergebnis bereits aufgegeben, als ich 7AVe\\ selten schön porpurroth und citrongelb gefärbte Tauben (Ptilopus iozonus) entdeckte, die ich erbeutete.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-06-17",
+    "band": 2,
+    "scan": 146
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-06-25-aru",
+  "region": "aru",
+  "place_ids": [
+   "aru"
+  ],
+  "place_raw": "Dobo, Aru islands",
+  "start": "1893-06-25",
+  "end": "1893-06-26",
+  "animals": {
+   "bird": 2
+  },
+  "kill_sentences": 2,
+  "diary": [
+   {
+    "date": "1893-06-25",
+    "band": 2,
+    "scan": 167
+   },
+   {
+    "date": "1893-06-26",
+    "band": 2,
+    "scan": 172
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Ich bemühte mich vor allem, einen der schwarzen Kakadus» Welche sich durch ihr schönes, mit Weiß gleichsam überpudertes Gefieder» hellroth gefärbte Backen und den prächtigen, aufrecht stehenden Schopf auszeichnen, zu erlegen;",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-06-25",
+    "band": 2,
+    "scan": 167
+   },
+   {
+    "text": "Bei Sonnenuntergang traf ich an der Küste wieder mit meinen Herren zusammen, deren einige glücklicher gewesen waren als ich — Beweis dafür, dass sie einen schwarzen Kakadu, zahlreiche Papageien und einen schonen, lichtbraunen Reiher erbeutet hatten.",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-06-26",
+    "band": 2,
+    "scan": 172
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-06-29-buru",
+  "region": "buru",
+  "place_ids": [
+   "kajeli"
+  ],
+  "place_raw": "Kajeli, Amboina",
+  "start": "1893-06-29",
+  "end": "1893-06-30",
+  "animals": {
+   "bird": 2,
+   "deer": 2
+  },
+  "kill_sentences": 4,
+  "diary": [
+   {
+    "date": "1893-06-29",
+    "band": 2,
+    "scan": 184
+   },
+   {
+    "date": "1893-06-30",
+    "band": 2,
+    "scan": 187
+   }
+  ],
+  "quotes": [
+   {
+    "text": "ich erlegte nur 2wei Papageien verschiedener Arten, deren einer grün, der andere roth ^fanygnathus megalorhynchus und Eos rubra), ferner ein Exemplar der prachtvollen weißen, eigentlich lichtgelben Fruchttaubc (MyriMicivora melanura), endlich einen merkwürdigen Segler (Macropteryx liJendrocheliJon] mystacea) mit langen, weißen Bartfäden und einige Wcinerc Vogel Meine Herren hatten nur siwei TaubeU",
+    "animals": [
+     "bird"
+    ],
+    "first_person": true,
+    "date": "1893-06-29",
+    "band": 2,
+    "scan": 184
+   },
+   {
+    "text": "Trotzdem wir den Treibern auf das eindringlichste mit Worten und Geberden, Bitten und Befehlen eingeschärft hatten, die Hunde nicht auszulassen und sich auf dem Wege zum Triebe ruhig zu verhalten, hörten wir ihr Geschrei fortwährend durch den Wald klingen, ja bald gaben auch die Hunde jagend Laut und brachten ein Hirschkalb in unsere Nähe, welches ich aber leider fehlte.",
+    "animals": [
+     "deer"
+    ],
+    "first_person": true,
+    "date": "1893-06-30",
+    "band": 2,
+    "scan": 187
+   },
+   {
+    "text": "doch als ich dasselbe erlegt halte, zeigte sich, dass es bereits von einem anderen Schützen einen Uufschuss erhalten hatte, Nach Beendigung des langwierigen Triebes stellte es sich heraus, dass fast alle Schüsse von den eingeborenen Schützen abgegeben worden waren, welche in der That guten Anlauf gehabt und, freilich ohne jedes Resultat, viel Hochwild, darunter einen guten Hirsch» mit iichrot besc",
+    "animals": [
+     "deer"
+    ],
+    "first_person": true,
+    "date": "1893-06-30",
+    "band": 2,
+    "scan": 187
+   }
+  ]
+ },
+ {
+  "id": "hunt-1893-08-14-kyoto",
+  "region": "kyoto",
+  "place_ids": [
+   "kyoto"
+  ],
+  "place_raw": "Kyoto, Japan",
+  "start": "1893-08-14",
+  "end": "1893-08-14",
+  "animals": {
+   "bird": 1
+  },
+  "kill_sentences": 1,
+  "diary": [
+   {
+    "date": "1893-08-14",
+    "band": 2,
+    "scan": 378
+   }
+  ],
+  "quotes": [
+   {
+    "text": "vor ihnen die untcroder emportauchenden Cormorane, deren bald dieser, bald jener in da^ Fahrzeug gehisst wurde, um, der Beute entledigt, wieder in der Flut zu ^rersch winden;",
+    "animals": [
+     "bird"
+    ],
+    "first_person": false,
+    "date": "1893-08-14",
+    "band": 2,
+    "scan": 378
+   }
+  ]
+ }
+]

@@ -1,0 +1,3 @@
+# Antwort-Cache der ANNO-API (lokal, jederzeit neu erzeugbar)
+cache/
+__pycache__/

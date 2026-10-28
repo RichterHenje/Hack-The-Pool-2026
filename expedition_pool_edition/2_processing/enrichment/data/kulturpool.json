@@ -1,0 +1,1864 @@
+{
+ "source": "Kulturpool (https://kulturpool.at), API https://api.kulturpool.at/v2",
+ "direct": [
+  {
+   "id": "6682f079-5346-40df-92d7-603deb9ec506",
+   "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.196/1893",
+   "provider": "Naturhistorisches Museum Wien",
+   "description": "Leo Wurmbrandt-Stuppach teilt der Intendanz mit, dass Direktor Lorenz von Erzherzog Franz Ferdinand auf seiner Weltreise mit dem Schiff Kaiserin Elisabeth nicht mehr benötigt wird, und deshalb wieder an das Museum gesendet wird. | 1 Bogen",
+   "date": null,
+   "spatial": [
+    "Nepal"
+   ],
+   "type": [
+    "Schriftstück"
+   ],
+   "url": "https://kulturpool.at/objekte/6682f079-5346-40df-92d7-603deb9ec506",
+   "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1893-0196",
+   "image": "https://media.kulturpool.at/images/iiif.nhm.at/0c5faa5a774c918d8e952efa8a3034ad3ace74ce_small.webp",
+   "iiif": "https://objects.nhm.at/pid/NHMW-AFW-ADMIN-IA-1893-0196/manifest.json",
+   "rights": "CC BY-NC-ND",
+   "found_by": "search: Franz Ferdinand Weltreise",
+   "year": 1893,
+   "tier": "voyage"
+  },
+  {
+   "id": "adcea14f-8767-4468-b178-2b4a0e3b9c49",
+   "title": "Imperial Sightseeing: Die Indienreise von Erzherzog Franz Ferdinand von Öst",
+   "provider": "eSel.at",
+   "description": "Auf seiner Weltreise 1892/93 erkundete Erzherzog Franz Ferdinand unter anderem auch Indien und Ceylon. Berühmte Fotografen wie der Wiener Eduard Hodek jun. oder Lala Deen Dayal dokumentierten seine Erlebnisse zwischen Tigerjagd und Hofzeremoniell.\nDie Ausstellung präsentiert erstmals ca. 80 historische Fotografien sowie Miniaturen auf Elfenbein und Papier aus der enormen ,,Souvenirsammlung\" des Erzherzogs im Wiener Museum für Völkerkunde.\nEine Kooperation des Instituts für Kunstgeschichte der Universität Wien und dem Museum für Völkerkunde.\n\nKuratorin: Regina Höfer\nAusstellungskoordination: Ch",
+   "date": [
+    "2010-07-06"
+   ],
+   "spatial": [
+    "Wien",
+    "Weltmuseum Wien"
+   ],
+   "type": [
+    "exhibitions (events)"
+   ],
+   "url": "https://kulturpool.at/objekte/adcea14f-8767-4468-b178-2b4a0e3b9c49",
+   "isShownAt": "https://rewind.esel.at/event/ev_02vmeuxjIf1cc3TzRmbklX",
+   "image": "https://media.kulturpool.at/images/rewind.esel.at/b431a01045737f8e550c62417f07a1c962589b82_small.webp",
+   "iiif": null,
+   "rights": "CC BY-NC-SA",
+   "found_by": "search: Franz Ferdinand Weltreise",
+   "year": 2010,
+   "tier": "modern"
+  },
+  {
+   "id": "cebcfb7c-30aa-466c-b5c1-d9c67b7a006a",
+   "title": "Imperial Sightseeing: Die Indienreise von Erzherzog Franz Ferdinand von Öst",
+   "provider": "eSel.at",
+   "description": "Auf seiner Weltreise 1892/93 erkundete Erzherzog Franz Ferdinand unter anderem auch Indien und Sri Lanka. Berühmte Fotografen wie der Wiener Eduard Hodeck jun. oder Lala Deen Dayal dokumentierten seine Erlebnisse zwischen Tigerjagd und Hofzeremoniell. \n\nDie Ausstellung präsentiert erstmal ca. 80 historische Fotografien sowie Miniaturen auf Elfenbein und Papier aus der einormen \\\"Souvenirsammlung\\\" des Erzherzogs im Wiener Museum für Völkerkunde. \n\nEine Kooperation zwischen dem Institut für Kunstgechichte der Universität Wien und dem Museum für Völkerkunde. \n\nZur Ausstellung erscheint eine E-Pu",
+   "date": [
+    "2010-07-07"
+   ],
+   "spatial": [
+    "Wien",
+    "Weltmuseum Wien"
+   ],
+   "type": [
+    "exhibitions (events)"
+   ],
+   "url": "https://kulturpool.at/objekte/cebcfb7c-30aa-466c-b5c1-d9c67b7a006a",
+   "isShownAt": "https://rewind.esel.at/event/ev_02vmeuxcZf1dxeUktnnLWO",
+   "image": "https://media.kulturpool.at/images/rewind.esel.at/823d2c6bf5d60861e1a70dc115858d11574c7e8b_small.webp",
+   "iiif": null,
+   "rights": "CC BY-NC-SA",
+   "found_by": "search: Franz Ferdinand Weltreise",
+   "year": 2010,
+   "tier": "modern"
+  },
+  {
+   "id": "9bc129ba-1c4e-4681-a764-b21414255d89",
+   "title": "Führer durch die Sammlungen von der Weltreise Seiner kaiserlichen Hoheit Erzherzog Franz Ferdinand 1892 - 93. aufgestellt im Oberen Belvedere 1894 ; mit einer Karte",
+   "provider": "Österreichische Nationalbibliothek",
+   "description": "",
+   "date": [
+    "1894"
+   ],
+   "spatial": [
+    "Wien"
+   ],
+   "type": [
+    "Buch"
+   ],
+   "url": "https://kulturpool.at/objekte/9bc129ba-1c4e-4681-a764-b21414255d89",
+   "isShownAt": "http://data.onb.ac.at/ABO/%2BZ230896003",
+   "image": "https://media.kulturpool.at/images/digital.onb.ac.at/b54b57b7b24d1c28990b160cd3608a6fd4b970b2_small.webp",
+   "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ230896003/manifest",
+   "rights": "NoC-NC",
+   "found_by": "search: Franz Ferdinand Weltreise",
+   "year": 1894,
+   "tier": "voyage"
+  },
+  {
+   "id": "c7613b45-f091-483e-88e1-34930468ea5a",
+   "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.729/1892",
+   "provider": "Naturhistorisches Museum Wien",
+   "description": "Schreiben des k. k. Obersthofmeisteramtes Z.7079 ddo. 1. Dezember 1892 betreffend der Bewilligung eines Urlaubes an Dr. Ludwig Ritter Lorenz von Liburnau, der eine Reise mit Erzherzog Franz Ferdinand von Österreich-Este unternimmt.",
+   "date": null,
+   "spatial": [
+    "Wien"
+   ],
+   "type": [
+    "Schriftstück"
+   ],
+   "url": "https://kulturpool.at/objekte/c7613b45-f091-483e-88e1-34930468ea5a",
+   "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1892-0729",
+   "image": "https://media.kulturpool.at/images/iiif.nhm.at/fc2c85a8185c32b02855abb469368397def11732_small.webp",
+   "iiif": "https://objects.nhm.at/pid/NHMW-AfW-ADMIN-IA-1892-0729/manifest.json",
+   "rights": "CC BY-NC-ND",
+   "found_by": "search: Lorenz Liburnau",
+   "year": 1892,
+   "tier": "voyage"
+  },
+  {
+   "id": "72b6cfb8-3389-494e-9d0b-363810c08893",
+   "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.531/1893",
+   "provider": "Naturhistorisches Museum Wien",
+   "description": "Ludwig Lorenz berichtet über die Sendung für die Ornithologische Sammlung von Julius Petersen. | 1 Blatt",
+   "date": null,
+   "spatial": [
+    "Wien"
+   ],
+   "type": [
+    "Schriftstück"
+   ],
+   "url": "https://kulturpool.at/objekte/72b6cfb8-3389-494e-9d0b-363810c08893",
+   "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1893-0531",
+   "image": "https://media.kulturpool.at/images/iiif.nhm.at/344db3281fed3b889528712a695f8338dabe02fa_small.webp",
+   "iiif": "https://objects.nhm.at/pid/NHMW-AFW-ADMIN-IA-1893-0531/manifest.json",
+   "rights": "CC BY-NC-ND",
+   "found_by": "search: Ludwig Lorenz Intendanz",
+   "year": 1893,
+   "tier": "voyage"
+  },
+  {
+   "id": "22a384f4-2cc6-42c6-af01-6fa0a9b225b4",
+   "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.23-33/1894",
+   "provider": "Naturhistorisches Museum Wien",
+   "description": "Dr. Ludwig Lorenz bittet um die Anfertigung von Dankschreiben an verschiedene Personen für erhaltene Spenden. | 1 Bogen",
+   "date": null,
+   "spatial": [
+    "Wien"
+   ],
+   "type": [
+    "Schriftstück"
+   ],
+   "url": "https://kulturpool.at/objekte/22a384f4-2cc6-42c6-af01-6fa0a9b225b4",
+   "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1894-0023-0033",
+   "image": "https://media.kulturpool.at/images/iiif.nhm.at/906c5411afb9e696a466bbd936b894c2285aebfd_small.webp",
+   "iiif": "https://objects.nhm.at/pid/NHMW-AFW-ADMIN-IA-1894-0023-0033/manifest.json",
+   "rights": "CC BY-NC-ND",
+   "found_by": "search: Ludwig Lorenz Intendanz",
+   "year": null,
+   "tier": "voyage"
+  },
+  {
+   "id": "3b464fe5-89e6-4f01-a7ce-01cb412281a7",
+   "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.207/1893",
+   "provider": "Naturhistorisches Museum Wien",
+   "description": "Das Obersthofmeisteramt nimmt die Rückkehr von Dr. Ludwig Lorenz ins Museum zur Kenntnis. | 1 Blatt",
+   "date": null,
+   "spatial": [
+    "Wien"
+   ],
+   "type": [
+    "Schriftstück"
+   ],
+   "url": "https://kulturpool.at/objekte/3b464fe5-89e6-4f01-a7ce-01cb412281a7",
+   "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1893-0207",
+   "image": "https://media.kulturpool.at/images/iiif.nhm.at/056afb0d5c49de04cd4a700758fc31f9bf4eb6e5_small.webp",
+   "iiif": "https://objects.nhm.at/pid/NHMW-AFW-ADMIN-IA-1893-0207/manifest.json",
+   "rights": "CC BY-NC-ND",
+   "found_by": "search: Ludwig Lorenz Intendanz",
+   "year": 1893,
+   "tier": "voyage"
+  },
+  {
+   "id": "dd4ac41a-19e3-446a-895f-1c31ffb2c305",
+   "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.634-644/1893",
+   "provider": "Naturhistorisches Museum Wien",
+   "description": "Sammlung Schriftenreklamation von Alois Rogenhofer, Wilhelm Hein und Ludwig Lorenz. | 1 Bogen, 4 Blätter",
+   "date": null,
+   "spatial": [
+    "Wien"
+   ],
+   "type": [
+    "Schriftstück"
+   ],
+   "url": "https://kulturpool.at/objekte/dd4ac41a-19e3-446a-895f-1c31ffb2c305",
+   "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1893-0634-0644",
+   "image": "https://media.kulturpool.at/images/iiif.nhm.at/298562dc549944fa290a95797812996eddbf4d5a_small.webp",
+   "iiif": "https://objects.nhm.at/pid/NHMW-AFW-ADMIN-IA-1893-0634-0644/manifest.json",
+   "rights": "CC BY-NC-ND",
+   "found_by": "search: Ludwig Lorenz Intendanz",
+   "year": null,
+   "tier": "voyage"
+  },
+  {
+   "id": "d96cc20b-597b-4764-8ed9-7f9513919f6b",
+   "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.629/1893",
+   "provider": "Naturhistorisches Museum Wien",
+   "description": "Viktor Horsetzky von Hornthal teilt der Intendanz mit, dass die Beamten und Diener, wie besprochen, bei der Ordnung der Sammlung des Erzherzogs mithelfen dürfen. | 1 Visitenkarte",
+   "date": null,
+   "spatial": [
+    "Wien"
+   ],
+   "type": [
+    "Schriftstück"
+   ],
+   "url": "https://kulturpool.at/objekte/d96cc20b-597b-4764-8ed9-7f9513919f6b",
+   "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1893-0629",
+   "image": "https://media.kulturpool.at/images/iiif.nhm.at/e89a75d70bfcdf5743d91d06612d97a2450309a8_small.webp",
+   "iiif": "https://objects.nhm.at/pid/NHMW-AFW-ADMIN-IA-1893-0629/manifest.json",
+   "rights": "CC BY-NC-ND",
+   "found_by": "search: Sammlung des Erzherzogs",
+   "year": 1893,
+   "tier": "voyage"
+  },
+  {
+   "id": "6671fc27-899c-4233-812a-f04e2b10f414",
+   "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.24-34/1892",
+   "provider": "Naturhistorisches Museum Wien",
+   "description": "ersuchen um Dankschreiben (von Dr. Lorenz an die Intendanz des k.k. naturhistorischen Hofmuseums) + Dankschreiben (von der Intendanz des k.k. naturhistorischen Hofmuseums an diverse Empfänger) | ausgefertigt | 1 ca. A4 1 Seite beschrieben",
+   "date": null,
+   "spatial": [
+    "Wien"
+   ],
+   "type": [
+    "Schriftstück"
+   ],
+   "url": "https://kulturpool.at/objekte/6671fc27-899c-4233-812a-f04e2b10f414",
+   "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1892-0024-0034",
+   "image": "https://media.kulturpool.at/images/iiif.nhm.at/a0d66356ab7ad554b0081c0901958ca4801360ba_small.webp",
+   "iiif": "https://objects.nhm.at/pid/NHMW-AfW-ADMIN-IA-1892-0024-0034/manifest.json",
+   "rights": "CC BY-NC-ND",
+   "found_by": "similar to 6682f079-5346-40df-92d7-603deb9ec506",
+   "year": null,
+   "tier": "voyage"
+  }
+ ],
+ "episodes": [
+  {
+   "hunt_id": "hunt-1892-12-20-port-said",
+   "direct": [],
+   "context": [
+    {
+     "id": "8b9e5562-eafb-48cd-9cd5-be12bea119a0",
+     "title": "Nachlass Franz Steindachner, Brief von Johann Schild an Suringer & Co. (23.07.1896)",
+     "provider": "Naturhistorisches Museum Wien",
+     "description": "Brief, Mitteilung über Absendung der drei Kisten, Umladung in Port Said, Fracht wurde in Padang bezahlt | 2 Blätter (etwa A4), je einseitig handbeschrieben, Seidenpapier",
+     "date": null,
+     "spatial": [
+      "Port Said"
+     ],
+     "type": [
+      "Schriftstück"
+     ],
+     "url": "https://kulturpool.at/objekte/8b9e5562-eafb-48cd-9cd5-be12bea119a0",
+     "isShownAt": "https://objects.nhm.at/NHMW-AFW-NLS-FSTEINDACHNER-0449-0003",
+     "image": "https://media.kulturpool.at/images/iiif.nhm.at/184bed90f1fecfc5f89d801cb430a5017a125fa0_small.webp",
+     "iiif": "https://objects.nhm.at/pid/NHMW-AFW-NLS-FSTEINDACHNER-0449-0003/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Port Said",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "31475df9-b42d-48d8-a3f6-325ad6b46b7a",
+     "title": "Nachlass Franz Steindachner, Brief von Johann Schild an Franz Steindachner (13.12.1898)",
+     "provider": "Naturhistorisches Museum Wien",
+     "description": "Brief, drei Kisten Fische über Port Said nach Triest zu Suringer & Co. verschifft | 1 Bogen (etwa A4), zweiseitig handbeschrieben, Briefkopf gestempelt",
+     "date": null,
+     "spatial": [
+      "Triest"
+     ],
+     "type": [
+      "Schriftstück"
+     ],
+     "url": "https://kulturpool.at/objekte/31475df9-b42d-48d8-a3f6-325ad6b46b7a",
+     "isShownAt": "https://objects.nhm.at/NHMW-AFW-NLS-FSTEINDACHNER-0449-0008",
+     "image": "https://media.kulturpool.at/images/iiif.nhm.at/108db973516d8ae0e444e99c615219dea3932161_small.webp",
+     "iiif": "https://objects.nhm.at/pid/NHMW-AFW-NLS-FSTEINDACHNER-0449-0008/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Port Said",
+     "year": null,
+     "tier": "voyage"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-01-10-ceylon",
+   "direct": [
+    "adcea14f-8767-4468-b178-2b4a0e3b9c49"
+   ],
+   "context": [
+    {
+     "id": "60aa6907-49c5-48e9-a90f-b084b8a7ae78",
+     "title": "Ceylon",
+     "provider": "MAK - Museum für angewandte Kunst, Wien",
+     "description": "",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Textilmuster",
+      "Musterbuchseite",
+      "Stoffmuster"
+     ],
+     "url": "https://kulturpool.at/objekte/60aa6907-49c5-48e9-a90f-b084b8a7ae78",
+     "isShownAt": "https://sammlung.mak.at/de/collect/collect_321920",
+     "image": "https://media.kulturpool.at/images/mak-media.azureedge.net/c90b1396688b486fc721daaff47a1ffc9bb958e8_small.webp",
+     "iiif": "https://media.kulturpool.at/api/iiif/60aa6907-49c5-48e9-a90f-b084b8a7ae78/prod/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Ceylon",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "096a2267-07f3-4078-962b-b8fd66f69119",
+     "title": "Personen mit Boot an Ufer in Sri Lanka : Fotografie aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Fotografie einer Personengruppe auf und vor einem Boot mit Ausleger, am Ufer eines Waldes, mit einer handschriftlichen Notiz: \"Colombo / Ceylon\".",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Fotografia",
+      "Fotografie",
+      "photograph"
+     ],
+     "url": "https://kulturpool.at/objekte/096a2267-07f3-4078-962b-b8fd66f69119",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2321565",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/524b0a5619f7297b919fe0ae4a0dadd31f2b9a77_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2321565/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Ceylon",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "ae5c46cf-f17f-4b8f-80d8-0a25ec8198fe",
+     "title": "Geschäftige Straße mit Ochsenkarren und Personen zwischen weißen Häusern auf Sri Lanka : Fotografie aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Fotografia",
+      "Fotografie",
+      "photograph"
+     ],
+     "url": "https://kulturpool.at/objekte/ae5c46cf-f17f-4b8f-80d8-0a25ec8198fe",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2321559",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/21a413ac73376e82de04b71900ee9d6578d3df27_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2321559/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Ceylon",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "f3ef7335-79f7-4f67-b657-919155304f09",
+     "title": "Eingangstor zum Nata Dewale Tempelbezirk in Kandy auf Sri Lanka : Fotografie aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Fotografie eines Eingangstors zum Nata Dewale Tempelbezirk in Kandy, mit einer handschriftlichen Notiz: (recto) \"Temple Gateway, Kandy, Ceylon\"; (verso) \"Temple Gateway / Kandy / Ceylon\".",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Fotografia",
+      "Fotografie",
+      "photograph"
+     ],
+     "url": "https://kulturpool.at/objekte/f3ef7335-79f7-4f67-b657-919155304f09",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2321571",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/7e1688690f1ab600f141add94216d3939c75d2a3_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2321571/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Ceylon",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "331c9f21-c82e-4c1b-b2bf-888839b874f1",
+     "title": "Personen beim Baden in Teich, Sri Lanka : Fotografie aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Fotografia",
+      "Fotografie",
+      "photograph"
+     ],
+     "url": "https://kulturpool.at/objekte/331c9f21-c82e-4c1b-b2bf-888839b874f1",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2320494",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/b588895fe5016bf9299710bffd8011c4be7c19de_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2320494/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Ceylon",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "1521d1de-23bd-49d0-b583-68c311280907",
+     "title": "Marktplatz an Straßenkreuzung vor Park, Sri Lanka : Fotografie aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Fotografia",
+      "Fotografie",
+      "photograph"
+     ],
+     "url": "https://kulturpool.at/objekte/1521d1de-23bd-49d0-b583-68c311280907",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2320495",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/6496021edbe03eff2792432871596bdffc88afdd_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2320495/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Ceylon",
+     "year": null,
+     "tier": "voyage"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-01-23-hyderabad",
+   "direct": [],
+   "context": [
+    {
+     "id": "37476fc0-e095-4ef1-8b4b-31bfdb63030d",
+     "title": "Census of India, 1891. Vol. 6. Berar or the Hyderabad assigned districts",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Census of India.6.",
+     "date": [
+      "1892"
+     ],
+     "spatial": [
+      "Staat Hyderabad"
+     ],
+     "type": [
+      "Illustrationen",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/37476fc0-e095-4ef1-8b4b-31bfdb63030d",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ312323909",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/7c3a6e0fea64fc93b85dc103535010e87927f82d_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ312323909/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Hyderabad",
+     "year": 1892,
+     "tier": "voyage"
+    },
+    {
+     "id": "87e1220e-e256-456a-88bf-27c4ea64455b",
+     "title": "Census of India, 1891. Vol. 23. Part 2. His highness the Nizam's dominions. Report on the census operations : chapters VII to XII",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Census of India. 1,23 (1-3).",
+     "date": [
+      "1894"
+     ],
+     "spatial": [
+      "Staat Hyderabad"
+     ],
+     "type": [
+      "Illustrationen",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/87e1220e-e256-456a-88bf-27c4ea64455b",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ312326406",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/b1d6480103efc7b0dd6a5eb23d137f819fc3f78a_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ312326406/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Hyderabad",
+     "year": 1894,
+     "tier": "voyage"
+    },
+    {
+     "id": "5503984e-215f-43c3-9407-fabae714a987",
+     "title": "Census of India, 1891. Vol. 23. Part 3. His highness the Nizam's dominions. Imperial and supplementary tables, and castle index",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Census of India. 1,23 (1-3).",
+     "date": [
+      "1893"
+     ],
+     "spatial": [
+      "Staat Hyderabad"
+     ],
+     "type": [
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/5503984e-215f-43c3-9407-fabae714a987",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ312326108",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/05705a1afc67403aa5db5b5a2595b56b7dfed4de_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ312326108/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Hyderabad",
+     "year": 1893,
+     "tier": "voyage"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-01-30-gwalior",
+   "direct": [],
+   "context": [
+    {
+     "id": "753481a1-f0bc-4d58-afbc-d779067c7116",
+     "title": "View of the Ruins at Fittypoor Sicri; View of the South of the Fort of Gwalior",
+     "provider": "Albertina",
+     "description": "",
+     "date": [
+      "1786-1788"
+     ],
+     "spatial": null,
+     "type": [
+      "Klebebandseite"
+     ],
+     "url": "https://kulturpool.at/objekte/753481a1-f0bc-4d58-afbc-d779067c7116",
+     "isShownAt": "https://sammlungenonline.albertina.at/objects/620809",
+     "image": "https://media.kulturpool.at/images/sammlungenonline.albertina.at/43ba99e1479a1772e6d3da153f74f7540c6f04df_small.webp",
+     "iiif": "https://sammlungenonline.albertina.at/apis/iiif/presentation/v2/1-objects-620809/manifest",
+     "rights": "Public Domain",
+     "found_by": "context: Gwalior",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "7078fc5f-595c-42e0-b7a3-c21eac10a62b",
+     "title": "Narrative of a journey from Caunpoor to the Boorendo pass in the Himalaya mountains, via Gwalior, Agra, Delhi, and Sirhind ... and ... Account of an attept to penetrate by Bekhur to Garoo, and the lake Manasarowara, with a letter from the late J. G. Gerard ... detailing a Visit to the Shatool and Boorendo Passes (etc.). by Major Sir William Lloyd. And Captain Alexander Gerard's ... Edited by George Lloyd",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "P.1.2. (zs.gebunden)",
+     "date": [
+      "1840"
+     ],
+     "spatial": [
+      "Himalaja"
+     ],
+     "type": [
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/7078fc5f-595c-42e0-b7a3-c21eac10a62b",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ15531920X",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/9b7a5a88ee3e26323ed88cc360492fe5ec8d9f2f_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ15531920X/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Gwalior",
+     "year": 1840,
+     "tier": null
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-02-13-agra",
+   "direct": [],
+   "context": [
+    {
+     "id": "70a6f694-919e-40d1-b8f5-f010f9fd9163",
+     "title": "Private Audienzhalle in Fatehpur Sikri in Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": [
+      "Agra--Āgra--Uttar Pradesh--Indien",
+      "Fatehpur Sīkri--Kiraoli--Āgra--Uttar Pradesh--Indien",
+      "Republic of India--Indien"
+     ],
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/70a6f694-919e-40d1-b8f5-f010f9fd9163",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2319799",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/3f955965bac8ef37a134674f3b302f9f16137e42_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2319799/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "050bab2e-c4da-4d1b-b528-9c9bf3f54f81",
+     "title": "Innenraum des Taj Mahal in Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/050bab2e-c4da-4d1b-b528-9c9bf3f54f81",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2320393",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/3f5f9cdf5d428437525719f800c55e60ea1a84c3_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2320393/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "b79e3b50-28c0-4ae9-81dc-b5abb5d5a6be",
+     "title": "I'timad al-Daula Mausoleum in Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Detailansicht des I'timad al-Daula Mausoleum in Agra mit einer Aufschrift: \"Ahtamadoula's Partition Views. / Shugan Chand & Co. Agra.\", Fotograf*in: Shugan Chand & Co. Agra.",
+     "date": null,
+     "spatial": [
+      "Agra--Āgra--Uttar Pradesh--Indien",
+      "Republic of India--Indien"
+     ],
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/b79e3b50-28c0-4ae9-81dc-b5abb5d5a6be",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2319761",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/e91411ade331a9b85e0762d563695f5d3da6a038_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2319761/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "697e3fae-47d5-4277-a374-55518ccbd2f0",
+     "title": "Eingangstor des Taj Mahal in Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": [
+      "Agra--Āgra--Uttar Pradesh--Indien",
+      "Republic of India--Indien"
+     ],
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/697e3fae-47d5-4277-a374-55518ccbd2f0",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2319765",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/9a5e9c724f7a1594154395f0c0bc73d136edf818_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2319765/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "f4f5406f-46b2-4d8a-9b60-e4d6c1199455",
+     "title": "Musamman Burj Turm im Roten Fort von Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": [
+      "Agra--Āgra--Uttar Pradesh--Indien",
+      "Republic of India--Indien"
+     ],
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/f4f5406f-46b2-4d8a-9b60-e4d6c1199455",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2319779",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/13e3c6861544ba02aa8c426516b877b8cff69e66_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2319779/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "93c8fb4f-6571-4bbb-be36-9bce76f398e6",
+     "title": "Akbar Mausoleum in Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": [
+      "Sikandra--Phulpur--Prayagraj district--Uttar Pradesh--Indien",
+      "Agra--Āgra--Uttar Pradesh--Indien",
+      "Republic of India--Indien"
+     ],
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/93c8fb4f-6571-4bbb-be36-9bce76f398e6",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2319793",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/e866811111fca0db563b775039588b1b6a8d5117_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2319793/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-02-20-alwar",
+   "direct": [],
+   "context": []
+  },
+  {
+   "hunt_id": "hunt-1893-03-01-jodhpur",
+   "direct": [],
+   "context": []
+  },
+  {
+   "hunt_id": "hunt-1893-03-03-jaipur",
+   "direct": [],
+   "context": [
+    {
+     "id": "ee22c9b7-01e1-4204-9914-e37f533af50a",
+     "title": "Miscellaneous Translations From Oriental Languages. Vol. II.",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Kein illustrierender Inhalt. - 1 Widmungsblatt (Schmuckrahmen): Oriental Translation Fund London. Instituted 1828 under the Patronage of His Most Gracious Majesty William the Fourth. This copy was printed for the Imperial Library, Vienna ; Fußnoten",
+     "date": [
+      "M.DCCC.XXXIV"
+     ],
+     "spatial": [
+      "Armenien",
+      "Jaipur",
+      "Türkei",
+      "Iran"
+     ],
+     "type": [
+      "Aufsatzsammlung",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/ee22c9b7-01e1-4204-9914-e37f533af50a",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ167690603",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/7dd8cb6452c3a6c5ef29fdefd72c39a337e59dfb_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ167690603/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Jaipur",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "00c9ad32-895d-49dd-9507-e366ad4c130e",
+     "title": "Kerman Garten-Teppich",
+     "provider": "MAK - Museum für angewandte Kunst, Wien",
+     "description": "Obwohl klein im Format, gehört dieser Garten-Teppich zu den berühmtesten und frühesterhaltenen seiner Art. Aufgrund seiner technischen Eigenheiten – er ist der einzige Teppich der\nKerman-Gruppe, der Gold- und Silberbroschierungen aufweist – ist er ein Unikat. Das Feld stellt einen in die Fläche übertragenen sechsteiligen Garten dar, einen erweiterten „tschahar bagh“, die charakteristische Gartenform dieser Zeit:\nWasserkanäle und Bassins, ehemals in Silber broschiert, strukturieren das Feld. In den Wasserläufen tummeln sich Fische und Enten, die einzelnen Kompartimente sind bepflanzt und mit Ti",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Teppich"
+     ],
+     "url": "https://kulturpool.at/objekte/00c9ad32-895d-49dd-9507-e366ad4c130e",
+     "isShownAt": "https://sammlung.mak.at/de/collect/collect_98397",
+     "image": "https://media.kulturpool.at/images/mak-media.azureedge.net/cd7bd63e1a2b3a2397bed12844012aa4ff4b324e_small.webp",
+     "iiif": "https://media.kulturpool.at/api/iiif/00c9ad32-895d-49dd-9507-e366ad4c130e/prod/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Jaipur",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "8163ab5d-34a0-4d7a-bc3b-bade0afa3d51",
+     "title": "Wassergefäß aus Jeypore (Indien)",
+     "provider": "Technisches Museum Wien",
+     "description": "",
+     "date": null,
+     "spatial": [
+      "Jeypore"
+     ],
+     "type": [
+      "Wasserkrug"
+     ],
+     "url": "https://kulturpool.at/objekte/8163ab5d-34a0-4d7a-bc3b-bade0afa3d51",
+     "isShownAt": "https://www.technischesmuseum.at/museum/online-sammlung#sammlung/ui//objectdetail/323408",
+     "image": "https://media.kulturpool.at/images/api.tmw.at/04c6ddd3f3aed957de2903c196373c9872709842_small.webp",
+     "iiif": null,
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Jeypore",
+     "year": null,
+     "tier": "voyage"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-03-07-agra",
+   "direct": [],
+   "context": [
+    {
+     "id": "70a6f694-919e-40d1-b8f5-f010f9fd9163",
+     "title": "Private Audienzhalle in Fatehpur Sikri in Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": [
+      "Agra--Āgra--Uttar Pradesh--Indien",
+      "Fatehpur Sīkri--Kiraoli--Āgra--Uttar Pradesh--Indien",
+      "Republic of India--Indien"
+     ],
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/70a6f694-919e-40d1-b8f5-f010f9fd9163",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2319799",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/3f955965bac8ef37a134674f3b302f9f16137e42_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2319799/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "050bab2e-c4da-4d1b-b528-9c9bf3f54f81",
+     "title": "Innenraum des Taj Mahal in Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/050bab2e-c4da-4d1b-b528-9c9bf3f54f81",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2320393",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/3f5f9cdf5d428437525719f800c55e60ea1a84c3_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2320393/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "b79e3b50-28c0-4ae9-81dc-b5abb5d5a6be",
+     "title": "I'timad al-Daula Mausoleum in Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Detailansicht des I'timad al-Daula Mausoleum in Agra mit einer Aufschrift: \"Ahtamadoula's Partition Views. / Shugan Chand & Co. Agra.\", Fotograf*in: Shugan Chand & Co. Agra.",
+     "date": null,
+     "spatial": [
+      "Agra--Āgra--Uttar Pradesh--Indien",
+      "Republic of India--Indien"
+     ],
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/b79e3b50-28c0-4ae9-81dc-b5abb5d5a6be",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2319761",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/e91411ade331a9b85e0762d563695f5d3da6a038_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2319761/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "697e3fae-47d5-4277-a374-55518ccbd2f0",
+     "title": "Eingangstor des Taj Mahal in Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": [
+      "Agra--Āgra--Uttar Pradesh--Indien",
+      "Republic of India--Indien"
+     ],
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/697e3fae-47d5-4277-a374-55518ccbd2f0",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2319765",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/9a5e9c724f7a1594154395f0c0bc73d136edf818_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2319765/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "f4f5406f-46b2-4d8a-9b60-e4d6c1199455",
+     "title": "Musamman Burj Turm im Roten Fort von Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": [
+      "Agra--Āgra--Uttar Pradesh--Indien",
+      "Republic of India--Indien"
+     ],
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/f4f5406f-46b2-4d8a-9b60-e4d6c1199455",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2319779",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/13e3c6861544ba02aa8c426516b877b8cff69e66_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2319779/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "93c8fb4f-6571-4bbb-be36-9bce76f398e6",
+     "title": "Akbar Mausoleum in Agra : Druck aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": [
+      "Sikandra--Phulpur--Prayagraj district--Uttar Pradesh--Indien",
+      "Agra--Āgra--Uttar Pradesh--Indien",
+      "Republic of India--Indien"
+     ],
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/93c8fb4f-6571-4bbb-be36-9bce76f398e6",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2319793",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/e866811111fca0db563b775039588b1b6a8d5117_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2319793/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Agra",
+     "year": null,
+     "tier": "voyage"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-03-09-nepal",
+   "direct": [
+    "6682f079-5346-40df-92d7-603deb9ec506"
+   ],
+   "context": [
+    {
+     "id": "edb612c6-97fb-4f3b-a3b2-d47b8152be59",
+     "title": "Nepal",
+     "provider": "MAK - Museum für angewandte Kunst, Wien",
+     "description": "",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Textilmuster",
+      "Stoffmuster"
+     ],
+     "url": "https://kulturpool.at/objekte/edb612c6-97fb-4f3b-a3b2-d47b8152be59",
+     "isShownAt": "https://sammlung.mak.at/de/collect/collect_104217",
+     "image": "https://media.kulturpool.at/images/mak-media.azureedge.net/99c942e888d0d12bbc9de194389fe66df61f6e64_small.webp",
+     "iiif": "https://media.kulturpool.at/api/iiif/edb612c6-97fb-4f3b-a3b2-d47b8152be59/prod/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Nepal",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "d4988460-7ab1-4f6e-9653-0006eae82461",
+     "title": "Nepal",
+     "provider": "MAK - Museum für angewandte Kunst, Wien",
+     "description": "",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Textilmuster",
+      "Stoffmuster"
+     ],
+     "url": "https://kulturpool.at/objekte/d4988460-7ab1-4f6e-9653-0006eae82461",
+     "isShownAt": "https://sammlung.mak.at/de/collect/collect_103748",
+     "image": "https://media.kulturpool.at/images/mak-media.azureedge.net/ad2d4aa04b81ea744e9b58c3db0358b509720556_small.webp",
+     "iiif": "https://media.kulturpool.at/api/iiif/d4988460-7ab1-4f6e-9653-0006eae82461/prod/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Nepal",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "1844cd27-0979-44be-9c18-f7ebd2e43ca0",
+     "title": "Essays on the languages, literature, and religion of Nepal and Tibet. together with further papers on the geography, ethnology, and commerce of those countries. by B.H. Hodgson",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "reprinted, with corrections and additions, from \"Illustrations of the literature and religion of the Buddhists,\" Serampore, 1841; and \"Selections from the Records of the Government of Bengal, No. 27.,\" Calcutta, 1857",
+     "date": [
+      "1874"
+     ],
+     "spatial": [
+      "Nepal",
+      "Tibet"
+     ],
+     "type": [
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/1844cd27-0979-44be-9c18-f7ebd2e43ca0",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ228947802",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/77a8978db53082aa059545d3c7671a9e20358f42_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ228947802/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Nepal",
+     "year": 1874,
+     "tier": null
+    },
+    {
+     "id": "e0962ba1-5f20-450c-a0f1-eed5447973f1",
+     "title": "An account of the kingdom of Nepal and of the territories annexed to this dominion by the house of Gorkha illustr. with engravings.",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "",
+     "date": [
+      "1819"
+     ],
+     "spatial": [
+      "Nepal"
+     ],
+     "type": [
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/e0962ba1-5f20-450c-a0f1-eed5447973f1",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ223585707",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/3a5f8030e284f185436c4a57173b7663a2f78991_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ223585707/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Nepal",
+     "year": 1819,
+     "tier": null
+    },
+    {
+     "id": "c688c3c3-152c-4cec-a62c-fc9a36c807f3",
+     "title": "On India's frontier or Nepal. the Gurkhas' mysterious land. by Henry Ballantine",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "",
+     "date": [
+      "1896"
+     ],
+     "spatial": [
+      "Nepal"
+     ],
+     "type": [
+      "Illustrationen",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/c688c3c3-152c-4cec-a62c-fc9a36c807f3",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ338601804",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/1aaa245375803c395de5489af43dc58e7c243ac2_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ338601804/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Nepal",
+     "year": 1896,
+     "tier": "voyage"
+    },
+    {
+     "id": "d8a5acee-c0f4-4a6e-9bf4-1f35f4a6b3db",
+     "title": "Syzygium fruticosum Roxb. ex DC.",
+     "provider": "Naturhistorisches Museum Wien",
+     "description": "A PreservedSpecimen of Syzygium fruticosum Roxb. ex DC. collected by Wallich,N.",
+     "date": null,
+     "spatial": [
+      "Nepal. [...]"
+     ],
+     "type": [
+      "Preserved Specimen"
+     ],
+     "url": "https://kulturpool.at/objekte/d8a5acee-c0f4-4a6e-9bf4-1f35f4a6b3db",
+     "isShownAt": "https://w.jacq.org/W0418344",
+     "image": "https://media.kulturpool.at/images/services.jacq.org/b20582fe38a60ddbd866c7844e836294fc96f282_small.webp",
+     "iiif": "https://media.kulturpool.at/api/iiif/d8a5acee-c0f4-4a6e-9bf4-1f35f4a6b3db/prod/manifest.json",
+     "rights": "CC BY",
+     "found_by": "context: Nepal",
+     "year": null,
+     "tier": "voyage"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-04-11-java",
+   "direct": [],
+   "context": [
+    {
+     "id": "401398b1-6642-455a-8e32-1536796e3d81",
+     "title": "Batavia",
+     "provider": "MAK - Museum für angewandte Kunst, Wien",
+     "description": "",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Textilmuster",
+      "Mustertafel",
+      "Stoffmuster"
+     ],
+     "url": "https://kulturpool.at/objekte/401398b1-6642-455a-8e32-1536796e3d81",
+     "isShownAt": "https://sammlung.mak.at/de/collect/collect_277410",
+     "image": "https://media.kulturpool.at/images/mak-media.azureedge.net/abf15b24f43b16e7d031cb2df9e8578f07167b36_small.webp",
+     "iiif": "https://media.kulturpool.at/api/iiif/401398b1-6642-455a-8e32-1536796e3d81/prod/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Batavia",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "2eb14228-9890-406a-b5e4-d071077662fb",
+     "title": "Batavia",
+     "provider": "MAK - Museum für angewandte Kunst, Wien",
+     "description": "",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Textilmuster",
+      "Stoffmuster"
+     ],
+     "url": "https://kulturpool.at/objekte/2eb14228-9890-406a-b5e4-d071077662fb",
+     "isShownAt": "https://sammlung.mak.at/de/collect/collect_102965",
+     "image": "https://media.kulturpool.at/images/mak-media.azureedge.net/c53baaed26b6195d9821a3b9d99cc70e9dfdc0df_small.webp",
+     "iiif": "https://media.kulturpool.at/api/iiif/2eb14228-9890-406a-b5e4-d071077662fb/prod/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Batavia",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "36aa3fda-27b3-4f48-8e5f-4c51b0d40cc5",
+     "title": "Batavia",
+     "provider": "MAK - Museum für angewandte Kunst, Wien",
+     "description": "",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Textilmuster",
+      "Stoffmuster"
+     ],
+     "url": "https://kulturpool.at/objekte/36aa3fda-27b3-4f48-8e5f-4c51b0d40cc5",
+     "isShownAt": "https://sammlung.mak.at/de/collect/collect_103289",
+     "image": "https://media.kulturpool.at/images/mak-media.azureedge.net/f0ac1db2f5cd1f5e50825a8d359f8f36f07b7d58_small.webp",
+     "iiif": "https://media.kulturpool.at/api/iiif/36aa3fda-27b3-4f48-8e5f-4c51b0d40cc5/prod/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Batavia",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "3f698d17-5fba-4359-a3f5-37530f2b6341",
+     "title": "Batavia",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Nouv. ed.",
+     "date": [
+      "1864"
+     ],
+     "spatial": [
+      "Leiden"
+     ],
+     "type": [
+      "Roman",
+      "Buch",
+      "Belletristische Darstellung"
+     ],
+     "url": "https://kulturpool.at/objekte/3f698d17-5fba-4359-a3f5-37530f2b6341",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ258293607",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/adf13d061cbf272927b13d4d2c8e68163bbb8389_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ258293607/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Batavia",
+     "year": 1864,
+     "tier": null
+    },
+    {
+     "id": "bd419ebb-234d-4bfc-a62c-30fbb44e916b",
+     "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1876-1884 (Hochstetter), Aktenzahl Z.194.d/1882",
+     "provider": "Naturhistorisches Museum Wien",
+     "description": "Brief; Mitteilung, dass der Sendung des Buddhabildes zwei Kisten mit Mineralien und Muscheln von Ferdinand Ronkes beigefügt wurden | 1 Bogen (etwa A4), zweiseitig handbeschrieben, Briefkopf gedruckt, Notizen von Hochstetter mit Tusche und rotem Buntstift,",
+     "date": null,
+     "spatial": [
+      "Batavia"
+     ],
+     "type": [
+      "Schriftstück"
+     ],
+     "url": "https://kulturpool.at/objekte/bd419ebb-234d-4bfc-a62c-30fbb44e916b",
+     "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1882-0194-d",
+     "image": "https://media.kulturpool.at/images/iiif.nhm.at/031ad1b02270ef05f47811011ee71ff26cdc8d56_small.webp",
+     "iiif": "https://objects.nhm.at/pid/NHMW-AFW-ADMIN-IA-1882-0194-d/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Batavia",
+     "year": 1882,
+     "tier": null
+    },
+    {
+     "id": "a74729ad-fe9e-4fd4-906c-43119f931cf0",
+     "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1876-1884 (Hochstetter), Aktenzahl Z.194.b/1882",
+     "provider": "Naturhistorisches Museum Wien",
+     "description": "Brief; Mitteilung über die Versendung einer Buddhafigur aus Stein; Mitteilung, dass die Transportkosten zur Last des Obersthofmeisteramtes fallen; Entschuldigung, dass die letzten Briefe auf Grund einer Armverletzung nicht eigenhändig geschrieben waren |",
+     "date": null,
+     "spatial": [
+      "Batavia"
+     ],
+     "type": [
+      "Schriftstück"
+     ],
+     "url": "https://kulturpool.at/objekte/a74729ad-fe9e-4fd4-906c-43119f931cf0",
+     "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1882-0194-b",
+     "image": "https://media.kulturpool.at/images/iiif.nhm.at/c6204b5708de505b50c0580e393f2ae8a465c208_small.webp",
+     "iiif": "https://objects.nhm.at/pid/NHMW-AFW-ADMIN-IA-1882-0194-b/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Batavia",
+     "year": 1882,
+     "tier": null
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-05-06-port-kennedy",
+   "direct": [],
+   "context": []
+  },
+  {
+   "hunt_id": "hunt-1893-05-18-nsw-west",
+   "direct": [],
+   "context": []
+  },
+  {
+   "hunt_id": "hunt-1893-05-23-badgery",
+   "direct": [],
+   "context": [
+    {
+     "id": "2a808547-ab38-4feb-8f9f-d67b06ed9950",
+     "title": "Männer mit Speeren in Australien : Bild aus der Ethnographischen Sammlung des Instituts für Kultur- und Sozialanthropologie",
+     "provider": "Universität Wien",
+     "description": "Die Objekte spiegeln ihren historischen Kontext und damit eventuell verbundene rassistische, diskriminierende oder auf andere Weise herabwürdigende Repräsentationen von Menschen und Kulturen wider. Viele originale Begriffe und Bezeichnungen entsprechen im Hinblick auf Terminologie, Ethnonyme und Forschungsverständnis etc. ebenfalls nicht dem gegenwärtigen Stand. Allerdings ist das Verständnis des jeweiligen Sammlungs- und Forschungskontextes für die kritische Einordnung und Verwendung der Objekte notwendig. Das Ethnographische Datenarchiv fördert diese Kontextualisierung und distanziert sich a",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Bild",
+      "Immagine",
+      "picture"
+     ],
+     "url": "https://kulturpool.at/objekte/2a808547-ab38-4feb-8f9f-d67b06ed9950",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2320514",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/2c071808d5ac1e2031aa81afc3a1a31cce7dbb8f_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2320514/iiifmanifest",
+     "rights": "CC BY-NC",
+     "found_by": "context: Sydney",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "83ca90c8-dedb-4190-b633-4cd00d611bf9",
+     "title": "Kupfermedaille, 1855, Eröffnung der Sydney Railway",
+     "provider": "Technisches Museum Wien",
+     "description": "Im Katalog des k.k. historischen Museums der Österreichischen Eisenbahnen ist in der Beschreibung der Sammlung Loehr diese Medaille nur als Fotografie [...]",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Eisenbahnmedaille"
+     ],
+     "url": "https://kulturpool.at/objekte/83ca90c8-dedb-4190-b633-4cd00d611bf9",
+     "isShownAt": "https://www.technischesmuseum.at/museum/online-sammlung#sammlung/ui//objectdetail/604690",
+     "image": "https://media.kulturpool.at/images/api.tmw.at/e9d97ba6e2057fc8baaf6bd42d028238a3646ce3_small.webp",
+     "iiif": null,
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Sydney",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "f3030a8b-8ee6-40d3-992e-7fecb23b1716",
+     "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.459/1891",
+     "provider": "Naturhistorisches Museum Wien",
+     "description": "Brief; Bericht über eine Schenkung ethnographischer Gegenstände aus Australien und Melanesien durch das Australian Museum in Sydney und Ersuchen um Dankschreibens. | Dankschreiben ausgefertigt. | 1 Bogen (größer A4), einseitig handbeschrieben, gedruckter Briefkopf und Anrede der Intendanz, Datumsstempel der Intendanz",
+     "date": null,
+     "spatial": [
+      "Sydney"
+     ],
+     "type": [
+      "Schriftstück"
+     ],
+     "url": "https://kulturpool.at/objekte/f3030a8b-8ee6-40d3-992e-7fecb23b1716",
+     "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1891-0459",
+     "image": "https://media.kulturpool.at/images/iiif.nhm.at/2ae297c7ae75c9e0fea221bcd854e107b192b642_small.webp",
+     "iiif": "https://objects.nhm.at/pid/NHMW-AfW-ADMIN-IA-1891-0459/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Sydney",
+     "year": 1891,
+     "tier": null
+    },
+    {
+     "id": "ddbb7bef-5430-40b4-b525-ca6a0be2fc18",
+     "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.422/1892",
+     "provider": "Naturhistorisches Museum Wien",
+     "description": "Bitte des Australian Museum Sydney an das k. k. Naturhistorische Hofmuseum um die Zusendung von Kopien der Bücher \"Annalen Vol. I. Nr. 3 und Vol. IV. Nr.1\", da diese im Australien Museum nicht vorhanden sind.",
+     "date": null,
+     "spatial": [
+      "Sydney"
+     ],
+     "type": [
+      "Schriftstück"
+     ],
+     "url": "https://kulturpool.at/objekte/ddbb7bef-5430-40b4-b525-ca6a0be2fc18",
+     "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1892-0422",
+     "image": "https://media.kulturpool.at/images/iiif.nhm.at/f47f48f2b719daaaf79cad8bf294858e8bd60869_small.webp",
+     "iiif": "https://objects.nhm.at/pid/NHMW-AfW-ADMIN-IA-1892-0422/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Sydney",
+     "year": 1892,
+     "tier": "voyage"
+    },
+    {
+     "id": "17a8c105-4301-441b-90ab-beb77cc144a2",
+     "title": "Nachlass Franz Steindachner, Brief von Johann Wiesbaur an Franz Steindachner (26.07.1883)",
+     "provider": "Naturhistorisches Museum Wien",
+     "description": "Brief, bestellte Fische u. Reptilien aus Australien (Sydney) eingetroffen | 1 Bogen (A5), zweiseitig handbeschrieben",
+     "date": null,
+     "spatial": [
+      "Sydney"
+     ],
+     "type": [
+      "Schriftstück"
+     ],
+     "url": "https://kulturpool.at/objekte/17a8c105-4301-441b-90ab-beb77cc144a2",
+     "isShownAt": "https://objects.nhm.at/NHMW-AFW-NLS-FSTEINDACHNER-0594-0003",
+     "image": "https://media.kulturpool.at/images/iiif.nhm.at/94c97f3d859ef8144140ad8acd0d89d9b2667173_small.webp",
+     "iiif": "https://objects.nhm.at/pid/NHMW-AFW-NLS-FSTEINDACHNER-0594-0003/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Sydney",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "f88ed787-1eff-4414-88b4-c7e3438dd14d",
+     "title": "Seereise-Tagebuch von Hamburg nach Sydney in Australien im Jahre 1852. mit dem Schiffe Cesar Godeffroy. (Capitain Heinrich Behn.) ; Mit einer von dem Verfasser selbst unter der Linien nach dem Leben aufgenommenen Abbildung der Neptunstaufe und einer übersichtlichen Karte sämmtlicher Reisetouren, worauf auch der Cours des Schiffes Cesar Godeffroy bemerkt ist",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Eine Illustration in Holzschnitt als Frontispiz und eine Karte in Lithografie",
+     "date": [
+      "1854"
+     ],
+     "spatial": [
+      "Sydney",
+      "Australien"
+     ],
+     "type": [
+      "1 Illustration, 1 Karte",
+      "Reisebericht",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/f88ed787-1eff-4414-88b4-c7e3438dd14d",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ227362804",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/f3644b834e95172a5f0f3dbf919826b92173d924_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ227362804/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Sydney",
+     "year": 1854,
+     "tier": null
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-06-08-solomon",
+   "direct": [],
+   "context": [
+    {
+     "id": "d2f6705b-444c-4eae-a850-cc378283a5d6",
+     "title": "Reyßbuch deß H. Lands/. Darin[n]en deutlich begriffen/ alle vnd jede neuwe Meer vnnd Bilgerfahrten zum H. Grab/ so auß Andacht vnd Christlicher Anmutung zu den heiligen Orten/ bey Regierung deß vnüberwindtlichen/ jetzt regierenden Röm. Keys. Rodolphi II. vnsers allergnädigsten Herrn/ etc. von etlichen Fürsten/ Rittern/ vnd andern fürtrefflichen Ehr vnd Tugentliebenden/ Geistlichen vnd Weltlichen Standts Herrn/ zu Wasser vnd Land fürgenommen/ vnd durch wunderbarlich Abentheuwer/ auch vnglaublich grosse Gefahr Leibs vnd Guts/ vollnbracht/ vnd beschrieben worden: Durch Den Durchleuchtigen vnd Hochgebornen Fürsten vnd Herrn/ Herrn Nicolaum Christophorum Radziuili/ Hertzogen in Olike/ vnd Nyeßwießz/ Graffen in Szydlowiec vnd Myr/ etc. Strengen/ Edlen vnd Vesten/ Johann Schwallarten/ Rittern deß H. Grabs. Ehrwirdigen Herrn Salomon Schweyggern Theologen. Sampt eygentlicher Beschreibung/ vnd jetziger wahrer Gestalt/ deß gantzen heiligen vnd Aegyptischen Lands Palæstinæ/ beneben denselben einverleibter Landschafften/ Refieren/ Termineyen vnd Jnseln: Zudem aller darinn begriffener nahmhaffter Städt/ Flecken/ Dörffer/ Festungen/ Bergen/ Auwen/ Meer/ Wasser/ See: Bevorab der H. Stätt / inn vns ausserhalb der Stätt Jerusalem/ Bethlehem/ Bethanien/ vnd an den Fluß Jordan/ etc. an denen vnser Herr vnd Heylandt Christus die zeit seiner Wallfahrt auff Erden/ vnd dann das Werck vnser einigen Erlösung vollbracht hat. Demnach der angrentzenden/ benachbarten/ so wol der andern entlegenen Africanischen vnnd Asiatischen Herrschafften/ welche samptlich der Türckisch Keyser innhat vnd beherrschet. Ferne deß H. Grabs vnd anderer heiligen Oerter jetziger wahrhaffte Zustandt vnd Gelegenheit/ etc. Jtem welcher Gestalt/ vnd was die Röm. Keys. Mayest. durch jhren Legaten dem Türckischen Keyser/ auch dessen fürnembsten Officierern/ jedem besonder zum Præsent/ vnter Wegen/ vnd zu Constantinopel/ damals vberlieffern lassen: Sampt desselben Wehrt/ vnd der Legaten Ampt/ Habitation/ Jährlicher Besoldung/ etc. vnd gantzem Vnkosten daselbst. Deßgleichen deß Türckischen Reichs Gubernation/ Policey/ Hofhaltung/ Nutzbarkeit deß Reysens/ etc. Neben einer schönen vnd nothwendigen Vnterweisung/ was zu solcher Reyß nötig/ wie man dieselb anfahen/ vnd auff dem gantzen Weg sich verhalten soll. Ander Theil [das heißt 2. Theil]. Beneben einem ordentlichen Register aller Denckwürdigen Materien vnd Sachen",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Die Illustration ist 1 Kupferstich-Karte, 1 Notenbeispiel in Holzschnitt. - Titelblatt in Rot- und Schwarzdruck mit Holzschnitt ; Holzschnitt-Vignetten und Initialen im Text ; Gedruckte Marginalien",
+     "date": [
+      "Jm Jahr M. DC. IX."
+     ],
+     "spatial": [
+      "Palästina",
+      "Orient",
+      "Jerusalem",
+      "Osmanisches Reich",
+      "Ägypten",
+      "Naher Osten"
+     ],
+     "type": [
+      "1 Karte, 1 Notenbeispiel",
+      "Reisebericht",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/d2f6705b-444c-4eae-a850-cc378283a5d6",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ163300508",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/d83a6fd9d71881e1a1f9d500a93de493ef4bd28e_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ163300508/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Salomon",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "706fc70d-0eef-4854-8e61-fead94b969c4",
+     "title": "Salomon Gessner",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Blatt in Original-Montierung; mit Originaltitel: \"Salomon Gessner in Öhl\". Felix Maria Diogg zugeschrieben.",
+     "date": [
+      "[um 1788]"
+     ],
+     "spatial": null,
+     "type": [
+      "IMAGE"
+     ],
+     "url": "https://kulturpool.at/objekte/706fc70d-0eef-4854-8e61-fead94b969c4",
+     "isShownAt": "http://data.onb.ac.at/rep/131D9665",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/c25351d2e00b617af446dba12264262fd1c3601e_small.webp",
+     "iiif": "https://api.onb.ac.at/iiif/presentation/v3/manifest/131D9665",
+     "rights": "Public Domain",
+     "found_by": "context: Salomon",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "a23d4845-9a94-425f-96bd-83a66ea409f5",
+     "title": "Oeuvres De Salomon Gessner. Traduites De L'Allemand. 2. [Idylles ; Poésies Mêlées ; Le Premier Navigateur]",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Ill. mit Kupferst. des Autors",
+     "date": [
+      "1773"
+     ],
+     "spatial": null,
+     "type": [
+      "Ill. (Kupferst.)",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/a23d4845-9a94-425f-96bd-83a66ea409f5",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ181630505",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/89b3d8f722842fed248bc7b6353e794eac033930_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ181630505/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Salomon",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "7a90a06e-3b5c-4e26-a69f-7bc077e43924",
+     "title": "Oeuvres De Salomon Gessner. Traduites De L'Allemand. 1. Contes Moraux Et Nouvelles Idylles",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Ill. mit Kupferst. des Autors",
+     "date": [
+      "1773"
+     ],
+     "spatial": null,
+     "type": [
+      "Ill. (Kupferst.)",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/7a90a06e-3b5c-4e26-a69f-7bc077e43924",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ181630608",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/24aaf9186a58b83fc6cbd06e502ed0581f8e81ab_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ181630608/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Salomon",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "80fde8ed-dc8b-4d3f-a083-21b8cb9941f6",
+     "title": "Tisztelendő Salomon János Urat A' Vátzi Megyének Fel-Szentelt Papját Öröme' Napján, Az-Az: Midőn Elsőben Bé-Mutatta Vólna A' Seregek' Urának A' Dítséret' Áldozatját Testvér Öttse Salomon Jósef Bas Piarista Drága Szüléi', Testvéri', És Rokoni' Örömének Közepette. Igaz Buzgóságából Élö Nyelven Így Tisztelte Vátzonn, Mind-Szent Havának 20 dik Napján 1799",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Titel-, Kopf-, Schlussvignette",
+     "date": [
+      "[1799]"
+     ],
+     "spatial": [
+      "Waitzen"
+     ],
+     "type": [
+      "Buch",
+      "Quelle"
+     ],
+     "url": "https://kulturpool.at/objekte/80fde8ed-dc8b-4d3f-a083-21b8cb9941f6",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ172291007",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/8e8806b19f3826958f0950f15aac34d8281310d5_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ172291007/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Salomon",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "7cfe108e-9956-4f59-a2da-dffc0f1dface",
+     "title": "Denckwürdige Gesandtschafft an die Ottomannische Pforte. Welche ehmals auf Röm. Käys. Maj. Rudolphi II. Hohen Befehl Herr Fridrich von Krekwitz/ Sr. Maj. Reichs=Hof=Rath/ verrichtet, Nebst ausführlichem Bericht/ was hierney so wohl mit dem Herrn Oratore selbst, als denen Seinigen vorgelauffen/. aufgesetzt und schrifftlich hinterlassen von Fridrich Seideln, damalhl des Herrn Oratoris Apothecker, und nachmahls Bürgern in Troppaw: und wegen der sonderlichen Begebenheiten, mit Einer Vorrede und einigen Anmerckungen in Druck gegeben von M. Salomon Haußdorff aus Lauban/ Pastore zu Bernstadt in Ober=Lausitz",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Die Illustration ist eine gestochenes Frontispiz. - Titelblatt in Rot- und Schwarzdruck ; Holzschnitt-Vignetten",
+     "date": [
+      "1721"
+     ],
+     "spatial": [
+      "Osmanisches Reich",
+      "Orient"
+     ],
+     "type": [
+      "1 Illustration",
+      "Reisebericht",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/7cfe108e-9956-4f59-a2da-dffc0f1dface",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ220430907",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/f68212fd23eca802b4de96bf3767579b2aefcc18_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ220430907/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Salomon",
+     "year": null,
+     "tier": "voyage"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-06-16-new-guinea",
+   "direct": [],
+   "context": [
+    {
+     "id": "4874fdd3-d7a4-4885-9ad3-0ff43804e825",
+     "title": "Neu-Guinea und seine Bewohner. Otto Finsch",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "",
+     "date": [
+      "1865"
+     ],
+     "spatial": null,
+     "type": [
+      "Kt.",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/4874fdd3-d7a4-4885-9ad3-0ff43804e825",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ252900204",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/7ad6602456f957e514b3cfa93d9ba4be3a08780a_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ252900204/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Neu-Guinea",
+     "year": 1865,
+     "tier": null
+    },
+    {
+     "id": "2ed3cc26-8dd8-4ac7-85bf-5d1dcf62402a",
+     "title": "Die Humboldts-Bai und Cap Bonpland in Neu-Guinea. ethnographisch und physikalisch untersucht durch eine niederländisch-indische Commission. mitgetheilt von Johannes Müller",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "",
+     "date": [
+      "1864"
+     ],
+     "spatial": null,
+     "type": [
+      "zahlr. Ill.",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/2ed3cc26-8dd8-4ac7-85bf-5d1dcf62402a",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ17384420X",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/b247e679fe6f88f1867a140cabbdce20e4a582bd_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ17384420X/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Neu-Guinea",
+     "year": 1864,
+     "tier": null
+    },
+    {
+     "id": "4537e950-7961-4246-8482-122657306f04",
+     "title": "Die Jnseln des indischen und stillen Meeres. Reise eines holländischen Arztes und Naturforschers von Java über Timor, die Molucken, Neu-Guinea und Neu-Seeland durch den Conga- und Fidji-Archipel, durch Celebes und Borneo, über die Carolinen, Philippinen, nach den Sanwichs-Jnseln, Otaheiti, Pitcairn etc. und zurück nach Batavia. Ein Natur- und Sittengemälde der tropischen Regionen des großen Oceans. Nach brieflichen Mittheilungen, den neuesten Quellen und eigenen Anschauungen von Dr. W. F. A. Zimmermann. 1. Theil. Mit 1 Titelbilde und 96 Abbildungen",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Neue Ausgabe",
+     "date": [
+      "[um 1860]"
+     ],
+     "spatial": null,
+     "type": [
+      "97 Illustrationen",
+      "Reisebericht",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/4537e950-7961-4246-8482-122657306f04",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ204495908",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/107b589a03c1a92ca5e4c0c62476c8f5a74df5bd_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ204495908/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Neu-Guinea",
+     "year": 1860,
+     "tier": null
+    },
+    {
+     "id": "6ec42065-c58e-4255-a344-2c020648d1d0",
+     "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.37/1890",
+     "provider": "Naturhistorisches Museum Wien",
+     "description": "Brief; Kaufangebot von ethnographischen Gegenständen aus Neu-Guinea. | Geantwortet, dass das Angebot nicht berücksichtigt werden kann. | 1 Bogen (etwa Mittelquart), einseitig handbeschrieben, gedruckter Briefkopf mit roter Ausbesserung, Datumsstempel der Intendanz, kariertes Papier",
+     "date": null,
+     "spatial": [
+      "Neu-Guinea; Stuttgart"
+     ],
+     "type": [
+      "Schriftstück"
+     ],
+     "url": "https://kulturpool.at/objekte/6ec42065-c58e-4255-a344-2c020648d1d0",
+     "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1890-0037",
+     "image": "https://media.kulturpool.at/images/iiif.nhm.at/6b266dd2a995ef1278a8a7ff8bfb90b72b22fbc4_small.webp",
+     "iiif": "https://objects.nhm.at/pid/NHMW-AfW-ADMIN-IA-1890-0037/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Neu-Guinea",
+     "year": 1890,
+     "tier": null
+    },
+    {
+     "id": "6c1bd3dc-6f08-4c38-a5f5-f7e9b48808fa",
+     "title": "k.k. naturhistorisches Hofmuseum, Intendanzakten 1885-1896 (Hauer), Aktenzahl Z.654/1891",
+     "provider": "Naturhistorisches Museum Wien",
+     "description": "Brief; Ersuchen um Dankschreiben an Telegraphendirector Petersen in Shanghai für eine Trommel aus Neu-Guinea. | Ausgefertigt u. Exped. | 1 Bogen (größer A4), einseitig handbeschrieben (enthält Z.652-Z.656/1891), gedruckter Briefkopf des Absenders, Datumsstempel der Intendanz",
+     "date": null,
+     "spatial": [
+      "Shanghai; Neu-Guinea"
+     ],
+     "type": [
+      "Schriftstück"
+     ],
+     "url": "https://kulturpool.at/objekte/6c1bd3dc-6f08-4c38-a5f5-f7e9b48808fa",
+     "isShownAt": "https://objects.nhm.at/NHMW-AFW-ADMIN-IA-1891-0654",
+     "image": "https://media.kulturpool.at/images/iiif.nhm.at/728d33c853b6d083abeccf57f7815ab73e9fa15b_small.webp",
+     "iiif": "https://objects.nhm.at/pid/NHMW-AfW-ADMIN-IA-1891-0654/manifest.json",
+     "rights": "CC BY-NC-ND",
+     "found_by": "context: Neu-Guinea",
+     "year": 1891,
+     "tier": null
+    },
+    {
+     "id": "f107cd7a-cb98-4f80-a0a3-215a0a535124",
+     "title": "Brief von N.N. an Wettstein, Richard",
+     "provider": "Universität Wien",
+     "description": "Absender bedauert, dass Hölzer aus Neu-Guinea noch nicht in Wien angekommen sind, und erklärt mögliche Umstände.",
+     "date": null,
+     "spatial": null,
+     "type": [
+      "Brief",
+      "Lettera",
+      "letter (correspondence)"
+     ],
+     "url": "https://kulturpool.at/objekte/f107cd7a-cb98-4f80-a0a3-215a0a535124",
+     "isShownAt": "https://phaidra.univie.ac.at/o:2288712",
+     "image": "https://media.kulturpool.at/images/phaidra.univie.ac.at/aa5f1daba836e8711b4529245128c37d9d20a5fd_small.webp",
+     "iiif": "https://phaidra.univie.ac.at/api/object/o:2288712/iiifmanifest",
+     "rights": "CC BY",
+     "found_by": "context: Neu-Guinea",
+     "year": null,
+     "tier": "voyage"
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-06-25-aru",
+   "direct": [],
+   "context": [
+    {
+     "id": "13411681-1ea6-416b-9155-bc6b8b4c335d",
+     "title": "Wunderbarliche und Merckwürdige Rejsen Ferdinandi Mendez Pinto,. Welche er in[n]erhalb ein und zwantzig Jahren/ durch Europa, Asia, und Africa, und deren Königreiche und Länder; als Abyssina, China, Japon, Tartarey, Siam, Calaminham, Pegu, Martabane, Bengale, Brama, Ormus, Batas, Queda, Aru, Pan, Ainan, Calempluy, Cauchenchina, und andere Oerter verrichtet. Darinnen er beschreibet Wie ihme zu Wasser und Land zugestossene grosse Noht und Gefahr  ; wie er nemblich sey dreyzehnmal gefangen genommen und siebenzehnmal verkaufft worden; auch vielfältigen Schiffbruch erlitten habe: Dabey zugleich befindlich eine gar genaue Entwerffung der Wunder und Raritäten erwehnter Länder ; der Gesetze/ Sitten/ und Gewohnheiten derselben Völcker: und der grosse Macht und Heeres=Krafft der Einwohner. Nun erst ins Hochteutsche übersetzet/ und mit unterschiedlichen Kupferstükken gezieret",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Die Illustrationen umfassen einen illustrierenden Kupfertitel als Frontispiz, 11 Kupferstich-Illustrationen. - Holzschnitt-Vignetten und Initialen im Text ; Gedruckte Marginalien",
+     "date": [
+      "Jm Jahr Christi 1671"
+     ],
+     "spatial": [
+      "Nordafrika",
+      "Asien",
+      "Ostindien",
+      "China",
+      "Japan"
+     ],
+     "type": [
+      "12 Illustrationen",
+      "Reisebericht",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/13411681-1ea6-416b-9155-bc6b8b4c335d",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ159215904",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/0ca930a5c448761a2d1828cb92c86fc08619eda8_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ159215904/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Aru",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "19db2d00-5e06-4971-b18c-94ca57107231",
+     "title": "Wunderbarliche und Merkwürdige Rejsen Ferdinandi Mendez Pinto,. Welche er innerhalb ein und zwantzig Jahren/ durch Europa, Asia, und Africa, und deren Königreiche und Länder; als Abyssina, China, Japon, Tartarey, Siam, Calaminham, Pegu, Martabane, Bengale, Brama, Ormus, Batas, Queda, Aru, Pan, Ainan, Calempluy, Cauchenchina, und andere Oerter verrichtet. Darin er beschreibet Die ihm zu Waßer und Land zugestoßene große Noht und Gefahr ; wie er nehmlich sey dreyzehnmahl gefangen genommen und siebenzehnmahl verkaufft worden ; auch vielfältigen Schiffbruch erlitten habe: Dabey zugleich befindlich eine gar genaue Erntwerfung der Wunder und Raritäten erwehnter Länder; der Gesetze/ Sitten/ und Gewohnheiten derselben Volker; und der große Macht und Heeres=kraft der Einwohner. Nun erst ins Hochteutsche übersetzet/ und mit unterschiedlichen Kupferstükken gezieret",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Die Illustrationen umfassen einen Kupfertitel, 11 Kupferstich-Illustrationen. - Holzschnitt-Vignetten und Initialen im Text ; Gedruckte Marginalien",
+     "date": [
+      "1671"
+     ],
+     "spatial": [
+      "Nordafrika",
+      "Asien",
+      "Ostindien",
+      "China",
+      "Japan"
+     ],
+     "type": [
+      "12 Illustrationen",
+      "Reisebericht",
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/19db2d00-5e06-4971-b18c-94ca57107231",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ255414503",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/1adff7de846807a35cb6a48efa665dfda6a3f4d9_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ255414503/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Aru",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "303ded28-a04c-4600-b04a-ed7178911e81",
+     "title": "Positiv: Porträt zweier Männer in Gehröcken, Fünfkirchen, Österreich-Ungarn",
+     "provider": "Volkskundemuseum Wien",
+     "description": "Abgebildet ist eine Studioaufnahme, die zwei Männer in Gehröcken zeigt. Der rechte Mann sitzt an einem Tisch und hält einen Stift über einem Blatt Papier, vermutlich ein Notenblatt. Der linke Mann steht neben dem Tisch, blickt auf den Tisch hinab und lehnt an einem Möbelstück. Beide tragen dunkle, formelle Herrenkleidung. Links im Bild bildet ein Vorhang die Kulisse. Bei dem sitzenden Mann handelt es sich um den Komponisten, Domkapellmeister und Chorleiter [lat. Regenschori] Franz Seraphin Thomas Hölzl. Beim stehenden Mann könnte es sich um seinen Bruder Joseph handeln oder die Fotografie ist ",
+     "date": [
+      "1869-1880 (Aufnahmedatum)"
+     ],
+     "spatial": [
+      "Fünfkirchen"
+     ],
+     "type": [
+      "Positiv, schwarz-weiß",
+      "Albuminabzug"
+     ],
+     "url": "https://kulturpool.at/objekte/303ded28-a04c-4600-b04a-ed7178911e81",
+     "isShownAt": "https://sammlung.volkskundemuseum.at/id/325972",
+     "image": "https://media.kulturpool.at/images/sammlung.volkskundemuseum.at/1c14dc0729c5b35243f5a9789c815d1bdfc04df8_small.webp",
+     "iiif": "https://sammlung.volkskundemuseum.at/i3f/v20/325972/manifest",
+     "rights": "Public Domain",
+     "found_by": "context: Aru",
+     "year": 1869,
+     "tier": null
+    }
+   ]
+  },
+  {
+   "hunt_id": "hunt-1893-06-29-buru",
+   "direct": [],
+   "context": [
+    {
+     "id": "ae11178b-2f18-4523-a8e0-a0a3b7db385b",
+     "title": "Cyrtandra decurrens de Vriese",
+     "provider": "Naturhistorisches Museum Wien",
+     "description": "A PreservedSpecimen of Cyrtandra decurrens de Vriese collected by Doleschall,C.L.",
+     "date": null,
+     "spatial": [
+      "Amboina."
+     ],
+     "type": [
+      "Preserved Specimen"
+     ],
+     "url": "https://kulturpool.at/objekte/ae11178b-2f18-4523-a8e0-a0a3b7db385b",
+     "isShownAt": "https://w.jacq.org/W0177845",
+     "image": "https://media.kulturpool.at/images/services.jacq.org/6f189d647b2de0d63f1a9e82fff2301739d1b132_small.webp",
+     "iiif": null,
+     "rights": "CC BY",
+     "found_by": "context: Amboina",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "25114b3b-ad62-45ad-9bb9-693ac46d5a8a",
+     "title": "Abhandlung von Schnecken, Muscheln und Seegewächsen welche um Amboina und den umliegenden Inseln gefunden werden.",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "",
+     "date": [
+      "1773"
+     ],
+     "spatial": [
+      "Ambon"
+     ],
+     "type": [
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/25114b3b-ad62-45ad-9bb9-693ac46d5a8a",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ178510700",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/d0faa96a394a5f881fee495e2926399874282098_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ178510700/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Amboina",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "6df8827a-8589-41d6-bfd3-3096658d95e8",
+     "title": "Herbarium Amboinense plurimas complectens arbores frutices .... = Het Amboinsche Kruid-Boek. Dat is, Beschryving van da meest bekende Boomen, Heesters, Kruiden, Land- en Water-Planten, Die Men In Amboina 4",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Pars Quarta",
+     "date": [
+      "1741-1755"
+     ],
+     "spatial": null,
+     "type": [
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/6df8827a-8589-41d6-bfd3-3096658d95e8",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ165858705",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/1e6162d5cd93e90f2832bcb392ed35cd7f502f85_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ165858705/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Amboina",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "d114e688-86b4-48fb-9ae0-21f8440e2066",
+     "title": "Herbarium Amboinense plurimas complectens arbores frutices .... = Het Amboinsche Kruid-Boek. Dat is, Beschryving van da meest bekende Boomen, Heesters, Kruiden, Land- en Water-Planten, Die Men In Amboina 1",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Pars Prima",
+     "date": [
+      "1741-1755"
+     ],
+     "spatial": null,
+     "type": [
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/d114e688-86b4-48fb-9ae0-21f8440e2066",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ16585850X",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/bb84cb43787279a8233ee108686e35f8192170d1_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ16585850X/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Amboina",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "6cbdc63f-f53e-4b74-b7c9-d0a0278fc0c8",
+     "title": "Herbarium Amboinense plurimas complectens arbores frutices .... = Het Amboinsche Kruid-Boek. Dat is, Beschryving van da meest bekende Boomen, Heesters, Kruiden, Land- en Water-Planten, Die Men In Amboina 12",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Pars 6",
+     "date": [
+      "1741-1755"
+     ],
+     "spatial": null,
+     "type": [
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/6cbdc63f-f53e-4b74-b7c9-d0a0278fc0c8",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ159636302",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/212c1d148c75ef8217e8b575bda33a6f0e405265_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ159636302/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Amboina",
+     "year": null,
+     "tier": "voyage"
+    },
+    {
+     "id": "381cfdb4-6d81-43cf-99c4-9761d44f26b9",
+     "title": "Herbarium Amboinense plurimas complectens arbores frutices .... = Het Amboinsche Kruid-Boek. Dat is, Beschryving van da meest bekende Boomen, Heesters, Kruiden, Land- en Water-Planten, Die Men In Amboina 5",
+     "provider": "Österreichische Nationalbibliothek",
+     "description": "Pars Quinta",
+     "date": [
+      "1741-1755"
+     ],
+     "spatial": null,
+     "type": [
+      "Buch"
+     ],
+     "url": "https://kulturpool.at/objekte/381cfdb4-6d81-43cf-99c4-9761d44f26b9",
+     "isShownAt": "http://data.onb.ac.at/ABO/%2BZ165858602",
+     "image": "https://media.kulturpool.at/images/digital.onb.ac.at/e7a1b1ff05018373fd58fb823eabc778b879227b_small.webp",
+     "iiif": "https://iiif.onb.ac.at/presentation/ABO/%2BZ165858602/manifest",
+     "rights": "NoC-NC",
+     "found_by": "context: Amboina",
+     "year": null,
+     "tier": "voyage"
+    }
+   ]
+  }
+ ]
+}

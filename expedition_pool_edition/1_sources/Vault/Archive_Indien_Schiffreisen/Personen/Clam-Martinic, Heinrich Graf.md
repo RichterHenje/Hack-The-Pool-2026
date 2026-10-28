@@ -1,0 +1,22 @@
+---
+type: person
+id: ke-person-17052a794e
+created_by: human
+checked: false
+---
+- Nachname, Vorname (für die alphabetische Sortierung)
+- Titel: Graf
+- Lebensdaten (1863, Wien - 1932, Klam bei Grein)
+- Beruf/Funktionen: [Politiker](https://swb.bsz-bw.de/DB=2.104/SET=2/TTL=1/PPNSET?PPN=106197711&NOABS=Y&REC=*), [General](https://swb.bsz-bw.de/DB=2.104/SET=2/TTL=1/PPNSET?PPN=105685372&NOABS=Y&REC=*), [Militärgouverneur](https://swb.bsz-bw.de/DB=2.104/SET=2/TTL=1/PPNSET?PPN=700516573&NOABS=Y&REC=*),
+- GND: [https://d-nb.info/gnd/118676245](https://d-nb.info/gnd/118676245)
+- VIAF: https://viaf.org/de/viaf/36986354
+- Lexikonbeiträge: https://www.biographien.ac.at/oebl/oebl_C/Clam-Martinic_Heinrich_1863_1932.xml; https://www.geschichtewiki.wien.gv.at/index.php?title=Heinrich_Clam-Martinic
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: KuK Kämmerer
+- Ortschaft (Link)
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug: [[Erzherzog Franz Ferdinand Museum im Schloß Artstetten]]
+- Links zu Bezugspersonen
+- Literatur

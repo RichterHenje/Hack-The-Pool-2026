@@ -17,6 +17,16 @@ Ein Hackathon von [Kulturpool](https://kulturpool.at) und dem [ACDH](https://www
 | [05 · Queries](docs/05-queries.md) | Sammlung: SPARQL & API-Abfragen |
 | [06 · Beispiele](docs/06-beispiele.md) | Sammlung: Notebooks, Snippets, Projekte |
 
+## Projekte
+
+### Todesursache: Franz Ferdinand · Team expedition_pool_edition
+
+Die Weltreise des Thronfolgers an Bord S.M.S. Kaiserin Elisabeth 1892/93 und seine Jagden: aus einem
+Archiv-Vault zur k.u.k. Kriegsmarine, dem gedruckten Tagebuch, Zeitungen (ANNO) und Museumssammlungen
+(Kulturpool, Weltmuseum Wien, Europeana) ein verknüpfter Datensatz, dazu drei Ansichten.
+Alles im Ordner [`expedition_pool_edition/`](expedition_pool_edition/) ([README](expedition_pool_edition/README.md)); Einstieg:
+[`expedition_pool_edition/3_visualization/web/index.html`](expedition_pool_edition/3_visualization/web/index.html).
+
 ## Anmeldung
 
 [umfrage.kulturpool.at/hack-the-pool-2026](https://umfrage.kulturpool.at/hack-the-pool-2026) — bis 6. Oktober 2026. Alle Infos zur Veranstaltung auf [info.kulturpool.at](https://info.kulturpool.at/hack-the-pool-2026/).

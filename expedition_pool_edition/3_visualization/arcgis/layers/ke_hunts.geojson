@@ -1,0 +1,269 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.5563,
+     8.0135
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-01-10-ceylon",
+    "title": "Kala Wewa (Ceylon)",
+    "date_from": "1893-01-10",
+    "date_to": "1893-01-12",
+    "day_from": 26,
+    "day_to": 28,
+    "animals": "Elefant, Affe, Vögel (sonstige), Büffel/Banteng",
+    "kill_sentences": 8,
+    "photos": 3,
+    "description": "10.01.1893–12.01.1893: Elefant, Affe, Vögel (sonstige), Büffel/Banteng"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58,
+     17.23
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-01-22-hyderabad",
+    "title": "Tandur (Hyderabad State) / Hyderabad",
+    "date_from": "1893-01-22",
+    "date_to": "1893-01-26",
+    "day_from": 38,
+    "day_to": 42,
+    "animals": "Hirsch, Tiger, Vögel (sonstige)",
+    "kill_sentences": 9,
+    "photos": 10,
+    "description": "22.01.1893–26.01.1893: Hirsch, Tiger, Vögel (sonstige)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.02,
+     27.18
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-02-13-agra",
+    "title": "Agra",
+    "date_from": "1893-02-13",
+    "date_to": "1893-02-15",
+    "day_from": 60,
+    "day_to": 62,
+    "animals": "Vögel (sonstige), Antilope, Hirsch, Schakal/Hyäne",
+    "kill_sentences": 18,
+    "photos": 0,
+    "description": "13.02.1893–15.02.1893: Vögel (sonstige), Antilope, Hirsch, Schakal/Hyäne"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.4369,
+     27.3175
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-02-20-alwar",
+    "title": "Sariska (Alwar State)",
+    "date_from": "1893-02-20",
+    "date_to": "1893-02-27",
+    "day_from": 67,
+    "day_to": 74,
+    "animals": "Tiger, Hirsch, Antilope, Vögel (sonstige)",
+    "kill_sentences": 22,
+    "photos": 0,
+    "description": "20.02.1893–27.02.1893: Tiger, Hirsch, Antilope, Vögel (sonstige)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0278,
+     26.2944
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-03-01-jodhpur",
+    "title": "Jodhpur",
+    "date_from": "1893-03-01",
+    "date_to": "1893-03-02",
+    "day_from": 76,
+    "day_to": 77,
+    "animals": "Hirsch, Wildschwein, Vögel (sonstige), Antilope",
+    "kill_sentences": 5,
+    "photos": 1,
+    "description": "01.03.1893–02.03.1893: Hirsch, Wildschwein, Vögel (sonstige), Antilope"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.82,
+     26.915
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-03-03-jaipur",
+    "title": "Jaipur",
+    "date_from": "1893-03-03",
+    "date_to": "1893-03-04",
+    "day_from": 78,
+    "day_to": 79,
+    "animals": "Hirsch, Antilope, Vögel (sonstige)",
+    "kill_sentences": 4,
+    "photos": 0,
+    "description": "03.03.1893–04.03.1893: Hirsch, Antilope, Vögel (sonstige)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.3333,
+     28.8333
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-03-09-nepal",
+    "title": "Nepal Terai (Dakna Bāgh, Beli …)",
+    "date_from": "1893-03-09",
+    "date_to": "1893-03-26",
+    "day_from": 84,
+    "day_to": 101,
+    "animals": "Tiger, Vögel (sonstige), Hirsch, Elefant",
+    "kill_sentences": 39,
+    "photos": 2,
+    "description": "09.03.1893–26.03.1893: Tiger, Vögel (sonstige), Hirsch, Elefant"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8269,
+     -6.1753
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-04-11-java",
+    "title": "Batavia (Jakarta) / Garut (Java) / Tjiandjur (Cianjur, Java) / Tjipandak (Java)",
+    "date_from": "1893-04-11",
+    "date_to": "1893-04-23",
+    "day_from": 117,
+    "day_to": 129,
+    "animals": "Büffel/Banteng, Krokodil, Hirsch, Vögel (sonstige)",
+    "kill_sentences": 14,
+    "photos": 1,
+    "description": "11.04.1893–23.04.1893: Büffel/Banteng, Krokodil, Hirsch, Vögel (sonstige)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.2333,
+     -32.2333
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-05-18-nsw-west",
+    "title": "Narromine (NSW)",
+    "date_from": "1893-05-18",
+    "date_to": "1893-05-20",
+    "day_from": 154,
+    "day_to": 156,
+    "animals": "Känguru, Vögel (sonstige), Emu/Kasuar",
+    "kill_sentences": 15,
+    "photos": 0,
+    "description": "18.05.1893–20.05.1893: Känguru, Vögel (sonstige), Emu/Kasuar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.0011,
+     -34.715
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-05-23-badgery",
+    "title": "Arthursleigh / Badgery Station (NSW)",
+    "date_from": "1893-05-23",
+    "date_to": "1893-05-25",
+    "day_from": 159,
+    "day_to": 161,
+    "animals": "Känguru, Bär, Tiger",
+    "kill_sentences": 10,
+    "photos": 0,
+    "description": "23.05.1893–25.05.1893: Känguru, Bär, Tiger"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1494,
+     -9.4789
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-06-16-new-guinea",
+    "title": "Port Moresby / Laroki (New Guinea)",
+    "date_from": "1893-06-16",
+    "date_to": "1893-06-17",
+    "day_from": 183,
+    "day_to": 184,
+    "animals": "Vögel (sonstige), Känguru",
+    "kill_sentences": 7,
+    "photos": 0,
+    "description": "16.06.1893–17.06.1893: Vögel (sonstige), Känguru"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.6322,
+     -3.4458
+    ]
+   },
+   "properties": {
+    "id": "hunt-1893-06-29-buru",
+    "title": "Kajeli (Buru)",
+    "date_from": "1893-06-29",
+    "date_to": "1893-06-30",
+    "day_from": 196,
+    "day_to": 197,
+    "animals": "Vögel (sonstige), Hirsch",
+    "kill_sentences": 5,
+    "photos": 0,
+    "description": "29.06.1893–30.06.1893: Vögel (sonstige), Hirsch"
+   }
+  }
+ ]
+}

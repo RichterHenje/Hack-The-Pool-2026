@@ -1,0 +1,25 @@
+---
+type: person
+id: ke-person-5b35ce465b
+created_by: ai-assisted
+checked: false
+review:
+  - "Dublette? [[Herrmann, Hugo]]"
+---
+- Titel: 
+- Lebensdaten (Jahr, Ort - Jahr, Ort)
+- Beruf/Funktionen: Ingenieur 1. Classe (Vorgeschriebener Kriegstand 32. Vorgeschriebener Friedensstand 18.)
+- Auszeichnung: Seereise-Denkmünze 1892/1893, Militär-Verdienst-Medaille am rothen Bande
+	- Quelle: [Rangs- und Eintheilungs-Liste der k. u. k. Kriegs-Marine 1899.05.15 (Wien, 1899) | Library | Hungaricana](https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1899-05-15/?pg=36&layout=s)
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle
+	- Kapitän
+- Ortschaft (Link)
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur

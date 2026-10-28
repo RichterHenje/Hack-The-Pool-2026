@@ -1,0 +1,22 @@
+---
+type: person
+id: ke-person-171dde9dcf
+created_by: ai-assisted
+checked: false
+---
+- Titel: 
+- Lebensdaten:
+- Beruf/Funktionen: L. Sch. L.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: L. Sch. L. (seit 14. Jänner 1899)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1899-02-15__pages164-165.pdf (S. 163–164)

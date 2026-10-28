@@ -1,0 +1,22 @@
+---
+type: person
+id: ke-person-19c3f7c4a6
+created_by: ai-assisted
+checked: false
+---
+- Titel: Dr.
+- Lebensdaten:
+- Beruf/Funktionen: Prov. Korv. Arzt
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Prov. Korv. Arzt (seit 8. Juni 1908)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1908-06-16__pages174-174.pdf (S. 173)

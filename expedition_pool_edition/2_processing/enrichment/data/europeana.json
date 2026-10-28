@@ -1,0 +1,3158 @@
+{
+ "source": "Europeana Search API (record/v2), images only; key from .env, not stored",
+ "photographers": [
+  {
+   "id": "hodek",
+   "name": "Eduard Hodek jun.",
+   "role": "Fotograf und Präparator an Bord",
+   "queries": [
+    "who:\"Hodek\"",
+    "\"Hodek\" AND (\"Franz Ferdinand\" OR Erzherzog OR Archduke)"
+   ],
+   "searched": 355,
+   "kept": 92
+  },
+  {
+   "id": "deen-dayal",
+   "name": "Lala Deen Dayal",
+   "role": "Hoffotograf in Hyderabad",
+   "queries": [
+    "who:\"Deen Dayal\"",
+    "\"Deen Dayal\" AND (\"Franz Ferdinand\" OR Erzherzog OR Archduke)"
+   ],
+   "searched": 39,
+   "kept": 36
+  },
+  {
+   "id": "pietzner",
+   "name": "Carl Pietzner",
+   "role": "Wiener Hofatelier, Abzüge der Reisefotos",
+   "queries": [
+    "who:\"Pietzner\" AND (\"Franz Ferdinand\" OR Erzherzog OR Indien OR Japan OR Ceylon OR Nepal OR Java OR Siriska)"
+   ],
+   "searched": 4,
+   "kept": 3
+  },
+  {
+   "id": "bourne-shepherd",
+   "name": "Bourne & Shepherd",
+   "role": "Fotostudio in Indien",
+   "queries": [
+    "who:\"Bourne & Shepherd\" AND (\"Franz Ferdinand\" OR Archduke OR 1893)"
+   ],
+   "searched": 0,
+   "kept": 0
+  },
+  {
+   "id": "imhof",
+   "name": "Max von Imhof",
+   "role": "Fotograf in Nordamerika",
+   "queries": [
+    "who:\"Imhof\" AND (\"Franz Ferdinand\" OR Erzherzog OR 1893)"
+   ],
+   "searched": 6,
+   "kept": 6
+  }
+ ],
+ "rights": {
+  "http://creativecommons.org/licenses/by-nc-sa/4.0/": 131,
+  "http://rightsstatements.org/vocab/InC/1.0/": 3
+ },
+ "providers": {
+  "World Museum Vienna": 131,
+  "The European Library": 3
+ },
+ "dated": 60,
+ "at_hunts": 36,
+ "records": [
+  {
+   "id": "/15504/VF_14687",
+   "title": "India, “Tandur-Camp.” 23.I.1893 Indien, \"Tandur-Camp\". 23.I.1893",
+   "description": "Beschriftung: Signatur: Hodek: 21a",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14687",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255318/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255318%2FVF_14687_a.jpg&type=IMAGE",
+   "vf": "VF_14687",
+   "in_bilder_json": true,
+   "date": "1893-01-23",
+   "day_place": "Tandur, India",
+   "hunt": "hunt-1893-01-23-hyderabad",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14777",
+   "title": "Alwar, \"Barra\". 20.II.1893",
+   "description": "Beschriftung: Signatur: Hodek: 28 a",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14777",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255417/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255417%2FVF_14777.jpg&type=IMAGE",
+   "vf": "VF_14777",
+   "in_bilder_json": true,
+   "date": "1893-02-20",
+   "day_place": "Sariska, India",
+   "hunt": "hunt-1893-02-20-alwar",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14778",
+   "title": "Alwar, “Lunch near Barra.” 20.II.1893 Alwar, \"Lunch bei Barra\". 20.II.1893",
+   "description": "Caption: Signature: Hodek: 27, on GPP E. Hodek Beschriftung: Signatur: Hodek: 27, auf GPP E. Hodek",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14778",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255418/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255418%2FVF_14778.jpg&type=IMAGE",
+   "vf": "VF_14778",
+   "in_bilder_json": true,
+   "date": "1893-02-20",
+   "day_place": "Sariska, India",
+   "hunt": "hunt-1893-02-20-alwar",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14702",
+   "title": "Siriska, Archduke Franz Ferdinand, the first tiger. 24.II.1893 Siriska, Erzherzog Franz Ferdinand u.der erste Tiger. 24.II.1893",
+   "description": "Beschriftung: Signatur: Hodek: 38",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14702",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255335/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255335%2FVF_14702.jpg&type=IMAGE",
+   "vf": "VF_14702",
+   "in_bilder_json": true,
+   "date": "1893-02-24",
+   "day_place": "Sariska, India",
+   "hunt": "hunt-1893-02-20-alwar",
+   "animals": [
+    "tiger"
+   ]
+  },
+  {
+   "id": "/15504/VF_14721",
+   "title": "Jodhpore, Jodhpoor Camp. 1.III.1893 Jodhpore, Jodhpoor Camp. 1.III.1893",
+   "description": "Beschriftung: Signatur: E. Hodek: 42",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14721",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255356/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255356%2FVF_14721.jpg&type=IMAGE",
+   "vf": "VF_14721",
+   "in_bilder_json": true,
+   "date": "1893-03-01",
+   "day_place": "Jodhpur, India",
+   "hunt": "hunt-1893-03-01-jodhpur",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14724",
+   "title": "Jodhpore, “piggsticking.” 2.III.1893 Jodhpore, \"Piggsticking\". 2.III.1893",
+   "description": "Beschriftung: Signatur: E. Hodek: 44",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14724",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255359/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255359%2FVF_14724.jpg&type=IMAGE",
+   "vf": "VF_14724",
+   "in_bilder_json": true,
+   "date": "1893-03-02",
+   "day_place": "Jodhpur, India",
+   "hunt": "hunt-1893-03-01-jodhpur",
+   "animals": [
+    "boar"
+   ]
+  },
+  {
+   "id": "/15504/VF_14724_a",
+   "title": "Jodhpore, “piggsticking.” 2.III.1893 Jodhpore, \"Piggsticking\". 2.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 44",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14724_a",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=513840/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F513840%2FVF_14724a.jpg&type=IMAGE",
+   "vf": "VF_14724_a",
+   "in_bilder_json": true,
+   "date": "1893-03-02",
+   "day_place": "Jodhpur, India",
+   "hunt": "hunt-1893-03-01-jodhpur",
+   "animals": [
+    "boar"
+   ]
+  },
+  {
+   "id": "/15504/VF_14722",
+   "title": "Jodhpore. 2.III.1893, Lanzenreiterei Jodhpore. 2.III.1893, Lanzenreiterei",
+   "description": "Beschriftung: Signatur: E. Hodek: 45",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14722",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255357/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255357%2FVF_14722.jpg&type=IMAGE",
+   "vf": "VF_14722",
+   "in_bilder_json": true,
+   "date": "1893-03-02",
+   "day_place": "Jodhpur, India",
+   "hunt": "hunt-1893-03-01-jodhpur",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14726",
+   "title": "Nepal, \"Von Barbata-Tal nach Gull-Cerie\". 14.III.1893 Nepal, “Von Barbata-Tal nach Gull-Cerie.” 14.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 51",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14726",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255361/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255361%2FVF_14726.jpg&type=IMAGE",
+   "vf": "VF_14726",
+   "in_bilder_json": true,
+   "date": "1893-03-14",
+   "day_place": "Dechta Boli, Nepal",
+   "hunt": "hunt-1893-03-09-nepal",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14727_a",
+   "title": "Nepal, \"Daktha-poli\". 17.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 52",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14727_a",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255362/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255362%2FVF_14727_a.jpg&type=IMAGE",
+   "vf": "VF_14727_a",
+   "in_bilder_json": true,
+   "date": "1893-03-17",
+   "day_place": "Guleria, Nepal",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14728",
+   "title": "Nepal, \"Daktha-poli\". 17.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 53",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14728",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255363/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255363%2FVF_14728.jpg&type=IMAGE",
+   "vf": "VF_14728",
+   "in_bilder_json": true,
+   "date": "1893-03-17",
+   "day_place": "Guleria, Nepal",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14727_b",
+   "title": "Nepal, \"Daktha-poli\". 17.III.1893, Jagdzeltlager",
+   "description": "Beschriftung: Signatur: Hodek: 48 Laut NB",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14727_b",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=504137/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F504137%2FVF_14727_b.jpg&type=IMAGE",
+   "vf": "VF_14727_b",
+   "in_bilder_json": true,
+   "date": "1893-03-17",
+   "day_place": "Guleria, Nepal",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14730",
+   "title": "Nepal. “On Tiger Hunting.” 17.III.1893 Nepal. \"Zur Tigerjagd\". 17.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 54",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14730",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255366/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255366%2FVF_14730.jpg&type=IMAGE",
+   "vf": "VF_14730",
+   "in_bilder_json": true,
+   "date": "1893-03-17",
+   "day_place": "Guleria, Nepal",
+   "hunt": null,
+   "animals": [
+    "tiger"
+   ]
+  },
+  {
+   "id": "/15504/VF_14731",
+   "title": "Nepal, \"Gull-Cerie Camp\". 18.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 49",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14731",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255367/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255367%2FVF_14731.jpg&type=IMAGE",
+   "vf": "VF_14731",
+   "in_bilder_json": true,
+   "date": "1893-03-18",
+   "day_place": "Beli, Nepal",
+   "hunt": "hunt-1893-03-09-nepal",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14732",
+   "title": "Nepal, “On the journey from Dakna-na bagh to Barbata valley.” 18.III.1893 Nepal, \"Auf der Reise von Dakna-na bagh nach Barbata-Tal\". 18.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 50",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14732",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255368/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255368%2FVF_14732.jpg&type=IMAGE",
+   "vf": "VF_14732",
+   "in_bilder_json": true,
+   "date": "1893-03-18",
+   "day_place": "Beli, Nepal",
+   "hunt": "hunt-1893-03-09-nepal",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14734_a",
+   "title": "Nepal, \"Katni-Camp. Elefanten im Bad\". 21.III.1893",
+   "description": "Inscription: Stamp/sign: Corner stamp: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABBOT. ETHNOGRAPHER. COLLECTION Beschriftung: Signatur: Hodek: 56 Beschriftung: Stempel/Zeichen: Eckiger Stempel: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG",
+   "creators": [
+    "Eduard Hodek jun. (attributed to)",
+    "Eduard Hodek jun. (Zugeschrieben an)",
+    "Eduard Hodek jun. Zugeschrieben an"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14734_a",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255370/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255370%2FVF_14734_a.jpg&type=IMAGE",
+   "vf": "VF_14734_a",
+   "in_bilder_json": true,
+   "date": "1893-03-21",
+   "day_place": "Katni, Nepal",
+   "hunt": "hunt-1893-03-09-nepal",
+   "animals": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "/15504/VF_14734_b",
+   "title": "Nepal, \"Katni-Camp. Elefanten im Bad\". 21.III.1893",
+   "description": "Inscription: Stamp/sign: Corner stamp: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABBOT. ETHNOGRAPHER. COLLECTION Beschriftung: Stempel/Zeichen: Eckiger Stempel: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG",
+   "creators": [
+    "Eduard Hodek jun. (attributed to)",
+    "Eduard Hodek jun. (Zugeschrieben an)",
+    "Eduard Hodek jun. Zugeschrieben an"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14734_b",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=504125/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F504125%2FVF_14734_b.jpg&type=IMAGE",
+   "vf": "VF_14734_b",
+   "in_bilder_json": true,
+   "date": "1893-03-21",
+   "day_place": "Katni, Nepal",
+   "hunt": "hunt-1893-03-09-nepal",
+   "animals": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "/15504/VF_14736",
+   "title": "Nepal, “Katni Camp.” 21.III.1893 Nepal, \"Katni-Camp\". 21.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 58",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14736",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255372/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255372%2FVF_14736.jpg&type=IMAGE",
+   "vf": "VF_14736",
+   "in_bilder_json": true,
+   "date": "1893-03-21",
+   "day_place": "Katni, Nepal",
+   "hunt": "hunt-1893-03-09-nepal",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14733",
+   "title": "Nepal, “Katni Camp.” 21.III.1893, Mahouts while drinking and washing elephants Nepal, \"Katni-Camp\". 21.III.1893, Mahouts beim Tränken u. Waschen d. Elefanten",
+   "description": "Beschriftung: Signatur: Hodek: 55",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14733",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255369/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255369%2FVF_14733.jpg&type=IMAGE",
+   "vf": "VF_14733",
+   "in_bilder_json": true,
+   "date": "1893-03-21",
+   "day_place": "Katni, Nepal",
+   "hunt": "hunt-1893-03-09-nepal",
+   "animals": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "/15504/VF_14737",
+   "title": "Nepal, Katni \"Graf Wurmbrands Tiger\". 22.III.1893  [siehe auch VF_14740 und VF_14749]",
+   "description": "Beschriftung: Signatur: Hodek: 59",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14737",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255373/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255373%2FVF_14737.jpg&type=IMAGE",
+   "vf": "VF_14737",
+   "in_bilder_json": true,
+   "date": "1893-03-22",
+   "day_place": "Katni, Nepal",
+   "hunt": null,
+   "animals": [
+    "tiger"
+   ]
+  },
+  {
+   "id": "/15504/VF_14741",
+   "title": "Nepal, Katni, \"Sr. Highness tiger’. 22.III.1893 Nepal, Katni, \"Sr. k.u.k. Hoheit Tiger\". 22.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 60",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14741",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255378/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255378%2FVF_14741.jpg&type=IMAGE",
+   "vf": "VF_14741",
+   "in_bilder_json": true,
+   "date": "1893-03-22",
+   "day_place": "Katni, Nepal",
+   "hunt": null,
+   "animals": [
+    "tiger"
+   ]
+  },
+  {
+   "id": "/15504/VF_14742",
+   "title": "Katni, Sr. k.u.k. Highness “Tiger.” 23.III.1893 Katni, Sr. k.u.k. Hoheit \"Tiger\". 23.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 63",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14742",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255379/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255379%2FVF_14742.jpg&type=IMAGE",
+   "vf": "VF_14742",
+   "in_bilder_json": true,
+   "date": "1893-03-23",
+   "day_place": "Katni, Nepal",
+   "hunt": "hunt-1893-03-09-nepal",
+   "animals": [
+    "tiger"
+   ]
+  },
+  {
+   "id": "/15504/VF_14738",
+   "title": "Nepal, \"In der Dschungel\". 23.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 62 (Glasplatte 24 x 30), keine Namenssignatur; Format D: eingeritzt: 89 Beschriftung: Beschriftung: Format D: Rückseite: Pressefoto Beschriftung: Stempel/Zeichen: Rundstempel: Museum für Völkerkunde in Wien, Bildersammlung Label: Signature: Hodek: 62 (glass plate 24 x 30), no name signature; Format D: incised: 89 Label: Label: Format D: reverse: press photo",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14738",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255374/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255374%2FVF_14738.jpg&type=IMAGE",
+   "vf": "VF_14738",
+   "in_bilder_json": true,
+   "date": "1893-03-23",
+   "day_place": "Katni, Nepal",
+   "hunt": "hunt-1893-03-09-nepal",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14743",
+   "title": "Nepal, “The Hunting Elephants Kal-mohana.” 26.III.1893 Nepal, \"Die Jagd Elefanten Kal-mohana\". 26.III.1893",
+   "description": "Beschriftung: Signatur: Hodek: 64",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14743",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255380/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255380%2FVF_14743.jpg&type=IMAGE",
+   "vf": "VF_14743",
+   "in_bilder_json": true,
+   "date": "1893-03-26",
+   "day_place": "Bhanderia to Sohela, India",
+   "hunt": "hunt-1893-03-09-nepal",
+   "animals": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "/15504/VF_14828",
+   "title": "Franz Ferdinand and his entourage on a bamboo-bridge near Mande Franz Ferdinand und sein Gefolge auf einer Bambusbrücke bei Mande über den Tji-Koendoel. 16.IV.1893",
+   "description": "Beschriftung: Signatur: Hodek: 72",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14828",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255473/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255473%2FVF_14828.jpg&type=IMAGE",
+   "vf": "VF_14828",
+   "in_bilder_json": true,
+   "date": "1893-04-16",
+   "day_place": "Tjandjur, Java",
+   "hunt": "hunt-1893-04-11-java",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14827",
+   "title": "Franz Ferdinand u. sein Gefolge auf einer Bambusbrücke bei Mande über den Tji-Koendoel\". 16.IV.1893 Franz Ferdinand u. His entourage on a bamboo bridge near Mande over the Tji-Koendoel. \" 16.IV.1893",
+   "description": "Beschriftung: Signatur: Glasplatte: Signatur Hodek: 71",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14827",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255472/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255472%2FVF_14827.jpg&type=IMAGE",
+   "vf": "VF_14827",
+   "in_bilder_json": true,
+   "date": "1893-04-16",
+   "day_place": "Tjandjur, Java",
+   "hunt": "hunt-1893-04-11-java",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14826",
+   "title": "Java, \"Nach der Hirschjagd im Ploembon\". 16.IV.1893 Java, “After deer hunting in the Ploembon.” 16.IV.1893",
+   "description": "Beschriftung: Signatur: Auf GPP: E. Hodek. Hodek: 70 auf Format C",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14826",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255471/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255471%2FVF_14826.jpg&type=IMAGE",
+   "vf": "VF_14826",
+   "in_bilder_json": true,
+   "date": "1893-04-16",
+   "day_place": "Tjandjur, Java",
+   "hunt": "hunt-1893-04-11-java",
+   "animals": [
+    "deer"
+   ]
+  },
+  {
+   "id": "/15504/VF_14825",
+   "title": "Java, Hochstand in \"Ploembon\". 16.IV.1893 Java, high ground in “Ploembon.” 16.IV.1893",
+   "description": "Beschriftung: Signatur: Hodek: 69",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14825",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255470/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255470%2FVF_14825.jpg&type=IMAGE",
+   "vf": "VF_14825",
+   "in_bilder_json": true,
+   "date": "1893-04-16",
+   "day_place": "Tjandjur, Java",
+   "hunt": "hunt-1893-04-11-java",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14837",
+   "title": "\"Thursday Island\" (Torres Strasse). 9.V.1893 “Thursday Island” (Torres Strasse). 9.V.1893",
+   "description": "Beschriftung: Signatur: Hodek: 78 a",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14837",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255483/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255483%2FVF_14837.jpg&type=IMAGE",
+   "vf": "VF_14837",
+   "in_bilder_json": true,
+   "date": "1893-05-09",
+   "day_place": "At Sea to Sydney, Australia",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14839",
+   "title": "Australia, at the Blackhead Fall, 17.V.1893 Australien, \"Am Blackheadfall\". 17.V.1893, in der Mitte Franz Ferdinand ? [Blackheath]",
+   "description": "Beschriftung: Signatur: Hodek: 79 laut NB",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14839",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255485/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255485%2FVF_14839.jpg&type=IMAGE",
+   "vf": "VF_14839",
+   "in_bilder_json": true,
+   "date": "1893-05-17",
+   "day_place": "Sydney, Australia",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14840",
+   "title": "Australia, “Blackheadfall.” 17.V.1893 [Blackheath] Australien, \"Blackheadfall\". 17.V.1893 [Blackheath]",
+   "description": "Beschriftung: Signatur: xx",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14840",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255487/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255487%2FVF_14840.jpg&type=IMAGE",
+   "vf": "VF_14840",
+   "in_bilder_json": true,
+   "date": "1893-05-17",
+   "day_place": "Sydney, Australia",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14843",
+   "title": "Australia, Naramine, \"Jongall Janck\". 18.V.1893 Australien, Naramine, \"Jongall Janck\". 18.V.1893 [Narromine]",
+   "description": "Caption: Signature: On GPP also E. Hodek, Hodek: 81 Beschriftung: Signatur: Auf GPP auch E. Hodek, Hodek: 81",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14843",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255490/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255490%2FVF_14843.jpg&type=IMAGE",
+   "vf": "VF_14843",
+   "in_bilder_json": true,
+   "date": "1893-05-18",
+   "day_place": "Narromine, Australia",
+   "hunt": "hunt-1893-05-18-nsw-west",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14841",
+   "title": "Australia, Naramine, “Jongall Janck.” 18.V.1893 [Narromine] Australien, Naramine, \"Jongall Janck\". 18.V.1893 [Narromine]",
+   "description": "Beschriftung: Signatur: Hodek: 82",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14841",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255488/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255488%2FVF_14841.jpg&type=IMAGE",
+   "vf": "VF_14841",
+   "in_bilder_json": true,
+   "date": "1893-05-18",
+   "day_place": "Narromine, Australia",
+   "hunt": "hunt-1893-05-18-nsw-west",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14842",
+   "title": "Australien, Naramine. 18.5.1893. Eisenbahnzug [Narromine]",
+   "description": "Caption: Signature: Hodek: 80 a on print, 80 and E. Hodek on GPP Beschriftung: Signatur: Hodek: 80 a auf Abzug, 80 und E. Hodek auf GPP",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14842",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255489/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255489%2FVF_14842.jpg&type=IMAGE",
+   "vf": "VF_14842",
+   "in_bilder_json": true,
+   "date": "1893-05-18",
+   "day_place": "Narromine, Australia",
+   "hunt": "hunt-1893-05-18-nsw-west",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14844",
+   "title": "Australia, Arthur’s Leigh Badgery Station. 24.V.1893 Australien, Arthurs Leigh Badgery Station. 24.V.1893",
+   "description": "Beschriftung: Signatur: Hodek: 83",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14844",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255491/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255491%2FVF_14844.jpg&type=IMAGE",
+   "vf": "VF_14844",
+   "in_bilder_json": true,
+   "date": "1893-05-24",
+   "day_place": "Badgery Station, Australia",
+   "hunt": "hunt-1893-05-23-badgery",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14846_a",
+   "title": "Australia, Arthur’s Leigh Badgery Station. 24.V.1893 Australien, Arthurs Leigh Badgery Station. 24.V.1893",
+   "description": "Beschriftung: Signatur: xx",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14846_a",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255493/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255493%2FVF_14846_a.jpg&type=IMAGE",
+   "vf": "VF_14846_a",
+   "in_bilder_json": true,
+   "date": "1893-05-24",
+   "day_place": "Badgery Station, Australia",
+   "hunt": "hunt-1893-05-23-badgery",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14846_b",
+   "title": "Australia, Arthur’s Leigh Badgery Station. 24.V.1893 Australien, Arthurs Leigh Badgery Station. 24.V.1893",
+   "description": "Beschriftung: Signatur: Hodek: 84",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14846_b",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=503569/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F503569%2FVF_14846_b.jpg&type=IMAGE",
+   "vf": "VF_14846_b",
+   "in_bilder_json": true,
+   "date": "1893-05-24",
+   "day_place": "Badgery Station, Australia",
+   "hunt": "hunt-1893-05-23-badgery",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14845",
+   "title": "Australia, Arthur’s Leigh Badgery Station. 24.V.1893. 24.5.1893, Farmhaus Australien, Arthurs Leigh Badgery Station. 24.V.1893. 24.5.1893,  Farmhaus",
+   "description": "Beschriftung: Signatur: Hodek: 83",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14845",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255492/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255492%2FVF_14845.jpg&type=IMAGE",
+   "vf": "VF_14845",
+   "in_bilder_json": true,
+   "date": "1893-05-24",
+   "day_place": "Badgery Station, Australia",
+   "hunt": "hunt-1893-05-23-badgery",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14847",
+   "title": "Australien, Arthurs Leigh Badgery Station. 24.5.1893 Australia, Arthur’s Leigh Badgery Station. 24.5.1893",
+   "description": "Beschriftung: Signatur: Hodek: 85",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14847",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255494/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255494%2FVF_14847.jpg&type=IMAGE",
+   "vf": "VF_14847",
+   "in_bilder_json": true,
+   "date": "1893-05-24",
+   "day_place": "Badgery Station, Australia",
+   "hunt": "hunt-1893-05-23-badgery",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14848_a",
+   "title": "Australia, Through the Wallendelly River. 25.V.1893 Australien, Durch den Wallendelly River. 25.V.1893",
+   "description": "Beschriftung: Signatur: Hodek: 86",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14848_a",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=503568/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F503568%2FVF_14848_a.jpg&type=IMAGE",
+   "vf": "VF_14848_a",
+   "in_bilder_json": true,
+   "date": "1893-05-25",
+   "day_place": "Badgery Station, Australia",
+   "hunt": "hunt-1893-05-23-badgery",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14848_b",
+   "title": "Australia, Through the Wallendelly River. 25.V.1893 Australien, Durch den Wallendelly River. 25.V.1893",
+   "description": "",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14848_b",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255495/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255495%2FVF_14848_b.jpg&type=IMAGE",
+   "vf": "VF_14848_b",
+   "in_bilder_json": true,
+   "date": "1893-05-25",
+   "day_place": "Badgery Station, Australia",
+   "hunt": "hunt-1893-05-23-badgery",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14850",
+   "title": "Australia, “Im australischen Busch.” 25.5.1893 Australien, \"Im australischen Busch\". 25.5.1893",
+   "description": "Beschriftung: Signatur: Hodek: 88",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14850",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255498/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255498%2FVF_14850.jpg&type=IMAGE",
+   "vf": "VF_14850",
+   "in_bilder_json": true,
+   "date": "1893-05-25",
+   "day_place": "Badgery Station, Australia",
+   "hunt": "hunt-1893-05-23-badgery",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14851",
+   "title": "Australia, “Im australischen Busch.” 25.5.1893. Australien, \"Im australischen Busch\". 25.5.1893.",
+   "description": "Caption: Signature: On GPP also E. Hodek, Hodek: 88 Beschriftung: Signatur: Auf GPP auch E. Hodek, Hodek: 88",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14851",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255499/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255499%2FVF_14851.jpg&type=IMAGE",
+   "vf": "VF_14851",
+   "in_bilder_json": true,
+   "date": "1893-05-25",
+   "day_place": "Badgery Station, Australia",
+   "hunt": "hunt-1893-05-23-badgery",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14849_a",
+   "title": "Australia, “Im australischen Busch.” 25.V.1893 Australien, \"Im australischen Busch\". 25.V.1893",
+   "description": "Beschriftung: Signatur: Hodek: 87 a",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14849_a",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=1106055/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F1106055%2FVF_14849.jpg&type=IMAGE",
+   "vf": "VF_14849_a",
+   "in_bilder_json": true,
+   "date": "1893-05-25",
+   "day_place": "Badgery Station, Australia",
+   "hunt": "hunt-1893-05-23-badgery",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14849",
+   "title": "Australien, \"Im australischen Busch\". 25.V.1893 Australia, “Im australischen Busch.” 25.V.1893",
+   "description": "Beschriftung: Signatur: Auf GPP: E. Hodek und 87 Caption: Signature: On GPP: E. Hodek and 87",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14849",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255496/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255496%2FVF_14849_GPP.jpg&type=IMAGE",
+   "vf": "VF_14849",
+   "in_bilder_json": true,
+   "date": "1893-05-25",
+   "day_place": "Badgery Station, Australia",
+   "hunt": "hunt-1893-05-23-badgery",
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14856",
+   "title": "New Caledonia, “Dance of Pilou-Pilou.” 3.VI.1893 Neu-Kaledonien, \"Tanz des Pilou-Pilou\". 3.VI.1893",
+   "description": "Caption: Signature: On GPP also E. Hodek, Hodek: 89 Beschriftung: Signatur: Auf GPP auch E. Hodek, Hodek: 89",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14856",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255504/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255504%2FVF_14856.jpg&type=IMAGE",
+   "vf": "VF_14856",
+   "in_bilder_json": true,
+   "date": "1893-06-03",
+   "day_place": "Numea, New Caledonia",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15222",
+   "title": "Japan, Der Gipfel des Fuyiyama, 3728 m. 13.VIII.1893 Japan, The summit of Fuyiyama, 3728 m. 13.VIII.1893",
+   "description": "Beschriftung: Signatur: Hodek: 112 Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG Inscription: Stamp/sign: reverse: corner stamp: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABBOT. ETHNOGRAPHER. COLLECTION",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15222",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255893/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255893%2FVF_15222.jpg&type=IMAGE",
+   "vf": "VF_15222",
+   "in_bilder_json": true,
+   "date": "1893-08-13",
+   "day_place": "Kyoto, Japan",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15223",
+   "title": "Japan, Fuyiyama of Gotemba. 13.VIII.1893 Japan, Fuyiyama von Gotemba. 13.VIII.1893",
+   "description": "Caption: Signature: Hodek: 111, on GPP also E. Hodek Inscription: Stamp/sign: reverse: corner stamp: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABBOT. ETHNOGRAPHER. COLLECTION Beschriftung: Signatur: Hodek: 111, auf GPP auch E. Hodek Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15223",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255894/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255894%2FVF_15223.jpg&type=IMAGE",
+   "vf": "VF_15223",
+   "in_bilder_json": true,
+   "date": "1893-08-13",
+   "day_place": "Kyoto, Japan",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15221",
+   "title": "Japan, Pilger am Gipfel des Fuyiyama. 13.VIII.1893",
+   "description": "Beschriftung: Signatur: Hodek: 115 Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG Inscription: Stamp/sign: reverse: corner stamp: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABBOT. ETHNOGRAPHER. COLLECTION",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15221",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255892/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255892%2FVF_15221.jpg&type=IMAGE",
+   "vf": "VF_15221",
+   "in_bilder_json": true,
+   "date": "1893-08-13",
+   "day_place": "Kyoto, Japan",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15217",
+   "title": "Japan, bridge over the Fuji-Kawa. 15.VIII.1893 Japan, Brücke über den Fuji-Kawa. 15.VIII.1893",
+   "description": "Caption: Signature: Hodek: 116, on GPP also E. Hodek Inscription: Stamp/sign: reverse: corner stamp: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABBOT. ETHNOGRAPHER. COLLECTION Beschriftung: Signatur: Hodek: 116, auf GPP auch E. Hodek Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15217",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255888/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255888%2FVF_15217.jpg&type=IMAGE",
+   "vf": "VF_15217",
+   "in_bilder_json": true,
+   "date": "1893-08-15",
+   "day_place": "Nagoya to Kosu, Japan",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14887",
+   "title": "Holy mass on board. 18.VIII.1893 Heilige Messe an Bord. 18.VIII.1893",
+   "description": "Caption: Signature: Hodek: 6, on GPP also E. Hodek Beschriftung: Signatur: Hodek: 6, auf GPP auch E. Hodek",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14887",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255536/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255536%2FVF_14887.jpg&type=IMAGE",
+   "vf": "VF_14887",
+   "in_bilder_json": true,
+   "date": "1893-08-18",
+   "day_place": "Tokyo, Japan",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15225",
+   "title": "Japan, Nikko, Urami Wasserfall [Uraminotaki]. 21.VIII.1893; Franz Ferdinand with Travel Company Japan, Nikko, Urami Wasserfall [Uraminotaki]. 21.VIII.1893; Franz Ferdinand mit Reisegesellschaft",
+   "description": "Label: Label: Asia 29 - Totschigi Inscription: Stamp/sign: reverse: corner stamp: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABBOT. ETHNOGRAPHER. COLLECTION Beschriftung: Signatur: Hodek: 118 Beschriftung: Beschriftung: Asien 29 - Totschigi Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15225",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255896/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255896%2FVF_15225.jpg&type=IMAGE",
+   "vf": "VF_15225",
+   "in_bilder_json": true,
+   "date": "1893-08-21",
+   "day_place": "Nikko, Japan",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15226",
+   "title": "Nikko: Urami cascade [Uraminotaki], 21.8.1893 Nikko: Urami Wasserfall [Uraminotaki], 21.8.1893",
+   "description": "Beschriftung: Signatur: Hodek: 117",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15226",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255897/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255897%2FVF_15226.jpg&type=IMAGE",
+   "vf": "VF_15226",
+   "in_bilder_json": true,
+   "date": "1893-08-21",
+   "day_place": "Nikko, Japan",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14891",
+   "title": "An Bord R.M.S. \"Empress of China\", Pacific Ocean 29.VIII.1893 On board R.M.S. “Empress of China,” Pacific Ocean 29.VIII.1893",
+   "description": "Beschriftung: Signatur: Hodek: 124 Beschriftung: Stempel/Zeichen: Eckiger Stempel: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG Inscription: Stamp/sign: Corner stamp: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABBOT. ETHNOGRAPHER. COLLECTION",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14891",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255541/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255541%2FVF_14891.jpg&type=IMAGE",
+   "vf": "VF_14891",
+   "in_bilder_json": true,
+   "date": "1893-08-29",
+   "day_place": "At Sea to Vancouver (no separate entry)",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14892",
+   "title": "An Bord R.M.S. \"Empress of China\", Pacific Ocean, 29.VIII.1893 On board R.M.S. “Empress of China,” Pacific Ocean, 29.VIII.1893",
+   "description": "Beschriftung: Signatur: Hodek: 125 Laut NB",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14892",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255542/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255542%2FVF_14892.jpg&type=IMAGE",
+   "vf": "VF_14892",
+   "in_bilder_json": true,
+   "date": "1893-08-29",
+   "day_place": "At Sea to Vancouver (no separate entry)",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14893",
+   "title": "Lama on board R.M.S. “Empress of China,” Pacific Ocean. 29.VIII.1893 Lama an Bord R.M.S. \"Empress of China\", Pacific Ocean. 29.VIII.1893",
+   "description": "Beschriftung: Signatur: Hodek: 126",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14893",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255543/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255543%2FVF_14893.jpg&type=IMAGE",
+   "vf": "VF_14893",
+   "in_bilder_json": true,
+   "date": "1893-08-29",
+   "day_place": "At Sea to Vancouver (no separate entry)",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15502",
+   "title": "Canada, \"Hotel Banff\". 10.IX.1893",
+   "description": "Caption: Signature: Hodek: 130, on GPP only E. Hodek Beschriftung: Signatur: Hodek: 130, auf GPP nur E. Hodek",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15502",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=256170/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F256170%2FVF_15502.jpg&type=IMAGE",
+   "vf": "VF_15502",
+   "in_bilder_json": true,
+   "date": "1893-09-10",
+   "day_place": "Banff to Penticton, Canada",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15505",
+   "title": "Kanada, Okanagan, Black Mountains. 14.IX.1893",
+   "description": "Caption: Signature: Hodek: 136. On the glass plate positive only E. Hodek, no number Beschriftung: Signatur: Hodek: 136. Auf dem Glasplattenpositiv nur E. Hodek, keine Nummer Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG.",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15505",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=256173/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F256173%2FVF_15505.jpg&type=IMAGE",
+   "vf": "VF_15505",
+   "in_bilder_json": true,
+   "date": "1893-09-14",
+   "day_place": "Black Mountain to Shingle Creek, Canada",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15512",
+   "title": "Yellowstone Park, “Am Castell Geyser.” 23.IX.1893 [Castle Geysir] Yellowstone Park, \"Am Castell Geyser\". 23.IX.1893 [Castle Geysir]",
+   "description": "Beschriftung: Signatur: Hodek: 142 Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG.",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15512",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=256180/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F256180%2FVF_15512.jpg&type=IMAGE",
+   "vf": "VF_15512",
+   "in_bilder_json": true,
+   "date": "1893-09-23",
+   "day_place": "Fountain Geyser Hotel, Yellowstone NP, United States",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15513",
+   "title": "Yellowstone Park, “Am Old Faithful.” 23.IX.1893 Yellowstone Park, \"Beim Old Faithful\". 23.IX.1893",
+   "description": "Beschriftung: Signatur: Hodek: 144 Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG.",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15513",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=256181/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F256181%2FVF_15513.jpg&type=IMAGE",
+   "vf": "VF_15513",
+   "in_bilder_json": true,
+   "date": "1893-09-23",
+   "day_place": "Fountain Geyser Hotel, Yellowstone NP, United States",
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14526",
+   "title": "Advance march of the 15th Madras Infantry Vorbeimarsch der 15ten Madras Infanterie",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14526",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255151/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255151%2FVF_14526.jpg&type=IMAGE",
+   "vf": "VF_14526",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14525",
+   "title": "Advance march of the 2nd Battalion, Suffolk Regiment Vorbeimarsch des 2ten Bataillons, Suffolk Regiment",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14525",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255150/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255150%2FVF_14525.jpg&type=IMAGE",
+   "vf": "VF_14525",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14524",
+   "title": "Advance march of the 2nd Battalion, Welsh Regiment Vorbeimarsch des 2ten Bataillons, Welsh Regiment",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14524",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255149/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255149%2FVF_14524.jpg&type=IMAGE",
+   "vf": "VF_14524",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14523",
+   "title": "Advance march of the 4th Lancierregiment Vorbeimarsch des 4ten Lancierregimentes",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14523",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255148/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255148%2FVF_14523.jpg&type=IMAGE",
+   "vf": "VF_14523",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14873",
+   "title": "Archduke Franz Ferdinand at the Vei Maori River Erzherzog Franz Ferdinand am Vei Maori River",
+   "description": "Beschriftung: Signatur: Hodek: 106 Beschriftung: Stempel/Zeichen: Rundstempel: Museum für Völkerkunde in Wien, Bildersammlung",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14873",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255523/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255523%2FVF_14873_1.jpg&type=IMAGE",
+   "vf": "VF_14873",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_56836",
+   "title": "Archduke Franz Ferdinand with some men from his entourage in an Erzh. Franz Ferdinand mit Herren seines Gefolges in einem offenen Vierspänner sitzend (Ausflug ins Umland Vancouvers)",
+   "description": "",
+   "creators": [
+    "Max von Imhof (photographer)",
+    "Max von Imhof (Fotograf/in)",
+    "Imhoff, Max von"
+   ],
+   "photographers": [
+    "imhof"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_56836",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=297003/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F297003%2FVF_56836.jpg&type=IMAGE",
+   "vf": "VF_56836",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14875",
+   "title": "At the Laloki-River Am Laloki-Fluss",
+   "description": "Beschriftung: Signatur: Hodek: 104 Beschriftung: Stempel/Zeichen: Rundstempel: Museum für Völkerkunde in Wien, Bildersammlung",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14875",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255525/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255525%2FVF_14875.jpg&type=IMAGE",
+   "vf": "VF_14875",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15506",
+   "title": "At the hunting camp, Shingle Creek Im Jagdlager, Shingle Creek",
+   "description": "Caption: Signature: Hodek: 138. Glass positive: E. Hodek and 138 Beschriftung: Signatur: Hodek: 138. Glaspositiv: E. Hodek und 138 Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG.",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15506",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=256174/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F256174%2FVF_15506.jpg&type=IMAGE",
+   "vf": "VF_15506",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14830",
+   "title": "At the south coast of Java between Sidangbarang and the Cipandak An der Südküste Javas zwischen Sidangbarang und dem Cipandak",
+   "description": "Beschriftung: Signatur: Hodek: 78",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14830",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255476/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255476%2FVF_14830.jpg&type=IMAGE",
+   "vf": "VF_14830",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14516",
+   "title": "Besuch bei der Rückkehr des Erzherzogs beim Nizam im Cowmahila-Palast",
+   "description": "",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14516",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255141/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255141%2FVF_14516.jpg&type=IMAGE",
+   "vf": "VF_14516",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15497",
+   "title": "Big Trees, Stanley Park Big Trees, Stanley Park",
+   "description": "Beschriftung: Signatur: Hodek: 129",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15497",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=256165/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F256165%2FVF_15497.jpg&type=IMAGE",
+   "vf": "VF_15497",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14889",
+   "title": "Crossing the line ceremony, entrance of Neptun; on the way to Ja Äquatortaufe, Einzug des Neptun; in See nach Java",
+   "description": "Beschriftung: Signatur: Hodek: 9 a",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14889",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255538/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255538%2FVF_14889_Katalog.jpg&type=IMAGE",
+   "vf": "VF_14889",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14531",
+   "title": "Departure from Saroonagar Palace Abfahrt vom Saroonagar-Palast",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14531",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255156/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255156%2FVF_14531.jpg&type=IMAGE",
+   "vf": "VF_14531",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14527",
+   "title": "Der Erzherzog begrüßt die kommandierenden Offiziere der Parade The Archduke welcomes the commanding officers of the parade",
+   "description": "",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14527",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255152/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255152%2FVF_14527.jpg&type=IMAGE",
+   "vf": "VF_14527",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14519",
+   "title": "Der Erzherzog besichtigt die Linientruppen. Das kaiserl. Geleit und Aufzug zu Pferd. The Archduke visits the line troops. The Imperial Ride and elevator on horseback.",
+   "description": "Beschriftung: Signatur: 11634",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14519",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255144/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255144%2FVF_14519.jpg&type=IMAGE",
+   "vf": "VF_14519",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14517",
+   "title": "Elefanten-Prozession, ausgehend vom Cowmahila-Palast Elephant procession, starting from the Cowmahila Palace",
+   "description": "",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14517",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255142/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255142%2FVF_14517.jpg&type=IMAGE",
+   "vf": "VF_14517",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "/15504/VF_14520",
+   "title": "Emperor Heerschau in Secunderabad Kaiserl. Heerschau in Secunderabad",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14520",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255145/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255145%2FVF_14520.jpg&type=IMAGE",
+   "vf": "VF_14520",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14514",
+   "title": "Franz Ferdinand and the Nizam of Hyderabad Franz Ferdinand und der Nizam von Hyderabad",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14514",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255139/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255139%2FVF_14514.jpg&type=IMAGE",
+   "vf": "VF_14514",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14533",
+   "title": "Franz Ferdinand and the Nizam of Hyderabad competing at the bott „Rifle match“ auf geworfene Flaschen 23 zwischen Franz Ferdinand und dem Nizam von Hyderabad, Golkonda Festung",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14533",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255158/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255158%2FVF_14533.jpg&type=IMAGE",
+   "vf": "VF_14533",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_56829",
+   "title": "Franz Ferdinand of Austria-Este Franz Ferdinand von Österreich-Este",
+   "description": "",
+   "creators": [
+    "Max von Imhof (photographer)",
+    "Max von Imhof (Fotograf/in)",
+    "Imhoff, Max von"
+   ],
+   "photographers": [
+    "imhof"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_56829",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=296996/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F296996%2FVF_56829.jpg&type=IMAGE",
+   "vf": "VF_56829",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15224",
+   "title": "Franz Ferdinand with entourage at the Urami Waterfall (Urami-no- Franz Ferdinand mit Gefolge beim Urami-Wasserfall (Urami-no-taki)",
+   "description": "Beschriftung: Signatur: Hodek: 120",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15224",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255895/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255895%2FVF_15224.jpg&type=IMAGE",
+   "vf": "VF_15224",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14515",
+   "title": "Franz Ferdinand, the Nizam of Hyderabad, and suite Franz Ferdinand und der Nizam von Hyderabad mit Gefolge",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14515",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255140/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255140%2FVF_14515.jpg&type=IMAGE",
+   "vf": "VF_14515",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14528",
+   "title": "Geparden auf Karren Cheetah on carts",
+   "description": "",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14528",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255153/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255153%2FVF_14528.jpg&type=IMAGE",
+   "vf": "VF_14528",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "cheetah"
+   ]
+  },
+  {
+   "id": "/15504/VF_14529",
+   "title": "Gepardenjagd in Saroonagar Cheetah hunting in Saroonagar",
+   "description": "",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14529",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255154/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255154%2FVF_14529.jpg&type=IMAGE",
+   "vf": "VF_14529",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "cheetah"
+   ]
+  },
+  {
+   "id": "/15504/VF_56911",
+   "title": "Group of Native Americans at the platform Indianische Gruppe auf dem Bahnsteig",
+   "description": "",
+   "creators": [
+    "Max von Imhof (photographer)",
+    "Max von Imhof (Fotograf/in)",
+    "Imhoff, Max von"
+   ],
+   "photographers": [
+    "imhof"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_56911",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=297078/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F297078%2FVF_56911.jpg&type=IMAGE",
+   "vf": "VF_56911",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14835",
+   "title": "Hodek's photographic studio at the Cipandak River Hodeks Atelier am Cipandak",
+   "description": "Beschriftung: Signatur: Hodek: 74 Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG.",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14835",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255481/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255481%2FVF_14835.jpg&type=IMAGE",
+   "vf": "VF_14835",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_56841",
+   "title": "Hunting expedition at Shingle Creek – Black Mountain Jagdexpedition im Shingle Creek – Black Mountain",
+   "description": "",
+   "creators": [
+    "Imhoff, Max von",
+    "Max von Imhof (photographer)",
+    "Max von Imhof (Fotograf/in)"
+   ],
+   "photographers": [
+    "imhof"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_56841",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=297008/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F297008%2FVF_56841.jpg&type=IMAGE",
+   "vf": "VF_56841",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14831",
+   "title": "Hunting in the jungle at the Cipandak River Dschungeljagd am Fluss Cipandak",
+   "description": "Beschriftung: Signatur: Hodek: 76",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14831",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255477/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255477%2FVF_14831.jpg&type=IMAGE",
+   "vf": "VF_14831",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14543",
+   "title": "Hyderabad: Baschir Bagh Palace Hyderabad: Baschir Bagh Palast",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14543",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255168/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255168%2FVF_14543.jpg&type=IMAGE",
+   "vf": "VF_14543",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14544",
+   "title": "Hyderabad: Baschir Bagh Palace, Salon Hyderabad: Baschir Bagh Palast, Salon",
+   "description": "Beschriftung: Signatur: 5128",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14544",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255169/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255169%2FVF_14544.jpg&type=IMAGE",
+   "vf": "VF_14544",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14542",
+   "title": "Hyderabad: Chowmahila-Palast des Nizam",
+   "description": "Beschriftung: Signatur: 3645, 3646",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14542",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255167/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255167%2FVF_14542.jpg&type=IMAGE",
+   "vf": "VF_14542",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14548",
+   "title": "Hyderabad: Golkonda Fort Hyderabad: Golkonda Fort",
+   "description": "Beschriftung: Signatur: 3627",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14548",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255173/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255173%2FVF_14548.jpg&type=IMAGE",
+   "vf": "VF_14548",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14547",
+   "title": "Hyderabad: Palace of St. Residents Hyderabad: Palast des engl. Residenten",
+   "description": "Beschriftung: Signatur: 5317",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14547",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255172/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255172%2FVF_14547.jpg&type=IMAGE",
+   "vf": "VF_14547",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14545",
+   "title": "Hyderabad: Saroonagar Palace Hyderabad: Saroonagar Palast",
+   "description": "Beschriftung: Signatur: 5485",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14545",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255170/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255170%2FVF_14545.jpg&type=IMAGE",
+   "vf": "VF_14545",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14546",
+   "title": "Hyderabad: Saroonagar Palace, Salon Hyderabad: Saroonagar Palast, Salon",
+   "description": "Beschriftung: Signatur: 5487",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14546",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255171/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255171%2FVF_14546.jpg&type=IMAGE",
+   "vf": "VF_14546",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/92075/459260A36B2C39E4C3F72E4A4C557663F7B0B3EF",
+   "title": "Indien: Ulwar. „Siriska Camp“",
+   "description": "Between 1892 and 1893 Archduke Franz Ferdinand of Austria-Este and from 1886 until his death, heir presumptive to the Austro-Hungarian throne undertook a journey around the world. The travel route led Franz Ferdinand and his entourage from Trieste through the Suez Canal to India, where the group spent more than three months. \n The shown picture was taken during the journey through India in February 1893 in Ulwar at a “Siriska Camp”. The very carefully arranged group picture shows seven Indian hu",
+   "creators": [
+    "Eduard Hodek junior;Karl Pietzner"
+   ],
+   "photographers": [
+    "hodek",
+    "pietzner"
+   ],
+   "provider": "The European Library",
+   "rights": "http://rightsstatements.org/vocab/InC/1.0/",
+   "europeana": "https://www.europeana.eu/item/92075/459260A36B2C39E4C3F72E4A4C557663F7B0B3EF",
+   "is_shown_at": "http://www.theeuropeanlibrary.org/exhibition-travel-history/detail.html?id=164373",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fsearch.theeuropeanlibrary.org%2Fimages%2Fexpothumbs%2F128350%2F12547621e9c4fb6e45aaeb5a3f6d2354.jpg&type=IMAGE",
+   "vf": null,
+   "in_bilder_json": false,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "cheetah"
+   ]
+  },
+  {
+   "id": "/15504/VF_14870",
+   "title": "Inhabitants of the stilt-house settlement near Port Moresby Bewohner des Pfahldorfes Hanuabada bei Port Moresby",
+   "description": "Beschriftung: Signatur: Hodek: 99 Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG.",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14870",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255520/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255520%2FVF_14870.jpg&type=IMAGE",
+   "vf": "VF_14870",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15228",
+   "title": "Japan, Count Coudenhoves Diener, back Japan, Graf Coudenhoves Diener, Rückseite",
+   "description": "Inscription: Stamp/sign: reverse: corner stamp: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABBOT. ETHNOGRAPHER. COLLECTION Beschriftung: Signatur: Hodek: 122 Beschriftung: Beschriftung: 13 - Japan Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15228",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255899/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255899%2FVF_15228.jpg&type=IMAGE",
+   "vf": "VF_15228",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15227",
+   "title": "Japan, Graf Coudenhoves Diener, Tätowierung Vorderseite",
+   "description": "Inscription: Stamp/sign: reverse: corner stamp: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABBOT. ETHNOGRAPHER. COLLECTION Beschriftung: Signatur: Hodek: 121 Beschriftung: Beschriftung: 13 - Japan - E. Hodek Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15227",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255898/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255898%2FVF_15227.jpg&type=IMAGE",
+   "vf": "VF_15227",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/92075/0524D2A84A1247D5EC762D079B003F812A14B6DC",
+   "title": "Japan. Nicco. “At the Uramino-Jacki Falls” Japan. Nicco „Beim Uramino-Jacki Fall“",
+   "description": "This picture was taken in August 1893 at the “Uramino-Jacki Falls” in Nicco (Japan) during Archduke Franz Ferdinand of Austria-Este’s journey around the world. The group picture shows Archduke Franz Ferdinand, Europeans and Japanese on a footbridge over a torrent (technique: collodion paper).\n The travel route around the world led Franz Ferdinand and his entourage from Trieste through the Suez Canal to India, Singapore, Indonesia, Australia and Japan. From Japan, the journey went ahead beyond th",
+   "creators": [
+    "Eduard Hodek junior;Atelier Karl Pietzner"
+   ],
+   "photographers": [
+    "hodek",
+    "pietzner"
+   ],
+   "provider": "The European Library",
+   "rights": "http://rightsstatements.org/vocab/InC/1.0/",
+   "europeana": "https://www.europeana.eu/item/92075/0524D2A84A1247D5EC762D079B003F812A14B6DC",
+   "is_shown_at": "http://www.theeuropeanlibrary.org/exhibition-travel-history/detail.html?id=164372",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fsearch.theeuropeanlibrary.org%2Fimages%2Fexpothumbs%2F128350%2F8cf7485cf904d633c49895b0ca0f800a.jpg&type=IMAGE",
+   "vf": null,
+   "in_bilder_json": false,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14836",
+   "title": "Java, Lager am Tji-Pandak, Fluß im südl. Westjava",
+   "description": "Beschriftung: Signatur: Auf GPP auch E. Hodek, Hodek: 73 Caption: Signature: On GPP also E. Hodek, Hodek: 73",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14836",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255482/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255482%2FVF_14836.jpg&type=IMAGE",
+   "vf": "VF_14836",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14712",
+   "title": "Jeypore, Jagd-Gepard",
+   "description": "Beschriftung: Signatur: 125",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14712",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255346/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255346%2FVF_14712.jpg&type=IMAGE",
+   "vf": "VF_14712",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "cheetah"
+   ]
+  },
+  {
+   "id": "/15504/VF_14538",
+   "title": "Kaiserl. Shikar-Gefolge, auf das Signal \"aufzubrechen\" wartend",
+   "description": "",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14538",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255163/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255163%2FVF_14538.jpg&type=IMAGE",
+   "vf": "VF_14538",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14735_b",
+   "title": "Katni-Camp, Elefant im Bad",
+   "description": "Caption: inscription: reverse: press photo: Copyright by ARFO, Vienna VI, Mariahilferstr. 47/III Beschriftung: Signatur: Eingeritzt: 73 Beschriftung: Beschriftung: Rückseite: Pressefoto: Copyright by ARFO, Wien VI, Mariahilferstr. 47/III Beschriftung: Stempel/Zeichen: Rundstempel: Museum für Völkerkunde in Wien, Bildersammlung",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14735_b",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=504126/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F504126%2FVF_14735_b.jpg&type=IMAGE",
+   "vf": "VF_14735_b",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "/15504/VF_14735_a",
+   "title": "Katni-Camp, Elefanten im Bad",
+   "description": "Inscription: Stamp/sign: Corner stamp: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABBOT. ETHNOGRAPHER. COLLECTION Beschriftung: Signatur: Hodek: 57, keine Namenssignatur auf Glaspositiv Beschriftung: Stempel/Zeichen: Eckiger Stempel: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14735_a",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255371/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255371%2FVF_14735_a.jpg&type=IMAGE",
+   "vf": "VF_14735_a",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "/15504/VF_14521",
+   "title": "Kommandierende Offiziere und Generalstäbler grüßen an der Spitze des Vorbeimarsches",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14521",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255146/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255146%2FVF_14521.jpg&type=IMAGE",
+   "vf": "VF_14521",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14541",
+   "title": "Looking for a Tiger Auf der Suche nach einem Tiger",
+   "description": "Beschriftung: Signatur: 11612",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14541",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255166/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255166%2FVF_14541.jpg&type=IMAGE",
+   "vf": "VF_14541",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "tiger"
+   ]
+  },
+  {
+   "id": "/15504/VF_14532",
+   "title": "Malukpett Sport, wrestling on the back of horses Malukpett Sport, das Ringen auf dem Rücken der Pferde",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14532",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255157/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255157%2FVF_14532.jpg&type=IMAGE",
+   "vf": "VF_14532",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14725",
+   "title": "Nepal, \"Dayh-na bagh Camp\". 9.III.93",
+   "description": "Beschriftung: Signatur: Hodek: E. Hodek und 47 auf Glaspositiv 13 x 18. Keine Signatur auf Format D",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14725",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255360/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255360%2FVF_14725.jpg&type=IMAGE",
+   "vf": "VF_14725",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14857",
+   "title": "Pilou Pilou dance performance Pilou-Pilou-Tanzvorführung",
+   "description": "Beschriftung: Signatur: Hodek: 90",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14857",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255505/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255505%2FVF_14857.jpg&type=IMAGE",
+   "vf": "VF_14857",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_56909",
+   "title": "Portait of a \"Blanket Indian\" on a railway platform Porträtaufnahme eines \"Blanket Indian\" auf einem Bahnsteig",
+   "description": "",
+   "creators": [
+    "Imhoff, Max von",
+    "Max von Imhof (photographer)",
+    "Max von Imhof (Fotograf/in)"
+   ],
+   "photographers": [
+    "imhof"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_56909",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=297076/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F297076%2FVF_56909_Katalog.jpg&type=IMAGE",
+   "vf": "VF_56909",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_56872",
+   "title": "Portrait of Mr. Hodeks, the photographer of Archduke Franz Ferdi Porträtaufnahme Hodeks, des Fotografen auf der Erzh. Franz Ferdinand`schen Weltreise. Hodek bedient seine Plattenkamera",
+   "description": "",
+   "creators": [
+    "Imhoff, Max von",
+    "Max von Imhof (photographer)",
+    "Max von Imhof (Fotograf/in)"
+   ],
+   "photographers": [
+    "imhof"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_56872",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=297039/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F297039%2FVF_56872_Katalog.jpg&type=IMAGE",
+   "vf": "VF_56872",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14539",
+   "title": "Rast bei Khabar, Franz Ferdinand u. Begleiter am Boden sitzend",
+   "description": "",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14539",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255164/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255164%2FVF_14539.jpg&type=IMAGE",
+   "vf": "VF_14539",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14877",
+   "title": "Rest of the caravan of porters at Kadara Creek Rast der Trägerkarawane im Kadara Creek",
+   "description": "Beschriftung: Signatur: Hodek: 103 Beschriftung: Stempel/Zeichen: Rundstempel: Museum für Völkerkunde in Wien, Bildersammlung",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14877",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255527/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255527%2FVF_14877.jpg&type=IMAGE",
+   "vf": "VF_14877",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14838",
+   "title": "S. M. S. Torpedo-Kreuzer \"Kaiserin Elisabeth\" in Sydney S. M. S. Torpedo cruiser “Empress Elisabeth” in Sydney",
+   "description": "Beschriftung: Signatur: Hodek: 3",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14838",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255484/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255484%2FVF_14838.jpg&type=IMAGE",
+   "vf": "VF_14838",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14534",
+   "title": "Shooting on rupees Schießen auf Rupien",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14534",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255159/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255159%2FVF_14534.jpg&type=IMAGE",
+   "vf": "VF_14534",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14535",
+   "title": "Shooting on rupees Schießen auf Rupien",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14535",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255160/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255160%2FVF_14535.jpg&type=IMAGE",
+   "vf": "VF_14535",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14867",
+   "title": "Solomon’s Islands, residents of Ete-Ete Salomons Inseln, Bewohner von Ete-Ete",
+   "description": "Caption: Signature: On GPP only E. Hodek, Hodek: 94 Beschriftung: Signatur: Auf GPP nur E. Hodek, Hodek: 94 Beschriftung: Stempel/Zeichen: Rundstempel: Museum für Völkerkunde in Wien, Bildersammlung",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14867",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255516/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255516%2FVF_14867.jpg&type=IMAGE",
+   "vf": "VF_14867",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14812_b",
+   "title": "Sr k.u.k. Highness in the laid elephant Sr k.u.k. Hoheit beim erlegten Elephanten",
+   "description": "Beschriftung: Signatur: Hodek: 20",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14812_b",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=503937/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F503937%2FVF_14812_b.jpg&type=IMAGE",
+   "vf": "VF_14812_b",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "/15504/VF_14814_a",
+   "title": "Sr k.u.k. Highness in the laid elephant Sr k.u.k. Hoheit beim erlegten Elephanten",
+   "description": "Beschriftung: Signatur: Hodek: 19",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14814_a",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=503567/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F503567%2FVF_14814_a.jpg&type=IMAGE",
+   "vf": "VF_14814_a",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "/15504/VF_14810_c",
+   "title": "Sr k.u.k. Highness with Mr. Pirie u. Mr. Murray at the laid elephant Sr k.u.k. Hoheit mit Mr. Pirie u. Mr. Murray beim erlegten Elephanten",
+   "description": "Beschriftung: Signatur: 18",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14810_c",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=970592/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F970592%2FVF_14810_c.jpg&type=IMAGE",
+   "vf": "VF_14810_c",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "/15504/VF_14540",
+   "title": "Tandur: Jagdfrühstück mit Franz Ferdinand Tandur: Hunting breakfast with Franz Ferdinand",
+   "description": "",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14540",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255165/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255165%2FVF_14540.jpg&type=IMAGE",
+   "vf": "VF_14540",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14359",
+   "title": "Team visit on board (in Reih and Glied) Mannschaftsvisite an Bord (in Reih und Glied)",
+   "description": "Beschriftung: Signatur: Hodek: 7",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14359",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=254984/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F254984%2FVF_14359.jpg&type=IMAGE",
+   "vf": "VF_14359",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14518",
+   "title": "The Imperial Luncheon party at the Residency Die kaiserl. Gesellschaft zum Frühstück beim Residenten",
+   "description": "",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14518",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255143/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255143%2FVF_14518.jpg&type=IMAGE",
+   "vf": "VF_14518",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14536",
+   "title": "The Imperial Shikar camp in Tandur Das kaiserl. Shikar-Lager in Tandur",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14536",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255161/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255161%2FVF_14536.jpg&type=IMAGE",
+   "vf": "VF_14536",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/92075/D0BC6DDDE5C5631A3D92F18D26A0698E50BA0E80",
+   "title": "The first tiger Der erste Tiger",
+   "description": "Franz Ferdinand (18 December 1863-28 June 1914) was Archduke of Austria-Este, and from 1896 until his death, heir presumptive to the Austro-Hungarian throne. Having fallen ill with lung tuberculosis for several times and on the advice of his doctors, Franz Ferdinand decided to go on a journey around the world from 1892-1893. Not to nourish further rumours about the bad health condition of the Archduke, the journey on the “SMS Kaiserin Elisabeth” was officially declared a scientific expedition. T",
+   "creators": [
+    "Artelier Carl Pietzner;Eduard Hodek junior"
+   ],
+   "photographers": [
+    "hodek",
+    "pietzner"
+   ],
+   "provider": "The European Library",
+   "rights": "http://rightsstatements.org/vocab/InC/1.0/",
+   "europeana": "https://www.europeana.eu/item/92075/D0BC6DDDE5C5631A3D92F18D26A0698E50BA0E80",
+   "is_shown_at": "http://www.theeuropeanlibrary.org/exhibition-travel-history/detail.html?id=163584",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fsearch.theeuropeanlibrary.org%2Fimages%2Fexpothumbs%2F128350%2Fde1be5d3b0d6ba783a1889c89fe05077.jpg&type=IMAGE",
+   "vf": null,
+   "in_bilder_json": false,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "tiger"
+   ]
+  },
+  {
+   "id": "/15504/VF_14356",
+   "title": "The staff of “Empress Elisabeth” on board Der Stab der \"Kaiserin Elisabeth\" an Bord",
+   "description": "Beschriftung: Signatur: Hodek: 4",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14356",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=254981/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F254981%2FVF_14356.jpg&type=IMAGE",
+   "vf": "VF_14356",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14358",
+   "title": "The “Ahmed” pilot, (driving through the Red Sea) Der Lotse \"Ahmed\", (Fahrt durch das Rote Meer)",
+   "description": "Beschriftung: Signatur: Hodek: 15",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14358",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=254983/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F254983%2FVF_14358.jpg&type=IMAGE",
+   "vf": "VF_14358",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14530",
+   "title": "Tiger beim Saroonagar-Palast Tiger at the Saroonagar Palace",
+   "description": "",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14530",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255155/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255155%2FVF_14530.jpg&type=IMAGE",
+   "vf": "VF_14530",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": [
+    "tiger"
+   ]
+  },
+  {
+   "id": "/15504/VF_14537",
+   "title": "Translating a strong current on the way to Tandur Das Übersetzen eines starken Stromes am Weg nach Tandur",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14537",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255162/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255162%2FVF_14537.jpg&type=IMAGE",
+   "vf": "VF_14537",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_ALB_18",
+   "title": "Visit of H.I. & R.H. The Archduke Franz Ferdinand of Austria Este to Hyderabad (Deccan), January 1893 Visit of H.I. & R.H. The Archduke Franz Ferdinand of Austria Este to Hyderabad (Deccan), January 1893",
+   "description": "Beschriftung: Stempel/Zeichen: Innenstempel: M&Co",
+   "creators": [
+    "Deen Dayal, Raja",
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_ALB_18",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=419634/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F419634%2FVF_ALB_18_201311_1.jpg&type=IMAGE",
+   "vf": "VF_ALB_18",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14522",
+   "title": "Vorbeimarsch der 21er Husaren",
+   "description": "",
+   "creators": [
+    "Lala Deen Dayal (photographer)",
+    "Lala Deen Dayal (Fotograf/in)",
+    "Deen Dayal, Raja"
+   ],
+   "photographers": [
+    "deen-dayal"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14522",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=255147/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F255147%2FVF_14522.jpg&type=IMAGE",
+   "vf": "VF_14522",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_14363",
+   "title": "Weihnachtsabend 1892, ( In See nach Steamer Point) Christmas Eve 1892, (In See to Steamer Point)",
+   "description": "Beschriftung: Signatur: Hodek: 5",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_14363",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=254988/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F254988%2FVF_14363.jpg&type=IMAGE",
+   "vf": "VF_14363",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  },
+  {
+   "id": "/15504/VF_15517",
+   "title": "Yellowstone Lake Yellowstone Lake",
+   "description": "Beschriftung: Signatur: Hodek: 146 nur auf Abzug Beschriftung: Stempel/Zeichen: Rückseite: Eckiger Stempel: K. K. NATURHISTOR. MUSEUM ANTHROLOG. ETHNOGR. ABT. ETHNOGRAPH. SAMMLUNG.",
+   "creators": [
+    "Eduard Hodek jun. Fotograf/in"
+   ],
+   "photographers": [
+    "hodek"
+   ],
+   "provider": "World Museum Vienna",
+   "rights": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "europeana": "https://www.europeana.eu/item/15504/VF_15517",
+   "is_shown_at": "https://www.weltmuseumwien.at/object/?detailID=256185/",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimageapi.khm.at%2Fimages%2F256185%2FVF_15517.jpg&type=IMAGE",
+   "vf": "VF_15517",
+   "in_bilder_json": true,
+   "date": null,
+   "day_place": null,
+   "hunt": null,
+   "animals": []
+  }
+ ]
+}

@@ -1,0 +1,266 @@
+{
+  "about": "Provenance of the ArcGIS demo map (web map 977298da4e1a47c380c77a9041e11908). Rendered by scripts/arcgis_provenance.py into the item texts (scripts/arcgis/ke_metadata_payload.json) and docs/21_data_provenance.md. Placeholders: {c[...]} = scripts/arcgis/provenance_counts_<date>.json (live layers), {t[...]} = team files at the pinned commit, {a[...]} = our check summaries. No number is typed by hand.",
+  "team_commit": "a4b8b5a",
+  "status_legend": [
+    [
+      "checked by a person",
+      "a named check by a team member exists"
+    ],
+    [
+      "machine-made, unchecked",
+      "produced by a script, OCR or a match; a proposal until a person checks it"
+    ],
+    [
+      "rule-based",
+      "follows a fixed, written rule (e.g. arrival date = end of the leg); can be wrong where the rule does not fit"
+    ]
+  ],
+  "sources": {
+    "diary": {
+      "cite": "Franz Ferdinand von Österreich-Este: Tagebuch meiner Reise um die Erde 1892–1893. 2 vols. Wien: Alfred Hölder, 1895.",
+      "where": "Scans: Internet Archive, vol. 1 tagebuchmeinerr01ferdgoog, vol. 2 tagebuchmeinerr00ferdgoog (Google digitisation; archive.org status: not in copyright). Also Biodiversity Heritage Library, doi:10.5962/bhl.title.130758.",
+      "url": "https://archive.org/details/tagebuchmeinerr01ferdgoog",
+      "rights": "public domain (scans); OCR text by the Internet Archive"
+    },
+    "hoefer": {
+      "cite": "Regina Höfer (ed.): Imperial Sightseeing. Die Indienreise von Erzherzog Franz Ferdinand von Österreich-Este. Wien 2010. doi:10.11588/xarep.00001404.",
+      "where": "Its route overview (Reiseübersicht, after the diary's appendices: vol. I Anh. III pp. 561–564, vol. II Anh. pp. 549–563).",
+      "url": "https://doi.org/10.11588/xarep.00001404",
+      "rights": "in copyright; only dates, places and page numbers are used, no text or images"
+    },
+    "weltmuseum": {
+      "cite": "Weltmuseum Wien: photo collection (VF numbers) and the Este inventory (VO numbers), online object pages.",
+      "where": "weltmuseumwien.at/objekte/<id>; object lists compiled by the KHM team (bilder.json, objekte.json).",
+      "url": "https://www.weltmuseumwien.at/",
+      "rights": "per record; see Europeana for the photographs"
+    },
+    "europeana": {
+      "cite": "Europeana: records of the Weltmuseum Wien photographs of the voyage, delivered through Kulturpool.",
+      "where": "Licence statement per record (the map shows it in the photo caption).",
+      "url": "https://www.europeana.eu/",
+      "rights": "CC BY-NC-SA 4.0 for the labelled photographs (per record)"
+    },
+    "kulturpool": {
+      "cite": "Kulturpool: search API (api.kulturpool.at/search), queried 27 October 2026; portal search kulturpool.at/suche.",
+      "where": "Number of records naming a station and dated 1890–1895; link to the portal search per station.",
+      "url": "https://kulturpool.at/",
+      "rights": "licence per record (shown in the pop-up)"
+    },
+    "anno": {
+      "cite": "ANNO – AustriaN Newspapers Online, Österreichische Nationalbibliothek.",
+      "where": "REST search (anno-suche), issues December 1892 – October 1893; selection by the team's enrichment pipeline.",
+      "url": "https://anno.onb.ac.at/",
+      "rights": "link and short quotation only"
+    },
+    "geonames": {
+      "cite": "GeoNames geographical database.",
+      "where": "Coordinates and today's names of stations and of places in the diary's day headings.",
+      "url": "https://www.geonames.org/",
+      "rights": "CC BY 4.0"
+    },
+    "wikidata": {
+      "cite": "Wikidata.",
+      "where": "Coordinates of route places, hunting places and places the museum names.",
+      "url": "https://www.wikidata.org/",
+      "rights": "CC0"
+    },
+    "team": {
+      "cite": "KHM team, Hack the Pool 2026: research vault (Obsidian), normalised JSON (normalization/json) and enrichment pipeline (Kriegsmarine/enrichment), branch khm-team at commits b5e1464 and a4b8b5a (see each layer).",
+      "where": "Public repository on GitHub.",
+      "url": "https://github.com/RichterHenje/Hack-The-Pool-2026/tree/khm-team/Kriegsmarine"
+    }
+  },
+  "layers": {
+    "KE1893_stops": {
+      "title": "Stations",
+      "what": "{c[total]} stations of the 1892–93 voyage; {c[dated]} with an arrival date.",
+      "origin": [
+        "Stations and their order: the team's vault, matched to Höfer's route overview.",
+        "Arrival date = end of the leg into the place in Höfer's route overview (not the first mention). {c[by_date_estimated][1]} dates are estimated.",
+        "Coordinates and today's names: GeoNames via the team's gazetteer.",
+        "Kulturpool count: records that name the place and are dated 1890–1895 (voyage years ±2); {c[kp_hit]} of {c[total]} stations have at least one. The count is about the place, not the voyage.",
+        "Corrected on 28 October 2026: two stations had wrong GeoNames matches (Livingston in New Jersey, Wyoming in Michigan) and now sit at Livingston, Montana (the team's hand-set point of the diary day 20.9.1893) and Yellowstone National Park (Wikidata Q351); Tjiandjur's arrival follows Höfer (15.4.1893) instead of an estimate (6.5.1893)."
+      ],
+      "checks": [
+        "Höfer's route against the diary: {a[agree]} of {a[compared]} diary days name the same place by string, {a[disagree]} differ (spelling or OCR, read by an AI agent; not checked by a person)."
+      ],
+      "status": "rule-based (dates), machine-made (Kulturpool counts)",
+      "sources": [
+        "hoefer",
+        "diary",
+        "team",
+        "geonames",
+        "kulturpool"
+      ],
+      "footer_de": {
+        "quelle": "Stationen aus dem Vault des Teams; Ankunft nach Höfer 2010 (Reiseübersicht nach dem Tagebuch 1895); Koordinaten GeoNames; Kulturpool-Zahl = Datensätze, die den Ort nennen und 1890–1895 datiert sind (Abfrage 27.10.2026)",
+        "status": "regelbasiert bzw. maschinell gezählt, nicht von einer Person geprüft",
+        "rechte": "GeoNames CC BY 4.0; Kulturpool je Datensatz"
+      },
+      "data_note": "team data commit b5e1464; inputs unchanged at a4b8b5a; corrections of 28.10. (see above)"
+    },
+    "KE1893_legs": {
+      "title": "Legs (straight lines)",
+      "what": "{c[total]} legs between the stations, drawn as great circles; not the ship's track.",
+      "origin": [
+        "Dates: arrival at both ends (Höfer's route overview); {c[by_estimated][1]} legs have an estimated date.",
+        "'on_ship' marks the route section before / after Yokohama ({c[by_on_ship][ja]} / {c[by_on_ship][nein]}); it includes land journeys and does not mean 'on board'.",
+        "Corrected on 28 October 2026: the legs Spokane–Livingston–Wyoming–Chicago were redrawn after the station fix; the leg Buitenzorg–Tjiandjur runs from the first Buitenzorg visit (12.4.1893, Höfer) to 15.4.1893."
+      ],
+      "checks": [],
+      "status": "rule-based",
+      "sources": [
+        "hoefer",
+        "team"
+      ],
+      "footer_de": {
+        "quelle": "Höfer 2010, Reiseübersicht; Luftlinie zwischen den Stationen, nicht der Kurs des Schiffs; Daten = Ankunft an beiden Enden",
+        "status": "regelbasiert",
+        "rechte": "nur Daten und Orte aus Höfer 2010"
+      },
+      "data_note": "team data commit b5e1464; inputs unchanged at a4b8b5a; corrections of 28.10. (see above)"
+    },
+    "KE1893_days": {
+      "title": "Diary, day by day",
+      "what": "{c[total]} of the diary's {t[diary_days]} days have a place and are on the map.",
+      "origin": [
+        "Day date: {c[by_method_de][eigener Eintrag im Tagebuch]} days have an entry of their own, {c[by_method_de][Teil eines mehrtägigen Eintrags, per Abgleich zugeordnet]} are part of a multi-day entry and were assigned by matching the team's English day page, {c[by_method_de][kein eigener Eintrag im Tagebuch]} have no entry of their own. OCR lost many headings, so an assigned date can be 1–5 days early.",
+        "Coordinate basis per day (team field coord_source): Wikidata {c[by_coord_basis_de][Wikidata]}, GeoNames {c[by_coord_basis_de][GeoNames]}, estimated {c[by_coord_basis_de][geschätzt]}, set by hand (approximate) {c[by_coord_basis_de][von Hand, ungefähr]}; {c[with_ref]} days link their Wikidata or GeoNames record in the pop-up ('Beleg').",
+        "Coordinate method: hunting place {c[by_coords_de][Jagdort]}, camp or station of a hunting place {c[by_coords_de][Lager/Station eines Jagdorts]}, place in the day's heading {c[by_coords_de][Ortsverzeichnis (Überschrift des Tages)]}, same place on another day {c[by_coords_de][Ortsverzeichnis (gleicher Ort an anderem Tag)]}, hand list {c[by_coords_de][Ortsliste von Hand]}, route place {c[by_coords_de][Ort der Route]}.",
+        "Every day links to its page scan; quote from the scan, not from the OCR."
+      ],
+      "checks": [
+        "Team commit 61a4de9 (28 October 2026) checked the day coordinates and added their origin; who checked is not recorded in the data, so this map counts it as not checked by a person."
+      ],
+      "status": "machine-made, unchecked (dates partly rule-based); coordinate origin given per day",
+      "sources": [
+        "diary",
+        "team",
+        "wikidata",
+        "geonames"
+      ],
+      "footer_de": {
+        "quelle": "Franz Ferdinand, Tagebuch meiner Reise um die Erde, Wien: Hölder 1895 (Scan im Internet Archive); Tagesdatum maschinell zugeordnet; Koordinate je Tag mit Herkunft und Beleg (Datensatz des Teams)",
+        "status": "nicht von einer Person geprüft; zitieren aus dem Scan, nicht aus dem OCR",
+        "rechte": "Scan gemeinfrei; GeoNames CC BY 4.0; Wikidata CC0"
+      },
+      "data_note": "team data commit a4b8b5a (28.10.)"
+    },
+    "KE1893_hunts": {
+      "title": "Hunts (according to the diary)",
+      "what": "{c[total]} hunting episodes, defined by the team.",
+      "origin": [
+        "Size of the symbol = number of kill sentences, found automatically by keywords in the OCR text. Animal list = animals mentioned in those sentences.",
+        "Press count = ANNO clippings the enrichment pipeline matched to the hunt."
+      ],
+      "checks": [],
+      "status": "machine-made, unchecked",
+      "sources": [
+        "diary",
+        "team",
+        "anno"
+      ],
+      "footer_de": {
+        "quelle": "Tagebuch 1895 (OCR); Jagdepisoden des Teams; Sätze und Tiere automatisch per Schlüsselwort gefunden",
+        "status": "maschinell, nicht geprüft",
+        "rechte": "Scan gemeinfrei"
+      },
+      "data_note": "team data commit b5e1464, Nepal coordinate note from a4b8b5a"
+    },
+    "KE1893_kills": {
+      "title": "Kill entries in the diary (per day)",
+      "what": "{c[total]} diary days with kill sentences; {c[by_no_hunt_place][1]} lie outside any hunt place and are marked.",
+      "origin": [
+        "Found automatically by keywords in the OCR text (team file hunt_entries.json); the quote is the OCR sentence, the link opens the scan.",
+        "Entries whose hunting place has no coordinate in the team data sit at the point of the same diary day (corrected on 28 October 2026; before, they lay at 0°/0°)."
+      ],
+      "checks": [],
+      "status": "machine-made, unchecked",
+      "sources": [
+        "diary",
+        "team"
+      ],
+      "footer_de": {
+        "quelle": "Tagebuch 1895 (OCR); Tageseinträge automatisch per Schlüsselwort gefunden (hunt_entries.json des Teams)",
+        "status": "maschinell, nicht geprüft",
+        "rechte": "Scan gemeinfrei"
+      },
+      "data_note": "team data commit b5e1464; inputs unchanged at a4b8b5a; corrections of 28.10. (see above)"
+    },
+    "KE1893_objects": {
+      "title": "Este collection: purchase or gift documented",
+      "what": "The map shows {c[shown]} of {c[total]} placed objects: only links rated 'strong' (purchase or gift named in the diary). {c[by_strength][medium]} 'medium' links are hidden.",
+      "origin": [
+        "Objects of the Weltmuseum Wien's Este inventory, placed via the diary day the team's pipeline linked them to."
+      ],
+      "checks": [],
+      "status": "machine-made, unchecked (proposals with evidence)",
+      "sources": [
+        "weltmuseum",
+        "diary",
+        "team"
+      ],
+      "footer_de": {
+        "quelle": "Weltmuseum Wien, Este-Inventar; mit dem Tagebuchtag verknüpft durch die Pipeline des Teams (nur „strong“: Kauf oder Geschenk im Tagebuch genannt)",
+        "status": "Vorschlag mit Beleg, nicht geprüft",
+        "rechte": "je Objekt laut Museum"
+      },
+      "data_note": "team data commit b5e1464; inputs unchanged at a4b8b5a"
+    },
+    "KE1893_press": {
+      "title": "Press (ANNO, unchecked)",
+      "what": "{c[total]} newspaper clippings; relevance high {c[by_relevance][high]}, medium {c[by_relevance][medium]}.",
+      "origin": [
+        "Found and matched to the voyage by the team's enrichment pipeline in the OCR text of ANNO; placed at the place of the event, dated by publication.",
+        "Papers from the whole monarchy, not only Vienna."
+      ],
+      "checks": [],
+      "status": "machine-made, unchecked",
+      "sources": [
+        "anno",
+        "team"
+      ],
+      "footer_de": {
+        "quelle": "ANNO, Österreichische Nationalbibliothek; Auswahl und Zuordnung automatisch im OCR-Text",
+        "status": "maschinell, nicht geprüft",
+        "rechte": "nur Link und kurzes Zitat"
+      },
+      "data_note": "team data commit b5e1464; inputs unchanged at a4b8b5a"
+    },
+    "KE1893_photos_all": {
+      "title": "Photographs, Weltmuseum Wien",
+      "what": "{c[all_rows]} of the team's {t[photos]} photographs are placed ({c[dated]} with a day date, shown with the time slider; the rest in the layer 'ohne Tagesdatum'). {t[photos_unplaced]} name only a region and are not on the map.",
+      "origin": [
+        "Point = the place the museum or the team names, not Franz Ferdinand's position.",
+        "Place tiers: A {c[by_place_tier][A]} team gazetteer (route place), A2 {c[by_place_tier][A2]} same via the museum's geography, B {c[by_place_tier][B]} Wikidata, T {c[by_place_tier][T]} Nepal Terai hunt camp (approximate).",
+        "Licence: {c[licence_cc]} photos ({c[europeana_distinct]} Europeana records) carry CC BY-NC-SA 4.0 with attribution in the caption; {c[licence_none]} read 'Lizenz nicht geprüft' and are shown with that label (owner decision 28 October 2026; rights not cleared).",
+        "Photos whose museum geography is 'Livingston' had been placed in Livingston, New Jersey by a GeoNames match; on 28 October they were moved to the team's hand-set Livingston, Montana (diary day 20.9.1893), after the team removed the wrong GeoNames entry."
+      ],
+      "checks": [
+        "Day-dated photos against the route: {p[date_fit]} of {p[tested]} fit by date and country (read by an AI agent; not checked by a person)."
+      ],
+      "status": "rule-based (place), licence per record",
+      "sources": [
+        "weltmuseum",
+        "europeana",
+        "team",
+        "wikidata"
+      ],
+      "footer_de": {
+        "quelle": "Weltmuseum Wien, Fotosammlung; Punkt = Ort laut Museum, nicht die Position Franz Ferdinands",
+        "status": "Ort regelbasiert, nicht von einer Person geprüft",
+        "rechte": "je Bild: CC BY-NC-SA 4.0 laut Europeana (über Kulturpool), sonst „Lizenz nicht geprüft“"
+      },
+      "data_note": "team data commit b5e1464, Livingston corrected after a4b8b5a"
+    }
+  },
+  "map": {
+    "title": "SMS Kaiserin Elisabeth 1892–93 (Demo)",
+    "intro": "Demo for Hack the Pool 2026 (Kulturpool, ÖAW, 27–28 October 2026). The voyage of the cruiser SMS Kaiserin Elisabeth with Archduke Franz Ferdinand, 15 December 1892 to 18 October 1893, read against the grain: beside the route, the diary's hunts and kills, the collection, the press and the photographs. Each layer's description says where its data comes from, how it was made and what has been checked; each pop-up links the single record (scan, newspaper page, museum object).",
+    "counted": "Counts: live layers, {run}. Team data: commits b5e1464 and a4b8b5a (see each layer)."
+  },
+  "popup_layers": {
+    "KE1893_photos_undated": "KE1893_photos_all",
+    "KE1893_photos_dated": "KE1893_photos_all"
+  }
+}

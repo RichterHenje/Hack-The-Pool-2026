@@ -1,0 +1,26 @@
+---
+type: person
+id: ke-person-ae29a36431
+created_by: ai-assisted
+checked: false
+---
+- Titel
+- Lebensdaten (Jahr, Ort - Jahr, Ort)
+- Beruf/Funktionen: Linienschiff Leutnant
+- Auszeichnung: Seereise-Denkmünze 1892/1893, Militär-Verdienst-Kreuz
+	- Quelle: [Rangs- und Eintheilungs-Liste der k. u. k. Kriegs-Marine 1899.05.15 (Wien, 1899) | Library | Hungaricana](https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1899-05-15/?pg=7&layout=s)
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Linienschiff Leutnant (seit 28. Februar 1894)
+	- Rolle: Corvette Kapitän (seit 20. Februar 1894)
+	- Rolle: Corvette Kapitän (seit 2. April 1895)
+- Ortschaft (Link)
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1894-05-15/?pg=169&layout=s&query=Kaiserin%20Elisabeth
+		https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1895-09-01/?pg=181&layout=s&query=Kaiserin%20Elisabeth

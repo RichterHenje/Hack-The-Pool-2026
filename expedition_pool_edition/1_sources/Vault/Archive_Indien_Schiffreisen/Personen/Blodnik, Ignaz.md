@@ -1,0 +1,24 @@
+---
+type: person
+id: ke-person-6803800b1b
+created_by: ai-assisted
+checked: false
+---
+- Titel: 
+- Lebensdaten:
+- Beruf/Funktionen: Prov. Mar. Com. Eleve
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Prov. Mar. Com. Eleve (Rangliste 1895, ohne Datum)
+	- Rolle: Prov. Mar. Com. Eleve (seit 17. November 1895)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1895-11-15__pages143-144.pdf (S. 143–144)
+- Quelle: RangUndEinteilungslisteMarine_1896-03-15__pages161-162.pdf (S. 160–161)

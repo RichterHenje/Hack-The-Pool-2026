@@ -1,0 +1,6 @@
+- Institution (Tag) oder Projekttitel
+- Website-Link zur Projektbeschreibung
+- Kontakt (Tag)
+- Informationen zu den Beständen
+- Schiffe (Link)
+- Personen (Link)

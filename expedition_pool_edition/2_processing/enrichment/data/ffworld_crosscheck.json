@@ -1,0 +1,986 @@
+{
+ "source": "http://www.franzferdinandsworld.com/the-journey/",
+ "checked": "2026-10-27",
+ "summary": {
+  "site_days": 309,
+  "site_pages": 284,
+  "diary_entries": 170,
+  "hoefer_days_compared": 308,
+  "hoefer_disagreements": {
+   "sea_or_leg": 37,
+   "spelling": 2
+  },
+  "diary_days_compared": 161,
+  "diary_disagreements": {
+   "sea_or_leg": 19,
+   "review": 4,
+   "spelling": 5
+  },
+  "diary_entries_spanning_several_site_days": 63,
+  "site_days_inside_such_entries": 113
+ },
+ "disagreements": {
+  "hoefer": [
+   {
+    "date": "1892-12-15",
+    "site": "Trieste",
+    "hoefer": "Triest – Port Saïd",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-16",
+    "site": "at sea near Lissa",
+    "hoefer": "Triest – Port Saïd",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-17",
+    "site": "at sea near Zakynthos",
+    "hoefer": "Triest – Port Saïd",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-18",
+    "site": "29th birthday of Franz Ferdinand; at sea near Gavdos",
+    "hoefer": "Triest – Port Saïd",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-19",
+    "site": "at sea between Crete and Egypt",
+    "hoefer": "Triest – Port Saïd",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-21",
+    "site": "Ismaïlia, Egypt",
+    "hoefer": "Port Saïd | Port Saïd – Steamer Point",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-22",
+    "site": "Gulf of Suez",
+    "hoefer": "Port Saïd – Steamer Point",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-23",
+    "site": "Daedalus Reef, Red Sea",
+    "hoefer": "Port Saïd – Steamer Point",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-24",
+    "site": "Christmas Day; Red Sea",
+    "hoefer": "Port Saïd – Steamer Point",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-25",
+    "site": "Jebel Teir, Red Sea",
+    "hoefer": "Port Saïd – Steamer Point",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-01",
+    "site": "Arabian Sea, at sea to Colombo",
+    "hoefer": " – ",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-02",
+    "site": "Arabian Sea, at sea to Colombo",
+    "hoefer": " – ",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-03",
+    "site": "near Minicoy, Indian Ocean",
+    "hoefer": " – ",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-04",
+    "site": "near India, Indian Ocean",
+    "hoefer": " – ",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-14",
+    "site": "near Cape Comorin, India",
+    "hoefer": "Colombo | Colombo – Bombay (Mumbai)",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-15",
+    "site": "near the Indian coastline",
+    "hoefer": "Colombo – Bombay (Mumbai)",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-16",
+    "site": "near Goa, India",
+    "hoefer": "Colombo – Bombay (Mumbai)",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-20",
+    "site": "Poona, India",
+    "hoefer": "Bombay | Bombay – Tandur",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-27",
+    "site": "Sikanderaba, India",
+    "hoefer": "Haidarabad/Sikandarabad (Secunderabad) – Gwalior",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-28",
+    "site": "Jhansi, India (joint entry with 27 January)",
+    "hoefer": "Haidarabad/Sikandarabad (Secunderabad) – Gwalior",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-31",
+    "site": "Patna, India",
+    "hoefer": "Gwalior – Calcutta (Kolkata, Kalkutta)",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-03-30",
+    "site": "At Sea to Singapore",
+    "hoefer": "Diamond Harbour | Diamond Harbour – Pulu Besar",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-03-31",
+    "site": "At Sea to Singapore",
+    "hoefer": "Diamond Harbour – Pulu Besar",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-04-01",
+    "site": "Andaman Islands, at Sea to Singapore",
+    "hoefer": "Diamond Harbour – Pulu Besar",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-04-02",
+    "site": "At Sea to Singapore",
+    "hoefer": "Diamond Harbour – Pulu Besar",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-04-03",
+    "site": "At Sea to Singapore",
+    "hoefer": "Diamond Harbour – Pulu Besar",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-04-04",
+    "site": "At Sea to Singapore",
+    "hoefer": "Diamond Harbour – Pulu Besar",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-04-09",
+    "site": "At Sea to Java, crossing the equator",
+    "hoefer": "Singapur | Singapur – Tandjong-Priok",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-04-10",
+    "site": "At Sea to Java",
+    "hoefer": "Singapur – Tandjong-Priok",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-05-28",
+    "site": "At Sea to New Caledonia",
+    "hoefer": "Sydney | Sydney – Numea",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-06-04",
+    "site": "At Sea to the Solomon Islands",
+    "hoefer": "Numea | Numea – Salomon-Inseln Owa Raha",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-06-05",
+    "site": "At Sea to the Solomon Islands",
+    "hoefer": "Numea – Salomon-Inseln Owa Raha",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-06-06",
+    "site": "At Sea to the Solomon Islands (no separate entry)",
+    "hoefer": "Numea – Salomon-Inseln Owa Raha",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-06-09",
+    "site": "Ugi, Solomon Islands",
+    "hoefer": "Ugi",
+    "kind": "spelling"
+   },
+   {
+    "date": "1893-06-21",
+    "site": "At Sea to the Aru islands (Rennel island)",
+    "hoefer": "Varivari-Inseln – Aru-Inseln Dobo",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-06-22",
+    "site": "At Sea to the Aru islands (Thursday Island)",
+    "hoefer": "Varivari-Inseln – Aru-Inseln Dobo",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-06-23",
+    "site": "At Sea to the Aru islands",
+    "hoefer": "Varivari-Inseln – Aru-Inseln Dobo",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-06-24",
+    "site": "At Sea to the Aru islands (no separate entry)",
+    "hoefer": "Varivari-Inseln – Aru-Inseln Dobo",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-08-16",
+    "site": "Miyanoshita, Japan",
+    "hoefer": "Mijanoschita",
+    "kind": "spelling"
+   }
+  ],
+  "diary": [
+   {
+    "date": "1892-12-15",
+    "site": "Trieste",
+    "diary": "In See nach Port Said",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-16",
+    "site": "at sea near Lissa",
+    "diary": "In See nach Port Said",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-17",
+    "site": "at sea near Zakynthos",
+    "diary": "In See nach Port Said",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-18",
+    "site": "29th birthday of Franz Ferdinand; at sea near Gavdos",
+    "diary": "In See nach Port Said",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-19",
+    "site": "at sea between Crete and Egypt",
+    "diary": "In See nach Port SaUi",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-22",
+    "site": "Gulf of Suez",
+    "diary": "In See nach Steamer Point",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-23",
+    "site": "Daedalus Reef, Red Sea",
+    "diary": "In See nach Steamer Point",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-24",
+    "site": "Christmas Day; Red Sea",
+    "diary": "In See nach Stcamer Point",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-25",
+    "site": "Jebel Teir, Red Sea",
+    "diary": "In See nach Steamer Point",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1892-12-28",
+    "site": "Arabian Sea, at sea to Colombo",
+    "diary": "In See nach Coloinbo",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-04",
+    "site": "near India, Indian Ocean",
+    "diary": "In See nach Colombo",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-01-20",
+    "site": "Poona, India",
+    "diary": "Tandur",
+    "kind": "review"
+   },
+   {
+    "date": "1893-01-31",
+    "site": "Patna, India",
+    "diary": "Gwalior — Calciitta",
+    "kind": "review"
+   },
+   {
+    "date": "1893-02-07",
+    "site": "Darjeeling, India",
+    "diary": "DarJschiling",
+    "kind": "review"
+   },
+   {
+    "date": "1893-04-05",
+    "site": "At Sea to Singapore",
+    "diary": "In See nach SingapurPulu Besar",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-04-09",
+    "site": "At Sea to Java, crossing the equator",
+    "diary": "In See nach Java",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-04-11",
+    "site": "Batavia, Java",
+    "diary": "Baiavia",
+    "kind": "spelling"
+   },
+   {
+    "date": "1893-05-11",
+    "site": "At Sea to Sydney, Australia",
+    "diary": "In See nach Svdnev%",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-05-20",
+    "site": "Mullengudgery, Australia",
+    "diary": "MuUengudgery",
+    "kind": "spelling"
+   },
+   {
+    "date": "1893-05-28",
+    "site": "At Sea to New Caledonia",
+    "diary": "In See nach KeuCaledonien",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-06-09",
+    "site": "Ugi, Solomon Islands",
+    "diary": "Ugi",
+    "kind": "spelling"
+   },
+   {
+    "date": "1893-06-21",
+    "site": "At Sea to the Aru islands (Rennel island)",
+    "diary": "In See nach den Aru-Inseln",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-06-23",
+    "site": "At Sea to the Aru islands",
+    "diary": "In See nach den Aru-Inseln",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-07-04",
+    "site": "At Sea to Borneo",
+    "diary": "In See nach Burncc",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-07-16",
+    "site": "At Sea to Hongkong",
+    "diary": "In See nach Hongkono",
+    "kind": "sea_or_leg"
+   },
+   {
+    "date": "1893-07-27",
+    "site": "Macao",
+    "diary": "IMacao — Hongkong",
+    "kind": "spelling"
+   },
+   {
+    "date": "1893-08-16",
+    "site": "Miyanoshita, Japan",
+    "diary": "Mijanoschita",
+    "kind": "spelling"
+   },
+   {
+    "date": "1893-08-20",
+    "site": "Tokyo to Nikko, Japan",
+    "diary": "T 6 k i o — N i k k 6",
+    "kind": "review"
+   }
+  ]
+ },
+ "multi_day_entries": [
+  {
+   "entry": "1892-12-20",
+   "heading": "Port Said",
+   "site_days": [
+    "1892-12-20",
+    "1892-12-21"
+   ]
+  },
+  {
+   "entry": "1893-01-01",
+   "heading": "In See nach Colombo",
+   "site_days": [
+    "1893-01-01",
+    "1893-01-02"
+   ]
+  },
+  {
+   "entry": "1893-01-04",
+   "heading": "In See nach Colombo",
+   "site_days": [
+    "1893-01-04",
+    "1893-01-05",
+    "1893-01-06",
+    "1893-01-07"
+   ]
+  },
+  {
+   "entry": "1893-01-14",
+   "heading": "",
+   "site_days": [
+    "1893-01-14",
+    "1893-01-15",
+    "1893-01-16",
+    "1893-01-17"
+   ]
+  },
+  {
+   "entry": "1893-01-21",
+   "heading": "TaiuUir",
+   "site_days": [
+    "1893-01-21",
+    "1893-01-22"
+   ]
+  },
+  {
+   "entry": "1893-01-23",
+   "heading": "Tandur",
+   "site_days": [
+    "1893-01-23",
+    "1893-01-24"
+   ]
+  },
+  {
+   "entry": "1893-01-26",
+   "heading": "",
+   "site_days": [
+    "1893-01-26",
+    "1893-01-27",
+    "1893-01-29",
+    "1893-01-30"
+   ]
+  },
+  {
+   "entry": "1893-02-04",
+   "heading": "Calcutta",
+   "site_days": [
+    "1893-02-04",
+    "1893-02-05"
+   ]
+  },
+  {
+   "entry": "1893-02-07",
+   "heading": "DarJschiling",
+   "site_days": [
+    "1893-02-07",
+    "1893-02-08",
+    "1893-02-09",
+    "1893-02-10",
+    "1893-02-11"
+   ]
+  },
+  {
+   "entry": "1893-02-13",
+   "heading": "Agra",
+   "site_days": [
+    "1893-02-13",
+    "1893-02-14"
+   ]
+  },
+  {
+   "entry": "1893-02-16",
+   "heading": "Dehii",
+   "site_days": [
+    "1893-02-16",
+    "1893-02-17"
+   ]
+  },
+  {
+   "entry": "1893-02-20",
+   "heading": "Siriska",
+   "site_days": [
+    "1893-02-20",
+    "1893-02-21",
+    "1893-02-22"
+   ]
+  },
+  {
+   "entry": "1893-02-24",
+   "heading": "Siriska",
+   "site_days": [
+    "1893-02-24",
+    "1893-02-25",
+    "1893-02-26"
+   ]
+  },
+  {
+   "entry": "1893-02-28",
+   "heading": "H Dschodpur",
+   "site_days": [
+    "1893-02-28",
+    "1893-03-01"
+   ]
+  },
+  {
+   "entry": "1893-03-07",
+   "heading": "Dschaipur — Agra",
+   "site_days": [
+    "1893-03-07",
+    "1893-03-08",
+    "1893-03-09"
+   ]
+  },
+  {
+   "entry": "1893-03-10",
+   "heading": "Dakna Bägh",
+   "site_days": [
+    "1893-03-10",
+    "1893-03-11",
+    "1893-03-12"
+   ]
+  },
+  {
+   "entry": "1893-03-16",
+   "heading": "Dcchta Boli",
+   "site_days": [
+    "1893-03-16",
+    "1893-03-17"
+   ]
+  },
+  {
+   "entry": "1893-03-18",
+   "heading": "Beli",
+   "site_days": [
+    "1893-03-18",
+    "1893-03-19",
+    "1893-03-20",
+    "1893-03-21"
+   ]
+  },
+  {
+   "entry": "1893-03-22",
+   "heading": "Katni",
+   "site_days": [
+    "1893-03-22",
+    "1893-03-23",
+    "1893-03-24",
+    "1893-03-25"
+   ]
+  },
+  {
+   "entry": "1893-03-26",
+   "heading": "Sohela",
+   "site_days": [
+    "1893-03-26",
+    "1893-03-27",
+    "1893-03-28",
+    "1893-03-29",
+    "1893-03-30"
+   ]
+  },
+  {
+   "entry": "1893-03-31",
+   "heading": "In See nach Singapur",
+   "site_days": [
+    "1893-03-31",
+    "1893-04-01",
+    "1893-04-02",
+    "1893-04-03"
+   ]
+  },
+  {
+   "entry": "1893-04-05",
+   "heading": "In See nach SingapurPulu Besar",
+   "site_days": [
+    "1893-04-05",
+    "1893-04-06",
+    "1893-04-07",
+    "1893-04-08"
+   ]
+  },
+  {
+   "entry": "1893-04-09",
+   "heading": "In See nach Java",
+   "site_days": [
+    "1893-04-09",
+    "1893-04-10"
+   ]
+  },
+  {
+   "entry": "1893-04-14",
+   "heading": "Garut",
+   "site_days": [
+    "1893-04-14",
+    "1893-04-15"
+   ]
+  },
+  {
+   "entry": "1893-04-16",
+   "heading": "Tjiandjur",
+   "site_days": [
+    "1893-04-16",
+    "1893-04-17"
+   ]
+  },
+  {
+   "entry": "1893-04-19",
+   "heading": "Tjipandak",
+   "site_days": [
+    "1893-04-19",
+    "1893-04-20"
+   ]
+  },
+  {
+   "entry": "1893-04-21",
+   "heading": "Tjipandak",
+   "site_days": [
+    "1893-04-21",
+    "1893-04-22"
+   ]
+  },
+  {
+   "entry": "1893-04-23",
+   "heading": "Tjipandak",
+   "site_days": [
+    "1893-04-23",
+    "1893-04-24",
+    "1893-04-25"
+   ]
+  },
+  {
+   "entry": "1893-04-28",
+   "heading": "",
+   "site_days": [
+    "1893-04-28",
+    "1893-04-29"
+   ]
+  },
+  {
+   "entry": "1893-04-30",
+   "heading": "In .See nach Port Kennedy",
+   "site_days": [
+    "1893-04-30",
+    "1893-05-01"
+   ]
+  },
+  {
+   "entry": "1893-05-02",
+   "heading": "In See nach Port Kennedy",
+   "site_days": [
+    "1893-05-02",
+    "1893-05-03"
+   ]
+  },
+  {
+   "entry": "1893-05-05",
+   "heading": "Port Kennedy",
+   "site_days": [
+    "1893-05-05",
+    "1893-05-06"
+   ]
+  },
+  {
+   "entry": "1893-05-08",
+   "heading": "Port Kennedy",
+   "site_days": [
+    "1893-05-08",
+    "1893-05-09"
+   ]
+  },
+  {
+   "entry": "1893-05-13",
+   "heading": "In See nach Sydney",
+   "site_days": [
+    "1893-05-13",
+    "1893-05-14",
+    "1893-05-15",
+    "1893-05-16"
+   ]
+  },
+  {
+   "entry": "1893-05-21",
+   "heading": "Sydney",
+   "site_days": [
+    "1893-05-21",
+    "1893-05-22"
+   ]
+  },
+  {
+   "entry": "1893-05-26",
+   "heading": "Sydney",
+   "site_days": [
+    "1893-05-26",
+    "1893-05-27"
+   ]
+  },
+  {
+   "entry": "1893-05-28",
+   "heading": "In See nach KeuCaledonien",
+   "site_days": [
+    "1893-05-28",
+    "1893-05-29",
+    "1893-06-01",
+    "1893-06-02"
+   ]
+  },
+  {
+   "entry": "1893-06-03",
+   "heading": "Numea",
+   "site_days": [
+    "1893-06-03",
+    "1893-06-04",
+    "1893-06-05",
+    "1893-06-07",
+    "1893-06-08"
+   ]
+  },
+  {
+   "entry": "1893-06-10",
+   "heading": "In See nach Xeu*Guinea",
+   "site_days": [
+    "1893-06-10",
+    "1893-06-11"
+   ]
+  },
+  {
+   "entry": "1893-06-15",
+   "heading": "Port Moresby",
+   "site_days": [
+    "1893-06-15",
+    "1893-06-16"
+   ]
+  },
+  {
+   "entry": "1893-06-17",
+   "heading": "Jagdlager am Laroki",
+   "site_days": [
+    "1893-06-17",
+    "1893-06-18",
+    "1893-06-19"
+   ]
+  },
+  {
+   "entry": "1893-06-21",
+   "heading": "In See nach den Aru-Inseln",
+   "site_days": [
+    "1893-06-21",
+    "1893-06-22"
+   ]
+  },
+  {
+   "entry": "1893-06-23",
+   "heading": "In See nach den Aru-Inseln",
+   "site_days": [
+    "1893-06-23",
+    "1893-06-25",
+    "1893-06-26"
+   ]
+  },
+  {
+   "entry": "1893-06-30",
+   "heading": "Kajeli — Amboina",
+   "site_days": [
+    "1893-06-30",
+    "1893-07-01",
+    "1893-07-02",
+    "1893-07-03"
+   ]
+  },
+  {
+   "entry": "1893-07-04",
+   "heading": "In See nach Burncc",
+   "site_days": [
+    "1893-07-04",
+    "1893-07-05",
+    "1893-07-06",
+    "1893-07-07",
+    "1893-07-08",
+    "1893-07-09",
+    "1893-07-10",
+    "1893-07-11",
+    "1893-07-12"
+   ]
+  },
+  {
+   "entry": "1893-07-14",
+   "heading": "Singapur",
+   "site_days": [
+    "1893-07-14",
+    "1893-07-15"
+   ]
+  },
+  {
+   "entry": "1893-07-17",
+   "heading": "In See nach Hongkong",
+   "site_days": [
+    "1893-07-17",
+    "1893-07-19"
+   ]
+  },
+  {
+   "entry": "1893-07-25",
+   "heading": "Kanton",
+   "site_days": [
+    "1893-07-25",
+    "1893-07-26"
+   ]
+  },
+  {
+   "entry": "1893-07-28",
+   "heading": "Hongkong",
+   "site_days": [
+    "1893-07-28",
+    "1893-07-29"
+   ]
+  },
+  {
+   "entry": "1893-07-30",
+   "heading": "In See nach Nagasaki",
+   "site_days": [
+    "1893-07-30",
+    "1893-07-31"
+   ]
+  },
+  {
+   "entry": "1893-08-05",
+   "heading": "Kumamoto",
+   "site_days": [
+    "1893-08-05",
+    "1893-08-06",
+    "1893-08-07"
+   ]
+  },
+  {
+   "entry": "1893-08-08",
+   "heading": "Kiötö",
+   "site_days": [
+    "1893-08-08",
+    "1893-08-09",
+    "1893-08-10",
+    "1893-08-11"
+   ]
+  },
+  {
+   "entry": "1893-08-12",
+   "heading": "Kioto",
+   "site_days": [
+    "1893-08-12",
+    "1893-08-13"
+   ]
+  },
+  {
+   "entry": "1893-08-14",
+   "heading": "Kioto",
+   "site_days": [
+    "1893-08-14",
+    "1893-08-15"
+   ]
+  },
+  {
+   "entry": "1893-08-16",
+   "heading": "Mijanoschita",
+   "site_days": [
+    "1893-08-16",
+    "1893-08-17",
+    "1893-08-18"
+   ]
+  },
+  {
+   "entry": "1893-08-23",
+   "heading": "Tokio",
+   "site_days": [
+    "1893-08-23",
+    "1893-08-24"
+   ]
+  },
+  {
+   "entry": "1893-09-11",
+   "heading": "Penticton",
+   "site_days": [
+    "1893-09-11",
+    "1893-09-12"
+   ]
+  },
+  {
+   "entry": "1893-09-15",
+   "heading": "Shingle Creek — Penticton",
+   "site_days": [
+    "1893-09-15",
+    "1893-09-16",
+    "1893-09-17",
+    "1893-09-18",
+    "1893-09-19"
+   ]
+  },
+  {
+   "entry": "1893-09-20",
+   "heading": "Spokane— Livingston",
+   "site_days": [
+    "1893-09-20",
+    "1893-09-21"
+   ]
+  },
+  {
+   "entry": "1893-09-24",
+   "heading": "Yellowstone Lake Hotel",
+   "site_days": [
+    "1893-09-24",
+    "1893-09-25"
+   ]
+  },
+  {
+   "entry": "1893-09-27",
+   "heading": "Mammoth Hot Springs Hotel — Livingston",
+   "site_days": [
+    "1893-09-27",
+    "1893-09-28"
+   ]
+  },
+  {
+   "entry": "1893-10-04",
+   "heading": "Niagara Falls",
+   "site_days": [
+    "1893-10-04",
+    "1893-10-05"
+   ]
+  },
+  {
+   "entry": "1893-10-07",
+   "heading": "New York",
+   "site_days": [
+    "1893-10-07",
+    "1893-10-08"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+---
+type: person
+id: ke-person-fa8da4bbae
+created_by: ai-assisted
+checked: false
+---
+- Titel: Ritter von
+- Lebensdaten:
+- Beruf/Funktionen: Corv. C.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Corv. C. (seit 20. Februar 1900)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1900-05-15__pages155-156.pdf (S. 154–155)

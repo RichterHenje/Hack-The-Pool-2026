@@ -1,0 +1,173 @@
+{
+ "Port Said": {
+  "wikidata": "Q134509"
+ },
+ "Kala Wewa, Sri Lanka": {
+  "wikidata": "Q7354820"
+ },
+ "Kandy, Sri Lanka": {
+  "wikidata": "Q203197"
+ },
+ "Bombay (Indien, Heut. Mumbai)": {
+  "wikidata": "Q1156"
+ },
+ "Tandur, Telangana, Indien": {
+  "wikidata": "Q720922"
+ },
+ "Nizamate of Hyderabad, State, (Indien)": {
+  "wikidata": "Q1361"
+ },
+ "Calcutta (Indien)": {
+  "wikidata": "Q1348"
+ },
+ "Agra, (U.P.), Indien": {
+  "wikidata": "Q42941"
+ },
+ "Delhi (Indien)": {
+  "wikidata": "Q1353"
+ },
+ "Alwar, Rajputana (Indien)": {
+  "wikidata": "Q2572177"
+ },
+ "Jodhpur, Rajasthan, Indien": {
+  "wikidata": "Q200019"
+ },
+ "Jaipur (Jeypore), Rajasthan, Indien": {
+  "wikidata": "Q66485"
+ },
+ "Dakna Bâgh, Nepal": {
+  "wikidata": "Q28981",
+  "coord_note": "camp, estimated: diary: Barbatta 10 km south-east, Pilibhit 41 km (places.json camps)",
+  "lat": 28.869,
+  "lon": 80.177
+ },
+ "Beli, Nepal": {
+  "wikidata": "Q28981",
+  "coord_note": "camp, geonames: Beli, Kailali; 24 km from Gulariya (diary: 23 km east) (places.json camps)",
+  "lat": 28.6826,
+  "lon": 80.6647
+ },
+ "Batavia (heut. Jakarta, Indonesien)": {
+  "wikidata": "Q3630"
+ },
+ "Garut, Indonesien": {
+  "wikidata": "Q10371"
+ },
+ "Tjiandjur (heut. Cianjur, Indonesien)": {
+  "wikidata": "Q10367"
+ },
+ "Tjipandak, (heut. Cipandak, Indoensien)": {
+  "wikidata": "Q10367",
+  "coord_note": "approximate: southern Cianjur Regency",
+  "lat": -7.3,
+  "lon": 107.1
+ },
+ "Port Kennedy, Australien": {
+  "wikidata": "Q556632"
+ },
+ "Narromine, Australien": {
+  "wikidata": "Q610975",
+  "coord_note": "Narromine Shire (no item for the town)"
+ },
+ "Mullengudgerey, Australien": {
+  "wikidata": "Q55178659"
+ },
+ "Arthurs Leigh Badgery Station, Australien": {
+  "wikidata": "Q6777932",
+  "coord_note": "approximate: Marulan, NSW",
+  "lat": -34.715,
+  "lon": 150.0011
+ },
+ "Port Moresby, Papa Neuguinea": {
+  "wikidata": "Q36526"
+ },
+ "Dobo, Aru Inseln,  Indonesien": {
+  "wikidata": null,
+  "coord_note": "approximate",
+  "lat": -6.2,
+  "lon": 134.5
+ },
+ "Kajeli (heut. Buru, Indonesien)": {
+  "wikidata": "Q271030"
+ },
+ "Kanton, (heut. Guangzhou, China)": {
+  "wikidata": "Q16572"
+ },
+ "Kyoto, Japan": {
+  "wikidata": "Q34600"
+ },
+ "Banff, Kanada": {
+  "wikidata": "Q41858"
+ },
+ "Penticton, Kanada": {
+  "wikidata": "Q935519"
+ },
+ "Pola, Istrien": {
+  "wikidata": "Q4656"
+ },
+ "Triest": {
+  "wikidata": "Q546"
+ },
+ "Colombo (Hauptstadt, Sri Lanka)": {
+  "wikidata": "Q35381"
+ },
+ "Gwalior, (Madhya Pradesh, Indien)": {
+  "wikidata": "Q158467"
+ },
+ "Darjeeling, (West Bengal, Indien)": {
+  "wikidata": "Q169997"
+ },
+ "Pilibhit, (U.P. Indien)": {
+  "wikidata": "Q1197824"
+ },
+ "Singapur": {
+  "wikidata": "Q334"
+ },
+ "Buitenzog, ( heut. Bogor, Indonesien)": {
+  "wikidata": "Q10393"
+ },
+ "Sydney, Australien": {
+  "wikidata": "Q3130"
+ },
+ "Nouméa, Neukaledonien": {
+  "wikidata": "Q9733"
+ },
+ "Owaraha, Salomonen Inseln": {
+  "wikidata": "Q2042567"
+ },
+ "Amboina (heut. Ambon, Indonesien)": {
+  "wikidata": "Q18970"
+ },
+ "Hong Kong, China": {
+  "wikidata": "Q8646"
+ },
+ "Nagasaki, Japan": {
+  "wikidata": "Q38234"
+ },
+ "Kumamoto, Japan": {
+  "wikidata": "Q199889"
+ },
+ "Shimonoseki, Japan": {
+  "wikidata": "Q203308"
+ },
+ "Nagoya, Japan": {
+  "wikidata": "Q11751"
+ },
+ "Miyanoshita, Japan": {
+  "wikidata": "Q35490179",
+  "coord_note": "Miyanoshita Onsen (spa town item)"
+ },
+ "Tokyo, Japan": {
+  "wikidata": "Q1490"
+ },
+ "Nikko, Japan": {
+  "wikidata": "Q235753"
+ },
+ "Yokohama, Japan": {
+  "wikidata": "Q38283"
+ },
+ "Cape Po (heut. Tanjung Po, Malaysia)": {
+  "wikidata": null,
+  "coord_note": "no Wikidata item found; not geolocated"
+ }
+}

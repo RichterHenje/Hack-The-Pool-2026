@@ -1,0 +1,2765 @@
+{
+ "operationalLayers": [
+  {
+   "id": "KE1893_legs",
+   "opacity": 1,
+   "title": "Etappen (Luftlinie)",
+   "url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/arcgis/rest/services/KE1893_legs/FeatureServer/0",
+   "visibility": true,
+   "itemId": "a79a79039fe545559c5fe540a72d4575",
+   "layerType": "ArcGISFeatureLayer",
+   "layerDefinition": {
+    "fieldConfigurations": [
+     {
+      "name": "date_from",
+      "fieldFormat": {
+       "type": "date-time",
+       "dateStyle": "medium",
+       "hour12": "always"
+      }
+     },
+     {
+      "name": "date_to",
+      "fieldFormat": {
+       "type": "date-time",
+       "dateStyle": "medium",
+       "hour12": "always"
+      }
+     },
+     {
+      "name": "day_from",
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "always"
+      }
+     },
+     {
+      "name": "day_to",
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "always"
+      }
+     },
+     {
+      "name": "estimated",
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "always"
+      }
+     },
+     {
+      "name": "Shape__Length",
+      "fieldFormat": {
+       "type": "number",
+       "useGrouping": "always"
+      }
+     }
+    ],
+    "drawingInfo": {
+     "renderer": {
+      "type": "uniqueValue",
+      "valueExpression": "IIf($feature.estimated == 1, 'est', IIf($feature.on_ship == 'nein', 'land', 'ship'))",
+      "defaultSymbol": {
+       "type": "esriSLS",
+       "color": [
+        140,
+        40,
+        30,
+        255
+       ],
+       "width": 2.25,
+       "style": "esriSLSSolid"
+      },
+      "uniqueValueGroups": [
+       {
+        "classes": [
+         {
+          "label": "an Bord",
+          "symbol": {
+           "type": "esriSLS",
+           "color": [
+            140,
+            40,
+            30,
+            255
+           ],
+           "width": 2.25,
+           "style": "esriSLSSolid"
+          },
+          "values": [
+           [
+            "ship"
+           ]
+          ]
+         },
+         {
+          "label": "ohne das Schiff",
+          "symbol": {
+           "type": "esriSLS",
+           "color": [
+            140,
+            40,
+            30,
+            255
+           ],
+           "width": 2,
+           "style": "esriSLSDash"
+          },
+          "values": [
+           [
+            "land"
+           ]
+          ]
+         },
+         {
+          "label": "Datum geschätzt",
+          "symbol": {
+           "type": "esriSLS",
+           "color": [
+            140,
+            40,
+            30,
+            170
+           ],
+           "width": 2,
+           "style": "esriSLSDot"
+          },
+          "values": [
+           [
+            "est"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "uniqueValueInfos": [
+       {
+        "label": "Reiseabschnitt mit der Kaiserin Elisabeth (Landreisen in Indien, Java, Japan eingeschlossen)",
+        "symbol": {
+         "type": "esriSLS",
+         "color": [
+          140,
+          40,
+          30,
+          255
+         ],
+         "width": 2.25,
+         "style": "esriSLSSolid"
+        },
+        "value": "ship"
+       },
+       {
+        "label": "ab Yokohama ohne die Elisabeth (Empress of China, Bahn, Bretagne)",
+        "symbol": {
+         "type": "esriSLS",
+         "color": [
+          140,
+          40,
+          30,
+          255
+         ],
+         "width": 2,
+         "style": "esriSLSDash"
+        },
+        "value": "land"
+       },
+       {
+        "label": "Datum geschätzt",
+        "symbol": {
+         "type": "esriSLS",
+         "color": [
+          140,
+          40,
+          30,
+          170
+         ],
+         "width": 2,
+         "style": "esriSLSDot"
+        },
+        "value": "est"
+       }
+      ]
+     }
+    }
+   },
+   "popupInfo": {
+    "popupElements": [
+     {
+      "type": "text",
+      "text": "Ankunft in {from_name}: {expression/from} · Ankunft in {to_name}: {expression/to}<br />{expression/mode}"
+     },
+     {
+      "type": "text",
+      "text": "<p style='font-size:11px;'><b>Quelle:</b> Höfer 2010, Reiseübersicht; Luftlinie zwischen den Stationen, nicht der Kurs des Schiffs; Daten = Ankunft an beiden Enden.<br /><b>Status:</b> regelbasiert.<br /><b>Rechte:</b> nur Daten und Orte aus Höfer 2010.<br />Mehr: Beschreibung der Ebene (Details).</p>"
+     }
+    ],
+    "description": "{date_from} – {date_to}<br />{expression/mode}",
+    "expressionInfos": [
+     {
+      "name": "mode",
+      "expression": "\nvar t = $feature.to_name;\nvar m = IIf($feature.on_ship == 'nein',\n  When(t == 'Vancouver', 'Über den Pazifik mit der „Empress of China“ (Canadian Pacific Railway Company); Letzter Tag an Bord der Elisabeth laut Tagebuch: 24.8.1893 in Yokohama.',\n       t == 'Le Havre', 'Über den Atlantik mit der „Bretagne“ (Tagebuch).',\n       'Ohne die Elisabeth, über Land.'),\n  'Abschnitt der Reise mit der Kaiserin Elisabeth. Ob zu Schiff oder über Land, zeigt die Linie nicht.');\nm + IIf($feature.estimated == 1, ' Datum geschätzt.', '') + ' Die Linie ist eine Luftlinie, nicht der Weg.'",
+      "returnType": "string"
+     },
+     {
+      "name": "from",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.date_from), '', Text($feature.date_from, 'D.M.Y'))"
+     },
+     {
+      "name": "to",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.date_to), '', Text($feature.date_to, 'D.M.Y'))"
+     }
+    ],
+    "fieldInfos": [
+     {
+      "fieldName": "from_name",
+      "isEditable": false,
+      "label": "from_name",
+      "visible": false
+     },
+     {
+      "fieldName": "to_name",
+      "isEditable": false,
+      "label": "to_name",
+      "visible": false
+     },
+     {
+      "fieldName": "on_ship",
+      "isEditable": false,
+      "label": "on_ship",
+      "visible": false
+     },
+     {
+      "fieldName": "date_from",
+      "format": {
+       "dateFormat": "dayShortMonthYear",
+       "digitSeparator": false
+      },
+      "isEditable": false,
+      "label": "date_from",
+      "visible": false
+     },
+     {
+      "fieldName": "date_to",
+      "format": {
+       "dateFormat": "dayShortMonthYear",
+       "digitSeparator": false
+      },
+      "isEditable": false,
+      "label": "date_to",
+      "visible": false
+     },
+     {
+      "fieldName": "day_from",
+      "isEditable": false,
+      "label": "day_from",
+      "visible": false
+     },
+     {
+      "fieldName": "day_to",
+      "isEditable": false,
+      "label": "day_to",
+      "visible": false
+     },
+     {
+      "fieldName": "estimated",
+      "isEditable": false,
+      "label": "estimated",
+      "visible": false
+     },
+     {
+      "fieldName": "title",
+      "isEditable": false,
+      "label": "title",
+      "visible": false
+     },
+     {
+      "fieldName": "Shape__Length",
+      "isEditable": false,
+      "label": "Shape__Length",
+      "visible": false
+     }
+    ],
+    "title": "{title}"
+   }
+  },
+  {
+   "id": "KE1893_days",
+   "title": "Tagebuch (Tag für Tag)",
+   "url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/arcgis/rest/services/KE1893_days/FeatureServer/0",
+   "itemId": "0bfc650e853949dc8c82618f50c0e18f",
+   "layerType": "ArcGISFeatureLayer",
+   "visibility": true,
+   "opacity": 1,
+   "layerDefinition": {
+    "drawingInfo": {
+     "renderer": {
+      "type": "uniqueValue",
+      "field1": "hunt_day",
+      "defaultSymbol": {
+       "type": "esriSMS",
+       "style": "esriSMSCircle",
+       "color": [
+        90,
+        70,
+        50,
+        160
+       ],
+       "size": 4,
+       "outline": {
+        "color": [
+         255,
+         255,
+         255,
+         120
+        ],
+        "width": 0.5
+       }
+      },
+      "uniqueValueInfos": [
+       {
+        "value": "0",
+        "label": "Tagebuchtag",
+        "symbol": {
+         "type": "esriSMS",
+         "style": "esriSMSCircle",
+         "color": [
+          90,
+          70,
+          50,
+          160
+         ],
+         "size": 4,
+         "outline": {
+          "color": [
+           255,
+           255,
+           255,
+           120
+          ],
+          "width": 0.5
+         }
+        }
+       },
+       {
+        "value": "1",
+        "label": "Tagebuchtag mit Jagd",
+        "symbol": {
+         "type": "esriSMS",
+         "style": "esriSMSCircle",
+         "color": [
+          150,
+          60,
+          30,
+          200
+         ],
+         "size": 5,
+         "outline": {
+          "color": [
+           255,
+           255,
+           255,
+           160
+          ],
+          "width": 0.5
+         }
+        }
+       }
+      ]
+     }
+    }
+   },
+   "popupInfo": {
+    "title": "{expression/t}",
+    "fieldInfos": [
+     {
+      "fieldName": "day_date",
+      "label": "day_date",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place",
+      "label": "place",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "heading",
+      "label": "heading",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "method",
+      "label": "method",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "method_de",
+      "label": "method_de",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "coords",
+      "label": "coords",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "coords_de",
+      "label": "coords_de",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "band",
+      "label": "band",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "scan",
+      "label": "scan",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "page_url",
+      "label": "page_url",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "site_url",
+      "label": "site_url",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "hunt_day",
+      "label": "hunt_day",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "episode",
+      "label": "episode",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "coord_basis",
+      "label": "coord_basis",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "coord_basis_de",
+      "label": "coord_basis_de",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "coord_name",
+      "label": "coord_name",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "coord_ref",
+      "label": "coord_ref",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "coord_note",
+      "label": "coord_note",
+      "visible": false,
+      "isEditable": false
+     }
+    ],
+    "expressionInfos": [
+     {
+      "name": "d",
+      "returnType": "string",
+      "expression": "Text($feature.day_date, 'D.M.Y')"
+     },
+     {
+      "name": "t",
+      "returnType": "string",
+      "expression": "var d = Text($feature.day_date, 'D.M.Y'); IIf(IsEmpty($feature.heading), 'Tagebuch, ' + d, 'Tagebuch, ' + d + ': ' + $feature.heading)"
+     },
+     {
+      "name": "scan",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.page_url), '', 'Scan im Tagebuch (Bd. ' + $feature.band + ', Scan ' + $feature.scan + ', archive.org)')"
+     },
+     {
+      "name": "site",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.site_url), '', 'englische Tagesseite')"
+     },
+     {
+      "name": "noscan",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.page_url), ' (kein Scan-Link)', '')"
+     },
+     {
+      "name": "cname",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.coord_name), '', ' „' + $feature.coord_name + '“')"
+     },
+     {
+      "name": "reflabel",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.coord_ref), '', 'Beleg')"
+     },
+     {
+      "name": "cnote",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.coord_note), '', ' — ' + $feature.coord_note)"
+     }
+    ],
+    "popupElements": [
+     {
+      "type": "text",
+      "text": "Ort: {place} · <a href='{page_url}' target='_blank' rel='nofollow ugc noopener noreferrer'>{expression/scan}</a>{expression/noscan} · <a href='{site_url}' target='_blank' rel='nofollow ugc noopener noreferrer'>{expression/site}</a><br /><span style='font-size:smaller'>Tageszuordnung: {method_de}. Koordinate: {coords_de}{expression/cname} · {coord_basis_de} <a href='{coord_ref}' target='_blank' rel='nofollow ugc noopener noreferrer'>{expression/reflabel}</a>{expression/cnote}.</span>"
+     },
+     {
+      "type": "text",
+      "text": "<p style='font-size:11px;'><b>Quelle:</b> Franz Ferdinand, Tagebuch meiner Reise um die Erde, Wien: Hölder 1895 (Scan im Internet Archive); Tagesdatum maschinell zugeordnet; Koordinate je Tag mit Herkunft und Beleg (Datensatz des Teams).<br /><b>Status:</b> nicht von einer Person geprüft; zitieren aus dem Scan, nicht aus dem OCR.<br /><b>Rechte:</b> Scan gemeinfrei; GeoNames CC BY 4.0; Wikidata CC0.<br />Mehr: Beschreibung der Ebene (Details).</p>"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KE1893_stops",
+   "opacity": 1,
+   "title": "Stationen",
+   "url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/arcgis/rest/services/KE1893_stops/FeatureServer/0",
+   "visibility": true,
+   "itemId": "6a005afe2e294c78bf1f1d0dc807ad56",
+   "layerType": "ArcGISFeatureLayer",
+   "layerDefinition": {
+    "fieldConfigurations": [
+     {
+      "name": "seq",
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "always"
+      }
+     },
+     {
+      "name": "arrival_date",
+      "fieldFormat": {
+       "type": "date-time",
+       "dateStyle": "medium",
+       "hour12": "always"
+      }
+     },
+     {
+      "name": "day_index",
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "always"
+      }
+     },
+     {
+      "name": "date_estimated",
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "always"
+      }
+     },
+     {
+      "name": "hoefer_from",
+      "fieldFormat": {
+       "type": "date-time",
+       "dateStyle": "medium",
+       "hour12": "always"
+      }
+     },
+     {
+      "name": "hoefer_to",
+      "fieldFormat": {
+       "type": "date-time",
+       "dateStyle": "medium",
+       "hour12": "always"
+      }
+     },
+     {
+      "name": "kp_hits",
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "always"
+      }
+     }
+    ],
+    "drawingInfo": {
+     "labelingInfo": [
+      {
+       "labelExpressionInfo": {
+        "expression": "function p(s) { var t = Lower(s); for (var k in ['ā','ī','ū','ō','ē']) { t = Replace(t, ['ā','ī','ū','ō','ē'][k], ['a','i','u','o','e'][k]); } return t; }\nvar a = $feature.name_then; var b = $feature.name_now;\nIIf(!IsEmpty(b) && p(a) != p(b), a + ' (' + b + ')', a)"
+       },
+       "labelPlacement": "esriServerPointLabelPlacementAboveRight",
+       "repeatLabel": true,
+       "symbol": {
+        "type": "esriTS",
+        "color": [
+         60,
+         30,
+         20,
+         255
+        ],
+        "font": {
+         "family": "Arial",
+         "size": 9.5
+        },
+        "horizontalAlignment": "center",
+        "kerning": true,
+        "haloColor": [
+         250,
+         245,
+         235,
+         255
+        ],
+        "haloSize": 1.5,
+        "rotated": false,
+        "text": "",
+        "verticalAlignment": "baseline",
+        "xoffset": 0,
+        "yoffset": 0,
+        "angle": 0
+       }
+      }
+     ],
+     "renderer": {
+      "type": "uniqueValue",
+      "valueExpression": "IIf($feature.kp_hits > 0, 'hit', 'none') + IIf($feature.date_estimated == 1, '_est', '')",
+      "defaultSymbol": {
+       "type": "esriSMS",
+       "color": [
+        250,
+        245,
+        235,
+        255
+       ],
+       "angle": 0,
+       "xoffset": 0,
+       "yoffset": 0,
+       "size": 9,
+       "style": "esriSMSCircle",
+       "outline": {
+        "type": "esriSLS",
+        "color": [
+         110,
+         110,
+         110,
+         255
+        ],
+        "width": 1.5,
+        "style": "esriSLSSolid"
+       }
+      },
+      "uniqueValueGroups": [
+       {
+        "classes": [
+         {
+          "label": "Kulturpool nennt den Ort 1892–93",
+          "symbol": {
+           "type": "esriSMS",
+           "color": [
+            140,
+            40,
+            30,
+            230
+           ],
+           "angle": 0,
+           "xoffset": 0,
+           "yoffset": 0,
+           "size": 9,
+           "style": "esriSMSCircle",
+           "outline": {
+            "type": "esriSLS",
+            "color": [
+             255,
+             255,
+             255,
+             255
+            ],
+            "width": 1.5,
+            "style": "esriSLSSolid"
+           }
+          },
+          "values": [
+           [
+            "hit"
+           ]
+          ]
+         },
+         {
+          "label": "nennt den Ort, Datum geschätzt",
+          "symbol": {
+           "type": "esriSMS",
+           "color": [
+            140,
+            40,
+            30,
+            130
+           ],
+           "angle": 0,
+           "xoffset": 0,
+           "yoffset": 0,
+           "size": 9,
+           "style": "esriSMSCircle",
+           "outline": {
+            "type": "esriSLS",
+            "color": [
+             140,
+             40,
+             30,
+             255
+            ],
+            "width": 1.5,
+            "style": "esriSLSDash"
+           }
+          },
+          "values": [
+           [
+            "hit_est"
+           ]
+          ]
+         },
+         {
+          "label": "Kulturpool nennt den Ort 1892–93 nicht",
+          "symbol": {
+           "type": "esriSMS",
+           "color": [
+            250,
+            245,
+            235,
+            230
+           ],
+           "angle": 0,
+           "xoffset": 0,
+           "yoffset": 0,
+           "size": 9,
+           "style": "esriSMSCircle",
+           "outline": {
+            "type": "esriSLS",
+            "color": [
+             110,
+             110,
+             110,
+             255
+            ],
+            "width": 1.5,
+            "style": "esriSLSSolid"
+           }
+          },
+          "values": [
+           [
+            "none"
+           ]
+          ]
+         },
+         {
+          "label": "nennt den Ort nicht, Datum geschätzt",
+          "symbol": {
+           "type": "esriSMS",
+           "color": [
+            250,
+            245,
+            235,
+            160
+           ],
+           "angle": 0,
+           "xoffset": 0,
+           "yoffset": 0,
+           "size": 9,
+           "style": "esriSMSCircle",
+           "outline": {
+            "type": "esriSLS",
+            "color": [
+             110,
+             110,
+             110,
+             255
+            ],
+            "width": 1.5,
+            "style": "esriSLSDash"
+           }
+          },
+          "values": [
+           [
+            "none_est"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "uniqueValueInfos": [
+       {
+        "label": "Kulturpool: Datensätze 1890–1895 nennen den Ort",
+        "symbol": {
+         "type": "esriSMS",
+         "color": [
+          140,
+          40,
+          30,
+          230
+         ],
+         "angle": 0,
+         "xoffset": 0,
+         "yoffset": 0,
+         "size": 9,
+         "style": "esriSMSCircle",
+         "outline": {
+          "type": "esriSLS",
+          "color": [
+           255,
+           255,
+           255,
+           255
+          ],
+          "width": 1.5,
+          "style": "esriSLSSolid"
+         }
+        },
+        "value": "hit"
+       },
+       {
+        "label": "Treffer, Ankunftsdatum geschätzt",
+        "symbol": {
+         "type": "esriSMS",
+         "color": [
+          140,
+          40,
+          30,
+          130
+         ],
+         "angle": 0,
+         "xoffset": 0,
+         "yoffset": 0,
+         "size": 9,
+         "style": "esriSMSCircle",
+         "outline": {
+          "type": "esriSLS",
+          "color": [
+           140,
+           40,
+           30,
+           255
+          ],
+          "width": 1.5,
+          "style": "esriSLSDash"
+         }
+        },
+        "value": "hit_est"
+       },
+       {
+        "label": "Kulturpool: kein Datensatz 1890–1895 nennt den Ort",
+        "symbol": {
+         "type": "esriSMS",
+         "color": [
+          250,
+          245,
+          235,
+          230
+         ],
+         "angle": 0,
+         "xoffset": 0,
+         "yoffset": 0,
+         "size": 9,
+         "style": "esriSMSCircle",
+         "outline": {
+          "type": "esriSLS",
+          "color": [
+           110,
+           110,
+           110,
+           255
+          ],
+          "width": 1.5,
+          "style": "esriSLSSolid"
+         }
+        },
+        "value": "none"
+       },
+       {
+        "label": "kein Treffer, Ankunftsdatum geschätzt",
+        "symbol": {
+         "type": "esriSMS",
+         "color": [
+          250,
+          245,
+          235,
+          160
+         ],
+         "angle": 0,
+         "xoffset": 0,
+         "yoffset": 0,
+         "size": 9,
+         "style": "esriSMSCircle",
+         "outline": {
+          "type": "esriSLS",
+          "color": [
+           110,
+           110,
+           110,
+           255
+          ],
+          "width": 1.5,
+          "style": "esriSLSDash"
+         }
+        },
+        "value": "none_est"
+       }
+      ]
+     }
+    }
+   },
+   "showLabels": true,
+   "popupInfo": {
+    "popupElements": [
+     {
+      "type": "text",
+      "text": "Ankunft laut Höfer (2010, nach dem Tagebuch): {expression/arr}{expression/est}<br /><b>Kulturpool:</b> {expression/kp} <a href='{kp_search_url}' target='_blank' rel='nofollow ugc noopener noreferrer'>Suche öffnen</a><br /><span style='font-size:smaller'>Namen: {names_history}</span>"
+     },
+     {
+      "type": "text",
+      "text": "<p style='font-size:11px;'><b>Quelle:</b> Stationen aus dem Vault des Teams; Ankunft nach Höfer 2010 (Reiseübersicht nach dem Tagebuch 1895); Koordinaten GeoNames; Kulturpool-Zahl = Datensätze, die den Ort nennen und 1890–1895 datiert sind (Abfrage 27.10.2026).<br /><b>Status:</b> regelbasiert bzw. maschinell gezählt, nicht von einer Person geprüft.<br /><b>Rechte:</b> GeoNames CC BY 4.0; Kulturpool je Datensatz.<br />Mehr: Beschreibung der Ebene (Details).</p>"
+     }
+    ],
+    "description": "Ankunft laut Höfer (2010, nach dem Tagebuch): {arrival_date}{expression/est}<br /><b>Kulturpool:</b> {expression/kp} <a href='{kp_search_url}' target='_blank' rel='nofollow ugc noopener noreferrer'>Suche öffnen</a><br /><span style='font-size:smaller'>Namen: {names_history}</span>",
+    "expressionInfos": [
+     {
+      "name": "names",
+      "expression": "function p(s) { var t = Lower(s); for (var k in ['ā','ī','ū','ō','ē']) { t = Replace(t, ['ā','ī','ū','ō','ē'][k], ['a','i','u','o','e'][k]); } return t; }\nvar a = $feature.name_then; var b = $feature.name_now;\nIIf(!IsEmpty(b) && p(a) != p(b), a + ' (heute ' + b + ')', a)",
+      "returnType": "string"
+     },
+     {
+      "name": "est",
+      "expression": "IIf($feature.date_estimated == 1, ' (geschätzt, zwischen den Nachbarstationen)', '')",
+      "returnType": "string"
+     },
+     {
+      "name": "kp",
+      "expression": "IIf($feature.kp_hits > 0, $feature.kp_hits + ' Datensätze nennen den Ort und sind 1890–1895 datiert (Reisejahre ±2). Sie nennen den Ort, nicht die Reise.', 'Kein Datensatz nennt den Ort mit einer Datierung 1890–1895 (Reisejahre ±2).')",
+      "returnType": "string"
+     },
+     {
+      "name": "arr",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.arrival_date), '', Text($feature.arrival_date, 'D.M.Y'))"
+     }
+    ],
+    "fieldInfos": [
+     {
+      "fieldName": "seq",
+      "isEditable": false,
+      "label": "seq",
+      "visible": false
+     },
+     {
+      "fieldName": "leg",
+      "isEditable": false,
+      "label": "leg",
+      "visible": false
+     },
+     {
+      "fieldName": "on_ship",
+      "isEditable": false,
+      "label": "on_ship",
+      "visible": false
+     },
+     {
+      "fieldName": "title",
+      "isEditable": false,
+      "label": "title",
+      "visible": false
+     },
+     {
+      "fieldName": "name_then",
+      "isEditable": false,
+      "label": "name_then",
+      "visible": false
+     },
+     {
+      "fieldName": "name_now",
+      "isEditable": false,
+      "label": "name_now",
+      "visible": false
+     },
+     {
+      "fieldName": "country",
+      "isEditable": false,
+      "label": "country",
+      "visible": false
+     },
+     {
+      "fieldName": "arrival_date",
+      "format": {
+       "dateFormat": "dayShortMonthYear",
+       "digitSeparator": false
+      },
+      "isEditable": false,
+      "label": "arrival_date",
+      "visible": false
+     },
+     {
+      "fieldName": "day_index",
+      "isEditable": false,
+      "label": "day_index",
+      "visible": false
+     },
+     {
+      "fieldName": "date_estimated",
+      "isEditable": false,
+      "label": "date_estimated",
+      "visible": false
+     },
+     {
+      "fieldName": "hoefer_from",
+      "format": {
+       "dateFormat": "dayShortMonthYear",
+       "digitSeparator": false
+      },
+      "isEditable": false,
+      "label": "hoefer_from",
+      "visible": false
+     },
+     {
+      "fieldName": "hoefer_to",
+      "format": {
+       "dateFormat": "dayShortMonthYear",
+       "digitSeparator": false
+      },
+      "isEditable": false,
+      "label": "hoefer_to",
+      "visible": false
+     },
+     {
+      "fieldName": "hoefer_printed",
+      "isEditable": false,
+      "label": "hoefer_printed",
+      "visible": false
+     },
+     {
+      "fieldName": "names_history",
+      "isEditable": false,
+      "label": "names_history",
+      "visible": false
+     },
+     {
+      "fieldName": "description",
+      "isEditable": false,
+      "label": "description",
+      "visible": false
+     },
+     {
+      "fieldName": "kp_hits",
+      "isEditable": false,
+      "label": "kp_hits",
+      "visible": false
+     },
+     {
+      "fieldName": "kp_search_url",
+      "isEditable": false,
+      "label": "kp_search_url",
+      "visible": false
+     },
+     {
+      "fieldName": "kp_example",
+      "isEditable": false,
+      "label": "kp_example",
+      "visible": false
+     },
+     {
+      "fieldName": "kp_example_url",
+      "isEditable": false,
+      "label": "kp_example_url",
+      "visible": false
+     },
+     {
+      "fieldName": "kp_licence",
+      "isEditable": false,
+      "label": "kp_licence",
+      "visible": false
+     },
+     {
+      "fieldName": "image_url",
+      "isEditable": false,
+      "label": "image_url",
+      "visible": false
+     },
+     {
+      "fieldName": "image_title",
+      "isEditable": false,
+      "label": "image_title",
+      "visible": false
+     },
+     {
+      "fieldName": "image_licence",
+      "isEditable": false,
+      "label": "image_licence",
+      "visible": false
+     },
+     {
+      "fieldName": "image_record_url",
+      "isEditable": false,
+      "label": "image_record_url",
+      "visible": false
+     },
+     {
+      "fieldName": "wikidata",
+      "isEditable": false,
+      "label": "wikidata",
+      "visible": false
+     },
+     {
+      "fieldName": "geonames",
+      "isEditable": false,
+      "label": "geonames",
+      "visible": false
+     }
+    ],
+    "title": "{expression/names}"
+   }
+  },
+  {
+   "id": "KE1893_hunts",
+   "opacity": 1,
+   "title": "Jagden (laut Tagebuch)",
+   "url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/arcgis/rest/services/KE1893_hunts/FeatureServer/0",
+   "visibility": true,
+   "itemId": "53d27a6c989d423ab71bb0b13e5f42ee",
+   "layerType": "ArcGISFeatureLayer",
+   "layerDefinition": {
+    "fieldConfigurations": [
+     {
+      "name": "date_from",
+      "fieldFormat": {
+       "type": "date-time",
+       "dateStyle": "medium",
+       "hour12": "always"
+      }
+     },
+     {
+      "name": "date_to",
+      "fieldFormat": {
+       "type": "date-time",
+       "dateStyle": "medium",
+       "hour12": "always"
+      }
+     },
+     {
+      "name": "day_from",
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "always"
+      }
+     },
+     {
+      "name": "day_to",
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "always"
+      }
+     },
+     {
+      "name": "kill_sentences",
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "always"
+      }
+     },
+     {
+      "name": "photos",
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "always"
+      }
+     }
+    ],
+    "drawingInfo": {
+     "renderer": {
+      "type": "simple",
+      "symbol": {
+       "type": "esriSMS",
+       "color": [
+        120,
+        70,
+        40,
+        220
+       ],
+       "angle": 0,
+       "xoffset": 0,
+       "yoffset": 0,
+       "size": 10,
+       "style": "esriSMSTriangle",
+       "outline": {
+        "type": "esriSLS",
+        "color": [
+         255,
+         255,
+         255,
+         255
+        ],
+        "width": 1,
+        "style": "esriSLSSolid"
+       }
+      },
+      "visualVariables": [
+       {
+        "type": "sizeInfo",
+        "field": "kill_sentences",
+        "minDataValue": 2,
+        "maxDataValue": 36,
+        "minSize": 8,
+        "maxSize": 24,
+        "legendOptions": {
+         "title": "Abschuss-Sätze im Tagebuch (automatisch gezählt)"
+        }
+       }
+      ]
+     }
+    }
+   },
+   "popupInfo": {
+    "popupElements": [
+     {
+      "type": "text",
+      "text": "Jagd laut Tagebuch, {expression/from} – {expression/to}.<br /><b>Tiere in Abschuss-Sätzen</b> (Erwähnungen, nicht Zahl der getöteten Tiere): {animals}<br />„{quote}“ (<a href='{quote_url}' target='_blank' rel='nofollow ugc noopener noreferrer'>Scan, {expression/qd}</a>)<br />Presse (ANNO): {anno_issues} Ausgaben gefunden, davon {anno_high} mit hoher Relevanz. Kulturpool: {kp_count} Datensätze im Kontext.<br /><span style='font-size:smaller'>Automatisch aus dem OCR-Text ermittelt ({kill_sentences} Sätze mit Tötungsverb und Tiername), nicht an den Scans geprüft.{expression/note}</span>"
+     },
+     {
+      "type": "text",
+      "text": "<p style='font-size:11px;'><b>Quelle:</b> Tagebuch 1895 (OCR); Jagdepisoden des Teams; Sätze und Tiere automatisch per Schlüsselwort gefunden.<br /><b>Status:</b> maschinell, nicht geprüft.<br /><b>Rechte:</b> Scan gemeinfrei.<br />Mehr: Beschreibung der Ebene (Details).</p>"
+     }
+    ],
+    "description": "Jagd laut Tagebuch, {date_from} – {date_to}: {animals}.<br />Automatisch aus dem Tagebuchtext ermittelt ({kill_sentences} Sätze), noch nicht an den Scans geprüft.",
+    "fieldInfos": [
+     {
+      "fieldName": "id",
+      "label": "id",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "title",
+      "label": "title",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "date_from",
+      "label": "date_from",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "date_to",
+      "label": "date_to",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "day_from",
+      "label": "day_from",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "day_to",
+      "label": "day_to",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "animals",
+      "label": "animals",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "kill_sentences",
+      "label": "kill_sentences",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "photos",
+      "label": "photos",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "description",
+      "label": "description",
+      "visible": false,
+      "isEditable": false
+     }
+    ],
+    "title": "{title}",
+    "expressionInfos": [
+     {
+      "name": "from",
+      "returnType": "string",
+      "expression": "Text($feature.date_from, 'D.M.Y')"
+     },
+     {
+      "name": "to",
+      "returnType": "string",
+      "expression": "Text($feature.date_to, 'D.M.Y')"
+     },
+     {
+      "name": "qd",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.quote_date), '', Text($feature.quote_date, 'D.M.Y'))"
+     },
+     {
+      "name": "note",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.coord_note), '', ' Ort ungefähr: ' + $feature.coord_note + '.')"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KE1893_kills",
+   "title": "Abschuss-Einträge im Tagebuch (pro Tag)",
+   "url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/arcgis/rest/services/KE1893_kills/FeatureServer/0",
+   "itemId": "5cccd75ead8f4e42901c3e0439393928",
+   "layerType": "ArcGISFeatureLayer",
+   "visibility": true,
+   "opacity": 1,
+   "layerDefinition": {
+    "drawingInfo": {
+     "renderer": {
+      "type": "uniqueValue",
+      "valueExpression": "IIf($feature.no_hunt_place == 1, 'x', Text($feature.ff_self))",
+      "defaultSymbol": {
+       "type": "esriSMS",
+       "style": "esriSMSX",
+       "color": [
+        120,
+        120,
+        120,
+        220
+       ],
+       "size": 8,
+       "outline": {
+        "color": [
+         120,
+         120,
+         120,
+         220
+        ],
+        "width": 2
+       }
+      },
+      "uniqueValueInfos": [
+       {
+        "value": "1",
+        "label": "mit Sätzen in der Ich-Form (Franz Ferdinand selbst)",
+        "symbol": {
+         "type": "esriSMS",
+         "style": "esriSMSX",
+         "color": [
+          170,
+          30,
+          30,
+          255
+         ],
+         "size": 9,
+         "outline": {
+          "color": [
+           170,
+           30,
+           30,
+           255
+          ],
+          "width": 2
+         }
+        }
+       },
+       {
+        "value": "0",
+        "label": "nur Sätze über andere (Begleiter, Jäger)",
+        "symbol": {
+         "type": "esriSMS",
+         "style": "esriSMSX",
+         "color": [
+          110,
+          110,
+          110,
+          220
+         ],
+         "size": 8,
+         "outline": {
+          "color": [
+           110,
+           110,
+           110,
+           220
+          ],
+          "width": 2
+         }
+        }
+       },
+       {
+        "value": "x",
+        "label": "kein Jagdort des Teams (vermutlich keine Jagd)",
+        "symbol": {
+         "type": "esriSMS",
+         "style": "esriSMSX",
+         "color": [
+          180,
+          180,
+          180,
+          160
+         ],
+         "size": 7,
+         "outline": {
+          "color": [
+           180,
+           180,
+           180,
+           160
+          ],
+          "width": 2
+         }
+        }
+       }
+      ],
+      "visualVariables": [
+       {
+        "type": "sizeInfo",
+        "field": "kill_sentences",
+        "minDataValue": 1,
+        "maxDataValue": 8,
+        "minSize": 7,
+        "maxSize": 18,
+        "legendOptions": {
+         "title": "Abschuss-Sätze an diesem Tag"
+        }
+       }
+      ]
+     }
+    }
+   },
+   "popupInfo": {
+    "title": "Abschuss-Sätze im Tagebuch, {expression/d}",
+    "fieldInfos": [
+     {
+      "fieldName": "entry_date",
+      "label": "entry_date",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place",
+      "label": "place",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place_raw",
+      "label": "place_raw",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "coord_note",
+      "label": "coord_note",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "animals",
+      "label": "animals",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "kill_sentences",
+      "label": "kill_sentences",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "first_person",
+      "label": "first_person",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "ff_self",
+      "label": "ff_self",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "quote",
+      "label": "quote",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "quote_first_person",
+      "label": "quote_first_person",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "page_url",
+      "label": "page_url",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "band",
+      "label": "band",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "scan",
+      "label": "scan",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "day_method",
+      "label": "day_method",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "episode",
+      "label": "episode",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "no_hunt_place",
+      "label": "no_hunt_place",
+      "visible": false,
+      "isEditable": false
+     }
+    ],
+    "expressionInfos": [
+     {
+      "name": "d",
+      "returnType": "string",
+      "expression": "Text($feature.entry_date, 'D.M.Y')"
+     },
+     {
+      "name": "note",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.coord_note), '', IIf($feature.no_hunt_place == 1, ' ', ' Ort ungefähr: ') + $feature.coord_note + '.')"
+     },
+     {
+      "name": "ep",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.episode), 'Keiner Jagd des Teams zugeordnet.', 'Jagd: ' + $feature.episode + '.')"
+     },
+     {
+      "name": "ks",
+      "returnType": "string",
+      "expression": "IIf($feature.kill_sentences == 1, '1 Satz', $feature.kill_sentences + ' Sätze')"
+     }
+    ],
+    "popupElements": [
+     {
+      "type": "text",
+      "text": "{place} ({place_raw}){expression/note}<br /><b>Tiere:</b> {animals}<br />{expression/ks} mit Tötungsverb und Tiername, davon {first_person} in der Ich-Form. Erwähnungen, nicht Zahl der getöteten Tiere.<br />„{quote}“ (<a href='{page_url}' target='_blank' rel='nofollow ugc noopener noreferrer'>Scan, Bd. {band}, Scan {scan}</a>)<br /><span style='font-size:smaller'>Automatisch aus dem OCR-Text ermittelt (Schlüsselwörter), nicht an den Scans geprüft. {expression/ep}</span>"
+     },
+     {
+      "type": "text",
+      "text": "<p style='font-size:11px;'><b>Quelle:</b> Tagebuch 1895 (OCR); Tageseinträge automatisch per Schlüsselwort gefunden (hunt_entries.json des Teams).<br /><b>Status:</b> maschinell, nicht geprüft.<br /><b>Rechte:</b> Scan gemeinfrei.<br />Mehr: Beschreibung der Ebene (Details).</p>"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KE1893_objects",
+   "title": "Sammlung Este: Kauf oder Geschenk belegt",
+   "url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/arcgis/rest/services/KE1893_objects/FeatureServer/0",
+   "itemId": "32d663a04d8f4e82b2913c368fef4ad7",
+   "layerType": "ArcGISFeatureLayer",
+   "visibility": true,
+   "opacity": 1,
+   "layerDefinition": {
+    "drawingInfo": {
+     "renderer": {
+      "type": "uniqueValue",
+      "field1": "strength",
+      "defaultSymbol": {
+       "type": "esriSMS",
+       "style": "esriSMSDiamond",
+       "color": [
+        120,
+        90,
+        20,
+        140
+       ],
+       "size": 6,
+       "outline": {
+        "color": [
+         255,
+         255,
+         255,
+         160
+        ],
+        "width": 0.5
+       }
+      },
+      "uniqueValueInfos": [
+       {
+        "value": "strong",
+        "label": "Objekt: Kauf oder Geschenk im Tagebuch belegt",
+        "symbol": {
+         "type": "esriSMS",
+         "style": "esriSMSDiamond",
+         "color": [
+          120,
+          90,
+          20,
+          230
+         ],
+         "size": 10,
+         "outline": {
+          "color": [
+           255,
+           255,
+           255,
+           230
+          ],
+          "width": 1
+         }
+        }
+       },
+       {
+        "value": "medium",
+        "label": "Objekt: Typ im Tagebuch beschrieben (schwächer)",
+        "symbol": {
+         "type": "esriSMS",
+         "style": "esriSMSDiamond",
+         "color": [
+          120,
+          90,
+          20,
+          120
+         ],
+         "size": 6,
+         "outline": {
+          "color": [
+           255,
+           255,
+           255,
+           140
+          ],
+          "width": 0.5
+         }
+        }
+       }
+      ]
+     }
+    },
+    "featureReduction": {
+     "type": "cluster",
+     "clusterRadius": 30
+    },
+    "definitionExpression": "strength = 'strong'"
+   },
+   "popupInfo": {
+    "title": "{obj_type} ({inventory})",
+    "fieldInfos": [
+     {
+      "fieldName": "inventory",
+      "label": "inventory",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "obj_type",
+      "label": "obj_type",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "title",
+      "label": "title",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "region",
+      "label": "region",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "strength",
+      "label": "strength",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "strength_de",
+      "label": "strength_de",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "diary_date",
+      "label": "diary_date",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place",
+      "label": "place",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "evidence",
+      "label": "evidence",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "url",
+      "label": "url",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "page_url",
+      "label": "page_url",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "acquisition",
+      "label": "acquisition",
+      "visible": false,
+      "isEditable": false
+     }
+    ],
+    "expressionInfos": [
+     {
+      "name": "d",
+      "returnType": "string",
+      "expression": "Text($feature.diary_date, 'D.M.Y')"
+     }
+    ],
+    "popupElements": [
+     {
+      "type": "text",
+      "text": "Herkunft laut Museum: {region}<br />Tagebuch, {expression/d} ({place}): „{evidence}“ (<a href='{page_url}' target='_blank' rel='nofollow ugc noopener noreferrer'>Scan</a>)<br /><a href='{url}' target='_blank' rel='nofollow ugc noopener noreferrer'>Objekt im Weltmuseum Wien</a><br /><span style='font-size:smaller'>Verknüpfung ist ein Vorschlag, Stärke {strength_de}. Punkt = Ort Franz Ferdinands an diesem Tagebuchtag.</span>"
+     },
+     {
+      "type": "text",
+      "text": "<p style='font-size:11px;'><b>Quelle:</b> Weltmuseum Wien, Este-Inventar; mit dem Tagebuchtag verknüpft durch die Pipeline des Teams (nur „strong“: Kauf oder Geschenk im Tagebuch genannt).<br /><b>Status:</b> Vorschlag mit Beleg, nicht geprüft.<br /><b>Rechte:</b> je Objekt laut Museum.<br />Mehr: Beschreibung der Ebene (Details).</p>"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KE1893_press",
+   "title": "Presse (ANNO, ungeprüft)",
+   "url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/arcgis/rest/services/KE1893_press/FeatureServer/0",
+   "itemId": "46dbaff0a0ea4deab74859ae26880b1e",
+   "layerType": "ArcGISFeatureLayer",
+   "visibility": true,
+   "opacity": 1,
+   "layerDefinition": {
+    "drawingInfo": {
+     "renderer": {
+      "type": "uniqueValue",
+      "field1": "relevance",
+      "defaultSymbol": {
+       "type": "esriSMS",
+       "style": "esriSMSCircle",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "size": 16,
+       "outline": {
+        "color": [
+         50,
+         50,
+         50,
+         230
+        ],
+        "width": 1.25
+       }
+      },
+      "uniqueValueInfos": [
+       {
+        "value": "high",
+        "label": "Zeitungsbericht, hohe Relevanz (am Erscheinungstag)",
+        "symbol": {
+         "type": "esriSMS",
+         "style": "esriSMSCircle",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "size": 16,
+         "outline": {
+          "color": [
+           50,
+           50,
+           50,
+           230
+          ],
+          "width": 1.5
+         }
+        }
+       },
+       {
+        "value": "medium",
+        "label": "Zeitungsbericht, mittlere Relevanz",
+        "symbol": {
+         "type": "esriSMS",
+         "style": "esriSMSCircle",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "size": 20,
+         "outline": {
+          "color": [
+           90,
+           90,
+           90,
+           150
+          ],
+          "width": 1
+         }
+        }
+       }
+      ]
+     }
+    }
+   },
+   "popupInfo": {
+    "title": "{newspaper}, {expression/pub}",
+    "fieldInfos": [
+     {
+      "fieldName": "title",
+      "label": "title",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "date_published",
+      "label": "date_published",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "event_date",
+      "label": "event_date",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "day_index",
+      "label": "day_index",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "newspaper",
+      "label": "newspaper",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place",
+      "label": "place",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "episode",
+      "label": "episode",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "relevance",
+      "label": "relevance",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "quote",
+      "label": "quote",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "page_url",
+      "label": "page_url",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "status",
+      "label": "status",
+      "visible": false,
+      "isEditable": false
+     }
+    ],
+    "expressionInfos": [
+     {
+      "name": "pub",
+      "returnType": "string",
+      "expression": "Text($feature.date_published, 'D.M.Y')"
+     },
+     {
+      "name": "ev",
+      "returnType": "string",
+      "expression": "Text($feature.event_date, 'D.M.Y')"
+     },
+     {
+      "name": "lag",
+      "returnType": "string",
+      "expression": "Text(DateDiff($feature.date_published, $feature.event_date, 'days'), '#')"
+     }
+    ],
+    "popupElements": [
+     {
+      "type": "text",
+      "text": "„{quote}“<br />Zur Jagd: {place} (ab {expression/ev}); erschienen {expression/lag} Tage nach Jagdbeginn, in {pub_place}. Relevanz: {relevance}.<br /><a href='{page_url}' target='_blank' rel='nofollow ugc noopener noreferrer'>Seite in ANNO (Österreichische Nationalbibliothek)</a><br /><span style='font-size:smaller'><i>{status}</i>: Text per OCR, automatisch der Jagd zugeordnet.</span>"
+     },
+     {
+      "type": "text",
+      "text": "<p style='font-size:11px;'><b>Quelle:</b> ANNO, Österreichische Nationalbibliothek; Auswahl und Zuordnung automatisch im OCR-Text.<br /><b>Status:</b> maschinell, nicht geprüft.<br /><b>Rechte:</b> nur Link und kurzes Zitat.<br />Mehr: Beschreibung der Ebene (Details).</p>"
+     }
+    ]
+   }
+  },
+  {
+   "url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/arcgis/rest/services/KE1893_photos_all/FeatureServer/0",
+   "itemId": "83168e4e37ed442698036078788680d2",
+   "layerType": "ArcGISFeatureLayer",
+   "opacity": 1,
+   "popupInfo": {
+    "title": "Foto {vf_id}",
+    "fieldInfos": [
+     {
+      "fieldName": "vf_id",
+      "label": "vf_id",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "title",
+      "label": "title",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "museum_date",
+      "label": "museum_date",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "photo_date",
+      "label": "photo_date",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "date_range",
+      "label": "date_range",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place_name",
+      "label": "place_name",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place_tier",
+      "label": "place_tier",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place_rule",
+      "label": "place_rule",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place_src",
+      "label": "place_src",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "museum_geography",
+      "label": "museum_geography",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "route_place",
+      "label": "route_place",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "image_url",
+      "label": "image_url",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "museum_url",
+      "label": "museum_url",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "licence",
+      "label": "licence",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "creator",
+      "label": "creator",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "europeana",
+      "label": "europeana",
+      "visible": false,
+      "isEditable": false
+     }
+    ],
+    "expressionInfos": [
+     {
+      "name": "credit",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.licence), 'Weltmuseum Wien; Lizenz nicht geprüft', IIf(IsEmpty($feature.creator), '', $feature.creator + ', ') + 'Weltmuseum Wien, ' + $feature.licence + ' (über Europeana; Aggregator: Kulturpool)')"
+     },
+     {
+      "name": "eu",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.europeana), '', ' · Europeana: ' + $feature.europeana)"
+     },
+     {
+      "name": "range",
+      "returnType": "string",
+      "expression": "IIf($feature.date_range == 'ja', ' (Zeitraum; auf der Zeitleiste der erste Tag)', '')"
+     }
+    ],
+    "popupElements": [
+     {
+      "type": "media",
+      "mediaInfos": [
+       {
+        "type": "image",
+        "title": "",
+        "caption": "Foto: {expression/credit}",
+        "altText": "{title}",
+        "value": {
+         "sourceURL": "{image_url}",
+         "linkURL": "{museum_url}"
+        }
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Titel (historische Bildunterschrift des Weltmuseums, zitiert): „{title}“<br />Datierung laut Museum: {museum_date}{expression/range} · Geografie laut Museum: {museum_geography}<br /><span style='font-size:smaller'>Punkt = Ort laut {place_rule}: {place_name} (Koordinate: {place_src}), nicht der Standort Franz Ferdinands.</span><br /><a href='{museum_url}' target='_blank' rel='nofollow ugc noopener noreferrer'>Objektseite im Weltmuseum Wien</a>{expression/eu}"
+     },
+     {
+      "type": "text",
+      "text": "<p style='font-size:11px;'><b>Quelle:</b> Weltmuseum Wien, Fotosammlung; Punkt = Ort laut Museum, nicht die Position Franz Ferdinands.<br /><b>Status:</b> Ort regelbasiert, nicht von einer Person geprüft.<br /><b>Rechte:</b> je Bild: CC BY-NC-SA 4.0 laut Europeana (über Kulturpool), sonst „Lizenz nicht geprüft“.<br />Mehr: Beschreibung der Ebene (Details).</p>"
+     }
+    ]
+   },
+   "id": "KE1893_photos_undated",
+   "title": "Fotos Weltmuseum, ohne Tagesdatum (immer sichtbar)",
+   "visibility": false,
+   "timeAnimation": false,
+   "layerDefinition": {
+    "definitionExpression": "photo_date IS NULL",
+    "drawingInfo": {
+     "renderer": {
+      "type": "simple",
+      "label": "Foto ohne Tagesdatum",
+      "symbol": {
+       "type": "esriSMS",
+       "style": "esriSMSSquare",
+       "color": [
+        30,
+        70,
+        120,
+        110
+       ],
+       "size": 5,
+       "outline": {
+        "color": [
+         255,
+         255,
+         255,
+         160
+        ],
+        "width": 0.5
+       }
+      }
+     }
+    },
+    "featureReduction": {
+     "type": "cluster",
+     "clusterRadius": 40,
+     "clusterMinSize": 9,
+     "clusterMaxSize": 37.5,
+     "disablePopup": false,
+     "drawingInfo": {
+      "renderer": {
+       "authoringInfo": {
+        "isAutoGenerated": true
+       },
+       "type": "simple",
+       "visualVariables": [],
+       "symbol": {
+        "type": "esriSMS",
+        "color": [
+         30,
+         70,
+         120,
+         220
+        ],
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "size": 6,
+        "style": "esriSMSSquare",
+        "outline": {
+         "type": "esriSLS",
+         "color": [
+          255,
+          255,
+          255,
+          255
+         ],
+         "width": 0.75,
+         "style": "esriSLSSolid"
+        }
+       }
+      }
+     },
+     "showLabels": true,
+     "fields": [
+      {
+       "isAutoGenerated": true,
+       "name": "cluster_count",
+       "alias": "cluster_count",
+       "statisticType": "count"
+      }
+     ],
+     "labelsVisible": true,
+     "labelingInfo": [
+      {
+       "labelExpressionInfo": {
+        "expression": "Text($feature.cluster_count, '#,###')"
+       },
+       "labelPlacement": "esriServerPointLabelPlacementCenterCenter",
+       "deconflictionStrategy": "none",
+       "symbol": {
+        "type": "esriTS",
+        "color": [
+         255,
+         255,
+         255,
+         255
+        ],
+        "font": {
+         "family": "Arial",
+         "size": 9,
+         "weight": "bold"
+        },
+        "haloColor": [
+         30,
+         70,
+         120,
+         255
+        ],
+        "haloSize": 0.5
+       }
+      }
+     ],
+     "popupEnabled": true,
+     "popupInfo": {
+      "title": "{cluster_count} Fotos ohne Tagesdatum an diesem Ort",
+      "fieldInfos": [
+       {
+        "fieldName": "cluster_count",
+        "label": "Anzahl",
+        "format": {
+         "places": 0,
+         "digitSeparator": true
+        }
+       }
+      ],
+      "popupElements": [
+       {
+        "type": "text",
+        "text": "Weltmuseum Wien, Fotosammlung. Einzelne Fotos mit Bild: „Browse features“ (Funktionen durchsuchen)."
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/arcgis/rest/services/KE1893_photos_all/FeatureServer/0",
+   "itemId": "83168e4e37ed442698036078788680d2",
+   "layerType": "ArcGISFeatureLayer",
+   "opacity": 1,
+   "popupInfo": {
+    "title": "Foto {vf_id}",
+    "fieldInfos": [
+     {
+      "fieldName": "vf_id",
+      "label": "vf_id",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "title",
+      "label": "title",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "museum_date",
+      "label": "museum_date",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "photo_date",
+      "label": "photo_date",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "date_range",
+      "label": "date_range",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place_name",
+      "label": "place_name",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place_tier",
+      "label": "place_tier",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place_rule",
+      "label": "place_rule",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "place_src",
+      "label": "place_src",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "museum_geography",
+      "label": "museum_geography",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "route_place",
+      "label": "route_place",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "image_url",
+      "label": "image_url",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "museum_url",
+      "label": "museum_url",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "licence",
+      "label": "licence",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "creator",
+      "label": "creator",
+      "visible": false,
+      "isEditable": false
+     },
+     {
+      "fieldName": "europeana",
+      "label": "europeana",
+      "visible": false,
+      "isEditable": false
+     }
+    ],
+    "expressionInfos": [
+     {
+      "name": "credit",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.licence), 'Weltmuseum Wien; Lizenz nicht geprüft', IIf(IsEmpty($feature.creator), '', $feature.creator + ', ') + 'Weltmuseum Wien, ' + $feature.licence + ' (über Europeana; Aggregator: Kulturpool)')"
+     },
+     {
+      "name": "eu",
+      "returnType": "string",
+      "expression": "IIf(IsEmpty($feature.europeana), '', ' · Europeana: ' + $feature.europeana)"
+     },
+     {
+      "name": "range",
+      "returnType": "string",
+      "expression": "IIf($feature.date_range == 'ja', ' (Zeitraum; auf der Zeitleiste der erste Tag)', '')"
+     }
+    ],
+    "popupElements": [
+     {
+      "type": "media",
+      "mediaInfos": [
+       {
+        "type": "image",
+        "title": "",
+        "caption": "Foto: {expression/credit}",
+        "altText": "{title}",
+        "value": {
+         "sourceURL": "{image_url}",
+         "linkURL": "{museum_url}"
+        }
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Titel (historische Bildunterschrift des Weltmuseums, zitiert): „{title}“<br />Datierung laut Museum: {museum_date}{expression/range} · Geografie laut Museum: {museum_geography}<br /><span style='font-size:smaller'>Punkt = Ort laut {place_rule}: {place_name} (Koordinate: {place_src}), nicht der Standort Franz Ferdinands.</span><br /><a href='{museum_url}' target='_blank' rel='nofollow ugc noopener noreferrer'>Objektseite im Weltmuseum Wien</a>{expression/eu}"
+     },
+     {
+      "type": "text",
+      "text": "<p style='font-size:11px;'><b>Quelle:</b> Weltmuseum Wien, Fotosammlung; Punkt = Ort laut Museum, nicht die Position Franz Ferdinands.<br /><b>Status:</b> Ort regelbasiert, nicht von einer Person geprüft.<br /><b>Rechte:</b> je Bild: CC BY-NC-SA 4.0 laut Europeana (über Kulturpool), sonst „Lizenz nicht geprüft“.<br />Mehr: Beschreibung der Ebene (Details).</p>"
+     }
+    ]
+   },
+   "id": "KE1893_photos_dated",
+   "title": "Fotos Weltmuseum, mit Tagesdatum",
+   "visibility": true,
+   "layerDefinition": {
+    "definitionExpression": "photo_date IS NOT NULL",
+    "drawingInfo": {
+     "renderer": {
+      "type": "simple",
+      "symbol": {
+       "type": "esriSMS",
+       "color": [
+        30,
+        70,
+        120,
+        220
+       ],
+       "angle": 0,
+       "xoffset": 0,
+       "yoffset": 0,
+       "size": 6,
+       "style": "esriSMSSquare",
+       "outline": {
+        "type": "esriSLS",
+        "color": [
+         255,
+         255,
+         255,
+         255
+        ],
+        "width": 0.75,
+        "style": "esriSLSSolid"
+       }
+      }
+     }
+    },
+    "featureReduction": {
+     "type": "cluster",
+     "clusterRadius": 40,
+     "clusterMinSize": 9,
+     "clusterMaxSize": 37.5,
+     "disablePopup": false,
+     "drawingInfo": {
+      "renderer": {
+       "authoringInfo": {
+        "isAutoGenerated": true
+       },
+       "type": "simple",
+       "visualVariables": [],
+       "symbol": {
+        "type": "esriSMS",
+        "color": [
+         30,
+         70,
+         120,
+         220
+        ],
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "size": 6,
+        "style": "esriSMSSquare",
+        "outline": {
+         "type": "esriSLS",
+         "color": [
+          255,
+          255,
+          255,
+          255
+         ],
+         "width": 0.75,
+         "style": "esriSLSSolid"
+        }
+       }
+      }
+     },
+     "showLabels": true,
+     "fields": [
+      {
+       "isAutoGenerated": true,
+       "name": "cluster_count",
+       "alias": "cluster_count",
+       "statisticType": "count"
+      }
+     ],
+     "labelsVisible": true,
+     "labelingInfo": [
+      {
+       "labelExpressionInfo": {
+        "expression": "Text($feature.cluster_count, '#,###')"
+       },
+       "labelPlacement": "esriServerPointLabelPlacementCenterCenter",
+       "deconflictionStrategy": "none",
+       "symbol": {
+        "type": "esriTS",
+        "color": [
+         255,
+         255,
+         255,
+         255
+        ],
+        "font": {
+         "family": "Arial",
+         "size": 9,
+         "weight": "bold"
+        },
+        "haloColor": [
+         30,
+         70,
+         120,
+         255
+        ],
+        "haloSize": 0.5
+       }
+      }
+     ],
+     "popupEnabled": true,
+     "popupInfo": {
+      "title": "{cluster_count} Fotos der Weltreise an diesem Ort",
+      "fieldInfos": [
+       {
+        "fieldName": "cluster_count",
+        "label": "Anzahl",
+        "format": {
+         "places": 0,
+         "digitSeparator": true
+        }
+       }
+      ],
+      "popupElements": [
+       {
+        "type": "text",
+        "text": "Weltmuseum Wien, Fotosammlung. Einzelne Fotos mit Bild: „Browse features“ (Funktionen durchsuchen)."
+       }
+      ]
+     }
+    }
+   }
+  }
+ ],
+ "baseMap": {
+  "baseMapLayers": [
+   {
+    "id": "vintage",
+    "opacity": 1,
+    "title": "Vintage Shaded Relief",
+    "url": "https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/VintageShadedRelief/MapServer",
+    "visibility": true,
+    "layerType": "ArcGISTiledMapServiceLayer"
+   }
+  ],
+  "title": "Vintage Shaded Relief"
+ },
+ "authoringApp": "ArcGISMapViewer",
+ "authoringAppVersion": "2026.2",
+ "bookmarks": [
+  {
+   "name": "1 Triest, 15.12.1892: Abfahrt",
+   "timeExtent": [
+    -2431252800000,
+    -2431166400000
+   ],
+   "extent": {
+    "spatialReference": {
+     "wkid": 102100
+    },
+    "xmin": 890555.9263461885,
+    "ymin": 3895303.9633938945,
+    "xmax": 4230140.650144395,
+    "ymax": 6274861.394006577
+   },
+   "viewpoint": {
+    "rotation": 0,
+    "targetGeometry": {
+     "spatialReference": {
+      "wkid": 102100
+     },
+     "xmin": 890555.9263461885,
+     "ymin": 3895303.9633938945,
+     "xmax": 4230140.650144395,
+     "ymax": 6274861.394006577
+    }
+   }
+  },
+  {
+   "name": "2 Ceylon: Jagd bei Kala Wewa, 10.–12.1.1893",
+   "timeExtent": [
+    -2431252800000,
+    -2428833600000
+   ],
+   "extent": {
+    "spatialReference": {
+     "wkid": 102100
+    },
+    "xmin": 8738580.027271975,
+    "ymin": 613199.6633499706,
+    "xmax": 9183857.990445068,
+    "ymax": 1175452.6085934294
+   },
+   "viewpoint": {
+    "rotation": 0,
+    "targetGeometry": {
+     "spatialReference": {
+      "wkid": 102100
+     },
+     "xmin": 8738580.027271975,
+     "ymin": 613199.6633499706,
+     "xmax": 9183857.990445068,
+     "ymax": 1175452.6085934294
+    }
+   }
+  },
+  {
+   "name": "3 Indien abseits der Häfen: kein Kulturpool-Treffer",
+   "timeExtent": [
+    -2431252800000,
+    -2423995200000
+   ],
+   "extent": {
+    "spatialReference": {
+     "wkid": 102100
+    },
+    "xmin": 7569725.373942603,
+    "ymin": 1689200.1396078924,
+    "xmax": 10241393.152981168,
+    "ymax": 3763310.6271446524
+   },
+   "viewpoint": {
+    "rotation": 0,
+    "targetGeometry": {
+     "spatialReference": {
+      "wkid": 102100
+     },
+     "xmin": 7569725.373942603,
+     "ymin": 1689200.1396078924,
+     "xmax": 10241393.152981168,
+     "ymax": 3763310.6271446524
+    }
+   }
+  },
+  {
+   "name": "4 Hyderabad, 24.–26.1.1893: Fotos",
+   "timeExtent": [
+    -2431252800000,
+    -2427537600000
+   ],
+   "extent": {
+    "spatialReference": {
+     "wkid": 102100
+    },
+    "xmin": 8348961.809495518,
+    "ymin": 1631643.4670073595,
+    "xmax": 8961219.00885852,
+    "ymax": 2273030.926987689
+   },
+   "viewpoint": {
+    "rotation": 0,
+    "targetGeometry": {
+     "spatialReference": {
+      "wkid": 102100
+     },
+     "xmin": 8348961.809495518,
+     "ymin": 1631643.4670073595,
+     "xmax": 8961219.00885852,
+     "ymax": 2273030.926987689
+    }
+   }
+  },
+  {
+   "name": "5 Japan → Pazifik → Vancouver",
+   "timeExtent": [
+    -2431252800000,
+    -2408356800000
+   ],
+   "extent": {
+    "spatialReference": {
+     "wkid": 102100
+    },
+    "xmin": 13914936.349159194,
+    "ymin": 2037548.5447506013,
+    "xmax": 27273275.24435202,
+    "ymax": 7967317.535015907
+   },
+   "viewpoint": {
+    "rotation": 0,
+    "targetGeometry": {
+     "spatialReference": {
+      "wkid": 102100
+     },
+     "xmin": 13914936.349159194,
+     "ymin": 2037548.5447506013,
+     "xmax": 27273275.24435202,
+     "ymax": 7967317.535015907
+    }
+   }
+  },
+  {
+   "name": "6 Zurück in Europa: Le Havre",
+   "timeExtent": [
+    -2431252800000,
+    -2404900800000
+   ],
+   "extent": {
+    "spatialReference": {
+     "wkid": 102100
+    },
+    "xmin": -667916.9447596414,
+    "ymin": 4865942.279503176,
+    "xmax": 1781111.852692377,
+    "ymax": 7170156.293999948
+   },
+   "viewpoint": {
+    "rotation": 0,
+    "targetGeometry": {
+     "spatialReference": {
+      "wkid": 102100
+     },
+     "xmin": -667916.9447596414,
+     "ymin": 4865942.279503176,
+     "xmax": 1781111.852692377,
+     "ymax": 7170156.293999948
+    }
+   }
+  }
+ ],
+ "initialState": {
+  "viewpoint": {
+   "targetGeometry": {
+    "xmin": -14471533.803125564,
+    "ymin": -5621521.486192067,
+    "xmax": 19926188.85199597,
+    "ymax": 8859142.800565697,
+    "spatialReference": {
+     "wkid": 102100
+    }
+   }
+  }
+ },
+ "spatialReference": {
+  "latestWkid": 3857,
+  "wkid": 102100
+ },
+ "timeZone": "system",
+ "version": "2.37",
+ "widgets": {
+  "timeSlider": {
+   "properties": {
+    "currentTimeExtent": [
+     null,
+     -2431166428000
+    ],
+    "endTime": -2404814400000,
+    "startTime": -2431252828000,
+    "thumbCount": 1,
+    "thumbMovingRate": 300,
+    "timeStopInterval": {
+     "interval": 1,
+     "units": "esriTimeUnitsDays"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,23 @@
+---
+type: person
+id: ke-person-89ce2bd4c9
+created_by: ai-assisted
+checked: false
+---
+- Titel: 
+- Lebensdaten (1864, Ort - Jahr, Ort)
+- Beruf/Funktionen: Ober-Maschinenwärter
+- Auszeichnung: Seereise-Denkmünze 1892/1893, Bronzene Jubiläums-Erinnerungs-Medaille für Civil-Staatsbedienstete, Militär-Dienstzeichen für Mannschaft 2. Classe, Silbernes Verdienst-Kreuz mit der Krone
+	- Quelle:https://library.hungaricana.hu/en/view/RangUndEinteilungslisteMarine_1899-05-15/?pg=72&layout=s
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle
+	- Kapitän
+- Ortschaft (Link)
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur

@@ -1,0 +1,23 @@
+---
+type: person
+id: ke-person-bd936f4789
+created_by: ai-assisted
+checked: false
+---
+- Titel: 
+- Lebensdaten:
+- Beruf/Funktionen: Mar. Com. Adjct. 2. Cl.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Mar. Com. Adjct. 2. Cl. (seit 11. Oktober 1897)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1897-11-15__pages184-184.pdf (S. 183)
+- Quelle: RangUndEinteilungslisteMarine_1898-02-15__pages184-184.pdf (S. 184)

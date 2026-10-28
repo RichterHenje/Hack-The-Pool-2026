@@ -1,0 +1,876 @@
+[
+ {
+  "id": "port-said",
+  "region": "port-said",
+  "label": "Port Said",
+  "diary": [
+   "Port Said",
+   "Menzaleh"
+  ],
+  "anno": [
+   "Port Said",
+   "Menzaleh",
+   "Mensaleh"
+  ],
+  "wikidata": "Q134509",
+  "lat": 31.2625,
+  "lon": 32.3061,
+  "vault": [
+   {
+    "note": "Port Said",
+    "id": "ke-place-30c32adc7f"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "kalawewa",
+  "region": "ceylon",
+  "label": "Kala Wewa (Ceylon)",
+  "diary": [
+   "Kalawewa",
+   "Kala Wewa"
+  ],
+  "anno": [
+   "Ceylon",
+   "Kalawewa"
+  ],
+  "wikidata": "Q7354820",
+  "lat": 8.0135,
+  "lon": 80.5563,
+  "vault": [
+   {
+    "note": "Kala Wewa, Sri Lanka",
+    "id": "ke-place-f7bc511558"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "kandy",
+  "region": "ceylon",
+  "label": "Kandy (Ceylon)",
+  "diary": [
+   "Kandy"
+  ],
+  "anno": [
+   "Ceylon",
+   "Kandy"
+  ],
+  "wikidata": "Q203197",
+  "lat": 7.2931,
+  "lon": 80.635,
+  "vault": [
+   {
+    "note": "Kandy, Sri Lanka",
+    "id": "ke-place-b0bb1cc60a"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "bombay",
+  "region": "bombay",
+  "label": "Bombay (Mumbai)",
+  "diary": [
+   "Bombay"
+  ],
+  "anno": [
+   "Bombay"
+  ],
+  "wikidata": "Q1156",
+  "lat": 19.0758,
+  "lon": 72.8775,
+  "vault": [
+   {
+    "note": "Bombay (Indien, Heut. Mumbai)",
+    "id": "ke-place-88273659d6"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "tandur",
+  "region": "hyderabad",
+  "label": "Tandur (Hyderabad State)",
+  "diary": [
+   "Tandur",
+   "TaiuUir"
+  ],
+  "anno": [
+   "Haiderabad",
+   "Hyderabad",
+   "Tandur"
+  ],
+  "wikidata": "Q720922",
+  "lat": 17.23,
+  "lon": 77.58,
+  "vault": [
+   {
+    "note": "Tandur, Telangana, Indien",
+    "id": "ke-place-eb5c1a35e4"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "hyderabad",
+  "region": "hyderabad",
+  "label": "Hyderabad",
+  "diary": [
+   "Haidarabad",
+   "Hyderabad",
+   "Sarur Nagar"
+  ],
+  "anno": [
+   "Haiderabad",
+   "Hyderabad"
+  ],
+  "wikidata": "Q1361",
+  "lat": 17.3617,
+  "lon": 78.4747,
+  "vault": [
+   {
+    "note": "Nizamate of Hyderabad, State, (Indien)",
+    "id": "ke-place-f2704ec7e8"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "calcutta",
+  "region": "calcutta",
+  "label": "Calcutta (Kolkata)",
+  "diary": [
+   "Calcutta",
+   "Calciitta"
+  ],
+  "anno": [
+   "Calcutta"
+  ],
+  "wikidata": "Q1348",
+  "lat": 22.5675,
+  "lon": 88.37,
+  "vault": [
+   {
+    "note": "Calcutta (Indien)",
+    "id": "ke-place-86d6613db1"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "agra",
+  "region": "agra",
+  "label": "Agra",
+  "diary": [
+   "Agra"
+  ],
+  "anno": [
+   "Agra"
+  ],
+  "wikidata": "Q42941",
+  "lat": 27.18,
+  "lon": 78.02,
+  "vault": [
+   {
+    "note": "Agra, (U.P.), Indien",
+    "id": "ke-place-25cf049ce2"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "bharatpur",
+  "region": "agra",
+  "label": "Bharatpur",
+  "diary": [
+   "Bhartpur",
+   "Bharatpur"
+  ],
+  "anno": [
+   "Bhurtpore",
+   "Bhartpur",
+   "Agra"
+  ],
+  "wikidata": "Q559834",
+  "lat": 27.2172,
+  "lon": 77.49,
+  "vault": [],
+  "coords_from": "wikidata",
+  "on_route": false
+ },
+ {
+  "id": "delhi",
+  "region": "delhi",
+  "label": "Delhi",
+  "diary": [
+   "Dehii",
+   "Dehli",
+   "Delhi"
+  ],
+  "anno": [
+   "Delhi"
+  ],
+  "wikidata": "Q1353",
+  "lat": 28.6667,
+  "lon": 77.2167,
+  "vault": [
+   {
+    "note": "Delhi (Indien)",
+    "id": "ke-place-1cae542c46"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "sariska",
+  "region": "alwar",
+  "label": "Sariska (Alwar State)",
+  "diary": [
+   "Siriska",
+   "Sirtska",
+   "Alwar",
+   "Sariska"
+  ],
+  "anno": [
+   "Alwar",
+   "Ulwar"
+  ],
+  "wikidata": "Q2572177",
+  "lat": 27.3175,
+  "lon": 76.4369,
+  "vault": [
+   {
+    "note": "Alwar, Rajputana (Indien)",
+    "id": "ke-place-224c44805c"
+   }
+  ],
+  "camps": [
+   {
+    "name": "Alwar",
+    "diary": [
+     "Alwar"
+    ],
+    "wikidata": "Q2722762",
+    "basis": "wikidata",
+    "note": "town and palace of the Maharaja, about 35 km north of the Sariska camp",
+    "lat": 27.5667,
+    "lon": 76.6167,
+    "ref": "https://www.wikidata.org/wiki/Q2722762"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "jodhpur",
+  "region": "jodhpur",
+  "label": "Jodhpur",
+  "diary": [
+   "Dschodpur",
+   "Dscbodpur",
+   "Jodhpur"
+  ],
+  "anno": [
+   "Jodhpur",
+   "Jodhpore"
+  ],
+  "wikidata": "Q200019",
+  "lat": 26.2944,
+  "lon": 73.0278,
+  "vault": [
+   {
+    "note": "Jodhpur, Rajasthan, Indien",
+    "id": "ke-place-21307d9f52"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "jaipur",
+  "region": "jaipur",
+  "label": "Jaipur",
+  "diary": [
+   "Dschaipur",
+   "Jaipur"
+  ],
+  "anno": [
+   "Jaipur",
+   "Jeypore"
+  ],
+  "wikidata": "Q66485",
+  "lat": 26.915,
+  "lon": 75.82,
+  "vault": [
+   {
+    "note": "Jaipur (Jeypore), Rajasthan, Indien",
+    "id": "ke-place-342139a06d"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "nepal-terai",
+  "region": "nepal",
+  "label": "Nepal Terai (Dakna Bāgh, Beli …)",
+  "diary": [
+   "Dakna",
+   "Barbatta",
+   "Dechta",
+   "Dcchta",
+   "Beli",
+   "Katni",
+   "Sohela",
+   "Guleria",
+   "Bhanderia",
+   "Barbatta Valley"
+  ],
+  "anno": [
+   "Nepal"
+  ],
+  "wikidata": "Q28981",
+  "lat": 28.8333,
+  "lon": 80.3333,
+  "coord_note": "approximate: Kanchanpur District (W Nepal Terai); the camps are in camps",
+  "vault": [
+   {
+    "note": "Dakna Bâgh, Nepal",
+    "id": "ke-place-4bfd653020"
+   },
+   {
+    "note": "Beli, Nepal",
+    "id": "ke-place-2b7becd30b"
+   }
+  ],
+  "camps": [
+   {
+    "name": "Dakna Bâgh",
+    "diary": [
+     "Dakna"
+    ],
+    "lat": 28.869,
+    "lon": 80.177,
+    "basis": "estimated",
+    "note": "diary: Barbatta 10 km south-east, Pilibhit 41 km"
+   },
+   {
+    "name": "Barbatta Tâl",
+    "diary": [
+     "Barbatta"
+    ],
+    "lat": 28.8054,
+    "lon": 80.2496,
+    "basis": "geonames",
+    "ref": "https://sws.geonames.org/1283666/",
+    "note": "Barbatta, Kanchanpur"
+   },
+   {
+    "name": "Dechta Boli",
+    "diary": [
+     "Dechta",
+     "Dcchta"
+    ],
+    "lat": 28.817,
+    "lon": 80.359,
+    "basis": "estimated",
+    "note": "Höfer: 11 km from Barbatta, 13 km to Guleria"
+   },
+   {
+    "name": "Guleria",
+    "diary": [
+     "Guleria"
+    ],
+    "lat": 28.8311,
+    "lon": 80.4879,
+    "basis": "geonames",
+    "ref": "https://sws.geonames.org/1283369/",
+    "note": "Gulariyā-Kriṣṇapur, Kanchanpur; 24 km from Barbatta (Höfer 11 + 13)"
+   },
+   {
+    "name": "Beli",
+    "diary": [
+     "Beli"
+    ],
+    "lat": 28.6826,
+    "lon": 80.6647,
+    "basis": "geonames",
+    "ref": "https://sws.geonames.org/7956475/",
+    "note": "Beli, Kailali; 24 km from Gulariya (diary: 23 km east)"
+   },
+   {
+    "name": "Katni",
+    "diary": [
+     "Katni"
+    ],
+    "lat": 28.7032,
+    "lon": 80.8476,
+    "basis": "geonames",
+    "ref": "https://sws.geonames.org/7956945/",
+    "note": "Katan, Kailali; 18 km from Beli (diary: 23 km)"
+   },
+   {
+    "name": "Bhanderia",
+    "diary": [
+     "Bhanderia"
+    ],
+    "lat": 28.689,
+    "lon": 80.77,
+    "basis": "estimated",
+    "note": "diary: Sohela 16 km south; Höfer: Katni 10 km"
+   },
+   {
+    "name": "Sohela",
+    "diary": [
+     "Sohela"
+    ],
+    "lat": 28.545,
+    "lon": 80.77,
+    "basis": "estimated",
+    "note": "India, at the railway then being built from Mailani to the border; placed at Chandan Chauki station"
+   }
+  ],
+  "coords_from": "fixed",
+  "on_route": true
+ },
+ {
+  "id": "batavia",
+  "region": "java",
+  "label": "Batavia (Jakarta)",
+  "diary": [
+   "Baiavia",
+   "Batavia"
+  ],
+  "anno": [
+   "Java",
+   "Batavia"
+  ],
+  "wikidata": "Q3630",
+  "lat": -6.1753,
+  "lon": 106.8269,
+  "vault": [
+   {
+    "note": "Batavia (heut. Jakarta, Indonesien)",
+    "id": "ke-place-9d5ffe029c"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "garut",
+  "region": "java",
+  "label": "Garut (Java)",
+  "diary": [
+   "Garut"
+  ],
+  "anno": [
+   "Java",
+   "Garut"
+  ],
+  "wikidata": "Q10371",
+  "lat": -7.2047,
+  "lon": 107.8876,
+  "vault": [
+   {
+    "note": "Garut, Indonesien",
+    "id": "ke-place-1dc0928819"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "cianjur",
+  "region": "java",
+  "label": "Tjiandjur (Cianjur, Java)",
+  "diary": [
+   "Tjiandjur",
+   "Tjandjur"
+  ],
+  "anno": [
+   "Java"
+  ],
+  "wikidata": "Q10367",
+  "lat": -6.8212,
+  "lon": 107.1401,
+  "vault": [
+   {
+    "note": "Tjiandjur (heut. Cianjur, Indonesien)",
+    "id": "ke-place-18f3651c25"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "tjipandak",
+  "region": "java",
+  "label": "Tjipandak (Java)",
+  "diary": [
+   "Tjipandak"
+  ],
+  "anno": [
+   "Java"
+  ],
+  "wikidata": "Q10367",
+  "lat": -7.3,
+  "lon": 107.1,
+  "coord_note": "approximate: southern Cianjur Regency",
+  "vault": [
+   {
+    "note": "Tjipandak, (heut. Cipandak, Indoensien)",
+    "id": "ke-place-680627ae16"
+   }
+  ],
+  "coords_from": "fixed",
+  "on_route": true
+ },
+ {
+  "id": "port-kennedy",
+  "region": "port-kennedy",
+  "label": "Port Kennedy (Thursday Island)",
+  "diary": [
+   "Port Kennedy",
+   "Port Kennedv"
+  ],
+  "anno": [
+   "Thursday Island",
+   "Port Kennedy"
+  ],
+  "wikidata": "Q556632",
+  "lat": -10.5789,
+  "lon": 142.22,
+  "vault": [
+   {
+    "note": "Port Kennedy, Australien",
+    "id": "ke-place-700e9ec3d4"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "narromine",
+  "region": "nsw-west",
+  "label": "Narromine (NSW)",
+  "diary": [
+   "Narromine",
+   "MuUengudgery",
+   "Mullengudgery"
+  ],
+  "anno": [
+   "Narromine",
+   "Australien"
+  ],
+  "wikidata": "Q610975",
+  "lat": -32.2333,
+  "lon": 148.2333,
+  "vault": [
+   {
+    "note": "Narromine, Australien",
+    "id": "ke-place-daf25f722e"
+   },
+   {
+    "note": "Mullengudgerey, Australien",
+    "id": "ke-place-1c687368ce"
+   }
+  ],
+  "camps": [
+   {
+    "name": "Mullengudgery",
+    "diary": [
+     "Mullengudgery",
+     "MuUengudgery"
+    ],
+    "wikidata": "Q55178659",
+    "basis": "wikidata",
+    "note": "sheep station west of Narromine",
+    "lat": -31.7118,
+    "lon": 147.4802,
+    "ref": "https://www.wikidata.org/wiki/Q55178659"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "badgery",
+  "region": "badgery",
+  "label": "Arthursleigh / Badgery Station (NSW)",
+  "diary": [
+   "Badgery"
+  ],
+  "anno": [
+   "Australien",
+   "Sydney"
+  ],
+  "wikidata": "Q6777932",
+  "lat": -34.715,
+  "lon": 150.0011,
+  "coord_note": "approximate: Marulan, NSW",
+  "vault": [
+   {
+    "note": "Arthurs Leigh Badgery Station, Australien",
+    "id": "ke-place-4d42aa16b3"
+   }
+  ],
+  "coords_from": "fixed",
+  "on_route": true
+ },
+ {
+  "id": "port-moresby",
+  "region": "new-guinea",
+  "label": "Port Moresby / Laroki (New Guinea)",
+  "diary": [
+   "Port Moresby",
+   "Laroki"
+  ],
+  "anno": [
+   "Neu-Guinea",
+   "Neuguinea",
+   "Port Moresby"
+  ],
+  "wikidata": "Q36526",
+  "lat": -9.4789,
+  "lon": 147.1494,
+  "vault": [
+   {
+    "note": "Port Moresby, Papa Neuguinea",
+    "id": "ke-place-d6c0ce20e1"
+   }
+  ],
+  "camps": [
+   {
+    "name": "Jagdlager am Laroki",
+    "diary": [
+     "Laroki"
+    ],
+    "lat": -9.38,
+    "lon": 147.25,
+    "basis": "estimated",
+    "note": "diary: camp on the north bank of the Laroki (Laloki), a day's ride from Port Moresby; placed on the lower river"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "aru",
+  "region": "aru",
+  "label": "Aru Islands",
+  "diary": [
+   "Aru-Inseln"
+  ],
+  "anno": [
+   "Aru"
+  ],
+  "wikidata": null,
+  "lat": -6.2,
+  "lon": 134.5,
+  "coord_note": "approximate",
+  "vault": [
+   {
+    "note": "Dobo, Aru Inseln,  Indonesien",
+    "id": "ke-place-f58a8c8654"
+   }
+  ],
+  "coords_from": "fixed",
+  "on_route": true
+ },
+ {
+  "id": "kajeli",
+  "region": "buru",
+  "label": "Kajeli (Buru)",
+  "diary": [
+   "Kajeli"
+  ],
+  "anno": [
+   "Buru",
+   "Amboina"
+  ],
+  "wikidata": "Q271030",
+  "lat": -3.4458,
+  "lon": 126.6322,
+  "vault": [
+   {
+    "note": "Kajeli (heut. Buru, Indonesien)",
+    "id": "ke-place-2f6495b24a"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "canton",
+  "region": "canton",
+  "label": "Canton (Guangzhou)",
+  "diary": [
+   "Kanton"
+  ],
+  "anno": [
+   "Canton"
+  ],
+  "wikidata": "Q16572",
+  "lat": 23.13,
+  "lon": 113.26,
+  "vault": [
+   {
+    "note": "Kanton, (heut. Guangzhou, China)",
+    "id": "ke-place-d265df6074"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "kyoto",
+  "region": "kyoto",
+  "label": "Kyoto",
+  "diary": [
+   "Kiötö",
+   "Kioto"
+  ],
+  "anno": [
+   "Kioto"
+  ],
+  "wikidata": "Q34600",
+  "lat": 35.0116,
+  "lon": 135.7681,
+  "vault": [
+   {
+    "note": "Kyoto, Japan",
+    "id": "ke-place-e7ab519b7b"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "banff",
+  "region": "canada",
+  "label": "Banff (Alberta)",
+  "diary": [
+   "Banff"
+  ],
+  "anno": [
+   "Canada"
+  ],
+  "wikidata": "Q41858",
+  "lat": 51.1667,
+  "lon": -115.55,
+  "vault": [
+   {
+    "note": "Banff, Kanada",
+    "id": null
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": false
+ },
+ {
+  "id": "penticton",
+  "region": "canada",
+  "label": "Penticton / Shingle Creek (BC)",
+  "diary": [
+   "Penticton",
+   "Shingle Creek"
+  ],
+  "anno": [
+   "Canada"
+  ],
+  "wikidata": "Q935519",
+  "lat": 49.4911,
+  "lon": -119.5886,
+  "vault": [
+   {
+    "note": "Penticton, Kanada",
+    "id": null
+   }
+  ],
+  "camps": [
+   {
+    "name": "Shingle Creek",
+    "diary": [
+     "Shingle Creek"
+    ],
+    "lat": 49.47,
+    "lon": -119.72,
+    "basis": "estimated",
+    "note": "camp on Shingle Creek, which joins the Okanagan at Penticton from the west"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": false
+ },
+ {
+  "id": "gwalior",
+  "region": "gwalior",
+  "label": "Gwalior",
+  "diary": [
+   "Gwalior"
+  ],
+  "anno": [
+   "Gwalior"
+  ],
+  "wikidata": "Q158467",
+  "lat": 26.2125,
+  "lon": 78.1775,
+  "vault": [
+   {
+    "note": "Gwalior, (Madhya Pradesh, Indien)",
+    "id": "ke-place-c16efe6ffc"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ },
+ {
+  "id": "owaraha",
+  "region": "solomon",
+  "label": "Owa Raha / Ugi (Salomonen)",
+  "diary": [
+   "Owa Raha",
+   "Ugi"
+  ],
+  "anno": [
+   "Salomon"
+  ],
+  "wikidata": "Q2042567",
+  "lat": -10.8283,
+  "lon": 162.4636,
+  "vault": [
+   {
+    "note": "Owaraha, Salomonen Inseln",
+    "id": "ke-place-17b0dc9d30"
+   }
+  ],
+  "camps": [
+   {
+    "name": "Ugi",
+    "diary": [
+     "Ugi"
+    ],
+    "wikidata": "Q7877758",
+    "basis": "wikidata",
+    "note": "Uki Ni Masi; the ship anchored in Selwyn Bay on the west side",
+    "lat": -10.255,
+    "lon": 161.735,
+    "ref": "https://www.wikidata.org/wiki/Q7877758"
+   }
+  ],
+  "coords_from": "wikidata",
+  "on_route": true
+ }
+]

@@ -1,0 +1,24 @@
+---
+type: person
+id: ke-person-ccc73d2a19
+created_by: ai-assisted
+checked: false
+---
+- Titel: 
+- Lebensdaten:
+- Beruf/Funktionen: Maschlt. 1. Kl.
+- Auszeichnung: 
+- GND oder VIAF (Identifier)
+- Lexikonbeitrag
+- Schiff: [[Kaiserin Elisabeth, Kreuzer]]
+	- Rolle: Maschltr. 2. Cl. (Rangliste 1900, ohne Datum)
+	- Rolle: Maschlt. 1. Kl. (seit 6. August 1903)
+- Ortschaft (Link):
+- Länderbezug (Tag)
+- Archivalien mit Signatur
+- Goobi-Link zu den Archivalien
+- Weitere Informationen mit Sammlungsbezug 
+- Links zu Bezugspersonen
+- Literatur
+- Quelle: RangUndEinteilungslisteMarine_1900-05-15__pages155-156.pdf (S. 154–155)
+- Quelle: RangUndEinteilungslisteMarine_1904-01-01__pages170-171.pdf (S. 169–170)
