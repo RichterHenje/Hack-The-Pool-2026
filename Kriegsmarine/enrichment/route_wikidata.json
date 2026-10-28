@@ -37,15 +37,15 @@
  },
  "Dakna Bâgh, Nepal": {
   "wikidata": "Q28981",
-  "coord_note": "approximate: Kanchanpur District (W Nepal Terai), camp not geolocated",
-  "lat": 28.8333,
-  "lon": 80.3333
+  "coord_note": "camp, estimated: diary: Barbatta 10 km south-east, Pilibhit 41 km (places.json camps)",
+  "lat": 28.869,
+  "lon": 80.177
  },
  "Beli, Nepal": {
   "wikidata": "Q28981",
-  "coord_note": "approximate: Kanchanpur District (W Nepal Terai), camp not geolocated",
-  "lat": 28.8333,
-  "lon": 80.3333
+  "coord_note": "camp, geonames: Beli, Kailali; 24 km from Gulariya (diary: 23 km east) (places.json camps)",
+  "lat": 28.6826,
+  "lon": 80.6647
  },
  "Batavia (heut. Jakarta, Indonesien)": {
   "wikidata": "Q3630"

@@ -255,6 +255,20 @@
     "id": "ke-place-224c44805c"
    }
   ],
+  "camps": [
+   {
+    "name": "Alwar",
+    "diary": [
+     "Alwar"
+    ],
+    "wikidata": "Q2722762",
+    "basis": "wikidata",
+    "note": "town and palace of the Maharaja, about 35 km north of the Sariska camp",
+    "lat": 27.5667,
+    "lon": 76.6167,
+    "ref": "https://www.wikidata.org/wiki/Q2722762"
+   }
+  ],
   "coords_from": "wikidata",
   "on_route": true
  },
@@ -329,7 +343,7 @@
   "wikidata": "Q28981",
   "lat": 28.8333,
   "lon": 80.3333,
-  "coord_note": "approximate: Kanchanpur District (W Nepal Terai), camps not geolocated",
+  "coord_note": "approximate: Kanchanpur District (W Nepal Terai); the camps are in camps",
   "vault": [
    {
     "note": "Dakna Bâgh, Nepal",
@@ -338,6 +352,93 @@
    {
     "note": "Beli, Nepal",
     "id": "ke-place-2b7becd30b"
+   }
+  ],
+  "camps": [
+   {
+    "name": "Dakna Bâgh",
+    "diary": [
+     "Dakna"
+    ],
+    "lat": 28.869,
+    "lon": 80.177,
+    "basis": "estimated",
+    "note": "diary: Barbatta 10 km south-east, Pilibhit 41 km"
+   },
+   {
+    "name": "Barbatta Tâl",
+    "diary": [
+     "Barbatta"
+    ],
+    "lat": 28.8054,
+    "lon": 80.2496,
+    "basis": "geonames",
+    "ref": "https://sws.geonames.org/1283666/",
+    "note": "Barbatta, Kanchanpur"
+   },
+   {
+    "name": "Dechta Boli",
+    "diary": [
+     "Dechta",
+     "Dcchta"
+    ],
+    "lat": 28.817,
+    "lon": 80.359,
+    "basis": "estimated",
+    "note": "Höfer: 11 km from Barbatta, 13 km to Guleria"
+   },
+   {
+    "name": "Guleria",
+    "diary": [
+     "Guleria"
+    ],
+    "lat": 28.8311,
+    "lon": 80.4879,
+    "basis": "geonames",
+    "ref": "https://sws.geonames.org/1283369/",
+    "note": "Gulariyā-Kriṣṇapur, Kanchanpur; 24 km from Barbatta (Höfer 11 + 13)"
+   },
+   {
+    "name": "Beli",
+    "diary": [
+     "Beli"
+    ],
+    "lat": 28.6826,
+    "lon": 80.6647,
+    "basis": "geonames",
+    "ref": "https://sws.geonames.org/7956475/",
+    "note": "Beli, Kailali; 24 km from Gulariya (diary: 23 km east)"
+   },
+   {
+    "name": "Katni",
+    "diary": [
+     "Katni"
+    ],
+    "lat": 28.7032,
+    "lon": 80.8476,
+    "basis": "geonames",
+    "ref": "https://sws.geonames.org/7956945/",
+    "note": "Katan, Kailali; 18 km from Beli (diary: 23 km)"
+   },
+   {
+    "name": "Bhanderia",
+    "diary": [
+     "Bhanderia"
+    ],
+    "lat": 28.689,
+    "lon": 80.77,
+    "basis": "estimated",
+    "note": "diary: Sohela 16 km south; Höfer: Katni 10 km"
+   },
+   {
+    "name": "Sohela",
+    "diary": [
+     "Sohela"
+    ],
+    "lat": 28.545,
+    "lon": 80.77,
+    "basis": "estimated",
+    "note": "India, at the railway then being built from Mailani to the border; placed at Chandan Chauki station"
    }
   ],
   "coords_from": "fixed",
@@ -486,6 +587,21 @@
     "id": "ke-place-1c687368ce"
    }
   ],
+  "camps": [
+   {
+    "name": "Mullengudgery",
+    "diary": [
+     "Mullengudgery",
+     "MuUengudgery"
+    ],
+    "wikidata": "Q55178659",
+    "basis": "wikidata",
+    "note": "sheep station west of Narromine",
+    "lat": -31.7118,
+    "lon": 147.4802,
+    "ref": "https://www.wikidata.org/wiki/Q55178659"
+   }
+  ],
   "coords_from": "wikidata",
   "on_route": true
  },
@@ -533,6 +649,18 @@
    {
     "note": "Port Moresby, Papa Neuguinea",
     "id": "ke-place-d6c0ce20e1"
+   }
+  ],
+  "camps": [
+   {
+    "name": "Jagdlager am Laroki",
+    "diary": [
+     "Laroki"
+    ],
+    "lat": -9.38,
+    "lon": 147.25,
+    "basis": "estimated",
+    "note": "diary: camp on the north bank of the Laroki (Laloki), a day's ride from Port Moresby; placed on the lower river"
    }
   ],
   "coords_from": "wikidata",
@@ -671,6 +799,18 @@
     "id": null
    }
   ],
+  "camps": [
+   {
+    "name": "Shingle Creek",
+    "diary": [
+     "Shingle Creek"
+    ],
+    "lat": 49.47,
+    "lon": -119.72,
+    "basis": "estimated",
+    "note": "camp on Shingle Creek, which joins the Okanagan at Penticton from the west"
+   }
+  ],
   "coords_from": "wikidata",
   "on_route": false
  },
@@ -714,6 +854,20 @@
    {
     "note": "Owaraha, Salomonen Inseln",
     "id": "ke-place-17b0dc9d30"
+   }
+  ],
+  "camps": [
+   {
+    "name": "Ugi",
+    "diary": [
+     "Ugi"
+    ],
+    "wikidata": "Q7877758",
+    "basis": "wikidata",
+    "note": "Uki Ni Masi; the ship anchored in Selwyn Bay on the west side",
+    "lat": -10.255,
+    "lon": 161.735,
+    "ref": "https://www.wikidata.org/wiki/Q7877758"
    }
   ],
   "coords_from": "wikidata",

@@ -17,7 +17,7 @@
     "end": "1892-12-20",
     "animals": "Vögel (sonstige)",
     "kill_sentences": 2,
-    "newspaper_issues_high": 6,
+    "newspaper_issues_high": 1,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-30c32adc7f"
@@ -39,7 +39,7 @@
     "end": "1893-01-12",
     "animals": "Elefant, Vögel (sonstige), Affe, Büffel/Banteng",
     "kill_sentences": 7,
-    "newspaper_issues_high": 8,
+    "newspaper_issues_high": 5,
     "kulturpool_direct": 1,
     "photos": 3,
     "vault_ids": "ke-place-f7bc511558"
@@ -61,7 +61,7 @@
     "end": "1893-01-26",
     "animals": "Hirsch, Tiger",
     "kill_sentences": 8,
-    "newspaper_issues_high": 7,
+    "newspaper_issues_high": 2,
     "kulturpool_direct": 0,
     "photos": 10,
     "vault_ids": "ke-place-eb5c1a35e4, ke-place-f2704ec7e8"
@@ -83,7 +83,7 @@
     "end": "1893-01-30",
     "animals": "Vögel (sonstige)",
     "kill_sentences": 4,
-    "newspaper_issues_high": 0,
+    "newspaper_issues_high": 4,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-c16efe6ffc"
@@ -105,7 +105,7 @@
     "end": "1893-02-15",
     "animals": "Vögel (sonstige), Antilope, Hirsch, Schakal/Hyäne",
     "kill_sentences": 17,
-    "newspaper_issues_high": 2,
+    "newspaper_issues_high": 1,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-25cf049ce2"
@@ -149,7 +149,7 @@
     "end": "1893-03-02",
     "animals": "Hirsch, Wildschwein, Vögel (sonstige), Antilope",
     "kill_sentences": 5,
-    "newspaper_issues_high": 4,
+    "newspaper_issues_high": 1,
     "kulturpool_direct": 0,
     "photos": 1,
     "vault_ids": "ke-place-21307d9f52"
@@ -171,7 +171,7 @@
     "end": "1893-03-04",
     "animals": "Hirsch, Antilope",
     "kill_sentences": 3,
-    "newspaper_issues_high": 4,
+    "newspaper_issues_high": 1,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-342139a06d"
@@ -193,7 +193,7 @@
     "end": "1893-03-07",
     "animals": "Antilope, Vögel (sonstige)",
     "kill_sentences": 2,
-    "newspaper_issues_high": 3,
+    "newspaper_issues_high": 0,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-25cf049ce2"
@@ -215,7 +215,7 @@
     "end": "1893-03-26",
     "animals": "Tiger, Vögel (sonstige), Elefant, Panther/Leopard",
     "kill_sentences": 36,
-    "newspaper_issues_high": 9,
+    "newspaper_issues_high": 5,
     "kulturpool_direct": 1,
     "photos": 2,
     "vault_ids": "ke-place-4bfd653020, ke-place-2b7becd30b"
@@ -281,7 +281,7 @@
     "end": "1893-05-20",
     "animals": "Känguru, Vögel (sonstige), Emu/Kasuar",
     "kill_sentences": 14,
-    "newspaper_issues_high": 6,
+    "newspaper_issues_high": 2,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-daf25f722e, ke-place-1c687368ce"
@@ -303,7 +303,7 @@
     "end": "1893-05-25",
     "animals": "Känguru, Bär",
     "kill_sentences": 10,
-    "newspaper_issues_high": 1,
+    "newspaper_issues_high": 3,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-4d42aa16b3"
@@ -347,7 +347,7 @@
     "end": "1893-06-17",
     "animals": "Vögel (sonstige), Känguru",
     "kill_sentences": 3,
-    "newspaper_issues_high": 3,
+    "newspaper_issues_high": 1,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-d6c0ce20e1"
@@ -391,7 +391,7 @@
     "end": "1893-06-30",
     "animals": "Vögel (sonstige), Hirsch",
     "kill_sentences": 4,
-    "newspaper_issues_high": 2,
+    "newspaper_issues_high": 3,
     "kulturpool_direct": 0,
     "photos": 0,
     "vault_ids": "ke-place-2f6495b24a"

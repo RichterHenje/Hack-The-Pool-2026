@@ -6,7 +6,10 @@ Inputs
   route_wikidata.json                     QID per vault note (looked up 27.10.2026), optional fixed
                                           point + coord_note where Wikidata has none or is too coarse
   places.json                             enrichment overlay for the hunting places: diary/OCR
-                                          spellings, ANNO search terms, region (episode grouping)
+                                          spellings, ANNO search terms, region (episode grouping);
+                                          `camps`: the separate stops of a hunting place (Nepal camps,
+                                          Alwar beside Sariska …), each with `basis` (wikidata | geonames
+                                          | estimated), `ref` and a `note` on how the point was found
 
 Coordinates are read from Wikidata (P625) here, not typed in; a fixed lat/lon in route_wikidata.json
 or places.json is used only where a coord_note explains why.
@@ -47,7 +50,9 @@ def main():
     route = json.loads((NORM / "ortschaften.json").read_text())
     qmap = json.loads((ROOT / "route_wikidata.json").read_text())
     overlay = json.loads((ROOT / "places.json").read_text())
-    wd = wikidata([v["wikidata"] for v in qmap.values()] + [p["wikidata"] for p in overlay])
+    camps = [c for p in overlay for c in p.get("camps", [])]
+    wd = wikidata([v["wikidata"] for v in qmap.values()] + [p["wikidata"] for p in overlay] +
+                  [c["wikidata"] for c in camps if c.get("wikidata")])
 
     def coords(qid, fixed):
         if fixed.get("lat") is not None:
@@ -81,6 +86,10 @@ def main():
     resolved = []
     for o in overlay:
         lat, lon, how = coords(o["wikidata"], o if o.get("coord_note") else {})
+        for c in o.get("camps", []):
+            if c.get("wikidata"):
+                c["lat"], c["lon"], _ = coords(c["wikidata"], {})
+                c["ref"] = f"https://www.wikidata.org/wiki/{c['wikidata']}"
         resolved.append(o | {"lat": lat, "lon": lon, "coords_from": how,
                              "vault": [{"note": v, "id": ids.get(v)} for v in o["vault"]],
                              "on_route": any(v in ids for v in o["vault"])})

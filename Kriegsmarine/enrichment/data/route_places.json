@@ -262,10 +262,10 @@
    ],
    "wikidata": "Q28981",
    "wikidata_label": "Kanchanpur",
-   "lat": 28.8333,
-   "lon": 80.3333,
+   "lat": 28.869,
+   "lon": 80.177,
    "coords_from": "fixed",
-   "coord_note": "approximate: Kanchanpur District (W Nepal Terai), camp not geolocated"
+   "coord_note": "camp, estimated: diary: Barbatta 10 km south-east, Pilibhit 41 km (places.json camps)"
   },
   {
    "vault_id": "ke-place-2b7becd30b",
@@ -276,10 +276,10 @@
    ],
    "wikidata": "Q28981",
    "wikidata_label": "Kanchanpur",
-   "lat": 28.8333,
-   "lon": 80.3333,
+   "lat": 28.6826,
+   "lon": 80.6647,
    "coords_from": "fixed",
-   "coord_note": "approximate: Kanchanpur District (W Nepal Terai), camp not geolocated"
+   "coord_note": "camp, geonames: Beli, Kailali; 24 km from Gulariya (diary: 23 km east) (places.json camps)"
   },
   {
    "vault_id": "ke-place-b5dd2d88e4",

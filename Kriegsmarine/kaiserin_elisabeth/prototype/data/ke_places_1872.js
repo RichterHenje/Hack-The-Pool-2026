@@ -5,14 +5,14 @@
    Korrigieren: reise.html?kalibrieren, Marker ziehen, JSON hierher kopieren. */
 window.KE1872 = {
  "Port Said": {
-  "lat": 30.0557,
-  "lon": 32.4777,
-  "quelle": "Küstenabgleich, von Hand korrigiert"
+  "lat": 31.2653,
+  "lon": 32.3019,
+  "quelle": "Sichtprüfung (Kartenpunkt): Karte ohne Versatz"
  },
  "Aden": {
-  "lat": 15.3371,
-  "lon": 42.226,
-  "quelle": "Küstenabgleich"
+  "lat": 16.7414,
+  "lon": 43.9453,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)"
  },
  "Kandy": {
   "lat": 11.9684,
@@ -20,9 +20,9 @@ window.KE1872 = {
   "quelle": "Küstenabgleich"
  },
  "Colombo": {
-  "lat": 11.6181,
-  "lon": 79.6729,
-  "quelle": "Küstenabgleich"
+  "lat": 11.0922,
+  "lon": 79.4531,
+  "quelle": "Sichtprüfung (Kartenpunkt)"
  },
  "Mumbai": {
   "lat": 21.7088,
@@ -30,54 +30,54 @@ window.KE1872 = {
   "quelle": "Küstenabgleich"
  },
  "Tandur": {
-  "lat": 21.7214,
-  "lon": 77.4012,
-  "quelle": "Küstenabgleich"
+  "lat": 20.0766,
+  "lon": 77.2119,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)"
  },
  "Hyderabad": {
-  "lat": 21.8532,
-  "lon": 78.2806,
-  "quelle": "Küstenabgleich"
+  "lat": 20.221,
+  "lon": 78.0908,
+  "quelle": "Sichtprüfung (Kartenpunkt)"
  },
  "Kolkata": {
-  "lat": 26.5584,
-  "lon": 88.1873,
-  "quelle": "Küstenabgleich"
+  "lat": 24.1066,
+  "lon": 88.1104,
+  "quelle": "Sichtprüfung (Kartenpunkt)"
  },
  "Dārjiling": {
-  "lat": 29.9679,
-  "lon": 88.0909,
-  "quelle": "Küstenabgleich"
+  "lat": 27.196,
+  "lon": 87.9785,
+  "quelle": "Sichtprüfung (Kartenpunkt)"
  },
  "Agra": {
-  "lat": 29.6566,
-  "lon": 78.0167,
-  "quelle": "Küstenabgleich"
+  "lat": 27.3913,
+  "lon": 77.6074,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)"
  },
  "Delhi": {
-  "lat": 30.789,
-  "lon": 77.0557,
-  "quelle": "Küstenabgleich"
+  "lat": 28.3237,
+  "lon": 76.7725,
+  "quelle": "Sichtprüfung (Kartenpunkt)"
  },
  "Alwar": {
-  "lat": 30.0269,
-  "lon": 76.625,
-  "quelle": "Küstenabgleich"
+  "lat": 27.6251,
+  "lon": 76.1572,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)"
  },
  "Jodhpur": {
-  "lat": 28.7625,
-  "lon": 73.1817,
-  "quelle": "Küstenabgleich"
+  "lat": 26.9025,
+  "lon": 72.5537,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)"
  },
  "Jaipur": {
-  "lat": 29.3989,
-  "lon": 75.7878,
-  "quelle": "Küstenabgleich"
+  "lat": 27.2156,
+  "lon": 75.3223,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)"
  },
  "Murwāra": {
-  "lat": 26.3841,
-  "lon": 80.394,
-  "quelle": "Küstenabgleich"
+  "lat": 25.2447,
+  "lon": 79.9585,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)"
  },
  "Jakarta": {
   "lat": -0.6018,
@@ -100,9 +100,9 @@ window.KE1872 = {
   "quelle": "Küstenabgleich"
  },
  "Sydney": {
-  "lat": -29.5325,
-  "lon": 151.5589,
-  "quelle": "Küstenabgleich, von Hand korrigiert"
+  "lat": -31.5036,
+  "lon": 151.062,
+  "quelle": "Sichtprüfung (Kartenpunkt)"
  },
  "Nouméa": {
   "lat": -17.4819,
@@ -110,9 +110,9 @@ window.KE1872 = {
   "quelle": "Küstenabgleich"
  },
  "Port Moresby": {
-  "lat": -4.2434,
-  "lon": 146.9751,
-  "quelle": "Küstenabgleich"
+  "lat": -4.1492,
+  "lon": 147.3267,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)"
  },
  "Ambon": {
   "lat": 1.7506,
@@ -125,14 +125,14 @@ window.KE1872 = {
   "quelle": "Küstenabgleich"
  },
  "Hong Kong": {
-  "lat": 25.4923,
-  "lon": 113.9989,
-  "quelle": "Küstenabgleich"
+  "lat": 23.2615,
+  "lon": 113.6646,
+  "quelle": "Sichtprüfung (Kartenpunkt)"
  },
  "Guangzhou": {
-  "lat": 26.3097,
-  "lon": 113.0742,
-  "quelle": "Küstenabgleich"
+  "lat": 24.267,
+  "lon": 112.8955,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)"
  },
  "Nagasaki": {
   "lat": 30.9584,
@@ -170,9 +170,13 @@ window.KE1872 = {
   "quelle": "Küstenabgleich"
  },
  "Livingston": {
-  "lat": 37.9429,
-  "lon": -74.6664,
-  "quelle": "geschätzt zwischen Vancouver und New York"
+  "lat": 42.7365,
+  "lon": -110.8241,
+  "quelle": "geschätzt (Versatz von Yellowstone); Livingston, Montana, nicht New Jersey",
+  "heute": [
+   45.6619,
+   -110.5605
+  ]
  },
  "Colorado Springs": {
   "lat": 36.043,
@@ -200,13 +204,93 @@ window.KE1872 = {
   "quelle": "Küstenabgleich"
  },
  "Pula": {
-  "lat": 43.8631,
-  "lon": 13.6723,
-  "quelle": "Küstenabgleich (Triest)"
+  "lat": 42.261,
+  "lon": 14.0625,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)",
+  "heute": [
+   44.8683,
+   13.8481
+  ]
  },
  "Trieste": {
-  "lat": 44.6579,
-  "lon": 13.601,
-  "quelle": "Küstenabgleich (Triest)"
+  "lat": 43.0207,
+  "lon": 13.9307,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)",
+  "heute": [
+   45.6495,
+   13.7768
+  ]
+ },
+ "Nepal (Jagdlager)": {
+  "lat": 28.4977,
+  "lon": 79.8926,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)",
+  "heute": [
+   28.8333,
+   80.3333
+  ]
+ },
+ "Stuttgart": {
+  "lat": 45.7982,
+  "lon": 9.0527,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)",
+  "heute": [
+   48.78,
+   9.18
+  ]
+ },
+ "Port Kennedy": {
+  "lat": -4.7626,
+  "lon": 142.4048,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)",
+  "heute": [
+   -10.5789,
+   142.22
+  ]
+ },
+ "Ugi": {
+  "lat": -5.5941,
+  "lon": 162.312,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)",
+  "heute": [
+   -10.8283,
+   162.4636
+  ]
+ },
+ "Dobo": {
+  "lat": -1.0327,
+  "lon": 136.1865,
+  "quelle": "Sichtprüfung (relativ zu Nachbarorten)",
+  "heute": [
+   -6.2,
+   134.5
+  ]
+ },
+ "Kuching": {
+  "lat": 7.8634,
+  "lon": 110.896,
+  "quelle": "Sichtprüfung (Kartenpunkt)",
+  "heute": [
+   1.5535,
+   110.3593
+  ]
+ },
+ "Banff": {
+  "lat": 48.1186,
+  "lon": -115.7466,
+  "quelle": "geschätzt (Versatz von Penticton)",
+  "heute": [
+   51.1784,
+   -115.5708
+  ]
+ },
+ "Yellowstone (Mammoth)": {
+  "lat": 42.0512,
+  "lon": -110.9659,
+  "quelle": "geschätzt (Mittel Penticton/Colorado Springs)",
+  "heute": [
+   44.9766,
+   -110.7023
+  ]
  }
 };
