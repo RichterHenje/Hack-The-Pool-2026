@@ -36,7 +36,7 @@ The day-by-day page with the diary, the hunts, the press, and the photographs is
 
 ### "Your diary has 309 days. Yours or theirs, and how do you know the days are right?"
 
-The team's. We compared our own split of the OCR with the team's day list and recommended the team's base (`docs/12_diary_days_quality.md`). A blind check of 30 printed dates against the scans is prepared in `validation/diary_days_check.csv` and scored by `scripts/diary_days_score.py`, which fails if a control disagrees; the sheet is not filled yet. Fix before slam: if it is filled by 12:00, say the result with its n.
+The team's. We compared our own split of the OCR with the team's day list and recommended the team's base (`docs/12_diary_days_quality.md`). Say where the days come from: the 309 days are the day list of franzferdinandsworld.com (14 December 1892 to 18 October 1893); in `tagebuch_tage.json` 107 days rest on a heading printed in the diary, 176 are aligned against that website, and 26 have no entry of their own. The website is an anonymous work in progress that names no edition, so the 176 aligned days are an inference, not a reading of the book. A blind check of 30 printed dates against the scans is prepared in `validation/diary_days_check.csv` and scored by `scripts/diary_days_score.py`, which fails if a control disagrees; the sheet is not filled yet. Fix before slam: if it is filled by 12:00, say the result with its n.
 
 ### "Can I reproduce a number you said on stage?"
 
