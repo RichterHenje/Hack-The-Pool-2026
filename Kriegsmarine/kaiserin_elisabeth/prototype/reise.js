@@ -80,6 +80,23 @@
   const PS_SRC = { diary: "diary", weltmuseum_tms: "weltmuseum", anno: "anno", kulturpool: "kulturpool", europeana: "europeana", commons: "hoefer" };
   const tag = (k) => `<span class="srcb" data-src="${k}" style="--c:${SRC[k][3]}" title="${esc(SRC[k][0])} – Quelle: ${esc(SRC[k][1])} – ermittelt: ${esc(SRC[k][4])}">${esc(SRC[k][2])}</span>`;
   const block = (k, html) => `<div data-src="${k}">${html}</div>`;
+  // Section icons; the colour per kind (k-*) matches the map layers, see reise.css
+  const ICONS = {
+    diary: '<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>',
+    hunt: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+    animal: '<circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/>',
+    photo: '<path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/>',
+    object: '<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.3 7 12 12l8.7-5"/><path d="M12 22V12"/>',
+    people: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>',
+    aboard: '<path d="M12 22V8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/><circle cx="12" cy="5" r="3"/>',
+    press: '<path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/>',
+    archive: '<rect x="2" y="3" width="20" height="5" rx="1"/><path d="M4 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8"/><path d="M10 12h4"/>',
+    route: '<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>',
+    days: '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
+    sea: '<path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>',
+  };
+  const ico = (k) => `<svg class="ico k-${k}" viewBox="0 0 24 24" aria-hidden="true">${ICONS[k]}</svg>`;
+  const initial = (name) => esc((name || "?").trim().charAt(0).toUpperCase());
 
   const days = E.days, episodes = E.episodes, heroes = E.heroes;
   const epById = new Map(episodes.map((e) => [e.id, e]));
@@ -173,17 +190,16 @@
     const done = located.filter((x) => x.date <= d.date).map((x) => pos(x.lat, x.lon));
     progress.setLatLngs(s.exact ? done : [...done, s.ll]);
     ship.setLatLng(s.ll).setStyle(s.exact ? { fillColor: "#1d1d1b", dashArray: null } : { fillColor: "#fff", dashArray: "3 2" });
-    ship.setTooltipContent(`${esc(fmt(d.date))} · ${esc(d.place || "–")}${s.exact ? "" : " (Position geschätzt)"}`);
   }
 
   // Stays at one place: day indices → "20. Februar 1893 – 27. Februar 1893 (8 Tage)", one line per run
-  const stays = (idx) => {
+  const stays = (idx, sep = "<br>") => {
     const runs = [];
     for (const i of idx) {
       const last = runs[runs.length - 1];
       if (last && i === last[1] + 1) last[1] = i; else runs.push([i, i]);
     }
-    return runs.map(([a, b]) => `${esc(span(days[a].date, days[b].date))}${b > a ? ` (${b - a + 1} Tage)` : ""}`).join("<br>");
+    return runs.map(([a, b]) => `${esc(span(days[a].date, days[b].date))}${b > a ? ` (${b - a + 1} Tage)` : ""}`).join(sep);
   };
 
   // Popup at a place: what the sources ticked under "Herkunft" say about the days there.
@@ -227,26 +243,49 @@
       part(ck, `<p class="note">Ort: ${coordInfo(d0)} ${tag(ck)}</p>`),
       wd.length ? part("lod", `<p class="note">${wd.map((p) => link(`https://www.wikidata.org/wiki/${p.wikidata}`, `${p.label} (${p.wikidata})`)).join(", ")} ${tag("lod")}</p>`) : "",
       notes.length ? part("inferred", `<p class="note">${esc(notes.join("; "))} ${tag("inferred")}</p>`) : "",
-      part("diary", `<h4>Tagebuch ${tag("diary")}</h4><p>${ds.length} ${ds.length === 1 ? "Tag" : "Tage"}${hunting.length ? `, Jagdsätze an ${hunting.length}` : ""}${eps.length ? ` · Jagd: ${eps.map((ep) => huntButton(ep.id, ep.label)).join(", ")}` : ""}</p>
+      part("diary", `<h4>${ico("diary")}Tagebuch ${tag("diary")}</h4><p>${ds.length} ${ds.length === 1 ? "Tag" : "Tage"}${hunting.length ? `, Jagdsätze an ${hunting.length}` : ""}${eps.length ? ` · Jagd: ${eps.map((ep) => huntButton(ep.id, ep.label)).join(", ")}` : ""}</p>
         ${hunting.length ? chips(animals) : ""}${firstQuote ? quote(firstQuote) : ""}`),
       ...heroEvents.map((h) => {
         const k = EVIDENCE_SRC[h.hero && h.hero.evidence] || "diary";
         return part(k, `<p>${heroButton(h.id, h.hero ? h.hero.name : h.id)}: ${esc(h.event)} ${tag(k)}</p>`);
       }),
-      press.length ? part("anno", `<h4>Zeitungen: ${press.length} ${tag("anno")}</h4><ul class="plain">${press.slice(0, 4).map((p) =>
+      press.length ? part("anno", `<h4>${ico("press")}Zeitungen: ${press.length} ${tag("anno")}</h4><ul class="plain">${press.slice(0, 4).map((p) =>
         `<li>${link(p.url, p.newspaper)}, ${esc(fmt(p.date))}</li>`).join("")}${press.length > 4 ? `<li class="note">… und ${press.length - 4} weitere</li>` : ""}</ul>`) : "",
-      photos.length ? part("europeana", `<h4>Fotos: ${photos.length} ${tag("europeana")}</h4>${photoGrid(photos.slice(0, 2))}`) : "",
-      objects.length ? part("weltmuseum", `<h4>Objekte der Sammlung Este: ${objects.length} ${tag("weltmuseum")}</h4><ul class="plain">${objects.slice(0, 4).map((o) =>
+      photos.length ? part("europeana", `<h4>${ico("photo")}Fotos: ${photos.length} ${tag("europeana")}</h4>${photoGrid(photos.slice(0, 2))}`) : "",
+      objects.length ? part("weltmuseum", `<h4>${ico("object")}Objekte der Sammlung Este: ${objects.length} ${tag("weltmuseum")}</h4><ul class="plain">${objects.slice(0, 4).map((o) =>
         `<li>${link(o.url, o.title || o.type)}${o.strength === "strong" ? " <span class='lic'>starker Beleg</span>" : ""}</li>`).join("")}${objects.length > 4 ? `<li class="note">… und ${objects.length - 4} weitere</li>` : ""}</ul>`) : "",
-      people.length ? part("vault", `<h4>Im Tagebuch genannt ${tag("vault")}</h4><p>${people.map((id) => personButton(id, E.people[id].name)).join(", ")}</p>`) : "",
+      people.length ? part("vault", `<h4>${ico("people")}Im Tagebuch genannt ${tag("vault")}</h4><p>${people.map((id) => personButton(id, E.people[id].name)).join(", ")}</p>`) : "",
       aboard.length ? part("rangliste", `<p class="note">${aboard.length} Offiziere an Bord laut Rangliste ${tag("rangliste")}</p>`) : "",
       eps.some((ep) => ep.hoefer && ep.hoefer.from) ? part("hoefer", `<p class="note">${eps.filter((ep) => ep.hoefer && ep.hoefer.from).map((ep) =>
         `Aufenthalt laut Höfer 2010: ${esc(span(ep.hoefer.from, ep.hoefer.to))}`).join("; ")} ${tag("hoefer")}</p>`) : "",
-      kp.length ? part("kulturpool", `<h4>Kulturpool ${tag("kulturpool")}</h4><ul class="plain">${kp.slice(0, 3).map((r) => `<li>${link(r.url, r.title)}</li>`).join("")}</ul>`) : "",
+      kp.length ? part("kulturpool", `<h4>${ico("archive")}Kulturpool ${tag("kulturpool")}</h4><ul class="plain">${kp.slice(0, 3).map((r) => `<li>${link(r.url, r.title)}</li>`).join("")}</ul>`) : "",
     ].filter(Boolean).join("");
     return `<div class="pop card"><h3>${esc(label || d0.place)}</h3><div class="meta">${stays(idx)}</div>
       ${parts || "<p class='note'>Keine Daten aus den gewählten Quellen.</p>"}</div>`;
   }
+
+  // Hovering a marker: a quiet ring on it and its text in one fixed place - the line above the
+  // timeline (back to the current day on mouseout), in map-only mode the pill at the top.
+  let hoverRing = null;
+  const hoverPill = document.getElementById("hover-pill");
+  const hoverOn = (e, kind, html) => {
+    const t = e.target, line = `${ico(kind)}${html}`;
+    if (t.getRadius) {
+      hoverRing = hoverRing || L.circleMarker([0, 0], { radius: 8, color: "#1c1c1e", weight: 2, opacity: 0.8, fill: false, interactive: false });
+      hoverRing.setLatLng(t.getLatLng()).setRadius(t.getRadius() + 5).addTo(map);
+    }
+    const ro = document.getElementById("tl-readout");
+    ro.innerHTML = line;
+    ro.classList.add("is-hover");
+    hoverPill.innerHTML = line;
+  };
+  const hoverOff = () => {
+    if (hoverRing) hoverRing.remove();
+    document.getElementById("tl-readout").classList.remove("is-hover");
+    hoverPill.innerHTML = "";
+    updateTimeline();
+  };
+  const hoverable = (layer, kind, html) => layer.on("mouseover", (e) => hoverOn(e, kind, html)).on("mouseout", hoverOff);
 
   // All map points, redrawn when the base map changes
   function draw() {
@@ -263,46 +302,44 @@
     }
     for (const idx of byPlace.values()) {
       const d0 = days[idx[0]];
-      L.circleMarker(pos(d0.lat, d0.lon), { radius: 3.5, color: "#fff", weight: 1, fillColor: ROUTE, fillOpacity: 0.9,
-        className: `src-${coordSrc(d0)}` })
-        .bindTooltip(`<b>${esc(d0.place)}</b><br>${stays(idx)}`)
+      hoverable(L.circleMarker(pos(d0.lat, d0.lon), { radius: 3.5, color: "#fff", weight: 1, fillColor: ROUTE, fillOpacity: 0.9,
+        className: `src-${coordSrc(d0)}` }), "route", `<b>${esc(d0.place)}</b> · ${stays(idx, " · ")}`)
         .bindPopup(() => placePopup(idx), POPUP)
         .on("click", () => selectDay(idx.reduce((best, i) => Math.abs(i - current) < Math.abs(best - current) ? i : best), false))
         .addTo(layers.route);
     }
     const placeOf = (d) => byPlace.get(`${d.place}|${d.lat.toFixed(3)}|${d.lon.toFixed(3)}`);
-    // The current day's label sits on the ship, so exactly one label is open
     ship = L.circleMarker([0, 0], { radius: 7, color: "#1d1d1b", weight: 2.5, fillColor: "#1d1d1b", fillOpacity: 1, interactive: false })
-      .bindTooltip("", { permanent: true, direction: "top", offset: [0, -6] }).addTo(layers.route);
+      .addTo(layers.route);
     updateProgress();
     // Hunts: one marker per episode place, sized by kill sentences; press as a ring around it
     for (const ep of episodes) {
       for (const p of ep.places) {
         if (p.lat == null) continue;
         const ll = pos(p.lat, wrap(p.lon));
-        L.circleMarker(ll, {
+        hoverable(L.circleMarker(ll, {
           radius: 4 + Math.min(9, Math.sqrt(ep.kill_sentences) * 1.6), color: "#fff", weight: 1.5, fillColor: HUNT, fillOpacity: 0.9,
           className: "src-diary",
-        }).bindTooltip(`${esc(p.label)} · ${esc(span(ep.start, ep.end))}<br>${ep.kill_sentences} Sätze vom Erlegen/Schießen`)
+        }), "hunt", `<b>${esc(p.label)}</b> · ${esc(span(ep.start, ep.end))} · ${ep.kill_sentences} Jagdsätze`)
           .bindPopup(() => placePopup(days.map((d, i) => d.date >= ep.start && d.date <= ep.end ? i : -1).filter((i) => i >= 0), p.label), POPUP)
           .on("click", () => selectHunt(ep.id, false)).addTo(layers.hunt);
         const n = ep.anno.issues_high;
         if (n) {
-          L.circleMarker(ll, { radius: 11 + Math.min(12, n * 1.2), color: PRESS, weight: 1.5, opacity: 0.75, fill: false, className: "src-anno" })
-            .bindTooltip(`${esc(p.label)} · ${n} Zeitungsausgaben (ANNO, hoch)`).on("click", () => selectHunt(ep.id, false)).addTo(layers.press);
+          hoverable(L.circleMarker(ll, { radius: 11 + Math.min(12, n * 1.2), color: PRESS, weight: 1.5, opacity: 0.75, fill: false, className: "src-anno" }),
+            "press", `<b>${esc(p.label)}</b> · ${n} Zeitungsberichte`).on("click", () => selectHunt(ep.id, false)).addTo(layers.press);
         }
       }
     }
     // Photos and objects at the day they are dated to
     for (const d of located) {
       if (d.photos.length) {
-        L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(6, d.photos.length), color: "#fff", weight: 1.5, fillColor: PHOTO, fillOpacity: 0.9, className: "src-europeana" })
-          .bindTooltip(`${esc(fmt(d.date))} · ${d.photos.length} Foto(s)`).bindPopup(() => placePopup(placeOf(d)), POPUP)
+        hoverable(L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(6, d.photos.length), color: "#fff", weight: 1.5, fillColor: PHOTO, fillOpacity: 0.9, className: "src-europeana" }),
+          "photo", `<b>${esc(d.place)}</b> · ${esc(fmt(d.date))} · ${d.photos.length} ${d.photos.length === 1 ? "Foto" : "Fotos"}`).bindPopup(() => placePopup(placeOf(d)), POPUP)
           .on("click", () => selectDay(dayIndex.get(d.date), false)).addTo(layers.photo);
       }
       if (d.objects.length) {
-        L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(6, d.objects.length / 2), color: "#fff", weight: 1.5, fillColor: OBJECT, fillOpacity: 0.9, className: "src-weltmuseum" })
-          .bindTooltip(`${esc(fmt(d.date))} · ${d.objects.length} Objekt(e) der Sammlung Este`).bindPopup(() => placePopup(placeOf(d)), POPUP)
+        hoverable(L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(6, d.objects.length / 2), color: "#fff", weight: 1.5, fillColor: OBJECT, fillOpacity: 0.9, className: "src-weltmuseum" }),
+          "object", `<b>${esc(d.place)}</b> · ${esc(fmt(d.date))} · ${d.objects.length} ${d.objects.length === 1 ? "Objekt" : "Objekte"} der Sammlung Este`).bindPopup(() => placePopup(placeOf(d)), POPUP)
           .on("click", () => selectDay(dayIndex.get(d.date), false)).addTo(layers.object);
       }
     }
@@ -314,10 +351,9 @@
       if (!pts.length) continue;
       const className = `src-${EVIDENCE_SRC[h.evidence] || "diary"}`;
       const line = pts.length > 1
-        ? L.polyline(pts, { color: HERO, weight: 2, opacity: 0.8, dashArray: "6 5", className })
-          .bindTooltip(esc(h.name)).on("click", () => selectHero(h.id, false)).addTo(layers.heroes) : null;
-      L.circleMarker(pts[0], { radius: 5, color: HERO, weight: 2, fillColor: "#fff", fillOpacity: 1, className })
-        .bindTooltip(`${esc(h.name)} · ${esc(h.route[0].event)}`).on("click", () => selectHero(h.id, false)).addTo(layers.heroes);
+        ? hoverable(L.polyline(pts, { color: HERO, weight: 2, opacity: 0.8, dashArray: "6 5", className }), "animal", `<b>${esc(h.name)}</b>`).on("click", () => selectHero(h.id, false)).addTo(layers.heroes) : null;
+      hoverable(L.circleMarker(pts[0], { radius: 5, color: HERO, weight: 2, fillColor: "#fff", fillOpacity: 1, className }),
+        "animal", `<b>${esc(h.name)}</b> · ${esc(h.route[0].event)}`).on("click", () => selectHero(h.id, false)).addTo(layers.heroes);
       heroLine.set(h.id, { pts, line });
     }
     if (currentHero) highlightHero(currentHero);
@@ -337,6 +373,18 @@
   };
   showHistoric(true);
   map.fitBounds(located.map((d) => pos(d.lat, d.lon)), view());
+
+  // Map only (body.immersive): the button at the top right hides bar, card, timeline and map boxes;
+  // the map with its tooltips and popups stays. The same button or Esc brings everything back.
+  const focusBtn = document.getElementById("focus");
+  const setImmersive = (on) => {
+    document.body.classList.toggle("immersive", on);
+    focusBtn.setAttribute("aria-pressed", String(on));
+    focusBtn.setAttribute("aria-label", on ? "Bedienelemente einblenden" : "Nur die Karte zeigen");
+    focusBtn.title = on ? "Bedienelemente einblenden (Esc)" : "Nur die Karte zeigen";
+  };
+  focusBtn.addEventListener("click", () => setImmersive(!document.body.classList.contains("immersive")));
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && document.body.classList.contains("immersive")) setImmersive(false); });
   document.getElementById("lyr-historic").addEventListener("change", (e) => showHistoric(e.target.checked));
 
   // Calibration (reise.html?kalibrieren): one draggable marker per place of data/ke_places_1872.js;
@@ -473,8 +521,8 @@
       <div class="meta">${esc(o.inventory)} · ${esc(o.type)} · ${esc(o.region || "")}</div>
       ${o.evidence ? `<div class="ev">${o.acquisition ? "Kauf/Geschenk: " : ""}„${esc(o.evidence)}“ ${link(o.page_url, "Scan")}</div>` : ""}
       ${o.card ? `<div class="meta">Inventarkarte: ${esc(o.card)}</div>` : ""}</div></li>`).join("")}</ul>` : "";
-  const pressItem = (p) => `<li class="noimg" data-src="anno"><div>${link(p.url, p.newspaper)} · ${esc(fmt(p.date))}
-      <span class="lic">${p.relevance === "high" ? "hoch" : "mittel"}</span>
+  const pressItem = (p) => `<li class="noimg" data-src="anno"><div><div class="press-head"><b>${link(p.url, p.newspaper)}</b>
+      <span class="when">${esc(fmt(p.date))}</span><span class="rel rel-${esc(p.relevance)}" title="Relevanz">${p.relevance === "high" ? "hoch" : "mittel"}</span></div>
       ${p.snippets.map((s) => `<blockquote class="press">${marked(s.text)} ${link(s.url, `S. ${s.page || "?"}`)}</blockquote>`).join("")}</div></li>`;
   const dayButton = (date, text) => dayIndex.has(date)
     ? `<button type="button" class="linkish" data-day="${esc(date)}">${esc(text || fmt(date))}</button>` : esc(text || fmt(date));
@@ -501,9 +549,21 @@
     const objects = d.objects.map((i) => E.objects[i]);
     const kl = KL.days[d.entry] || {};
     const i = dayIndex.get(d.date);
+    const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+    const facts = [
+      d.lat === null && d.coords === "sea" && ["sea", "auf See"],
+      d.hunt && ["hunt", plural(d.hunt.n, "Jagdsatz", "Jagdsätze")],
+      photos.length && ["photo", plural(photos.length, "Foto", "Fotos")],
+      objects.length && ["object", plural(objects.length, "Objekt", "Objekte")],
+      d.heroes.length && ["animal", plural(d.heroes.length, "Tier an Bord", "Tiere an Bord")],
+      people.length && ["people", plural(people.length, "Person", "Personen")],
+      (kl.aboard || []).length && ["aboard", plural(kl.aboard.length, "Offizier", "Offiziere")],
+    ].filter(Boolean);
+    const factStrip = facts.length ? `<div class="facts">${facts.map(([k, t]) => `<span class="fact f-${k}">${ico(k)}${esc(t)}</span>`).join("")}</div>` : "";
     const cover = photos.find((p) => p.open && p.preview);
     let html = `<p class="kicker">${esc(fmt(d.date))} · Tag ${i + 1} von ${days.length}</p>
       <h3>${esc(d.place || (d.coords === "sea" ? "Auf See" : "–"))}</h3>
+      ${factStrip}
       ${cover ? `<figure class="cover"><a href="${esc(cover.url)}" target="_blank" rel="noopener"><img src="${esc(cover.preview)}" alt="${esc(cover.title)}"></a>
         <figcaption>${esc(cover.title)}${cover.creator ? " · " + esc(cover.creator) : ""}</figcaption></figure>` : ""}
       ${d.hunt && d.hunt.quotes[0] ? `<blockquote class="lead-quote">${esc(d.hunt.quotes[0].text)}</blockquote>` : ""}
@@ -515,28 +575,30 @@
       html += `<p class="banner">Teil der Jagd ${huntButton(ep.id, ep.label)} (${esc(span(ep.start, ep.end))})</p>`;
     }
     if (d.hunt) {
-      html += block("diary", `<h4>Jagd im Tagebuch: ${d.hunt.n} ${d.hunt.n === 1 ? "Satz" : "Sätze"}${d.hunt.first_person ? `, ${d.hunt.first_person} in der Ich-Form` : ""} ${tag("diary")}</h4>
+      html += block("diary", `<h4>${ico("hunt")}Jagd im Tagebuch: ${d.hunt.n} ${d.hunt.n === 1 ? "Satz" : "Sätze"}${d.hunt.first_person ? `, ${d.hunt.first_person} in der Ich-Form` : ""} ${tag("diary")}</h4>
         ${chips(d.hunt.animals)}${d.hunt.quotes.slice(1).map((q) => quote(q)).join("")}
         <p class="note">Wortlaut aus der Texterkennung, am Scan prüfen. Genannte Tiere sind nicht gleich getötete Tiere.</p>`);
     }
     if (d.heroes.length) {
-      html += `<h4>Lebende Tiere</h4><ul class="plain">${d.heroes.map((h) => {
+      html += `<h4>${ico("animal")}Lebende Tiere</h4><ul class="who">${d.heroes.map((h) => {
         const hero = heroes.find((x) => x.id === h.id);
         const k = EVIDENCE_SRC[hero && hero.evidence] || "diary";
-        return `<li data-src="${k}">${heroButton(h.id, hero ? hero.name : h.id)}: ${esc(h.event)} ${tag(k)}</li>`;
+        return `<li data-src="${k}"><span class="av av-animal">${ico("animal")}</span><span>${heroButton(h.id, hero ? hero.name : h.id)}
+          <span class="role">${esc(h.event)}</span> ${tag(k)}</span></li>`;
       }).join("")}</ul>`;
     }
-    if (photos.length) html += block("europeana", `<h4>Fotos von diesem Tag: ${photos.length} ${tag("europeana")}</h4>${photoGrid(photos)}`);
-    if (objects.length) html += block("weltmuseum", `<h4>Objekte der Sammlung Este: ${objects.length} ${tag("weltmuseum")}</h4>${objectList(objects)}
+    if (photos.length) html += block("europeana", `<h4>${ico("photo")}Fotos von diesem Tag: ${photos.length} ${tag("europeana")}</h4>${photoGrid(photos)}`);
+    if (objects.length) html += block("weltmuseum", `<h4>${ico("object")}Objekte der Sammlung Este: ${objects.length} ${tag("weltmuseum")}</h4>${objectList(objects)}
       <p class="note">Vorschläge mit Beleg: das Tagebuch beschreibt Objekte dieser Art an diesem Ort; kein Nachweis für das einzelne Stück.</p>`);
     if (people.length) {
-      html += block("vault", `<h4>Im Tagebuch genannt ${tag("vault")}</h4><ul class="plain">${people.map((p) =>
-        `<li>${personButton(p.id, p.name)} <span class="note">(${esc(p.group)}${p.role ? ", " + esc(p.role) : ""})</span></li>`).join("")}</ul>`);
+      html += block("vault", `<h4>${ico("people")}Im Tagebuch genannt ${tag("vault")}</h4><ul class="who">${people.map((p) =>
+        `<li><span class="av">${initial(p.name)}</span><span>${personButton(p.id, p.name)}
+          <span class="role">${esc(p.group)}${p.role ? " · " + esc(p.role) : ""}</span></span></li>`).join("")}</ul>`);
     }
     if ((kl.aboard || []).length) {
       const ranks = Object.entries(kl.aboard_by_rank || {}).map(([r, n]) => `${esc(n)} ${esc(r)}`).join(" · ");
       const medal = kl.aboard.filter((a) => a.medal_note).length;
-      html += block("rangliste", `<h4>An Bord: ${kl.aboard.length} Offiziere (Rangliste vom ${esc(kl.aboard_issue)}) ${tag("rangliste")}</h4>
+      html += block("rangliste", `<h4>${ico("aboard")}An Bord: ${kl.aboard.length} Offiziere <span class="h4-sub">Rangliste vom ${esc(fmt(kl.aboard_issue))}</span> ${tag("rangliste")}</h4>
         <p class="note">${ranks}</p>
         <details><summary>Namen${medal ? ` (${medal} mit Seereise-Denkmünze 1892/93)` : ""}</summary><ul class="plain">${
           kl.aboard.map((a) => `<li>${esc(a.name)}, ${esc(a.rank)}${a.medal_note ? " ✓ Denkmünze" : ""}</li>`).join("")}</ul></details>
@@ -675,7 +737,7 @@
 
   // --- hunts ----------------------------------------------------------------------------
   document.getElementById("hunt-list").innerHTML = episodes.map((ep) => `<li><button type="button" data-hunt="${esc(ep.id)}">
-      <span class="pick-title">${esc(ep.label)}</span>
+      <span class="pick-title">${ico("hunt")}${esc(ep.label)}</span>
       <span class="pick-meta">${esc(span(ep.start, ep.end))} · ${ep.kill_sentences} Sätze · ${ep.anno.issues_high} Zeitungen</span></button></li>`).join("");
 
   function huntCard(ep) {
@@ -685,25 +747,28 @@
     const objects = [...new Set(epDays.flatMap((d) => d.objects))].map((i) => E.objects[i]);
     const h = ep.hoefer || {};
     const animals = Object.fromEntries(ep.animals.map((a) => [a.id, a.mentions]));
-    return `<h3>${esc(ep.label)}</h3>
+    return `<p class="kicker">Jagd · ${esc(span(ep.start, ep.end))}</p><h3>${esc(ep.label)}</h3>
       <div class="meta">${esc(span(ep.start, ep.end))} · ${ep.kill_sentences} Sätze vom Erlegen/Schießen ${tag("diary")}
         ${ep.places.map((p) => p.wikidata ? `<span data-src="lod"> · ${link(`https://www.wikidata.org/wiki/${p.wikidata}`, p.wikidata)} ${tag("lod")}</span>` : "").join("")}</div>
       ${ep.places.some((p) => p.coord_note) ? `<p class="note" data-src="inferred">${esc(ep.places.map((p) => p.coord_note).filter(Boolean).join("; "))} ${tag("inferred")}</p>` : ""}
       ${h.from ? `<p class="note" data-src="hoefer">Aufenthalt laut Höfer 2010: ${esc(span(h.from, h.to))}${(h.stays || []).length ? ` (${esc(h.stays.map((s) => s.stay).join(", "))})` : ""}${h.days_without_hunting_entry ? `; ${h.days_without_hunting_entry} Tage davon ohne Jagdsatz im Tagebuch` : ""}. ${tag("hoefer")}</p>` : ""}
-      <p class="days">Tage: ${epDays.map((d) => dayButton(d.date, d.date.slice(5).split("-").reverse().join(".") + (d.hunt ? " ◆" : ""))).join(" ")}</p>
-      ${block("diary", `<h4>Tiere in den Sätzen (Erwähnungen) ${tag("diary")}</h4>${chips(animals)}
-      ${ep.people.length ? `<h4>Mitjagende im Tagebuch genannt</h4><ul class="plain">${ep.people.map((p) =>
-        `<li>${E.people[p.id] ? personButton(p.id, p.name) : esc(p.name)} <span class="note">(${esc(p.group)}, ${p.kill_sentences} ${p.kill_sentences === 1 ? "Satz" : "Sätze"})</span></li>`).join("")}</ul>` : ""}
-      <h4>Im Tagebuch ${tag("diary")}</h4>${ep.quotes.map((q) => quote(q, `<br><span class="note">${dayButton(q.date)} · ${link(scanUrl(q.band, q.scan), "Scan")}${q.first_person ? " · Ich-Form" : ""}</span>`)).join("")}`)}
-      ${block("anno", `<h4>Presse (ANNO): ${ep.anno.issues_found} Ausgaben gefunden, ${ep.anno.issues_high} mit hoher Relevanz ${tag("anno")}</h4>
+      <h4>${ico("days")}Tage der Jagd</h4>
+      <p class="pills">${epDays.map((d) => `<span class="pill${d.hunt ? " hd" : ""}" title="${d.hunt ? "Jagdsätze im Tagebuch" : "ohne Jagdsatz"}">${
+        dayButton(d.date, d.date.slice(5).split("-").reverse().join("."))}</span>`).join("")}</p>
+      ${block("diary", `<h4>${ico("hunt")}Tiere in den Sätzen (Erwähnungen) ${tag("diary")}</h4>${chips(animals)}
+      ${ep.people.length ? `<h4>${ico("people")}Mitjagende im Tagebuch genannt</h4><ul class="who">${ep.people.map((p) =>
+        `<li><span class="av">${initial(p.name)}</span><span>${E.people[p.id] ? personButton(p.id, p.name) : esc(p.name)}
+          <span class="role">${esc(p.group)} · ${p.kill_sentences} ${p.kill_sentences === 1 ? "Jagdsatz" : "Jagdsätze"}</span></span></li>`).join("")}</ul>` : ""}
+      <h4>${ico("diary")}Im Tagebuch ${tag("diary")}</h4>${ep.quotes.map((q) => quote(q, `<br><span class="note">${dayButton(q.date)} · ${link(scanUrl(q.band, q.scan), "Scan")}${q.first_person ? " · Ich-Form" : ""}</span>`)).join("")}`)}
+      ${block("anno", `<h4>${ico("press")}Presse (ANNO): ${ep.anno.issues_found} Ausgaben gefunden, ${ep.anno.issues_high} mit hoher Relevanz ${tag("anno")}</h4>
       <p class="note">Suchfenster ${esc(span(ep.anno.window[0], ep.anno.window[1]))}. Die Presse erschien meist Wochen später und stützte sich auf Telegramme.</p>
       ${press.length ? `<ul class="records">${press.map(pressItem).join("")}</ul>` : "<p class='note'>Keine Ausgabe mit einem passenden Ausschnitt.</p>"}`)}
-      ${photos.length ? block("europeana", `<h4>Fotos der Reisefotografen: ${photos.length} ${tag("europeana")}</h4>${photoGrid(photos)}`) : ""}
-      ${ep.photos_hoefer.length ? block("hoefer", `<h4>Weitere Fotos (Höfer 2010, Commons) ${tag("hoefer")}</h4><ul class="records">${ep.photos_hoefer.map((p) => `<li class="${p.image ? "" : "noimg"}">
+      ${photos.length ? block("europeana", `<h4>${ico("photo")}Fotos der Reisefotografen: ${photos.length} ${tag("europeana")}</h4>${photoGrid(photos)}`) : ""}
+      ${ep.photos_hoefer.length ? block("hoefer", `<h4>${ico("photo")}Weitere Fotos (Höfer 2010, Commons) ${tag("hoefer")}</h4><ul class="records">${ep.photos_hoefer.map((p) => `<li class="${p.image ? "" : "noimg"}">
         ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}<div>${link(p.url, p.title)}
         <div class="meta">${esc(p.source)}${p.vf_id ? " · " + esc(p.vf_id) : ""} · ${esc(fmt(p.date))}${p.rights ? ` <span class="lic">${esc(p.rights)}</span>` : ""}</div></div></li>`).join("")}</ul>`) : ""}
-      ${objects.length ? block("weltmuseum", `<h4>Objekte der Sammlung Este an diesen Tagen: ${objects.length} ${tag("weltmuseum")}</h4>${objectList(objects)}`) : ""}
-      ${ep.kulturpool.length ? block("kulturpool", `<h4>Kulturpool ${tag("kulturpool")}</h4><ul class="records">${ep.kulturpool.map((r) => `<li class="noimg"><div>${link(r.url, r.title)}
+      ${objects.length ? block("weltmuseum", `<h4>${ico("object")}Objekte der Sammlung Este an diesen Tagen: ${objects.length} ${tag("weltmuseum")}</h4>${objectList(objects)}`) : ""}
+      ${ep.kulturpool.length ? block("kulturpool", `<h4>${ico("archive")}Kulturpool ${tag("kulturpool")}</h4><ul class="records">${ep.kulturpool.map((r) => `<li class="noimg"><div>${link(r.url, r.title)}
         <div class="meta">${esc(r.provider)} <span class="lic">${esc(r.rights || "")}</span> ${r.direct ? "· zur Reise" : "· nur der Ort, nicht die Reise"}</div></div></li>`).join("")}</ul>`) : ""}`;
   }
 
@@ -724,7 +789,7 @@
 
   // --- live animals ---------------------------------------------------------------------
   document.getElementById("hero-list").innerHTML = heroes.map((h) => `<li><button type="button" data-hero="${esc(h.id)}">
-      <span class="pick-title">${esc(h.name)}</span>
+      <span class="pick-title">${ico("animal")}${esc(h.name)}</span>
       <span class="pick-meta"><span class="status s-${esc(h.status)}">${esc(STATUS[h.status] || h.status)}</span> · ${esc(EVIDENCE[h.evidence] || h.evidence)}</span></button></li>`).join("");
 
   function heroCard(h) {
@@ -735,14 +800,14 @@
     const ek = EVIDENCE_SRC[h.evidence] || "diary";
     return `<h3>${esc(h.name)}</h3>
       <div class="meta">${esc(h.species_de)} · <span class="status s-${esc(h.status)}">${esc(STATUS[h.status] || h.status)}</span> · Beleg: ${esc(EVIDENCE[h.evidence] || h.evidence)} ${tag(ek)}</div>
-      <h4>Weg</h4><ol class="plain">${h.route.map((r) => {
+      <h4>${ico("route")}Weg</h4><ol class="plain">${h.route.map((r) => {
         const k = EVIDENCE_SRC[r.evidence] || ek;
         return `<li data-src="${k}">${r.date ? dayButton(r.date) : "<span class='note'>ohne Datum</span>"} · ${esc(r.label)}: ${esc(r.event)} ${tag(k)}</li>`;
       }).join("")}</ol>
       ${h.note ? `<p class="note" data-src="inferred">${esc(h.note)} ${tag("inferred")}</p>` : ""}
-      ${(h.diary || []).length ? block("diary", `<h4>Tagebuch ${tag("diary")}</h4>${h.diary.map(cite).join("")}`) : ""}
-      ${(h.site || []).length ? block("site", `<h4>Übersetzung (fehlende Seiten der OCR) ${tag("site")}</h4>${h.site.map(cite).join("")}`) : ""}
-      ${(h.press || []).length ? block("anno", `<h4>Presse ${tag("anno")}</h4>${h.press.map(cite).join("")}`) : ""}`;
+      ${(h.diary || []).length ? block("diary", `<h4>${ico("diary")}Tagebuch ${tag("diary")}</h4>${h.diary.map(cite).join("")}`) : ""}
+      ${(h.site || []).length ? block("site", `<h4>${ico("diary")}Übersetzung (fehlende Seiten der OCR) ${tag("site")}</h4>${h.site.map(cite).join("")}`) : ""}
+      ${(h.press || []).length ? block("anno", `<h4>${ico("press")}Presse ${tag("anno")}</h4>${h.press.map(cite).join("")}`) : ""}`;
   }
 
   function selectHero(id, move = true) {
@@ -782,7 +847,7 @@
   function personDetail(p) {
     const ids = [p.gnd && link(p.gnd, "GND"), p.wikidata && link(`https://www.wikidata.org/wiki/${p.wikidata}`, "Wikidata")].filter(Boolean)
       .map((x) => `<span data-src="lod">${x}</span>`);
-    return `<details class="person" id="person-${esc(p.id)}"><summary><b>${esc(p.name)}</b>
+    return `<details class="person" id="person-${esc(p.id)}"><summary><span class="av">${initial(p.name)}</span><b>${esc(p.name)}</b>
         ${p.days ? `<span class="badge" title="Tage im Tagebuch">${p.days} T.</span>` : ""}${p.kill_sentences ? `<span class="badge hunt" title="Sätze vom Erlegen, die die Person nennen">${p.kill_sentences} J.</span>` : ""}
         <span class="note">${esc([p.role, ...p.ranks].filter(Boolean).join(" · ") || p.group)}</span></summary>
       <div class="meta">${esc(p.group)}${p.life ? " · " + esc(p.life) : ""}${p.professions ? " · " + esc(p.professions.join(", ")) : ""}
@@ -792,14 +857,14 @@
       ${p.gnd_note ? `<p class="note">${esc(p.gnd_note)}</p>` : ""}
       ${p.possible_duplicate ? `<p class="note">Vielleicht dieselbe Person wie: ${esc([].concat(p.possible_duplicate).join(", "))}</p>` : ""}
       ${p.vault_note ? `<p class="note" data-src="vault">Vault: <code>${esc(p.vault_note)}</code> ${tag("vault")}</p>` : `<p class="note">Keine Notiz im Vault (aus Rangliste oder Tagebuch).</p>`}
-      ${block("diary", `${p.days ? `<h4>Im Tagebuch an ${p.days} ${p.days === 1 ? "Tag" : "Tagen"} ${tag("diary")}</h4><p class="days">${p.dates.map((d) => dayButton(d, d.slice(5).split("-").reverse().join(".") + "." + d.slice(2, 4))).join(" ")}</p>`
+      ${block("diary", `${p.days ? `<h4>${ico("diary")}Im Tagebuch an ${p.days} ${p.days === 1 ? "Tag" : "Tagen"} ${tag("diary")}</h4><p class="days">${p.dates.map((d) => dayButton(d, d.slice(5).split("-").reverse().join(".") + "." + d.slice(2, 4))).join(" ")}</p>`
         : `<p class="note">Das Tagebuch nennt diese Person nicht beim Namen.</p>`}
       ${p.hunts.length ? `<p class="note">Jagden: ${p.hunts.map((id) => huntButton(id, (epById.get(id) || { label: id }).label)).join(", ")}</p>` : ""}
       ${p.kill_quotes.map((q) => `<blockquote>${esc(q.text)}<br><span class="note">${dayButton(q.date)}</span></blockquote>`).join("")}`)}
-      ${p.anno_total ? block("anno", `<h4>ANNO: ${p.anno_total} Ausgaben (Name + Erzherzog + Reise) ${tag("anno")}</h4>
+      ${p.anno_total ? block("anno", `<h4>${ico("press")}ANNO: ${p.anno_total} Ausgaben (Name + Erzherzog + Reise) ${tag("anno")}</h4>
         <p class="note">Automatische Suche, ungeprüft: trifft auch Namensvettern.</p>
         ${p.anno.map((x) => `<blockquote class="press">${marked(x.snippet)}<br><span class="note">${link(x.url, x.title)}</span></blockquote>`).join("")}`) : ""}
-      ${p.kulturpool.length ? block("kulturpool", `<h4>Kulturpool: ${p.kulturpool_found} Treffer zum Namen ${tag("kulturpool")}</h4><ul class="records">${p.kulturpool.map((r) =>
+      ${p.kulturpool.length ? block("kulturpool", `<h4>${ico("archive")}Kulturpool: ${p.kulturpool_found} Treffer zum Namen ${tag("kulturpool")}</h4><ul class="records">${p.kulturpool.map((r) =>
         `<li class="noimg"><div>${link(r.url, r.title)}<div class="meta">${esc(r.provider)}${r.date ? " · " + esc(r.date) : ""}</div></div></li>`).join("")}</ul>`) : ""}
     </details>`;
   }
@@ -808,7 +873,7 @@
     const list = people.filter((p) => (group === "Alle" || p.group === group) && (!namedOnly || p.days));
     document.getElementById("people-list").innerHTML = GROUPS.filter((g) => list.some((p) => p.group === g)).map((g) => {
       const inGroup = list.filter((p) => p.group === g);
-      return `<h4>${esc(g)} (${inGroup.length})</h4>${inGroup.map(personDetail).join("")}`;
+      return `<h4>${ico("people")}${esc(g)} (${inGroup.length})</h4>${inGroup.map(personDetail).join("")}`;
     }).join("") || "<p class='note'>Niemand in dieser Auswahl.</p>";
   }
   function selectPerson(id) {
@@ -837,7 +902,7 @@
       <label><input type="checkbox" id="people-named"> nur im Tagebuch genannt</label>
     </div>
     <div id="people-list"></div>
-    <h4>Gezielt gesucht: Jäger, Kapitän, Fotografen, Ärzte</h4>
+    <h4>${ico("people")}Gezielt gesucht: Jäger, Kapitän, Fotografen, Ärzte</h4>
     <p class="note">Treffer in allen Quellen; behalten nur, wenn die Person mit ihrer Rolle oder der Reise genannt ist (gefunden / behalten).</p>
     ${ps.map((p) => `<details><summary><b>${esc(p.name)}</b> · ${esc(p.role)}</summary>
       <p class="note">${Object.entries(p.sources).map(([s, v]) => `${esc(SOURCE[s] || s)} ${v.raw}/${v.kept}`).join(" · ")}</p>
@@ -852,23 +917,23 @@
   // --- echo: press over time, topics, Kulturpool, photographers -------------------------
   const cov = E.anno_coverage;
   const max = Math.max(...cov.map((m) => m.issues_ff));
-  document.getElementById("echo").innerHTML = `<div data-src="anno"><h4>Franz Ferdinand in ANNO, Ausgaben pro Monat ${tag("anno")}</h4>
+  document.getElementById("echo").innerHTML = `<div data-src="anno"><h4>${ico("press")}Franz Ferdinand in ANNO, Ausgaben pro Monat ${tag("anno")}</h4>
     <div class="bars" role="img" aria-label="Ausgaben pro Monat, die Franz Ferdinand nennen, und davon mit Jagd">${cov.map((m) => `
       <div class="bar" title="${esc(m.month)}: ${m.issues_ff} Ausgaben, ${m.issues_ff_hunting} mit Jagd">
         <span class="all" style="height:${(m.issues_ff / max) * 100}%"><span class="hunt" style="height:${m.issues_ff ? (m.issues_ff_hunting / m.issues_ff) * 100 : 0}%"></span></span>
         <span class="lbl">${esc(m.month.slice(5))}</span></div>`).join("")}</div>
     <p class="note"><span class="key all"></span> nennt Franz Ferdinand oder den Thronfolger · <span class="key hunt"></span> davon mit Jagd, Tiger, Elefant …
       (Dezember 1892 bis Dezember 1893; Abfragen in <code>enrichment/02_anno.py</code>)</p>
-    ${E.anno_topics.map((t) => `<h4>${esc(t.label)} (${esc(span(t.start, t.end))}): ${t.total} Ausgaben</h4>
+    ${E.anno_topics.map((t) => `<h4>${ico("press")}${esc(t.label)} (${esc(span(t.start, t.end))}): ${t.total} Ausgaben</h4>
       <ul class="records">${t.documents.map((x) => `<li class="noimg"><div>${link(x.url, x.title)}
         ${x.snippet ? `<blockquote class="press">${marked(x.snippet)}</blockquote>` : ""}</div></li>`).join("")}</ul>`).join("")}</div>
-    <div data-src="kulturpool"><h4>Kulturpool: Akten und Bücher zur Reise ${tag("kulturpool")}</h4>
+    <div data-src="kulturpool"><h4>${ico("archive")}Kulturpool: Akten und Bücher zur Reise ${tag("kulturpool")}</h4>
     <p class="note">Die Objekte selbst liegen großteils im Weltmuseum Wien und im Naturhistorischen Museum;
       das Weltmuseum liefert nicht an den Kulturpool.</p>
     <ul class="records">${E.kulturpool.map((r) => `<li class="${r.image ? "" : "noimg"}">${r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy">` : ""}<div>
       ${link(r.url, r.title)}<div class="meta">${esc(r.provider)}${r.year ? " · " + esc(r.year) : ""} <span class="lic">${esc(r.rights || "")}</span>
       ${r.tier === "modern" ? " · heutige Aufarbeitung" : ""}</div></div></li>`).join("")}</ul></div>
-    <div data-src="europeana"><h4>Fotografen der Reise in Europeana ${tag("europeana")}</h4>
+    <div data-src="europeana"><h4>${ico("photo")}Fotografen der Reise in Europeana ${tag("europeana")}</h4>
     <ul class="plain">${E.photographers.map((p) => `<li>${esc(p.name)}: ${esc(p.role)} · ${p.kept} Fotos</li>`).join("")}</ul>
     <details><summary>Alle ${E.photos.length} Fotos</summary>${photoGrid(E.photos)}</details></div>`;
 
@@ -879,6 +944,7 @@
   if (epById.has(fromHash)) selectHunt(fromHash);
   else if (heroes.some((h) => h.id === fromHash)) selectHero(fromHash);
   else if (E.people[fromHash]) selectPerson(fromHash);
-  // The welcome sheet greets a plain visit; deep links go straight to their content
-  if (!fromHash) { welcome.hidden = false; document.getElementById("start").focus(); }
+  // The welcome sheet greets every visit; a deep link's day, hunt or person waits behind it
+  welcome.hidden = false;
+  document.getElementById("start").focus();
 })();

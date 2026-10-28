@@ -33,16 +33,22 @@ MIN_KILL_SENTENCES = 2
 FF = re.compile(r"Erzherzog|Thronfolger|Franz Ferdinand|Ferdinand", re.I)
 # Other archdukes in the news of 1893 (his father Karl Ludwig, Otto, Eugen, Rainer, Ludwig Victor …): a snippet
 # that names one of them and not Franz Ferdinand/the heir is not about him, even though it says "Erzherzog".
-OTHER_ARCHDUKE = re.compile(r"Erzherzog(?:s|e|en)?\s+(?:Karl|Carl|Otto|Ludwig|Eugen|Rainer|Albrecht|Wilhelm|Friedrich|"
-                            r"Jo[sh]e?ph|Leopold|Johann|Rudolf|Ste[fp]h?an|Ernst|Heinrich|Sigismund|Franz Salvator|"
-                            r"Max|Maximilian|Peter)\b|Erzherzogin", re.I)
+OTHER_ARCHDUKE = re.compile(r"Erz\s?herzog(?:s|e|en)?\W{0,2}\s*(?:Karl|Carl|Otto|Ludwig|Eugen|Rainer|Albrecht|Wilhelm|"
+                            r"Friedrich|Jo[sh]e?ph|Leopold|Johann|Rudolf|Ste[fps]h?an|Ernst|Heinrich|Sigismund|"
+                            r"Franz Salvator|Max|Maximilian|Peter|Ladislaus|L a d i)|Erzherzogin", re.I)
+# "Erzherzog" inside a name that is not the person: regiments, hotels, streets
+NOT_PERSON = re.compile(r"(?:Regiments?|Hotel|Gasthof|Straße|Strasse|Platz)\W{0,3}(?:Nr\.?\s*\d+\W{0,3})?Erz\s?herzog\w*", re.I)
+# "Erzherzog" as the person, not the adjective "erzherzogl(ich)" (estates: "Erzherzogl. Forstamt", OCR "Erzherzog!.")
+ARCHDUKE = re.compile(r"Erz\s?herzog(?![l!]|in)", re.I)
 
 
 def names_ff(t):
-    """The snippet is about Franz Ferdinand: names him or the heir, or says "Erzherzog" without another archduke."""
-    if re.search(r"Franz\s*Ferdinand|Thronfolger", t, re.I):
+    """The snippet is about Franz Ferdinand: names him; or says "Erzherzog" (the person) without another archduke;
+    "Thronfolger" only together with one of these (other countries have heirs too)."""
+    if re.search(r"Franz\s*Ferdi", t, re.I):
         return True
-    return bool(re.search(r"Erzherzog", t, re.I)) and not OTHER_ARCHDUKE.search(t)
+    t = NOT_PERSON.sub("", t)
+    return bool(ARCHDUKE.search(t)) and not OTHER_ARCHDUKE.search(t)
 
 
 def term(t):
@@ -67,14 +73,22 @@ def clean_snippet(s):
     return re.sub(r"\s+", " ", html.unescape(s).replace("\u00ad", "")).strip()
 
 
-def snippets(doc_id, query, keep, rank=None):
-    """Up to 3 snippets that match `keep`; with `rank` (text → sort key) the best first."""
+# Further stops named in the reports, with the hunting region they belong to (None: no hunt there). A snippet that
+# names a place of another region and none of its own reports on another part of the journey.
+STOPS = {"Colombo": "ceylon", "Pilibhit": "nepal", "Philibit": "nepal", "Wentworth": "badgery", "Blue Mountains": "badgery", "Moss Vale": "badgery",
+         "Bombay": None, "Calcutta": None, "Cal- cutta": None, "Kalkutta": None, "Delhi": None, "Lucknow": None, "Benares": None, "Singapur": None,
+         "Neu-Caledonien": None, "Numea": None, "Nouméa": None, "Borneo": None, "Sarawak": None, "Siam": None,
+         "Japan": None, "Hongkong": None, "Brisbane": None, "Melbourne": None, "Suez": None, "Aden": None}
+
+
+def snippets(doc_id, query, keep, rank=None, drop=None):
+    """Up to 3 snippets that match `keep` and not `drop` (text → bool); with `rank` (text → sort key) the best first."""
     d = get_json(f"{API}/snippet", {"documentId": doc_id, "query": query})
     out = []
     for p in d.get("snippetPages", []):
         for s in p.get("snippets", []):
             text = clean_snippet(s["text"])
-            if keep.search(text):
+            if keep.search(text) and not (drop and drop(re.sub(r"</?mark>", "", text))):
                 out.append({"page": s.get("pageLabel") or s.get("page"), "text": text,
                             "image": s.get("imageURL"), "url": s.get("openURL")})
     if rank:
@@ -82,7 +96,7 @@ def snippets(doc_id, query, keep, rank=None):
     return out[:3]
 
 
-RANK = {"high": 0, "medium": 1, "low": 2, "unchecked": 3}
+RANK = {"high": 0, "medium": 1, "low": 2, "other_hunt": 3, "unchecked": 4}
 
 
 GENERIC = {"Vögel", "Jagd", "Jagden", "erlegt", "erlegte", "Jagdbeute"}
@@ -99,7 +113,12 @@ def relevance(r, specific, place):
         # place (an animal alone is too common for that: market prices "Enten … das Paar")
         if (names_ff(t) and specific.search(t)) or ("issue" in r["match"] and place.search(t) and not OTHER_ARCHDUKE.search(t)):
             return "high"
-    return "medium" if "near" in r["match"] else "low"
+    # medium: found by proximity and a snippet names Franz Ferdinand by name (a bare "Erzherzog" without the hunt's
+    # place or animal was mostly someone else: a visit in Vienna, an Italian general greeting "den Erzherzog")
+    hunting = re.compile(r"Jagd|jagd|\bjag[te]|erleg|\bWild|schoss|Strecke|Beute|Treib")
+    named = any(re.search(r"Franz\s*Ferdi", t) and (hunting.search(t) or specific.search(t) or place.search(t))
+                for t in (re.sub(r"</?mark>", "", s["text"]) for s in r["snippets"]))
+    return "medium" if "near" in r["match"] and named else "low"
 
 
 def doc_record(d):
@@ -139,13 +158,35 @@ def enrich(h):
     animal_rx = re.compile("|".join(map(re.escape, animal_terms)), re.I)
     keep = re.compile("|".join([FF.pattern, specific.pattern, place_rx.pattern]), re.I)
 
+    # A snippet is not evidence for this hunt if it is about another archduke, or names places or animals of other
+    # hunts (or other stops) but none of this one: the same report on Hyderabad turned up for Agra, Jodhpur, Jaipur.
+    own_terms = set(place_terms) | {t for p in h["place_ids"] for t in PLACES[p]["diary"]} | \
+        {t for t, r in STOPS.items() if r == h["region"]}
+    foreign = ({t for p in PLACES.values() for t in p["anno"]} | {t for t, r in STOPS.items() if r != h["region"]}) - own_terms
+    own_animals = {t for a in h["animals"] for t in ANIMALS[a]["anno"]}
+    foreign_animals = sorted({t for a in ANIMALS.values() for t in a["anno"]} - own_animals - set(GENERIC), key=len, reverse=True)
+    def alt(terms):
+        return re.compile(r"\b(?:" + "|".join(map(re.escape, sorted(terms, key=len, reverse=True))) + r")", re.I)
+    foreign_place, foreign_animal = alt(foreign), alt(foreign_animals)
+    own_place, own_animal = alt(own_terms), alt(own_animals)
+
+    def snippet_drop(t):
+        """Not evidence for this hunt: does not name Franz Ferdinand (another archduke, or only the place: the
+        steamer "Gwalior", market prices); or names another hunt's place but not this one's (a place outweighs a
+        shared animal: the antelopes of Hyderabad are not Agra's); or only animals of other hunts."""
+        if not names_ff(t):
+            return True
+        if foreign_place.search(t) and not own_place.search(t):
+            return True
+        return bool(foreign_animal.search(t)) and not (own_place.search(t) or own_animal.search(t))
+
     def snippet_rank(t):
         ff, spec, an = names_ff(t), bool(specific.search(t) or place_rx.search(t)), bool(animal_rx.search(t))
         return (not (ff and (spec or an)), not spec, not ff)
     # issue-level hits that name the place first: a generic proximity hit ("Erzherzog … Vögel") is weaker
     ranked.sort(key=lambda r: ("issue" not in r["match"], "near" not in r["match"], -(r["hits_in_issue"] or 0)))
     for r in ranked[:SNIPPET_DOCS]:
-        r["snippets"] = snippets(r["docId"], snip_query, keep, snippet_rank)
+        r["snippets"] = snippets(r["docId"], snip_query, keep, snippet_rank, snippet_drop)
         r["relevance"] = relevance(r, specific, place_rx)
     ranked.sort(key=lambda r: RANK[r.get("relevance", "unchecked")])
     n_high = sum(r.get("relevance") == "high" for r in ranked)
@@ -154,6 +195,7 @@ def enrich(h):
         "hunt_id": h["id"], "window": [start, end],
         "queries": {"near": {"text": q_near, "total": n_near}, "issue": {"text": q_issue, "total": n_issue}},
         "documents": ranked,
+        "_own_place": own_place,
     }
 
 
@@ -202,6 +244,24 @@ def main():
     print(f"ANNO: {len(hunts)} episodes")
     with ThreadPoolExecutor(4) as ex:
         episodes = list(ex.map(enrich, hunts))
+    # An issue found for several hunts (overlapping windows) belongs to one: the hunt whose place its snippets name,
+    # else the earliest of them (reports arrive weeks later, so a later hunt's window also catches them)
+    starts = {h["id"]: h["start"] for h in hunts}
+    claims = {}
+    for e in episodes:
+        for r in e["documents"]:
+            if r.get("snippets"):
+                names_place = any(e["_own_place"].search(re.sub(r"</?mark>", "", s["text"])) for s in r["snippets"])
+                claims.setdefault(r["docId"], []).append((not names_place, starts[e["hunt_id"]], e["hunt_id"]))
+    owner = {doc: min(c)[2] for doc, c in claims.items()}
+    moved = 0
+    for e in episodes:
+        for r in e["documents"]:
+            if r.get("snippets") and owner[r["docId"]] != e["hunt_id"]:
+                r["relevance"], r["assigned_to"] = "other_hunt", owner[r["docId"]]
+                moved += 1
+        del e["_own_place"]
+    print(f"  issues kept for another hunt: {moved}")
     save("anno.json", {
         "source": "ANNO – AustriaN Newspapers Online, Österreichische Nationalbibliothek (metadata CC0)",
         "api": API,

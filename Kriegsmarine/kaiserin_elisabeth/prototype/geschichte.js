@@ -29,8 +29,9 @@
   };
   // A snippet is about Franz Ferdinand if it names him or the heir, or says "Erzherzog" without naming another
   // archduke (his father Karl Ludwig, Otto, Eugen … are in the same papers); same rule as enrichment/02_anno.py
-  const OTHER_ARCHDUKE = /Erzherzog(?:s|e|en)?\s+(?:Karl|Carl|Otto|Ludwig|Eugen|Rainer|Albrecht|Wilhelm|Friedrich|Jo[sh]e?ph|Leopold|Johann|Rudolf|Ste[fp]h?an|Ernst|Heinrich|Sigismund|Franz Salvator|Max|Maximilian|Peter)\b|Erzherzogin/i;
-  const namesFF = (t) => /Franz\s*Ferdinand|Thronfolger/i.test(t) || (/Erzherzog/i.test(t) && !OTHER_ARCHDUKE.test(t));
+  const OTHER_ARCHDUKE = /Erzherzog(?:s|e|en)?\s+(?:Karl|Carl|Otto|Ludwig|Eugen|Rainer|Albrecht|Wilhelm|Friedrich|Jo[sh]e?ph|Leopold|Johann|Rudolf|Ste[fp]h?an|Ernst|Heinrich|Sigismund|Franz Salvator|Max|Maximilian|Peter)s?\b|Erzherzogin/i;
+  // the person, not the adjective "erzherzogl(ich)" ("Erzherzogl. Forstamt", OCR "Erzherzog!.")
+  const namesFF = (t) => /Franz\s*Ferdi/i.test(t) || (/Erz\s?herzog(?![l!]|in)/i.test(t) && !OTHER_ARCHDUKE.test(t));
   const plain = (t) => t.replace(/<\/?mark>/g, "");
   // ANNO marks only the exact search terms; mark the inflected forms too ("des Erzherzogs"), outside existing marks
   const highlight = (html, rx) => html.split(/(<mark>.*?<\/mark>)/).map((part, i) => i % 2 ? part : part.replace(rx, "<mark>$&</mark>")).join("");
@@ -114,7 +115,7 @@
     // terms to mark: the archduke, the places and animals of this hunt
     const words = [...ep.places.flatMap((p) => p.label.split(/[\s,()·\/]+/)), ...ep.animals.flatMap((a) => a.label_de.split(/[\s()\/]+/))]
       .filter((w) => w.length > 3 && !/^(sonstige|State|Island)$/i.test(w)).map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-    const rx = new RegExp(`\\b(?:Erzherzog(?:s|e|en)?(?!in)|Thronfolger(?:s|n)?|Franz\\s+Ferdinand${words.length ? "|" + words.join("|") : ""})\\w*`, "gi");
+    const rx = new RegExp(`\\b(?:Erzherzog(?:s|e|en)?(?![l!]|in)|Thronfolger(?:s|n)?|Franz\\s+Ferdinand${words.length ? "|" + words.join("|") : ""})\\w*`, "gi");
     const pressItem = (p) => `<li>${highlight(marked(p.snippets[0].text), rx)}
       <span class="src">${link(p.snippets[0].url || p.url, p.newspaper)}, ${esc(fmt(p.date))}${p.snippets[0].page ? `, S. ${esc(p.snippets[0].page)}` : ""}</span></li>`;
     const quotes = ep.quotes.filter((q) => q.checked);
@@ -206,7 +207,8 @@
     const [rlat, rlon] = TODAY[best];
     return [lat + H1872[best].lat - rlat, lon + H1872[best].lon - rlon];
   };
-  const SHIP = "#1f4e79", HUNT = "#b4471b", AFTER = "#5f5a50";
+  // on the (light) 1872 map in both colour schemes, as in geschichte.css: route steel blue, hunts terracotta
+  const SHIP = "#2f5d7c", HUNT = "#b5533c", AFTER = "#6d6d6d";
   const ll = (d) => pos(d.lat, d.lon);
   const shipLine = shipDays.filter((d) => d.lat !== null);
   // after Yokohama the route runs east around the world: unwrap longitudes so each step is < 180°
@@ -219,7 +221,7 @@
   });
   L.polyline(afterLine, { color: AFTER, weight: 3, dashArray: "5 7", opacity: 0.95, interactive: false }).addTo(map);
   L.polyline(shipLine.map(ll), { color: SHIP, weight: 2, opacity: 0.3, interactive: false }).addTo(map);
-  const travelled = L.polyline([], { color: SHIP, weight: 3, opacity: 0.85, interactive: false }).addTo(map);
+  const travelled = L.polyline([], { color: SHIP, weight: 3, opacity: 0.9, interactive: false }).addTo(map);
   const current = L.polyline([], { color: HUNT, weight: 4, opacity: 0.95, interactive: false }).addTo(map);
   const hunts = L.layerGroup().addTo(map), here = L.layerGroup().addTo(map);
   for (const c of chapters.filter((c) => c.kind === "hunt")) {
@@ -228,7 +230,7 @@
       .bindTooltip(`${c.title} · ${span(c.start, c.end)}`).on("click", () => go(c)).addTo(hunts);
   }
   L.marker(ll(shipLine[shipLine.length - 1]), { interactive: false, icon: L.divIcon({ className: "", iconSize: null,
-    html: `<span style="font:12px system-ui;background:#fbf8f1;border:1px solid #d9cfbc;padding:1px 6px;border-radius:3px;white-space:nowrap;position:relative;left:8px;top:-8px">Yokohama: Franz Ferdinand verlässt die Kaiserin Elisabeth</span>` }) }).addTo(map);
+    html: `<span style="font:12px 'Public Sans',system-ui;background:#fff;color:#1e1e1e;border:.5px solid #000;padding:2px 8px;white-space:nowrap;position:relative;left:8px;top:-10px">Yokohama: Franz Ferdinand verlässt die Kaiserin Elisabeth</span>` }) }).addTo(map);
 
   function showOnMap(c) {
     const pts = c.days.filter((d) => d.lat !== null);
@@ -278,13 +280,13 @@
     let parts = "";
     // land and sea as two shades; one rect per run of equal days
     let run = null;
-    const flush = () => run && (parts += `<rect x="${run.x}" y="${Y}" width="${run.w}" height="${H}" fill="${run.sea ? "#b9cdd6" : "#cdbf9f"}"/>`);
+    const flush = () => run && (parts += `<rect x="${run.x}" y="${Y}" width="${run.w}" height="${H}" class="${run.sea ? "sea" : "land"}"/>`);
     shipDays.forEach((d, i) => {
       const sea = d.lat === null, x = (i / shipDays.length) * SHIP_W, w = SHIP_W / shipDays.length;
       if (run && run.sea === sea) run.w += w; else { flush(); run = { sea, x, w }; }
     });
     flush();
-    parts += `<rect x="${SHIP_W + 10}" y="${Y + 4}" width="${W - SHIP_W - 10}" height="${H - 8}" fill="#d6d1c6"/>`;
+    parts += `<rect x="${SHIP_W + 10}" y="${Y + 4}" width="${W - SHIP_W - 10}" height="${H - 8}" class="after"/>`;
     for (const c of chapters) {
       const x = xOf(c.start), w = Math.max(3, xEnd(c.end) - x);
       parts += c.kind === "hunt"
@@ -298,7 +300,7 @@
       if (m === lastM) return;
       lastM = m;
       const x = (i / shipDays.length) * SHIP_W;
-      parts += `<line x1="${x}" x2="${x}" y1="${Y + H + 2}" y2="${Y + H + 7}" stroke="#a39d90"/>`;
+      parts += `<line x1="${x}" x2="${x}" y1="${Y + H + 2}" y2="${Y + H + 7}" class="tick"/>`;
       if (x - lastX > 28 && x < SHIP_W - (W < 500 ? 40 : 22)) {
         parts += `<text x="${x + 2}" y="${Y + H + 19}">${MONTHS[+m.slice(5) - 1].slice(0, 3)}</text>`;
         lastX = x;
@@ -336,15 +338,28 @@
       `${c.kind === "hunt" ? `Jagd ${c.n} · ` : ""}${c.title} · ${span(c.start, c.end)}`;
     showOnMap(c);
   }
+  // A jump (map marker, timeline) scrolls smoothly past the chapters in between; while it does, scrolling does not
+  // set the chapter, else the map would fly through every one of them. Released when the scrolling stops.
+  let jumping = false, jumpTimer = null;
+  const endJump = () => { jumping = false; clearTimeout(jumpTimer); };
+  addEventListener("scrollend", endJump);
+  addEventListener("scroll", () => {
+    if (!jumping) return;
+    clearTimeout(jumpTimer);
+    jumpTimer = setTimeout(endJump, 200);   // browsers without scrollend
+  }, { passive: true });
   // only an explicit jump writes the URL (Chrome scrolls on a fragment change)
   function go(c) {
     if (!c) return;
     if (history.replaceState) history.replaceState(null, "", `#${c.id}`);
-    document.getElementById(c.id).scrollIntoView({ behavior: "smooth", block: "start" });
     setActive(c);
+    jumping = true;
+    jumpTimer = setTimeout(endJump, 1500);   // in case the page does not scroll at all
+    document.getElementById(c.id).scrollIntoView({ behavior: "smooth", block: "start" });
   }
   drawTimeline();
   const io = new IntersectionObserver((entries) => {
+    if (jumping) return;
     const vis = entries.filter((e) => e.isIntersecting);
     if (vis.length) setActive(chapters[+vis[0].target.dataset.i]);
   }, { rootMargin: "-35% 0px -60% 0px" });
