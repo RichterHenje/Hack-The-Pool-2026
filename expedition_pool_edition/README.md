@@ -17,7 +17,8 @@ im Browser öffnen (für die Karten ist eine Internetverbindung nötig).
 | Startseite | [`3_visualization/web/index.html`](3_visualization/web/index.html) |
 | Die Geschichte: Kapitel entlang der 18 Jagden bis Yokohama | [`3_visualization/web/geschichte.html`](3_visualization/web/geschichte.html) |
 | Die Reise Tag für Tag auf der Karte von 1872 | [`3_visualization/web/reise.html`](3_visualization/web/reise.html) |
-| ArcGIS StoryMap „Who was hunted?“ (Leander Gussmann) | [arcg.is/0DXKX](https://arcg.is/0DXKX), Ebenen in [`3_visualization/arcgis/`](3_visualization/arcgis/) |
+| Die Karte in ArcGIS: offene Ebenen mit Herkunft und Prüfstand je Ebene (Leander Gussmann) | [ArcGIS Online](https://cacgeoportal-hub.maps.arcgis.com/home/item.html?id=977298da4e1a47c380c77a9041e11908#overview), Ebenen und Export in [`3_visualization/arcgis/`](3_visualization/arcgis/) |
+| StoryMap „Who was hunted?“: die Reise aus Sicht der Tiere (Leander Gussmann, Englisch) | [arcg.is/0DXKX](https://arcg.is/0DXKX) |
 
 ## Aufbau
 
@@ -25,7 +26,7 @@ Der Ordner ist in drei Bereiche geteilt, in der Reihenfolge, in der die Daten fl
 
 | Bereich | Inhalt |
 | --- | --- |
-| [`1_sources/`](1_sources/) | **Importierte Daten**, nur gelesen: [`Vault/`](1_sources/Vault/) (Obsidian-Vault „Archive_Indien_Schiffreisen“ zur k.u.k. Kriegsmarine: Personen, Orte, Schiffe, Sammlungen) und [`Sources/`](1_sources/Sources/) (Tagebuch Franz Ferdinands als OCR, 2 Bände; Ranglisten 1892/93) |
+| [`1_sources/`](1_sources/) | **Importierte Daten**, nur gelesen: [`Vault/`](1_sources/Vault/) (Obsidian-Vault „Archive_Indien_Schiffreisen“ zur k.u.k. Kriegsmarine: Personen, Orte, Schiffe, Sammlungen) und [`Sources/`](1_sources/Sources/) (Tagebuch Franz Ferdinands als OCR, 2 Bände; Ranglisten 1892/93; die PDFs mit Textebene liegen nicht im Repository, sondern bei archive.org: Band 1 ([PDF](https://archive.org/download/tagebuchmeinerr01ferdgoog/tagebuchmeinerr01ferdgoog_text.pdf), 15 MB; [Digitalisat](https://archive.org/details/tagebuchmeinerr01ferdgoog)), Band 2 ([PDF](https://archive.org/download/tagebuchmeinerr00ferdgoog/tagebuchmeinerr00ferdgoog_text.pdf), 56 MB; [Digitalisat](https://archive.org/details/tagebuchmeinerr00ferdgoog))) |
 | [`2_processing/`](2_processing/) | **Unsere Arbeit an den Daten**: [`normalization/`](2_processing/normalization/) (Vault und Quellen → JSON, Tagebuch nach Tagen), [`enrichment/`](2_processing/enrichment/) (Wikidata, GeoNames, GND, ANNO, Kulturpool, Europeana, Weltmuseum; Prüfungen), [`analyses/`](2_processing/analyses/) (Höfers Reiseübersicht, Abgleich mit dem Tagebuch, Fotonummern), [`kaiserin_elisabeth/`](2_processing/kaiserin_elisabeth/) (Python-Paket: Vault-Bereinigung, Ortsverzeichnis, Kulturpool-Abgleich, Tests), [`JSON_OVERVIEW.md`](2_processing/JSON_OVERVIEW.md) (alle JSON-Dateien) |
 | [`3_visualization/`](3_visualization/) | **Visualisierung**: [`web/`](3_visualization/web/) (die Webseiten mit ihren Daten), [`arcgis/`](3_visualization/arcgis/) (Ebenen und Export der ArcGIS-Karte, Einbettung, Herkunft je Ebene), [`presentation/`](3_visualization/presentation/) (Präsentation, Diagramme zu Datenfluss und Jagdsätzen) |
 
