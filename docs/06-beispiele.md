@@ -6,7 +6,7 @@ Notebooks, Snippets, Prototypen, Sackgassen mit Lerneffekt. Was hier landet, spa
 
 ## 2025
 
-[Hack The Pool 2025](https://github.com/kulturpool/Hack-The-Pool-2025) — Beispiele und Projekte der letzten Ausgabe. Die APIs haben sich seither weiterentwickelt, das Meiste lässt sich trotzdem übertragen.
+[Hack the Pool 2025](https://github.com/kulturpool/Hack-The-Pool-2025) — Beispiele und Projekte der letzten Ausgabe. Die APIs haben sich seither weiterentwickelt, das Meiste lässt sich trotzdem übertragen.
 
 | Beispiel | Was es zeigt |
 |---|---|
@@ -23,9 +23,10 @@ Erste Beispiele des Kulturpool-Teams dienen als Inspiration und Anhaltspunkt zur
 
 | Beispiel | Was es zeigt |
 |---|---|
-| [Closest Object Game](https://kulturpool.github.io/Hack-The-Pool-2026/examples/closest_object) | Ähnlichkeit von Objekten als Ratespiel |
-| [Similarity Chain Game](https://kulturpool.github.io/Hack-The-Pool-2026/examples/similarity_chain) | Verbindungen von Objekten über Ähnlichkeit |
-| [Similarity Memory Game](https://kulturpool.github.io/Hack-The-Pool-2026/examples/similarity_memory) | Paarweise Ähnlichkeit von Objekten |
+| [Closest Object Game](https://kulturpool.github.io/Hack-the-Pool-2026/examples/closest_object) | Ähnlichkeit von Objekten als Ratespiel |
+| [Similarity Chain Game](https://kulturpool.github.io/Hack-the-Pool-2026/examples/similarity_chain) | Verbindungen von Objekten über Ähnlichkeit |
+| [Similarity Memory Game](https://kulturpool.github.io/Hack-the-Pool-2026/examples/similarity_memory) | Paarweise Ähnlichkeit von Objekten |
+| [Vector Search](https://vector.kulturpool.ai) | Referenzimplementierung der Vektorsuche: Text, Bild, ähnliche Objekte ([Code](https://github.com/kulturpool/vector-search)) |
 
 ## Projekte
 

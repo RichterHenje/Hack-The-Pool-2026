@@ -11,11 +11,10 @@ Eine Uhr, zwei Tage. Die Zeiten sind der Rahmen — gearbeitet wird dazwischen.
 | **10:00** | Team- & Ideenfindung | ↓ |
 | **11:00** | Arbeitsphase | ↓ |
 | **13:00** | Mittagessen | Mittagessen |
-| **14:00** | Arbeitsphase | Letzter Schliff |
-| **14:30** | ↓ | **Projekt-Slam** |
-| **15:00** | ↓ | Feedback-Runde |
-| **15:15** | ↓ | Preisverleihung |
-| **16:00** | ↓ | Ende |
+| **14:00** | Arbeitsphase | **Projekt-Slam** |
+| **15:00** | ↓ | Feedback-Runde / Jurysitzung |
+| **15:45** | ↓ | Preisverleihung |
+| **ca. 16:30** | ↓ | Ende |
 | **17:00** | Check-in | |
 | **18:00** | Abendessen | |
 | **22:00** | Ende Tag 1 | |

@@ -1,4 +1,4 @@
-# Microsite · Hack The Pool 2026
+# Microsite · Hack the Pool 2026
 
 Statische Seite zum Hackathon, ohne Build-Schritt. Veröffentlicht über GitHub Pages unter `/site/`.
 

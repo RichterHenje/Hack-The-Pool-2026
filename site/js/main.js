@@ -1,4 +1,4 @@
-/* Hack The Pool 2026 · Choreografie
+/* Hack the Pool 2026 · Choreografie
    Hero, Scroll-Szenen (GSAP + ScrollTrigger), Live-Daten und Charts, Filmstreifen, Karte, Konsole. */
 (function () {
   "use strict";
@@ -35,7 +35,7 @@
   function now() { return new Date(Date.now() + offset); }
   var DEADLINE = new Date("2026-10-06T23:59:59+02:00");
   var EVENT_START = new Date("2026-10-27T09:00:00+01:00");
-  var EVENT_END = new Date("2026-10-28T16:00:00+01:00");
+  var EVENT_END = new Date("2026-10-28T16:30:00+01:00");
   var DAY2 = new Date("2026-10-28T00:00:00+01:00");
   var INFO_URL = "https://info.kulturpool.at/hack-the-pool-2026/";
   var pad = function (n) { return String(n).padStart(2, "0"); };
@@ -60,8 +60,8 @@
     var live = n >= EVENT_START && n < EVENT_END, over = n >= EVENT_END, e = span(EVENT_START - n);
     if (regMode !== "closed") {
       regMode = "closed";
-      if (regText) regText.innerHTML = over ? "Das war Hack The Pool 2026. <strong>Danke an alle Teams.</strong>" : "Anmeldung geschlossen. <strong>Wir sehen uns am 27. Oktober.</strong>";
-      if (regCta) { regCta.textContent = over ? "Ergebnisse auf GitHub" : "Infos zum Event"; regCta.href = over ? "https://github.com/kulturpool/Hack-The-Pool-2026" : INFO_URL; }
+      if (regText) regText.innerHTML = over ? "Das war Hack the Pool 2026. <strong>Danke an alle Teams.</strong>" : "Anmeldung geschlossen. <strong>Wir sehen uns am 27. Oktober.</strong>";
+      if (regCta) { regCta.textContent = over ? "Ergebnisse auf GitHub" : "Infos zum Event"; regCta.href = over ? "https://github.com/kulturpool/Hack-the-Pool-2026" : INFO_URL; }
       if (heroCta) { heroCta.textContent = "Programm"; heroCta.href = "#programm"; }
       if (hudCta) { hudCta.textContent = "Programm"; hudCta.href = "#programm"; }
     }
