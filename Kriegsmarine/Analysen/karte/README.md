@@ -18,6 +18,7 @@ Daten: Team-Stand `a4b8b5a` (Tagebuchtage mit Koordinatenherkunft). Spätere Tea
 | `export_2026-10-28/` | Die Online-Karte als Dateien (Stand 28.10., 10:59 UTC, nach den Korrekturen unten): 8 Ebenen als GeoJSON, `webmap.json`, `items.json` (Beschreibung, Quellen, Rechte je Ebene), `layers.json`, `MANIFEST.md` mit Anzahl und SHA-256 |
 | `HERKUNFT_data_provenance.md` | Herkunft je Ebene: Quelle, Methode, Prüfstand, Rechte, Zahlen (englisch; erzeugt aus `skripte/ke_sources.json`) |
 | `skripte/` | Die Skripte, mit denen die Karte gebaut, geprüft und exportiert wurde (Kopie aus dem Projekt-Repo; Erklärung in `skripte/README_arcgis.md`). Die JS-Skripte laufen im Browser in einer Seite der ArcGIS-Organisation; die Python-Skripte erwarten die Ordnerstruktur des Projekt-Repos |
+| `EINBETTEN.md` | **Anleitung für die Webseite**: alle Adressen, fertiger iframe-Code (responsiv), Quellenzeile, Hinweise |
 | `index.html`, `vorschau_exhibit.jpg` | Einbettung und Vorschaubild |
 
 Rechte der Daten: Fotos des Weltmuseums nur als Link und mit Lizenzhinweis je Bild (109 CC BY-NC-SA 4.0
