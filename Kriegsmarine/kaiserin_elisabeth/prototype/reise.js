@@ -944,6 +944,7 @@
   if (epById.has(fromHash)) selectHunt(fromHash);
   else if (heroes.some((h) => h.id === fromHash)) selectHero(fromHash);
   else if (E.people[fromHash]) selectPerson(fromHash);
-  // The welcome sheet greets a plain visit; deep links go straight to their content
-  if (!fromHash) { welcome.hidden = false; document.getElementById("start").focus(); }
+  // The welcome sheet greets every visit; a deep link's day, hunt or person waits behind it
+  welcome.hidden = false;
+  document.getElementById("start").focus();
 })();
