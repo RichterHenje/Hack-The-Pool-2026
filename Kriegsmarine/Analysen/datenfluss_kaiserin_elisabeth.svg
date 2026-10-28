@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1270 524" width="1270" height="524" role="img">
-<title>Cause of Death: Franz Ferdinand</title>
+<title>Workflow: Data Cleaning and Enrichment</title>
 <style>
   text { font-family: "IBM Plex Sans", "Segoe UI", Arial, sans-serif; }
   .col { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; fill: #586b7c; }
@@ -19,7 +19,7 @@
   .frame { fill: none; stroke: #14283b; stroke-width: 1.5; }
 </style>
 <rect width="1270" height="524" fill="#f2f5f7" />
-<text x="20" y="30" style="font-family:Georgia,serif;font-size:20px;font-weight:600;fill:#14283b">Cause of Death: Franz Ferdinand</text>
+<text x="20" y="30" style="font-family:Georgia,serif;font-size:20px;font-weight:600;fill:#14283b">Workflow: Data Cleaning and Enrichment</text>
 <g transform="translate(0 44)">
         <defs>
           <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
