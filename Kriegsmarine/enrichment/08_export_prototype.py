@@ -36,6 +36,17 @@ HAND = {
     "mammothhotspringshotel": (44.977, -110.700), "fountaingeyserhotel": (44.553, -110.833),
     "yellowstonelakehotel": (44.550, -110.400), "grandcanonhotel": (44.720, -110.490),
     "manitousprings": (38.8597, -104.9172), "manitou": (38.8597, -104.9172),
+    # Place names given by the team for days the site names differently (Wikidata P625, 27.10.2026)
+    "sikanderaba": (17.45, 78.5),                   # 27.01. Secunderabad, Q1003502 (diary: „Sikandarabad“)
+    "portkennedyandsomersetbay": (-10.5789, 142.22),  # 06.05. „Kenneby Bay“: Port Kennedy, Thursday Island, Q556632 (as places.json)
+    "mossvalley": (-34.55, 150.3833),               # 22.05. Moss Vale NSW, Q3324945
+    "thehuntingcampatveimaori": (-9.05, 147.017),   # 19.06. Veimauri River, Q16902588
+    "huntingcampatveimaori": (-9.05, 147.017),      # 20.06. Veimauri River, Q16902588
+    "kosu": (35.1814, 136.9064),                    # 15.08. Nagoya, Q11751
+    "miyanoshitatokyoyokohama": (35.4503, 139.6342),  # 17.08. Miyanoshita – Tokyo – Yokohama: end of day, Yokohama Q38283
+    "blackmountain": (49.4792, -119.598),           # 13.09. Shingle Creek BC, Q7497459
+    "priestslanding": (50.2333, -119.35),           # 16.09. Okanagan Landing (Vernon BC), Q14874735
+    "northport": (48.9144, -117.782),               # 18.09. Northport, Washington, Q1504833
 }
 
 
