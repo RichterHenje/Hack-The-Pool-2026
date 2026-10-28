@@ -184,14 +184,20 @@ ol.steps li { counter-increment: step; display: grid; grid-template-columns: 56p
 ol.steps li::before { content: counter(step); grid-row: span 2; font: 400 40px/1 var(--display); color: var(--accent); }
 ol.steps h3 { border: 0; padding: 0; margin: 4px 0 6px; font-size: 17px; }
 ol.steps p { margin: 0; }
-ul.partners { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
-ul.partners li { border: var(--hair) solid var(--line); border-radius: var(--radius); padding: 20px; display: flex; flex-direction: column; }
-ul.partners .logo { height: 54px; width: auto; max-width: 100%; object-fit: contain; object-position: left; margin-bottom: 14px; background: #fff; padding: 4px; }
-ul.partners .logo.wide { height: 40px; padding: 10px 4px; }
-ul.partners .logo.tall { height: 96px; margin: -12px 0 2px -10px; }
-ul.partners h3 { border: 0; padding: 0; margin: 0 0 6px; font-size: 16px; }
-ul.partners p { margin: 0 0 12px; font-size: 15px; flex: 1; }
-ul.partners a { font-size: 14px; }
+ul.partners { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; }
+ul.partners li { border: var(--hair) solid var(--line); display: flex; flex-direction: column; background: var(--bg); }
+/* the logo is the card's heading; its alt text is the institution's name (no second, plain-text name) */
+ul.partners .logo-head { height: 92px; margin: 0; padding: 0 20px; display: flex; align-items: center;
+  border: 0; border-bottom: var(--hair) solid var(--line); background: #fff; }
+ul.partners .logo-head img { display: block; width: auto; max-width: 100%; }
+ul.partners .logo-head .kp { height: 26px; }
+ul.partners .logo-head .onb { height: 40px; }
+ul.partners .logo-head .wmw { height: 56px; }
+ul.partners .logo-head .eu { height: 30px; }
+ul.partners .role { margin: 16px 20px 6px; font-size: 13px; font-weight: 600; color: var(--accent); }
+ul.partners p { margin: 0 20px 14px; font-size: 15px; flex: 1; }
+ul.partners p.role { flex: 0; }
+ul.partners a { margin: 0 20px 18px; font-size: 14px; }
 ul.team { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0 24px; }
 ul.team li { padding: 12px 0; border-bottom: var(--hair) solid var(--line); display: flex; flex-direction: column; }
 ul.team b { font: 400 22px/1.2 var(--display); }
