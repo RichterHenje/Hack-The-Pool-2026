@@ -34,21 +34,26 @@ Nicht Kulturpool-Partner: KHM, Weltmuseum, HGM, Schönbrunn (Schloss, Tiergarten
 
 Hintergrund ist die Weltkarte von 1872 („World On Mercator's Projection“,
 [Map Warper 98512](https://mapwarper.net/maps/98512)), abschaltbar unter „Ebenen“ (dann
-Natural-Earth-Küsten). Die Karte ist ungleichmäßig georeferenziert (Sri Lanka rund 300 km zu
-weit nördlich, Japan rund 150 km zu weit südlich). Sie wird daher nicht verschoben; stattdessen
-stehen die Orte, solange sie eingeschaltet ist, dort, wo die Karte sie zeigt:
-`prototype/data/ke_places_1872.js` (von der Seite gelesen) und `ke_places_1872.json` (gleicher
-Inhalt), je Ort `lat`, `lon`, `quelle`. Die Originalkoordinaten in `ke_diary.js` bleiben unverändert.
+Natural-Earth-Küsten). Die Karte ist ungleichmäßig georeferenziert (Ägypten passt, Mitteleuropa
+rund 3° zu weit südlich, Indien und Java 2–5° zu weit nördlich, Japan rund 2° zu weit südlich).
+Sie wird daher nicht verschoben; stattdessen stehen die Orte, solange sie eingeschaltet ist, dort,
+wo die Karte sie zeigt: `prototype/data/ke_places_1872.js` (von der Seite gelesen) und
+`ke_places_1872.json` (gleicher Inhalt), je Ort `lat`, `lon`, `quelle`, für Orte außerhalb des
+Ortsverzeichnisses zusätzlich `heute` (heutige Koordinaten). Die Originalkoordinaten bleiben unverändert.
 
-- Ermittelt 27.10.2026: Kacheln (Zoom 4) gegen Natural-Earth-Küsten abgeglichen; Port Said,
-  Sydney, Kyoto, New York von Hand korrigiert, US-Binnenorte geschätzt (`quelle`).
+- Ermittelt 27.10.2026: Küstenorte per Abgleich der Kacheln (Zoom 4) mit Natural-Earth-Küsten;
+  Binnenorte und schwache Treffer (Indien, China, Sydney, Aden, Triest/Pola, Pazifik) auf Zoom 6
+  am Ortspunkt oder relativ zu Nachbarorten der Karte gesetzt (`quelle: Sichtprüfung …`); Banff,
+  Yellowstone und US-Binnenorte geschätzt.
+- Bekannter Datenfehler (nicht in dieser Datei): das Ortsverzeichnis legt „Livingston, Montana“
+  nach New Jersey (`ke_enrichment.js` → `geonames`), zwei Reisetage springen daher an die Ostküste.
 - Nachjustieren: `reise.html?kalibrieren`, Marker auf den Ort in der Karte ziehen, das JSON aus
   dem Textfeld in beide Dateien übernehmen.
 - Schlüssel sind die Ortsnamen aus `ke_diary.json` (GeoNames). `reise.html` nutzt inzwischen die 309 Tage
   aus `normalization/json/tagebuch_tage.json` mit Wikidata-Koordinaten (Bündel `data/ke_enrichment.js`,
   `enrichment/08_export_prototype.py`); jeder Punkt (Route, Jagden, Fotos, Tiere) wird daher wie der
-  nächstgelegene kalibrierte Ort verschoben (bis 4°, Bezugskoordinaten in `ke_enrichment.js` → `geonames`).
-  Orte weiter weg (z. B. Yellowstone) bleiben auf ihren heutigen Koordinaten.
+  nächstgelegene kalibrierte Ort verschoben (bis 4°, Bezugskoordinaten in `ke_enrichment.js` → `geonames`
+  oder `heute`). Derzeit hat jeder Tag mit Ort einen solchen Bezugsort.
 - Für die Karte nennt Map Warper keine Lizenz und keine Quelle; vor öffentlicher Nutzung klären.
 
 ## Mitmachen: Presse aus ANNO

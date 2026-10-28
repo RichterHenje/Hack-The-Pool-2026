@@ -68,13 +68,16 @@
   // The georeferencing is uneven (Europe fits, India–Java lies too far north, Japan too far south),
   // so the map is not shifted: on it, places are drawn where the map shows them (data/ke_places_1872.js,
   // keyed by the GeoNames names of ke_diary.json). Every point moves like the nearest of those places
-  // (within 4°; E.geonames holds their present-day coordinates). reise.html?kalibrieren makes them draggable.
+  // (within 4°; present-day coordinates from E.geonames, or `heute` in the file for places that are
+  // not in the gazetteer, e.g. Port Kennedy, Ugi, Trieste). reise.html?kalibrieren makes them draggable.
   const historicLayer = L.tileLayer("https://mapwarper.net/maps/tile/98512/{z}/{x}/{y}.png", {
     maxNativeZoom: 6,
     attribution: 'Karte 1872: <a href="https://mapwarper.net/maps/98512" target="_blank" rel="noopener">Map Warper 98512</a>',
   });
   const H1872 = window.KE1872 || {};
-  const REF = Object.entries(E.geonames || {});
+  const TODAY = { ...E.geonames };
+  for (const [name, h] of Object.entries(H1872)) if (h.heute) TODAY[name] = h.heute;
+  const REF = Object.entries(TODAY);
   let historic = true;
   // Position on the current base map; lon may be unwrapped (> 180 east of the date line)
   const pos = (lat, lon) => {
@@ -86,7 +89,7 @@
       if (H1872[name] && dd < bestD) { best = name; bestD = dd; }
     }
     if (!best) return [lat, lon];
-    const [rlat, rlon] = E.geonames[best];
+    const [rlat, rlon] = TODAY[best];
     return [lat + H1872[best].lat - rlat, lon + H1872[best].lon - rlon];
   };
 
@@ -232,7 +235,7 @@
       const shift = wrap(H1872[place].lon) - H1872[place].lon;
       L.marker([H1872[place].lat, H1872[place].lon + shift], { draggable: true, title: place }).addTo(map).on("dragend", (e) => {
         const ll = e.target.getLatLng();
-        H1872[place] = { lat: +ll.lat.toFixed(4), lon: +(ll.lng - shift).toFixed(4), quelle: "von Hand (Kalibrierung)" };
+        H1872[place] = { ...H1872[place], lat: +ll.lat.toFixed(4), lon: +(ll.lng - shift).toFixed(4), quelle: "von Hand (Kalibrierung)" };
         show();
         if (historic) draw();
       });
