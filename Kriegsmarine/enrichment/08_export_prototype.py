@@ -3,13 +3,18 @@
 Target: ../kaiserin_elisabeth/prototype/data/ke_enrichment.js (window.KEE = {...})
 
 The day spine is the normalised diary (normalization/json/tagebuch_tage.json, 309 days),
-not the 170 OCR entries of ke_diary.json. Coordinates per day (`coords`), first match wins:
+not the 170 OCR entries of ke_diary.json. Coordinates per day (`coords`, the method), first match wins:
+  camp     – the day's place names a camp of a hunting place (places.json `camps`: Nepal camps, Alwar,
+             Mullengudgery, Ugi, Laroki, Shingle Creek)
   hunt     – the day's place (destination of a transfer) names a hunting place of places.json
              (Wikidata coordinates, curated; overrides the gazetteer, which put Katni into India)
+  hand     – HAND below: stops off the vault route, approximate town coordinates; checked by hand, so
+             they come before the gazetteer (which knows only Livingston, New Jersey)
   heading  – the prototype gazetteer located the diary heading of that very day (ke_diary.json)
   site     – another day with the same place name (franzferdinandsworld.com) was located that way
   wikidata – the place name matches a route place (route_places.json)
-  hand     – HAND below: stops off the vault route, approximate town coordinates
+`coord_source` says what the point rests on: {"method", "basis": wikidata | geonames | estimated | hand,
+"ref": Wikidata/GeoNames URI or null, "name": the place matched, "note"}.
 Days at sea and places not found stay without coordinates (list only, no map point).
 Everything else is taken from data/*.json as built by steps 00–07; nothing is fetched here.
 """
@@ -36,17 +41,22 @@ HAND = {
     "mammothhotspringshotel": (44.977, -110.700), "fountaingeyserhotel": (44.553, -110.833),
     "yellowstonelakehotel": (44.550, -110.400), "grandcanonhotel": (44.720, -110.490),
     "manitousprings": (38.8597, -104.9172), "manitou": (38.8597, -104.9172),
-    # Place names given by the team for days the site names differently (Wikidata P625, 27.10.2026)
-    "sikanderaba": (17.45, 78.5),                   # 27.01. Secunderabad, Q1003502 (diary: „Sikandarabad“)
-    "portkennedyandsomersetbay": (-10.5789, 142.22),  # 06.05. „Kenneby Bay“: Port Kennedy, Thursday Island, Q556632 (as places.json)
-    "mossvalley": (-34.55, 150.3833),               # 22.05. Moss Vale NSW, Q3324945
-    "thehuntingcampatveimaori": (-9.05, 147.017),   # 19.06. Veimauri River, Q16902588
-    "huntingcampatveimaori": (-9.05, 147.017),      # 20.06. Veimauri River, Q16902588
-    "kosu": (35.1814, 136.9064),                    # 15.08. Nagoya, Q11751
-    "miyanoshitatokyoyokohama": (35.4503, 139.6342),  # 17.08. Miyanoshita – Tokyo – Yokohama: end of day, Yokohama Q38283
-    "blackmountain": (49.4792, -119.598),           # 13.09. Shingle Creek BC, Q7497459
-    "priestslanding": (50.2333, -119.35),           # 16.09. Okanagan Landing (Vernon BC), Q14874735
-    "northport": (48.9144, -117.782),               # 18.09. Northport, Washington, Q1504833
+    # Place names given by the team for days the site names differently (Lisa, Wikidata P625, 27.10.2026);
+    # (lat, lon, Wikidata link or "estimated", note) – a link makes coord_source basis "wikidata"
+    "sikanderaba": (17.45, 78.5, "https://www.wikidata.org/wiki/Q1003502", "27.01.: left from the station Sikandarabad (Secunderabad)"),
+    "portkennedyandsomersetbay": (-10.5789, 142.22, "https://www.wikidata.org/wiki/Q556632", "06.05.: Port Kennedy, Thursday Island (as places.json)"),
+    "mossvalley": (-34.55, 150.3833, "https://www.wikidata.org/wiki/Q3324945", "22.05.: Moss Vale NSW"),
+    "thehuntingcampatveimaori": (-9.05, 147.017, "https://www.wikidata.org/wiki/Q16902588", "19.06.: camp on the Veimauri River"),
+    "huntingcampatveimaori": (-9.05, 147.017, "https://www.wikidata.org/wiki/Q16902588", "20.06.: camp on the Veimauri River"),
+    "kosu": (35.2808, 139.2129, "https://www.wikidata.org/wiki/Q865280", "15.08.: Kōzu near Odawara, where the train was left for Miyanoshita "
+             "(diary: „In Kösu, einem beliebten Badeorte, verließen wir den Zug“), not Nagoya"),
+    "miyanoshitatokyoyokohama": (35.4503, 139.6342, "https://www.wikidata.org/wiki/Q38283", "17.08.: Miyanoshita – Tokyo – Yokohama, end of the day"),
+    "blackmountain": (49.47, -119.72, "estimated", "13.09.: Black Mountain not located; hunting ground reached from the "
+                     "Shingle Creek camp, so placed there (estimated, places.json camps)"),
+    "priestslanding": (50.2333, -119.35, "https://www.wikidata.org/wiki/Q14874735", "16.09.: Okanagan Landing at Vernon (Priest's Valley)"),
+    "northport": (48.9144, -117.782, "https://www.wikidata.org/wiki/Q1504833", "18.09.: Northport on the Columbia, Washington"),
+    "macao": (22.19, 113.5381, "https://www.wikidata.org/wiki/Q14773", "27.07.: the heading names the destination (Macao — Hongkong); "
+              "the day was spent in Macao"),
 }
 
 
@@ -56,7 +66,7 @@ def norm(s):
 
 def site_place(s):
     """'Kandy to Kalawewa, Ceylon' → 'Kalawewa'; 'Port Kennedy, Thursday Island (…)' → 'Port Kennedy'."""
-    s = re.sub(r"\(.*?\)", "", s or "")
+    s = re.sub(r"\(.*?\)|\s+–\s+in \d{4}:.*", "", s or "")
     s = s.split(";")[-1].split(",")[0]
     return re.split(r"\s+to\s+|\s+–\s+", s)[-1].strip()
 
@@ -83,40 +93,68 @@ def main():
     episodes = enr["episodes"]
 
     # --- coordinates ----------------------------------------------------------------------
-    by_hunt = {}
+    def src(lat, lon, basis, ref=None, name=None, note=None):
+        return {"lat": lat, "lon": lon, "basis": basis, "ref": ref, "name": name, "note": note}
+
+    def wd_ref(qid):
+        return f"https://www.wikidata.org/wiki/{qid}" if qid else None
+
+    by_hunt, by_camp = {}, {}
     for p in load("places_resolved.json"):
+        for c in p.get("camps", []):   # separate stops of a hunting place, each with its own point
+            if c.get("lat") is not None:
+                for name in [c["name"], *c["diary"]]:
+                    by_camp.setdefault(norm(name), src(c["lat"], c["lon"], c["basis"], c.get("ref"), c["name"], c.get("note")))
         if p.get("lat") is not None:
+            basis = "wikidata" if p["coords_from"] == "wikidata" else "hand"
             for name in [p["label"].split(" (")[0], *p["diary"]]:
-                by_hunt.setdefault(norm(name), (p["lat"], p["lon"]))
+                by_hunt.setdefault(norm(name), src(p["lat"], p["lon"], basis, wd_ref(p.get("wikidata")), p["label"], p.get("coord_note")))
+
+    def heading_src(k):
+        return src(k["lat"], k["lon"], "geonames", k.get("geonames") or None, k.get("place"),
+                   f"gazetteer match of the diary heading '{k['heading']}' (prototype gazetteer, GeoNames)")
+
     by_site = {}
     for d in days_in:
         k = ked.get(d["date"])
         if k and k["lat"] is not None and d["entry_date"] == d["date"]:
-            by_site.setdefault(site_place(d["place_site"]), (k["lat"], k["lon"]))
+            by_site.setdefault(site_place(d["place_site"]), heading_src(k) | {"note": f"as on {d['date']}: heading '{k['heading']}'"})
     by_route = {}
     for p in load("route_places.json")["places"]:
         if p.get("lat") is not None:
+            basis = "wikidata" if p["coords_from"] == "wikidata" else "hand"
             for name in (p["label"].split(",")[0].split(" (")[0], p.get("wikidata_label")):
                 if name:
-                    by_route.setdefault(norm(name), (p["lat"], p["lon"]))
+                    by_route.setdefault(norm(name), src(p["lat"], p["lon"], basis, wd_ref(p.get("wikidata")), p["label"], p.get("coord_note")))
+    hand = {}
+    for k, (lat, lon, *more) in HAND.items():
+        ref, note = (more + [None, None])[:2]
+        basis = "wikidata" if ref and ref.startswith("http") else ref or "hand"
+        hand[k] = src(lat, lon, basis, ref if basis == "wikidata" else None, k,
+                      note or "approximate town coordinates, set by hand")
 
     def locate(d):
+        """→ (method, source) with source = src(...), or (method, None) without a point."""
         name = site_place(d["place_site"])
-        hunt = next((by_hunt[norm(w)] for w in [name, *re.findall(r"\w{4,}", name)] if norm(w) in by_hunt), None)
-        if hunt and not at_sea(d["place_site"]):
-            return *hunt, "hunt"
+        words = [name, *re.findall(r"\w{4,}", name)]
+        sea = at_sea(d["place_site"])
+        if not sea:
+            for method, table in (("camp", by_camp), ("hunt", by_hunt)):
+                hit = next((table[norm(w)] for w in words if norm(w) in table), None)
+                if hit:
+                    return method, hit
+            if norm(name) in hand:   # checked by hand: wins over the gazetteer
+                return "hand", hand[norm(name)]
         k = ked.get(d["date"])
         if k and k["lat"] is not None and d["entry_date"] == d["date"]:
-            return k["lat"], k["lon"], "heading"
-        if at_sea(d["place_site"]):
-            return None, None, "sea"
+            return "heading", heading_src(k)
+        if sea:
+            return "sea", None
         if name in by_site:
-            return *by_site[name], "site"
+            return "site", by_site[name]
         if norm(name) in by_route:
-            return *by_route[norm(name)], "wikidata"
-        if norm(name) in HAND:
-            return *HAND[norm(name)], "hand"
-        return None, None, "none"
+            return "wikidata", by_route[norm(name)]
+        return "none", None
 
     # --- per-day material -----------------------------------------------------------------
     hunt_days = {h["date"]: h for h in load("hunt_entries.json")}
@@ -215,7 +253,8 @@ def main():
 
     days = []
     for d in days_in:
-        lat, lon, how = locate(d)
+        how, cs = locate(d)
+        lat, lon = (cs["lat"], cs["lon"]) if cs else (None, None)
         h = hunt_days.get(d["date"])
         k = ked.get(d["entry_date"]) or {}
         days.append({
@@ -223,6 +262,7 @@ def main():
             "entry": d["entry_date"], "method": d["method"], "days_in_entry": d.get("days_in_entry"),
             "band": d.get("band"), "scan": d.get("scan"), "page_url": d.get("page_url"), "site_url": d.get("site_url"),
             "lat": lat, "lon": lon, "coords": how,
+            "coord_source": {"method": how} | {k: v for k, v in cs.items() if k not in ("lat", "lon")} if cs else None,
             "hunt": {
                 "n": h["kill_sentences"], "first_person": h.get("first_person", 0), "animals": h["animals"],
                 "quotes": [{"text": trim(q["text"], 420), "first_person": q.get("first_person")} for q in h["quotes"][:4]],

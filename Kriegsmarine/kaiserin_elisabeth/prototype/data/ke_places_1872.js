@@ -170,9 +170,13 @@ window.KE1872 = {
   "quelle": "Küstenabgleich"
  },
  "Livingston": {
-  "lat": 37.9429,
-  "lon": -74.6664,
-  "quelle": "geschätzt zwischen Vancouver und New York"
+  "lat": 42.7365,
+  "lon": -110.8241,
+  "quelle": "geschätzt (Versatz von Yellowstone); Livingston, Montana, nicht New Jersey",
+  "heute": [
+   45.6619,
+   -110.5605
+  ]
  },
  "Colorado Springs": {
   "lat": 36.043,

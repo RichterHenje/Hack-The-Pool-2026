@@ -124,6 +124,8 @@ SPELLINGS = {
     "singapur": "Singapore",
     "nagasaki": "Nagasaki",
     "kumamoto": "Kumamoto",
+    # Livingston, Montana is under the 15,000 of cities15000; the only US match is Livingston, New Jersey
+    "livingston": "",
 }
 
 

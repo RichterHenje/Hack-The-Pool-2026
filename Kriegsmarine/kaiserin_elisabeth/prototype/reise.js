@@ -26,8 +26,17 @@
     no_entry: "kein eigener Eintrag im Tagebuch",
   };
   const COORDS = {
-    hunt: "Jagdort (Wikidata)", heading: "Ortsverzeichnis (Überschrift des Tages)", site: "Ortsverzeichnis (gleicher Ort an anderem Tag)",
-    wikidata: "Wikidata (Ort der Route)", hand: "von Hand, ungefähr",
+    camp: "Lager/Station eines Jagdorts", hunt: "Jagdort", heading: "Ortsverzeichnis (Überschrift des Tages)", site: "Ortsverzeichnis (gleicher Ort an anderem Tag)",
+    wikidata: "Ort der Route", hand: "Ortsliste von Hand",
+  };
+  const BASIS = { wikidata: "Wikidata", geonames: "GeoNames", estimated: "geschätzt", hand: "von Hand, ungefähr" };
+  // where a day's point comes from (coord_source of 08_export_prototype.py): method, basis, link, note
+  const coordInfo = (d) => {
+    const s = d.coord_source;
+    if (!s) return esc(COORDS[d.coords] || d.coords);
+    const basis = s.ref ? link(s.ref, BASIS[s.basis] || s.basis) : esc(BASIS[s.basis] || s.basis);
+    return `${esc(COORDS[s.method] || s.method)}${s.name ? ` „${esc(s.name)}“` : ""} · ${basis}` +
+      (s.note ? ` (${esc(s.note)})` : "");
   };
   const STATUS = {
     schoenbrunn: "nach Schönbrunn", vienna: "nach Wien", free: "entflogen / frei", died: "gestorben", unknown: "Verbleib unbekannt",
@@ -320,7 +329,7 @@
       <div class="meta">${esc(fmt(d.date))} · ${link(d.page_url, `Bd. ${d.band}, Scan ${d.scan}`)}
         ${d.site_url ? " · " + link(d.site_url, "Übersetzung") : ""}</div>
       <p class="note">${esc(METHOD[d.method] || d.method)}${d.heading ? ` · Überschrift (OCR): „${esc(d.heading)}“` : ""}
-        ${d.lat !== null ? ` · Ort: ${esc(COORDS[d.coords] || d.coords)}` : d.coords === "sea" ? " · auf See" : " · ohne Ort auf der Karte"}</p>`;
+        ${d.lat !== null ? ` · Ort: ${coordInfo(d)}` : d.coords === "sea" ? " · auf See" : " · ohne Ort auf der Karte"}</p>`;
     if (ep) {
       html += `<p class="banner">Teil der Jagd ${huntButton(ep.id, ep.label)} (${esc(span(ep.start, ep.end))})</p>`;
     }

@@ -31,6 +31,12 @@ day they are dated to, all 84 people of `data/people.json` (← `normalization/j
 with diary days, GND/Wikidata, ANNO and Kulturpool hits), the person search and the live animals (`heroes.json`).
 Views: days, hunts, animals, people, press echo (ANNO coverage, trophies/diary reviews, Kulturpool).
 Deep links: `reise.html#1893-02-24`, `#hunt-1893-03-09-nepal`, `#fips-mucki`.
+Every day with a map point carries `coord_source`: the method (`camp`, `hunt`, `hand`, `heading`, `site`,
+`wikidata`), the basis (`wikidata`, `geonames`, `estimated`, `hand`), the Wikidata/GeoNames link and a note;
+`reise.html` shows it in the day view. Hunting places that stand for several stops list them in
+`places.json` as `camps` (the Nepal Terai camps, Alwar, Mullengudgery, Ugi, the Laroki camp, Shingle Creek):
+with a Wikidata QID (coordinates fetched in step 0), a GeoNames point, or an estimate from the distances and
+directions in the diary and Höfer's itinerary, each with a note.
 
 Hand-maintained inputs: `places.json` (hunting places: OCR/day spellings, ANNO terms, region, vault notes),
 `route_wikidata.json` (QID per route place), `animals.json`, `heroes.json`.

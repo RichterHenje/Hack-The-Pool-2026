@@ -79,12 +79,12 @@
       28.6333
      ],
      [
-      80.3333,
-      28.8333
+      80.177,
+      28.869
      ],
      [
-      80.3333,
-      28.8333
+      80.6647,
+      28.6826
      ],
      [
       103.8,
@@ -555,8 +555,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     80.3333,
-     28.8333
+     80.177,
+     28.869
     ]
    },
    "properties": {
@@ -566,7 +566,7 @@
      19
     ],
     "wikidata": "Q28981",
-    "coord_note": "approximate: Kanchanpur District (W Nepal Terai), camp not geolocated"
+    "coord_note": "camp, estimated: diary: Barbatta 10 km south-east, Pilibhit 41 km (places.json camps)"
    }
   },
   {
@@ -574,8 +574,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     80.3333,
-     28.8333
+     80.6647,
+     28.6826
     ]
    },
    "properties": {
@@ -585,7 +585,7 @@
      20
     ],
     "wikidata": "Q28981",
-    "coord_note": "approximate: Kanchanpur District (W Nepal Terai), camp not geolocated"
+    "coord_note": "camp, geonames: Beli, Kailali; 24 km from Gulariya (diary: 23 km east) (places.json camps)"
    }
   },
   {
