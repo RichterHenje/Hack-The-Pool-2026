@@ -7,5 +7,5 @@
 .trash/
 
 # Enrichment: API-Cache
-Kriegsmarine/enrichment/.cache/
+Kriegsmarine/2_processing/enrichment/.cache/
 __pycache__/
