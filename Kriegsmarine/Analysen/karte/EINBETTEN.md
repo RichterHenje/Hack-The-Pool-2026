@@ -9,6 +9,7 @@ es braucht kein Login und keinen Schlüssel.
 | --- | --- | --- |
 | Tour (Exhibit) | `https://cacgeoportal-hub.maps.arcgis.com/apps/instant/exhibit/index.html?appid=c79ee6edf2084f31b3a2f7e0be943596` | geführte Folien durch die Reise; Hauptkarte zum Einbetten |
 | Zeitleiste (Slider) | `https://cacgeoportal-hub.maps.arcgis.com/apps/instant/slider/index.html?appid=63327c035045432f95793e26965e0d39` | die Reise Tag für Tag abspielen |
+| StoryMap „Who was hunted?“ | `https://storymaps.arcgis.com/stories/c658af3fb35b4688974d3cb214fb500b` | Erzählung in 11 Szenen, ein Tier je Szene, mit eigener Karte „Animal voices“; **verlinken, nicht einbetten** (siehe unten) |
 | Web-Karte (Seite) | `https://cacgeoportal-hub.maps.arcgis.com/home/item.html?id=977298da4e1a47c380c77a9041e11908` | Beschreibung, Quellen, Ebenen; zum Verlinken, nicht zum Einbetten |
 | Web-Karte (ID) | `977298da4e1a47c380c77a9041e11908` | nur nötig, wenn jemand die Karte selbst mit dem ArcGIS Maps SDK baut |
 
@@ -49,6 +50,38 @@ Hinweise:
 - `loading="lazy"` lädt die Karte erst, wenn man zu ihr scrollt; die Karte ist groß (Bilder, 9 Ebenen).
 - Höhe nicht unter etwa 450 px: darunter verdecken die Steuerelemente die Karte.
 - Fertiges Beispiel mit beiden Apps: `index.html` in diesem Ordner.
+
+## Die StoryMap „Who was hunted?“
+
+Öffentlich seit 28.10.2026 (veröffentlicht 12:09): https://storymaps.arcgis.com/stories/c658af3fb35b4688974d3cb214fb500b
+
+**Verlinken statt einbetten.** Der StoryMaps-Server sendet für die Story-Adresse
+`X-Frame-Options: SAMEORIGIN` (geprüft am 28.10. für alle Adress-Varianten); Browser zeigen sie dann in
+einem iframe auf einer fremden Seite in der Regel nicht an. Empfehlung: eine Karte mit Bild und Knopf.
+
+```html
+<a class="ke-story" href="https://storymaps.arcgis.com/stories/c658af3fb35b4688974d3cb214fb500b" target="_blank" rel="noopener">
+  <img src="vorschau_exhibit.jpg" alt="Karte der Reise der SMS Kaiserin Elisabeth 1892–93" loading="lazy">
+  <span class="ke-story-titel">Who was hunted? Eine StoryMap über die Tiere der Reise 1892–93</span>
+  <span class="ke-story-knopf">StoryMap öffnen</span>
+</a>
+<style>
+  .ke-story { display: block; max-width: 640px; text-decoration: none; color: inherit;
+              border: 1px solid #ccc; border-radius: 6px; overflow: hidden; }
+  .ke-story img { width: 100%; display: block; }
+  .ke-story-titel { display: block; padding: 12px 16px 4px; font-weight: 600; }
+  .ke-story-knopf { display: inline-block; margin: 8px 16px 16px; padding: 6px 12px;
+                    background: #7a1f1f; color: #fff; border-radius: 4px; }
+</style>
+```
+
+(`vorschau_exhibit.jpg` ist ein Platzhalter; besser ein Bild aus der StoryMap selbst, z. B. ein
+Screenshot des Titels, mit Bildnachweis.) Wer das Einbetten trotzdem testen will: in der StoryMap
+„Teilen → Einbetten“ wählen und den angebotenen Code im Browser auf der echten Seite prüfen; zeigt
+der Rahmen nichts an, bleibt es beim Link.
+
+Die Fotos der StoryMap (6 aus dem Weltmuseum Wien) tragen alle CC BY-NC-SA 4.0 über Europeana;
+die Bildunterschriften nennen Inventarnummer und Weg (Kulturpool, Europeana).
 
 ## Was die Seite neben der Karte nennen sollte
 

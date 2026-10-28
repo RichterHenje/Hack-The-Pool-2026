@@ -4,6 +4,7 @@
 
 - **Tour (Exhibit):** <https://cacgeoportal-hub.maps.arcgis.com/apps/instant/exhibit/index.html?appid=c79ee6edf2084f31b3a2f7e0be943596>
 - **Zeitleiste (Slider):** <https://cacgeoportal-hub.maps.arcgis.com/apps/instant/slider/index.html?appid=63327c035045432f95793e26965e0d39>
+- **StoryMap „Who was hunted?“:** <https://storymaps.arcgis.com/stories/c658af3fb35b4688974d3cb214fb500b> (verlinken, nicht einbetten: siehe `EINBETTEN.md`)
 - **Web-Karte:** <https://cacgeoportal-hub.maps.arcgis.com/home/item.html?id=977298da4e1a47c380c77a9041e11908>
 
 Seit 28.10.2026 öffentlich (Karte, 8 Ebenen, beide Apps). Jede Ebene beschreibt Quelle, Methode,
