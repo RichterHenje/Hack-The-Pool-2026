@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slam Kaiserin Elisabeth</title>
+<!--
+  Slam slides, 28.10.2026. Five slides, one number each, after the table in 16_slam_script.md.
+  Every number is a claim of 06_slam.md. Keys: right, space, PageDown = next; left, PageUp = back;
+  Home, End; F = full screen. Works offline; images from screenshots/.
+-->
+<style>
+  :root {
+    --paper: #f3ead6;
+    --paper-2: #e9dcc0;
+    --ink: #2a2017;
+    --muted: #6b5a47;
+    --rust: #a3401d;
+    --route: #2a64a8;
+    --rule: #cdb994;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: #1d1813; overflow: hidden; }
+  body { font-family: "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif; color: var(--ink); }
+
+  #stage {
+    position: absolute; left: 50%; top: 50%;
+    width: 1600px; height: 900px;
+    transform-origin: 0 0;
+  }
+  .slide {
+    position: absolute; inset: 0;
+    background: var(--paper);
+    display: none;
+    padding: 72px 80px 64px;
+  }
+  .slide.on { display: grid; }
+
+  .kicker { font-size: 22px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 18px; }
+  h1, h2 { font-family: Georgia, "Times New Roman", serif; font-weight: normal; margin: 0; line-height: 1.08; }
+  h1 { font-size: 64px; }
+  h2 { font-size: 56px; }
+  .num { font-family: Georgia, "Times New Roman", serif; font-size: 150px; line-height: 1; color: var(--rust); margin: 34px 0 6px; }
+  .num small { font-size: 64px; color: var(--ink); }
+  .numlabel { font-size: 28px; line-height: 1.35; margin: 0 0 28px; }
+  .lead { font-size: 30px; line-height: 1.4; margin: 0; }
+  .q { font-family: Georgia, "Times New Roman", serif; font-style: italic; font-size: 34px; line-height: 1.35; border-left: 6px solid var(--rust); padding-left: 24px; margin: 0; }
+  ul.facts { list-style: none; margin: 0; padding: 0; font-size: 25px; line-height: 1.35; }
+  ul.facts li { padding: 11px 0; border-top: 1px solid var(--rule); }
+  ul.facts li b { color: var(--rust); font-weight: 600; }
+  .punch { font-family: Georgia, "Times New Roman", serif; font-size: 36px; margin-top: 26px; }
+  .note { font-size: 19px; color: var(--muted); line-height: 1.4; }
+
+  .split { grid-template-columns: 560px 1fr; gap: 56px; }
+  .split .text { display: flex; flex-direction: column; justify-content: center; }
+  .shot { margin: -72px -80px -64px 0; overflow: hidden; border-left: 1px solid var(--rule); }
+  .shot img { width: 100%; height: 100%; object-fit: cover; object-position: 64% 50%; display: block; }
+  .shot.map img { transform: scale(1.7); transform-origin: 26% 46%; }
+  .compact .num { margin-top: 0; font-size: 130px; }
+  .compact .numlabel { margin-bottom: 18px; }
+  .compact ul.facts { font-size: 23px; }
+  .compact ul.facts li { padding: 8px 0; }
+  .compact .punch { font-size: 32px; margin-top: 18px; }
+  .tag { display: inline-block; font-size: 19px; padding: 4px 12px; border: 1.5px solid var(--rust); color: var(--rust); border-radius: 3px; margin-right: 8px; }
+
+  /* slide 4: two layers */
+  .layers { grid-template-rows: auto 1fr auto; gap: 40px; }
+  .cols { display: grid; grid-template-columns: 1fr 120px 1fr; align-items: center; }
+  .col { background: var(--paper-2); border: 1.5px solid var(--rule); padding: 36px 40px; }
+  .col h3 { font-family: Georgia, "Times New Roman", serif; font-weight: normal; font-size: 38px; margin: 0 0 6px; }
+  .col .sub { font-size: 22px; color: var(--muted); margin: 0 0 22px; }
+  .col ul { margin: 0; padding-left: 26px; font-size: 26px; line-height: 1.55; }
+  .col.links { border-color: var(--route); border-style: dashed; background: transparent; }
+  .col.links h3 { color: var(--route); }
+  .arrow { display: flex; align-items: center; justify-content: center; }
+
+  /* slide 5: asks */
+  .asks { grid-template-rows: auto 1fr auto; gap: 30px; }
+  ol.ask { list-style: none; margin: 0; padding: 0; counter-reset: a; }
+  ol.ask li { counter-increment: a; display: grid; grid-template-columns: 90px 1fr; padding: 22px 0; border-top: 1px solid var(--rule); }
+  ol.ask li::before { content: counter(a); font-family: Georgia, serif; font-size: 72px; line-height: .9; color: var(--rust); }
+  ol.ask .who { font-size: 22px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  ol.ask .what { font-size: 33px; line-height: 1.3; margin-top: 4px; }
+  .credits { font-size: 19px; color: var(--muted); line-height: 1.5; border-top: 1px solid var(--rule); padding-top: 16px; }
+
+  #pager { position: fixed; right: 0; bottom: 0; padding: 4px 12px; font: 14px system-ui, sans-serif; color: #9c8d78; background: #1d1813; }
+
+  @media print {
+    @page { size: 1600px 900px; margin: 0; }
+    html, body { background: var(--paper); overflow: visible; height: auto; }
+    #stage { position: static; transform: none !important; }
+    .slide { position: relative; display: grid !important; width: 1600px; height: 900px; break-after: page; }
+    #pager { display: none; }
+  }
+</style>
+</head>
+<body>
+<div id="stage">
+
+  <!-- 1 · Speaker A -->
+  <section class="slide split" data-n="1">
+    <div class="text">
+      <p class="kicker">Hack the Pool 2026 · KHM team</p>
+      <h1>SMS Kaiserin Elisabeth, a voyage against the grain</h1>
+      <div class="num">309</div>
+      <p class="numlabel">diary days, 14 December 1892 to 18 October 1893.<br>
+        11 January 1893: Kalawewa, Ceylon. The diary's own heading, scan 75.</p>
+      <p class="q">The ship's archive and Kulturpool describe the same voyage. Where do they meet?</p>
+    </div>
+    <div class="shot"><img src="screenshots/day_1893-01-11.png" alt="The team's travel page on 11 January 1893, Kalawewa, Ceylon: route on the world map of 1872, day card on the left, timeline below"></div>
+  </section>
+
+  <!-- 2 · Speaker B -->
+  <section class="slide split compact" data-n="2">
+    <div class="text">
+      <p class="kicker">The gap</p>
+      <div class="num">24 <small>of 70</small></div>
+      <p class="numlabel">stations have a Kulturpool record that names the place and is dated within ±2 years of the voyage.</p>
+      <ul class="facts">
+        <li>70 of the 90 stations of the ship placed automatically</li>
+        <li>2 records name the ship</li>
+        <li>Weltmuseum Wien, KHM, HGM, Staatsarchiv: not data providers in today's portal</li>
+        <li>Weltmuseum photographs: in Europeana since 2019, <b>delivered through Kulturpool</b>. Portal search “Tandur-Camp” today: <b>no record</b></li>
+      </ul>
+      <p class="punch">The delivery exists; the portal does not show it.</p>
+    </div>
+    <div class="shot"><img src="screenshots/overview.png" alt="The whole route of the voyage 1892–1893 on the world map of 1872, with hunting places and press reports"></div>
+  </section>
+
+  <!-- 3 · Speaker C -->
+  <section class="slide split" data-n="3">
+    <div class="text">
+      <p class="kicker">Against the grain</p>
+      <p class="lead">The route is the diary's story. Beside it, day by day: the hunting, the animals killed and collected, the people in the photographs.</p>
+      <div class="num">131 <small>of 134</small></div>
+      <p class="numlabel">Europeana photographs of the voyage are CC BY-NC-SA 4.0; 58 of them lie on our map.</p>
+      <p><span class="tag">machine-read</span><span class="tag">not yet checked against the scans</span></p>
+      <p class="note">Hunting sentences come from automatic text recognition; every card names its source.<br>
+        Photographs: Weltmuseum Wien, via Kulturpool and Europeana, CC BY-NC-SA 4.0.</p>
+    </div>
+    <div class="shot map"><img src="screenshots/day_1893-01-11.png" alt="Hunting places in Ceylon, India and Australia on the world map of 1872"></div>
+  </section>
+
+  <!-- 4 · Speaker A -->
+  <section class="slide layers" data-n="4">
+    <div>
+      <p class="kicker">What it means for Kulturpool</p>
+      <h2>The archive stays as it is. The links are a layer beside it.</h2>
+    </div>
+    <div class="cols">
+      <div class="col">
+        <h3>The archive</h3>
+        <p class="sub">as the ship's archive and the diary give it</p>
+        <ul>
+          <li>Stations, people, ships in the team's vault</li>
+          <li>Franz Ferdinand's printed diary, scan by scan</li>
+          <li>Nothing rewritten, nothing corrected</li>
+        </ul>
+      </div>
+      <div class="arrow">
+        <svg width="96" height="60" viewBox="0 0 96 60" aria-hidden="true"><path d="M4 30 H84 M66 12 L88 30 L66 48" fill="none" stroke="#2a64a8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="col links">
+        <h3>The link layer</h3>
+        <p class="sub">each link with its source</p>
+        <ul>
+          <li>Kulturpool and Europeana records</li>
+          <li>Newspapers of the same week (ANNO)</li>
+          <li>Places from GeoNames and Wikidata</li>
+          <li>Grows with every provider who connects</li>
+        </ul>
+      </div>
+    </div>
+    <p class="lead">Five minutes on the page bring up what nobody searched for: a hunt, a photograph, a newspaper report of the same week.</p>
+  </section>
+
+  <!-- 5 · Speaker B -->
+  <section class="slide asks" data-n="5">
+    <div>
+      <p class="kicker">Our ask</p>
+      <h2>Three things</h2>
+    </div>
+    <ol class="ask">
+      <li><div><div class="who">Kulturpool and ACDH</div>
+        <div class="what">Tell us which records belong to this voyage, and why a delivery of 2019 does not surface in today's portal.</div></div></li>
+      <li><div><div class="who">The museums that hold the voyage</div>
+        <div class="what">Connect, or tell us where the records are.</div></div></li>
+      <li><div><div class="who">Everyone in the room</div>
+        <div class="what">45 minutes with a scan and a sheet to check the hunting sentences, so that machine output becomes evidence.</div></div></li>
+    </ol>
+    <p class="credits">KHM team, Hack the Pool 2026 · Sources: Kulturpool, Europeana, Weltmuseum Wien, ANNO (Austrian National Library), GeoNames and Wikidata (CC BY 4.0), world map 1872 via Map Warper 98512 · Thank you.</p>
+  </section>
+
+</div>
+<div id="pager"></div>
+
+<script>
+  (function () {
+    var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+    var stage = document.getElementById('stage');
+    var pager = document.getElementById('pager');
+    var i = 0;
+
+    function fit() {
+      var s = Math.min(window.innerWidth / 1600, window.innerHeight / 900);
+      stage.style.transform = 'scale(' + s + ') translate(-800px, -450px)';
+    }
+    function show(n) {
+      i = Math.max(0, Math.min(slides.length - 1, n));
+      slides.forEach(function (el, k) { el.classList.toggle('on', k === i); });
+      pager.textContent = (i + 1) + ' / ' + slides.length;
+      if (location.hash !== '#' + (i + 1)) history.replaceState(null, '', '#' + (i + 1));
+    }
+    document.addEventListener('keydown', function (e) {
+      var k = e.key;
+      if (k === 'ArrowRight' || k === ' ' || k === 'PageDown' || k === 'Enter') { show(i + 1); e.preventDefault(); }
+      else if (k === 'ArrowLeft' || k === 'PageUp' || k === 'Backspace') { show(i - 1); e.preventDefault(); }
+      else if (k === 'Home') show(0);
+      else if (k === 'End') show(slides.length - 1);
+      else if (k === 'f' || k === 'F') {
+        if (document.fullscreenElement) document.exitFullscreen();
+        else document.documentElement.requestFullscreen().catch(function () {});
+      }
+    });
+    document.addEventListener('click', function (e) {
+      show(e.clientX < window.innerWidth / 3 ? i - 1 : i + 1);
+    });
+    window.addEventListener('resize', fit);
+    fit();
+    show((parseInt(location.hash.slice(1), 10) || 1) - 1);
+  })();
+</script>
+</body>
+</html>

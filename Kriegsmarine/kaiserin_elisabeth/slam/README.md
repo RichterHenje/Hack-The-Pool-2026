@@ -1,10 +1,11 @@
 # Slam, Wed 28 October 2026, 14:00
 
 Talk material for the Projekt-Slam: SMS Kaiserin Elisabeth 1892–1893, a voyage against the grain.
-Drafts of 28.10.; the slides themselves follow on this branch.
+Drafts of 28.10.
 
 | file | what |
 | --- | --- |
+| `slides.html` | the 5 slides, one number each; open in a browser, offline. Keys: → / space / PageDown next, ← / PageUp back, F full screen; `slides.html#3` opens slide 3; print to PDF gives one slide per page |
 | `06_slam.md` | the claims of the talk, each with its tag (MEASURED, PROBE, PROPOSED) and its source file |
 | `16_slam_script.md` | script, 3 minutes, Speakers A, B, C, with slide and demo cues and the slide table |
 | `17_slam_cut90.md` | the same talk cut to 90 seconds |
