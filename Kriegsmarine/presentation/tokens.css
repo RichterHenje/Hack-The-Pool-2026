@@ -1,0 +1,32 @@
+/* Design-Tokens der Visualisierungen (hell, dunkel automatisch).
+   In den HTML-Dateien stehen dieselben Werte im :root-Block ganz oben im <style>.
+   Zum Anpassen genügt es, diese Werte zu ersetzen. */
+:root {
+  --bg: #f2f5f7;          /* Hintergrund */
+  --ink: #14283b;         /* Text, Pfeile, Umrisse */
+  --muted: #586b7c;       /* Zweittext, Spaltenköpfe */
+  --line: #9db0bf;        /* Rahmen der Quellen-Kästen, Trennlinien */
+  --step-fill: #dfe9f0;   /* Schritt-Kästen */
+  --out-fill: #14283b;    /* Ergebnis-Kästen */
+  --out-ink: #f2f5f7;     /* Text auf Ergebnis-Kästen */
+  --land: #c4d3de;        /* Land im Kartenausschnitt */
+  --brass: #a8680f;       /* Akzent: Route, Prüfband */
+  --data: #1f5c8a;        /* Diagramme: Balken, Raster */
+  --grid: #d3dde5;        /* Diagramme: Gitterlinien */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;       /* Titel */
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;     /* Text, Beschriftungen */
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1a26; --ink: #e4ecf2; --muted: #93a6b6; --line: #4a6073;
+    --step-fill: #1b3044; --out-fill: #e4ecf2; --out-ink: #0d1a26;
+    --land: #2f4a61; --brass: #e0a24a; --data: #6fb0e0; --grid: #25394b;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d1a26; --ink: #e4ecf2; --muted: #93a6b6; --line: #4a6073;
+  --step-fill: #1b3044; --out-fill: #e4ecf2; --out-ink: #0d1a26;
+  --land: #2f4a61; --brass: #e0a24a; --data: #6fb0e0; --grid: #25394b;
+  color-scheme: dark;
+}

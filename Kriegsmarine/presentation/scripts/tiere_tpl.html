@@ -1,0 +1,88 @@
+<title>Jagdsätze im Tagebuch</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+/* Layout: eine Spalte, drei Abbildungen untereinander (Tierarten, Zeitverlauf, Tierarten je Monat), Hinweis zur Zählung oben */
+:root {
+  --bg: #f2f5f7;
+  --ink: #14283b;
+  --muted: #586b7c;
+  --grid: #d3dde5;
+  --data: #1f5c8a;
+  --on-data: #f2f5f7;
+  --empty: #e6edf2;
+  --note: #a8680f;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1a26; --ink: #e4ecf2; --muted: #93a6b6; --grid: #25394b;
+    --data: #6fb0e0; --on-data: #0d1a26; --empty: #162a3b; --note: #e0a24a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d1a26; --ink: #e4ecf2; --muted: #93a6b6; --grid: #25394b;
+  --data: #6fb0e0; --on-data: #0d1a26; --empty: #162a3b; --note: #e0a24a;
+  color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 15px; line-height: 1.55;
+  padding-block: 32px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+main { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 36px; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: 1.9rem; line-height: 1.15; margin: 0 0 8px; text-wrap: balance; }
+h2 { font-size: 1.05rem; font-weight: 600; line-height: 1.3; margin: 0 0 4px; text-wrap: balance; }
+p { margin: 0; }
+.lead { color: var(--muted); max-width: 65ch; }
+.note { border-left: 3px solid var(--note); padding: 2px 0 2px 14px; max-width: 65ch; }
+.note strong { color: var(--note); }
+.sub { color: var(--muted); font-size: 0.875rem; margin-bottom: 12px; }
+figure { margin: 0; }
+.scroll { overflow-x: auto; }
+svg { display: block; min-width: 560px; width: 100%; height: auto; }
+.src { color: var(--muted); font-size: 0.8125rem; margin-top: 8px; }
+
+.lab { font: 400 13px var(--font-body); fill: var(--ink); }
+.val { font: 600 12px var(--font-body); fill: var(--ink); font-variant-numeric: tabular-nums; }
+.tick { font: 400 11px var(--font-body); fill: var(--muted); font-variant-numeric: tabular-nums; }
+.bar, .data { fill: var(--data); }
+.empty { fill: var(--empty); }
+.grid { stroke: var(--grid); stroke-width: 1; }
+.axis { stroke: var(--muted); stroke-width: 1; }
+.cell { font: 600 12px var(--font-body); fill: var(--ink); }
+.cellon { font: 600 12px var(--font-body); fill: var(--on-data); }
+g:hover > .bar, g:hover > .data { stroke: var(--ink); stroke-width: 1.5; }
+</style>
+
+<main>
+  <header>
+    <h1>Jagdsätze im Tagebuch</h1>
+    <p class="lead">Weltreise von Franz Ferdinand, 15. Dezember 1892 bis 17. Oktober 1893.</p>
+  </header>
+
+  <p class="note"><strong>Was gezählt wird:</strong> {{SENT}} Sätze an {{DAYS}} Tagen, die „erlegen“ oder „schießen“ enthalten, und die {{MENT}} Tiernennungen darin. Das sind keine Stückzahlen. Ein Satz kann mehrere Tiere nennen oder keines, und ein genanntes Tier ist nicht zwingend getötet. Angaben wie „Gesammtstrecke des Tages betrug 100 Stücke“ sind nicht ausgewertet. Die Texterkennung ist ungeprüft.</p>
+
+  <section>
+    <h2>Wildvögel führen vor Tiger und Hirsch</h2>
+    <p class="sub">Tiernennungen in Jagdsätzen nach Tierart, {{NSP}} Arten</p>
+    <figure><div class="scroll"><!--C1--></div></figure>
+  </section>
+
+  <section>
+    <h2>Die meisten Jagdsätze stehen im Februar, März und Mai, im Juli und August keiner</h2>
+    <p class="sub">Jagdsätze pro Monat</p>
+    <figure><div class="scroll"><!--C2--></div></figure>
+  </section>
+
+  <section>
+    <h2>Tiger und Elefant im März, Känguru und Bär im Mai</h2>
+    <p class="sub">Tiernennungen in Jagdsätzen nach Art und Monat, dunklere Felder bedeuten mehr Nennungen</p>
+    <figure><div class="scroll"><!--C3--></div></figure>
+    <p class="src">Quelle: Franz Ferdinand, <em>Tagebuch meiner Reise um die Erde</em> (1895), automatisch ausgewertet in ke_diary.json.</p>
+  </section>
+</main>
