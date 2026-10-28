@@ -24,7 +24,7 @@ from pathlib import Path
 from kp import kulturpool as kpa
 from kp import places, rights
 
-DATA = Path("../../3_visualization/web/data")  # the web pages (Kriegsmarine/3_visualization/web)
+DATA = Path("../../3_visualization/web/data")  # the web pages (expedition_pool_edition/3_visualization/web)
 MARGIN = 2
 SHIP_QUERIES = [
     '"SMS Kaiserin Elisabeth"',

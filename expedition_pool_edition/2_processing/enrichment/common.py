@@ -8,7 +8,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-# Kriegsmarine/ is split into 1_sources (imported, read-only), 2_processing (this folder and its siblings
+# expedition_pool_edition/ is split into 1_sources (imported, read-only), 2_processing (this folder and its siblings
 # normalization/, analyses/) and 3_visualization (the web pages in web/, which read web/data/)
 KM = ROOT.parents[1]
 SOURCES = KM / "1_sources" / "Sources"

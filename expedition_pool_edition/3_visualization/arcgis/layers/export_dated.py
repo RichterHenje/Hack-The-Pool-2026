@@ -20,8 +20,8 @@ from datetime import date
 from itertools import pairwise
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent  # Kriegsmarine/3_visualization/arcgis/layers
-KM = HERE.parents[2]  # Kriegsmarine/
+HERE = Path(__file__).resolve().parent  # expedition_pool_edition/3_visualization/arcgis/layers
+KM = HERE.parents[2]  # expedition_pool_edition/
 PROTO = KM / "3_visualization" / "web"  # the web pages and their data/
 ANALYSES = KM / "2_processing" / "analyses"
 START = date(1892, 12, 15)

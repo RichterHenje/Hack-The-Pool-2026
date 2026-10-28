@@ -24,8 +24,8 @@ Ein Hackathon von [Kulturpool](https://kulturpool.at) und dem [ACDH](https://www
 Die Weltreise des Thronfolgers an Bord S.M.S. Kaiserin Elisabeth 1892/93 und seine Jagden: aus einem
 Archiv-Vault zur k.u.k. Kriegsmarine, dem gedruckten Tagebuch, Zeitungen (ANNO) und Museumssammlungen
 (Kulturpool, Weltmuseum Wien, Europeana) ein verknüpfter Datensatz, dazu drei Ansichten.
-Alles im Ordner [`Kriegsmarine/`](Kriegsmarine/) ([README](Kriegsmarine/README.md)); Einstieg:
-[`Kriegsmarine/3_visualization/web/index.html`](Kriegsmarine/3_visualization/web/index.html).
+Alles im Ordner [`expedition_pool_edition/`](expedition_pool_edition/) ([README](expedition_pool_edition/README.md)); Einstieg:
+[`expedition_pool_edition/3_visualization/web/index.html`](expedition_pool_edition/3_visualization/web/index.html).
 
 ## Anmeldung
 

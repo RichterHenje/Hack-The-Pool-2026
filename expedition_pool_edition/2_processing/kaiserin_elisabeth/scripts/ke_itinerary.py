@@ -26,7 +26,7 @@ from pathlib import Path
 from kp import geo
 from scripts.vault_places import VAULT, wikilinks
 
-OUT = Path("../../3_visualization/web/data")  # the web pages (Kriegsmarine/3_visualization/web)
+OUT = Path("../../3_visualization/web/data")  # the web pages (expedition_pool_edition/3_visualization/web)
 WELTREISE = "Personen/Weltreise Erzherzog Franz Ferdinand von Österreich-Este (1892-1893).md"
 SHIP = "Schiffe/Kaiserin Elisabeth, Kreuzer.md"
 ONWARD = "Ab Hier mit einem anderen Passagierschiff"

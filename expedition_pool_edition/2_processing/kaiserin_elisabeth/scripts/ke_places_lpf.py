@@ -25,7 +25,7 @@ import requests
 
 from kp import geo, places
 
-DATA = Path("../../3_visualization/web/data")  # the web pages (Kriegsmarine/3_visualization/web)
+DATA = Path("../../3_visualization/web/data")  # the web pages (expedition_pool_edition/3_visualization/web)
 SCHEMA = Path("reference/lpf/schema_lpf_v1.2.2.json")
 SCHEMA_GET = (
     "gh api repos/WorldHistoricalGazetteer/whg3/contents/datasets/static/validate/"

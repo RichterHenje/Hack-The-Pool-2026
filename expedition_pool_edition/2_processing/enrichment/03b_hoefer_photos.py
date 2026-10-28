@@ -135,8 +135,8 @@ def main():
             print(f"  {h['id']:<32} höfer {a}..{b} ({len(hs)} stays)  photos {len(linked)}")
     save("hoefer_photos.json", {
         "sources": {"hoefer": "Regina Höfer (Hg.), Imperial Sightseeing, Wien 2010, doi:10.11588/xarep.00001404 "
-                              "(via Kriegsmarine/2_processing/analyses/itinerary_1892_93.csv)",
-                    "weltmuseum": "Weltmuseum Wien, Online-Sammlung (via Kriegsmarine/2_processing/analyses/vf_weltmuseum.csv)",
+                              "(via expedition_pool_edition/2_processing/analyses/itinerary_1892_93.csv)",
+                    "weltmuseum": "Weltmuseum Wien, Online-Sammlung (via expedition_pool_edition/2_processing/analyses/vf_weltmuseum.csv)",
                     "commons": "Wikimedia Commons API"},
         "episodes": episodes,
     })

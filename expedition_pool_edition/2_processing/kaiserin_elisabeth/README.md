@@ -66,7 +66,7 @@ Ausschnitte von Hand in `../../3_visualization/web/data/presse_anno.csv` eintrag
 
 ## Neu erzeugen
 
-Python 3.13, [uv](https://docs.astral.sh/uv/), im Ordner `Kriegsmarine/2_processing/kaiserin_elisabeth/`:
+Python 3.13, [uv](https://docs.astral.sh/uv/), im Ordner `expedition_pool_edition/2_processing/kaiserin_elisabeth/`:
 
 ```
 uv run python -m scripts.ke_diary           # Tagebuch -> Tagesroute, Jagdsätze, Presse (reise.html)

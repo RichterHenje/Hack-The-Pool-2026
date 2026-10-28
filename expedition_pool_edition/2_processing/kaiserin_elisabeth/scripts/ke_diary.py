@@ -2,7 +2,7 @@
 
     uv run python -m scripts.ke_diary
 
-Reads the team's day-segmented diary (vault `Kriegsmarine/1_sources/Sources/FF Tagebuch Bd. 1.md`,
+Reads the team's day-segmented diary (vault `expedition_pool_edition/1_sources/Sources/FF Tagebuch Bd. 1.md`,
 `Bd. 2.md`: one `### YYYY-MM-DD · Ort` heading per day, `^scanN` page markers, OCR text
 uncorrected) and writes prototype/data/ke_diary.json + ke_diary.csv:
 
@@ -33,7 +33,7 @@ VOLUMES = {
     "1": ("FF Tagebuch Bd. 1.md", "tagebuchmeinerr01ferdgoog"),
     "2": ("FF Tagebuch Bd. 2.md", "tagebuchmeinerr00ferdgoog"),
 }
-OUT = Path("../../3_visualization/web/data")  # the web pages (Kriegsmarine/3_visualization/web)
+OUT = Path("../../3_visualization/web/data")  # the web pages (expedition_pool_edition/3_visualization/web)
 
 KILL = re.compile(
     # not "schoß": in the diary also the noun Schoß ("den jungfräulichen Schoß der Erde")
