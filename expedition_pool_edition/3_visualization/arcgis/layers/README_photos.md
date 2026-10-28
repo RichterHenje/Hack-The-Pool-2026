@@ -3,9 +3,9 @@
 Stand 27.10.2026, ca. 15:50. Erzeugt mit `analysis/ke_research/hoefer_link/ke_photos.py` im Repo `artxscience-ai/hack-the-pool-2026` (bis zum Slam privat; Team-Mitglieder haben Zugang).
 
 ## Quellen
-- die Fotoliste des Teams `Kriegsmarine/2_processing/normalization/json/bilder.json` (Stand 15:41: 408
+- die Fotoliste des Teams `expedition_pool_edition/2_processing/normalization/json/bilder.json` (Stand 15:41: 408
   Weltmuseum-Fotos, Inventarnummer, Titel, Datierung, Geografie, Weltmuseum-Link);
-- Höfers Reiseübersicht (`Kriegsmarine/2_processing/analyses/itinerary_1892_93.csv`);
+- Höfers Reiseübersicht (`expedition_pool_edition/2_processing/analyses/itinerary_1892_93.csv`);
 - die datierten Stationen in diesem Ordner (`ke_stops_dated.csv`).
 
 **Alle Zuordnungen sind Vorschläge**, bis jemand sie geprüft hat.
@@ -42,7 +42,7 @@ Stand 27.10.2026, ca. 15:50. Erzeugt mit `analysis/ke_research/hoefer_link/ke_ph
    - Zeilen ohne Koordinaten werden nicht gezeichnet; sie stehen nur in der CSV.
 3. Ebeneneigenschaften → **Zeit** aktivieren: Start = `date`. Zeitschieberegler mit Intervall
    1 Tag. Zusammen mit `ke_stops_dated` und `ke_legs` (Ordner
-   `Kriegsmarine/3_visualization/arcgis/layers/`) läuft die Reise ab, und die Fotos
+   `expedition_pool_edition/3_visualization/arcgis/layers/`) läuft die Reise ab, und die Fotos
    erscheinen am Tag ihrer Aufnahme.
 4. **Darstellung:** einfaches Symbol (Kamera oder kleiner Kreis), **Clustering an**, weil viele
    Fotos am selben Ort liegen (z. B. 29 in Hyderabad).

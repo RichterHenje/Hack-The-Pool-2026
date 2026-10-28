@@ -106,5 +106,5 @@ Fassung.
 
 GitHub zeigt in README-Dateien keine iframes. `index.html` wird erst als Webseite sichtbar, wenn ein
 Admin des Repos GitHub Pages einschaltet (Settings → Pages → Branch wählen). Dann lautet die
-Adresse `https://richterhenje.github.io/Hack-The-Pool-2026/Kriegsmarine/3_visualization/arcgis/` (nur wenn
+Adresse `https://richterhenje.github.io/Hack-The-Pool-2026/expedition_pool_edition/3_visualization/arcgis/` (nur wenn
 Pages für den Branch mit diesem Ordner eingeschaltet wird).

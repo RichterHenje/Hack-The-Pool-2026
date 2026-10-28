@@ -1,6 +1,6 @@
 # JSON files – structure overview
 
-Overview of every JSON file in `Kriegsmarine/` (excluding `.venv` and the Obsidian config in `Vault/.obsidian/`).
+Overview of every JSON file in `expedition_pool_edition/` (excluding `.venv` and the Obsidian config in `Vault/.obsidian/`).
 Counts reflect the state of 2026-10-27.
 
 **Notation:** `str`, `int`, `float`, `bool`, `null`, `[...]` = array, `{...}` = object.

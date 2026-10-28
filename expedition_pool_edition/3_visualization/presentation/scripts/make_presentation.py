@@ -1,7 +1,7 @@
 import os, re, shutil, zipfile
 
 D = os.path.dirname(os.path.abspath(__file__))
-OUT = "C:/Users/ErdoeR/Documents/GitHub/Hack-The-Pool-2026/Kriegsmarine/presentation"
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")  # 3_visualization/presentation
 rd = lambda p: open(os.path.join(D, p), encoding="utf-8").read()
 
 CSS = """

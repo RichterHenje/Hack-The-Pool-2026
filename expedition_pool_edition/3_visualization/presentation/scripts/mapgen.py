@@ -1,6 +1,6 @@
 import json, sys
 import os
-# relative to this script: Kriegsmarine/3_visualization/presentation/scripts → ../../web/ and ../../arcgis/layers/
+# relative to this script: expedition_pool_edition/3_visualization/presentation/scripts → ../../web/ and ../../arcgis/layers/
 VIS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 P = os.path.join(VIS, "web") + "/"
 LAYERS = os.path.join(VIS, "arcgis", "layers") + "/"
