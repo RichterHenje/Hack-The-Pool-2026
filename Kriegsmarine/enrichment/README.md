@@ -40,6 +40,11 @@ Every day with a map point carries `coord_source`: the method (`camp`, `hunt`, `
 with a Wikidata QID (coordinates fetched in step 0), a GeoNames point, or an estimate from the distances and
 directions in the diary and Höfer's itinerary, each with a note.
 
+ANNO evidence (step 2) is strict: a snippet counts only if it names Franz Ferdinand (not another archduke such as
+his father Karl Ludwig, not "Erzherzogl." estates, regiments or hotels) and does not name only places or animals of
+another hunt; an issue found for several hunts goes to the one whose place its snippet names (else the earliest).
+Fewer hits (41 issues), but each one is about this hunt.
+
 Hand-maintained inputs: `places.json` (hunting places: OCR/day spellings, ANNO terms, region, vault notes),
 `route_wikidata.json` (QID per route place), `animals.json`, `heroes.json`.
 
