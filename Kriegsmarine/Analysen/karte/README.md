@@ -8,7 +8,21 @@
 
 Seit 28.10.2026 öffentlich (Karte, 8 Ebenen, beide Apps). Jede Ebene beschreibt Quelle, Methode,
 Prüfstand und Rechte (Details-Panel); jedes Pop-up endet mit „Quelle · Status · Rechte“.
-Daten: Team-Stand `a4b8b5a` (Tagebuchtage mit Koordinatenherkunft).
+Daten: Team-Stand `a4b8b5a` (Tagebuchtage mit Koordinatenherkunft). Spätere Team-Änderungen
+(z. B. die neue ANNO-Auswahl 57eb62e) sind noch nicht in der Karte.
+
+## Inhalt dieses Ordners
+
+| Pfad | Inhalt |
+| --- | --- |
+| `export_2026-10-28/` | Die Online-Karte als Dateien (Stand 28.10., 10:59 UTC, nach den Korrekturen unten): 8 Ebenen als GeoJSON, `webmap.json`, `items.json` (Beschreibung, Quellen, Rechte je Ebene), `layers.json`, `MANIFEST.md` mit Anzahl und SHA-256 |
+| `HERKUNFT_data_provenance.md` | Herkunft je Ebene: Quelle, Methode, Prüfstand, Rechte, Zahlen (englisch; erzeugt aus `skripte/ke_sources.json`) |
+| `skripte/` | Die Skripte, mit denen die Karte gebaut, geprüft und exportiert wurde (Kopie aus dem Projekt-Repo; Erklärung in `skripte/README_arcgis.md`). Die JS-Skripte laufen im Browser in einer Seite der ArcGIS-Organisation; die Python-Skripte erwarten die Ordnerstruktur des Projekt-Repos |
+| `index.html`, `vorschau_exhibit.jpg` | Einbettung und Vorschaubild |
+
+Rechte der Daten: Fotos des Weltmuseums nur als Link und mit Lizenzhinweis je Bild (109 CC BY-NC-SA 4.0
+über Europeana, die übrigen „Lizenz nicht geprüft“); Tagebuch-Zitate aus dem OCR der gemeinfreien
+Ausgabe 1895; ANNO nur kurze Zitate mit Link; Höfer 2010 nur Daten und Orte.
 
 ## Einbetten
 
