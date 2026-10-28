@@ -1,0 +1,71 @@
+Lizenzen · Todesursache: Franz Ferdinand (Team expedition_pool_edition, Hack the Pool 2026)
+
+Gilt für den Ordner expedition_pool_edition/. Nicht für das übrige Repository (Vorlage und Medien
+des Kulturpool-Repos).
+
+====================================================================================================
+1. Code (Python, JavaScript, HTML, CSS, Skripte): MIT License
+====================================================================================================
+
+MIT License
+
+Copyright (c) 2026 Team expedition_pool_edition (Hack the Pool 2026)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+====================================================================================================
+2. Eigene Daten und Texte des Teams: CC BY 4.0
+====================================================================================================
+
+Vom Team erstellte Daten, Zuordnungen, Beschreibungen und Texte (z. B. normalisierte JSON-Dateien,
+Ortsverzeichnis, Tageszuordnung, Anreicherungen, Karten-Ebenen, README- und Doku-Texte) stehen unter
+Creative Commons Namensnennung 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/deed.de
+Namensnennung: „Team expedition_pool_edition, Hack the Pool 2026“.
+
+====================================================================================================
+3. Daten und Werke Dritter: Lizenz der jeweiligen Quelle (gehen der Regel oben vor)
+====================================================================================================
+
+- Franz Ferdinand, Tagebuch meiner Reise um die Erde 1892–1893 (Wien: Hölder 1895): gemeinfrei;
+  Scans und OCR über das Internet Archive.
+- Weltmuseum Wien (Fotos, Objekte): Lizenz je Datensatz. 109 Fotos tragen CC BY-NC-SA 4.0 über
+  Europeana (nicht-kommerziell, Weitergabe unter gleichen Bedingungen); die übrigen sind mit
+  „Lizenz nicht geprüft“ markiert und nur verlinkt. Als Bilddateien liegen Weltmuseum-Fotos nur in
+  Screenshots der Team-Seiten (`3_visualization/web/img/previews/geschichte.jpg`,
+  `3_visualization/presentation/Frontend Screenshot Henje.png`; sichtbar u. a. VF_14726, CC BY-NC-SA
+  4.0, Weltmuseum Wien über Kulturpool und Europeana; `geschichte.jpg` zeigt zusätzlich eine Reihe
+  kleiner Vorschaubilder weiterer Fotos, deren Lizenz einzeln nicht geprüft ist); diese Screenshots
+  stehen deshalb unter CC BY-NC-SA 4.0, nicht unter CC BY 4.0.
+  `3_visualization/web/img/previews/arcgis.jpg` zeigt das Titelbild der StoryMap „Who was hunted?“:
+  Weltmuseum Wien VF_14741 („Nepal, Katni, ‚Sr. k.u.k. Hoheit Tiger‘“, 22.3.1893), CC BY-NC-SA 4.0
+  über Europeana (am 28.10. byte-gleich geprüft); auch dieser Screenshot steht daher unter
+  CC BY-NC-SA 4.0.
+- Kulturpool, Europeana: Lizenz je Datensatz (in den Daten angegeben).
+- ANNO / Österreichische Nationalbibliothek: nur Verweise und kurze Zitate.
+- Regina Höfer (Hrsg.), Imperial Sightseeing (Wien 2010): urheberrechtlich geschützt; verwendet
+  sind nur Daten, Orte und Seitenzahlen, kein Text, keine Bilder.
+- GeoNames: CC BY 4.0. Wikidata: CC0 1.0.
+- Archiv-Vault (Obsidian) mit Angaben aus Archiven und Sammlungen: Angaben der jeweiligen
+  Institution; Rechte an zitierten Archivalien bleiben bei den Institutionen.
+- Historische Grundkarte der Reise-Seite (Karte 1872, Map Warper 98512) und Grundkarten der
+  ArcGIS-Apps: Angaben in der jeweiligen Karte.
+- Bibliotheken: im Ordner ist keine mitgeliefert; die Webseiten laden Leaflet (BSD-2-Clause) von
+  unpkg.com. (Außerhalb des Ordners, in `site/vendor/gsap/`, liegt GSAP unter der GreenSock
+  Standard License, https://gsap.com/standard-license.)
