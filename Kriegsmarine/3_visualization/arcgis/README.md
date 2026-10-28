@@ -38,13 +38,13 @@ sie wird als Webseite sichtbar, sobald GitHub Pages für das Repo eingeschaltet 
   title="SMS Kaiserin Elisabeth 1892–93 (ArcGIS Exhibit)"></iframe>
 ```
 
-## Korrekturen gegenüber `prototype/arcgis/` (28.10.)
+## Korrekturen gegenüber `layers/` (28.10.)
 
-Die Karte weicht an diesen Stellen von den Dateien im Ordner `prototype/arcgis/` ab; dort sind sie
-noch nicht korrigiert:
+Die Online-Karte und `export_2026-10-28/` weichen an diesen Stellen von den Dateien in `layers/`
+(früher `prototype/arcgis/`) ab; dort sind sie noch nicht korrigiert:
 
 - Station „Livingston“ lag in Livingston, New Jersey (GeoNames 5100572), jetzt Livingston, Montana
-  (Punkt des Tagebuchtags 20.9.1893 aus `ke_enrichment.js`).
+  (Punkt des Tagebuchtags 20.9.1893 aus `../web/data/ke_enrichment.js`).
 - Station „Wyoming“ lag in Wyoming, Michigan (GeoNames 5015618), jetzt Yellowstone National Park
   (Wikidata Q351). Die Etappen Spokane–Livingston–Wyoming–Chicago sind neu gezogen.
 - Station „Tjiandjur“: Ankunft 15.4.1893 laut Höfer statt geschätzt 6.5.1893
@@ -52,7 +52,8 @@ noch nicht korrigiert:
   beginnt am 12.4. (erster Besuch in Buitenzorg).
 - Kulturpool-Suchlinks: der Parameter heißt `query`, nicht `q` (`kp_search_url`).
 - Drei Abschuss-Einträge (Gwalior 30.1., Owa Raha/Ugi 8.–9.6.1893) lagen auf 0°/0°; jetzt am Punkt
-  des Tagebuchtags.
+  des Tagebuchtags. Ursache: `lat: 0, lon: 0` als Platzhalter für gwalior und owaraha in
+  `../../2_processing/enrichment/places.json`.
 
 Bilder der Fotos: Weltmuseum Wien; 109 mit CC BY-NC-SA 4.0 (Europeana), die übrigen mit dem Hinweis
 „Lizenz nicht geprüft“.

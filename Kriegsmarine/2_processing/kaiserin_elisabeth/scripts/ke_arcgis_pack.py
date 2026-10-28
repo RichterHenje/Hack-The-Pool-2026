@@ -65,7 +65,7 @@ def main() -> int:
             "kp_example": (top.get("title") or "")[:200],
             "kp_example_url": top.get("url", ""),
             "kp_licence": top.get("licence", ""),
-            "kp_search_url": "https://kulturpool.at/suche?q=" + re.sub(r"\s+", "+", q) if q else "",
+            "kp_search_url": "https://kulturpool.at/suche?query=" + re.sub(r"\s+", "+", q) if q else "",
             "geonames": s["geonames"],
             "wikidata": wd,
         }
