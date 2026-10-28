@@ -1,0 +1,435 @@
+{
+ "about": "Alle Zitate der Jagdepisoden im Prototyp-Bündel (bis 8 je Jagd): OCR-Fehler von Hand korrigiert (28.10.2026), historische Schreibung beibehalten; […] = unleserlich, … = gekürzt; text null = zu verstümmelt, nicht gezeigt. Zuordnung über episode, date und den Anfang des OCR-Texts (ocr_start).",
+ "quotes": [
+  {
+   "episode": "hunt-1892-12-20-port-said",
+   "date": "1892-12-20",
+   "ocr_start": "Wie vom Blitz getroffen stürzt der Flamingo mitten durch die",
+   "text": "Wie vom Blitz getroffen stürzt der Flamingo mitten durch die Brust geschossen ins Wasser, aus dem zu meiner großen Freude ein Araber das prächtige Exemplar apportiert."
+  },
+  {
+   "episode": "hunt-1892-12-20-port-said",
+   "date": "1892-12-20",
+   "ocr_start": "Nun beschäftigten wir uns noch mit dem übrigen Wasserwild, e",
+   "text": "Nun beschäftigten wir uns noch mit dem übrigen Wasserwild, erlegten mehrere Enten und Taucher und kehrten dann, da die Sonne im Untergehen begriffen war, ans Land zurück, wo wir uns von dem trübseligen Pascha verabschiedeten und an Bord der »Elisabeth« fuhren."
+  },
+  {
+   "episode": "hunt-1893-01-10-ceylon",
+   "date": "1893-01-10",
+   "ocr_start": "DieSchikäris hatten den Abend vorher gemeldet, der angeschwe",
+   "text": "Die Schikäris hatten den Abend vorher gemeldet, der angeschweißte Elephant sei von ihnen gesehen worden, befinde sich in der Mitte einer Herde und klage laut, so dass er in wenigen Tagen verendet sein dürfte."
+  },
+  {
+   "episode": "hunt-1893-01-10-ceylon",
+   "date": "1893-01-11",
+   "ocr_start": "denn obwohl ich das Boot weggeschickt hatte und lange Zeit a",
+   "text": null,
+   "note": "OCR unleserlich, nicht verwendet"
+  },
+  {
+   "episode": "hunt-1893-01-10-ceylon",
+   "date": "1893-01-11",
+   "ocr_start": "Ich kehrte zu meinem ersten Elephanten zurück und überzeugte",
+   "text": "Ich kehrte zu meinem ersten Elephanten zurück und überzeugte mich, dass ich ein außergewöhnlich starkes Männchen erlegt hatte, das sogar Stoßzähne besaß — eine große Seltenheit bei Elephanten auf Ceylon."
+  },
+  {
+   "episode": "hunt-1893-01-23-hyderabad",
+   "date": "1893-01-23",
+   "ocr_start": "Mir bleibt zwar nicht das stolze B«vusstsein, den ersehnien ",
+   "text": "Mir bleibt zwar nicht das stolze Bewusstsein, den ersehnten Tiger gesehen, geschweige denn erlegt zu haben, gleichwohl aber das Gefühl hoher Befriedigung;"
+  },
+  {
+   "episode": "hunt-1893-01-23-hyderabad",
+   "date": "1893-01-23",
+   "ocr_start": "denn diese Leute haben eben begreiflicherweise gruüen Respec",
+   "text": "denn diese Leute haben eben begreiflicherweise großen Respect vor Tigern und sind, bevor sie nicht in jedes Gebüsch geschossen oder Steine geworfen haben, nicht vorwärts zu bringen, so dass ein ganz kleiner Trieb von einigen 100 m Ausdehnung unverhältnismäßig lange Zeit erfordert."
+  },
+  {
+   "episode": "hunt-1893-01-23-hyderabad",
+   "date": "1893-01-26",
+   "ocr_start": "derselbe zeichnete gut, wie ein aufs Blatt getroffenes Stück",
+   "text": "derselbe zeichnete gut, wie ein aufs Blatt getroffenes Stück Hochwild, gieng aber dennoch flüchtig mit dem Rudel fort, in diesem Augenblicke verhoffte ein zweiter capitaler Bock, den ich im Feuer erlegte."
+  },
+  {
+   "episode": "hunt-1893-01-30-gwalior",
+   "date": "1893-01-30",
+   "ocr_start": "Mehrere Exemplare wurden mir zur Beute, leider fehlte ich ab",
+   "text": "Mehrere Exemplare wurden mir zur Beute, leider fehlte ich aber mit einem nicht erprobten Gewehre einen Adler, der sehr an unseren Kaiseradler erinnerte."
+  },
+  {
+   "episode": "hunt-1893-01-30-gwalior",
+   "date": "1893-01-30",
+   "ocr_start": "Auf dem ersten Teiche saß ein Schwärm von mindestens vierbis",
+   "text": "Auf dem ersten Teiche saß ein Schwarm von mindestens vier- bis fünfhundert verschiedener Enten, deren ich drei erlegte."
+  },
+  {
+   "episode": "hunt-1893-02-13-agra",
+   "date": "1893-02-13",
+   "ocr_start": "Unmittelbar nachdem wir die Stadt verlassen hatten, schoss i",
+   "text": "Unmittelbar nachdem wir die Stadt verlassen hatten, schoss ich vom Wagen aus mehrere große Geier (Gyps indicus und Gyps bengalensis), ferner einen der so häufig sichtbaren Schmutzgeier und einige Schmarotzer- oder Pariah-Milane."
+  },
+  {
+   "episode": "hunt-1893-02-13-agra",
+   "date": "1893-02-13",
+   "ocr_start": "Kurz darauf, noch Im Weichbildt der Stadt, fiel mir ein Adle",
+   "text": "Kurz darauf, noch im Weichbilde der Stadt, fiel mir ein Adler zur Beute, den ich am Rande seines Horstes erlegte;"
+  },
+  {
+   "episode": "hunt-1893-02-13-agra",
+   "date": "1893-02-14",
+   "ocr_start": "Dann gieng\"s quer durch einen Teich in ein dichteres, wildre",
+   "text": "Dann gieng's quer durch einen Teich in ein dichteres, wildreiches Dschungel, wo ich mehrere größere Rudel von Black-bucks antraf, aber nur einen starken Bock in voller Flucht erlegen konnte."
+  },
+  {
+   "episode": "hunt-1893-02-20-alwar",
+   "date": "1893-02-20",
+   "ocr_start": "Die Ruinen eines alten Tempel lu^;cn unter dein Schatten rie",
+   "text": null,
+   "note": "OCR unleserlich, nicht verwendet"
+  },
+  {
+   "episode": "hunt-1893-02-20-alwar",
+   "date": "1893-02-20",
+   "ocr_start": "Wenn nur die .Anzahl Jer Tiger, die uns zur Beute fallen sol",
+   "text": "Wenn nur die Anzahl der Tiger, die uns zur Beute fallen sollen, im entsprechenden Verhältnisse zu der aufgewendeten Pracht steht!"
+  },
+  {
+   "episode": "hunt-1893-02-20-alwar",
+   "date": "1893-02-22",
+   "ocr_start": "Der Fährte folgend, sah ich den kranken Hirsch durch dichtes",
+   "text": "Der Fährte folgend, sah ich den kranken Hirsch durch dichtes Gestrüpp ziehen und schoss noch einmal, fehlte jedoch in der Hitze des Gefechtes."
+  },
+  {
+   "episode": "hunt-1893-03-01-jodhpur",
+   "date": "1893-03-01",
+   "ocr_start": "doch schoss ich noch einige Adler und Falken, die mir unbeka",
+   "text": "doch schoss ich noch einige Adler und Falken, die mir unbekannten Arten angehörten."
+  },
+  {
+   "episode": "hunt-1893-03-01-jodhpur",
+   "date": "1893-03-01",
+   "ocr_start": "Rasch entschlossen requirierten wir einen mit Zebuochsen bes",
+   "text": "Rasch entschlossen requirierten wir einen mit Zebuochsen bespannten Wagen, durch welchen gedeckt wir trachteten, an das scheue Wild heranzukommen, so dass ich einen starken Bock erlegen konnte."
+  },
+  {
+   "episode": "hunt-1893-03-01-jodhpur",
+   "date": "1893-03-02",
+   "ocr_start": "Dort sprang Hardschi Singh mitten in die iJfirnen, die hier ",
+   "text": "Dort sprang Hardschi Singh mitten in die […], die hier von Bauern aufgehäuft worden waren, hinein, worauf alsbald in der dem Reiter entgegengesetzten Richtung ein starker Keiler mit auffallend schönen Waffen hinausflüchtete, den ich nach wenigen Sprüngen erlegte."
+  },
+  {
+   "episode": "hunt-1893-03-03-jaipur",
+   "date": "1893-03-03",
+   "ocr_start": "Als der Trieb beendet war, erlegte ich einen knapp ov den Tr",
+   "text": "Als der Trieb beendet war, erlegte ich einen knapp vor den Treibern flüchtenden Sambarhirsch."
+  },
+  {
+   "episode": "hunt-1893-03-03-jaipur",
+   "date": "1893-03-04",
+   "ocr_start": "In dieser Weise erlegte ich nächst einem kleinen Teiche eine",
+   "text": "In dieser Weise erlegte ich nächst einem kleinen Teiche einen jungen Riesenstorch, einige indische Wildgänse (Anser indicus), sowie acht Black-bucks und eine Chinkara-Gazelle, letztere mit einem Coup double auf diese und einen Black-buck."
+  },
+  {
+   "episode": "hunt-1893-03-03-jaipur",
+   "date": "1893-03-04",
+   "ocr_start": "Mehrere der erbeuteten Böcke waren geradezu capita!e Exempla",
+   "text": "Mehrere der erbeuteten Böcke waren geradezu capitale Exemplare."
+  },
+  {
+   "episode": "hunt-1893-03-07-agra",
+   "date": "1893-03-07",
+   "ocr_start": "Ich erlegte auf diese .Art 208 Stücke, darunter Geier, Falke",
+   "text": "Ich erlegte auf diese Art 208 Stücke, darunter Geier, Falken, Reb- und Steppenhühner und eine große Zahl von Wildtauben. Gegen Abend erreichten wir wieder das Gebiet des Maharadschas von Bhartpur, woselbst es von Nilgaus wimmelte."
+  },
+  {
+   "episode": "hunt-1893-03-07-agra",
+   "date": "1893-03-07",
+   "ocr_start": "So verließen wir denn das Gebiet von Bhartpur mit einer Beut",
+   "text": "So verließen wir denn das Gebiet von Bhartpur mit einer Beute von drei Nilgaus, hoffend, dass auch diesmal dem Maharadscha unser Wildschützenzug ein Geheimnis bleiben werde."
+  },
+  {
+   "episode": "hunt-1893-03-09-nepal",
+   "date": "1893-03-09",
+   "ocr_start": "Das zuerst von mir erlegte Thier, eine capitale Tigerin, hat",
+   "text": "Das zuerst von mir erlegte Thier, eine capitale Tigerin, hatte zum Glücke nur meinen Schuss, auf den hin die Katze gestürzt war."
+  },
+  {
+   "episode": "hunt-1893-03-09-nepal",
+   "date": "1893-03-09",
+   "ocr_start": "Eine Reihe von Schüssen wurde dann noch auf den verendenden ",
+   "text": "Eine Reihe von Schüssen wurde dann noch auf den verendenden Tiger abgegeben, eine hier übliche Unsitte, die ich nicht billigen kann, weil sie Zweifel darüber hervorruft, wem ein erlegter Tiger zuzusprechen sei, und weil sie wegen der Gewehre großen Calibers, welche die Engländer führen, den Verderb des schönen Felles nach sich zieht;"
+  },
+  {
+   "episode": "hunt-1893-03-09-nepal",
+   "date": "1893-03-10",
+   "ocr_start": "Ein auf einer kleinen Insel sich sonnendes Krokodil von ries",
+   "text": "Ein auf einer kleinen Insel sich sonnendes Krokodil von riesigen Dimensionen schoss ich an, ohne desselben habhaft werden zu können, da es nach dem Schusse in tiefes, schlammiges Wasser glitt und darin verschwand."
+  },
+  {
+   "episode": "hunt-1893-04-11-java",
+   "date": "1893-04-11",
+   "ocr_start": "Ich schoss auf gut Glück nach der Stelle hin, an welcher ich",
+   "text": "Ich schoss auf gut Glück nach der Stelle hin, an welcher ich das Haupt des Thieres vermuthete und alsbald bewies eine Schweißspur, sowie das Umherschlagen des aus dem Schlamm auftauchenden, gezackten Schweifes, dass ich das Krokodil getroffen hatte."
+  },
+  {
+   "episode": "hunt-1893-04-11-java",
+   "date": "1893-04-11",
+   "ocr_start": "So oft sich ein Kopf zeigte, gab ich auf die Lichter oder au",
+   "text": "So oft sich ein Kopf zeigte, gab ich auf die Lichter oder auf den Halswirbel, die einzig verwundbaren Stellen der Krokodile, Feuer und vermochte auf diese Art noch sechs starke Exemplare zu erlegen, so dass meine Strecke acht Krokodile betrug, deren jedes über 2 m maß."
+  },
+  {
+   "episode": "hunt-1893-04-11-java",
+   "date": "1893-04-15",
+   "ocr_start": "Der Regent scheint gleichfalls ein passionierter Jäger zu se",
+   "text": "Der Regent scheint gleichfalls ein passionierter Jäger zu sein, denn mit Stolz zeigte er mir seine Gewehre, sowie Häupter von erlegten Hirschen (Cervus hippelaphus), von Bantengs, dem wilden Rinde der indischen Inseln, und von Rhinocerossen."
+  },
+  {
+   "episode": "hunt-1893-05-06-port-kennedy",
+   "date": "1893-05-06",
+   "ocr_start": "Ich erlegte Exemplare verschiedener Arten der australischen ",
+   "text": "Ich erlegte Exemplare verschiedener Arten der australischen Vogelwelt, doch konnte ich leider weder Kakadus, noch Papageien zu Gesicht bekommen."
+  },
+  {
+   "episode": "hunt-1893-05-06-port-kennedy",
+   "date": "1893-05-06",
+   "ocr_start": "Am Ufer des Pola River fortschreitend, kam ich mit VVurmbran",
+   "text": "Am Ufer des Pola River fortschreitend, kam ich mit Wurmbrand und Clam zusammen, von denen letzterer das Waidmannsheil gehabt hatte, das erste Känguruh zu erlegen — ein Zwergkänguruh […]."
+  },
+  {
+   "episode": "hunt-1893-05-06-port-kennedy",
+   "date": "1893-05-07",
+   "ocr_start": "Ich schoss hier eine selten schön gefärbte Papageitaube;",
+   "text": "Ich schoss hier eine selten schön gefärbte Papageitaube;"
+  },
+  {
+   "episode": "hunt-1893-05-18-nsw-west",
+   "date": "1893-05-18",
+   "ocr_start": "Nach einiger Zeit wurde die tolle Fahrt unterbrochen und Kri",
+   "text": "Nach einiger Zeit wurde die tolle Fahrt unterbrochen und Kriegsrath gehalten, während dessen ich drei reizende Papageien erlegte, die in der Nähe des Wagens eingefallen waren und alle Farben des Regenbogens in ihrem Gefieder aufwiesen."
+  },
+  {
+   "episode": "hunt-1893-05-18-nsw-west",
+   "date": "1893-05-18",
+   "ocr_start": "Die Erlegung des ersten Känguruhs freute mich umsomehr, als ",
+   "text": "Die Erlegung des ersten Känguruhs freute mich umsomehr, als dasselbe ein schönes Exemplar der großen Art Macropus giganteus war."
+  },
+  {
+   "episode": "hunt-1893-05-18-nsw-west",
+   "date": "1893-05-19",
+   "ocr_start": "doch schien leider die I^ission, dem Wilde mit den Hunden na",
+   "text": "doch schien leider die Passion, dem Wilde mit den Hunden nachzusetzen, die treibenden Reiter etwas zu sehr befallen zu haben, da zwar viele Känguruhs im Triebe waren, aber alle zur Seite oder rückwärts ausbrachen, so dass ich nur ein Stück erlegen konnte, während deren zwei gekillt wurden."
+  },
+  {
+   "episode": "hunt-1893-05-23-badgery",
+   "date": "1893-05-23",
+   "ocr_start": "erbrachte uns eine Beute von 15 Wallabies und zwei Känguaihs",
+   "text": "erbrachte uns eine Beute von 15 Wallabies und zwei Känguruhs. Soviel ich bemerken konnte, sind die Wallabies scheuer und vorsichtiger als die Känguruhs, denn sie werden schon flüchtig, sobald sich die Treiber nur einigermaßen bemerkbar machen, und setzen sich nach wenigen Sprüngen jedesmal aufrecht nieder, um nach allen Seiten hin zu äugen …"
+  },
+  {
+   "episode": "hunt-1893-05-23-badgery",
+   "date": "1893-05-23",
+   "ocr_start": "Wir streiften in der herrlichen, kühlen Mondnacht noch durch",
+   "text": "Wir streiften in der herrlichen, kühlen Mondnacht noch durch etwa zwei Stunden umher und kehrten endlich, nachdem ich sechs Kusus und einen Australischen Bären erlegt hatte, heim."
+  },
+  {
+   "episode": "hunt-1893-05-23-badgery",
+   "date": "1893-05-24",
+   "ocr_start": "Sind schon die Bewegungen der Känguruhs überaus drollig, so ",
+   "text": "Sind schon die Bewegungen der Känguruhs überaus drollig, so sind es jene der Wallabies, deren ich einige im Sprung erlegte, noch viel mehr."
+  },
+  {
+   "episode": "hunt-1893-06-08-solomon",
+   "date": "1893-06-08",
+   "ocr_start": "Ich wMr kaum 100 Schritte in den Wald eingedrungen, als niif",
+   "text": "Ich war kaum 100 Schritte in den Wald eingedrungen, als mir der erste Schuss schon einen prachtvollen, ganz rothen Papagei (Eos cardinalis) brachte, und ich gleich darauf eine wunderschön gefärbte Taube (Ptilopus eugeniae) mit schneeweißem Kopfe, carminrothem Brustflecke, gelbem Bauch und grün und violett gestreiften Flügeln schoss."
+  },
+  {
+   "episode": "hunt-1893-06-08-solomon",
+   "date": "1893-06-08",
+   "ocr_start": "Im weiteren Verlaufe meines Umherstreifens scHoss ich noch e",
+   "text": "Im weiteren Verlaufe meines Umherstreifens schoss ich noch eine scharlachrothe Nectarinie (Myzomela pulcherrima), eine ganz kaffeebraune Taube von der Gestalt einer Turteltaube und zwei große Fruchttauben (Carpophaga pistrinaria), ferner ein Paar der prachtvollen Banda-Papageien (Lorius chlorocercus), die an ihrem Gefieder alle Farben des Regenbogens tragen …"
+  },
+  {
+   "episode": "hunt-1893-06-08-solomon",
+   "date": "1893-06-09",
+   "ocr_start": "v.>g<;hi spähend, doch sah es, da kurz vor Tagesanbruch ^m R",
+   "text": null,
+   "note": "OCR unleserlich, nicht verwendet"
+  },
+  {
+   "episode": "hunt-1893-06-16-new-guinea",
+   "date": "1893-06-16",
+   "ocr_start": "Auf einer kleinen, mit Gras bedeckten Lichtung sprangen plöt",
+   "text": "Auf einer kleinen, mit Gras bedeckten Lichtung sprangen plötzlich zwei kleine Wallabies zu meinen Füßen auf, deren eines ich, das andere Bedford erlegte."
+  },
+  {
+   "episode": "hunt-1893-06-16-new-guinea",
+   "date": "1893-06-16",
+   "ocr_start": "Die erste Beute war ein schön gerarbier Papagei, der.",
+   "text": "Die erste Beute war ein schön gefärbter Papagei …"
+  },
+  {
+   "episode": "hunt-1893-06-16-new-guinea",
+   "date": "1893-06-17",
+   "ocr_start": "Ich hatte die Hoffnung auf ein günstiges Ergebnis bereits au",
+   "text": "Ich hatte die Hoffnung auf ein günstiges Ergebnis bereits aufgegeben, als ich zwei selten schön purpurroth und citrongelb gefärbte Tauben (Ptilopus iozonus) entdeckte, die ich erbeutete."
+  },
+  {
+   "episode": "hunt-1893-06-25-aru",
+   "date": "1893-06-25",
+   "ocr_start": "Ich bemühte mich vor allem, einen der schwarzen Kakadus» Wel",
+   "text": "Ich bemühte mich vor allem, einen der schwarzen Kakadus, welche sich durch ihr schönes, mit Weiß gleichsam überpudertes Gefieder, hellroth gefärbte Backen und den prächtigen, aufrecht stehenden Schopf auszeichnen, zu erlegen;"
+  },
+  {
+   "episode": "hunt-1893-06-25-aru",
+   "date": "1893-06-26",
+   "ocr_start": "Bei Sonnenuntergang traf ich an der Küste wieder mit meinen ",
+   "text": "Bei Sonnenuntergang traf ich an der Küste wieder mit meinen Herren zusammen, deren einige glücklicher gewesen waren als ich — Beweis dafür, dass sie einen schwarzen Kakadu, zahlreiche Papageien und einen schönen, lichtbraunen Reiher erbeutet hatten."
+  },
+  {
+   "episode": "hunt-1893-06-29-buru",
+   "date": "1893-06-29",
+   "ocr_start": "ich erlegte nur 2wei Papageien verschiedener Arten, deren ei",
+   "text": "ich erlegte nur zwei Papageien verschiedener Arten, deren einer grün, der andere roth (Tanygnathus megalorhynchus und Eos rubra), ferner ein Exemplar der prachtvollen weißen, eigentlich lichtgelben Fruchttaube (Myristicivora melanura), endlich einen merkwürdigen Segler (Macropteryx [Dendrochelidon] mystacea) mit langen, weißen Bartfäden und einige kleinere Vögel."
+  },
+  {
+   "episode": "hunt-1893-06-29-buru",
+   "date": "1893-06-30",
+   "ocr_start": "Trotzdem wir den Treibern auf das eindringlichste mit Worten",
+   "text": "Trotzdem wir den Treibern auf das eindringlichste mit Worten und Geberden, Bitten und Befehlen eingeschärft hatten, die Hunde nicht auszulassen und sich auf dem Wege zum Triebe ruhig zu verhalten, hörten wir ihr Geschrei fortwährend durch den Wald klingen, ja bald gaben auch die Hunde jagend Laut und brachten ein Hirschkalb in unsere Nähe, welches ich aber leider fehlte."
+  },
+  {
+   "episode": "hunt-1893-06-29-buru",
+   "date": "1893-06-30",
+   "ocr_start": "doch als ich dasselbe erlegt halte, zeigte sich, dass es ber",
+   "text": "doch als ich dasselbe erlegt hatte, zeigte sich, dass es bereits von einem anderen Schützen einen Laufschuss erhalten hatte."
+  },
+  {
+   "episode": "hunt-1893-01-10-ceylon",
+   "date": "1893-01-12",
+   "ocr_start": "Jevers, welches die Nachricht enthielt, dass nachsuchende Sc",
+   "text": "Jevers, welches die Nachricht enthielt, dass nachsuchende Schikäris den von mir angeschweißten Büffel etwa tausend Schritte vom Anschussorte entfernt verendet gefunden hatten."
+  },
+  {
+   "episode": "hunt-1893-01-23-hyderabad",
+   "date": "1893-01-26",
+   "ocr_start": "so dass ich einen Bock nur mit einem Schlegelschuss anschwei",
+   "text": "so dass ich einen Bock nur mit einem Schlegelschuss anschweißte."
+  },
+  {
+   "episode": "hunt-1893-02-13-agra",
+   "date": "1893-02-14",
+   "ocr_start": "doch suchten leider die seltenen und scheuen Exemplare, beso",
+   "text": "doch suchten leider die seltenen und scheuen Exemplare, besonders die Kraniche, Störche und Reiher sehr bald das Weite, so dass mir nur zwei schneeweiße Silberreiher (Ardea alba, im Winterkleide) zur Beute fielen."
+  },
+  {
+   "episode": "hunt-1893-02-13-agra",
+   "date": "1893-02-15",
+   "ocr_start": "Bei dem ersten Versuche fehlte ich auch eine erkleckliche Za",
+   "text": "Bei dem ersten Versuche fehlte ich auch eine erkleckliche Zahl von Enten und Cormoranen, und nicht besser ergieng's mit der Kugel, da ich gleich nach dem Eindringen in das Dschungel ein Nilgau fehlte."
+  },
+  {
+   "episode": "hunt-1893-02-13-agra",
+   "date": "1893-02-15",
+   "ocr_start": "Die Herren waren flugs mit ihren Stutzen aus den Waggons, wä",
+   "text": "Die Herren waren flugs mit ihren Stutzen aus den Waggons, während ich nur als Zuschauer fungierte, da ich ja schon tags zuvor drei Nilgaus erlegt hatte. Clam streckte einen Stier im Feuer, Wurmbrand schweißte einen anderen stark an, den er nach langer Nachsuche endlich ausmachte, Prónay fehlte einen Stier in der Flucht."
+  },
+  {
+   "episode": "hunt-1893-02-20-alwar",
+   "date": "1893-02-22",
+   "ocr_start": "Solange noch Schussücht andauerte, streiften wir in der Eben",
+   "text": "Solange noch Schusslicht andauerte, streiften wir in der Ebene beim Camp und brachten zahlreiche Hühner und Sand grouse zur Strecke."
+  },
+  {
+   "episode": "hunt-1893-02-20-alwar",
+   "date": "1893-02-23",
+   "ocr_start": "Zu sein« größten Erstaunen überließ ich erstere Wurmhrand, l",
+   "text": "Zu seinem größten Erstaunen überließ ich erstere Wurmbrand, letztere Kinsky, der damals, als wir die verpönten Nilgaus in Bhartpur geschossen, [an] heftigem Fieber gelegen war."
+  },
+  {
+   "episode": "hunt-1893-02-20-alwar",
+   "date": "1893-02-23",
+   "ocr_start": "Mit den anderen Herren führte ich eine große Durchstreifun^ ",
+   "text": "Mit den anderen Herren führte ich eine große Durchstreifung des ganzen Thales aus, wobei wir alle kleinen Bodenerhebungen, alle Dschungel und Lehnen absuchten und in vier Stunden 80 Hühner und Sand grouse zur Strecke brachten."
+  },
+  {
+   "episode": "hunt-1893-03-01-jodhpur",
+   "date": "1893-03-02",
+   "ocr_start": "Wir hatten ausgemacht, dass diesen Keiler Wurnibrand, der no",
+   "text": "Wir hatten ausgemacht, dass diesen Keiler Wurmbrand, der noch kein Schwein erlegt hatte, stechen sollte;"
+  },
+  {
+   "episode": "hunt-1893-03-09-nepal",
+   "date": "1893-03-10",
+   "ocr_start": "unter anderem schoss Wurmbrand einen auffallend starken Keil",
+   "text": "unter anderem schoss Wurmbrand einen auffallend starken Keiler und Kinsky einen Sumpfhirsch-Spießer, während ich ein Thier gleicher Art erlegte."
+  },
+  {
+   "episode": "hunt-1893-03-09-nepal",
+   "date": "1893-03-11",
+   "ocr_start": "welche anfänglich die Panther für Tiger gehalten hatten, erk",
+   "text": "welche anfänglich die Panther für Tiger gehalten hatten, erklärte sich aus der seltenen Stärke der Panther, deren einen erlegt zu haben, mich umsomehr beglückte, als er mein erster war."
+  },
+  {
+   "episode": "hunt-1893-03-09-nepal",
+   "date": "1893-03-11",
+   "ocr_start": "Ich ritt nun zu der Stelle hin und fand da einen sehr starke",
+   "text": "Ich ritt nun zu der Stelle hin und fand da einen sehr starken, bereits verendeten Panther, den Kinsky erlegt hatte, während dort, wo ich hingeschossen, ebenfalls ein auffallend starker, dunkelgefärbter Panther mit zwei Blattschüssen lag."
+  },
+  {
+   "episode": "hunt-1893-04-11-java",
+   "date": "1893-04-15",
+   "ocr_start": "Ich schoss im ganzen 21 Stücke, danmter aber nur einen gil^ ",
+   "text": "Ich schoss im ganzen 21 Stücke, darunter aber nur einen […] Keiler."
+  },
+  {
+   "episode": "hunt-1893-04-11-java",
+   "date": "1893-04-16",
+   "ocr_start": "hii-- Sov'hsi-rjicweih des von mir erlegten Hirsches war iei",
+   "text": null,
+   "note": "OCR unleserlich, nicht verwendet"
+  },
+  {
+   "episode": "hunt-1893-04-11-java",
+   "date": "1893-04-19",
+   "ocr_start": "Das Ziel meiner Wünsche war nämlich, einen Banteng zu erlege",
+   "text": "Das Ziel meiner Wünsche war nämlich, einen Banteng zu erlegen und dessen prachtvoll gehörnten Kopf als Trophäe heimzuführen."
+  },
+  {
+   "episode": "hunt-1893-05-18-nsw-west",
+   "date": "1893-05-19",
+   "ocr_start": "mehrere in demselben Districte hefindliche Farmer arrangiere",
+   "text": "mehrere in demselben Districte befindliche Farmer arrangieren dann gemeinschaftlich große Treibjagden zu Pferde, wobei sie die Känguruhs rudelweise in solche Einfänge treiben und hiedurch oft unglaublich scheinende Mengen erbeuten."
+  },
+  {
+   "episode": "hunt-1893-05-18-nsw-west",
+   "date": "1893-05-20",
+   "ocr_start": "Ich wartete zwei Stunden lang und musste mich im \\'erlaufe d",
+   "text": "Ich wartete zwei Stunden lang und musste mich im Verlaufe dieser Zeit mit vier Enten begnügen, bis meine Ausdauer gegen Schluss der Jagd hin ihren Lohn fand, indem ich zwei Vögel erlegte, welche eine schöne Vermehrung meiner Sammlung darstellten: einen Ibis, welchen ich aus einem über meinen Kopf hinwegstreichenden Schwarme herausschoss, sowie einen Australischen Kranich."
+  },
+  {
+   "episode": "hunt-1893-05-18-nsw-west",
+   "date": "1893-05-20",
+   "ocr_start": "Schon während des Triebes hatte ich in weiter Entfernung meh",
+   "text": "Schon während des Triebes hatte ich in weiter Entfernung mehrere Emus vorbeiwechseln gesehen, und drängte nun, da es mir hauptsächlich darum zu thun war, eines dieser seltenen Thiere zu erlegen, die Farmer, den Nachmittag zum Treiben auf dieselben zu verwenden."
+  },
+  {
+   "episode": "hunt-1893-05-23-badgery",
+   "date": "1893-05-24",
+   "ocr_start": "Bald waren öl Stück Felsen-Wallabies, deren LMi auf mich ent",
+   "text": "Bald waren […] Stück Felsen-Wallabies, deren […] auf mich entfielen, zur Strecke gebracht."
+  },
+  {
+   "episode": "hunt-1893-05-23-badgery",
+   "date": "1893-05-25",
+   "ocr_start": "Auf dem Wege nach der Farm hatte ich doch noch einigermaf3cn",
+   "text": "Auf dem Wege nach der Farm hatte ich doch noch einigermaßen Waidmannsheil, indem ich zwei Bären und einen Bussard erlegte."
+  },
+  {
+   "episode": "hunt-1893-05-23-badgery",
+   "date": "1893-05-25",
+   "ocr_start": "Schon im ersten Triebe wurde eine erstaunliche Anzahl von Wa",
+   "text": "Schon im ersten Triebe wurde eine erstaunliche Anzahl von Wallabies flüchtig, die aber diesmal meinen Stand größtentheils mieden und seitwärts ausbrachen, wo Wurmbrand und Clam standen, so dass der eine 18, der andere 19 Stück erlegte."
+  }
+ ]
+}

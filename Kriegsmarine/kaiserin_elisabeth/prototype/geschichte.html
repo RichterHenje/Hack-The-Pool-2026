@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jagdreise 1892–93</title>
+  <meta name="description" content="Die Reise Franz Ferdinands auf S.M.S. Kaiserin Elisabeth von Triest bis Yokohama, erzählt entlang der 18 Jagden: Tagebuch, Presse, Fotos, Objekte und die lebenden Tiere an Bord.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="geschichte.css">
+</head>
+<body>
+  <main id="story">
+    <header class="intro">
+      <p class="kicker">Hack the Pool 2026 · expedition_pool_edition · <a href="reise.html">alle Tage erkunden</a></p>
+      <h1>Die Jagdreise des Thronfolgers</h1>
+      <p class="sub">Franz Ferdinand an Bord S.M.S. Kaiserin Elisabeth, Triest – Yokohama, 1892/93</p>
+      <p class="lead" id="lead"></p>
+      <dl class="numbers" id="numbers"></dl>
+      <p class="hint">Scrollen Sie durch die Kapitel; Karte und Zeitleiste folgen. Ein Klick auf die Zeitleiste springt
+        zum Kapitel.</p>
+    </header>
+    <div id="chapters"></div>
+    <footer class="sources">
+      <h2>Quellen</h2>
+      <p>Franz Ferdinand, <i>Tagebuch meiner Reise um die Erde 1892–1893</i> (Wien 1895/96), Scans bei archive.org,
+        nach Tagen gegliedert mit franzferdinandsworld.com; Zeitungen: ANNO (Österreichische Nationalbibliothek);
+        Fotos: Weltmuseum Wien über Europeana (CC BY-NC-SA 4.0); Objekte: Sammlung Este, Weltmuseum Wien;
+        Orte: Wikidata, GeoNames (CC BY 4.0); Karte von 1872: Map Warper 98512. Die Zuordnungen sind maschinell
+        erstellt und im Repository dokumentiert (Kriegsmarine/enrichment).</p>
+    </footer>
+  </main>
+  <aside id="stage" aria-label="Karte und Zeitleiste">
+    <div id="map" role="region" aria-label="Karte der Reise"></div>
+    <div id="timeline">
+      <div id="tl-label" aria-live="polite"></div>
+      <svg id="tl" role="img" aria-label="Zeitleiste der Reise"></svg>
+      <ul class="legend">
+        <li><span class="sw" style="--c:#cdbf9f"></span>an Land</li>
+        <li><span class="sw" style="--c:#b9cdd6"></span>auf See</li>
+        <li><span class="sw tall" style="--c:#b4471b"></span>Jagd</li>
+        <li><span class="sw frame"></span>aktuelles Kapitel</li>
+        <li><span class="sw" style="--c:#d6d1c6"></span>Heimreise ohne die Kaiserin Elisabeth</li>
+      </ul>
+    </div>
+  </aside>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="data/ke_enrichment.js"></script>
+  <script src="data/ke_places_1872.js"></script>
+  <script src="geschichte.js"></script>
+</body>
+</html>

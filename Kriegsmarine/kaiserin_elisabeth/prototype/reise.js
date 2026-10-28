@@ -188,10 +188,24 @@
 
   // Popup at a place: what the sources ticked under "Herkunft" say about the days there.
   // The sidebar always shows everything; the checkboxes filter only the map, its popups and the timeline.
-  const POPUP = { maxWidth: 340, className: "place-pop" };
-  const sourcesOn = () => new Set([...document.querySelectorAll("#sources input:checked")].map((b) => b.value));
+  // The map fills the window; the top bar, the story card and the timeline float over it.
+  // view() is the padding that keeps fitted bounds, panned points and popups in the free part.
+  const view = () => {
+    const p = document.getElementById("panel").getBoundingClientRect();
+    const t = document.getElementById("timeline").getBoundingClientRect();
+    const top = document.getElementById("topbar").getBoundingClientRect().bottom + 16;
+    const side = p.width < innerWidth * 0.6;   // card beside the map (desktop) or below it (phone)
+    return { paddingTopLeft: [side ? p.right + 24 : 16, top], paddingBottomRight: [24, innerHeight - (side ? t.top : p.top) + 16] };
+  };
+  // Leaflet copies these when a popup is bound, i.e. on each draw()
+  const POPUP = { maxWidth: 340, className: "place-pop",
+    get autoPanPaddingTopLeft() { return view().paddingTopLeft; },
+    get autoPanPaddingBottomRight() { return view().paddingBottomRight; } };
+  const research = () => document.body.classList.contains("research");
+  // Outside research mode every source counts as chosen: the map shows everything, without badges
+  const sourcesOn = () => new Set(research() ? [...document.querySelectorAll("#sources input:checked")].map((b) => b.value) : Object.keys(SRC));
   function placePopup(idx, label) {
-    const on = sourcesOn(), dim = document.getElementById("src-dim").checked;
+    const on = sourcesOn(), dim = research() && document.getElementById("src-dim").checked;
     const part = (k, html) => on.has(k) ? block(k, html) : dim ? `<div class="off">${html}</div>` : "";
     const ds = idx.map((i) => days[i]), d0 = ds.find((d) => d.lat !== null) || ds[0];
     const eps = [...new Set(ds.map((d) => d.episode).filter(Boolean))].map((id) => epById.get(id)).filter(Boolean);
@@ -253,7 +267,7 @@
         className: `src-${coordSrc(d0)}` })
         .bindTooltip(`<b>${esc(d0.place)}</b><br>${stays(idx)}`)
         .bindPopup(() => placePopup(idx), POPUP)
-        .on("click", () => selectDay(idx.reduce((best, i) => Math.abs(i - current) < Math.abs(best - current) ? i : best)))
+        .on("click", () => selectDay(idx.reduce((best, i) => Math.abs(i - current) < Math.abs(best - current) ? i : best), false))
         .addTo(layers.route);
     }
     const placeOf = (d) => byPlace.get(`${d.place}|${d.lat.toFixed(3)}|${d.lon.toFixed(3)}`);
@@ -267,29 +281,29 @@
         if (p.lat == null) continue;
         const ll = pos(p.lat, wrap(p.lon));
         L.circleMarker(ll, {
-          radius: 5 + Math.min(12, Math.sqrt(ep.kill_sentences) * 2.2), color: HUNT, weight: 1.5, fillColor: HUNT, fillOpacity: 0.4,
+          radius: 4 + Math.min(9, Math.sqrt(ep.kill_sentences) * 1.6), color: "#fff", weight: 1.5, fillColor: HUNT, fillOpacity: 0.9,
           className: "src-diary",
         }).bindTooltip(`${esc(p.label)} · ${esc(span(ep.start, ep.end))}<br>${ep.kill_sentences} Sätze vom Erlegen/Schießen`)
           .bindPopup(() => placePopup(days.map((d, i) => d.date >= ep.start && d.date <= ep.end ? i : -1).filter((i) => i >= 0), p.label), POPUP)
-          .on("click", () => selectHunt(ep.id)).addTo(layers.hunt);
+          .on("click", () => selectHunt(ep.id, false)).addTo(layers.hunt);
         const n = ep.anno.issues_high;
         if (n) {
-          L.circleMarker(ll, { radius: 14 + Math.min(14, n * 1.4), color: PRESS, weight: 2, fill: false, dashArray: "3 3", className: "src-anno" })
-            .bindTooltip(`${esc(p.label)} · ${n} Zeitungsausgaben (ANNO, hoch)`).on("click", () => selectHunt(ep.id)).addTo(layers.press);
+          L.circleMarker(ll, { radius: 11 + Math.min(12, n * 1.2), color: PRESS, weight: 1.5, opacity: 0.75, fill: false, className: "src-anno" })
+            .bindTooltip(`${esc(p.label)} · ${n} Zeitungsausgaben (ANNO, hoch)`).on("click", () => selectHunt(ep.id, false)).addTo(layers.press);
         }
       }
     }
     // Photos and objects at the day they are dated to
     for (const d of located) {
       if (d.photos.length) {
-        L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(8, d.photos.length), color: PHOTO, weight: 2, fillColor: PHOTO, fillOpacity: 0.5, className: "src-europeana" })
+        L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(6, d.photos.length), color: "#fff", weight: 1.5, fillColor: PHOTO, fillOpacity: 0.9, className: "src-europeana" })
           .bindTooltip(`${esc(fmt(d.date))} · ${d.photos.length} Foto(s)`).bindPopup(() => placePopup(placeOf(d)), POPUP)
-          .on("click", () => selectDay(dayIndex.get(d.date))).addTo(layers.photo);
+          .on("click", () => selectDay(dayIndex.get(d.date), false)).addTo(layers.photo);
       }
       if (d.objects.length) {
-        L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(8, d.objects.length / 2), color: OBJECT, weight: 2, fillColor: OBJECT, fillOpacity: 0.5, className: "src-weltmuseum" })
+        L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(6, d.objects.length / 2), color: "#fff", weight: 1.5, fillColor: OBJECT, fillOpacity: 0.9, className: "src-weltmuseum" })
           .bindTooltip(`${esc(fmt(d.date))} · ${d.objects.length} Objekt(e) der Sammlung Este`).bindPopup(() => placePopup(placeOf(d)), POPUP)
-          .on("click", () => selectDay(dayIndex.get(d.date))).addTo(layers.object);
+          .on("click", () => selectDay(dayIndex.get(d.date), false)).addTo(layers.object);
       }
     }
     // Live animals: the path of each animal (or group), from where it came aboard to where it ended
@@ -301,9 +315,9 @@
       const className = `src-${EVIDENCE_SRC[h.evidence] || "diary"}`;
       const line = pts.length > 1
         ? L.polyline(pts, { color: HERO, weight: 2, opacity: 0.8, dashArray: "6 5", className })
-          .bindTooltip(esc(h.name)).on("click", () => selectHero(h.id)).addTo(layers.heroes) : null;
+          .bindTooltip(esc(h.name)).on("click", () => selectHero(h.id, false)).addTo(layers.heroes) : null;
       L.circleMarker(pts[0], { radius: 5, color: HERO, weight: 2, fillColor: "#fff", fillOpacity: 1, className })
-        .bindTooltip(`${esc(h.name)} · ${esc(h.route[0].event)}`).on("click", () => selectHero(h.id)).addTo(layers.heroes);
+        .bindTooltip(`${esc(h.name)} · ${esc(h.route[0].event)}`).on("click", () => selectHero(h.id, false)).addTo(layers.heroes);
       heroLine.set(h.id, { pts, line });
     }
     if (currentHero) highlightHero(currentHero);
@@ -322,7 +336,7 @@
     draw();
   };
   showHistoric(true);
-  map.fitBounds(located.map((d) => pos(d.lat, d.lon)), { padding: [20, 20] });
+  map.fitBounds(located.map((d) => pos(d.lat, d.lon)), view());
   document.getElementById("lyr-historic").addEventListener("change", (e) => showHistoric(e.target.checked));
 
   // Calibration (reise.html?kalibrieren): one draggable marker per place of data/ke_places_1872.js;
@@ -363,7 +377,7 @@
   const srcBox = L.control({ position: "topright" });
   srcBox.onAdd = () => {
     const div = L.DomUtil.create("div", "src-ctl");
-    div.innerHTML = `<details open><summary>Herkunft der Daten</summary>
+    div.innerHTML = `<details><summary>Herkunft der Daten</summary>
       <p class="note">Gilt für die Karte: Punkte, Fenster beim Klick auf einen Ort, Zeitleiste. Die Seitenleiste zeigt immer alles.</p>
       <div id="sources">${Object.entries(SRC).map(([k, [what, from, , c, how]]) =>
         `<label><span class="dot" style="--c:${c}"></span><input type="checkbox" value="${k}" checked><span>${esc(what)}
@@ -373,6 +387,13 @@
     L.DomEvent.disableScrollPropagation(div);
     return div;
   };
+  const layerBox = L.control({ position: "topright" });
+  layerBox.onAdd = () => {
+    const div = document.getElementById("layers-box");
+    L.DomEvent.disableClickPropagation(div);
+    return div;
+  };
+  layerBox.addTo(map);
   srcBox.addTo(map);
   const srcStyle = document.head.appendChild(document.createElement("style"));
   // Buttons in the popups (day, hunt, animal, person) work as in the sidebar. Leaflet stops clicks
@@ -380,9 +401,9 @@
   const popupClick = (e) => {
     const b = e.target.closest("[data-day],[data-hunt],[data-hero],[data-person]");
     if (!b) return;
-    if (b.dataset.day) { showTab("day"); selectDay(dayIndex.get(b.dataset.day)); }
-    if (b.dataset.hunt) selectHunt(b.dataset.hunt);
-    if (b.dataset.hero) selectHero(b.dataset.hero);
+    if (b.dataset.day) { showTab("day"); selectDay(dayIndex.get(b.dataset.day), false); }
+    if (b.dataset.hunt) selectHunt(b.dataset.hunt, false);
+    if (b.dataset.hero) selectHero(b.dataset.hero, false);
     if (b.dataset.person) selectPerson(b.dataset.person);
   };
   const wired = new WeakSet();
@@ -396,12 +417,17 @@
   // Map markers and timeline cells by CSS; the open popup is rebuilt (placePopup reads the checkboxes)
   const applySources = () => {
     const rule = document.getElementById("src-dim").checked ? "opacity: 0.2" : "display: none";
-    srcStyle.textContent = [...document.querySelectorAll("#sources input:not(:checked)")]
+    srcStyle.textContent = !research() ? "" : [...document.querySelectorAll("#sources input:not(:checked)")]
       .map((b) => `.src-${b.value} { ${rule} }`).join("\n");
     if (openPopup) openPopup.update();
   };
   document.getElementById("sources").addEventListener("change", applySources);
   document.getElementById("src-dim").addEventListener("change", applySources);
+  // Research mode: badges, notes, scan links and the provenance filter; off = the story alone
+  document.getElementById("research").addEventListener("change", (e) => {
+    document.body.classList.toggle("research", e.target.checked);
+    applySources();
+  });
 
   // Stats
   const huntDays = days.filter((d) => d.hunt);
@@ -413,6 +439,14 @@
     [E.objects.length, "Objekte der Sammlung Este mit Beleg aus dem Tagebuch oder der Inventarkarte"],
     [heroes.length, "lebende Tiere oder Tiergruppen an Bord"],
   ].map(([n, t]) => `<dt>${esc(n)}</dt><dd>${esc(t)}</dd>`).join("");
+  document.getElementById("kpis").innerHTML = [[days.length, "Tage unterwegs"], [episodes.length, "Jagden"], [E.press.length, "Zeitungsberichte"]]
+    .map(([n, t]) => `<div><dt>${esc(n)}</dt><dd>${esc(t)}</dd></div>`).join("");
+  const welcome = document.getElementById("welcome");
+  const closeWelcome = () => { welcome.hidden = true; };
+  document.getElementById("start").addEventListener("click", closeWelcome);
+  document.getElementById("info").addEventListener("click", () => { welcome.hidden = false; document.getElementById("start").focus(); });
+  welcome.addEventListener("click", (e) => { if (e.target === welcome) closeWelcome(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !welcome.hidden) closeWelcome(); });
 
   // Tabs
   const TABS = ["day", "hunt", "heroes", "people", "echo"];
@@ -466,8 +500,14 @@
     const photos = d.photos.map((i) => E.photos[i]);
     const objects = d.objects.map((i) => E.objects[i]);
     const kl = KL.days[d.entry] || {};
-    let html = `<h3>${esc(d.place)}</h3>
-      <div class="meta">${esc(fmt(d.date))} · ${link(d.page_url, `Bd. ${d.band}, Scan ${d.scan}`)}
+    const i = dayIndex.get(d.date);
+    const cover = photos.find((p) => p.open && p.preview);
+    let html = `<p class="kicker">${esc(fmt(d.date))} · Tag ${i + 1} von ${days.length}</p>
+      <h3>${esc(d.place || (d.coords === "sea" ? "Auf See" : "–"))}</h3>
+      ${cover ? `<figure class="cover"><a href="${esc(cover.url)}" target="_blank" rel="noopener"><img src="${esc(cover.preview)}" alt="${esc(cover.title)}"></a>
+        <figcaption>${esc(cover.title)}${cover.creator ? " · " + esc(cover.creator) : ""}</figcaption></figure>` : ""}
+      ${d.hunt && d.hunt.quotes[0] ? `<blockquote class="lead-quote">${esc(d.hunt.quotes[0].text)}</blockquote>` : ""}
+      <div class="meta">Tagebuch ${link(d.page_url, `Bd. ${d.band}, S. ${d.scan}`)}
         ${d.site_url ? " · " + link(d.site_url, "Übersetzung") : ""}</div>
       <p class="note">${esc(METHOD[d.method] || d.method)} ${tag("diary")}${d.heading ? ` · Überschrift (OCR): „${esc(d.heading)}“` : ""}
         ${d.lat !== null ? ` · Ort: ${coordInfo(d)} ${tag(coordSrc(d))}` : d.coords === "sea" ? " · auf See" : " · ohne Ort auf der Karte"}</p>`;
@@ -476,7 +516,7 @@
     }
     if (d.hunt) {
       html += block("diary", `<h4>Jagd im Tagebuch: ${d.hunt.n} ${d.hunt.n === 1 ? "Satz" : "Sätze"}${d.hunt.first_person ? `, ${d.hunt.first_person} in der Ich-Form` : ""} ${tag("diary")}</h4>
-        ${chips(d.hunt.animals)}${d.hunt.quotes.map((q) => quote(q)).join("")}
+        ${chips(d.hunt.animals)}${d.hunt.quotes.slice(1).map((q) => quote(q)).join("")}
         <p class="note">Wortlaut aus der Texterkennung, am Scan prüfen. Genannte Tiere sind nicht gleich getötete Tiere.</p>`);
     }
     if (d.heroes.length) {
@@ -514,9 +554,23 @@
     updateTimeline();
     // Follow the ship, but only move the map when it leaves the view (smooth while scrubbing)
     const ll = shipAt(current).ll;
-    if (pan && !map.getBounds().pad(-0.15).contains(ll)) map.panTo(ll);
+    if (pan) map.panInside(ll, view());
     history.replaceState(null, "", `#${d.date}`);
   }
+  // Play: one day every 0.7 s from the current day; any other choice of day keeps it running
+  const playBtn = document.getElementById("play");
+  let playing = null;
+  const stopPlay = () => {
+    clearInterval(playing); playing = null;
+    playBtn.textContent = "▶"; playBtn.setAttribute("aria-label", "Reise abspielen");
+  };
+  playBtn.addEventListener("click", () => {
+    if (playing) return stopPlay();
+    showTab("day");
+    if (current >= days.length - 1) selectDay(0);
+    playBtn.textContent = "❚❚"; playBtn.setAttribute("aria-label", "Anhalten");
+    playing = setInterval(() => (current >= days.length - 1 ? stopPlay() : selectDay(current + 1)), 700);
+  });
   sel.addEventListener("change", () => selectDay(Number(sel.value)));
   document.getElementById("prev").addEventListener("click", () => selectDay(current - 1));
   document.getElementById("next").addEventListener("click", () => selectDay(current + 1));
@@ -653,15 +707,18 @@
         <div class="meta">${esc(r.provider)} <span class="lic">${esc(r.rights || "")}</span> ${r.direct ? "· zur Reise" : "· nur der Ort, nicht die Reise"}</div></div></li>`).join("")}</ul>`) : ""}`;
   }
 
-  function selectHunt(id) {
+  // move = false for clicks on the map itself: the map stays where the user put it
+  function selectHunt(id, move = true) {
     const ep = epById.get(id);
     if (!ep) return;
+    // the timeline and the ship follow to the first day of the hunt
+    if (dayIndex.has(ep.start)) selectDay(dayIndex.get(ep.start), false);
     showTab("hunt");
     for (const b of document.querySelectorAll("#hunt-list button")) b.setAttribute("aria-current", String(b.dataset.hunt === id));
     document.getElementById("hunt-card").innerHTML = huntCard(ep);
     document.getElementById("hunt-card").scrollIntoView({ block: "nearest" });
     const pts = ep.places.filter((p) => p.lat != null).map((p) => pos(p.lat, wrap(p.lon)));
-    if (pts.length) map.flyToBounds(pts, { maxZoom: 6, padding: [60, 60], duration: 0.6 });
+    if (move && pts.length) map.flyToBounds(pts, { maxZoom: 6, duration: 0.6, ...view() });
     history.replaceState(null, "", `#${id}`);
   }
 
@@ -688,7 +745,7 @@
       ${(h.press || []).length ? block("anno", `<h4>Presse ${tag("anno")}</h4>${h.press.map(cite).join("")}`) : ""}`;
   }
 
-  function selectHero(id) {
+  function selectHero(id, move = true) {
     const h = heroes.find((x) => x.id === id);
     if (!h) return;
     showTab("heroes");
@@ -699,7 +756,7 @@
     currentHero = id;
     highlightHero(id);
     const hl = heroLine.get(id);
-    if (hl) map.flyToBounds(hl.pts, { maxZoom: 5, padding: [60, 60], duration: 0.6 });
+    if (move && hl) map.flyToBounds(hl.pts, { maxZoom: 5, duration: 0.6, ...view() });
     history.replaceState(null, "", `#${id}`);
   }
   const keepers = E.heroes_people.map((p) => `<li><b>${esc(p.name)}</b>: ${esc(p.role)}</li>`).join("");
@@ -822,4 +879,6 @@
   if (epById.has(fromHash)) selectHunt(fromHash);
   else if (heroes.some((h) => h.id === fromHash)) selectHero(fromHash);
   else if (E.people[fromHash]) selectPerson(fromHash);
+  // The welcome sheet greets a plain visit; deep links go straight to their content
+  if (!fromHash) { welcome.hidden = false; document.getElementById("start").focus(); }
 })();

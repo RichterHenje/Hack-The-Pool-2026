@@ -7,23 +7,72 @@
   <meta name="description" content="Prototyp: die Weltreise 1892–93 Tag für Tag, mit den Jagden, ihrem Echo in der Presse, Fotos, Objekten, Menschen und den lebenden Tieren an Bord.">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="reise.css">
 </head>
 <body>
-  <aside id="panel">
-    <header>
-      <p class="kicker">Hack the Pool 2026 · Prototyp · <a href="index.html">Alle Reisen des Schiffs</a></p>
-      <h1>Reise 1892–1893</h1>
-      <p class="sub">SMS Kaiserin Elisabeth, Tag für Tag</p>
-      <p class="intro">Die Route folgt dem gedruckten Tagebuch Franz Ferdinands (1895/96), nach Tagen
-        gegliedert. Die 18 Jagden sind mit Zeitungen (ANNO), Fotos, Objekten und Akten verknüpft. Die Seite
-        liest die Quelle gegen den Strich: was erlegt und gesammelt wurde, wer mitjagte, was die Presse
-        daraus machte und welche Tiere lebend an Bord kamen.</p>
-    </header>
+  <main id="map" aria-label="Karte der Reise"></main>
 
-    <section>
-      <h2>Ebenen</h2>
+  <header id="topbar">
+    <div class="brand">
+      <span class="brand-title">Reise um die Erde</span>
+      <span class="brand-sub">SMS Kaiserin Elisabeth · 1892–93</span>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Ansicht">
+      <button type="button" role="tab" id="tab-day" aria-controls="view-day" aria-selected="true">Reise</button>
+      <button type="button" role="tab" id="tab-hunt" aria-controls="view-hunt" aria-selected="false">Jagden</button>
+      <button type="button" role="tab" id="tab-heroes" aria-controls="view-heroes" aria-selected="false">Tiere</button>
+      <button type="button" role="tab" id="tab-people" aria-controls="view-people" aria-selected="false">Menschen</button>
+      <button type="button" role="tab" id="tab-echo" aria-controls="view-echo" aria-selected="false">Presse</button>
+    </nav>
+    <div class="top-actions">
+      <label class="switch" title="Quellen, Herkunft und Methoden einblenden">
+        <input type="checkbox" id="research" role="switch"><span class="track"></span> Quellen
+      </label>
+      <button type="button" id="info" class="icon-btn" aria-label="Über dieses Projekt">i</button>
+    </div>
+  </header>
+
+  <aside id="panel" aria-label="Erzählung">
+    <div id="view-day" role="tabpanel" aria-labelledby="tab-day">
+      <div class="stepper">
+        <button type="button" id="prev" aria-label="Vorheriger Tag">‹</button>
+        <select id="day" aria-label="Tag wählen"></select>
+        <button type="button" id="next" aria-label="Nächster Tag">›</button>
+      </div>
+      <article id="card" class="card" aria-live="polite"></article>
+    </div>
+
+    <div id="view-hunt" role="tabpanel" aria-labelledby="tab-hunt" hidden>
+      <ol id="hunt-list" class="pick"></ol>
+      <article id="hunt-card" class="card" aria-live="polite"></article>
+    </div>
+
+    <div id="view-heroes" role="tabpanel" aria-labelledby="tab-heroes" hidden>
+      <p class="lead">Die Bordmenagerie und die Tiere, die lebend nach Wien gingen.</p>
+      <p class="note">Jede Angabe zitiert einen Tagebuchtag oder eine Zeitung; „erschlossen“ ist unsere Folgerung.</p>
+      <ol id="hero-list" class="pick"></ol>
+      <article id="hero-card" class="card" aria-live="polite"></article>
+    </div>
+
+    <div id="view-people" role="tabpanel" aria-labelledby="tab-people" hidden>
+      <p class="lead">Wer mitreiste, mitjagte oder die Gäste empfing.</p>
+      <p class="note">Menschen der Reise, die das Tagebuch beim Namen nennt (Nachname, OCR-Varianten).
+        Wer ungenannt bleibt – Treiber, Schikaris, Träger –, fehlt hier; das ist eine Grenze der Quelle.</p>
+      <div id="people" class="card"></div>
+    </div>
+
+    <div id="view-echo" role="tabpanel" aria-labelledby="tab-echo" hidden>
+      <div id="echo" class="card"></div>
+    </div>
+  </aside>
+
+  <div id="layers-box" class="map-box">
+    <details>
+      <summary>Kartenebenen</summary>
       <div class="layers">
         <label><span class="dot" style="--c:#0072B2"></span><input type="checkbox" id="lyr-route" checked> Route</label>
         <label><span class="dot" style="--c:#D55E00"></span><input type="checkbox" id="lyr-hunt" checked> Jagden</label>
@@ -31,87 +80,21 @@
         <label><span class="dot" style="--c:#CC79A7"></span><input type="checkbox" id="lyr-photo"> Fotos</label>
         <label><span class="dot" style="--c:#E69F00"></span><input type="checkbox" id="lyr-object"> Objekte</label>
         <label><span class="dot dash" style="--c:#56B4E9"></span><input type="checkbox" id="lyr-heroes"> Lebende Tiere</label>
-        <label><input type="checkbox" id="lyr-historic" checked> Weltkarte 1872 (Hintergrund)</label>
+        <label><input type="checkbox" id="lyr-historic" checked> Weltkarte 1872</label>
       </div>
-      <dl id="stats" class="stats"></dl>
-    </section>
+    </details>
+  </div>
 
-    <section>
-      <nav class="tabs" role="tablist" aria-label="Ansicht">
-        <button type="button" role="tab" id="tab-day" aria-controls="view-day" aria-selected="true">Tage</button>
-        <button type="button" role="tab" id="tab-hunt" aria-controls="view-hunt" aria-selected="false">Jagden</button>
-        <button type="button" role="tab" id="tab-heroes" aria-controls="view-heroes" aria-selected="false">Tiere</button>
-        <button type="button" role="tab" id="tab-people" aria-controls="view-people" aria-selected="false">Menschen</button>
-        <button type="button" role="tab" id="tab-echo" aria-controls="view-echo" aria-selected="false">Echo</button>
-      </nav>
-
-      <div id="view-day" role="tabpanel" aria-labelledby="tab-day">
-        <div class="stepper">
-          <button type="button" id="prev" aria-label="Vorheriger Tag">‹</button>
-          <select id="day" aria-label="Tag wählen"></select>
-          <button type="button" id="next" aria-label="Nächster Tag">›</button>
-        </div>
-        <article id="card" class="card" aria-live="polite"></article>
-      </div>
-
-      <div id="view-hunt" role="tabpanel" aria-labelledby="tab-hunt" hidden>
-        <ol id="hunt-list" class="pick"></ol>
-        <article id="hunt-card" class="card" aria-live="polite"></article>
-      </div>
-
-      <div id="view-heroes" role="tabpanel" aria-labelledby="tab-heroes" hidden>
-        <p class="note">Die Bordmenagerie und die Tiere, die lebend nach Wien gingen. Jede Angabe
-          zitiert einen Tagebuchtag oder eine Zeitung; „erschlossen“ ist unsere Folgerung.</p>
-        <ol id="hero-list" class="pick"></ol>
-        <article id="hero-card" class="card" aria-live="polite"></article>
-      </div>
-
-      <div id="view-people" role="tabpanel" aria-labelledby="tab-people" hidden>
-        <p class="note">Menschen der Reise, die das Tagebuch beim Namen nennt (Nachname, OCR-Varianten).
-          Wer ungenannt bleibt – Treiber, Schikaris, Träger –, fehlt hier; das ist eine Grenze der Quelle.</p>
-        <div id="people" class="card"></div>
-      </div>
-
-      <div id="view-echo" role="tabpanel" aria-labelledby="tab-echo" hidden>
-        <div id="echo" class="card"></div>
-      </div>
-    </section>
-
-    <section class="sources">
-      <h2>Quellen und Grenzen</h2>
-      <ul class="plain">
-        <li>Franz Ferdinand: <em>Tagebuch meiner Reise um die Erde 1892–1893</em>, 2 Bde., Wien 1895/96
-          (gemeinfrei; Digitalisat Internet Archive). Text aus der automatischen Texterkennung, nach Tagen
-          gegliedert (<code>normalization/diary_days.py</code>, abgeglichen mit franzferdinandsworld.com);
-          Zitate am Scan prüfen.</li>
-        <li>„Jagden“: Sätze mit einem Verb des Tötens und einem Tiernamen (<code>enrichment/01_extract_hunts.py</code>).
-          Gezählt werden Erwähnungen, nicht erlegte Tiere; ungeprüft.</li>
-        <li>Orte: Wikidata für die Jagdorte, sonst das Ortsverzeichnis des Prototyps (GeoNames, CC BY 4.0);
-          einige Stationen von Hand (ungefähr). Tage auf See haben keinen Punkt.</li>
-        <li>Presse: ANNO (Österreichische Nationalbibliothek), automatisch gesucht; Ausschnitte sind OCR, ungeprüft.
-          Gezeigt werden Ausgaben, deren Ausschnitt den Erzherzog mit Ort oder Tier nennt (hoch) oder ihn nahe
-          beim Tier nennt (mittel).</li>
-        <li>Fotos: Weltmuseum Wien über Europeana (CC BY-NC-SA 4.0), Höfer 2010 (Inventarnummern) und
-          Wikimedia Commons. Objekte: Sammlung Este im Weltmuseum Wien; die Verbindung zur Reise ist ein
-          Vorschlag mit Beleg, Bilder nur verlinkt (keine Lizenz angegeben).</li>
-        <li>„An Bord“: Offiziere laut der jeweils gültigen Rangliste, KI-gestützt transkribiert, ungeprüft.</li>
-        <li>Methode und Daten: <code>../enrichment/README.md</code>; Bündel für diese Seite:
-          <code>enrichment/08_export_prototype.py</code>.</li>
-      </ul>
-    </section>
-  </aside>
-
-  <div id="stage">
-    <main id="map" aria-label="Karte der Reise"></main>
-    <section id="timeline" aria-label="Zeitleiste">
+  <section id="timeline" aria-label="Zeitleiste">
+    <button type="button" id="play" class="play" aria-label="Reise abspielen">▶</button>
+    <div class="tl-main">
       <div class="tl-head">
         <span id="tl-readout" aria-live="polite"></span>
         <span id="tl-note" class="note"></span>
       </div>
       <div class="tl-body">
         <div class="tl-labels" aria-hidden="true">
-          <span>Ort</span><span style="color:#D55E00">Jagd</span><span style="color:#009E73">Presse</span>
-          <span style="color:#CC79A7">Fotos</span><span style="color:#B07800">Objekte</span><span style="color:#2E86C1">Tiere</span>
+          <span>Ort</span><span>Jagd</span><span>Presse</span><span>Fotos</span><span>Objekte</span><span>Tiere</span>
         </div>
         <div id="tl-track" class="tl-track" tabindex="0" role="slider" aria-label="Tag der Reise">
           <svg id="tl-svg" preserveAspectRatio="none" aria-hidden="true"></svg>
@@ -120,7 +103,47 @@
           <div id="tl-hover" class="tl-hover" hidden></div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+  <div id="welcome" class="overlay" role="dialog" aria-modal="true" aria-labelledby="welcome-title" hidden>
+    <div class="sheet">
+      <p class="kicker">Hack the Pool 2026 · Prototyp · <a href="index.html">Alle Reisen des Schiffs</a> · <a href="geschichte.html">als Geschichte lesen</a></p>
+      <h1 id="welcome-title">Reise um die Erde 1892–1893</h1>
+      <p class="lead">Franz Ferdinand reist mit der SMS Kaiserin Elisabeth um die Welt – und schreibt Tagebuch.
+        Folgen Sie der Route Tag für Tag: was erlegt und gesammelt wurde, wer mitjagte, was die Presse
+        daraus machte und welche Tiere lebend an Bord kamen.</p>
+      <dl id="kpis" class="kpis"></dl>
+      <button type="button" id="start" class="primary">Reise starten</button>
+      <details class="more">
+        <summary>Alle Zahlen</summary>
+        <dl id="stats" class="stats"></dl>
+      </details>
+      <details class="more sources">
+        <summary>Quellen und Grenzen</summary>
+        <ul class="plain">
+          <li>Franz Ferdinand: <em>Tagebuch meiner Reise um die Erde 1892–1893</em>, 2 Bde., Wien 1895/96
+            (gemeinfrei; Digitalisat Internet Archive). Text aus der automatischen Texterkennung, nach Tagen
+            gegliedert (<code>normalization/diary_days.py</code>, abgeglichen mit franzferdinandsworld.com);
+            Zitate am Scan prüfen.</li>
+          <li>„Jagden“: Sätze mit einem Verb des Tötens und einem Tiernamen (<code>enrichment/01_extract_hunts.py</code>).
+            Gezählt werden Erwähnungen, nicht erlegte Tiere; ungeprüft.</li>
+          <li>Orte: Wikidata für die Jagdorte, sonst das Ortsverzeichnis des Prototyps (GeoNames, CC BY 4.0);
+            einige Stationen von Hand (ungefähr). Tage auf See haben keinen Punkt.</li>
+          <li>Presse: ANNO (Österreichische Nationalbibliothek), automatisch gesucht; Ausschnitte sind OCR, ungeprüft.
+            Gezeigt werden Ausgaben, deren Ausschnitt den Erzherzog mit Ort oder Tier nennt (hoch) oder ihn nahe
+            beim Tier nennt (mittel).</li>
+          <li>Fotos: Weltmuseum Wien über Europeana (CC BY-NC-SA 4.0), Höfer 2010 (Inventarnummern) und
+            Wikimedia Commons. Objekte: Sammlung Este im Weltmuseum Wien; die Verbindung zur Reise ist ein
+            Vorschlag mit Beleg, Bilder nur verlinkt (keine Lizenz angegeben).</li>
+          <li>„An Bord“: Offiziere laut der jeweils gültigen Rangliste, KI-gestützt transkribiert, ungeprüft.</li>
+          <li>Methode und Daten: <code>../enrichment/README.md</code>; Bündel für diese Seite:
+            <code>enrichment/08_export_prototype.py</code>.</li>
+        </ul>
+        <p class="note">Mit dem Schalter „Quellen“ oben rechts zeigt jede Angabe ihre Herkunft; auf der Karte
+          lässt sich dann nach Quellen filtern.</p>
+      </details>
+    </div>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"

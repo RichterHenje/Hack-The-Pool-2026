@@ -31,6 +31,8 @@ day they are dated to, all 84 people of `data/people.json` (← `normalization/j
 with diary days, GND/Wikidata, ANNO and Kulturpool hits), the person search and the live animals (`heroes.json`).
 Views: days, hunts, animals, people, press echo (ANNO coverage, trophies/diary reviews, Kulturpool).
 Deep links: `reise.html#1893-02-24`, `#hunt-1893-03-09-nepal`, `#fips-mucki`.
+The bundle also feeds `geschichte.html` (the story page). Days after 24.8.1893 carry `"ship": false`: Franz
+Ferdinand left S.M.S. Kaiserin Elisabeth in Yokohama and travelled home without her (`SHIP_END`, bundle key `ship`).
 Every day with a map point carries `coord_source`: the method (`camp`, `hunt`, `hand`, `heading`, `site`,
 `wikidata`), the basis (`wikidata`, `geonames`, `estimated`, `hand`), the Wikidata/GeoNames link and a note;
 `reise.html` shows it in the day view. Hunting places that stand for several stops list them in

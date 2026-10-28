@@ -31,6 +31,18 @@ PAGES = 3          # 10 issues per page
 SNIPPET_DOCS = 12  # issues per episode that get snippets
 MIN_KILL_SENTENCES = 2
 FF = re.compile(r"Erzherzog|Thronfolger|Franz Ferdinand|Ferdinand", re.I)
+# Other archdukes in the news of 1893 (his father Karl Ludwig, Otto, Eugen, Rainer, Ludwig Victor …): a snippet
+# that names one of them and not Franz Ferdinand/the heir is not about him, even though it says "Erzherzog".
+OTHER_ARCHDUKE = re.compile(r"Erzherzog(?:s|e|en)?\s+(?:Karl|Carl|Otto|Ludwig|Eugen|Rainer|Albrecht|Wilhelm|Friedrich|"
+                            r"Jo[sh]e?ph|Leopold|Johann|Rudolf|Ste[fp]h?an|Ernst|Heinrich|Sigismund|Franz Salvator|"
+                            r"Max|Maximilian|Peter)\b|Erzherzogin", re.I)
+
+
+def names_ff(t):
+    """The snippet is about Franz Ferdinand: names him or the heir, or says "Erzherzog" without another archduke."""
+    if re.search(r"Franz\s*Ferdinand|Thronfolger", t, re.I):
+        return True
+    return bool(re.search(r"Erzherzog", t, re.I)) and not OTHER_ARCHDUKE.search(t)
 
 
 def term(t):
@@ -55,7 +67,8 @@ def clean_snippet(s):
     return re.sub(r"\s+", " ", html.unescape(s).replace("\u00ad", "")).strip()
 
 
-def snippets(doc_id, query, keep):
+def snippets(doc_id, query, keep, rank=None):
+    """Up to 3 snippets that match `keep`; with `rank` (text → sort key) the best first."""
     d = get_json(f"{API}/snippet", {"documentId": doc_id, "query": query})
     out = []
     for p in d.get("snippetPages", []):
@@ -64,6 +77,8 @@ def snippets(doc_id, query, keep):
             if keep.search(text):
                 out.append({"page": s.get("pageLabel") or s.get("page"), "text": text,
                             "image": s.get("imageURL"), "url": s.get("openURL")})
+    if rank:
+        out.sort(key=lambda s: rank(re.sub(r"</?mark>", "", s["text"])))
     return out[:3]
 
 
@@ -82,7 +97,7 @@ def relevance(r, specific, place):
         t = re.sub(r"</?mark>", "", s["text"])
         # the archduke in the snippet plus place or specific animal; or an issue-level hit whose snippet names the
         # place (an animal alone is too common for that: market prices "Enten … das Paar")
-        if (FF.search(t) and specific.search(t)) or ("issue" in r["match"] and place.search(t)):
+        if (names_ff(t) and specific.search(t)) or ("issue" in r["match"] and place.search(t) and not OTHER_ARCHDUKE.search(t)):
             return "high"
     return "medium" if "near" in r["match"] else "low"
 
@@ -114,14 +129,23 @@ def enrich(h):
             r["match"].append(match)
     ranked = sorted(docs.values(), key=lambda r: ("near" not in r["match"], "issue" not in r["match"],
                                                    -(r["hits_in_issue"] or 0)))
-    keep = re.compile("|".join(map(re.escape, animal_terms + ["Jagd", "erlegt"])), re.I)
-    snip_query = " OR ".join(map(term, animal_terms + place_terms + ["Jagd", "erlegt"]))  # space = AND
+    # Snippets for the terms the issue was found with: the archduke, the animals, the place. Not "Jagd"/"erlegt":
+    # those brought up any hunting news on the page (game statistics in the Forst-Zeitung). A snippet must name
+    # the archduke, the place or a specific animal; the ones naming the archduke together with an animal or the
+    # place come first.
+    snip_query = " OR ".join(map(term, PERSON + animal_terms + place_terms))  # space = AND
     specific = re.compile("|".join(map(re.escape, [t for t in animal_terms + place_terms if t not in GENERIC])), re.I)
     place_rx = re.compile("|".join(map(re.escape, place_terms)), re.I)
+    animal_rx = re.compile("|".join(map(re.escape, animal_terms)), re.I)
+    keep = re.compile("|".join([FF.pattern, specific.pattern, place_rx.pattern]), re.I)
+
+    def snippet_rank(t):
+        ff, spec, an = names_ff(t), bool(specific.search(t) or place_rx.search(t)), bool(animal_rx.search(t))
+        return (not (ff and (spec or an)), not spec, not ff)
     # issue-level hits that name the place first: a generic proximity hit ("Erzherzog … Vögel") is weaker
     ranked.sort(key=lambda r: ("issue" not in r["match"], "near" not in r["match"], -(r["hits_in_issue"] or 0)))
     for r in ranked[:SNIPPET_DOCS]:
-        r["snippets"] = snippets(r["docId"], snip_query, keep)
+        r["snippets"] = snippets(r["docId"], snip_query, keep, snippet_rank)
         r["relevance"] = relevance(r, specific, place_rx)
     ranked.sort(key=lambda r: RANK[r.get("relevance", "unchecked")])
     n_high = sum(r.get("relevance") == "high" for r in ranked)
