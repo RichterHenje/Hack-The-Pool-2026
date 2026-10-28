@@ -190,17 +190,16 @@
     const done = located.filter((x) => x.date <= d.date).map((x) => pos(x.lat, x.lon));
     progress.setLatLngs(s.exact ? done : [...done, s.ll]);
     ship.setLatLng(s.ll).setStyle(s.exact ? { fillColor: "#1d1d1b", dashArray: null } : { fillColor: "#fff", dashArray: "3 2" });
-    ship.setTooltipContent(`${esc(fmt(d.date))} · ${esc(d.place || "–")}${s.exact ? "" : " (Position geschätzt)"}`);
   }
 
   // Stays at one place: day indices → "20. Februar 1893 – 27. Februar 1893 (8 Tage)", one line per run
-  const stays = (idx) => {
+  const stays = (idx, sep = "<br>") => {
     const runs = [];
     for (const i of idx) {
       const last = runs[runs.length - 1];
       if (last && i === last[1] + 1) last[1] = i; else runs.push([i, i]);
     }
-    return runs.map(([a, b]) => `${esc(span(days[a].date, days[b].date))}${b > a ? ` (${b - a + 1} Tage)` : ""}`).join("<br>");
+    return runs.map(([a, b]) => `${esc(span(days[a].date, days[b].date))}${b > a ? ` (${b - a + 1} Tage)` : ""}`).join(sep);
   };
 
   // Popup at a place: what the sources ticked under "Herkunft" say about the days there.
@@ -265,6 +264,29 @@
       ${parts || "<p class='note'>Keine Daten aus den gewählten Quellen.</p>"}</div>`;
   }
 
+  // Hovering a marker: a quiet ring on it and its text in one fixed place - the line above the
+  // timeline (back to the current day on mouseout), in map-only mode the pill at the top.
+  let hoverRing = null;
+  const hoverPill = document.getElementById("hover-pill");
+  const hoverOn = (e, kind, html) => {
+    const t = e.target, line = `${ico(kind)}${html}`;
+    if (t.getRadius) {
+      hoverRing = hoverRing || L.circleMarker([0, 0], { radius: 8, color: "#1c1c1e", weight: 2, opacity: 0.8, fill: false, interactive: false });
+      hoverRing.setLatLng(t.getLatLng()).setRadius(t.getRadius() + 5).addTo(map);
+    }
+    const ro = document.getElementById("tl-readout");
+    ro.innerHTML = line;
+    ro.classList.add("is-hover");
+    hoverPill.innerHTML = line;
+  };
+  const hoverOff = () => {
+    if (hoverRing) hoverRing.remove();
+    document.getElementById("tl-readout").classList.remove("is-hover");
+    hoverPill.innerHTML = "";
+    updateTimeline();
+  };
+  const hoverable = (layer, kind, html) => layer.on("mouseover", (e) => hoverOn(e, kind, html)).on("mouseout", hoverOff);
+
   // All map points, redrawn when the base map changes
   function draw() {
     for (const g of Object.values(layers)) g.clearLayers();
@@ -280,46 +302,44 @@
     }
     for (const idx of byPlace.values()) {
       const d0 = days[idx[0]];
-      L.circleMarker(pos(d0.lat, d0.lon), { radius: 3.5, color: "#fff", weight: 1, fillColor: ROUTE, fillOpacity: 0.9,
-        className: `src-${coordSrc(d0)}` })
-        .bindTooltip(`<b>${esc(d0.place)}</b><br>${stays(idx)}`)
+      hoverable(L.circleMarker(pos(d0.lat, d0.lon), { radius: 3.5, color: "#fff", weight: 1, fillColor: ROUTE, fillOpacity: 0.9,
+        className: `src-${coordSrc(d0)}` }), "route", `<b>${esc(d0.place)}</b> · ${stays(idx, " · ")}`)
         .bindPopup(() => placePopup(idx), POPUP)
         .on("click", () => selectDay(idx.reduce((best, i) => Math.abs(i - current) < Math.abs(best - current) ? i : best), false))
         .addTo(layers.route);
     }
     const placeOf = (d) => byPlace.get(`${d.place}|${d.lat.toFixed(3)}|${d.lon.toFixed(3)}`);
-    // The current day's label sits on the ship, so exactly one label is open
     ship = L.circleMarker([0, 0], { radius: 7, color: "#1d1d1b", weight: 2.5, fillColor: "#1d1d1b", fillOpacity: 1, interactive: false })
-      .bindTooltip("", { permanent: true, direction: "top", offset: [0, -6] }).addTo(layers.route);
+      .addTo(layers.route);
     updateProgress();
     // Hunts: one marker per episode place, sized by kill sentences; press as a ring around it
     for (const ep of episodes) {
       for (const p of ep.places) {
         if (p.lat == null) continue;
         const ll = pos(p.lat, wrap(p.lon));
-        L.circleMarker(ll, {
+        hoverable(L.circleMarker(ll, {
           radius: 4 + Math.min(9, Math.sqrt(ep.kill_sentences) * 1.6), color: "#fff", weight: 1.5, fillColor: HUNT, fillOpacity: 0.9,
           className: "src-diary",
-        }).bindTooltip(`${esc(p.label)} · ${esc(span(ep.start, ep.end))}<br>${ep.kill_sentences} Sätze vom Erlegen/Schießen`)
+        }), "hunt", `<b>${esc(p.label)}</b> · ${esc(span(ep.start, ep.end))} · ${ep.kill_sentences} Jagdsätze`)
           .bindPopup(() => placePopup(days.map((d, i) => d.date >= ep.start && d.date <= ep.end ? i : -1).filter((i) => i >= 0), p.label), POPUP)
           .on("click", () => selectHunt(ep.id, false)).addTo(layers.hunt);
         const n = ep.anno.issues_high;
         if (n) {
-          L.circleMarker(ll, { radius: 11 + Math.min(12, n * 1.2), color: PRESS, weight: 1.5, opacity: 0.75, fill: false, className: "src-anno" })
-            .bindTooltip(`${esc(p.label)} · ${n} Zeitungsausgaben (ANNO, hoch)`).on("click", () => selectHunt(ep.id, false)).addTo(layers.press);
+          hoverable(L.circleMarker(ll, { radius: 11 + Math.min(12, n * 1.2), color: PRESS, weight: 1.5, opacity: 0.75, fill: false, className: "src-anno" }),
+            "press", `<b>${esc(p.label)}</b> · ${n} Zeitungsberichte`).on("click", () => selectHunt(ep.id, false)).addTo(layers.press);
         }
       }
     }
     // Photos and objects at the day they are dated to
     for (const d of located) {
       if (d.photos.length) {
-        L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(6, d.photos.length), color: "#fff", weight: 1.5, fillColor: PHOTO, fillOpacity: 0.9, className: "src-europeana" })
-          .bindTooltip(`${esc(fmt(d.date))} · ${d.photos.length} Foto(s)`).bindPopup(() => placePopup(placeOf(d)), POPUP)
+        hoverable(L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(6, d.photos.length), color: "#fff", weight: 1.5, fillColor: PHOTO, fillOpacity: 0.9, className: "src-europeana" }),
+          "photo", `<b>${esc(d.place)}</b> · ${esc(fmt(d.date))} · ${d.photos.length} ${d.photos.length === 1 ? "Foto" : "Fotos"}`).bindPopup(() => placePopup(placeOf(d)), POPUP)
           .on("click", () => selectDay(dayIndex.get(d.date), false)).addTo(layers.photo);
       }
       if (d.objects.length) {
-        L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(6, d.objects.length / 2), color: "#fff", weight: 1.5, fillColor: OBJECT, fillOpacity: 0.9, className: "src-weltmuseum" })
-          .bindTooltip(`${esc(fmt(d.date))} · ${d.objects.length} Objekt(e) der Sammlung Este`).bindPopup(() => placePopup(placeOf(d)), POPUP)
+        hoverable(L.circleMarker(pos(d.lat, d.lon), { radius: 4 + Math.min(6, d.objects.length / 2), color: "#fff", weight: 1.5, fillColor: OBJECT, fillOpacity: 0.9, className: "src-weltmuseum" }),
+          "object", `<b>${esc(d.place)}</b> · ${esc(fmt(d.date))} · ${d.objects.length} ${d.objects.length === 1 ? "Objekt" : "Objekte"} der Sammlung Este`).bindPopup(() => placePopup(placeOf(d)), POPUP)
           .on("click", () => selectDay(dayIndex.get(d.date), false)).addTo(layers.object);
       }
     }
@@ -331,10 +351,9 @@
       if (!pts.length) continue;
       const className = `src-${EVIDENCE_SRC[h.evidence] || "diary"}`;
       const line = pts.length > 1
-        ? L.polyline(pts, { color: HERO, weight: 2, opacity: 0.8, dashArray: "6 5", className })
-          .bindTooltip(esc(h.name)).on("click", () => selectHero(h.id, false)).addTo(layers.heroes) : null;
-      L.circleMarker(pts[0], { radius: 5, color: HERO, weight: 2, fillColor: "#fff", fillOpacity: 1, className })
-        .bindTooltip(`${esc(h.name)} · ${esc(h.route[0].event)}`).on("click", () => selectHero(h.id, false)).addTo(layers.heroes);
+        ? hoverable(L.polyline(pts, { color: HERO, weight: 2, opacity: 0.8, dashArray: "6 5", className }), "animal", `<b>${esc(h.name)}</b>`).on("click", () => selectHero(h.id, false)).addTo(layers.heroes) : null;
+      hoverable(L.circleMarker(pts[0], { radius: 5, color: HERO, weight: 2, fillColor: "#fff", fillOpacity: 1, className }),
+        "animal", `<b>${esc(h.name)}</b> · ${esc(h.route[0].event)}`).on("click", () => selectHero(h.id, false)).addTo(layers.heroes);
       heroLine.set(h.id, { pts, line });
     }
     if (currentHero) highlightHero(currentHero);
@@ -354,6 +373,18 @@
   };
   showHistoric(true);
   map.fitBounds(located.map((d) => pos(d.lat, d.lon)), view());
+
+  // Map only (body.immersive): the button at the top right hides bar, card, timeline and map boxes;
+  // the map with its tooltips and popups stays. The same button or Esc brings everything back.
+  const focusBtn = document.getElementById("focus");
+  const setImmersive = (on) => {
+    document.body.classList.toggle("immersive", on);
+    focusBtn.setAttribute("aria-pressed", String(on));
+    focusBtn.setAttribute("aria-label", on ? "Bedienelemente einblenden" : "Nur die Karte zeigen");
+    focusBtn.title = on ? "Bedienelemente einblenden (Esc)" : "Nur die Karte zeigen";
+  };
+  focusBtn.addEventListener("click", () => setImmersive(!document.body.classList.contains("immersive")));
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && document.body.classList.contains("immersive")) setImmersive(false); });
   document.getElementById("lyr-historic").addEventListener("change", (e) => showHistoric(e.target.checked));
 
   // Calibration (reise.html?kalibrieren): one draggable marker per place of data/ke_places_1872.js;
