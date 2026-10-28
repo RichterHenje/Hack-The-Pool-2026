@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body { margin: 0; }</style>
+<title>Workflow: Interface Team</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+/* Layout: four steps left to right (cleaned data, storyline, storytelling and sources, three prototypes) */
+:root {
+  --bg: #f2f5f7;
+  --ink: #14283b;
+  --muted: #586b7c;
+  --line: #9db0bf;
+  --step-fill: #dfe9f0;
+  --out-fill: #14283b;
+  --out-ink: #f2f5f7;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1a26; --ink: #e4ecf2; --muted: #93a6b6; --line: #4a6073;
+    --step-fill: #1b3044; --out-fill: #e4ecf2; --out-ink: #0d1a26;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d1a26; --ink: #e4ecf2; --muted: #93a6b6; --line: #4a6073;
+  --step-fill: #1b3044; --out-fill: #e4ecf2; --out-ink: #0d1a26;
+  color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 15px; line-height: 1.55;
+  padding-block: 32px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+main { max-width: 1080px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: 1.9rem; line-height: 1.15; margin: 0; text-wrap: balance; }
+figure { margin: 0; }
+.scroll { overflow-x: auto; }
+svg { display: block; min-width: 800px; width: 100%; height: auto; }
+
+.col { font: 600 11px var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; fill: var(--muted); }
+.src { fill: none; stroke: var(--line); stroke-width: 1.5; }
+.step { fill: var(--step-fill); stroke: none; }
+.sep { stroke: var(--line); stroke-width: 1; }
+.out { fill: var(--out-fill); }
+.t { font: 600 13px var(--font-body); fill: var(--ink); }
+.s { font: 400 11px var(--font-body); fill: var(--muted); }
+.t-out { font: 600 13px var(--font-body); fill: var(--out-ink); }
+.s-out { font: 400 11px var(--font-body); fill: var(--out-ink); opacity: 0.8; }
+.flow { fill: none; stroke: var(--ink); stroke-width: 1.4; }
+</style>
+
+</head>
+<body>
+<main>
+  <h1>Workflow: Interface Team</h1>
+
+  <figure>
+    <div class="scroll">
+      <svg viewBox="0 0 1040 474" role="img" aria-label="Cleaned data from the Data Cleaning Team feeds the storyline on animals, the hunting route and the ship Kaiserin Elisabeth. ANNO, the diary of Franz Ferdinand and Weltmuseum photos are woven into the storytelling, with Europeana, Kulturpool and a historical map as sources. The result is three prototypes: an ArcGIS community-based prototype, a storytelling prototype and a data exploration prototype.">
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0 0 L10 5 L0 10 z" fill="currentColor" />
+          </marker>
+        </defs>
+
+        <g style="color: var(--ink)">
+          <text class="col" x="20" y="36">1 · Input</text>
+          <text class="col" x="250" y="36">2 · Storyline</text>
+          <text class="col" x="510" y="36">3 · Storytelling and sources</text>
+          <text class="col" x="790" y="36">4 · Prototypes</text>
+
+          <!-- 1 Input -->
+          <rect class="src" x="20" y="121" width="170" height="70" rx="3" />
+          <text class="t" x="32" y="150">Cleaned data</text>
+          <text class="s" x="32" y="168">from the Data Cleaning Team</text>
+
+          <!-- 2 Storyline -->
+          <rect class="step" x="250" y="70" width="200" height="172" rx="3" />
+          <line class="sep" x1="266" y1="127" x2="434" y2="127" />
+          <line class="sep" x1="266" y1="184" x2="434" y2="184" />
+          <text class="t" x="266" y="103">Animals</text>
+          <text class="t" x="266" y="160">Hunting route</text>
+          <text class="t" x="266" y="217">Ship Kaiserin Elisabeth</text>
+
+          <!-- 3 Storytelling -->
+          <text class="s" x="510" y="62">Woven into the storytelling</text>
+          <rect class="step" x="510" y="70" width="220" height="172" rx="3" />
+          <line class="sep" x1="526" y1="127" x2="714" y2="127" />
+          <line class="sep" x1="526" y1="184" x2="714" y2="184" />
+          <text class="t" x="526" y="96">ANNO</text>
+          <text class="s" x="526" y="113">Newspaper coverage of the trip</text>
+          <text class="t" x="526" y="153">Diary of Franz Ferdinand</text>
+          <text class="s" x="526" y="170">Day-by-day route and passages</text>
+          <text class="t" x="526" y="210">Weltmuseum photos</text>
+          <text class="s" x="526" y="227">Photos from the Weltmuseum Wien</text>
+
+          <!-- 3 Sources -->
+          <text class="s" x="510" y="274">Sources</text>
+          <rect class="step" x="510" y="282" width="220" height="171" rx="3" />
+          <line class="sep" x1="526" y1="339" x2="714" y2="339" />
+          <line class="sep" x1="526" y1="396" x2="714" y2="396" />
+          <text class="t" x="526" y="422">Historical map</text>
+          <text class="s" x="526" y="439">World map 1872 (Map Warper)</text>
+          <text class="t" x="526" y="308">Europeana</text>
+          <text class="s" x="526" y="325">Objects from European holdings</text>
+          <text class="t" x="526" y="365">Kulturpool</text>
+          <text class="s" x="526" y="382">Austrian open cultural data</text>
+
+          <!-- 4 Prototypes -->
+          <rect class="out" x="790" y="90" width="230" height="80" rx="3" />
+          <text class="t-out" x="806" y="126">ArcGIS prototype</text>
+          <text class="s-out" x="806" y="144">Community-based</text>
+
+          <rect class="out" x="790" y="190" width="230" height="80" rx="3" />
+          <text class="t-out" x="806" y="236">Storytelling prototype</text>
+
+          <rect class="out" x="790" y="290" width="230" height="80" rx="3" />
+          <text class="t-out" x="806" y="336">Data exploration prototype</text>
+
+          <!-- arrows -->
+          <line class="flow" marker-end="url(#arr)" x1="190" y1="156" x2="250" y2="156" />
+          <line class="flow" marker-end="url(#arr)" x1="450" y1="156" x2="510" y2="156" />
+          <polyline class="flow" points="730,156 760,156" />
+          <polyline class="flow" points="730,367 760,367" />
+          <line class="flow" x1="760" y1="130" x2="760" y2="367" />
+          <line class="flow" marker-end="url(#arr)" x1="760" y1="130" x2="790" y2="130" />
+          <line class="flow" marker-end="url(#arr)" x1="760" y1="230" x2="790" y2="230" />
+          <line class="flow" marker-end="url(#arr)" x1="760" y1="330" x2="790" y2="330" />
+        </g>
+      </svg>
+    </div>
+  </figure>
+</main>
+
+</body>
+</html>

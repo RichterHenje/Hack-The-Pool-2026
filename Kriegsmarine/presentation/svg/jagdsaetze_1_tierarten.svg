@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 454" width="640" height="454" role="img">
+<title>Tiernennungen in Jagdsätzen nach Tierart</title>
+<style>
+  text { font-family: "IBM Plex Sans", "Segoe UI", Arial, sans-serif; }
+  .col { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; fill: #586b7c; }
+  .src { fill: none; stroke: #9db0bf; stroke-width: 1.5; }
+  .step { fill: #dfe9f0; stroke: none; }
+  .sep { stroke: #9db0bf; stroke-width: 1; }
+  .out { fill: #14283b; }
+  .review { fill: none; stroke: #a8680f; stroke-width: 1.5; stroke-dasharray: 6 4; }
+  .t { font-size: 13px; font-weight: 600; fill: #14283b; }
+  .s { font-size: 11px; font-weight: 400; fill: #586b7c; }
+  .t-out { font-size: 13px; font-weight: 600; fill: #f2f5f7; }
+  .s-out { font-size: 11px; font-weight: 400; fill: #f2f5f7; opacity: 0.8; }
+  .t-rev { font-size: 12px; font-weight: 600; fill: #a8680f; }
+  .flow { fill: none; stroke: #14283b; stroke-width: 1.4; }
+  .sea { fill: #f2f5f7; }
+  .land { fill: #c4d3de; stroke: none; }
+  .route { fill: none; stroke: #a8680f; stroke-width: 1.6; stroke-linejoin: round; }
+  .dot circle { fill: #14283b; }
+  .frame { fill: none; stroke: #14283b; stroke-width: 1.5; }
+  .lab { font-size: 13px; fill: #14283b; }
+  .val { font-size: 12px; font-weight: 600; fill: #14283b; }
+  .tick { font-size: 11px; fill: #586b7c; }
+  .bar, .data { fill: #1f5c8a; }
+  .empty { fill: #e6edf2; }
+  .grid { stroke: #d3dde5; stroke-width: 1; }
+  .axis { stroke: #586b7c; stroke-width: 1; }
+  .cell { font-size: 12px; font-weight: 600; fill: #14283b; }
+  .cellon { font-size: 12px; font-weight: 600; fill: #f2f5f7; }
+</style>
+<rect width="640" height="454" fill="#f2f5f7" />
+<text x="20" y="30" style="font-family:Georgia,serif;font-size:20px;font-weight:600;fill:#14283b">Tiernennungen in Jagdsätzen nach Tierart</text>
+<g transform="translate(0 48)">
+<g><title>Wildvogel: 27 Nennungen</title><text class="lab" x="130" y="24" text-anchor="end">Wildvogel</text><rect class="bar" x="140" y="12" width="450.0" height="16" rx="3" /><text class="val" x="598.0" y="24">27</text></g>
+<g><title>Hirsch: 11 Nennungen</title><text class="lab" x="130" y="50" text-anchor="end">Hirsch</text><rect class="bar" x="140" y="38" width="183.3" height="16" rx="3" /><text class="val" x="331.3" y="50">11</text></g>
+<g><title>Tiger: 11 Nennungen</title><text class="lab" x="130" y="76" text-anchor="end">Tiger</text><rect class="bar" x="140" y="64" width="183.3" height="16" rx="3" /><text class="val" x="331.3" y="76">11</text></g>
+<g><title>Antilope/Gazelle: 9 Nennungen</title><text class="lab" x="130" y="102" text-anchor="end">Antilope/Gazelle</text><rect class="bar" x="140" y="90" width="150.0" height="16" rx="3" /><text class="val" x="298.0" y="102">9</text></g>
+<g><title>Elefant: 7 Nennungen</title><text class="lab" x="130" y="128" text-anchor="end">Elefant</text><rect class="bar" x="140" y="116" width="116.7" height="16" rx="3" /><text class="val" x="264.7" y="128">7</text></g>
+<g><title>Fisch/Hai: 5 Nennungen</title><text class="lab" x="130" y="154" text-anchor="end">Fisch/Hai</text><rect class="bar" x="140" y="142" width="83.3" height="16" rx="3" /><text class="val" x="231.3" y="154">5</text></g>
+<g><title>Känguru: 4 Nennungen</title><text class="lab" x="130" y="180" text-anchor="end">Känguru</text><rect class="bar" x="140" y="168" width="66.7" height="16" rx="3" /><text class="val" x="214.7" y="180">4</text></g>
+<g><title>Wildschwein: 4 Nennungen</title><text class="lab" x="130" y="206" text-anchor="end">Wildschwein</text><rect class="bar" x="140" y="194" width="66.7" height="16" rx="3" /><text class="val" x="214.7" y="206">4</text></g>
+<g><title>Bär: 3 Nennungen</title><text class="lab" x="130" y="232" text-anchor="end">Bär</text><rect class="bar" x="140" y="220" width="50.0" height="16" rx="3" /><text class="val" x="198.0" y="232">3</text></g>
+<g><title>Krokodil/Alligator: 3 Nennungen</title><text class="lab" x="130" y="258" text-anchor="end">Krokodil/Alligator</text><rect class="bar" x="140" y="246" width="50.0" height="16" rx="3" /><text class="val" x="198.0" y="258">3</text></g>
+<g><title>Panther/Leopard: 3 Nennungen</title><text class="lab" x="130" y="284" text-anchor="end">Panther/Leopard</text><rect class="bar" x="140" y="272" width="50.0" height="16" rx="3" /><text class="val" x="198.0" y="284">3</text></g>
+<g><title>Schakal/Hyäne: 3 Nennungen</title><text class="lab" x="130" y="310" text-anchor="end">Schakal/Hyäne</text><rect class="bar" x="140" y="298" width="50.0" height="16" rx="3" /><text class="val" x="198.0" y="310">3</text></g>
+<g><title>Affe: 2 Nennungen</title><text class="lab" x="130" y="336" text-anchor="end">Affe</text><rect class="bar" x="140" y="324" width="33.3" height="16" rx="3" /><text class="val" x="181.3" y="336">2</text></g>
+<g><title>Nashorn: 2 Nennungen</title><text class="lab" x="130" y="362" text-anchor="end">Nashorn</text><rect class="bar" x="140" y="350" width="33.3" height="16" rx="3" /><text class="val" x="181.3" y="362">2</text></g>
+<g><title>Büffel: 1 Nennungen</title><text class="lab" x="130" y="388" text-anchor="end">Büffel</text><rect class="bar" x="140" y="376" width="16.7" height="16" rx="3" /><text class="val" x="164.7" y="388">1</text></g>
+</g>
+</svg>
