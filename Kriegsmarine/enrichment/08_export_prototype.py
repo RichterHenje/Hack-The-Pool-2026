@@ -13,6 +13,7 @@ not the 170 OCR entries of ke_diary.json. Coordinates per day (`coords`, the met
   heading  – the prototype gazetteer located the diary heading of that very day (ke_diary.json)
   site     – another day with the same place name (franzferdinandsworld.com) was located that way
   wikidata – the place name matches a route place (route_places.json)
+`ship`: false after SHIP_END (Franz Ferdinand left the ship in Yokohama on 25.8.1893).
 `coord_source` says what the point rests on: {"method", "basis": wikidata | geonames | estimated | hand,
 "ref": Wikidata/GeoNames URI or null, "name": the place matched, "note"}.
 Days at sea and places not found stay without coordinates (list only, no map point).
@@ -30,6 +31,10 @@ TARGET = PROTO / "ke_enrichment.js"
 DAYS = ROOT.parent / "normalization" / "json" / "tagebuch_tage.json"
 ANIMALS = json.loads((ROOT / "animals.json").read_text(encoding="utf-8"))
 AUTO = "auto:"
+# Franz Ferdinand left S.M.S. Kaiserin Elisabeth in Yokohama: 24.8.1893 is "der letzte Tag, den ich auf der
+# »Elisabeth« verbringen konnte", on 25.8. he sailed on the »Empress of China« to Vancouver and went home via
+# North America. The project follows the ship, so later days get "ship": false (kept, but not part of the story).
+SHIP_END = "1893-08-24"
 # Stops on land that neither the gazetteer nor Wikidata resolve (approximate town coordinates)
 HAND = {
     "trieste": (45.6503, 13.7703), "vienna": (48.2082, 16.3738), "stuttgart": (48.7758, 9.1829),
@@ -156,6 +161,15 @@ def main():
             return "wikidata", by_route[norm(name)]
         return "none", None
 
+    # Quotes corrected by hand (quotes_checked.json): `checked` = corrected text, null = OCR too garbled to show.
+    # The page shows only checked quotes; `text` stays the OCR.
+    checked = {(c["episode"], c["date"], c["ocr_start"]): c["text"]
+               for c in json.loads((ROOT / "quotes_checked.json").read_text(encoding="utf-8"))["quotes"]}
+
+    def checked_quote(ep_id, q):
+        key = (ep_id, q["date"], trim(q["text"], 420)[:60])
+        return {"checked": checked[key]} if key in checked else {}
+
     # --- per-day material -----------------------------------------------------------------
     hunt_days = {h["date"]: h for h in load("hunt_entries.json")}
     episode_of = {}
@@ -258,7 +272,8 @@ def main():
         h = hunt_days.get(d["date"])
         k = ked.get(d["entry_date"]) or {}
         days.append({
-            "date": d["date"], "place": d["place_site"], "heading": d["heading_ocr"] or k.get("heading") or "",
+            "date": d["date"], "ship": d["date"] <= SHIP_END,
+            "place": d["place_site"], "heading": d["heading_ocr"] or k.get("heading") or "",
             "entry": d["entry_date"], "method": d["method"], "days_in_entry": d.get("days_in_entry"),
             "band": d.get("band"), "scan": d.get("scan"), "page_url": d.get("page_url"), "site_url": d.get("site_url"),
             "lat": lat, "lon": lon, "coords": how,
@@ -282,7 +297,8 @@ def main():
             "places": [{k: p.get(k) for k in ("label", "lat", "lon", "wikidata", "coord_note", "on_route")} for p in ep["places"]],
             "animals": ep["animals"], "kill_sentences": ep["diary"]["kill_sentences"],
             "quotes": [{"text": trim(q["text"], 420), "date": q["date"], "first_person": q.get("first_person"),
-                        "band": q.get("band"), "scan": q.get("scan")} for q in ep["diary"]["quotes"][:8]],
+                        "band": q.get("band"), "scan": q.get("scan")} | checked_quote(ep["id"], q)
+                       for q in ep["diary"]["quotes"][:8]],
             "anno": {"window": ep["anno"]["window"], "issues_found": ep["anno"]["issues_found"],
                      "issues_high": ep["anno"]["issues_high"]},
             "hoefer": ep["hoefer"],
@@ -295,6 +311,9 @@ def main():
     voyage = enr["voyage"]
     bundle = {
         "built_by": "enrichment/08_export_prototype.py",
+        "ship": {"end": SHIP_END, "end_place": "Yokohama",
+                 "note": "Am 25. August 1893 verließ Franz Ferdinand in Yokohama die Kaiserin Elisabeth und fuhr mit "
+                         "der »Empress of China« nach Vancouver, dann über Nordamerika und den Atlantik nach Hause."},
         # GeoNames places of ke_diary.json with today's coordinates: the keys of prototype/data/ke_places_1872.js
         # (positions on the 1872 map); the page moves every point like the nearest of these places
         "geonames": {d["place"]: [d["lat"], d["lon"]] for d in reversed(diary) if d["place"] and d["lat"] is not None},

@@ -12,6 +12,7 @@ Direkt im Browser öffnen (ohne Server; `reise.html` lädt als Hintergrund Karte
 | Seite | was |
 | --- | --- |
 | `prototype/reise.html` | **Weltreise 1892–93 Tag für Tag**: Route nach dem Tagebuch, Tageskarten mit Scan-Link, Ebene „Jagd“ (Sätze vom Erlegen/Schießen im Wortlaut), Kulturpool, Presse (ANNO). Direktlink zu einem Tag: `reise.html#1893-01-11` |
+| `prototype/geschichte.html` | **Jagdreise 1892–93 als Geschichte**: nur die Fahrt mit S.M.S. Kaiserin Elisabeth bis Yokohama (24.8.1893), in Kapiteln entlang der 18 Jagden und der Strecken dazwischen; großer Text mit Foto, Tagebuch-Zitaten, Presse, lebenden Tieren und Objekten, kleine Karte (Karte 1872) und einzeilige Zeitleiste. Die 55 Tage danach (ohne das Schiff) nur als Epilog und graue Linie. Gleiche Daten wie `reise.html` (`data/ke_enrichment.js`). Direktlink zu einem Kapitel: `geschichte.html#hunt-1893-03-09-nepal` |
 | `prototype/index.html` | alle Reisen des Schiffs 1892–1914 aus dem Vault, Kulturpool-Treffer je Station. Direktlink: `index.html#stop=Bombay` |
 
 ## Was die Daten zeigen (Stand 27.10.2026)
