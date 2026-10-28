@@ -27,13 +27,17 @@ Speaker A: The archive stays as it is. The links are a separate layer beside it,
 
 (slide 5: the ask)
 
-Speaker B: We ask three things. Tell us which Kulturpool records belong to this voyage. Connect the museums that hold it. Help us check the hunting sentences against the scans, one day at a time. Thank you.
+Speaker B: We ask three things; the slide shows the finding behind each. Kulturpool and ACDH: trace the 2019 delivery, and tell us which records belong to this voyage. The museums that hold it: connect as data providers. Everyone who works with sources: check the hunting sentences against the scans with us; find us after the slam. Nothing in the archive needs rewriting. It needs connecting. Thank you.
 
 ## Ask
 
-1. Kulturpool and ACDH: which records in the portal belong to this voyage, and why does a delivery of 2019 not surface in today's portal?
-2. The museums that hold the voyage (Weltmuseum Wien, KHM, Heeresgeschichtliches Museum, Staatsarchiv): connect, or tell us where the records are.
-3. Everyone in the room: 45 minutes with a scan and a sheet to check hunting sentences, so that machine output becomes evidence.
+Each ask names the finding behind it (slide 5).
+
+1. Kulturpool and ACDH: trace the 2019 delivery, and tell us which records belong to this voyage. Finding: the Weltmuseum photographs reached Europeana through Kulturpool in 2019, the portal finds no Tandur-Camp today; 24 of 70 stations have a dated record, 2 records name the ship.
+2. The museums that hold the voyage (Weltmuseum Wien, KHM, Heeresgeschichtliches Museum, Staatsarchiv): connect as data providers, or tell us where the records are. Finding: none of them appears as a data provider in today's portal.
+3. Everyone who works with sources: check the hunting sentences against the scans, with us. Finding: they are machine-read and nobody has checked them yet. After the slam we bring the scan links and the blind method used for the diary days (`validation/diary_days_check.csv`); a sheet for the hunting sentences is planned, not yet made.
+
+Closing line: "Nothing in the archive needs rewriting. It needs connecting." (claim 10, PROPOSED)
 
 ## Slides (one number each)
 
@@ -43,4 +47,4 @@ Speaker B: We ask three things. Tell us which Kulturpool records belong to this 
 | 2 | map of the stations (overview.png) | 70 of 90; 24 with a record |
 | 3 | hunt layer and one photograph | 131 of 134 photographs licensed; 58 on the map |
 | 4 | the two layers side by side | none |
-| 5 | the three asks | none |
+| 5 | the three asks, each with its finding; closing line | none new (24 of 70 and 2 repeated from slide 2) |

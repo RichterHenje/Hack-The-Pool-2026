@@ -75,13 +75,15 @@
   .arrow { display: flex; align-items: center; justify-content: center; }
 
   /* slide 5: asks */
-  .asks { grid-template-rows: auto 1fr auto; gap: 30px; }
-  ol.ask { list-style: none; margin: 0; padding: 0; counter-reset: a; }
-  ol.ask li { counter-increment: a; display: grid; grid-template-columns: 90px 1fr; padding: 22px 0; border-top: 1px solid var(--rule); }
+  .asks { grid-template-rows: auto 1fr auto; gap: 18px; }
+  ol.ask { list-style: none; margin: 0; padding: 0; counter-reset: a; align-self: center; }
+  ol.ask li { counter-increment: a; display: grid; grid-template-columns: 80px 1fr 520px; column-gap: 40px; padding: 22px 0; border-top: 1px solid var(--rule); }
   ol.ask li::before { content: counter(a); font-family: Georgia, serif; font-size: 72px; line-height: .9; color: var(--rust); }
-  ol.ask .who { font-size: 22px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
-  ol.ask .what { font-size: 33px; line-height: 1.3; margin-top: 4px; }
-  .credits { font-size: 19px; color: var(--muted); line-height: 1.5; border-top: 1px solid var(--rule); padding-top: 16px; }
+  ol.ask .who { font-size: 21px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  ol.ask .what { font-size: 32px; line-height: 1.28; margin-top: 4px; }
+  ol.ask .why { font-size: 21px; line-height: 1.4; color: var(--muted); border-left: 3px solid var(--rule); padding-left: 18px; align-self: center; }
+  .closing { font-family: Georgia, "Times New Roman", serif; font-size: 46px; line-height: 1.15; color: var(--rust); margin: 0 0 14px; }
+  .credits { font-size: 17px; color: var(--muted); line-height: 1.5; border-top: 1px solid var(--rule); padding-top: 12px; margin: 0; }
 
   #pager { position: fixed; right: 0; bottom: 0; padding: 4px 12px; font: 14px system-ui, sans-serif; color: #9c8d78; background: #1d1813; }
 
@@ -176,19 +178,22 @@
 
   <!-- 5 · Speaker B -->
   <section class="slide asks" data-n="5">
-    <div>
-      <p class="kicker">Our ask</p>
-      <h2>Three things</h2>
-    </div>
+    <p class="kicker">Our ask, and the finding behind it</p>
     <ol class="ask">
       <li><div><div class="who">Kulturpool and ACDH</div>
-        <div class="what">Tell us which records belong to this voyage, and why a delivery of 2019 does not surface in today's portal.</div></div></li>
+        <div class="what">Trace the 2019 delivery, and tell us which records belong to this voyage.</div></div>
+        <div class="why">The Weltmuseum photographs reached Europeana through Kulturpool in 2019; the portal finds no Tandur-Camp today. 24 of 70 stations have a dated record, 2 records name the ship.</div></li>
       <li><div><div class="who">The museums that hold the voyage</div>
-        <div class="what">Connect, or tell us where the records are.</div></div></li>
-      <li><div><div class="who">Everyone in the room</div>
-        <div class="what">45 minutes with a scan and a sheet to check the hunting sentences, so that machine output becomes evidence.</div></div></li>
+        <div class="what">Connect as data providers, or tell us where the records are.</div></div>
+        <div class="why">Weltmuseum Wien, KHM, HGM and Staatsarchiv do not appear as data providers in today's portal.</div></li>
+      <li><div><div class="who">Everyone who works with sources</div>
+        <div class="what">Check the hunting sentences against the scans, with us.</div></div>
+        <div class="why">They are machine-read and nobody has checked them yet. Find us after the slam; we bring the scan links and the blind method we used for the diary days.</div></li>
     </ol>
-    <p class="credits">KHM team, Hack the Pool 2026 · Sources: Kulturpool, Europeana, Weltmuseum Wien, ANNO (Austrian National Library), GeoNames and Wikidata (CC BY 4.0), world map 1872 via Map Warper 98512 · Thank you.</p>
+    <div class="close">
+      <p class="closing">Nothing in the archive needs rewriting. It needs connecting.</p>
+      <p class="credits">github.com/RichterHenje/Hack-The-Pool-2026 · KHM team, Hack the Pool 2026 · Sources: Kulturpool, Europeana, Weltmuseum Wien, ANNO (Austrian National Library), GeoNames and Wikidata (CC BY 4.0), world map 1872 via Map Warper 98512</p>
+    </div>
   </section>
 
 </div>

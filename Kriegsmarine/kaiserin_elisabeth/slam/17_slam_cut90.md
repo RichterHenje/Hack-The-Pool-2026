@@ -16,10 +16,12 @@ Speaker B: We placed 70 of the 90 stations of the ship on a map and asked Kultur
 
 (slide 3: against the grain, the ask)
 
-Speaker C: Beside the route we placed the hunting, the animals, and the people in the photographs, day by day, with the source on every card, and we say which sentences are unchecked machine output. The archive stays as it is; the links are a layer beside it. Tell us which records belong to this voyage, connect the museums that hold it, and help us check the hunting sentences against the scans. Thank you.
+Speaker C: Beside the route we placed the hunting, the animals, and the people in the photographs, day by day, with the source on every card, and we say which sentences are unchecked machine output. Kulturpool: trace the 2019 delivery and tell us which records belong to this voyage. Museums: connect as data providers. Everyone who works with sources: check the hunting sentences against the scans with us; find us after the slam. Nothing in the archive needs rewriting. It needs connecting. Thank you.
 
 ## Ask
 
-1. Kulturpool and ACDH: which records belong to this voyage, and why does a delivery of 2019 not surface in today's portal?
-2. The museums that hold the voyage: connect, or tell us where the records are.
-3. Everyone: 45 minutes with a scan and a sheet to check hunting sentences.
+Same three asks as `16_slam_script.md`, slide 5.
+
+1. Kulturpool and ACDH: trace the 2019 delivery, and tell us which records belong to this voyage.
+2. The museums that hold the voyage: connect as data providers, or tell us where the records are.
+3. Everyone who works with sources: check the hunting sentences against the scans, with us (find us after the slam).
